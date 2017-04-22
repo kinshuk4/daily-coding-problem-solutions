@@ -247,3 +247,11 @@ Given `N` and `k`, write an algorithm to determine where a prisoner should stand
 For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1, 5, 3]`, so you should return `3`.
 
 Bonus: Find an `O(log N)` solution if `k = 2`.
+
+226 (Hard)
+
+This problem was asked by Airbnb.
+
+You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
+
+For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
