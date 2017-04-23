@@ -255,3 +255,9 @@ This problem was asked by Airbnb.
 You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
 
 For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
+
+227 (Easy)
+
+This problem was asked by Facebook.
+
+Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
