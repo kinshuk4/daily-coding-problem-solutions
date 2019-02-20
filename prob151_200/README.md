@@ -171,6 +171,12 @@ For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']`shoul
 
 You can assume the given expression is always valid.
 
+164
+
+This problem was asked by Google.
+
+You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
 ## 174
 
 This problem was asked by Microsoft.
