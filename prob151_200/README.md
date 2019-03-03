@@ -274,7 +274,7 @@ This means that 2 people exited the building. `timestamp` is in [Unix time](http
 
 Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
-172 [Medium]
+172 (Medium)
 
 This problem was asked by Dropbox.
 
@@ -318,7 +318,7 @@ it should become:
 
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
-## 174
+## 174 (Medium)
 
 This problem was asked by Microsoft.
 Describe and give an example of each of the following types of polymorphism:
