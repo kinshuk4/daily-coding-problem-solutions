@@ -327,7 +327,7 @@ Describe and give an example of each of the following types of polymorphism:
     Parametric polymorphism
     Subtype polymorphism
 
-## 175
+## 175 (Easy)
 This problem was asked by Google.
 
 You are given a starting state start, a list of transition probabilities for a Markov chain, and a number of steps num_steps. Run the Markov chain starting from start for num_steps and compute the number of times we visited each state.
