@@ -357,7 +357,7 @@ For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a`
 
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
-## 177
+## 177 (Easy)
 This problem was asked by Airbnb.
 
 Given a linked list and a positive integer k, rotate the list to the right by k places.
