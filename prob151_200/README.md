@@ -405,7 +405,7 @@ For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. 
 
 Hint: Try working backwards from the end state.
 
-## 181
+## 181 (Hard)
 This problem was asked by Google.
 
 Given a string, split it into as few strings as possible such that each string is a palindrome.
@@ -415,7 +415,7 @@ For example, given the input string racecarannakayak, return ["racecar", "anna",
 Given the input string abc, return ["a", "b", "c"].
 
 
-## 182
+## 182 (Medium)
 This problem was asked by Facebook.
 
 A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
