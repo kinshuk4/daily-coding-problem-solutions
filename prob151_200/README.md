@@ -391,7 +391,7 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
       3   7
      / \   \
     2   4   8
- 
+
 
 180 (Medium)
 
@@ -421,3 +421,9 @@ This problem was asked by Facebook.
 A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
 
 Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
+
+183 (Hard)
+
+This problem was asked by Twitch.
+
+Describe what happens when you type a URL into your browser and press Enter.
