@@ -427,3 +427,11 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 This problem was asked by Twitch.
 
 Describe what happens when you type a URL into your browser and press Enter.
+
+184 (Easy)
+
+This problem was asked by Amazon.
+
+Given `n` numbers, find the greatest common denominator between them.
+
+For example, given the numbers `[42, 56, 14]`, return `14`.
