@@ -497,5 +497,27 @@ For example, given the following rectangles:
 
 return `true` as the first and third rectangle overlap each other.
 
+188 (Medium)
 
+This problem was asked by Google.
+
+What will this code print out?
+
+```python
+def make_functions():
+    flist = []
+
+    for i in [1, 2, 3]:
+        def print_i():
+            print(i)
+        flist.append(print_i)
+
+    return flist
+
+functions = make_functions()
+for f in functions:
+    f()
+```
+
+How can we make it print out what we apparently want?
 
