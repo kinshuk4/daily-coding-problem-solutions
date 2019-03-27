@@ -638,3 +638,11 @@ This problem was asked by Facebook.
 Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
 
 For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
+
+200 (Hard)
+
+This problem was asked by Microsoft.
+
+Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
+
+For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should return `[4, 9]`.
