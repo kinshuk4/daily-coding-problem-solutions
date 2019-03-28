@@ -234,7 +234,7 @@ The area of a circle is defined as `πr²`. Estimate `π` to 3 decimal places us
   
   Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
   
-##16
+## 16
 > This problem was asked by Twitter.
  
  You run an e-commerce website and want to record the last N order ids in a log. Implement a data structure to accomplish this, with the following API:
@@ -245,7 +245,7 @@ The area of a circle is defined as `πr²`. Estimate `π` to 3 decimal places us
  
 
   
-##17
+## 17
 > This problem was asked by Google.
   
   Suppose we represent our file system by a string in the following manner:
@@ -365,7 +365,7 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string
 ------
 ## 25
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Implement regular expression matching with the following special characters:
 
@@ -378,7 +378,7 @@ For example, given the regular expression "ra." and the string "ray", your funct
 Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
 
 ------
- ## 26
+## 26
 
 > This problem was asked by Google.
 
@@ -389,7 +389,7 @@ The list is very long, so making more than one pass is prohibitively expensive.
 Do this in constant space and in one pass.
 
 ------
- ## 27
+## 27
 
 > This problem was asked by Facebook.
 
@@ -400,7 +400,7 @@ For example, given the string "([])[]({})", you should return true.
 Given the string "([)]" or "((()", you should return false.
 
 ------
- ## 28
+## 28
 > This problem was asked by Palantir.
 
 Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
@@ -420,7 +420,7 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 
 
 ------
- ## 29
+## 29
 > This problem was asked by Amazon.
 
 Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
@@ -428,7 +428,7 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
 ------
- ## 30
+## 30
 > This problem was asked by Facebook.
 
 You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height. Suppose it will rain and all spots between two walls get filled up.
@@ -440,7 +440,7 @@ For example, given the input [2, 1, 2], we can hold 1 unit of water in the middl
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
 
 ------
- ## 31
+## 31
 > This problem was asked by Google.
 
 The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
@@ -448,7 +448,7 @@ The edit distance between two strings refers to the minimum number of character 
 Given two strings, compute the edit distance between them.
 
 ------
- ## 32
+## 32
 > This problem was asked by Jane Street.
 
 Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
@@ -459,7 +459,7 @@ There are no transaction costs and you can trade fractional quantities.
 Good morning! Here's your coding interview problem for today.
 
 ------
- ## 33
+## 33
 > This problem was asked by Microsoft.
 
 Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
@@ -481,7 +481,7 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 
 
 ------
- ## 34
+## 34
 > This problem was asked by Quora.
 
 Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
@@ -493,7 +493,7 @@ As another example, given the string "google", you should return "elgoogle".
 
 
 ------
- ## 35
+## 35
 > This problem was asked by Google.
 
 Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
@@ -503,7 +503,7 @@ Do this in linear time and in-place.
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
 ------
- ## 35
+## 35
 > This problem was asked by Dropbox.
 
 Given the root to a binary search tree, find the second largest node in the tree.
@@ -513,7 +513,7 @@ Given the root to a binary search tree, find the second largest node in the tree
 
 
 ------
- ## 37
+## 37
 > This problem was asked by Google.
 
 The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
@@ -525,13 +525,15 @@ You may also use a list or array to represent a set.
 
 
 ------
- ## 38
+
+## 38
 > This problem was asked by Microsoft.
 
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
 ------
- ## 39
+
+## 39
 > This problem was asked by Dropbox.
 
 Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
@@ -546,9 +548,9 @@ Implement Conway's Game of Life. It should be able to be initialized with a star
 
 You can represent a live cell with an asterisk (*) and a dead cell with a dot (.).
 
-40
+## 40
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
 
@@ -557,10 +559,9 @@ For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], retu
 Do this in O(N) time and O(1) space.
 
 
+## 41
 
-41
-
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport, compute the person's itinerary. If no such itinerary exists, return null. If there are multiple possible itineraries, return the lexicographically smallest one. All flights must be used in the itinerary.
 
@@ -572,7 +573,7 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 
 
 
-42
+## 42
 
 > This problem was asked by Google.
 
@@ -582,8 +583,8 @@ Integers can appear more than once in the list. You may assume all numbers in th
 
 For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
 
-43
-This problem was asked by Amazon.
+## 43
+> This problem was asked by Amazon.
 
 Implement a stack that has the following methods:
 
@@ -592,9 +593,9 @@ pop(), which pops off and returns the topmost element of the stack. If there are
 max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
 Each method should run in constant time.
 
-44
+## 44
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements `A[i]` and `A[j]` form an inversion if `A[i] > A[j]` but `i < j`. That is, a smaller element appears after a larger element.
 
@@ -604,22 +605,22 @@ You may assume each element in the array is distinct.
 
 For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 
-45
-This problem was asked by Two Sigma.
+## 45
+> This problem was asked by Two Sigma.
 
 Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
 
-46
+## 46
 
-This problem was asked by Amazon.
+> This problem was asked by Amazon.
 
 Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
 
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
 
-47
+## 47
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
 
@@ -627,9 +628,9 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could bu
 
 
 
-48
+## 48
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
 
@@ -653,9 +654,9 @@ d  e f  g
 
 
 
-49
+## 49
 
-This problem was asked by Amazon.
+> This problem was asked by Amazon.
 
 Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
 
@@ -665,9 +666,9 @@ Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not
 
 Do this in O(N) time.
 
-50
+## 50
 
-This problem was asked by Microsoft.
+> This problem was asked by Microsoft.
 
 Suppose  an arithmetic expression is given as a binary tree. Each leaf is an  integer and each internal node is one of '+', '−', '∗', or '/'.
 

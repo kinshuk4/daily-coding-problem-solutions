@@ -1,4 +1,4 @@
-151
+## 151
 
 Given a 2-D matrix representing an image, a location of a pixel in the screen and a color `C`, replace the color of the given pixel and all adjacent same colored pixels with `C`.
 
@@ -20,9 +20,9 @@ G G G
 B B B
 ```
 
-152
+## 152
 
-This problem was asked by Triplebyte.
+> This problem was asked by Triplebyte.
 
 You are given `n` numbers as well as `n` probabilities that sum up to 1. Write a function to generate one of the numbers with its corresponding probability.
 
@@ -30,15 +30,15 @@ For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2,
 
 You can generate random numbers between 0 and 1 uniformly.
 
-153
+## 153
 
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
 
 For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
-154
+## 154
 
-This problem was asked by Amazon.
+> This problem was asked by Amazon.
 
 Implement a stack API using only a heap. A stack implements the following methods:
 
@@ -50,9 +50,9 @@ Recall that a heap has the following operations:
 - `push(item)`, which adds a new key to the heap
 - `pop()`, which removes and returns the max value of the heap
 
-155
+## 155
 
-This problem was asked by MongoDB.
+> This problem was asked by MongoDB.
 
 Given a list of elements, find the majority element, which appears more than half the time (`> floor(len(lst) / 2.0)`).
 
@@ -60,9 +60,9 @@ You can assume that such element exists.
 
 For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
 
-156
+## 156
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
 
@@ -70,17 +70,17 @@ For example, given `n` = 13, return 2 since 13 = 3^2 + 2^2 = 9 + 4.
 
 Given `n` = 27, return 3 since 27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9.
 
-157
+## 157
 
-This problem was asked by Amazon.
+> This problem was asked by Amazon.
 
 Given a string, determine whether any permutation of it is a palindrome.
 
 For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
 
-158
+## 158
 
-This problem was asked by Slack.
+> This problem was asked by Slack.
 
 You are given an N by M matrix of `0`s and `1`s. Starting from the top left corner, how many ways are there to reach the bottom right corner?
 
@@ -101,17 +101,17 @@ Return two, as there are only two ways to get to the bottom right:
 
 The top left corner and bottom right corner will always be `0`.
 
-159
+## 159
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Given a string, return the first recurring character in it, or null if there is no recurring character.
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
 
-160
+## 160
 
-This problem was asked by Uber.
+> This problem was asked by Uber.
 
 Given a tree where each edge has a weight, compute the length of the longest path in the tree.
 
@@ -131,17 +131,17 @@ and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the l
 
 The path does not have to pass through the root, and each node can have any amount of children.
 
-161
+## 161
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Given a 32-bit integer, return the number with its bits reversed.
 
 For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
 
-162
+## 162
 
-This problem was asked by Square.
+> This problem was asked by Square.
 
 Given a list of words, return the shortest unique prefix of each word. For example, given the list:
 
@@ -159,9 +159,9 @@ Return the list:
 - apr
 - f
 
-163
+## 163
 
-This problem was asked by Jane Street.
+> This problem was asked by Jane Street.
 
 Given an arithmetic expression in [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), write a program to evaluate it.
 
@@ -171,15 +171,15 @@ For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']`shoul
 
 You can assume the given expression is always valid.
 
-164
+## 164
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 
-165
+## 165
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that element in the original input array.
 
@@ -191,9 +191,9 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 - There is 1 smaller element to the right of 6
 - There are no smaller elements to the right of 1
 
-166
+## 166
 
-This problem was asked by Uber.
+> This problem was asked by Uber.
 
 Implement a 2D iterator class. It will be initialized with an array of arrays, and should implement the following methods:
 
@@ -204,17 +204,17 @@ For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling `next()` repe
 
 Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be empty.
 
-167
+## 167
 
-This problem was asked by Airbnb.
+> This problem was asked by Airbnb.
 
 Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
 
 For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 0), (2, 3)]`.
 
-168
+## 168
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Given an N by N matrix, rotate it by 90 degrees clockwise.
 
@@ -236,17 +236,17 @@ you should return:
 
 Follow-up: What if you couldn't use any extra space?
 
-169
+## 169
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Given a linked list, sort it in O(n log n) time and constant space.
 
 For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
 
-170
+## 170
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Given a `start` word, an `end` word, and a dictionary of valid words, find the shortest transformation sequence from `start` to `end` such that only one letter is changed at each step of the sequence, and each transformed word exists in the dictionary. If there is no possible transformation, return null. Each word in the dictionary have the same length as `start` and `end`and is lowercase.
 
@@ -254,9 +254,9 @@ For example, given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "do
 
 Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "dar"}`, return null as there is no possible transformation from `dog` to `cat`.
 
-171
+## 171
 
-This problem was asked by Amazon.
+> This problem was asked by Amazon.
 
 You are given a list of data entries that represent entries and exits of groups of people into a building. An entry looks like this:
 
@@ -274,9 +274,9 @@ This means that 2 people exited the building. `timestamp` is in [Unix time](http
 
 Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
-172 (Medium)
+## 172 (Medium)
 
-This problem was asked by Dropbox.
+> This problem was asked by Dropbox.
 
 Given a string `s` and a list of words `words`, where each word is the same length, find all starting indices of substrings in `s` that is a concatenation of every word in `words` exactly once.
 
@@ -286,9 +286,9 @@ Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there a
 
 The order of the indices does not matter.
 
-173 (Easy)
+## 173 (Easy)
 
-This problem was asked by Stripe.
+> This problem was asked by Stripe.
 
 Write a function to flatten a nested dictionary. Namespace the keys with a period.
 
@@ -320,7 +320,7 @@ You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
 ## 174 (Medium)
 
-This problem was asked by Microsoft.
+> This problem was asked by Microsoft.
 Describe and give an example of each of the following types of polymorphism:
 
     Ad-hoc polymorphism
@@ -328,7 +328,7 @@ Describe and give an example of each of the following types of polymorphism:
     Subtype polymorphism
 
 ## 175 (Easy)
-This problem was asked by Google.
+> This problem was asked by Google.
 
 You are given a starting state start, a list of transition probabilities for a Markov chain, and a number of steps num_steps. Run the Markov chain starting from start for num_steps and compute the number of times we visited each state.
 
@@ -347,9 +347,9 @@ For example, given the starting state a, number of steps 5000, and the following
 ]
 One instance of running this Markov chain might produce { 'a': 3012, 'b': 1656, 'c': 332 }.
 
-176 (Easy)
+## 176 (Easy)
 
-This problem was asked by Bloomberg.
+> This problem was asked by Bloomberg.
 
 Determine whether there exists a one-to-one character mapping from one string `s1` to another `s2`.
 
@@ -358,7 +358,7 @@ For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a`
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
 ## 177 (Easy)
-This problem was asked by Airbnb.
+> This problem was asked by Airbnb.
 
 Given a linked list and a positive integer k, rotate the list to the right by k places.
 
@@ -366,9 +366,9 @@ For example, given the linked list 7 -> 7 -> 3 -> 5 and k = 2, it should become 
 
 Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 3, it should become 3 -> 4 -> 5 -> 1 -> 2.
 
-178 (Hard)
+## 178 (Hard)
 
-This problem was asked by Two Sigma.
+> This problem was asked by Two Sigma.
 
 Alice wants to join her school's Probability Student Club. Membership dues are computed via one of two simple probabilistic games.
 
@@ -393,9 +393,9 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
     2   4   8
 
 
-180 (Medium)
+## 180 (Medium)
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Given a stack of N elements, interleave the first half of the stack with the second half reversed using only one other queue. This should be done in-place.
 
@@ -406,7 +406,7 @@ For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. 
 Hint: Try working backwards from the end state.
 
 ## 181 (Hard)
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Given a string, split it into as few strings as possible such that each string is a palindrome.
 
@@ -416,29 +416,29 @@ Given the input string abc, return ["a", "b", "c"].
 
 
 ## 182 (Medium)
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
 
 Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
 
-183 (Hard)
+## 183 (Hard)
 
-This problem was asked by Twitch.
+> This problem was asked by Twitch.
 
 Describe what happens when you type a URL into your browser and press Enter.
 
-184 (Easy)
+## 184 (Easy)
 
-This problem was asked by Amazon.
+> This problem was asked by Amazon.
 
 Given `n` numbers, find the greatest common denominator between them.
 
 For example, given the numbers `[42, 56, 14]`, return `14`.
 
-185 (Easy)
+## 185 (Easy)
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
 
@@ -462,9 +462,9 @@ and
 
 return 6.
 
-186 (Hard)
+## 186 (Hard)
 
-This problem was asked by Microsoft.
+> This problem was asked by Microsoft.
 
 Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
 
@@ -472,9 +472,9 @@ For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15
 
 
 
-187 (Easy)
+## 187 (Easy)
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 You are given given a list of rectangles represented by min and max x- and y-coordinates. Compute whether or not a pair of rectangles overlap each other. If one rectangle completely covers another, it is considered overlapping.
 
@@ -497,9 +497,9 @@ For example, given the following rectangles:
 
 return `true` as the first and third rectangle overlap each other.
 
-188 (Medium)
+## 188 (Medium)
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 What will this code print out?
 
@@ -521,17 +521,17 @@ for f in functions:
 
 How can we make it print out what we apparently want?
 
-189 (Easy)
+## 189 (Easy)
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Given an array of elements, return the length of the longest subarray where all its elements are distinct.
 
 For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return 5 as the longest subarray of distinct elements is `[5, 2, 3, 4, 1]`.
 
-190 (Medium)
+## 190 (Medium)
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Given a circular array, compute its maximum subarray sum in O(n) time.
 
@@ -539,9 +539,9 @@ For example, given `[8, -1, 3, 4]`, return `15` as we choose the numbers `3`, `4
 
 Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 
-191 (Easy)
+## 191 (Easy)
 
-This problem was asked by Stripe.
+> This problem was asked by Stripe.
 
 Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
 
@@ -553,9 +553,9 @@ The intervals are not necessarily sorted in any order.
 
 
 
-192 ( Medium)
+## 192 ( Medium)
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 You are given an array of nonnegative integers. Let's say you start at the beginning of the array and are trying to advance to the end. You can advance at most, the number of steps that you're currently on. Determine whether you can get to the end of the array.
 
@@ -563,9 +563,9 @@ For example, given the array `[1, 3, 1, 2, 0, 1]`, we can go from indices `0 -> 
 
 Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
 
-193 (Hard)
+## 193 (Hard)
 
-This problem was asked by Affirm.
+> This problem was asked by Affirm.
 
 Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock. You're also given a number `fee` that represents a transaction fee for each buy and sell transaction.
 
@@ -575,15 +575,15 @@ For example, given [1, 3, 2, 8, 4, 10] and `fee = 2`, you should return 9, since
 
 
 
-194 (Easy)
+## 194 (Easy)
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of `n` line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
 
-195 (Hard)
+## 195 (Hard)
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Let A be an N by M matrix in which every row and every column is sorted.
 
@@ -601,9 +601,9 @@ For example, given the following matrix:
 
 And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the matrix smaller than 6 or greater than 23.
 
-196 (Easy)
+## 196 (Easy)
 
-This problem was asked by Apple.
+> This problem was asked by Apple.
 
 Given the root of a binary tree, find the most frequent subtree sum. The subtree sum of a node is the sum of all values under a node, including the node itself.
 
@@ -617,31 +617,31 @@ For example, given the following tree:
 
 Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 + 5 - 5`.
 
-197 (Easy)
+## 197 (Easy)
 
-This problem was asked by Amazon.
+> This problem was asked by Amazon.
 
 Given an array and a number `k` that's smaller than the length of the array, rotate the array to the right `k` elements in-place.
 
-198 (Medium)
+## 198 (Medium)
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Given a set of distinct positive integers, find the largest subset such that every pair of elements in the subset (i, j) satisfies either i % j = 0 or j % i = 0.
 
 For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Given [1, 3, 6, 24], return [1, 3, 6, 24].
 
-199 (Hard)
+## 199 (Hard)
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
 
 For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
 
-200 (Hard)
+## 200 (Hard)
 
-This problem was asked by Microsoft.
+> This problem was asked by Microsoft.
 
 Let X be a set of n intervals on the real line. We say that a set of points P "stabs" X if every interval in X contains at least one point in P. Compute the smallest set of points that stabs X.
 
