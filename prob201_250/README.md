@@ -13,3 +13,12 @@ You are given an array of arrays of integers, where each array corresponds to a 
 We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. For example, 1 -> 3 -> 5. The weight of the path is the sum of the entries.
 
 Write a program that returns the weight of the maximum weight path.
+
+
+
+202 (Easy)
+
+This problem was asked by Palantir.
+
+Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
+
