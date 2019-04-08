@@ -96,3 +96,10 @@ This problem was asked by Microsoft.
 
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
 
+212 (Easy)
+
+This problem was asked by Dropbox.
+
+Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
+
+Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
