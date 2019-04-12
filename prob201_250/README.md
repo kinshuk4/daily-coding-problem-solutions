@@ -151,3 +151,27 @@ The bottom view of a tree, then, consists of the lowest node at each horizontal 
 For this tree, for example, the bottom view could be `[0, 1, 3, 6, 8, 9]`.
 
 Given the root to a binary tree, return its bottom view.
+
+216 (Medium)
+
+This problem was asked by Facebook.
+
+Given a number in [Roman numeral](https://en.wikipedia.org/wiki/Roman_numerals) format, convert it to decimal.
+
+The values of Roman numerals are as follows:
+
+```
+{
+    'M': 1000,
+    'D': 500,
+    'C': 100,
+    'L': 50,
+    'X': 10,
+    'V': 5,
+    'I': 1
+}
+```
+
+In addition, note that the Roman numeral system uses [subtractive notation](https://en.wikipedia.org/wiki/Subtractive_notation) for numbers such as `IV` and `XL`.
+
+For the input `XIV`, for instance, you should return `14`.
