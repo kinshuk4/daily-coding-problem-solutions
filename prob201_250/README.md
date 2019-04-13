@@ -175,3 +175,11 @@ The values of Roman numerals are as follows:
 In addition, note that the Roman numeral system uses [subtractive notation](https://en.wikipedia.org/wiki/Subtractive_notation) for numbers such as `IV` and `XL`.
 
 For the input `XIV`, for instance, you should return `14`.
+
+217 (Hard)
+
+This problem was asked by Oracle.
+
+We say a number is sparse if there are no adjacent ones in its binary representation. For example, `21` (10101) is sparse, but `22` (10110) is not. For a given input `N`, find the smallest sparse number greater than or equal to `N`.
+
+Do this in faster than `O(N log N)` time.
