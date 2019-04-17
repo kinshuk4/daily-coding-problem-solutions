@@ -207,3 +207,9 @@ In front of you is a row of `N` coins, with values `v``1`, `v``1`, ..., `v``n`.
 You are asked to play the following game. You and an opponent take turns choosing either the first or last coin from the row, removing it from the row, and receiving the value of the coin.
 
 Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
+
+221 (Easy)
+
+This problem was asked by Zillow.
+
+Let's define a "sevenish" number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1`, `7`, `8`, `49`, and so on. Create an algorithm to find the `n`th sevenish number.
