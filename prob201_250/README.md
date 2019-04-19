@@ -227,3 +227,12 @@ For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 This problem was asked by Palantir.
 
 Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
+
+224 (Easy)
+
+Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
+
+For example, for the input `[1, 2, 3, 10]`, you should return `7`.
+
+Do this in `O(N)` time.
+
