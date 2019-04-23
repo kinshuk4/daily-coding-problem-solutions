@@ -261,3 +261,9 @@ For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `[
 This problem was asked by Facebook.
 
 Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
+
+228 (Medium)
+
+This problem was asked by Twitter.
+
+Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, you should return `77641510`.
