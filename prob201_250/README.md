@@ -325,3 +325,9 @@ assert mapsum.sum("col") == 5
 This problem was asked by Apple.
 
 Implement the function `fib(n)`, which returns the `n``th` number in the Fibonacci sequence, using only `O(1)` space.
+
+234 (Hard)
+
+This problem was asked by Microsoft.
+
+Recall  that the minimum spanning tree is the subset of edges of a tree that  connect all its vertices with the smallest possible total edge weight.  Given an undirected graph with weighted edges, compute the *maximum* weight spanning tree.
