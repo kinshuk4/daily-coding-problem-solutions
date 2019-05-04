@@ -346,7 +346,7 @@ You are given a list of `N` points `(x``1``, y``1``)`, `(x``2``, y``2``)`, ..., 
 
 Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
 
-237
+237 (Easy)
 
 This problem was asked by Amazon.
 
@@ -361,3 +361,18 @@ A tree is symmetric if its data and shape remain unchanged when it is reflected 
 ```
 
 Given a `k`-ary tree, determine whether it is symmetric.
+
+238 (Hard)
+
+This problem was asked by MIT.
+
+[Blackjack](https://en.wikipedia.org/wiki/Blackjack) is a two player card game whose rules are as follows:
+
+- The player and then the dealer are each given two cards.
+- The player can then "hit", or ask for arbitrarily many additional cards, so long as their total does not exceed `21`.
+- The dealer must then hit if their total is `16` or lower, otherwise pass.
+- Finally, the two compare totals, and the one with the greatest sum not exceeding `21` is the winner.
+
+For this problem, cards values are counted as follows: each card between `2` and `10` counts as their face value, face cards count as `10`, and aces count as `1`.
+
+Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
