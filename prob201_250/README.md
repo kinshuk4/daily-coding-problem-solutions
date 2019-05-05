@@ -391,3 +391,14 @@ For a pattern to be valid, it must satisfy the following:
 For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
 
 Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9`.
+
+240 (Hard)
+
+This problem was asked by Spotify.
+
+There are `N` couples sitting in a row of length `2 * N`.  They are currently ordered randomly, but would like to rearrange  themselves so that each couple's partners can sit side by side.
+
+What is the minimum number of swaps necessary for this to happen?
+
+
+
