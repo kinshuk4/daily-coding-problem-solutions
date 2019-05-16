@@ -478,3 +478,26 @@ Find the maximum of two numbers without using any if-else statements, branching,
 This problem was asked by Salesforce.
 
 Given an array of integers, find the maximum XOR of any two elements.
+
+250 (Medium)
+
+This problem was asked by Google.
+
+A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
+
+For example, a puzzle of the form:
+
+```
+  SEND
++ MORE
+--------
+ MONEY
+```
+
+may have the solution:
+
+```python
+{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
+```
+
+Given a three-word puzzle like the one above, create an algorithm that finds a solution.
