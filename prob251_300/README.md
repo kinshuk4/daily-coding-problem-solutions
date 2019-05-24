@@ -98,3 +98,24 @@ Given a linked list, rearrange the node values such that they appear in alternat
 This problem was asked by WhatsApp.
 
 Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given `[3, 7, 5, 6, 9]`, you should return `(1, 3)`.
+
+258 (Easy)
+
+This problem was asked by Morgan Stanley.
+
+In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
+
+Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
+
+For example, given the following tree:
+
+```
+       1
+    /     \
+  2         3
+ / \       / \
+4   5     6   7
+```
+
+You should return `[1, 3, 2, 4, 5, 6, 7]`.
+
