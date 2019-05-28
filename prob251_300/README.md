@@ -163,3 +163,9 @@ With this encoding, `cats` would be represented as `0000110111`.
 
 Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
 
+262 (Medium)
+
+This problem was asked by Mozilla.
+
+A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+
