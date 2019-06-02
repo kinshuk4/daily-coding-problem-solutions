@@ -209,3 +209,26 @@ This problem was asked by Pivotal.
 A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
 
 Given a dictionary of words and an input word, create a function that returns all valid step words.
+
+267 (Hard)
+
+This problem was asked by Oracle.
+
+You are presented with an `8` by `8` matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
+
+For details on how each piece moves, see [here](https://en.wikipedia.org/wiki/Chess_piece#Moves_of_the_pieces).
+
+For example, given the following matrix:
+
+```python
+...K....
+........
+.B......
+......P.
+.......R
+..N.....
+........
+.....Q..
+```
+
+You should return `True`, since the bishop is attacking the king diagonally.
