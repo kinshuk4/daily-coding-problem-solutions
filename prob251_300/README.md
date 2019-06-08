@@ -298,3 +298,11 @@ This problem was asked by Spotify.
 Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
 
 For example, `throw_dice(3, 6, 7)` should equal `15`.
+
+273 (Easy)
+
+This problem was asked by Apple.
+
+A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return `False`.
+
+For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
