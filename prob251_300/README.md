@@ -318,3 +318,22 @@ Given a string consisting of parentheses, single digits, and positive and negati
 Don't use `eval` or a similar built-in parser.
 
 For example, given '-1 + (2 + 3)', you should return `4`.
+
+275 (Medium)
+
+This problem was asked by Epic.
+
+The "look and say" sequence is defined as follows: beginning with the term `1`, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
+
+```
+1
+11
+21
+1211
+111221
+```
+
+As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
+
+Given an integer `N`, print the `N`th term of this sequence.
+
