@@ -371,3 +371,8 @@ Visually, this can be represented as follows.
 
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
 
+278 (Easy)
+
+This problem was asked by Amazon.
+
+Given an integer `N`, construct all possible binary search trees with `N` nodes.
