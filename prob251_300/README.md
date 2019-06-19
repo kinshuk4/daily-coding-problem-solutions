@@ -439,3 +439,19 @@ A regular number in mathematics is defined as one which evenly divides some powe
 These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
 
 Given an integer `N`, write a program that returns, in order, the first `N`regular numbers.
+
+284 (Medium)
+
+This problem was asked by Yext.
+
+Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram `4` and `6` are cousins.
+
+```
+    1
+   / \
+  2   3
+ / \   \
+4   5   6
+```
+
+Given a binary tree and a particular node, find all cousins of that node.
