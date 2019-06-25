@@ -545,3 +545,23 @@ The game of Nim is played as follows. Starting with three heaps, each containing
 In other words, to start, the first player takes three items from pile `B`. The second player responds by removing two stones from pile `C`. The game continues in this way until player one takes last stone and loses.
 
 Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
+
+290 (Easy)
+
+This problem was asked by Facebook.
+
+On a mysterious island there are creatures known as Quxes which come in three colors: red, green, and blue. One power of the Qux is that if two of them are standing next to each other, they can transform into a single creature of the third color.
+
+Given `N` Quxes standing in a line, determine the smallest number of them remaining after any possible sequence of such transformations.
+
+For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end up with a single Qux through the following steps:
+
+```
+        Arrangement       |   Change
+----------------------------------------
+['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
+['B', 'B', 'G', 'B']      | (B, G) -> R
+['B', 'R', 'B']           | (R, B) -> G
+['B', 'G']                | (B, G) -> R
+['R']                     |
+```
