@@ -573,3 +573,37 @@ This problem was asked by Glassdoor.
 An imminent hurricane threatens the coastal town of Codeville. If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is `k`, determine how many boats will be needed to save everyone.
 
 For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
+
+292 (Hard)
+
+This problem was asked by Twitter.
+
+A teacher must divide a class of students into two teams to play dodgeball. Unfortunately, not all the kids get along, and several refuse to be put on the same team as that of their enemies.
+
+Given an adjacency list of students and their enemies, write an algorithm that finds a satisfactory pair of teams, or returns `False` if none exists.
+
+For example, given the following enemy graph you should return the teams `{0, 1, 4, 5}` and `{2, 3}`.
+
+```python
+students = {
+    0: [3],
+    1: [2],
+    2: [1, 4],
+    3: [0, 4, 5],
+    4: [2, 3],
+    5: [3]
+}
+```
+
+On the other hand, given the input below, you should return `False`.
+
+```python
+students = {
+    0: [3],
+    1: [2],
+    2: [1, 3, 4],
+    3: [0, 2, 4, 5],
+    4: [2, 3],
+    5: [3]
+}
+```
