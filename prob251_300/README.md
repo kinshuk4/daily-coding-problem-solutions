@@ -666,3 +666,10 @@ For example, here are the first few rows:
 Given an input `k`, return the `k``th` row of Pascal's triangle.
 
 Bonus: Can you do this using only `O(k)` space?
+
+296 (Hard)
+
+This problem was asked by Etsy.
+
+Given a sorted array, convert it into a height-balanced binary search tree.
+
