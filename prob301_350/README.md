@@ -56,3 +56,11 @@ This problem was asked by Palantir.
 You are given a list of `N` numbers, in which each number is located at most `k` places away from its sorted position. For example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
 
 Come up with an algorithm that sorts this list in `O(N log k)` time.
+
+307 (Easy)
+
+This problem was asked by Oracle.
+
+Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
+
+If either value does not exist, return None.
