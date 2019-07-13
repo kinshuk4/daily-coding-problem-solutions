@@ -64,3 +64,16 @@ This problem was asked by Oracle.
 Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
 
 If either value does not exist, return None.
+
+308 (Hard)
+
+This problem was asked by Quantcast.
+
+You are presented with an array representing a Boolean expression. The elements are of two kinds:
+
+- `T` and `F`, representing the values `True` and `False`.
+- `&`, `|`, and `^`, representing the bitwise operators for `AND`, `OR`, and `XOR`.
+
+Determine the number of ways to group the array elements using parentheses so that the entire expression evaluates to `True`.
+
+For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T) & T` and `F | (T & T)`.
