@@ -93,3 +93,11 @@ Given an input such as the one above, return the lowest possible cost of moving 
 This problem was asked by Pivotal.
 
 Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
+
+311 (Easy)
+
+This problem was asked by Sumo Logic.
+
+Given an unsorted array, in which all elements are distinct, find a "peak" element in `O(log N)` time.
+
+An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
