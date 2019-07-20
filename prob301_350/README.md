@@ -139,3 +139,20 @@ You are the technical director of WSPT radio, serving listeners nationwide. For 
 Given a list of `N` listeners, and a list of `M` radio towers, each placed at various locations along this line, determine what the minimum broadcast range would have to be in order for each listener's home to be covered.
 
 For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
+
+315 (Easy)
+
+This problem was asked by Google.
+
+In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
+
+Here is an example:
+
+```
+1 2 3 4 8
+5 1 2 3 4
+4 5 1 2 3
+7 4 5 1 2
+```
+
+Write a program to determine whether a given input is a Toeplitz matrix.
