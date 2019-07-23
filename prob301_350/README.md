@@ -169,4 +169,12 @@ Given such an array, determine the denominations that must be in use. In the cas
 
 This problem was asked by Yahoo.
 
-Write a function that returns the bitwise AND of all integers between `M`and `N`, inclusive.
+Write a function that returns the bitwise AND of all integers between `M`and `N`, inclusive
+
+318 (Hard)
+
+This problem was asked by Apple.
+
+You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a buffer of `B` songs between repeats.
+
+Given `N`, `M`, and `B`, determine the number of valid playlists.
