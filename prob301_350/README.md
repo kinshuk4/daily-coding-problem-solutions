@@ -197,6 +197,8 @@ For example, given "jiujitsu", you should return `5`, corresponding to the final
 
 321 (Easy)
 
+This problem was asked by PagerDuty.
+
 Given a positive integer `N`, find the smallest number of steps it will take to reach `1`.
 
 There are two kinds of permitted steps:
@@ -205,3 +207,13 @@ There are two kinds of permitted steps:
 - If `a * b = N`, you may decrement `N` to the larger of `a` and `b`.
 
 For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
+
+322 (Medium)
+
+This problem was asked by Flipkart.
+
+Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
+
+On the `i``th` jump, you may move exactly i places to the left or right.
+
+Find a path with the fewest number of jumps required to get from 0 to N.
