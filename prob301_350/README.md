@@ -217,3 +217,11 @@ Starting from 0 on a number line, you would like to make a series of jumps that 
 On the `i``th` jump, you may move exactly i places to the left or right.
 
 Find a path with the fewest number of jumps required to get from 0 to N.
+
+323 (Medium)
+
+This problem was asked by Dropbox.
+
+Create an algorithm to efficiently compute the approximate median of a list of numbers.
+
+More precisely, given an unordered list of `N` numbers, find an element whose rank is between `N / 4` and `3 * N / 4`, with a high level of certainty, in less than `O(N)` time.
