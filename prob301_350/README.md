@@ -225,3 +225,13 @@ This problem was asked by Dropbox.
 Create an algorithm to efficiently compute the approximate median of a list of numbers.
 
 More precisely, given an unordered list of `N` numbers, find an element whose rank is between `N / 4` and `3 * N / 4`, with a high level of certainty, in less than `O(N)` time.
+
+324 (Easy)
+
+This problem was asked by Amazon.
+
+Consider the following scenario: there are `N` mice and `N` holes placed at integer points along a line. Given this, find a method that maps mice to holes such that the largest number of steps any mouse takes is minimized.
+
+Each move consists of moving one mouse one unit to the left or right, and only one mouse can fit inside each hole.
+
+For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
