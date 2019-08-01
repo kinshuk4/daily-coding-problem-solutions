@@ -264,3 +264,11 @@ For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree 
 ```
 
 Given a sequence `S`, construct the corresponding Cartesian tree.
+
+327 (Easy)
+
+This problem was asked by Salesforce.
+
+Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
+
+If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
