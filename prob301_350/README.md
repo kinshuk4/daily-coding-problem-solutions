@@ -326,3 +326,11 @@ One way to satisfy this formula would be to let `a = False`, `b = True`, and `c 
 This type of formula, with `AND` statements joining tuples containing exactly one `OR`, is known as `2-CNF`.
 
 Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
+
+331 (Medium)
+
+This problem was asked by LinkedIn.
+
+You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation called `flip`, which changes a single `x` to `y` or vice versa.
+
+Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
