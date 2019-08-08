@@ -351,3 +351,13 @@ This problem was asked by Pinterest.
 At a party, there is a single person who everyone knows, but who does not know anyone in return (the "celebrity"). To help figure out who this is, you have access to an `O(1)` method called `knows(a, b)`, which returns `True` if person `a` knows person `b`, else `False`.
 
 Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
+
+334 (Easy)
+
+This problem was asked by Twitter.
+
+The `24` game is played as follows. You are given a list of four integers, each between `1` and `9`, in a fixed order. By placing the operators `+`, `-`, `*`, and `/` between the numbers, and grouping them with parentheses, determine whether it is possible to reach the value `24`.
+
+For example, given the input `[5, 2, 7, 8]`, you should return `True`, since `(5 * 2 - 7) * 8 = 24`.
+
+Write a function that plays the `24` game.
