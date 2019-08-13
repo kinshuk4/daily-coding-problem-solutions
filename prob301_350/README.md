@@ -403,3 +403,9 @@ Given a linked list, uniformly shuffle the nodes. What if we want to prioritize 
 This problem was asked by Facebook.
 
 Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
+
+339 (Easy)
+
+This problem was asked by Microsoft.
+
+Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return`true` as `20 + 4 + 25 = 49`.
