@@ -409,3 +409,9 @@ Given an integer n, find the next biggest integer with the same number of 1-bits
 This problem was asked by Microsoft.
 
 Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return`true` as `20 + 4 + 25 = 49`.
+
+340 (Easy)
+
+This problem was asked by Google.
+
+Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
