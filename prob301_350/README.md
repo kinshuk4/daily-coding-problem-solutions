@@ -463,3 +463,21 @@ def sum(lst):
 This should call `add` on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
 
 Implement your own version of `reduce`.
+
+343 (Medium)
+
+This problem was asked by Google.
+
+Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
+
+For example, given the following tree:
+
+```
+    5
+   / \
+  3   8
+ / \ / \
+2  4 6  10
+```
+
+and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
