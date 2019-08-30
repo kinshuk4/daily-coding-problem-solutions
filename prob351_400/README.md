@@ -74,3 +74,11 @@ Write an algorithm that finds an appropriate `Y` array with the following proper
 - The absolute pairwise difference between elements is minimized. In other words, `|x``1``- y``1``| + |x``2``- y``2``| + ... + |x``n``- y``n``|`should be as small as possible.
 
 For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do better than `[1, 2, 5]`, which has an absolute difference of `|1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1`.
+
+356 (Hard)
+
+This problem was asked by Netflix.
+
+Implement a queue using a set of fixed-length arrays.
+
+The queue should support `enqueue`, `dequeue`, and `get_size`operations.
