@@ -161,3 +161,18 @@ This problem was asked by Twitter.
 A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, `16891` is strobogrammatic.
 
 Create a program that finds all strobogrammatic numbers with `N` digits.
+
+363 (Medium)
+
+This problem was asked by Squarespace.
+
+Write a function, `add_subtract`, which alternately adds and subtracts curried arguments. Here are some sample operations:
+
+```python
+add_subtract(7) -> 7
+
+add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
+
+add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
+```
+
