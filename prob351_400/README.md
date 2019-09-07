@@ -176,3 +176,8 @@ add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
 add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 ```
 
+364 (Medium)
+
+This problem was asked by Facebook.
+
+Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
