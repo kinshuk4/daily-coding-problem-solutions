@@ -3208,7 +3208,7 @@ For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should
 
 ---
 
-#### Problem 201
+#### Problem 201 (Easy)
 
 This problem was asked by Google.
 
