@@ -193,3 +193,34 @@ A quack is a data structure combining properties of both stacks and queues. It c
 - `pull()`: remove the item on the right end of the list.
 
 Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
+
+
+
+367 (Medium)
+
+This problem was asked by Two Sigma.
+
+Given two sorted iterators, merge it into one iterator.
+
+For example, given these two iterators:
+
+```
+foo = iter([5, 10, 15])
+bar = iter([3, 8, 9])
+```
+
+You should be able to do:
+
+```
+for num in merge_iterators(foo, bar):
+    print(num)
+
+# 3
+# 5
+# 8
+# 9
+# 10
+# 15
+```
+
+Bonus: Make it work without pulling in the contents of the iterators in memory.
