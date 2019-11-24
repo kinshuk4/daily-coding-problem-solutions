@@ -255,3 +255,30 @@ This problem was asked by Two Sigma.
 You’re tracking stock price at a given instance of time. Implement an API with the following functions: add(), update(), remove(), which adds/updates/removes a datapoint for the stock price you are tracking. The data is given as (timestamp, price), where timestamp is specified in unix epoch time.
 
 Also, provide max(), min(), and average() functions that give the max/min/average of all values seen thus far.
+
+
+
+370 (Easy)
+
+This problem was asked by Postmates.
+
+The “active time” of a courier is the time between the pickup and dropoff of a delivery. Given a set of data formatted like the following:
+
+```
+(delivery id, timestamp, pickup/dropoff)
+```
+
+Calculate the total active time in seconds. A courier can pick up multiple orders before dropping them off. The timestamp is in unix epoch seconds.
+
+For example, if the input is the following:
+
+```
+(1, 1573280047, 'pickup')
+(1, 1570320725, 'dropoff')
+(2, 1570321092, 'pickup')
+(3, 1570321212, 'pickup')
+(3, 1570322352, 'dropoff')
+(2, 1570323012, 'dropoff')
+```
+
+The total active time would be 1260 seconds.
