@@ -460,3 +460,23 @@ Implement integer division without using the division operator. Your function sh
 For example, calling `divide(10, 3)` should return `(3, 1)` since the divisor is 3 and the remainder is 1.
 
 Bonus: Can you do it in O(log n) time?
+
+381 (Easy)
+
+This problem was asked by Paypal.
+
+Read [this Wikipedia article on Base64 encoding](https://en.wikipedia.org/wiki/Base64).
+
+Implement a function that converts a hex string to base64.
+
+For example, the string:
+
+```
+deadbeef
+```
+
+should produce:
+
+```
+3q2+7w==
+```
