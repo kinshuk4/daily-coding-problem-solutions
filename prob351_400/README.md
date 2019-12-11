@@ -551,3 +551,9 @@ Given a string, sort it in decreasing order based on the frequency of characters
 
 For example, given the string `tweet`, return `tteew`. `eettw` would also be acceptable.
 
+387 (Medium)
+
+This problem was recently asked by Amazon.
+
+How would you explain the difference between an API and SDK to a non-technical person?
+
