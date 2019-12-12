@@ -563,3 +563,9 @@ This problem was asked by Airtable.
 
 How would you explain web cookies to someone non-technical?
 
+389 (Hard)
+
+This problem was asked by Google.
+
+Explain the difference between composition and inheritance. In which cases would you use each?
+
