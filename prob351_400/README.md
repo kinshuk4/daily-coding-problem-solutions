@@ -557,3 +557,9 @@ This problem was recently asked by Amazon.
 
 How would you explain the difference between an API and SDK to a non-technical person?
 
+388 (Medium)
+
+This problem was asked by Airtable.
+
+How would you explain web cookies to someone non-technical?
+
