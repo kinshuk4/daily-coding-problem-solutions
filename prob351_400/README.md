@@ -628,3 +628,21 @@ This problem was asked by Airbnb.
 Given an array of integers, return the largest range, inclusive, of integers that are all included in the array.
 
 For example, given the array `[9, 6, 1, 3, 8, 10, 12, 11]`, return `(8, 12)` since 8, 9, 10, 11, and 12 are all in the array.
+
+394 (Easy)
+
+This problem was asked by Uber.
+
+Given a binary tree and an integer k, return whether there exists a root-to-leaf path that sums up to `k`.
+
+For example, given `k = 18` and the following binary tree:
+
+```
+    8
+   / \
+  4   13
+ / \   \
+2   6   19
+```
+
+Return `True` since the path `8 -> 4 -> 6` sums to 18.
