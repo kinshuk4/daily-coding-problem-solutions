@@ -646,3 +646,23 @@ For example, given `k = 18` and the following binary tree:
 ```
 
 Return `True` since the path `8 -> 4 -> 6` sums to 18.
+
+395 (Medium)
+
+This problem was asked by Robinhood.
+
+Given an array of strings, group anagrams together.
+
+For example, given the following array:
+
+```
+['eat', 'ate', 'apt', 'pat', 'tea', 'now']
+```
+
+Return:
+
+```
+[['eat', 'ate', 'tea'],
+ ['apt', 'pat'],
+ ['now']]
+```
