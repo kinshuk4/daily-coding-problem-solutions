@@ -31,3 +31,11 @@ This problem was asked by Snapchat.
 Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+
+405 (Hard)
+
+This problem was asked by Apple.
+
+Given a tree, find the largest tree/subtree that is a BST.
+
+Given a tree, return the size of the largest tree/subtree that is a BST.
