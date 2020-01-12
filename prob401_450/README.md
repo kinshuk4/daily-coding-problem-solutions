@@ -239,3 +239,13 @@ There are two kinds of permitted steps:
 
 For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
 
+420 (Easy)
+
+This problem was asked by Microsoft.
+
+A number is considered perfect if its digits sum up to exactly 10.
+
+Given a positive integer `n`, return the `n`-th perfect number.
+
+For example, given 1, you should return 19. Given 2, you should return 28.
+
