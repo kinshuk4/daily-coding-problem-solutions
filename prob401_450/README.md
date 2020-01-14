@@ -255,3 +255,10 @@ This problem was asked by Amazon.
 
 Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
 
+422 (Easy)
+
+This problem was asked by Salesforce.
+
+Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
+
+If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
