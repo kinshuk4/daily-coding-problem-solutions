@@ -324,3 +324,9 @@ For example, given the following matrix:
 
 You should return `True`, since the bishop is attacking the king diagonally.
 
+426 (Easy)
+
+This problem was asked by Facebook.
+
+Given a binary tree, return the level of the tree with minimum sum.
+
