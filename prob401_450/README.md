@@ -366,3 +366,25 @@ You can change the height of any stone by paying a cost of `1` unit to lower its
 
 For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
 
+429 (Medium)
+
+This problem was asked by Stitch Fix.
+
+Pascal's triangle is a triangular array of integers constructed with the following formula:
+
+- The first row consists of the number `1`.
+- For each subsequent row, each element is the sum of the numbers directly above it, on either side.
+
+For example, here are the first few rows:
+
+```
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+```
+
+Given an input `k`, return the `k``th` row of Pascal's triangle.
+
+Bonus: Can you do this using only `O(k)` space?
