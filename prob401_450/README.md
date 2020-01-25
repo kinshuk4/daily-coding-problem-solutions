@@ -424,3 +424,9 @@ Some questions you may want to consider as part of your solution are:
 - How can you keep track of pages that have already been visited?
 - How will you deal with your client machines being blacklisted?
 - How can you update your database when Wikipedia pages are added or updated?
+
+433 (Medium)
+
+This problem was asked by Facebook.
+
+Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
