@@ -610,3 +610,10 @@ should be pruned to:
 ```
 
 We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
+
+446 (Medium)
+
+This problem was asked by Indeed.
+
+Given a `32`-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
+
