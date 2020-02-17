@@ -52,3 +52,10 @@ For example, given the following tree and `K` of 20
 ```
 
 Return the nodes `5` and `15`.
+
+454 (Medium)
+
+This problem was asked by Facebook.
+
+Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
+
