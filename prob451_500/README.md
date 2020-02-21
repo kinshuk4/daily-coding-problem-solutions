@@ -95,3 +95,11 @@ This means 3 people entered the building. An exit looks like this:
 This means that 2 people exited the building. `timestamp` is in [Unix time](https://en.wikipedia.org/wiki/Unix_time).
 
 Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
+
+457 (Hard)
+
+This problem was asked by Google.
+
+Given a word W and a string `S`, find all starting indices in `S` which are anagrams of `W`.
+
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
