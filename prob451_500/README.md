@@ -230,3 +230,7 @@ A tree is symmetric if its data and shape remain unchanged when it is reflected 
 
 Given a `k`-ary tree, determine whether it is symmetric.
 
+467 (Medium)
+
+Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
+
