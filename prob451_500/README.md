@@ -291,3 +291,9 @@ For example, given `[4, 1, 3, 5, 6]` and index `0`, you should return `3`.
 If two distances to larger numbers are the equal, then return any one of them. If the array at `i` doesn't have a nearest larger integer, then return null.
 
 Follow-up: If you can preprocess the array, can you do this in constant time?
+
+471 (Easy)
+
+This problem was asked by Amazon.
+
+Given an integer `N`, construct all possible binary search trees with `N` nodes.
