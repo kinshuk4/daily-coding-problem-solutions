@@ -313,3 +313,13 @@ You can assume that the messages are decodable. For example, '001' is not allowe
 This problem was asked by Yahoo.
 
 Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A` -> `B` -> `C`, it should become `A <- B <- C`.
+
+474 (Hard)
+
+This problem was asked by Google.
+
+Find the minimum number of coins required to make `n` cents.
+
+You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
+
+For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢, and a 1¢.
