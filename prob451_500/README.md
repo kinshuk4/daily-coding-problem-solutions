@@ -338,3 +338,9 @@ Design a binary tree node class with the following methods:
 
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 
+476 (Medium)
+
+This problem was asked by Google.
+
+You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
