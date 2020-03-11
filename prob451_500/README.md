@@ -344,3 +344,18 @@ This problem was asked by Google.
 
 You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 
+477 (Easy)
+
+This problem was asked by Dropbox.
+
+What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
+
+```
+functions = []
+for i in range(10):
+    functions.append(lambda : i)
+
+for f in functions:
+    print(f())
+```
+
