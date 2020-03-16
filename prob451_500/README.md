@@ -382,3 +382,34 @@ Given a dictionary of words and a string made up of those words (no spaces), ret
 For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
 
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+
+481 (Hard)
+
+This problem was asked by Jane Street.
+
+Given an arithmetic expression in [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), write a program to evaluate it.
+
+The expression is given as a list of numbers and operands. For example: `[5, 3, '+']` should return `5 + 3 = 8`.
+
+For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']` should return `5`, since it is equivalent to ((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5.
+
+You can assume the given expression is always valid.
+
+482 (Medium)
+
+This problem was asked by Google.
+
+Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
+
+For example, given the following tree:
+
+```
+    5
+   / \
+  3   8
+ / \ / \
+2  4 6  10
+```
+
+and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
+
