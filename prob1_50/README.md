@@ -30,7 +30,7 @@ Bonus: Can you do this in one pass?
 
 ### Solution
 
-[JS](https://github.com/EISAWESOME/daily-coding-problem/blob/master/pb2/answer.js) (3:34)
+[Java](https://github.com/kinshuk4/algorithms-java/blob/master/src/main/java/com/vaani/dsa/algo/array/TwoSum.java)
 
 ------
 
@@ -57,7 +57,7 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 
 ### Solution
 
-[JS](https://github.com/EISAWESOME/daily-coding-problem/blob/master/pb3/answer.js) (5:12)
+[Java](https://github.com/kinshuk4/algorithms-java/blob/master/src/main/java/com/vaani/dsa/ds/algos/tree/binary/SerializeBinaryTree.java) (5:12)
 
 [Python](https://github.com/EISAWESOME/daily-coding-problem/blob/master/pb3/answer.py) (Not timed)
 
