@@ -424,3 +424,9 @@ Given `N` and `k`, write an algorithm to determine where a prisoner should stand
 For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1, 5, 3]`, so you should return `3`.
 
 Bonus: Find an `O(log N)` solution if `k = 2`.
+
+484 (Medium)
+
+This problem was asked by Dropbox.
+
+Given the root to a binary search tree, find the second largest node in the tree.
