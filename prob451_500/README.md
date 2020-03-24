@@ -508,3 +508,9 @@ The bottom view of a tree, then, consists of the lowest node at each horizontal 
 For this tree, for example, the bottom view could be `[0, 1, 3, 6, 8, 9]`.
 
 Given the root to a binary tree, return its bottom view.
+
+491 (Easy)
+
+This problem was asked by Palantir.
+
+Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
