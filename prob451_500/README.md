@@ -546,3 +546,9 @@ Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 This problem was asked by Facebook.
 
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+
+496 (Easy)
+
+This problem was asked by Pivotal.
+
+Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
