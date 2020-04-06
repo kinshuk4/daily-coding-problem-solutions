@@ -14,3 +14,11 @@ This problem was asked by PayPal.
 
 Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
 
+503 (Medium)
+
+This problem was asked by Google.
+
+Given a linked list, sort it in O(n log n) time and constant space.
+
+For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
+
