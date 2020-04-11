@@ -44,3 +44,9 @@ Given an array and a number `k` that's smaller than the length of the array, rot
 This problem was asked by Fitbit.
 
 Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high ...` form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
+
+507 (Easy)
+
+This problem was asked by Uber.
+
+On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.
