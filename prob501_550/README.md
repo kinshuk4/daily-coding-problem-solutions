@@ -50,3 +50,11 @@ Given a linked list, rearrange the node values such that they appear in alternat
 This problem was asked by Uber.
 
 On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.
+
+508 (Medium)
+
+This problem was asked by Dropbox.
+
+Create an algorithm to efficiently compute the approximate median of a list of numbers.
+
+More precisely, given an unordered list of `N` numbers, find an element whose rank is between `N / 4` and `3 * N / 4`, with a high level of certainty, in less than `O(N)` time.
