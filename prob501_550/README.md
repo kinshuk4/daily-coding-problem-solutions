@@ -94,3 +94,11 @@ You are given an array of nonnegative integers. Let's say you start at the begin
 For example, given the array `[1, 3, 1, 2, 0, 1]`, we can go from indices `0 -> 1 -> 3 -> 5`, so return `true`.
 
 Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
+
+513 (Medium)
+
+This problem was asked by Lyft.
+
+Given a list of integers and a number K, return which contiguous elements of the list sum to K.
+
+For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
