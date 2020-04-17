@@ -102,3 +102,13 @@ This problem was asked by Lyft.
 Given a list of integers and a number K, return which contiguous elements of the list sum to K.
 
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
+
+514 (Medium)
+
+This problem was asked by Microsoft.
+
+Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+
+For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element sequence is `[1, 2, 3, 4]`. Return its length: `4`.
+
+Your algorithm should run in `O(n)` complexity.
