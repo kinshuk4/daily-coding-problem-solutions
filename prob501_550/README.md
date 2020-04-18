@@ -112,3 +112,11 @@ Given an unsorted array of integers, find the length of the longest consecutive 
 For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element sequence is `[1, 2, 3, 4]`. Return its length: `4`.
 
 Your algorithm should run in `O(n)` complexity.
+
+515 (Medium)
+
+This problem was asked by LinkedIn.
+
+Given a linked list of numbers and a pivot `k`, partition the linked list so that all nodes less than `k` come before nodes greater than or equal to `k`.
+
+For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
