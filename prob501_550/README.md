@@ -138,3 +138,9 @@ For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the 
 In this example, assume nodes with the same value are the exact same node objects.
 
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
+
+518 (Easy)
+
+This problem was asked by Microsoft.
+
+Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return `true` as `20 + 4 + 25 = 49`.
