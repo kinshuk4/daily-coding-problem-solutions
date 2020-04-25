@@ -166,3 +166,18 @@ Here are a few examples:
 - An unbalanced tree with three consecutive left children: `((((00)0)0)0)`
 
 Given this representation, determine the depth of the tree.
+
+521 (Medium)
+
+This problem was asked by PayPal.
+
+Given a string and a number of lines `k`, print the string in zigzag form. In zigzag, characters are printed out diagonally from top left to bottom right until reaching the `k``th` line, then back up to top right, and so on.
+
+For example, given the sentence `"thisisazigzag"` and `k = 4`, you should print:
+
+```
+t     a     g
+ h   s z   a
+  i i   i z
+   s     g
+```
