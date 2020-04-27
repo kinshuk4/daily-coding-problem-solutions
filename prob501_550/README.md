@@ -187,3 +187,12 @@ t     a     g
 This problem was asked by Microsoft.
 
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
+
+523 (Medium)
+
+This problem was asked by Jane Street.
+
+Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following conditions:
+
+- `a + b = M`
+- `a XOR b = N`
