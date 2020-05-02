@@ -258,3 +258,17 @@ You are given a string of length `N` and a parameter `k`. The string can be mani
 Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
 
 For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
+
+527 (Medium)
+
+This problem was asked by Microsoft.
+
+Write a program to determine how many distinct ways there are to create a max heap from a list of `N` given integers.
+
+For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, shown below.
+
+```
+  3      3
+ / \    / \
+1   2  2   1
+```
