@@ -304,3 +304,11 @@ Given a string, split it into as few strings as possible such that each string i
 For example, given the input string `racecarannakayak`, return `["racecar", "anna", "kayak"]`.
 
 Given the input string `abc`, return `["a", "b", "c"]`.
+
+530 (Easy)
+
+This problem was asked by Google.
+
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+
+Given two strings, compute the edit distance between them.
