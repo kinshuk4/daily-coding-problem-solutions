@@ -312,3 +312,11 @@ This problem was asked by Google.
 The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
 
 Given two strings, compute the edit distance between them.
+
+531 (Easy)
+
+This problem was asked Microsoft.
+
+Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
+
+For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
