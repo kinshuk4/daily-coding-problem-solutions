@@ -353,3 +353,11 @@ You should return 2, since bishops 1 and 3 attack each other, as well as bishops
 This problem was asked by Facebook.
 
 Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
+
+534 (Easy)
+
+This problem was asked by Amazon.
+
+Given a string, determine whether any permutation of it is a palindrome.
+
+For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
