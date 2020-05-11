@@ -371,3 +371,20 @@ You are given `N` identical eggs and access to a building with `k` floors. Your 
 Write an algorithm that finds the minimum number of trial drops it will take, in the worst case, to identify this floor.
 
 For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be `5`.
+
+536 (Medium)
+
+This problem was asked by Google.
+
+Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
+
+For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
+
+```
+    5
+   / \
+  3   7
+ / \   \
+2   4   8
+```
+
