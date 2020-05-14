@@ -410,3 +410,9 @@ Given a set of characters `C` and an integer `k`, a De Bruijn sequence is a cycl
 For example, suppose `C = {0, 1}` and `k = 3`. Then our sequence should contain the substrings `{'000', '001', '010', '011', '100', '101', '110', '111'}`, and one possible solution would be `00010111`.
 
 Create an algorithm that finds a De Bruijn sequence.
+
+539 (Easy)
+
+This problem was asked by Pandora.
+
+Given an undirected graph, determine if it contains a cycle.
