@@ -450,3 +450,13 @@ Implement run-length encoding and decoding. You can assume the string to be enco
 This problem was asked by Dropbox.
 
 Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
+
+543 (Medium)
+
+This problem was asked by Google.
+
+Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
+
+The list is very long, so making more than one pass is prohibitively expensive.
+
+Do this in constant space and in one pass.
