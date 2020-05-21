@@ -492,3 +492,9 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 - There are 2 smaller elements to the right of 9
 - There is 1 smaller element to the right of 6
 - There are no smaller elements to the right of 1
+
+547 (Hard)
+
+This problem was asked by Salesforce.
+
+Given an array of integers, find the maximum XOR of any two elements.
