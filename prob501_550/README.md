@@ -299,7 +299,7 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 
 This problem was asked by Google.
 
-Given a string, split it into as few strings as possible such that each string is a palindrome.
+Given a string, split it into as few strings as possible such that each string is a palindrome.w
 
 For example, given the input string `racecarannakayak`, return `["racecar", "anna", "kayak"]`.
 
@@ -479,3 +479,16 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
 
+546 (Medium)
+
+This problem was asked by Google.
+
+Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that element in the original input array.
+
+For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
+
+- There is 1 smaller element to the right of 3
+- There is 1 smaller element to the right of 4
+- There are 2 smaller elements to the right of 9
+- There is 1 smaller element to the right of 6
+- There are no smaller elements to the right of 1
