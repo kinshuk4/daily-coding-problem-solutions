@@ -498,3 +498,11 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 This problem was asked by Salesforce.
 
 Given an array of integers, find the maximum XOR of any two elements.
+
+548 (Easy)
+
+This problem was asked by Microsoft.
+
+Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
+
+Bonus: When, during the course of a day, will the angle be zero?
