@@ -121,3 +121,11 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 | 6 | 12 | 18 | 24 | 30 | 36 |
 
 And there are 4 12's in the table.
+
+Problem 558 (Medium)
+
+This problem was asked by Google.
+
+The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
+
+Hint: The basic equation of a circle is x2 + y2 = r2.
