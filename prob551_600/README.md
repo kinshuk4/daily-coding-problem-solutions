@@ -161,3 +161,9 @@ Given an array of integers, return a new array such that each element at index `
 For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[120, 60, 40, 30, 24]`. If our input was `[3, 2, 1]`, the expected output would be `[2, 3, 6]`.
 
 Follow-up: what if you can't use division?
+
+Problem 563 (Hard)
+
+This problem was asked by Nvidia.
+
+Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
