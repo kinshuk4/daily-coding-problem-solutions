@@ -311,3 +311,11 @@ This problem was asked by Spotify.
 Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
 
 For example, `throw_dice(3, 6, 7)` should equal `15`.
+
+Problem 577 (Medium)
+
+This problem was asked by Dropbox.
+
+Given a list of words, determine whether the words can be chained to form a circle. A word `X` can be placed in front of another word `Y` in a circle if the last character of `X` is same as the first character of `Y`.
+
+For example, the words `['chair', 'height', 'racket', touch', 'tunic']` can form the following circle: `chair --> racket --> touch --> height --> tunic --> chair`.
