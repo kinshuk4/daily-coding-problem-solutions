@@ -319,3 +319,13 @@ This problem was asked by Dropbox.
 Given a list of words, determine whether the words can be chained to form a circle. A word `X` can be placed in front of another word `Y` in a circle if the last character of `X` is same as the first character of `Y`.
 
 For example, the words `['chair', 'height', 'racket', touch', 'tunic']` can form the following circle: `chair --> racket --> touch --> height --> tunic --> chair`.
+
+Problem 578 (Easy)
+
+This problem was asked by Bloomberg.
+
+Determine whether there exists a one-to-one character mapping from one string `s1` to another `s2`.
+
+For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a` to `b`, `b` to `c`, and `c` to `d`.
+
+Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
