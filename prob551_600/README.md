@@ -339,3 +339,21 @@ Starting from 0 on a number line, you would like to make a series of jumps that 
 On the `i``th` jump, you may move exactly i places to the left or right.
 
 Find a path with the fewest number of jumps required to get from 0 to N.
+
+Problem 580 (Easy)
+
+This question was asked by Apple.
+
+Given a binary tree, find a minimum path sum from root to a leaf.
+
+For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
+
+```
+  10
+ /  \
+5    5
+ \     \
+   2    1
+       /
+     -1
+```
