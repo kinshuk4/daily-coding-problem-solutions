@@ -407,3 +407,11 @@ For example, in this matrix
 ```
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+
+Problem 584 (Easy)
+
+This problem was asked by IBM.
+
+Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return `None`.
+
+For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
