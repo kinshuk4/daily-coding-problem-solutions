@@ -1,0 +1,4 @@
+[submodule "java/algorithms-java"]
+	path = java/algorithms-java
+	url = git@github.com:kinshuk4/algorithms-java.git
+	branch = master
