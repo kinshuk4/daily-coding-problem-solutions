@@ -1,4 +1,4 @@
-package com.vaani.dcp.company.google._001;
+package com.vaani.dcp.company.google.easy._001;
 
 import java.util.HashSet;
 import java.util.Set;

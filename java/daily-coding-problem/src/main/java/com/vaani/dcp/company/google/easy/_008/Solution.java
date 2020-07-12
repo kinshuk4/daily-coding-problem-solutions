@@ -1,4 +1,4 @@
-package com.vaani.dcp.company.google._008;
+package com.vaani.dcp.company.google.easy._008;
 
 /**
  *
