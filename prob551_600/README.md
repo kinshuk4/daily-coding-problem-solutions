@@ -648,3 +648,9 @@ Ghost is a two-person word game where players alternate appending letters to a w
 Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
 
 For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be `b`.
+
+Problem 600 (Easy)
+
+This problem was asked by Google.
+
+Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
