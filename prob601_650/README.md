@@ -63,3 +63,11 @@ A researcher has index `h` if at least `h` of her `N` papers have `h`citations e
 For example, suppose `N` = 5, and the respective citations of each paper are `[4, 3, 0, 1, 5]`. Then the h-index would be `3`, since the researcher has `3` papers with at least `3` citations.
 
 Given a list of paper citations of a researcher, calculate their h-index.
+
+Problem 606 (Hard)
+
+This problem was asked by Google.
+
+A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
