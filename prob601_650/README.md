@@ -138,3 +138,22 @@ Intervals can "touch", such as `[0, 1]` and `[1, 2]`, but they won't be consider
 For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return 1 as the last interval can be removed and the first two won't overlap.
 
 The intervals are not necessarily sorted in any order.
+
+Problem 613 (Easy)
+
+This problem was asked by Google.
+
+Implement a `PrefixMapSum` class with the following methods:
+
+- `insert(key: str, value: int)`: Set a given key's value in the map. If the key already exists, overwrite the value.
+- `sum(prefix: str)`: Return the sum of all values of keys that begin with a given prefix.
+
+For example, you should be able to run the following code:
+
+```
+mapsum.insert("columnar", 3)
+assert mapsum.sum("col") == 3
+
+mapsum.insert("column", 2)
+assert mapsum.sum("col") == 5
+```
