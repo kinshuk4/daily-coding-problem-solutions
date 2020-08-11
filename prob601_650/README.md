@@ -323,3 +323,18 @@ For example, given the following tree:
 and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of 17.
 
 The path does not have to pass through the root, and each node can have any amount of children.
+
+Problem 622 (Easy)
+
+This problem was asked by Google.
+
+Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
+
+```
+    a
+   / \
+  b   c
+ /
+d
+```
+
