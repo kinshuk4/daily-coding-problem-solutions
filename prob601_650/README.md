@@ -365,3 +365,11 @@ This problem was asked by Google.
 Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+
+Problem 625 (Easy)
+
+This problem was asked by Stripe.
+
+Given an integer `n`, return the length of the longest consecutive run of `1`s in its binary representation.
+
+For example, given `156`, you should return `3`.
