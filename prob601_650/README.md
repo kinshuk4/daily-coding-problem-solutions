@@ -383,3 +383,29 @@ Given a list of integers, return the largest product that can be made by multipl
 For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
 
 You can assume the list has at least three integers.
+
+Problem 627 (Medium)
+
+This problem was asked by Google.
+
+Given an `iterator` with methods `next()` and `hasNext()`, create a wrapper iterator, `PeekableInterface`, which also implements `peek()`. `peek` shows the next element that would be returned on `next()`.
+
+Here is the interface:
+
+```
+class PeekableInterface(object):
+    def __init__(self, iterator):
+        pass
+
+    def peek(self):
+        pass
+
+    def next(self):
+        pass
+
+    def hasNext(self):
+        pass
+```
+
+------
+
