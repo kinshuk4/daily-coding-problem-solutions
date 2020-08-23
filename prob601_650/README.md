@@ -468,3 +468,19 @@ This problem was asked by Palantir.
 You are given a list of `N` numbers, in which each number is located at most `k` places away from its sorted position. For example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
 
 Come up with an algorithm that sorts this list in `O(N log k)` time.
+
+Problem 634 (Medium)
+
+This problem was asked by Square.
+
+You are given a histogram consisting of rectangles of different heights. These heights are represented in an input list, such that `[1, 3, 2, 5]` corresponds to the following diagram:
+
+```
+      x
+      x  
+  x   x
+  x x x
+x x x x
+```
+
+Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
