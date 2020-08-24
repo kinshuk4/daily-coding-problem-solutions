@@ -484,3 +484,18 @@ x x x x
 ```
 
 Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
+
+Problem 635 (Hard)
+
+This problem was asked by Facebook.
+
+Implement regular expression matching with the following special characters:
+
+- `.` (period) which matches any single character
+- `*` (asterisk) which matches zero or more of the preceding element
+
+That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
+
+For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
+
+Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
