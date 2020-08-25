@@ -485,7 +485,7 @@ x x x x
 
 Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
 
-Problem 635 (Hard)
+## Problem 635 (Hard)
 
 This problem was asked by Facebook.
 
@@ -499,3 +499,11 @@ That is, implement a function that takes in a string and a valid regular express
 For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
 
 Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+
+## Problem 636 (Medium)
+
+This problem was asked by Uber.
+
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in O(log N) time. You may assume the array does not contain duplicates.
+
+For example, given [5, 7, 10, 3, 4], return 3.
