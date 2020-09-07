@@ -654,3 +654,11 @@ Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't 
 This question was asked by Snapchat.
 
 Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+
+## Problem 649 (Easy)
+
+This problem was asked by Google.
+
+Given a string, return the first recurring character in it, or null if there is no recurring character.
+
+For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
