@@ -38,3 +38,11 @@ For example, given the following rectangles:
 ```
 
 return `true` as the first and third rectangle overlap each other.
+
+## Problem #654 [Medium]
+
+This problem was asked by Amazon.
+
+Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
+
+For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
