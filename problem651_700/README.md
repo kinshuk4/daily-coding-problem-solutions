@@ -46,3 +46,11 @@ This problem was asked by Amazon.
 Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
 
 For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
+
+## Problem #655 [Easy]
+
+This problem was asked by Facebook.
+
+Given a 32-bit integer, return the number with its bits reversed.
+
+For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
