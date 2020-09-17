@@ -128,4 +128,8 @@ The name of a file contains at least a period and an extension.
 
 The name of a directory or sub-directory will not contain a period.
 
-------
+## Daily Coding Problem: Problem #659 [Hard]
+
+This problem was asked by Twitch.
+
+Describe what happens when you type a URL into your browser and press Enter.
