@@ -133,3 +133,11 @@ The name of a directory or sub-directory will not contain a period.
 This problem was asked by Twitch.
 
 Describe what happens when you type a URL into your browser and press Enter.
+
+## Daily Coding Problem: Problem #660 [Hard]
+
+This problem was asked by Airbnb.
+
+You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
+
+For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
