@@ -141,3 +141,11 @@ This problem was asked by Airbnb.
 You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
 
 For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
+
+## Daily Coding Problem: Problem #661 [Hard]
+
+This problem was asked by Netflix.
+
+Given a sorted list of integers of length `N`, determine if an element `x` is in the list without performing any multiplication, division, or bit-shift operations.
+
+Do this in `O(log N)` time.
