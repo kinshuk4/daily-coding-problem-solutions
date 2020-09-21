@@ -158,3 +158,14 @@ Given `n` numbers, find the greatest common denominator between them.
 
 For example, given the numbers `[42, 56, 14]`, return `14`.
 
+## Daily Coding Problem: Problem #663 [Easy]
+
+This question was asked by Riot Games.
+
+Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+
+- `record(timestamp)`: records a hit that happened at `timestamp`
+- `total()`: returns the total number of hits recorded
+- `range(lower, upper)`: returns the number of hits that occurred between timestamps `lower` and `upper` (inclusive)
+
+Follow-up: What if our system has limited memory?
