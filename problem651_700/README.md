@@ -175,3 +175,14 @@ Follow-up: What if our system has limited memory?
 This problem was asked by Google.
 
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
+
+## Daily Coding Problem: Problem #665 [Easy]
+
+This problem was asked by Microsoft.
+
+Implement a URL shortener with the following methods:
+
+- `shorten(url)`, which shortens the url into a six-character alphanumeric string, such as `zLg6wl`.
+- `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
