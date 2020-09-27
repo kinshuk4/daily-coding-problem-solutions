@@ -186,3 +186,11 @@ Implement a URL shortener with the following methods:
 - `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
 
 Hint: What if we enter the same URL twice?
+
+## Daily Coding Problem: Problem #666 [Hard]
+
+This problem was asked by Microsoft.
+
+Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
+
+For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of 5, which is the smallest possible difference.
