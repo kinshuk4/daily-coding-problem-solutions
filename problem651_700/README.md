@@ -194,3 +194,13 @@ This problem was asked by Microsoft.
 Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
 
 For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of 5, which is the smallest possible difference.
+
+## Daily Coding Problem: Problem #667 [Medium]
+
+This problem was asked by Facebook.
+
+In chess, the Elo rating system is used to calculate player strengths based on game results.
+
+A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
+
+Implement this system.
