@@ -204,3 +204,20 @@ In chess, the Elo rating system is used to calculate player strengths based on g
 A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
 
 Implement this system.
+
+## Daily Coding Problem: Problem #668 [Easy]
+
+This problem was asked by Google.
+
+In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
+
+Here is an example:
+
+```
+1 2 3 4 8
+5 1 2 3 4
+4 5 1 2 3
+7 4 5 1 2
+```
+
+Write a program to determine whether a given input is a Toeplitz matrix.
