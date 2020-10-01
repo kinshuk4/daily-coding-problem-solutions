@@ -242,3 +242,13 @@ The game of Nim is played as follows. Starting with three heaps, each containing
 In other words, to start, the first player takes three items from pile `B`. The second player responds by removing two stones from pile `C`. The game continues in this way until player one takes last stone and loses.
 
 Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
+
+## Daily Coding Problem: Problem #670 [Medium]
+
+This problem was asked by Facebook.
+
+Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
+
+For example, given `n` = 13, return 2 since 13 = 32 + 22 = 9 + 4.
+
+Given `n` = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
