@@ -252,3 +252,11 @@ Given a positive integer `n`, find the smallest number of squared integers which
 For example, given `n` = 13, return 2 since 13 = 32 + 22 = 9 + 4.
 
 Given `n` = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
+
+## Daily Coding Problem: Problem #671 [Easy]
+
+This problem was asked by Facebook.
+
+Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
+
+That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
