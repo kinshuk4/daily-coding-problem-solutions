@@ -277,3 +277,10 @@ We define a path in the triangle to start at the top and go down one row at a ti
 
 Write a program that returns the weight of the maximum weight path.
 
+## Daily Coding Problem: Problem #673 [Hard]
+
+This problem was asked by LinkedIn.
+
+Given a list of points, a central point, and an integer `k`, find the nearest `k` points from the central point.
+
+For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`.
