@@ -294,3 +294,18 @@ A girl is walking along an apple orchard with a bag in each hand. She likes to p
 Given an input describing the types of apples she will pass on her path, in order, determine the length of the longest portion of her path that consists of just two types of apple trees.
 
 For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion will involve types `1` and `3`, with a length of four.
+
+## Daily Coding Problem: Problem #675 [Medium]
+
+This problem was asked by Google.
+
+You are given a set of synonyms, such as `(big, large)` and `(eat, consume)`. Using this set, determine if two sentences with the same number of words are equivalent.
+
+For example, the following two sentences are equivalent:
+
+- "He wants to eat food."
+- "He wants to consume food."
+
+Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: consider the case of `(coach, bus)` and `(coach, teacher)`.
+
+Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
