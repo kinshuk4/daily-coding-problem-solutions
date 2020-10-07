@@ -309,3 +309,22 @@ For example, the following two sentences are equivalent:
 Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: consider the case of `(coach, bus)` and `(coach, teacher)`.
 
 Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
+
+## Daily Coding Problem: Problem #676 [Hard]
+
+This problem was asked by LinkedIn.
+
+Given a string, return whether it represents a number. Here are the different kinds of numbers:
+
+- "10", a positive integer
+- "-10", a negative integer
+- "10.1", a positive real number
+- "-10.1", a negative real number
+- "1e5", a number in scientific notation
+
+And here are examples of non-numbers:
+
+- "a"
+- "x 1"
+- "a -2"
+- "-"
