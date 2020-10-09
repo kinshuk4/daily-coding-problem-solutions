@@ -340,3 +340,9 @@ For example, to find all primes less than `100`, we would first mark `[4, 6, 8, 
 Implement this algorithm.
 
 Bonus: Create a generator that produces primes indefinitely (that is, without taking `N` as an input).
+
+## Daily Coding Problem: Problem #678 [Easy]
+
+This problem was asked by IBM.
+
+Given an integer, find the next permutation of it in absolute order. For example, given `48975`, the next permutation would be `49578`.
