@@ -393,3 +393,17 @@ For convenience, here are the squares representing snakes and ladders, and their
 snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78}
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ```
+
+## Daily Coding Problem: Problem #682 [Medium]
+
+This problem was asked by Squarespace.
+
+Write a function, `add_subtract`, which alternately adds and subtracts curried arguments. Here are some sample operations:
+
+```
+add_subtract(7) -> 7
+
+add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
+
+add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
+```
