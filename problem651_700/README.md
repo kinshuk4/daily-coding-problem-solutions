@@ -407,3 +407,13 @@ add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
 
 add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 ```
+
+## Daily Coding Problem: Problem #683 [Medium]
+
+This problem was asked by MongoDB.
+
+Given a list of elements, find the majority element, which appears more than half the time (`> floor(len(lst) / 2.0)`).
+
+You can assume that such element exists.
+
+For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
