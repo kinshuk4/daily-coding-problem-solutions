@@ -513,3 +513,13 @@ For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 
 This problem was asked by Yahoo.
 
 Write a function that returns the bitwise AND of all integers between `M` and `N`, inclusive.
+
+## Daily Coding Problem: Problem #692 [Medium]
+
+This problem was asked by Twitter.
+
+Implement an autocomplete system. That is, given a query string `s` and a set of all possible query strings, return all strings in the set that have s as a prefix.
+
+For example, given the query string `de` and the set of strings [`dog`, `deer`, `deal`], return [`deer`, `deal`].
+
+Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
