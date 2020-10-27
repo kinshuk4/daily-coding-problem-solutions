@@ -543,3 +543,9 @@ Given an array of integers, find the first missing positive integer in linear ti
 For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` should give `3`.
 
 You can modify the input array in-place.
+
+## Daily Coding Problem: Problem #695 [Medium]
+
+This question was asked by Google.
+
+Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
