@@ -560,3 +560,14 @@ You are given an array of length `24`, where each element represents the number 
 - `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between `start` and `end` (inclusive).
 
 You can assume that all values get cleared at the end of the day, and that you will not be asked for `start` and `end` values that wrap around midnight.
+
+## Daily Coding Problem: Problem #697 [Hard]
+
+This problem was asked by Google.
+
+Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
+
+- `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least recently used item.
+- `get(key)`: gets the value at `key`. If no such key exists, return null.
+
+Each operation should run in O(1) time.
