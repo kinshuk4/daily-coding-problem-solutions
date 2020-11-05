@@ -48,3 +48,18 @@ This problem was asked by Two Sigma.
 A knight is placed on a given square on an `8 x 8` chessboard. It is then moved randomly several times, where each move is a standard [knight move](https://en.wikipedia.org/wiki/Knight_(chess)#Movement). If the knight jumps off the board at any point, however, it is not allowed to jump back on.
 
 After `k` moves, what is the probability that the knight remains on the board?
+
+## Daily Coding Problem: Problem #704 [Medium]
+
+This problem was asked by Uber.
+
+One way to unlock an Android phone is through a pattern of swipes across a `1-9` keypad.
+
+For a pattern to be valid, it must satisfy the following:
+
+- All of its keys must be distinct.
+- It must not connect two keys by jumping over a third key, unless that key has already been used.
+
+For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
+
+Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9`.
