@@ -138,3 +138,11 @@ For example, given s = "dogcatcatcodecatdog" and words = ["cat", "dog"], return 
 Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there are no substrings composed of "dog" and "cat" in `s`.
 
 The order of the indices does not matter.
+
+## Daily Coding Problem: Problem #711 [Medium]
+
+This problem was asked by Nvidia.
+
+You are given a list of `N` points `(x``1``, y``1``)`, `(x``2``, y``2``)`, ..., `(x``N``, y``N``)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point `1` to point `2`, point `2` to point `3`, and so on, finally looping around to connect point `N` to point `1`.
+
+Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
