@@ -146,3 +146,14 @@ This problem was asked by Nvidia.
 You are given a list of `N` points `(x``1``, y``1``)`, `(x``2``, y``2``)`, ..., `(x``N``, y``N``)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point `1` to point `2`, point `2` to point `3`, and so on, finally looping around to connect point `N` to point `1`.
 
 Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
+
+## Daily Coding Problem: Problem #712 [Easy]
+
+This problem was asked by Facebook.
+
+Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
+
+For example, given the string "([])[]({})", you should return true.
+
+Given the string "([)]" or "((()", you should return false.
+
