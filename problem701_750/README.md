@@ -212,3 +212,13 @@ This problem was asked by Facebook.
 A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+
+## Daily Coding Problem: Problem #718 [Medium]
+
+This problem was asked by Apple.
+
+[Gray code](https://en.wikipedia.org/wiki/Gray_code) is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
+
+Given a number of bits `n`, generate a possible gray code for it.
+
+For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
