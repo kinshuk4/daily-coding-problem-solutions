@@ -244,3 +244,11 @@ Implement an efficient sudoku solver.
 This problem was asked by Microsoft.
 
 Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the *maximum* weight spanning tree.
+
+## Daily Coding Problem: Problem #722 [Hard]
+
+This problem was asked by Spotify.
+
+There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side.
+
+What is the minimum number of swaps necessary for this to happen?
