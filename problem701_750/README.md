@@ -252,3 +252,11 @@ This problem was asked by Spotify.
 There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side.
 
 What is the minimum number of swaps necessary for this to happen?
+
+## Daily Coding Problem: Problem #723 [Medium]
+
+This problem was asked by Google.
+
+Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
+
+For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
