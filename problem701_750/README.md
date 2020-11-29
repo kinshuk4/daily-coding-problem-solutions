@@ -291,3 +291,8 @@ Each move consists of moving one mouse one unit to the left or right, and only o
 
 For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
 
+## Daily Coding Problem: Problem #726 [Medium]
+
+This problem was asked by Microsoft.
+
+Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
