@@ -296,3 +296,23 @@ For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes a
 This problem was asked by Microsoft.
 
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
+
+## Daily Coding Problem: Problem #727 [Easy]
+
+This problem was asked by Microsoft.
+
+Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
+
+Recall that the median of an even-numbered list is the average of the two middle numbers.
+
+For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should print out:
+
+```
+2
+1.5
+2
+3.5
+2
+2
+2
+```
