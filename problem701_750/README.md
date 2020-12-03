@@ -360,3 +360,27 @@ You have access to ranked lists of songs for various users. Each song is represe
 Given a set of these ranked lists, interleave them to create a playlist that satisfies everyone's priorities.
 
 For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
+
+## Daily Coding Problem: Problem #730 [Medium]
+
+This problem was asked by Google.
+
+What will this code print out?
+
+```
+def make_functions():
+    flist = []
+
+    for i in [1, 2, 3]:
+        def print_i():
+            print(i)
+        flist.append(print_i)
+
+    return flist
+
+functions = make_functions()
+for f in functions:
+    f()
+```
+
+How can we make it print out what we apparently want?
