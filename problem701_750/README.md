@@ -445,3 +445,8 @@ Given an unsorted array, in which all elements are distinct, find a "peak" eleme
 
 An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
 
+## Daily Coding Problem: Problem #736 [Easy]
+
+This problem was asked by Amazon.
+
+Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
