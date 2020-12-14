@@ -492,3 +492,13 @@ A regular number in mathematics is defined as one which evenly divides some powe
 These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
 
 Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
+
+## Daily Coding Problem: Problem #741 [Hard]
+
+This problem was asked by Facebook.
+
+Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
+
+Don't use `eval` or a similar built-in parser.
+
+For example, given '-1 + (2 + 3)', you should return `4`.
