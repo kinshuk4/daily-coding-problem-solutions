@@ -534,3 +534,9 @@ it should become:
 ```
 
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
+
+## Daily Coding Problem: Problem #743 [Medium]
+
+This problem was asked by Mozilla.
+
+A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
