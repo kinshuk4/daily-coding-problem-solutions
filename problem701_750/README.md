@@ -551,3 +551,14 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 - `get(key)`: gets the value at `key`. If no such key exists, return null.
 
 Each operation should run in O(1) time.
+
+## Daily Coding Problem: Problem #745 [Medium]
+
+This problem was asked by Triplebyte.
+
+Implement a data structure which carries out the following operations without resizing the underlying array:
+
+- `add(value)`: Add a value to the set of values.
+- `check(value)`: Check whether a value is in the set.
+
+The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
