@@ -562,3 +562,15 @@ Implement a data structure which carries out the following operations without re
 - `check(value)`: Check whether a value is in the set.
 
 The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
+
+## Daily Coding Problem: Problem #746 [Easy]
+
+This problem was asked by Amazon.
+
+Implement a stack that has the following methods:
+
+- push(val), which pushes an element onto the stack
+- pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+- max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+
+Each method should run in constant time.
