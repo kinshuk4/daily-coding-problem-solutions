@@ -574,3 +574,11 @@ Implement a stack that has the following methods:
 - max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
 
 Each method should run in constant time.
+
+## Daily Coding Problem: Problem #747 [Easy]
+
+This problem was asked by Google.
+
+Given two strings A and B, return whether or not A can be shifted some number of times to get B.
+
+For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
