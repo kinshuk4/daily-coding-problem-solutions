@@ -582,3 +582,19 @@ This problem was asked by Google.
 Given two strings A and B, return whether or not A can be shifted some number of times to get B.
 
 For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
+
+## Daily Coding Problem: Problem #748 [Easy]
+
+This problem was asked by Apple.
+
+Given the root of a binary tree, find the most frequent subtree sum. The subtree sum of a node is the sum of all values under a node, including the node itself.
+
+For example, given the following tree:
+
+```
+  5
+ / \
+2  -5
+```
+
+Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 + 5 - 5`.
