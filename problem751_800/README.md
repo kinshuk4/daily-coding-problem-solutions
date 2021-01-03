@@ -131,3 +131,9 @@ For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.
 This problem was asked by Apple.
 
 Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
+
+## Daily Coding Problem: Problem #761 [Easy]
+
+This problem was asked by Two Sigma.
+
+Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive).
