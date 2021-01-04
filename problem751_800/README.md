@@ -137,3 +137,9 @@ Given a linked list, uniformly shuffle the nodes. What if we want to prioritize 
 This problem was asked by Two Sigma.
 
 Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive).
+
+## Daily Coding Problem: Problem #762 [Hard]
+
+Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
+
+For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
