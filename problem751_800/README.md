@@ -143,3 +143,18 @@ Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with 
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
 
 For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+
+## Daily Coding Problem: Problem #763 [Hard]
+
+This problem was asked by Google.
+
+Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
+
+For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
+
+- 10 = max(10, 5, 2)
+- 7 = max(5, 2, 7)
+- 8 = max(2, 7, 8)
+- 8 = max(7, 8, 7)
+
+Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
