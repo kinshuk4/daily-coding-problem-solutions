@@ -182,3 +182,11 @@ This problem was asked by LinkedIn.
 You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation called `flip`, which changes a single `x` to `y` or vice versa.
 
 Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
+
+## Daily Coding Problem: Problem #767 [Hard]
+
+This problem was asked by Google.
+
+Given a word W and a string `S`, find all starting indices in `S` which are anagrams of `W`.
+
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
