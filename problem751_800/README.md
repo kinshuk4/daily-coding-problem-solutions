@@ -229,3 +229,13 @@ The game of Nim is played as follows. Starting with three heaps, each containing
 In other words, to start, the first player takes three items from pile `B`. The second player responds by removing two stones from pile `C`. The game continues in this way until player one takes last stone and loses.
 
 Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
+
+## Daily Coding Problem: Problem #771 [Easy]
+
+This problem was asked by Bloomberg.
+
+Determine whether there exists a one-to-one character mapping from one string `s1` to another `s2`.
+
+For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a` to `b`, `b` to `c`, and `c` to `d`.
+
+Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
