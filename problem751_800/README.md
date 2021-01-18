@@ -239,3 +239,9 @@ Determine whether there exists a one-to-one character mapping from one string `s
 For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a` to `b`, `b` to `c`, and `c` to `d`.
 
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
+
+## Daily Coding Problem: Problem #772 [Easy]
+
+This problem was asked by Facebook.
+
+Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
