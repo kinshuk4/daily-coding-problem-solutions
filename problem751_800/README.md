@@ -245,3 +245,15 @@ Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two 
 This problem was asked by Facebook.
 
 Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
+
+## Daily Coding Problem: Problem #773 [Medium]
+
+This problem was asked by Google.
+
+We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements `A[i]` and `A[j]` form an inversion if `A[i] > A[j]` but `i < j`. That is, a smaller element appears after a larger element.
+
+Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
+
+You may assume each element in the array is distinct.
+
+For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
