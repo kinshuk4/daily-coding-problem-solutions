@@ -273,3 +273,15 @@ This problem was asked by Snapchat.
 Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+
+## Daily Coding Problem: Problem #776 [Easy]
+
+This problem was asked by Bloomberg.
+
+There are `N` prisoners standing in a circle, waiting to be executed. The executions are carried out starting with the `k`th person, and removing every successive `k`th person going clockwise until there is no one left.
+
+Given `N` and `k`, write an algorithm to determine where a prisoner should stand in order to be the last survivor.
+
+For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1, 5, 3]`, so you should return `3`.
+
+Bonus: Find an `O(log N)` solution if `k = 2`.
