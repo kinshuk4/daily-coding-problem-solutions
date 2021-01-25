@@ -321,3 +321,13 @@ You have access to ranked lists of songs for various users. Each song is represe
 Given a set of these ranked lists, interleave them to create a playlist that satisfies everyone's priorities.
 
 For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
+
+## Daily Coding Problem: Problem #779 [Medium]
+
+This problem was asked by Goldman Sachs.
+
+You are given `N` identical eggs and access to a building with `k` floors. Your task is to find the lowest floor that will cause an egg to break, if dropped from that floor. Once an egg breaks, it cannot be dropped again. If an egg breaks when dropped from the `x``th` floor, you can assume it will also break when dropped from any floor greater than `x`.
+
+Write an algorithm that finds the minimum number of trial drops it will take, in the worst case, to identify this floor.
+
+For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be `5`.
