@@ -331,3 +331,13 @@ You are given `N` identical eggs and access to a building with `k` floors. Your 
 Write an algorithm that finds the minimum number of trial drops it will take, in the worst case, to identify this floor.
 
 For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be `5`.
+
+## Daily Coding Problem: Problem #780 [Hard]
+
+This problem was asked by Airbnb.
+
+We're given a hashmap associating each `courseId` key with a list of `courseIds` values, which represents that the prerequisites of `courseId` are `courseIds`. Return a sorted ordering of courses such that we can finish all courses.
+
+Return null if there is no such ordering.
+
+For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
