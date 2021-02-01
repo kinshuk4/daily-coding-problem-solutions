@@ -404,3 +404,13 @@ Given a list of integers, return the largest product that can be made by multipl
 For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
 
 You can assume the list has at least three integers.
+
+## Daily Coding Problem: Problem #786 [Medium]
+
+This problem was asked by Google.
+
+Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, `pow(2, 10)` should return 1024.
