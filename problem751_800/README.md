@@ -420,3 +420,9 @@ For example, `pow(2, 10)` should return 1024.
 This problem was asked by Facebook.
 
 Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
+
+## Daily Coding Problem: Problem #788 [Easy]
+
+This problem was asked by Palantir.
+
+Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
