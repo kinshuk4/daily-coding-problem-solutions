@@ -436,3 +436,11 @@ Given a number represented by a list of digits, find the next greater permutatio
 For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` should return `[2,1,3]`. The list `[3,2,1]` should return `[1,2,3]`.
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
+
+## Daily Coding Problem: Problem #790 [Easy]
+
+This problem was asked by Pivotal.
+
+A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
+
+Given a dictionary of words and an input word, create a function that returns all valid step words.
