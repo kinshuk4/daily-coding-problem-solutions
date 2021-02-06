@@ -444,3 +444,11 @@ This problem was asked by Pivotal.
 A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
 
 Given a dictionary of words and an input word, create a function that returns all valid step words.
+
+## Daily Coding Problem: Problem #791 [Medium]
+
+This problem was asked by Spotify.
+
+Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
+
+For example, `throw_dice(3, 6, 7)` should equal `15`.
