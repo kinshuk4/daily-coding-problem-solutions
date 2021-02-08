@@ -463,5 +463,30 @@ You can change the height of any stone by paying a cost of `1` unit to lower its
 
 For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
 
+## Daily Coding Problem: Problem #793 [Medium]
 
+This problem was asked by Yahoo.
 
+Recall that a full binary tree is one in which each node is either a leaf node, or has two children. Given a binary tree, convert it to a full one by removing nodes with only one child.
+
+For example, given the following tree:
+
+```
+         0
+      /     \
+    1         2
+  /            \
+3                 4
+  \             /   \
+    5          6     7
+```
+
+You should convert it to:
+
+```
+     0
+  /     \
+5         4
+        /   \
+       6     7
+```
