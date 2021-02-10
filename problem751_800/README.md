@@ -502,3 +502,11 @@ Implement a stack that has the following methods:
 - max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
 
 Each method should run in constant time.
+
+## Daily Coding Problem: Problem #795 [Medium]
+
+This problem was asked by Square.
+
+Assume you have access to a function `toss_biased()` which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
+
+Write a function to simulate an unbiased coin toss.
