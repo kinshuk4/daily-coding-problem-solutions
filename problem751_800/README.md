@@ -510,3 +510,11 @@ This problem was asked by Square.
 Assume you have access to a function `toss_biased()` which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
 
 Write a function to simulate an unbiased coin toss.
+
+## Daily Coding Problem: Problem #796 [Medium]
+
+This problem was asked by Nvidia.
+
+You are given a list of `N` points `(x``1``, y``1``)`, `(x``2``, y``2``)`, ..., `(x``N``, y``N``)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point `1` to point `2`, point `2` to point `3`, and so on, finally looping around to connect point `N` to point `1`.
+
+Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
