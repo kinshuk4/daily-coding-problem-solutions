@@ -87,3 +87,11 @@ For example, given the following matrix:
 ```
 
 And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the matrix smaller than 6 or greater than 23.
+
+## Daily Coding Problem: Problem #807 [Hard]
+
+This problem was asked by Amazon.
+
+Given an integer k and a string s, find the length of the longest substring that contains at most k distinct characters.
+
+For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
