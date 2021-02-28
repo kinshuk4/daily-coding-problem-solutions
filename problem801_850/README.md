@@ -161,3 +161,13 @@ In chess, the Elo rating system is used to calculate player strengths based on g
 A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
 
 Implement this system.
+
+## Daily Coding Problem: Problem #813 [Medium]
+
+This problem was asked by Facebook.
+
+Given an array of integers, write a function to determine whether the array could become non-decreasing by modifying at most 1 element.
+
+For example, given the array [10, 5, 7], you should return true, since we can modify the 10 into a 1 to make the array non-decreasing.
+
+Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
