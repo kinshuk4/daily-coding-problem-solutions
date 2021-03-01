@@ -171,3 +171,32 @@ Given an array of integers, write a function to determine whether the array coul
 For example, given the array [10, 5, 7], you should return true, since we can modify the 10 into a 1 to make the array non-decreasing.
 
 Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
+
+## Daily Coding Problem: Problem #814 [Easy]
+
+This problem was asked by Microsoft.
+
+Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
+
+For example, the following linked list:
+
+```
+1 -> 2 -> 3 -> 4 -> 5
+```
+
+is the number 54321.
+
+Given two linked lists in this format, return their sum in the same linked list format.
+
+For example, given
+
+```
+9 -> 9
+5 -> 2
+```
+
+return 124 (99 + 25) as:
+
+```
+4 -> 2 -> 1
+```
