@@ -236,3 +236,11 @@ For example, to find all primes less than `100`, we would first mark `[4, 6, 8, 
 Implement this algorithm.
 
 Bonus: Create a generator that produces primes indefinitely (that is, without taking `N` as an input).
+
+## Daily Coding Problem: Problem #819 [Easy]
+
+This problem was asked by Facebook.
+
+Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
+
+For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
