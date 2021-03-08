@@ -254,3 +254,12 @@ Given an array of integers, find the first missing positive integer in linear ti
 For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` should give `3`.
 
 You can modify the input array in-place.
+
+## Daily Coding Problem: Problem #821 [Easy]
+
+This problem was asked by Apple.
+
+A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return `False`.
+
+For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
+
