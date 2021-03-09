@@ -263,3 +263,12 @@ A fixed point in an array is an element whose value is equal to its index. Given
 
 For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
 
+## Daily Coding Problem: Problem #822 [Easy]
+
+This problem was asked by Snapchat.
+
+Given a list of possibly overlapping intervals, return a new list of intervals where all overlapping intervals have been merged.
+
+The input list is not necessarily ordered in any way.
+
+For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
