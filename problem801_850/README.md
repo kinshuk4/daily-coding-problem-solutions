@@ -272,3 +272,15 @@ Given a list of possibly overlapping intervals, return a new list of intervals w
 The input list is not necessarily ordered in any way.
 
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
+
+## Daily Coding Problem: Problem #823 [Medium]
+
+This problem was asked by Amazon.
+
+Implement a bit array.
+
+A bit array is a space efficient array that holds a value of `1` or `0` at each index.
+
+- `init(size)`: initialize the array with `size`
+- `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
+- `get(i)`: gets the value at index `i`.
