@@ -292,3 +292,11 @@ This problem was asked by Salesforce.
 Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
 
 If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+
+## Daily Coding Problem: Problem #825 [Easy]
+
+This problem was asked by Google.
+
+Given a sorted list of integers, square the elements and give the output in sorted order.
+
+For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
