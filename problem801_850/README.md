@@ -300,3 +300,9 @@ This problem was asked by Google.
 Given a sorted list of integers, square the elements and give the output in sorted order.
 
 For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+
+## Daily Coding Problem: Problem #826 [Hard]
+
+This problem was asked by Google.
+
+Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
