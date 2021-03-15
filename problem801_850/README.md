@@ -316,3 +316,17 @@ You are the technical director of WSPT radio, serving listeners nationwide. For 
 Given a list of `N` listeners, and a list of `M` radio towers, each placed at various locations along this line, determine what the minimum broadcast range would have to be in order for each listener's home to be covered.
 
 For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
+
+## Daily Coding Problem: Problem #828 [Medium]
+
+This problem was asked by Microsoft.
+
+Write a program to determine how many distinct ways there are to create a max heap from a list of `N` given integers.
+
+For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, shown below.
+
+```
+  3      3
+ / \    / \
+1   2  2   1
+```
