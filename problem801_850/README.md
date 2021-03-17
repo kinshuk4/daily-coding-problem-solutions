@@ -341,3 +341,9 @@ Create a data structure that performs all the following operations in `O(1)` tim
 - `minus`: Decrement the value of a key. If the key's value is currently `1`, remove it.
 - `get_max`: Return a key with the highest value.
 - `get_min`: Return a key with the lowest value.
+
+## Daily Coding Problem: Problem #830 [Medium]
+
+This problem was asked by Twitter.
+
+Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, you should return `77641510`.
