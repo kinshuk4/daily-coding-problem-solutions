@@ -347,3 +347,15 @@ Create a data structure that performs all the following operations in `O(1)` tim
 This problem was asked by Twitter.
 
 Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, you should return `77641510`.
+
+## Daily Coding Problem: Problem #831 [Medium]
+
+This problem was asked by Dropbox.
+
+Given a string `s` and a list of words `words`, where each word is the same length, find all starting indices of substrings in `s` that is a concatenation of every word in `words` exactly once.
+
+For example, given s = "dogcatcatcodecatdog" and words = ["cat", "dog"], return [0, 13], since "dogcat" starts at index 0 and "catdog" starts at index 13.
+
+Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there are no substrings composed of "dog" and "cat" in `s`.
+
+The order of the indices does not matter.
