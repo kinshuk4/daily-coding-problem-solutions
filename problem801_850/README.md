@@ -375,3 +375,11 @@ This problem was asked by Pinterest.
 At a party, there is a single person who everyone knows, but who does not know anyone in return (the "celebrity"). To help figure out who this is, you have access to an `O(1)` method called `knows(a, b)`, which returns `True` if person `a` knows person `b`, else `False`.
 
 Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
+
+## Daily Coding Problem: Problem #834 [Hard]
+
+This problem was asked by Spotify.
+
+There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side.
+
+What is the minimum number of swaps necessary for this to happen?
