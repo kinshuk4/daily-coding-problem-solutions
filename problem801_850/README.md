@@ -383,3 +383,13 @@ This problem was asked by Spotify.
 There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side.
 
 What is the minimum number of swaps necessary for this to happen?
+
+## Daily Coding Problem: Problem #835 [Medium]
+
+This problem was asked by Square.
+
+Given a string and a set of characters, return the shortest substring containing all the characters in the set.
+
+For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
+
+If there is no substring containing all the characters in the set, return null.
