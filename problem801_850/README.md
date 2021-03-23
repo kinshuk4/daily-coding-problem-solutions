@@ -393,3 +393,13 @@ Given a string and a set of characters, return the shortest substring containing
 For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
 
 If there is no substring containing all the characters in the set, return null.
+
+## Daily Coding Problem: Problem #836 [Medium]
+
+This problem was asked by Facebook.
+
+Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
+
+It should run in O(N) time.
+
+Hint: Make sure each one of the 52! permutations of the deck is equally likely.
