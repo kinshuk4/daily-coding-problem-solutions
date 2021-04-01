@@ -536,3 +536,9 @@ One way to satisfy this formula would be to let `a = False`, `b = True`, and `c 
 This type of formula, with `AND` statements joining tuples containing exactly one `OR`, is known as `2-CNF`.
 
 Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
+
+## Daily Coding Problem: Problem #845 [Medium]
+
+This problem was asked by Facebook.
+
+Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
