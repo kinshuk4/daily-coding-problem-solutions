@@ -601,3 +601,11 @@ Given a set of characters `C` and an integer `k`, a De Bruijn sequence is a cycl
 For example, suppose `C = {0, 1}` and `k = 3`. Then our sequence should contain the substrings `{'000', '001', '010', '011', '100', '101', '110', '111'}`, and one possible solution would be `00010111`.
 
 Create an algorithm that finds a De Bruijn sequence.
+
+## Daily Coding Problem: Problem #851 [Medium]
+
+This problem was asked by Facebook.
+
+A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
+
+Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
