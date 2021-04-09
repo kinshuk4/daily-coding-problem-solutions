@@ -15,3 +15,9 @@ Given a circular array, compute its maximum subarray sum in O(n) time. A subarra
 For example, given `[8, -1, 3, 4]`, return `15` as we choose the numbers `3`, `4`, and `8` where the `8` is obtained from wrapping around.
 
 Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
+
+## Daily Coding Problem: Problem #853 [Hard]
+
+Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
+
+For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
