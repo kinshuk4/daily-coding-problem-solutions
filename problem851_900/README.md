@@ -31,3 +31,9 @@ Given a string s and an integer k, break up the string into multiple lines such 
 You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+
+## Daily Coding Problem: Problem #855 [Hard]
+
+This problem was asked by Microsoft.
+
+You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
