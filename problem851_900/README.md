@@ -151,3 +151,10 @@ This problem was asked by Mozilla.
 
 A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
 
+## Daily Coding Problem: Problem #863 [Medium]
+
+This problem was asked by Jane Street.
+
+Generate a finite, but an arbitrarily large binary tree quickly in O(1).
+
+That is, `generate()` should return a tree whose size is unbounded but finite.
