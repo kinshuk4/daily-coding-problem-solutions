@@ -215,3 +215,11 @@ You are given an array of arrays of integers, where each array corresponds to a 
 We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. For example, 1 -> 3 -> 5. The weight of the path is the sum of the entries.
 
 Write a program that returns the weight of the maximum weight path.
+
+## Daily Coding Problem: Problem #868 [Easy]
+
+This problem was asked by Amazon.
+
+Given a string, determine whether any permutation of it is a palindrome.
+
+For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
