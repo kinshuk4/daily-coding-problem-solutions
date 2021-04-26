@@ -223,3 +223,11 @@ This problem was asked by Amazon.
 Given a string, determine whether any permutation of it is a palindrome.
 
 For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
+
+## Daily Coding Problem: Problem #869 [Easy]
+
+This problem was asked by Google.
+
+Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
+
+For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
