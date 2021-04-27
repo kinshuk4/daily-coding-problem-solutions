@@ -231,3 +231,20 @@ This problem was asked by Google.
 Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
 
 For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
+
+## Daily Coding Problem: Problem #870 [Medium]
+
+This question was asked by Google.
+
+Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
+
+For example, given the following matrix:
+
+```
+[[1, 0, 0, 0],
+ [1, 0, 1, 1],
+ [1, 0, 1, 1],
+ [0, 1, 0, 0]]
+```
+
+Return 4.
