@@ -351,3 +351,9 @@ This problem was asked by Palantir.
 You are given a list of `N` numbers, in which each number is located at most `k` places away from its sorted position. For example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
 
 Come up with an algorithm that sorts this list in `O(N log k)` time.
+
+## Daily Coding Problem: Problem #877 [Hard]
+
+This problem was asked by Google.
+
+Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
