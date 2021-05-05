@@ -357,3 +357,11 @@ Come up with an algorithm that sorts this list in `O(N log k)` time.
 This problem was asked by Google.
 
 Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
+
+## Daily Coding Problem: Problem #878 [Hard]
+
+This problem was asked by Apple.
+
+Given a tree, find the largest tree/subtree that is a BST.
+
+Given a tree, return the size of the largest tree/subtree that is a BST.
