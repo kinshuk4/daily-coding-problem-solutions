@@ -375,3 +375,13 @@ Given a list of numbers and a number `k`, return whether any two numbers from th
 For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` is `17`.
 
 Bonus: Can you do this in one pass?
+
+## Daily Coding Problem: Problem #880 [Hard]
+
+This problem was asked by Google.
+
+Given a string, split it into as few strings as possible such that each string is a palindrome.
+
+For example, given the input string `racecarannakayak`, return `["racecar", "anna", "kayak"]`.
+
+Given the input string `abc`, return `["a", "b", "c"]`.
