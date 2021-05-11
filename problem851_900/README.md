@@ -419,3 +419,9 @@ There are two kinds of permitted steps:
 - If `a * b = N`, you may decrement `N` to the larger of `a` and `b`.
 
 For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
+
+## Daily Coding Problem: Problem #884 [Easy]
+
+This problem was asked by Two Sigma.
+
+Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive).
