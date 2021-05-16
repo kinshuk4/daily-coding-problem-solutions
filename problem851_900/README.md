@@ -459,3 +459,11 @@ This problem was asked by LinkedIn.
 Given a list of points, a central point, and an integer `k`, find the nearest `k` points from the central point.
 
 For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`.
+
+## Daily Coding Problem: Problem #889 [Easy]
+
+This problem was asked by Amazon.
+
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
+Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
