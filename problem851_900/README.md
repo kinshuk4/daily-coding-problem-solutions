@@ -480,3 +480,19 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 - Down, then right
 
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+
+## Daily Coding Problem: Problem #891 [Medium]
+
+This problem was asked by Uber.
+
+You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
+
+For example, suppose the input for a three-by-six grid is the following:
+
+```
+\    /
+ \  /
+  \/
+```
+
+Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
