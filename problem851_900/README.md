@@ -514,3 +514,15 @@ This problem was asked by Facebook.
 A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+
+## Daily Coding Problem: Problem #894 [Easy]
+
+This question was asked by Riot Games.
+
+Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+
+- `record(timestamp)`: records a hit that happened at `timestamp`
+- `total()`: returns the total number of hits recorded
+- `range(lower, upper)`: returns the number of hits that occurred between timestamps `lower` and `upper` (inclusive)
+
+Follow-up: What if our system has limited memory?
