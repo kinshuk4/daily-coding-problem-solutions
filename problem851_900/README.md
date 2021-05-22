@@ -526,3 +526,11 @@ Design and implement a HitCounter class that keeps track of requests (or hits). 
 - `range(lower, upper)`: returns the number of hits that occurred between timestamps `lower` and `upper` (inclusive)
 
 Follow-up: What if our system has limited memory?
+
+## Daily Coding Problem: Problem #895 [Hard]
+
+This problem was asked by Google.
+
+Given a string which we can delete at most k, return whether you can make a palindrome.
+
+For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
