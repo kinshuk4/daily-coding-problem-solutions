@@ -534,3 +534,9 @@ This problem was asked by Google.
 Given a string which we can delete at most k, return whether you can make a palindrome.
 
 For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+
+## Daily Coding Problem: Problem #896 [Medium]
+
+This question was asked by ContextLogic.
+
+Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
