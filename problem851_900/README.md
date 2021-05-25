@@ -546,3 +546,17 @@ Implement division of two positive integers without using the division, multipli
 This problem was asked by Apple.
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it.
+
+## Daily Coding Problem: Problem #898 [Easy]
+
+This problem was asked by Amazon.
+
+Implement a stack API using only a heap. A stack implements the following methods:
+
+- `push(item)`, which adds an element to the stack
+- `pop()`, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
+
+Recall that a heap has the following operations:
+
+- `push(item)`, which adds a new key to the heap
+- `pop()`, which removes and returns the max value of the heap
