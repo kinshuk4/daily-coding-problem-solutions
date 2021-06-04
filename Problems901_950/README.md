@@ -60,3 +60,13 @@ For example, the words `['chair', 'height', 'racket', touch', 'tunic']` can form
 This problem was asked by Google.
 
 Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
+
+## Daily Coding Problem: Problem #907 [Medium]
+
+This problem was asked by Apple.
+
+[Gray code](https://en.wikipedia.org/wiki/Gray_code) is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
+
+Given a number of bits `n`, generate a possible gray code for it.
+
+For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
