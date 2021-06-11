@@ -134,3 +134,19 @@ For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as t
 This problem was asked by Facebook.
 
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+
+## Daily Coding Problem: Problem #912 [Medium]
+
+This problem was asked by Yext.
+
+Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram `4` and `6` are cousins.
+
+```
+    1
+   / \
+  2   3
+ / \   \
+4   5   6
+```
+
+Given a binary tree and a particular node, find all cousins of that node.
