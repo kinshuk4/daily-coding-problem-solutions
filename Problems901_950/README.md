@@ -157,3 +157,10 @@ This problem was asked by Amazon.
 
 Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
 
+## Daily Coding Problem: Problem #914 [Hard]
+
+This problem was asked by Netflix.
+
+Implement a queue using a set of fixed-length arrays.
+
+The queue should support `enqueue`, `dequeue`, and `get_size` operations.
