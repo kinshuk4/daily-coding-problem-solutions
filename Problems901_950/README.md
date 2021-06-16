@@ -164,3 +164,16 @@ This problem was asked by Netflix.
 Implement a queue using a set of fixed-length arrays.
 
 The queue should support `enqueue`, `dequeue`, and `get_size` operations.
+
+## Daily Coding Problem: Problem #915 [Hard]
+
+This problem was asked by Airbnb.
+
+You are given an array `X` of floating-point numbers `x``1`, `x``2`, ... `x``n`. These can be rounded up or down to create a corresponding array `Y` of integers `y``1`, `y``2`, ... `y``n`.
+
+Write an algorithm that finds an appropriate `Y` array with the following properties:
+
+- The rounded sums of both arrays should be equal.
+- The absolute pairwise difference between elements is minimized. In other words, `|x``1``- y``1``| + |x``2``- y``2``| + ... + |x``n``- y``n``|` should be as small as possible.
+
+For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do better than `[1, 2, 5]`, which has an absolute difference of `|1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1`.
