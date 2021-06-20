@@ -191,3 +191,19 @@ This problem was asked by LinkedIn.
 Given a linked list of numbers and a pivot `k`, partition the linked list so that all nodes less than `k` come before nodes greater than or equal to `k`.
 
 For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
+
+## Daily Coding Problem: Problem #918 [Hard]
+
+This problem was asked by Google.
+
+PageRank is an algorithm used by Google to rank the importance of different websites. While there have been changes over the years, the central idea is to assign each site a score based on the importance of other pages that link to that page.
+
+More mathematically, suppose there are `N` sites, and each site `i` has a certain count `C``i` of outgoing links. Then the score for a particular site `S``j` is defined as :
+
+```
+score(Sj) = (1 - d) / N + d * (score(Sx) / Cx+ score(Sy) / Cy+ ... + score(Sz) / Cz))
+```
+
+Here, `S``x`, `S``y`, `...`, `S``z` denote the scores of all the other sites that have outgoing links to `S``j`, and `d` is a damping factor, usually set to around `0.85`, used to model the probability that a user will stop searching.
+
+Given a directed graph of links between various websites, write a program that calculates each site's page rank.
