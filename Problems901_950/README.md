@@ -228,3 +228,14 @@ For example, suppose the input is as follows, where values in each row represent
 The best we can we do here is to draw a line after the eighth brick, which will only require cutting through the bricks in the third and fifth row.
 
 Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
+
+## Daily Coding Problem: Problem #920 [Medium]
+
+This problem was asked by Triplebyte.
+
+Implement a data structure which carries out the following operations without resizing the underlying array:
+
+- `add(value)`: Add a value to the set of values.
+- `check(value)`: Check whether a value is in the set.
+
+The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
