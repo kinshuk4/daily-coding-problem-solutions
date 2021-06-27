@@ -273,3 +273,35 @@ Given a `32`-bit positive integer `N`, determine whether it is a power of four i
 This problem was asked by WhatsApp.
 
 Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given `[3, 7, 5, 6, 9]`, you should return `(1, 3)`.
+
+## Daily Coding Problem: Problem #925 [Easy]
+
+This problem was asked by Stripe.
+
+Write a function to flatten a nested dictionary. Namespace the keys with a period.
+
+For example, given the following dictionary:
+
+```
+{
+    "key": 3,
+    "foo": {
+        "a": 5,
+        "bar": {
+            "baz": 8
+        }
+    }
+}
+```
+
+it should become:
+
+```
+{
+    "key": 3,
+    "foo.a": 5,
+    "foo.bar.baz": 8
+}
+```
+
+You can assume keys do not contain dots in them, i.e. no clobbering will occur.
