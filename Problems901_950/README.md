@@ -331,3 +331,13 @@ Given a linked list and a positive integer `k`, rotate the list to the right by 
 For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
 
 Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
+
+## Daily Coding Problem: Problem #928 [Easy]
+
+This problem was asked by Microsoft.
+
+A number is considered perfect if its digits sum up to exactly 10.
+
+Given a positive integer `n`, return the `n`-th perfect number.
+
+For example, given 1, you should return 19. Given 2, you should return 28.
