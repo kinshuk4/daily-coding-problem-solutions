@@ -375,3 +375,11 @@ This problem was asked by Google.
 Given a linked list, sort it in O(n log n) time and constant space.
 
 For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
+
+## Daily Coding Problem: Problem #931 [Easy]
+
+This problem was asked by Amazon.
+
+Given `n` numbers, find the greatest common denominator between them.
+
+For example, given the numbers `[42, 56, 14]`, return `14`.
