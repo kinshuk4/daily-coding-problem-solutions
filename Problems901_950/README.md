@@ -389,3 +389,9 @@ For example, given the numbers `[42, 56, 14]`, return `14`.
 This problem was asked by Twitch.
 
 Describe what happens when you type a URL into your browser and press Enter.
+
+## Daily Coding Problem: Problem #933 [Medium]
+
+This problem was asked by Pinterest.
+
+The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given `[None, +, +, -, +]`, you could return `[1, 2, 3, 0, 4]`.
