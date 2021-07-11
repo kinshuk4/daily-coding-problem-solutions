@@ -403,3 +403,9 @@ This problem was asked by Google.
 Given a string, return the first recurring character in it, or null if there is no recurring character.
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+
+## Daily Coding Problem: Problem #935 [Easy]
+
+This problem was asked by PayPal.
+
+Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
