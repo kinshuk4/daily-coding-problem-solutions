@@ -409,3 +409,21 @@ For example, given the string "acbbac", return "b". Given the string "abcdef", r
 This problem was asked by PayPal.
 
 Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
+
+## Daily Coding Problem: Problem #936 [Medium]
+
+This problem was asked by Google.
+
+Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
+
+For example, given the following tree:
+
+```
+    5
+   / \
+  3   8
+ / \ / \
+2  4 6  10
+```
+
+and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
