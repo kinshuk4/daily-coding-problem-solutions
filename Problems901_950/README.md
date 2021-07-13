@@ -427,3 +427,12 @@ For example, given the following tree:
 ```
 
 and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
+
+## Daily Coding Problem: Problem #937 [Hard]
+
+This problem was asked by Google.
+
+You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
+
+For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+
