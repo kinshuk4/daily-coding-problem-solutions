@@ -509,3 +509,11 @@ edges = [
 ```
 
 You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` will take that much time.
+
+## Daily Coding Problem: Problem #941 [Hard]
+
+This problem was asked by Jane Street.
+
+Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
+There are no transaction costs and you can trade fractional quantities.
