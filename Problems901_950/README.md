@@ -517,3 +517,11 @@ This problem was asked by Jane Street.
 Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
 
 There are no transaction costs and you can trade fractional quantities.
+
+## Daily Coding Problem: Problem #942 [Medium]
+
+This problem was asked by Google.
+
+Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
+
+For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
