@@ -525,3 +525,21 @@ This problem was asked by Google.
 Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+
+## Daily Coding Problem: Problem #943 [Easy]
+
+This problem was asked by Wayfair.
+
+You are given a `2 x N` board, and instructed to completely cover the board with the following shapes:
+
+- Dominoes, or `2 x 1` rectangles.
+- Trominoes, or `L`-shapes.
+
+For example, if `N = 4`, here is one possible configuration, where `A` is a domino, and `B` and `C` are trominoes.
+
+```
+A B B C
+A B C C
+```
+
+Given an integer `N`, determine in how many ways this task is possible.
