@@ -571,3 +571,26 @@ For example, given the following tree:
 and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of 17.
 
 The path does not have to pass through the root, and each node can have any amount of children.
+
+## Daily Coding Problem: Problem #946 [Medium]
+
+This problem was asked by Stitch Fix.
+
+Pascal's triangle is a triangular array of integers constructed with the following formula:
+
+- The first row consists of the number `1`.
+- For each subsequent row, each element is the sum of the numbers directly above it, on either side.
+
+For example, here are the first few rows:
+
+```
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+```
+
+Given an input `k`, return the `k``th` row of Pascal's triangle.
+
+Bonus: Can you do this using only `O(k)` space?
