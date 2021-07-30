@@ -19,3 +19,13 @@ You are given a string formed by concatenating several words corresponding to th
 For example, the input could be 'niesevehrtfeev', which is an anagram of 'threefiveseven'. Note that there can be multiple instances of each integer.
 
 Given this string, return the original integers in sorted order. In the example above, this would be `357`.
+
+## Daily Coding Problem: Problem #953 [Hard]
+
+This problem was asked by Airbnb.
+
+Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be `0` or negative.
+
+For example, `[2, 4, 6, 2, 5]` should return `13`, since we pick `2`, `6`, and `5`. `[5, 1, 1, 5]` should return `10`, since we pick `5` and `5`.
+
+Follow-up: Can you do this in O(N) time and constant space?
