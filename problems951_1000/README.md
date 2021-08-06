@@ -109,3 +109,9 @@ For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 
 Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
 
 Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
+
+## Daily Coding Problem: Problem #959 [Easy]
+
+This problem was asked by Pivotal.
+
+Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
