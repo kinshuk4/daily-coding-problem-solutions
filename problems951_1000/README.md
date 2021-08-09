@@ -133,3 +133,11 @@ This problem was asked by Quora.
 Given an absolute pathname that may have `.` or `..` as part of it, return the shortest standardized path.
 
 For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
+
+## Daily Coding Problem: Problem #962 [Hard]
+
+This problem was asked by Google.
+
+A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
