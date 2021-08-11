@@ -153,3 +153,14 @@ For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the 
 In this example, assume nodes with the same value are the exact same node objects.
 
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
+
+## Daily Coding Problem: Problem #964 [Easy]
+
+This problem was asked by Twitter.
+
+You run an e-commerce website and want to record the last `N` `order` ids in a log. Implement a data structure to accomplish this, with the following API:
+
+- record(order_id): adds the order_id to the log
+- get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
+
+You should be as efficient with time and space as possible.
