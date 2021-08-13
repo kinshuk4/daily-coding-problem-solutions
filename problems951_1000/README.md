@@ -191,3 +191,8 @@ Visually, this can be represented as follows.
 
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
 
+## Daily Coding Problem: Problem #966 [Medium]
+
+This question was asked by Snapchat.
+
+Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
