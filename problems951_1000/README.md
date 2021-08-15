@@ -196,3 +196,9 @@ Write a program that takes in an array of integers representing byte values, and
 This question was asked by Snapchat.
 
 Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+
+## Daily Coding Problem: Problem #967 [Medium]
+
+This problem was asked by Google.
+
+You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
