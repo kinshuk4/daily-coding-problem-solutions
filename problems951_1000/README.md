@@ -202,3 +202,13 @@ Given the head to a singly linked list, where each node also has a “random” 
 This problem was asked by Google.
 
 You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
+## Daily Coding Problem: Problem #968 [Medium]
+
+This problem was asked by Flipkart.
+
+Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
+
+On the `i``th` jump, you may move exactly i places to the left or right.
+
+Find a path with the fewest number of jumps required to get from 0 to N.
