@@ -212,3 +212,21 @@ Starting from 0 on a number line, you would like to make a series of jumps that 
 On the `i``th` jump, you may move exactly i places to the left or right.
 
 Find a path with the fewest number of jumps required to get from 0 to N.
+
+## Daily Coding Problem: Problem #969 [Medium]
+
+This problem was asked by Amazon.
+
+Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
+
+For example, this matrix has 4 islands.
+
+```
+1 0 0 0 0
+0 0 1 1 0
+0 1 1 0 0
+0 0 0 0 0
+1 1 0 0 1
+1 1 0 0 1
+```
+
