@@ -283,3 +283,13 @@ Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the nu
 For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
+
+## Daily Coding Problem: Problem #974 [Hard]
+
+This problem was asked by Facebook.
+
+Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
+
+Don't use `eval` or a similar built-in parser.
+
+For example, given '-1 + (2 + 3)', you should return `4`.
