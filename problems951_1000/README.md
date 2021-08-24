@@ -293,3 +293,34 @@ Given a string consisting of parentheses, single digits, and positive and negati
 Don't use `eval` or a similar built-in parser.
 
 For example, given '-1 + (2 + 3)', you should return `4`.
+
+## Daily Coding Problem: Problem #975 [Hard]
+
+This problem was asked by Apple.
+
+You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a buffer of `B` songs between repeats.
+
+Given `N`, `M`, and `B`, determine the number of valid playlists.
+
+## Daily Coding Problem: Problem #976 [Medium]
+
+This problem was asked by Google.
+
+A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
+
+For example, a puzzle of the form:
+
+```
+  SEND
++ MORE
+--------
+ MONEY
+```
+
+may have the solution:
+
+```
+{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
+```
+
+Given a three-word puzzle like the one above, create an algorithm that finds a solution.
