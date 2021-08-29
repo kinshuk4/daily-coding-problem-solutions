@@ -398,3 +398,9 @@ The board would look like this:
 ```
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
+
+## Daily Coding Problem: Problem #981 [Medium]
+
+This problem was asked by Facebook.
+
+Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
