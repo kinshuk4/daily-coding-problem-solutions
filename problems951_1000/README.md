@@ -404,3 +404,11 @@ You should return 2, since bishops 1 and 3 attack each other, as well as bishops
 This problem was asked by Facebook.
 
 Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
+
+## Daily Coding Problem: Problem #982 [Easy]
+
+This problem was asked by Twitter.
+
+A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, `16891` is strobogrammatic.
+
+Create a program that finds all strobogrammatic numbers with `N` digits.
