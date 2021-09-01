@@ -431,3 +431,10 @@ For example, given the tree:
 
 Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 
+## Daily Coding Problem: Problem #984 [Hard]
+
+This problem was asked by Facebook.
+
+Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
+
+For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
