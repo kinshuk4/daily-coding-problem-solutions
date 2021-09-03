@@ -453,3 +453,11 @@ For a pattern to be valid, it must satisfy the following:
 For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
 
 Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9`.
+
+## Daily Coding Problem: Problem #986 [Easy]
+
+This problem was asked by Stripe.
+
+Given an integer `n`, return the length of the longest consecutive run of `1`s in its binary representation.
+
+For example, given `156`, you should return `3`.
