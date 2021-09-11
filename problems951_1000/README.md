@@ -541,3 +541,18 @@ Given a list of elements, find the majority element, which appears more than hal
 You can assume that such element exists.
 
 For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
+
+## Daily Coding Problem: Problem #994 [Easy]
+
+This problem was asked by Microsoft.
+
+Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
+
+```
+  1
+ / \
+2   3
+   / \
+  4   5
+```
+
