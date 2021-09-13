@@ -566,3 +566,9 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 
 Follow-up: what if you can't use division?
 
+## Daily Coding Problem: Problem #996 [Hard]
+
+This problem was asked by Microsoft.
+
+Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the *maximum* weight spanning tree.
+
