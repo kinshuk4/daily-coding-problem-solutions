@@ -76,3 +76,26 @@ Given perfect knowledge of the sequence of cards in the deck, implement a blackj
 This problem was asked by Facebook.
 
 Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of `n` line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+
+## Daily Coding Problem: Problem #1007 [Hard]
+
+This problem was asked by Oracle.
+
+You are presented with an `8` by `8` matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
+
+For details on how each piece moves, see [here](https://en.wikipedia.org/wiki/Chess_piece#Moves_of_the_pieces).
+
+For example, given the following matrix:
+
+```
+...K....
+........
+.B......
+......P.
+.......R
+..N.....
+........
+.....Q..
+```
+
+You should return `True`, since the bishop is attacking the king diagonally.
