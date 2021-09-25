@@ -99,3 +99,9 @@ For example, given the following matrix:
 ```
 
 You should return `True`, since the bishop is attacking the king diagonally.
+
+## Daily Coding Problem: Problem #1008 [Hard]
+
+This problem was asked by Salesforce.
+
+Given an array of integers, find the maximum XOR of any two elements.
