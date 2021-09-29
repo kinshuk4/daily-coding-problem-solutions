@@ -139,3 +139,8 @@ Create a data structure that can efficiently convert a certain quantity of one u
 This problem was asked by Nvidia.
 
 Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
+
+## Daily Coding Problem: Problem #1012 [Medium]
+
+Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
+
