@@ -212,3 +212,7 @@ c               s
 With this encoding, `cats` would be represented as `0000110111`.
 
 Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
+
+## Daily Coding Problem: Problem #1017 [Hard]
+
+Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
