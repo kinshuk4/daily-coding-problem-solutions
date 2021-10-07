@@ -216,3 +216,11 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 ## Daily Coding Problem: Problem #1017 [Hard]
 
 Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
+
+## Daily Coding Problem: Problem #1018 [Easy]
+
+This problem was asked by Microsoft.
+
+Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
+
+Bonus: When, during the course of a day, will the angle be zero?
