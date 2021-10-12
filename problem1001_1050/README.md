@@ -278,3 +278,13 @@ Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit
 For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 
 Bonus: Can you do this in one line?
+
+## Daily Coding Problem: Problem #1022 [Hard]
+
+This problem was asked by Google.
+
+Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
+
+For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
+
+Do this in O(N) time and O(1) space.
