@@ -288,3 +288,11 @@ Given an array of integers where every integer occurs three times except for one
 For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
 
 Do this in O(N) time and O(1) space.
+
+## Daily Coding Problem: Problem #1023 [Hard]
+
+This problem was asked by Airbnb.
+
+You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
+
+For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
