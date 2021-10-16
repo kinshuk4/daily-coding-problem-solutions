@@ -296,3 +296,12 @@ This problem was asked by Airbnb.
 You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
 
 For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
+
+## Daily Coding Problem: Problem #1024 [Easy]
+
+This problem was asked by Facebook.
+
+Given a 32-bit integer, return the number with its bits reversed.
+
+For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+
