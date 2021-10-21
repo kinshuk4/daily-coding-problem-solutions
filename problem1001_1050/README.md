@@ -359,3 +359,13 @@ For example, this algorithm terminates in three steps when starting from `1234`:
 - `8532 - 2358 = 6174`
 
 Write a function that returns how many steps this will take for a given input `N`.
+
+## Daily Coding Problem: Problem #1029 [Hard]
+
+This problem was asked by Google.
+
+Find the minimum number of coins required to make `n` cents.
+
+You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
+
+For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢, and a 1¢.
