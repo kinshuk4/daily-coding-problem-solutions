@@ -404,3 +404,20 @@ For convenience, here are the squares representing snakes and ladders, and their
 snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78}
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ```
+
+## Daily Coding Problem: Problem #1032 [Easy]
+
+This problem was asked by Google.
+
+In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
+
+Here is an example:
+
+```
+1 2 3 4 8
+5 1 2 3 4
+4 5 1 2 3
+7 4 5 1 2
+```
+
+Write a program to determine whether a given input is a Toeplitz matrix.
