@@ -429,3 +429,11 @@ This problem was asked by Microsoft.
 Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
 
 For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of 5, which is the smallest possible difference.
+
+## Daily Coding Problem: Problem #1034 [Easy]
+
+This problem was asked by Microsoft.
+
+You have `n` fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
+
+Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
