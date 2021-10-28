@@ -447,3 +447,19 @@ MegaCorp wants to give bonuses to its employees based on how many lines of codes
 Given an array representing a line of seats of employees at MegaCorp, determine how much each one should get paid.
 
 For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4, 2, 1]`.
+
+## Daily Coding Problem: Problem #1036 [Medium]
+
+This problem was asked by Google.
+
+Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
+
+For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
+
+```
+    5
+   / \
+  3   7
+ / \   \
+2   4   8
+```
