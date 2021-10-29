@@ -463,3 +463,9 @@ For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the fol
  / \   \
 2   4   8
 ```
+
+## Daily Coding Problem: Problem #1037 [Hard]
+
+This problem was asked by Etsy.
+
+Given a sorted array, convert it into a height-balanced binary search tree.
