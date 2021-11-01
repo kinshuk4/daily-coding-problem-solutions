@@ -488,3 +488,13 @@ You are given an array of length `24`, where each element represents the number 
 - `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between `start` and `end` (inclusive).
 
 You can assume that all values get cleared at the end of the day, and that you will not be asked for `start` and `end` values that wrap around midnight.
+
+## Daily Coding Problem: Problem #1040 [Hard]
+
+This problem was asked by Dropbox.
+
+Implement an efficient string matching algorithm.
+
+That is, given a string of length `N` and a pattern of length `k`, write a program that searches for the pattern in the string with less than `O(N * k)` worst-case time complexity.
+
+If the pattern is found, return the start index of its location. If not, return `False`.
