@@ -510,3 +510,9 @@ Compute how many units of water remain trapped on the map in O(N) time and O(1) 
 For example, given the input [2, 1, 2], we can hold 1 unit of water in the middle.
 
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
+
+## Daily Coding Problem: Problem #1042 [Hard]
+
+This problem was asked by YouTube.
+
+Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
