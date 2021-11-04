@@ -516,3 +516,26 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in
 This problem was asked by YouTube.
 
 Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
+
+## Daily Coding Problem: Problem #1043 [Medium]
+
+This problem was asked by Google.
+
+Given an `iterator` with methods `next()` and `hasNext()`, create a wrapper iterator, `PeekableInterface`, which also implements `peek()`. `peek` shows the next element that would be returned on `next()`.
+
+Here is the interface:
+
+```
+class PeekableInterface(object):
+    def __init__(self, iterator):
+        pass
+
+    def peek(self):
+        pass
+
+    def next(self):
+        pass
+
+    def hasNext(self):
+        pass
+```
