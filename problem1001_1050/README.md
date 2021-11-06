@@ -547,3 +547,13 @@ This problem was asked by Facebook.
 Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. For example, given "hello/world:here", return "here/world:hello"
 
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
+
+## Daily Coding Problem: Problem #1045 [Medium]
+
+This problem was asked by Microsoft.
+
+Describe and give an example of each of the following types of polymorphism:
+
+- Ad-hoc polymorphism
+- Parametric polymorphism
+- Subtype polymorphism
