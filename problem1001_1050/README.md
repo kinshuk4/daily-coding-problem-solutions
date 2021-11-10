@@ -616,3 +616,9 @@ For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree 
 ```
 
 Given a sequence `S`, construct the corresponding Cartesian tree.
+
+## Daily Coding Problem: Problem #1049 [Medium]
+
+This problem was asked by Amazon.
+
+Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
