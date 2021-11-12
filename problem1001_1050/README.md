@@ -622,3 +622,11 @@ Given a sequence `S`, construct the corresponding Cartesian tree.
 This problem was asked by Amazon.
 
 Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
+
+## Daily Coding Problem: Problem #1050 [Easy]
+
+This problem was asked by Twitter.
+
+A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
+
+Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
