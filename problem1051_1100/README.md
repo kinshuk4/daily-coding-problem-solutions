@@ -128,3 +128,9 @@ Given an integer `N`, print the `N`th term of this sequence.
 This problem was asked by Amazon.
 
 Given an integer `N`, construct all possible binary search trees with `N` nodes.
+
+## Daily Coding Problem: Problem #1058 [Medium]
+
+This problem was asked by Dropbox.
+
+Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
