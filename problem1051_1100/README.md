@@ -134,3 +134,21 @@ Given an integer `N`, construct all possible binary search trees with `N` nodes.
 This problem was asked by Dropbox.
 
 Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
+
+## Daily Coding Problem: Problem #1059 [Hard]
+
+This problem was asked by Quora.
+
+Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the *bank*", bank probably means the place where people deposit money, not the land beside a river or lake.
+
+Suppose you are given a list of meanings for several words, formatted like so:
+
+```
+{
+    "word_1": ["meaning one", "meaning two", ...],
+    ...
+    "word_n": ["meaning one", "meaning two", ...]
+}
+```
+
+Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
