@@ -152,3 +152,11 @@ Suppose you are given a list of meanings for several words, formatted like so:
 ```
 
 Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
+
+## Daily Coding Problem: Problem #1060 [Easy]
+
+This problem was asked by Facebook.
+
+Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
+
+That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
