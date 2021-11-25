@@ -187,3 +187,11 @@ This problem was asked by Google.
 Given the head of a singly linked list, swap every two nodes and return its head.
 
 For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+
+## Daily Coding Problem: Problem #1063 [Easy]
+
+This problem was asked by Sumo Logic.
+
+Given a array that's sorted but rotated at some unknown pivot, in which all elements are distinct, find a "peak" element in `O(log N)` time.
+
+An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
