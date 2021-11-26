@@ -208,3 +208,28 @@ This problem was asked by Yahoo.
 
 Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A` -> `B` -> `C`, it should become `A <- B <- C`.
 
+## Daily Coding Problem: Problem #1066 [Hard]
+
+This problem was asked by Amazon.
+
+The [stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem) is defined as follows:
+
+Suppose you have `N` men and `N` women, and each person has ranked their prospective opposite-sex partners in order of preference.
+
+For example, if `N = 3`, the input could be something like this:
+
+```
+guy_preferences = {
+    'andrew': ['caroline', 'abigail', 'betty'],
+    'bill': ['caroline', 'betty', 'abigail'],
+    'chester': ['betty', 'caroline', 'abigail'],
+}
+
+gal_preferences = {
+    'abigail': ['andrew', 'bill', 'chester'],
+    'betty': ['bill', 'andrew', 'chester'],
+    'caroline': ['bill', 'chester', 'andrew']
+}
+```
+
+Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
