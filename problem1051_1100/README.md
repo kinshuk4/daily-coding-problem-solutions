@@ -195,3 +195,9 @@ This problem was asked by Sumo Logic.
 Given a array that's sorted but rotated at some unknown pivot, in which all elements are distinct, find a "peak" element in `O(log N)` time.
 
 An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
+
+## Daily Coding Problem: Problem #1064 [Easy]
+
+This problem was asked by Two Sigma.
+
+Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
