@@ -201,3 +201,10 @@ An element is considered a peak if it is greater than both its left and right ne
 This problem was asked by Two Sigma.
 
 Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
+
+## Daily Coding Problem: Problem #1065 [Medium]
+
+This problem was asked by Yahoo.
+
+Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A` -> `B` -> `C`, it should become `A <- B <- C`.
+
