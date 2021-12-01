@@ -630,3 +630,19 @@ This problem was asked by Twitter.
 A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
 
 Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
+
+## Daily Coding Problem: Problem #1068 [Easy]
+
+This problem was asked by Microsoft.
+
+You are given an string representing the initial conditions of some dominoes. Each element can take one of three values:
+
+- `L`, meaning the domino has just been pushed to the left,
+- `R`, meaning the domino has just been pushed to the right, or
+- `.`, meaning the domino is standing still.
+
+Determine the orientation of each tile when the dominoes stop falling. Note that if a domino receives a force from the left and right side simultaneously, it will remain upright.
+
+For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
+
+Given the string `..R...L.L`, you should return `..RR.LLLL`.
