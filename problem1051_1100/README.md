@@ -263,3 +263,10 @@ should be pruned to:
 ```
 
 We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
+
+## Daily Coding Problem: Problem #1072 [Easy]
+
+This problem was asked by Facebook.
+
+Given a binary tree, return the level of the tree with minimum sum.
+
