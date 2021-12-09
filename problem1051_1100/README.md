@@ -335,3 +335,18 @@ According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/
 This problem was asked by Apple.
 
 Implement the function `fib(n)`, which returns the `n``th` number in the Fibonacci sequence, using only `O(1)` space.
+
+## Daily Coding Problem: Problem #1076 [Medium]
+
+This problem was asked by Squarespace.
+
+Write a function, `add_subtract`, which alternately adds and subtracts curried arguments. Here are some sample operations:
+
+```
+add_subtract(7) -> 7
+
+add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
+
+add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
+```
+
