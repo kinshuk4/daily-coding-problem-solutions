@@ -365,3 +365,9 @@ A tree is symmetric if its data and shape remain unchanged when it is reflected 
 ```
 
 Given a `k`-ary tree, determine whether it is symmetric.
+
+## Daily Coding Problem: Problem #1078 [Easy]
+
+This problem was asked by Google.
+
+Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
