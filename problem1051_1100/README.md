@@ -477,3 +477,13 @@ def sum(lst):
 This should call `add` on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
 
 Implement your own version of `reduce`.
+
+## Daily Coding Problem: Problem #1085 [Medium]
+
+This problem was asked by Snapchat.
+
+Given a string of digits, generate all possible valid IP address combinations.
+
+IP addresses must follow the format A.B.C.D, where A, B, C, and D are numbers between `0` and `255`. Zero-prefixed numbers, such as `01` and `065`, are not allowed, except for `0` itself.
+
+For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.123'].
