@@ -495,3 +495,11 @@ This problem was asked by Dropbox.
 Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
 
 Implement an efficient sudoku solver.
+
+## Daily Coding Problem: Problem #1087 [Easy]
+
+This problem was asked by Google.
+
+Given two strings A and B, return whether or not A can be shifted some number of times to get B.
+
+For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
