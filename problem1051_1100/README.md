@@ -559,3 +559,13 @@ A classroom consists of `N` students, whose friendships can be represented in an
 Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. For the example above, the friend groups would be `{0, 1, 2, 5}, {3, 6}, {4}`.
 
 Given a friendship list such as the one above, determine the number of friend groups in the class.
+
+## Daily Coding Problem: Problem #1092 [Easy]
+
+This problem was asked by Google.
+
+A regular number in mathematics is defined as one which evenly divides some power of `60`. Equivalently, we can say that a regular number is one whose only prime divisors are `2`, `3`, and `5`.
+
+These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
+
+Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
