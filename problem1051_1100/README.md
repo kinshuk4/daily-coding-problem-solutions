@@ -569,3 +569,17 @@ A regular number in mathematics is defined as one which evenly divides some powe
 These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
 
 Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
+
+## Daily Coding Problem: Problem #1093 [Medium]
+
+This problem was asked by Google.
+
+Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that element in the original input array.
+
+For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
+
+- There is 1 smaller element to the right of 3
+- There is 1 smaller element to the right of 4
+- There are 2 smaller elements to the right of 9
+- There is 1 smaller element to the right of 6
+- There are no smaller elements to the right of 1
