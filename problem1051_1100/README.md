@@ -583,3 +583,9 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 - There are 2 smaller elements to the right of 9
 - There is 1 smaller element to the right of 6
 - There are no smaller elements to the right of 1
+
+## Daily Coding Problem: Problem #1094 [Hard]
+
+This problem was asked by Apple.
+
+Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
