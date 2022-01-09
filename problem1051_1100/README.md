@@ -625,3 +625,13 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 - `get(key)`: gets the value at `key`. If no such key exists, return null.
 
 Each operation should run in O(1) time.
+
+## Daily Coding Problem: Problem #1097 [Easy]
+
+This problem was asked by Yahoo.
+
+You are given a string of length `N` and a parameter `k`. The string can be manipulated by taking one of the first `k` letters and moving it to the end.
+
+Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
+
+For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
