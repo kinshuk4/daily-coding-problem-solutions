@@ -635,3 +635,11 @@ You are given a string of length `N` and a parameter `k`. The string can be mani
 Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
 
 For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
+
+## Daily Coding Problem: Problem #1098 [Easy]
+
+This problem was asked by Oracle.
+
+Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
+
+If either value does not exist, return None.
