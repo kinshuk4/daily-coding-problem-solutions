@@ -649,3 +649,11 @@ If either value does not exist, return None.
 This problem was asked by Amazon.
 
 Given an array and a number `k` that's smaller than the length of the array, rotate the array to the right `k` elements in-place.
+
+## Daily Coding Problem: Problem #1100 [Hard]
+
+This problem was asked by Netflix.
+
+Given a sorted list of integers of length `N`, determine if an element `x` is in the list without performing any multiplication, division, or bit-shift operations.
+
+Do this in `O(log N)` time.
