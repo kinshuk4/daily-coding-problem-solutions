@@ -68,3 +68,25 @@ You are given an array representing the heights of neighboring buildings on a ci
 For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since the top floors of the buildings with heights `8`, `6`, and `1` all have an unobstructed view to the west.
 
 Can you do this using just one forward pass through the array?
+
+## Daily Coding Problem: Problem #1107 [Hard]
+
+This problem was asked by Adobe.
+
+You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an "edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even number of nodes.
+
+For example, suppose your input was the following tree:
+
+```
+   1
+  / \ 
+ 2   3
+    / \ 
+   4   5
+ / | \
+6  7  8
+```
+
+In this case, removing the edge (3, 4) satisfies our requirement.
+
+Write a function that returns the *maximum* number of edges you can remove while still satisfying this requirement.
