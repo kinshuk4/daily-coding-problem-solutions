@@ -136,3 +136,21 @@ preferences = {
 A lazy bartender working at this bar is trying to reduce his effort by limiting the drink recipes he must memorize. Given a dictionary input such as the one above, return the fewest number of drinks he must learn in order to satisfy all customers.
 
 For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy everyone.
+
+## Daily Coding Problem: Problem #1112 [Easy]
+
+This question was asked by Apple.
+
+Given a binary tree, find a minimum path sum from root to a leaf.
+
+For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
+
+```
+  10
+ /  \
+5    5
+ \     \
+   2    1
+       /
+     -1
+```
