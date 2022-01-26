@@ -168,3 +168,9 @@ A typical American-style crossword puzzle grid is an `N x N` matrix with black a
 
 Write a program to determine whether a given matrix qualifies as a crossword grid.
 
+## Daily Coding Problem: Problem #1114 [Easy]
+
+This problem was asked by Uber.
+
+On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.
+
