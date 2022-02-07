@@ -191,3 +191,21 @@ A quack is a data structure combining properties of both stacks and queues. It c
 - `pull()`: remove the item on the right end of the list.
 
 Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
+
+## Daily Coding Problem: Problem #1117 [Hard]
+
+This problem was asked by Microsoft.
+
+Implement 3 stacks using a single list:
+
+```
+class Stack:
+    def __init__(self):
+        self.list = []
+
+    def pop(self, stack_number):
+        pass
+
+    def push(self, item, stack_number):
+        pass
+```
