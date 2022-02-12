@@ -271,3 +271,19 @@ Given a array of numbers representing the stock prices of a company in chronolog
 You must buy before you can sell the stock, but you can make as many transactions as you like.
 
 For example, given [1, 3, 2, 8, 4, 10] and `fee = 2`, you should return 9, since you could buy the stock at 1 dollar, and sell at 8 dollars, and then buy it at 4 dollars and sell it at 10 dollars. Since we did two transactions, there is a 4 dollar fee, so we have 7 + 6 = 13 profit minus 4 dollars of fees.
+
+## Daily Coding Problem: Problem #1122 [Hard]
+
+This problem was asked by Two Sigma.
+
+Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
+
+- Player 1: `g`
+- Player 2: `h`
+- Player 1: `o`
+- Player 2: `s`
+- Player 1: `t` [loses]
+
+Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
+
+For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be `b`.
