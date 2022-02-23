@@ -312,3 +312,14 @@ Given a list of integers and a number K, return which contiguous elements of the
 
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
+## Daily Coding Problem: Problem #1126 [Medium]
+
+This problem was asked by Uber.
+
+Write a program that determines the smallest number of perfect squares that sum up to `N`.
+
+Here are a few examples:
+
+- Given `N = 4`, return `1` (4)
+- Given `N = 17`, return `2` (16 + 1)
+- Given `N = 18`, return `2` (9 + 9)
