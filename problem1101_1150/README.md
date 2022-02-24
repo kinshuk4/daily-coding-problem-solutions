@@ -323,3 +323,11 @@ Here are a few examples:
 - Given `N = 4`, return `1` (4)
 - Given `N = 17`, return `2` (16 + 1)
 - Given `N = 18`, return `2` (9 + 9)
+
+## Daily Coding Problem: Problem #1127 [Medium]
+
+This problem was asked by Amazon.
+
+Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
+
+For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
