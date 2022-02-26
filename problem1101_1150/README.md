@@ -339,3 +339,27 @@ This problem was asked by Microsoft.
 Given a number in the form of a list of digits, return all possible permutations.
 
 For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
+
+## Daily Coding Problem: Problem #1129 [Medium]
+
+This problem was asked by Google.
+
+Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
+
+For example, given the following preorder traversal:
+
+[a, b, d, e, c, f, g]
+
+And the following inorder traversal:
+
+[d, b, e, a, f, c, g]
+
+You should return the following tree:
+
+```
+    a
+   / \
+  b   c
+ / \ / \
+d  e f  g
+```
