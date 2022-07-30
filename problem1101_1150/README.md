@@ -530,3 +530,12 @@ This problem was asked by Google.
 
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
+## Daily Coding Problem: Problem #1144 [Easy]
+
+This problem was asked by Jane Street.
+
+Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following conditions:
+
+- `a + b = M`
+- `a XOR b = N`
+
