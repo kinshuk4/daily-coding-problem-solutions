@@ -539,3 +539,13 @@ Given integers `M` and `N`, write a program that counts how many positive intege
 - `a + b = M`
 - `a XOR b = N`
 
+## Daily Coding Problem: Problem #1145 [Medium]
+
+This problem was asked by Triplebyte.
+
+Implement a data structure which carries out the following operations without resizing the underlying array:
+
+- `add(value)`: Add a value to the set of values.
+- `check(value)`: Check whether a value is in the set.
+
+The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
