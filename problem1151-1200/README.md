@@ -1,3 +1,13 @@
+## Daily Coding Problem: Problem #1167 [Medium]
+
+This problem was asked by Google.
+
+Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, `pow(2, 10)` should return 1024.
+
 ## Daily Coding Problem: Problem #1166 [Medium]
 
 Given a 2-D matrix representing an image, a location of a pixel in the screen and a color `C`, replace the color of the given pixel and all adjacent same colored pixels with `C`.
