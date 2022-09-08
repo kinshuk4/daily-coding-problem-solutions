@@ -1,3 +1,11 @@
+## Daily Coding Problem: Problem #1183 [Easy]
+
+This problem was asked by Twitter.
+
+A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, `16891` is strobogrammatic.
+
+Create a program that finds all strobogrammatic numbers with `N` digits.
+
 ## Daily Coding Problem: Problem #1182 [Medium]
 
 This problem was asked by Etsy.
