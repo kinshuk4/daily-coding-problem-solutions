@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1186 [Easy]
+
+This problem was asked by Facebook.
+
+Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of `n` line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+
 ## Daily Coding Problem: Problem #1185 [Hard]
 
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
