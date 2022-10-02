@@ -1,3 +1,11 @@
+## Daily Coding Problem: Problem #1200 [Easy]
+
+This problem was asked by Facebook.
+
+Given a 32-bit integer, return the number with its bits reversed.
+
+For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+
 ## Daily Coding Problem: Problem #1199 [Medium]
 
 This problem was asked by Apple.
