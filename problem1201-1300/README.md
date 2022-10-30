@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1227 [Medium]
+
+This problem was asked by Google.
+
+Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
 ## Daily Coding Problem: Problem #1226 [Medium]
 
 This problem was asked by Yext.
