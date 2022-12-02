@@ -1,3 +1,34 @@
+## Daily Coding Problem: Problem #1259 [Medium]
+
+This problem was asked by LinkedIn.
+
+You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation called `flip`, which changes a single `x` to `y` or vice versa.
+
+Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
+
+## Daily Coding Problem: Problem #1258 [Medium]
+
+This problem was asked by Google.
+
+Given an `iterator` with methods `next()` and `hasNext()`, create a wrapper iterator, `PeekableInterface`, which also implements `peek()`. `peek` shows the next element that would be returned on `next()`.
+
+Here is the interface:
+
+```
+class PeekableInterface(object):
+    def __init__(self, iterator):
+        pass
+
+    def peek(self):
+        pass
+
+    def next(self):
+        pass
+
+    def hasNext(self):
+        pass
+```
+
 ## Daily Coding Problem: Problem #1257 [Medium]
 
 This problem was asked by Spotify.
