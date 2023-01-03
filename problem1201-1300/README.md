@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1291 [Easy]
+
+This problem was asked by IBM.
+
+Given an integer, find the next permutation of it in absolute order. For example, given `48975`, the next permutation would be `49578`.
+
 ## Daily Coding Problem: Problem #1290 [Medium]
 
 This problem was asked by Nvidia.
