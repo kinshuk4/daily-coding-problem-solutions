@@ -1,3 +1,7 @@
+## Daily Coding Problem: Problem #1319 [Medium]
+
+Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
+
 ## Daily Coding Problem: Problem #1318 [Easy]
 
 This problem was asked by Yahoo.
