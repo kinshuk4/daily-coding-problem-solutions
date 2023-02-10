@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1325 [Hard]
+
+This problem was asked by Etsy.
+
+Given a sorted array, convert it into a height-balanced binary search tree.
+
 ## Daily Coding Problem: Problem #1324 [Hard]
 
 This problem was asked by Twitter.
