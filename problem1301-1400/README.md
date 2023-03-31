@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1365 [Easy]
+
+This problem was asked by Amazon.
+
+Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
+
 ## Daily Coding Problem: Problem #1364 [Hard]
 
 This problem was asked by Google.
