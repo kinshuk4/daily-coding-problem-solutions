@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1368 [Hard]
+
+This problem was asked by Twitch.
+
+Describe what happens when you type a URL into your browser and press Enter.
+
 ## Daily Coding Problem: Problem #1367 [Medium]
 
 This problem was asked by Google.
