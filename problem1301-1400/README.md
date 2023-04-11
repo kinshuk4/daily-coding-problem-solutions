@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1376 [Hard]
+
+This problem was asked by Apple.
+
+Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
+
 ## Daily Coding Problem: Problem #1375 [Medium]
 
 This problem was asked by Dropbox.
