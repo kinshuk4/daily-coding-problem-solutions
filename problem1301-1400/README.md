@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1382 [Medium]
+
+This problem was asked by Facebook.
+
+Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
+
 ## Daily Coding Problem: Problem #1381 [Medium]
 
 This problem was asked by Dropbox.
