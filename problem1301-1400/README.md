@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1394 [Easy]
+
+This problem was asked by Google.
+
+Given the head of a singly linked list, reverse it in-place.
+
 ## Daily Coding Problem: Problem #1393 [Easy]
 
 This problem was asked by Bloomberg.
