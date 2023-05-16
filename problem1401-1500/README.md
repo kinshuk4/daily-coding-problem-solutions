@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1406 [Easy]
+
+This problem was asked by Facebook.
+
+Given a binary tree, return the level of the tree with minimum sum.
+
 ## Daily Coding Problem: Problem #1405 [Hard]
 
 This problem was asked by Quantcast.
