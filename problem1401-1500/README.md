@@ -1,3 +1,7 @@
+## Daily Coding Problem: Problem #1408 [Hard]
+
+Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
+
 ## Daily Coding Problem: Problem #1407 [Medium]
 
 This problem was asked by Mailchimp.
