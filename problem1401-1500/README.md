@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1426 [Hard]
+
+This problem was asked by Salesforce.
+
+Given an array of integers, find the maximum XOR of any two elements.
+
 ## Daily Coding Problem: Problem #1425 [Easy]
 
 This problem was asked by Microsoft.
