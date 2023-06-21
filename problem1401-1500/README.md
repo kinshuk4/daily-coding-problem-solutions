@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1432 [Medium]
+
+This question was asked by Snapchat.
+
+Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+
 ## Daily Coding Problem: Problem #1431 [Medium]
 
 This problem was asked by MongoDB.
