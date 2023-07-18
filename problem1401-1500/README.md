@@ -1,3 +1,29 @@
+## Daily Coding Problem: Problem #1459 [Medium]
+
+This problem was asked by Google.
+
+Invert a binary tree.
+
+For example, given the following tree:
+
+```
+    a
+   / \
+  b   c
+ / \  /
+d   e f
+```
+
+should become:
+
+```
+  a
+ / \
+ c  b
+ \  / \
+  f e  d
+```
+
 ## Daily Coding Problem: Problem #1458 [Medium]
 
 This problem was asked by Flipkart.
