@@ -1,3 +1,11 @@
+## Daily Coding Problem: Problem #1468 [Hard]
+
+This problem was asked by Google.
+
+A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
+
+Given N, write a function to return the number of knight's tours on an N by N chessboard.
+
 ## Daily Coding Problem: Problem #1467 [Easy]
 
 This problem was asked by Microsoft.
