@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1484 [Easy]
+
+This problem was asked by Amazon.
+
+Given an integer `N`, construct all possible binary search trees with `N` nodes.
+
 ## Daily Coding Problem: Problem #1483 [Medium]
 
 This problem was asked by Square.
