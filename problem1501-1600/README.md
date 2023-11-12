@@ -1,3 +1,11 @@
+## Daily Coding Problem: Problem #1553 [Hard]
+
+This problem was asked by Airbnb.
+
+You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
+
+For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
+
 ## Daily Coding Problem: Problem #1552 [Easy]
 
 This problem was asked by Facebook.
