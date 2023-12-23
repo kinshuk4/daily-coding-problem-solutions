@@ -1,3 +1,11 @@
+## Daily Coding Problem: Problem #1590 [Medium]
+
+This problem was asked by Amazon.
+
+Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
+
+For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
+
 ## Daily Coding Problem: Problem #1589 [Easy]
 
 This problem was asked by Facebook.
