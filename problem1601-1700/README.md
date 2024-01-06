@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1603 [Easy]
+
+This problem was asked by Pivotal.
+
+Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
+
 ## Daily Coding Problem: Problem #1602 [Medium]
 
 This problem was asked by LinkedIn.
