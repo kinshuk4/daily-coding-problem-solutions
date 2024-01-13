@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1610 [Medium]
+
+This problem was asked by Facebook.
+
+Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+
 ## Daily Coding Problem: Problem #1609 [Hard]
 
 This problem was asked by Twitter.
