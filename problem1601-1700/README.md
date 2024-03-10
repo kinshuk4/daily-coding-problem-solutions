@@ -1,3 +1,11 @@
+## Daily Coding Problem: Problem #1648 [Medium]
+
+This problem was asked by Quora.
+
+Given an absolute pathname that may have `.` or `..` as part of it, return the shortest standardized path.
+
+For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
+
 ## Daily Coding Problem: Problem #1647 [Medium]
 
 This problem was asked by Square.
