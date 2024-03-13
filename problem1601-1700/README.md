@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1650 [Hard]
+
+This problem was asked by Microsoft.
+
+Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the *maximum* weight spanning tree.
+
 ## Daily Coding Problem: Problem #1649 [Easy]
 
 This problem was asked by Dropbox.
