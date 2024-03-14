@@ -1,3 +1,11 @@
+## Daily Coding Problem: Problem #1651 [Hard]
+
+This problem was asked by Apple.
+
+You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a buffer of `B` songs between repeats.
+
+Given `N`, `M`, and `B`, determine the number of valid playlists.
+
 ## Daily Coding Problem: Problem #1650 [Hard]
 
 This problem was asked by Microsoft.
