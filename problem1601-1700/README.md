@@ -1,3 +1,11 @@
+## Daily Coding Problem: Problem #1666 [Easy]
+
+This problem was asked by Amazon.
+
+Given `n` numbers, find the greatest common denominator between them.
+
+For example, given the numbers `[42, 56, 14]`, return `14`.
+
 ## Daily Coding Problem: Problem #1665 [Medium]
 
 This problem was asked by LinkedIn.
