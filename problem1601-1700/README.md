@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1675 [Easy]
+
+This problem was asked by Pandora.
+
+Given an undirected graph, determine if it contains a cycle.
+
 ## Daily Coding Problem: Problem #1674 [Hard]
 
 This problem was asked by Google.
