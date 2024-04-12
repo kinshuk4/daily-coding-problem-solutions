@@ -1,3 +1,9 @@
+## Daily Coding Problem: Problem #1678 [Medium]
+
+This question was asked by ContextLogic.
+
+Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+
 ## Daily Coding Problem: Problem #1677 [Easy]
 
 This problem was asked by Google.
