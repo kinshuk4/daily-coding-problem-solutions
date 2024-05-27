@@ -34,7 +34,7 @@ Follow-up: what if you can't use division?
 
 Given the root to a binary tree, implement serialize(root), which  serializes the tree into a string, and deserialize(s), which  deserializes the string back into the tree. For example, given the following Node class
 
-```
+```python
 class Node:
     def __init__(self, val, left=None, right=None):
         self.val = val
@@ -55,9 +55,7 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 
 > This problem was asked by Stripe.
 
-Given an array of integers, find the first missing positive integer  in linear time and constant space. In other words, find the lowest  positive integer that does not exist in the array. The array can contain  duplicates and negative numbers as well. For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` should give `3`. You can modify the input array in-place.
-
-[JS](https://github.com/EISAWESOME/daily-coding-problem/blob/master/pb4/answer.js) (3:47)
+Given an array of integers, find the first missing positive integer  in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain  duplicates and negative numbers as well. For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` should give `3`. You can modify the input array in-place.
 
 ---
 
