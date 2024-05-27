@@ -1,4 +1,6 @@
-### Problem 301
+# Daily Coding Problems 301 - 400
+
+## Problem 301
 
 This problem was asked by Triplebyte.
 
@@ -13,7 +15,7 @@ The check method may return occasional false positives (in other words, incorrec
 
 ---
 
-### Problem 302
+## Problem 302
 
 This problem was asked by Uber.
 
@@ -33,7 +35,7 @@ Considering the edges of the matrix as boundaries, this divides the grid into th
 
 ---
 
-### Problem 303
+## Problem 303
 
 This problem was asked by Microsoft.
 
@@ -45,7 +47,7 @@ Bonus: When, during the course of a day, will the angle be zero?
 
 ---
 
-### Problem 304
+## Problem 304
 
 This problem was asked by Two Sigma.
 
@@ -57,7 +59,7 @@ After `k` moves, what is the probability that the knight remains on the board?
 
 ---
 
-### Problem 305
+## Problem 305
 
 This problem was asked by Amazon.
 
@@ -69,7 +71,7 @@ For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In 
 
 ---
 
-### Problem 306
+## Problem 306
 
 This problem was asked by Palantir.
 
@@ -81,7 +83,7 @@ Come up with an algorithm that sorts this list in `O(N log k)` time.
 
 ---
 
-### Problem 307
+## Problem 307
 
 This problem was asked by Oracle.
 
@@ -93,7 +95,7 @@ If either value does not exist, return None.
 
 ---
 
-### Problem 308
+## Problem 308
 
 This problem was asked by Quantcast.
 
@@ -110,7 +112,7 @@ For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, the
 
 ---
 
-### Problem 309
+## Problem 309
 
 This problem was asked by Walmart Labs.
 
@@ -124,7 +126,7 @@ Given an input such as the one above, return the lowest possible cost of moving 
 
 ---
 
-### Problem 310
+## Problem 310
 
 This problem was asked by Pivotal.
 
@@ -134,7 +136,7 @@ Write an algorithm that finds the total number of set bits in all integers betwe
 
 ---
 
-### Problem 311
+## Problem 311
 
 This problem was asked by Sumo Logic.
 
@@ -146,7 +148,7 @@ An element is considered a peak if it is greater than both its left and right ne
 
 ---
 
-### Problem 312
+## Problem 312
 
 This problem was asked by Wayfair.
 
@@ -168,7 +170,7 @@ Given an integer N, determine in how many ways this task is possible.
 
 ---
 
-### Problem 313
+## Problem 313
 
 This problem was asked by Citrix.
 
@@ -182,7 +184,7 @@ Let us consider a "move" to be a rotation of a single wheel by one digit, in eit
 
 ---
 
-### Problem 314
+## Problem 314
 
 This problem was asked by Spotify.
 
@@ -196,7 +198,7 @@ For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In
 
 ---
 
-### Problem 315
+## Problem 315
 
 This problem was asked by Google.
 
@@ -217,7 +219,7 @@ Write a program to determine whether a given input is a Toeplitz matrix.
 
 ---
 
-### Problem 316
+## Problem 316
 
 This problem was asked by Snapchat.
 
@@ -229,7 +231,7 @@ Given such an array, determine the denominations that must be in use. In the cas
 
 ---
 
-### Problem 317
+## Problem 317
 
 This problem was asked by Yahoo.
 
@@ -239,7 +241,7 @@ Write a function that returns the bitwise `AND` of all integers between `M` and 
 
 ---
 
-### Problem 318
+## Problem 318
 
 This problem was asked by Apple.
 
@@ -251,7 +253,7 @@ Given `N`, `M`, and `B`, determine the number of valid playlists.
 
 ---
 
-### Problem 319
+## Problem 319
 
 This problem was asked by Airbnb.
 
@@ -263,7 +265,7 @@ Design a class to represent the board, and find a series of steps to bring the b
 
 ---
 
-### Problem 320
+## Problem 320
 
 This problem was asked by Amazon.
 
@@ -275,7 +277,7 @@ For example, given "jiujitsu", you should return 5, corresponding to the final f
 
 ---
 
-### Problem 321
+## Problem 321
 
 This problem was asked by PagerDuty.
 
@@ -292,7 +294,7 @@ For example, given `100`, you can reach `1` in five steps with the following rou
 
 ---
 
-### Problem 322
+## Problem 322
 
 This problem was asked by Flipkart.
 
@@ -306,7 +308,7 @@ Find a path with the fewest number of jumps required to get from `0` to `N`.
 
 ---
 
-### Problem 323
+## Problem 323
 
 This problem was asked by Dropbox.
 
@@ -318,7 +320,7 @@ More precisely, given an unordered list of `N` numbers, find an element whose ra
 
 ---
 
-### Problem 324
+## Problem 324
 
 This problem was asked by Amazon.
 
@@ -332,7 +334,7 @@ For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes a
 
 ---
 
-### Problem 325
+## Problem 325
 
 This problem was asked by Jane Street.
 
@@ -344,7 +346,7 @@ Create a data structure that can efficiently convert a certain quantity of one u
 
 ---
 
-### Problem 326
+## Problem 326
 
 This problem was asked by Netflix.
 
@@ -368,7 +370,7 @@ Given a sequence S, construct the corresponding Cartesian tree.
 
 ---
 
-### Problem 327
+## Problem 327
 
 This problem was asked by Salesforce.
 
@@ -380,7 +382,7 @@ If only one input tree has a node in a given position, the corresponding node in
 
 ---
 
-### Problem 328
+## Problem 328
 
 This problem was asked by Facebook.
 
@@ -394,7 +396,7 @@ Implement this system.
 
 ---
 
-### Problem 329
+## Problem 329
 
 This problem was asked by Amazon.
 
@@ -423,7 +425,7 @@ Write an algorithm that pairs the men and women together in such a way that no t
 
 ---
 
-### Problem 330
+## Problem 330
 
 This problem was asked by Dropbox.
 
@@ -445,7 +447,7 @@ Given a 2-CNF formula, find a way to assign truth values to satisfy it, or retur
 
 ---
 
-### Problem 331
+## Problem 331
 
 This problem was asked by LinkedIn.
 
@@ -457,7 +459,7 @@ Determine how many times you would need to apply this operation to ensure that a
 
 ---
 
-### Problem 332
+## Problem 332
 
 This problem was asked by Jane Street.
 
@@ -472,7 +474,7 @@ a XOR b = N
 
 ---
 
-### Problem 333
+## Problem 333
 
 This problem was asked by Pinterest.
 
@@ -484,7 +486,7 @@ Given a list of `N` people and the above operation, find a way to identify the c
 
 ---
 
-### Problem 334
+## Problem 334
 
 This problem was asked by Twitter.
 
@@ -498,7 +500,7 @@ Write a function that plays the `24` game.
 
 ---
 
-### Problem 335
+## Problem 335
 
 This problem was asked by Google.
 
@@ -518,7 +520,7 @@ Given a directed graph of links between various websites, write a program that c
 
 ---
 
-### Problem 336
+## Problem 336
 
 This problem was asked by Microsoft.
 
@@ -536,7 +538,7 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 
 ---
 
-### Problem 337
+## Problem 337
 
 This problem was asked by Apple.
 
@@ -546,7 +548,7 @@ Given a linked list, uniformly shuffle the nodes. What if we want to prioritize 
 
 ---
 
-### Problem 338
+## Problem 338
 
 This problem was asked by Facebook.
 
@@ -556,7 +558,7 @@ Given an integer `n`, find the next biggest integer with the same number of `1`-
 
 ---
 
-### Problem 339
+## Problem 339
 
 This problem was asked by Microsoft.
 
@@ -566,7 +568,7 @@ Given an array of numbers and a number `k`, determine if there are three entries
 
 ---
 
-### Problem 340
+## Problem 340
 
 This problem was asked by Google.
 
@@ -576,7 +578,7 @@ Given a set of points `(x, y)` on a 2D cartesian plane, find the two closest poi
 
 ---
 
-### Problem 341
+## Problem 341
 
 This problem was asked by Google.
 
@@ -609,7 +611,7 @@ Your function should return 3, since we can make the words 'eat', 'in', and 'rat
 
 ---
 
-### Problem 342
+## Problem 342
 
 This problem was asked by Stripe.
 
@@ -633,7 +635,7 @@ Implement your own version of reduce.
 
 ---
 
-### Problem 343
+## Problem 343
 
 This problem was asked by Google.
 
@@ -655,7 +657,7 @@ and the range `[4, 9]`, return `23 (5 + 4 + 6 + 8)`.
 
 ---
 
-### Problem 344
+## Problem 344
 
 This problem was asked by Adobe.
 
@@ -681,7 +683,7 @@ Write a function that returns the maximum number of edges you can remove while s
 
 ---
 
-### Problem 345
+## Problem 345
 
 This problem was asked by Google.
 
@@ -700,7 +702,7 @@ Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b
 
 ---
 
-### Problem 346
+## Problem 346
 
 This problem was asked by Airbnb.
 
@@ -728,7 +730,7 @@ Due to some improbably low flight prices, the cheapest itinerary would be JFK ->
 
 ---
 
-### Problem 347
+## Problem 347
 
 This problem was asked by Yahoo.
 
@@ -742,7 +744,7 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 
 ---
 
-### Problem 348
+## Problem 348
 
 This problem was asked by Zillow.
 
@@ -772,7 +774,7 @@ Implement insertion and search functions for a ternary search tree.
 
 ---
 
-### Problem 349
+## Problem 349
 
 This problem was asked by Grammarly.
 
@@ -805,7 +807,7 @@ Implement Soundex.
 
 ---
 
-### Problem 350
+## Problem 350
 
 This problem was asked by Uber.
 
@@ -821,7 +823,7 @@ Here are a few examples:
 
 ---
 
-### Problem 351
+## Problem 351
 
 This problem was asked by Quora.
 
@@ -843,7 +845,7 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 
 ---
 
-### Problem 352
+## Problem 352
 
 This problem was asked by Palantir.
 
@@ -860,7 +862,7 @@ Write a program to determine whether a given matrix qualifies as a crossword gri
 
 ---
 
-### Problem 353
+## Problem 353
 
 This problem was asked by Square.
 
@@ -880,7 +882,7 @@ Determine the area of the largest rectangle that can be formed only from the bar
 
 ---
 
-### Problem 354
+## Problem 354
 
 This problem was asked by Google.
 
@@ -899,7 +901,7 @@ Some questions you may want to consider as part of your solution are:
 
 ---
 
-### Problem 355
+## Problem 355
 
 This problem was asked by Airbnb.
 
@@ -916,7 +918,7 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 
 ---
 
-### Problem 356
+## Problem 356
 
 This problem was asked by Netflix.
 
@@ -928,7 +930,7 @@ The queue should support `enqueue`, `dequeue`, and `get_size` operations.
 
 ---
 
-### Problem 357
+## Problem 357
 
 This problem was asked by LinkedIn.
 
@@ -948,7 +950,7 @@ Given this representation, determine the depth of the tree.
 
 ---
 
-### Problem 358
+## Problem 358
 
 This problem was asked by Dropbox.
 
@@ -963,7 +965,7 @@ Create a data structure that performs all the following operations in `O(1)` tim
 
 ---
 
-### Problem 359
+## Problem 359
 
 This problem was asked by Slack.
 
@@ -977,7 +979,7 @@ Given this string, return the original integers in sorted order. In the example 
 
 ---
 
-### Problem 360
+## Problem 360
 
 This problem was asked by Spotify.
 
@@ -991,7 +993,7 @@ For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In
 
 ---
 
-### Problem 361
+## Problem 361
 
 This problem was asked by Facebook.
 
@@ -1011,7 +1013,7 @@ However, it is impossible for any key to result in the following scores, so in t
 
 ---
 
-### Problem 362
+## Problem 362
 
 This problem was asked by Twitter.
 
@@ -1023,7 +1025,7 @@ Create a program that finds all strobogrammatic numbers with N digits.
 
 ---
 
-### Problem 363
+## Problem 363
 
 Write a function, add_subtract, which alternately adds and subtracts curried arguments. Here are some sample operations:
 
@@ -1037,7 +1039,7 @@ add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 
 ---
 
-### Problem 364
+## Problem 364
 
 This problem was asked by Facebook.
 
@@ -1047,7 +1049,7 @@ Describe an algorithm to compute the longest increasing subsequence of an array 
 
 ---
 
-### Problem 365
+## Problem 365
 
 This problem was asked by Google.
 
