@@ -3,6 +3,7 @@
 This problem was asked by Triplebyte.
 
 Implement a data structure which carries out the following operations without resizing the underlying array:
+
 - `add(value)`: Add a value to the set of values.
 - `check(value)`: Check whether a value is in the set.
 
@@ -19,6 +20,7 @@ This problem was asked by Uber.
 You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
 
 For example, suppose the input for a three-by-six grid is the following:
+
 ```
 \    /
  \  /
@@ -96,6 +98,7 @@ If either value does not exist, return None.
 This problem was asked by Quantcast.
 
 You are presented with an array representing a Boolean expression. The elements are of two kinds:
+
 - `T` and `F`, representing the values `True` and `False`.
 - `&`, `|`, and `^`, representing the bitwise operators for `AND`, `OR`, and `XOR`.
 
@@ -148,6 +151,7 @@ An element is considered a peak if it is greater than both its left and right ne
 This problem was asked by Wayfair.
 
 You are given a `2 x N` board, and instructed to completely cover the board with the following shapes:
+
 - Dominoes, or `2 x 1` rectangles.
 - Trominoes, or L-shapes.
 
@@ -199,6 +203,7 @@ This problem was asked by Google.
 In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
 
 Here is an example:
+
 ```
 1 2 3 4 8
 5 1 2 3 4
@@ -277,6 +282,7 @@ This problem was asked by PagerDuty.
 Given a positive integer `N`, find the smallest number of steps it will take to reach `1`.
 
 There are two kinds of permitted steps:
+
 - You may decrement `N` to `N - 1`.
 - If `a * b = N`, you may decrement `N` to the larger of `a` and `b`.
 
@@ -577,17 +583,20 @@ This problem was asked by Google.
 You are given an N by N matrix of random letters and a dictionary of words. Find the maximum number of words that can be packed on the board from the given dictionary.
 
 A word is considered to be able to be packed on the board if:
+
 - It can be found in the dictionary
 - It can be constructed from untaken letters by other words found so far on the board
 - The letters are adjacent to each other (vertically and horizontally, not diagonally).
 - Each tile can be visited only once by any word.
 
 For example, given the following dictionary:
+
 ```
 { 'eat', 'rain', 'in', 'rat' }
 ```
 
 and matrix:
+
 ```
 [['e', 'a', 'n'],
  ['t', 't', 'i'],
@@ -631,6 +640,7 @@ This problem was asked by Google.
 Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
 
 For example, given the following tree:
+
 ```
     5
    / \
@@ -652,6 +662,7 @@ This problem was asked by Adobe.
 You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an "edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even number of nodes.
 
 For example, suppose your input was the following tree:
+
 ```
    1
   / \ 
@@ -677,6 +688,7 @@ This problem was asked by Google.
 You are given a set of synonyms, such as `(big, large)` and `(eat, consume)`. Using this set, determine if two sentences with the same number of words are equivalent.
 
 For example, the following two sentences are equivalent:
+
 - "He wants to eat food."
 - "He wants to consume food."
 
@@ -735,6 +747,7 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 This problem was asked by Zillow.
 
 A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example which represents the words `code`, `cob`, `be`, `ax`, `war`, and `we`.
+
 ```
        c
     /  |  \
@@ -746,6 +759,7 @@ x   b  e   r  e
 ```
 
 The tree is structured according to the following rules:
+
 - left child nodes link to words lexicographically earlier than the parent prefix
 - right child nodes link to words lexicographically later than the parent prefix
 - middle child nodes continue the current word
@@ -767,10 +781,12 @@ Soundex is an algorithm used to categorize phonetically, such that two names tha
 Soundex maps every name to a string consisting of one letter and three numbers, like `M460`.
 
 One version of the algorithm is as follows:
+
 - Remove consecutive consonants with the same sound (for example, change `ck -> c`).
 - Keep the first letter. The remaining steps only apply to the rest of the string.
 - Remove all vowels, including `y`, `w`, and `h`.
 - Replace all consonants with the following digits:
+
     ```
     b, f, p, v -> 1
     c, g, j, k, q, s, x, z -> 2
@@ -796,6 +812,7 @@ This problem was asked by Uber.
 Write a program that determines the smallest number of perfect squares that sum up to `N`.
 
 Here are a few examples:
+
 - Given `N = 4`, return `1` `(4)`
 - Given `N = 17`, return `2` `(16 + 1)`
 - Given `N = 18`, return `2` `(9 + 9)`
@@ -811,6 +828,7 @@ This problem was asked by Quora.
 Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the bank", bank probably means the place where people deposit money, not the land beside a river or lake.
 
 Suppose you are given a list of meanings for several words, formatted like so:
+
 ```
 {
     "word_1": ["meaning one", "meaning two", ...],
@@ -830,6 +848,7 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 This problem was asked by Palantir.
 
 A typical American-style crossword puzzle grid is an `N x N` matrix with black and white squares, which obeys the following rules:
+
 - Every white square must be part of an "across" word and a "down" word.
 - No word can be fewer than three letters long.
 - Every white square must be reachable from every other white square.
@@ -870,6 +889,7 @@ Design a system to crawl and copy all of Wikipedia using a distributed network o
 More specifically, suppose your server has access to a set of client machines. Your client machines can execute code you have written to access Wikipedia pages, download and parse their data, and write the results to a database.
 
 Some questions you may want to consider as part of your solution are:
+
 - How will you reach as many pages as possible?
 - How can you keep track of pages that have already been visited?
 - How will you deal with your client machines being blacklisted?
@@ -886,6 +906,7 @@ This problem was asked by Airbnb.
 You are given an array `X` of floating-point numbers `x1, x2, ... xn`. These can be rounded up or down to create a corresponding array `Y` of integers `y1, y2, ... yn`.
 
 Write an algorithm that finds an appropriate `Y` array with the following properties:
+
 - The rounded sums of both arrays should be equal.
 - The absolute pairwise difference between elements is minimized. In other words, `|x1- y1| + |x2- y2| + ... + |xn- yn|` should be as small as possible.
 
@@ -916,6 +937,7 @@ You are given a binary tree in a peculiar string representation. Each node is wr
 If either `l` or `r` is null, it will be represented as a zero. Otherwise, it will be represented by a new `(lr)` pair.
 
 Here are a few examples:
+
 - A root node with no children: `(00)`
 - A root node with two children: `((00)(00))`
 - An unbalanced tree with three consecutive left children: `((((00)0)0)0)`
@@ -931,6 +953,7 @@ Given this representation, determine the depth of the tree.
 This problem was asked by Dropbox.
 
 Create a data structure that performs all the following operations in `O(1)` time:
+
 - `plus`: Add a key with value 1. If the key already exists, increment its value by one.
 - `minus`: Decrement the value of a key. If the key's value is currently 1, remove it.
 - `get_max`: Return a key with the highest value.
@@ -1029,6 +1052,7 @@ Describe an algorithm to compute the longest increasing subsequence of an array 
 This problem was asked by Google.
 
 A quack is a data structure combining properties of both stacks and queues. It can be viewed as a list of elements written left to right such that three operations are possible:
+
 - `push(x)`: add a new item `x` to the left end of the list
 - `pop()`: remove and return the item on the left end of the list
 - `pull()`: remove the item on the right end of the list.
@@ -1068,8 +1092,6 @@ for num in merge_iterators(foo, bar):
 
 Bonus: Make it work without pulling in the contents of the iterators in memory.
 
-
-
 ## Problem 368 (Hard)
 
 This problem was asked by Google.
@@ -1089,8 +1111,6 @@ kv.update(2, 1)
 
 And then called `kv.max_key(1)`, it should return `2`, since it's the largest key with value `1`.
 
-
-
 ## Problem 369 (Medium)
 
 This problem was asked by Two Sigma.
@@ -1098,8 +1118,6 @@ This problem was asked by Two Sigma.
 You’re tracking stock price at a given instance of time. Implement an API with the following functions: add(), update(), remove(), which adds/updates/removes a datapoint for the stock price you are tracking. The data is given as (timestamp, price), where timestamp is specified in unix epoch time.
 
 Also, provide max(), min(), and average() functions that give the max/min/average of all values seen thus far.
-
-
 
 ## Problem 370 (Easy)
 
@@ -1148,8 +1166,6 @@ The equations use addition only and are separated by newlines. Return a mapping 
 }
 ```
 
-
-
 ## Problem 372 (Easy)
 
 This problem was asked by Amazon.
@@ -1174,15 +1190,13 @@ Given a sorted array `arr` of distinct integers, return the lowest index `i` for
 
 For example, given the array `[-5, -3, 2, 3]`, return `2` since `arr[2] == 2`. Even though `arr[3] == 3`, we return 2 since it's the lowest index.
 
-
-
 ## Problem 375 (Medium)
 
 This problem was asked by Google.
 
 The h-index is a metric used to measure the impact and productivity of a scientist or researcher.
 
-A scientist has index _h_ if _h_ of their _N_ papers have **at least** _h_ citations each, and the other *N - h* papers have no more than _h_ citations each. If there are multiple possible values for _h_, the maximum value is used.
+A scientist has index _h_ if _h_ of their _N_ papers have **at least** _h_ citations each, and the other _N - h_ papers have no more than _h_ citations each. If there are multiple possible values for _h_, the maximum value is used.
 
 Given an array of natural numbers, with each value representing the number of citations of a researcher's paper, return the h-index of that researcher.
 
@@ -1223,8 +1237,6 @@ Our position: (0, 2)
 Coins: [(## Problem 0, 4), (1, 0), (2, 0), (3, 2)]
 ```
 
-
-
 ## Problem 377 (Hard)
 
 This problem was asked by Microsoft.
@@ -1250,8 +1262,6 @@ Your function should print out the following:
 
 Recall that the median of an even-sized list is the average of the two middle numbers.
 
-
-
 ## Problem 378 (Medium)
 
 This problem was asked by Coinbase.
@@ -1269,8 +1279,6 @@ You should return the following, as a string:
 ```
 '[null, 123, ["a", "b"], {"c": "d"}]'
 ```
-
-
 
 ## Problem 379 (Easy)
 
@@ -1291,8 +1299,6 @@ xyz
 ```
 
 Note that `zx` is not a valid subsequence since it is not in the order of the given string.
-
-
 
 ## Problem 380 (Medium)
 
@@ -1323,8 +1329,6 @@ should produce:
 ```
 3q2+7w==
 ```
-
-
 
 ## Problem 382 (Easy)
 
@@ -1439,8 +1443,6 @@ You should return the following:
 ['/login', '/user', '/one']
 ```
 
-
-
 ## Problem 392 (Hard)
 
 This problem was asked by Google.
@@ -1510,8 +1512,6 @@ Return:
  ['now']]
 ```
 
-
-
 ## Problem 396 (Hard)
 
 This problem was asked by Google.
@@ -1555,8 +1555,6 @@ Return:
 (8, 11)]
 ```
 
-
-
 ## Problem 398 (Medium)
 
 This problem was asked by Amazon.
@@ -1588,8 +1586,6 @@ Return the following 3 partitions:
 ```
 
 Which each add up to 8.
-
-
 
 ## Problem 400 (Hard)
 

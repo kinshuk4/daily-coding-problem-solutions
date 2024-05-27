@@ -525,8 +525,6 @@ Suppose you are given a table of currency exchange rates, represented as a 2D ar
 
 There are no transaction costs and you can trade fractional quantities.
 
-
-
 ## Problem 551 (Medium)
 
 This problem was asked by Square.

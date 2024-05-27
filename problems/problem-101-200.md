@@ -31,8 +31,6 @@ Given a list of integers and a number K, return which contiguous elements of the
 
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4].
 
-
-
 ## Problem #103
 
 > This problem was asked by Square.
@@ -117,8 +115,6 @@ For example, given the tree
 
 it should return [[1, 2], [1, 3, 4], [1, 3, 5]].
 
-
-
 ## Problem #111
 
 > This problem was asked by Google.
@@ -193,10 +189,6 @@ For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of nu
 
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
 
-
-
-
-
 ## Problem #121
 
 > This problem was asked by Google.
@@ -240,8 +232,6 @@ And here are examples of non-numbers:
 - "a -2"
 - "-"
 
-
-
 ## Problem #124
 
 > This problem was asked by Microsoft.
@@ -249,8 +239,6 @@ And here are examples of non-numbers:
 You have 100 fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
 
 Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
-
-
 
 ## Problem #125
 
@@ -304,8 +292,6 @@ return 124 (99 + 25) as:
 ```
 4 -> 2 -> 1
 ```
-
-
 
 ## Problem #128
 
@@ -440,8 +426,6 @@ A bit array is a space efficient array that holds a value of `1` or `0` at each 
 - `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
 - `get(i)`: gets the value at index `i`.
 
-
-
 ## Problem #138
 
 > This problem was asked by Google.
@@ -503,8 +487,6 @@ class Stack:
         pass
 ```
 
-
-
 ## Problem #142
 
 > This problem was asked by Google.
@@ -512,8 +494,6 @@ class Stack:
 You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
 
 For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
-
-
 
 ## Problem #143
 
@@ -593,10 +573,6 @@ Given a number of bits `n`, generate a possible gray code for it.
 
 For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
 
-
-
-
-
 ## Problem #149
 
 > This problem was asked by Goldman Sachs.
@@ -607,16 +583,15 @@ For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])
 
 You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
 
-
-
 ## Problem #150
 
 > This problem was asked by LinkedIn.
 
 Given a list of points, a central point, and an integer `k`, find the nearest `k` points from the central point.
 
-For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`.
+For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`
 ---
+
 ## Problem 151
 
 Given a 2-D matrix representing an image, a location of a pixel in the screen and a color `C`, replace the color of the given pixel and all adjacent same colored pixels with `C`.
@@ -947,6 +922,7 @@ Describe and give an example of each of the following types of polymorphism:
     Subtype polymorphism
 
 ## Problem 175 (Easy)
+>
 > This problem was asked by Google.
 
 You are given a starting state start, a list of transition probabilities for a Markov chain, and a number of steps num_steps. Run the Markov chain starting from start for num_steps and compute the number of times we visited each state.
@@ -977,6 +953,7 @@ For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a`
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
 ## Problem 177 (Easy)
+>
 > This problem was asked by Airbnb.
 
 Given a linked list and a positive integer k, rotate the list to the right by k places.
@@ -997,8 +974,8 @@ The second game: same, except that the stopping condition is a five followed by 
 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
-
 ## Problem 179 (Medium)
+>
 > This problem was asked by Google.
 
  Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
@@ -1010,7 +987,6 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
       3   7
      / \   \
     2   4   8
-
 
 ## Problem 180 (Medium)
 
@@ -1025,6 +1001,7 @@ For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. 
 Hint: Try working backwards from the end state.
 
 ## Problem 181 (Hard)
+>
 > This problem was asked by Google.
 
 Given a string, split it into as few strings as possible such that each string is a palindrome.
@@ -1033,8 +1010,8 @@ For example, given the input string racecarannakayak, return ["racecar", "anna",
 
 Given the input string abc, return ["a", "b", "c"].
 
-
 ## Problem 182 (Medium)
+>
 > This problem was asked by Facebook.
 
 A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
@@ -1088,8 +1065,6 @@ return 6.
 Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
 
 For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of 5, which is the smallest possible difference.
-
-
 
 ## Problem 187 (Easy)
 
@@ -1170,8 +1145,6 @@ For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return 1 as the last 
 
 The intervals are not necessarily sorted in any order.
 
-
-
 ## Problem 192 ( Medium)
 
 > This problem was asked by Google.
@@ -1191,8 +1164,6 @@ Given a array of numbers representing the stock prices of a company in chronolog
 You must buy before you can sell the stock, but you can make as many transactions as you like.
 
 For example, given [1, 3, 2, 8, 4, 10] and `fee = 2`, you should return 9, since you could buy the stock at 1 dollar, and sell at 8 dollars, and then buy it at 4 dollars and sell it at 10 dollars. Since we did two transactions, there is a 4 dollar fee, so we have 7 + 6 = 13 profit minus 4 dollars of fees.
-
-
 
 ## Problem 194 (Easy)
 
@@ -1267,4 +1238,3 @@ Let X be a set of n intervals on the real line. We say that a set of points P "s
 For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should return `[4, 9]`.
 
 ---
-

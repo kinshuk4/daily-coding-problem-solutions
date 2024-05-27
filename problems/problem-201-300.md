@@ -109,6 +109,7 @@ Write a program that computes the length of the longest common subsequence of th
 This problem was asked by Apple.
 
 A Collatz sequence in mathematics can be defined as follows. Starting with any positive integer:
+
 * If `n` is even, the next number in the sequence is `n / 2`
 * If `n` is odd, the next number in the sequence is `3n + 1`
 It is conjectured that every such sequence eventually reaches the number `1`. Test this conjecture.
@@ -174,6 +175,7 @@ This problem was asked by Yelp.
 The horizontal distance of a binary tree node describes how far left or right the node will be when the tree is printed out.
 
 More rigorously, we can define it as follows:
+
 * The horizontal distance of the root is `0`.
 * The horizontal distance of a left child is `hd(parent) - 1`.
 * The horizontal distance of a right child is `hd(parent) + 1`.
@@ -207,6 +209,7 @@ This problem was asked by Facebook.
 Given a number in Roman numeral format, convert it to decimal.
 
 The values of Roman numerals are as follows:
+
 ```
 {
     'M': 1000,
@@ -505,6 +508,7 @@ Given a k-ary tree, determine whether it is symmetric.
 This problem was asked by MIT.
 
 Blackjack is a two player card game whose rules are as follows:
+
 * The player and then the dealer are each given two cards.
 * The player can then "hit", or ask for arbitrarily many additional cards, so long as their total does not exceed 21.
 * The dealer must then hit if their total is 16 or lower, otherwise pass.
@@ -568,6 +572,7 @@ Given a list of paper citations of a researcher, calculate their h-index.
 This problem was asked by Twitter.
 
 You are given an array of length 24, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
+
 * `update(hour: int, value: int)`: Increment the element at index hour by value.
 * `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between start and end (inclusive).
 You can assume that all values get cleared at the end of the day, and that you will not be asked for start and end values that wrap around midnight.
@@ -672,6 +677,7 @@ For example, a puzzle of the form:
 --------
  MONEY
 ```
+
 may have the solution:
 
 `{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O': 0, 'R': 8, 'Y': 2}`
@@ -750,6 +756,7 @@ f         e
         /   \
        g     h
 ```
+
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution254.java)
 
 ---
@@ -761,6 +768,7 @@ This problem was asked by Microsoft.
 The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix `M`, where `M[i][j] == 1` if there is a path between vertices `i` and `j`, and otherwise `0`.
 
 For example, suppose we are given the following graph in adjacency list form:
+
 ```
 graph = [
     [0, 1, 3],
@@ -771,6 +779,7 @@ graph = [
 ```
 
 The transitive closure of this graph would be:
+
 ```
 [1, 1, 1, 1]
 [0, 1, 1, 0]
@@ -877,6 +886,7 @@ Here is an example tree (note that only the leaf nodes have letters):
  /             \
 c               s
 ```
+
 With this encoding, cats would be represented as `0000110111`.
 
 Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
@@ -902,6 +912,7 @@ This problem was asked by Nest.
 Create a basic sentence checker that takes in a stream of characters and determines whether they form valid sentences. If a sentence is valid, the program should print it out.
 
 We can consider a sentence valid if it conforms to the following rules:
+
 * The sentence must start with a capital letter, followed by a lowercase letter or a space.
 * All other characters must be lowercase letters, separators `(,,;,:)` or terminal marks `(.,?,!,‽)`.
 * There must be a single space between each word.
@@ -993,6 +1004,7 @@ Given a 32-bit positive integer `N`, determine whether it is a power of four in 
 This problem was asked by Microsoft.
 
 You are given an string representing the initial conditions of some dominoes. Each element can take one of three values:
+
 * `L`, meaning the domino has just been pushed to the left,
 * `R`, meaning the domino has just been pushed to the right, or
 * `.`, meaning the domino is standing still.
@@ -1128,6 +1140,7 @@ This problem was asked by Google.
 UTF-8 is a character encoding that maps each symbol to one, two, three, or four bytes.
 
 For example, the Euro sign, `€`, corresponds to the three bytes `11100010 10000010 10101100`. The rules for mapping characters are as follows:
+
 * For a single-byte character, the first bit must be zero.
 * For an `n`-byte character, the first byte starts with `n` ones and a zero. The other `n - 1` bytes all start with `10`.
 Visually, this can be represented as follows.
@@ -1174,6 +1187,7 @@ A classroom consists of N students, whose friendships can be represented in an a
     6: [3]
 }
 ```
+
 Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. For the example above, the friend groups would be `{0, 1, 2, 5}, {3, 6}, {4}`.
 
 Given a friendship list such as the one above, determine the number of friend groups in the class.
@@ -1413,6 +1427,7 @@ A teacher must divide a class of students into two teams to play dodgeball. Unfo
 Given an adjacency list of students and their enemies, write an algorithm that finds a satisfactory pair of teams, or returns `False` if none exists.
 
 For example, given the following enemy graph you should return the teams `{0, 1, 4, 5}` and `{2, 3}`.
+
 ```
 students = {
     0: [3],
@@ -1425,6 +1440,7 @@ students = {
 ```
 
 On the other hand, given the input below, you should return `False`.
+
 ```
 students = {
     0: [3],
@@ -1463,6 +1479,7 @@ A competitive runner would like to create a route that starts and ends at his ho
 Given a dictionary of places of the form `{location: elevation}`, and a dictionary mapping paths between some of these locations to their corresponding distances, find the length of the shortest route satisfying the condition above. Assume the runner's home is location `0`.
 
 For example, suppose you are given the following input:
+
 ```
 elevations = {0: 5, 1: 25, 2: 15, 3: 20, 4: 10}
 paths = {
@@ -1492,6 +1509,7 @@ Pascal's triangle is a triangular array of integers constructed with the followi
 The first row consists of the number 1.
 For each subsequent row, each element is the sum of the numbers directly above it, on either side.
 For example, here are the first few rows:
+
 ```
     1
    1 1

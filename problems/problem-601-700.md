@@ -683,7 +683,6 @@ For example, given the following matrix:
 
 And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the matrix smaller than 6 or greater than 23.
 
-
 ## Problem 651 (Medium)
 
 This problem was asked by LinkedIn.

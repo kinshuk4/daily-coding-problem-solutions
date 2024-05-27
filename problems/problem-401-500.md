@@ -6,8 +6,6 @@ A permutation can be specified by an array `P`, where `P[i]` represents the loca
 
 Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
 
-
-
 ## Problem 402 (Easy)
 
 This problem was asked by Twitter.
@@ -15,8 +13,6 @@ This problem was asked by Twitter.
 A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, `16891` is strobogrammatic.
 
 Create a program that finds all strobogrammatic numbers with `N` digits.
-
-
 
 ## Problem 403 (Easy)
 
@@ -40,8 +36,6 @@ Given a tree, find the largest tree/subtree that is a BST.
 
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
-
-
 ## Problem 406 (Hard)
 
 This problem was asked by Quantcast.
@@ -54,8 +48,6 @@ You are presented with an array representing a Boolean expression. The elements 
 Determine the number of ways to group the array elements using parentheses so that the entire expression evaluates to `True`.
 
 For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T) & T` and `F | (T & T)`.
-
-
 
 ## Problem 407 (Medium)
 
@@ -205,8 +197,6 @@ Output: 2
 ```
 
 It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to move from `(1, 1)` to `(1, 2)`.
-
-
 
 ## Problem 417 (Easy)
 
@@ -431,8 +421,6 @@ This problem was asked by Facebook.
 
 Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
 
-
-
 ## Problem 434 (Easy)
 
 This problem was asked by Oracle.
@@ -440,8 +428,6 @@ This problem was asked by Oracle.
 Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
 
 If either value does not exist, return None.
-
-
 
 ## Problem 435 (Medium)
 
@@ -468,6 +454,7 @@ d  e f  g
 ```
 
 ## Problem 436 (Hard)
+
 This problem was asked by Microsoft.
 
 Implement 3 stacks using a single list:
@@ -670,7 +657,6 @@ You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent 
 
 For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
-
 ## Problem 451 (Easy)
 
 This problem was asked by Apple.
@@ -705,8 +691,6 @@ return ## Problem 124 (99 + 25) as:
 ```
 4 -> 2 -> 1
 ```
-
-
 
 ## Problem 453 (Easy)
 
