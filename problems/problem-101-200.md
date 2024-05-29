@@ -1,6 +1,6 @@
 # Daily Coding Problems 101 - 200
 
-## Problem #101
+## Daily Coding Problem 101
 
 > This problem was asked by Alibaba.
 
@@ -25,7 +25,7 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 
 If a < c OR a==c AND b < d.
 
-## Problem #102
+## Daily Coding Problem 102
 
 > This problem was asked by Lyft.
 
@@ -33,7 +33,7 @@ Given a list of integers and a number K, return which contiguous elements of the
 
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4].
 
-## Problem #103
+## Daily Coding Problem 103
 
 > This problem was asked by Square.
 
@@ -43,7 +43,7 @@ For example, given the string "figehaeci" and the set of characters {a, e, i}, y
 
 If there is no substring containing all the characters in the set, return null.
 
-## Problem #104
+## Daily Coding Problem 104
 
 > This problem was asked by Google.
 
@@ -51,7 +51,7 @@ Determine whether a doubly linked list is a palindrome. What if it’s singly li
 
 For example, `1 -> 4 -> 3 -> 4 -> 1` returns true while `1 -> 4` returns false.
 
-## Problem #105
+## Daily Coding Problem 105
 
 > This problem was asked by Facebook.
 
@@ -59,7 +59,7 @@ Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
 
 That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N`milliseconds.
 
-## Problem #106
+## Daily Coding Problem 106
 
 > This problem was asked by Pinterest.
 
@@ -67,7 +67,7 @@ Given an integer list where each number represents the number of hops you can ma
 
 For example, `[2, 0, 1, 0]` returns `true` while `[1, 1, 0, 1]` returns `false`.
 
-## Problem #107
+## Daily Coding Problem 107
 
 > This problem was asked by Microsoft.
 
@@ -81,7 +81,7 @@ Print the nodes in a binary tree level-wise. For example, the following should p
   4   5
 ```
 
-## Problem #108
+## Daily Coding Problem 108
 
 > This problem was asked by Google.
 
@@ -89,7 +89,7 @@ Given two strings A and B, return whether or not A can be shifted some number of
 
 For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
 
-## Problem #109
+## Daily Coding Problem 109
 
 > This problem was asked by Cisco.
 
@@ -99,7 +99,7 @@ For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 
 Bonus: Can you do this in one line?
 
-## Problem #110
+## Daily Coding Problem 110
 
 > This problem was asked by Facebook.
 
@@ -117,7 +117,7 @@ For example, given the tree
 
 it should return [[1, 2], [1, 3, 4], [1, 3, 5]].
 
-## Problem #111
+## Daily Coding Problem 111
 
 > This problem was asked by Google.
 
@@ -125,7 +125,7 @@ Given a word W and a string `S`, find all starting indices in `S` which are anag
 
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
-## Problem #112
+## Daily Coding Problem 112
 
 > This problem was asked by Twitter.
 
@@ -133,7 +133,7 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
 
-## Problem #113
+## Daily Coding Problem 113
 
 > This problem was asked by Google.
 
@@ -141,7 +141,7 @@ Given a string of words delimited by spaces, reverse the words in string. For ex
 
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
-## Problem #114
+## Daily Coding Problem 114 [Hard]
 
 > This problem was asked by Facebook.
 
@@ -149,13 +149,15 @@ Given a string and a set of delimiters, reverse the words in the string while ma
 
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
 
-## Problem #115
+![Solution](https://k5kc.com/cs/algorithms/reverse-words-in-a-string-keep-delimiters-in-order/)
+
+## Daily Coding Problem 115
 
 > This problem was asked by Google.
 
 Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
 
-## Problem #116
+## Daily Coding Problem 116
 
 > This problem was asked by Jane Street.
 
@@ -163,13 +165,13 @@ Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, `generate()` should return a tree whose size is unbounded but finite.
 
-## Problem #117
+## Daily Coding Problem 117
 
 > This problem was asked by Facebook.
 
 Given a binary tree, return the level of the tree with minimum sum.
 
-## Problem #118
+## Daily Coding Problem 118
 
 > This problem was asked by Google.
 
@@ -177,7 +179,7 @@ Given a sorted list of integers, square the elements and give the output in sort
 
 For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 
-## Problem #119
+## Daily Coding Problem 119
 
 > This problem was asked by Google.
 
@@ -185,13 +187,13 @@ Given a set of closed intervals, find the smallest set of numbers that covers al
 
 For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
 
-## Problem #120
+## Daily Coding Problem 120
 
 > This problem was asked by Microsoft.
 
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
 
-## Problem #121
+## Daily Coding Problem 121
 
 > This problem was asked by Google.
 
@@ -199,7 +201,7 @@ Given a string which we can delete at most k, return whether you can make a pali
 
 For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 
-## Problem #122
+## Daily Coding Problem 122
 
 This question was asked by Zillow.
 
@@ -215,7 +217,7 @@ For example, in this matrix
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 
-## Problem #123
+## Daily Coding Problem 123
 
 > This problem was asked by LinkedIn.
 
@@ -234,7 +236,7 @@ And here are examples of non-numbers:
 - "a -2"
 - "-"
 
-## Problem #124
+## Daily Coding Problem 124
 
 > This problem was asked by Microsoft.
 
@@ -242,7 +244,7 @@ You have 100 fair coins and you flip them all at the same time. Any that come up
 
 Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
 
-## Problem #125
+## Daily Coding Problem 125
 
 > This problem was asked by Google.
 
@@ -260,13 +262,13 @@ For example, given the following tree and `K` of 20
 
 Return the nodes `5` and `15`.
 
-## Problem #126
+## Daily Coding Problem 126
 
 > This problem was asked by Facebook.
 
 Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 
-## Problem #127
+## Daily Coding Problem 127
 
 > This problem was asked by Microsoft.
 
@@ -295,7 +297,7 @@ return 124 (99 + 25) as:
 4 -> 2 -> 1
 ```
 
-## Problem #128
+## Daily Coding Problem 128
 
 The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
 
@@ -321,11 +323,11 @@ Move 2 to 3
 Move 1 to 3
 ```
 
-## Problem #129
+## Daily Coding Problem 129
 
 Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
 
-## Problem #130
+## Daily Coding Problem 130
 
 > This problem was asked by Facebook.
 
@@ -333,13 +335,13 @@ Given an array of numbers representing the stock prices of a company in chronolo
 
 For example, given `k` = 2 and the array `[5, 2, 4, 0, 1]`, you should return 3.
 
-## Problem #131
+## Daily Coding Problem 131
 
 This question was asked by Snapchat.
 
 Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
 
-## Problem #132
+## Daily Coding Problem 132
 
 This question was asked by Riot Games.
 
@@ -351,7 +353,7 @@ Design and implement a HitCounter class that keeps track of requests (or hits). 
 
 Follow-up: What if our system has limited memory?
 
-## Problem #133
+## Daily Coding Problem 133
 
 > This problem was asked by Amazon.
 
@@ -369,7 +371,7 @@ For example, the inorder successor of 22 is 30.
 
 You can assume each node has a `parent` pointer.
 
-## Problem #134
+## Daily Coding Problem 134
 
 > This problem was asked by Facebook.
 
@@ -381,7 +383,7 @@ Use a more space-efficient data structure, SparseArray, that implements the same
 - `set(i, val)`: updates index at `i` with `val`.
 - `get(i)`: gets the value at index `i`.
 
-## Problem #135
+## Daily Coding Problem 135
 
 This question was asked by Apple.
 
@@ -399,7 +401,7 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
      -1
 ```
 
-## Problem #136
+## Daily Coding Problem 136
 
 This question was asked by Google.
 
@@ -416,7 +418,7 @@ For example, given the following matrix:
 
 Return 4.
 
-## Problem #137
+## Daily Coding Problem 137
 
 > This problem was asked by Amazon.
 
@@ -428,7 +430,7 @@ A bit array is a space efficient array that holds a value of `1` or `0` at each 
 - `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
 - `get(i)`: gets the value at index `i`.
 
-## Problem #138
+## Daily Coding Problem 138
 
 > This problem was asked by Google.
 
@@ -438,7 +440,7 @@ You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
 
 For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢, and a 1¢.
 
-## Problem #139
+## Daily Coding Problem 139
 
 > This problem was asked by Google.
 
@@ -461,7 +463,7 @@ class PeekableInterface(object):
         pass
 ```
 
-## Problem #140
+## Daily Coding Problem 140
 
 > This problem was asked by Facebook.
 
@@ -471,7 +473,7 @@ For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. T
 
 Follow-up: Can you do this in linear time and constant space?
 
-## Problem #141
+## Daily Coding Problem 141
 
 > This problem was asked by Microsoft.
 
@@ -489,7 +491,7 @@ class Stack:
         pass
 ```
 
-## Problem #142
+## Daily Coding Problem 142
 
 > This problem was asked by Google.
 
@@ -497,7 +499,7 @@ You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent 
 
 For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
-## Problem #143
+## Daily Coding Problem 143
 
 > This problem was asked by Amazon.
 
@@ -511,7 +513,7 @@ Ordering within a part can be arbitrary.
 
 For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14].
 
-## Problem #144
+## Daily Coding Problem 144
 
 > This problem was asked by Google.
 
@@ -523,7 +525,7 @@ If two distances to larger numbers are the equal, then return any one of them. I
 
 Follow-up: If you can preprocess the array, can you do this in constant time?
 
-## Problem #145
+## Daily Coding Problem 145
 
 > This problem was asked by Google.
 
@@ -531,7 +533,7 @@ Given the head of a singly linked list, swap every two nodes and return its head
 
 For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
 
-## Problem #146
+## Daily Coding Problem 146
 
 This question was asked by BufferBox.
 
@@ -561,11 +563,11 @@ should be pruned to:
 
 We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
 
-## Problem #147
+## Daily Coding Problem 147
 
 Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst` from `i` to j`.
 
-## Problem #148
+## Daily Coding Problem 148
 
 > This problem was asked by Apple.
 
@@ -575,7 +577,7 @@ Given a number of bits `n`, generate a possible gray code for it.
 
 For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
 
-## Problem #149
+## Daily Coding Problem 149
 
 > This problem was asked by Goldman Sachs.
 
@@ -585,7 +587,7 @@ For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])
 
 You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
 
-## Problem #150
+## Daily Coding Problem 150
 
 > This problem was asked by LinkedIn.
 
