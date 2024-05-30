@@ -1,6 +1,6 @@
 # Daily Coding Problems 301 - 400
 
-## Daily Coding Problem 301
+## Problem 301
 
 This problem was asked by Triplebyte.
 
@@ -15,7 +15,7 @@ The check method may return occasional false positives (in other words, incorrec
 
 ---
 
-## Daily Coding Problem 302
+## Problem 302
 
 This problem was asked by Uber.
 
@@ -35,7 +35,7 @@ Considering the edges of the matrix as boundaries, this divides the grid into th
 
 ---
 
-## Daily Coding Problem 303
+## Problem 303
 
 This problem was asked by Microsoft.
 
@@ -47,7 +47,7 @@ Bonus: When, during the course of a day, will the angle be zero?
 
 ---
 
-## Daily Coding Problem 304
+## Problem 304
 
 This problem was asked by Two Sigma.
 
@@ -59,7 +59,7 @@ After `k` moves, what is the probability that the knight remains on the board?
 
 ---
 
-## Daily Coding Problem 305
+## Problem 305
 
 This problem was asked by Amazon.
 
@@ -71,7 +71,7 @@ For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In 
 
 ---
 
-## Daily Coding Problem 306
+## Problem 306
 
 This problem was asked by Palantir.
 
@@ -83,7 +83,7 @@ Come up with an algorithm that sorts this list in `O(N log k)` time.
 
 ---
 
-## Daily Coding Problem 307
+## Problem 307
 
 This problem was asked by Oracle.
 
@@ -95,7 +95,7 @@ If either value does not exist, return None.
 
 ---
 
-## Daily Coding Problem 308
+## Problem 308
 
 This problem was asked by Quantcast.
 
@@ -112,7 +112,7 @@ For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, the
 
 ---
 
-## Daily Coding Problem 309
+## Problem 309
 
 This problem was asked by Walmart Labs.
 
@@ -126,7 +126,7 @@ Given an input such as the one above, return the lowest possible cost of moving 
 
 ---
 
-## Daily Coding Problem 310
+## Problem 310
 
 This problem was asked by Pivotal.
 
@@ -136,7 +136,7 @@ Write an algorithm that finds the total number of set bits in all integers betwe
 
 ---
 
-## Daily Coding Problem 311
+## Problem 311
 
 This problem was asked by Sumo Logic.
 
@@ -148,7 +148,7 @@ An element is considered a peak if it is greater than both its left and right ne
 
 ---
 
-## Daily Coding Problem 312
+## Problem 312
 
 This problem was asked by Wayfair.
 
@@ -170,7 +170,7 @@ Given an integer N, determine in how many ways this task is possible.
 
 ---
 
-## Daily Coding Problem 313
+## Problem 313
 
 This problem was asked by Citrix.
 
@@ -184,7 +184,7 @@ Let us consider a "move" to be a rotation of a single wheel by one digit, in eit
 
 ---
 
-## Daily Coding Problem 314
+## Problem 314
 
 This problem was asked by Spotify.
 
@@ -198,7 +198,7 @@ For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In
 
 ---
 
-## Daily Coding Problem 315
+## Problem 315
 
 This problem was asked by Google.
 
@@ -219,7 +219,7 @@ Write a program to determine whether a given input is a Toeplitz matrix.
 
 ---
 
-## Daily Coding Problem 316
+## Problem 316
 
 This problem was asked by Snapchat.
 
@@ -231,7 +231,7 @@ Given such an array, determine the denominations that must be in use. In the cas
 
 ---
 
-## Daily Coding Problem 317
+## Problem 317
 
 This problem was asked by Yahoo.
 
@@ -241,7 +241,7 @@ Write a function that returns the bitwise `AND` of all integers between `M` and 
 
 ---
 
-## Daily Coding Problem 318
+## Problem 318
 
 This problem was asked by Apple.
 
@@ -253,7 +253,7 @@ Given `N`, `M`, and `B`, determine the number of valid playlists.
 
 ---
 
-## Daily Coding Problem 319
+## Problem 319
 
 This problem was asked by Airbnb.
 
@@ -265,7 +265,7 @@ Design a class to represent the board, and find a series of steps to bring the b
 
 ---
 
-## Daily Coding Problem 320
+## Problem 320
 
 This problem was asked by Amazon.
 
@@ -277,7 +277,7 @@ For example, given "jiujitsu", you should return 5, corresponding to the final f
 
 ---
 
-## Daily Coding Problem 321
+## Problem 321
 
 This problem was asked by PagerDuty.
 
@@ -294,7 +294,7 @@ For example, given `100`, you can reach `1` in five steps with the following rou
 
 ---
 
-## Daily Coding Problem 322
+## Problem 322
 
 This problem was asked by Flipkart.
 
@@ -308,9 +308,9 @@ Find a path with the fewest number of jumps required to get from `0` to `N`.
 
 ---
 
-## Daily Coding Problem 323
+## Problem 323 (Medium)
 
-This problem was asked by Dropbox.
+> This problem was asked by Dropbox.
 
 Create an algorithm to efficiently compute the approximate median of a list of numbers.
 
@@ -320,7 +320,7 @@ More precisely, given an unordered list of `N` numbers, find an element whose ra
 
 ---
 
-## Daily Coding Problem 324
+## Problem 324
 
 This problem was asked by Amazon.
 
@@ -334,7 +334,7 @@ For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes a
 
 ---
 
-## Daily Coding Problem 325
+## Problem 325
 
 This problem was asked by Jane Street.
 
@@ -346,7 +346,7 @@ Create a data structure that can efficiently convert a certain quantity of one u
 
 ---
 
-## Daily Coding Problem 326
+## Problem 326
 
 This problem was asked by Netflix.
 
@@ -370,7 +370,7 @@ Given a sequence S, construct the corresponding Cartesian tree.
 
 ---
 
-## Daily Coding Problem 327
+## Problem 327
 
 This problem was asked by Salesforce.
 
@@ -382,7 +382,7 @@ If only one input tree has a node in a given position, the corresponding node in
 
 ---
 
-## Daily Coding Problem 328
+## Problem 328
 
 This problem was asked by Facebook.
 
@@ -396,7 +396,7 @@ Implement this system.
 
 ---
 
-## Daily Coding Problem 329
+## Problem 329
 
 This problem was asked by Amazon.
 
@@ -425,7 +425,7 @@ Write an algorithm that pairs the men and women together in such a way that no t
 
 ---
 
-## Daily Coding Problem 330
+## Problem 330
 
 This problem was asked by Dropbox.
 
@@ -447,7 +447,7 @@ Given a 2-CNF formula, find a way to assign truth values to satisfy it, or retur
 
 ---
 
-## Daily Coding Problem 331
+## Problem 331
 
 This problem was asked by LinkedIn.
 
@@ -459,7 +459,7 @@ Determine how many times you would need to apply this operation to ensure that a
 
 ---
 
-## Daily Coding Problem 332
+## Problem 332
 
 This problem was asked by Jane Street.
 
@@ -474,7 +474,7 @@ a XOR b = N
 
 ---
 
-## Daily Coding Problem 333
+## Problem 333
 
 This problem was asked by Pinterest.
 
@@ -486,7 +486,7 @@ Given a list of `N` people and the above operation, find a way to identify the c
 
 ---
 
-## Daily Coding Problem 334
+## Problem 334
 
 This problem was asked by Twitter.
 
@@ -500,7 +500,7 @@ Write a function that plays the `24` game.
 
 ---
 
-## Daily Coding Problem 335
+## Problem 335
 
 This problem was asked by Google.
 
@@ -520,7 +520,7 @@ Given a directed graph of links between various websites, write a program that c
 
 ---
 
-## Daily Coding Problem 336
+## Problem 336
 
 This problem was asked by Microsoft.
 
@@ -538,7 +538,7 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 
 ---
 
-## Daily Coding Problem 337
+## Problem 337
 
 This problem was asked by Apple.
 
@@ -548,7 +548,7 @@ Given a linked list, uniformly shuffle the nodes. What if we want to prioritize 
 
 ---
 
-## Daily Coding Problem 338
+## Problem 338
 
 This problem was asked by Facebook.
 
@@ -558,7 +558,7 @@ Given an integer `n`, find the next biggest integer with the same number of `1`-
 
 ---
 
-## Daily Coding Problem 339
+## Problem 339
 
 This problem was asked by Microsoft.
 
@@ -568,7 +568,7 @@ Given an array of numbers and a number `k`, determine if there are three entries
 
 ---
 
-## Daily Coding Problem 340
+## Problem 340
 
 This problem was asked by Google.
 
@@ -578,7 +578,7 @@ Given a set of points `(x, y)` on a 2D cartesian plane, find the two closest poi
 
 ---
 
-## Daily Coding Problem 341
+## Problem 341
 
 This problem was asked by Google.
 
@@ -611,7 +611,7 @@ Your function should return 3, since we can make the words 'eat', 'in', and 'rat
 
 ---
 
-## Daily Coding Problem 342
+## Problem 342
 
 This problem was asked by Stripe.
 
@@ -635,7 +635,7 @@ Implement your own version of reduce.
 
 ---
 
-## Daily Coding Problem 343
+## Problem 343
 
 This problem was asked by Google.
 
@@ -657,7 +657,7 @@ and the range `[4, 9]`, return `23 (5 + 4 + 6 + 8)`.
 
 ---
 
-## Daily Coding Problem 344
+## Problem 344
 
 This problem was asked by Adobe.
 
@@ -683,7 +683,7 @@ Write a function that returns the maximum number of edges you can remove while s
 
 ---
 
-## Daily Coding Problem 345
+## Problem 345
 
 This problem was asked by Google.
 
@@ -702,7 +702,7 @@ Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b
 
 ---
 
-## Daily Coding Problem 346
+## Problem 346
 
 This problem was asked by Airbnb.
 
@@ -730,7 +730,7 @@ Due to some improbably low flight prices, the cheapest itinerary would be JFK ->
 
 ---
 
-## Daily Coding Problem 347
+## Problem 347
 
 This problem was asked by Yahoo.
 
@@ -744,7 +744,7 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 
 ---
 
-## Daily Coding Problem 348
+## Problem 348
 
 This problem was asked by Zillow.
 
@@ -774,7 +774,7 @@ Implement insertion and search functions for a ternary search tree.
 
 ---
 
-## Daily Coding Problem 349
+## Problem 349
 
 This problem was asked by Grammarly.
 
@@ -807,7 +807,7 @@ Implement Soundex.
 
 ---
 
-## Daily Coding Problem 350
+## Problem 350
 
 This problem was asked by Uber.
 
@@ -819,11 +819,11 @@ Here are a few examples:
 - Given `N = 17`, return `2` `(16 + 1)`
 - Given `N = 18`, return `2` `(9 + 9)`
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution350.java)
+[Solution](https://k5kc.com/cs/algorithms/least-number-of-perfect-squares-that-sums-to-n/)
 
 ---
 
-## Daily Coding Problem 351
+## Problem 351
 
 This problem was asked by Quora.
 
@@ -845,7 +845,7 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 
 ---
 
-## Daily Coding Problem 352
+## Problem 352
 
 This problem was asked by Palantir.
 
@@ -862,7 +862,7 @@ Write a program to determine whether a given matrix qualifies as a crossword gri
 
 ---
 
-## Daily Coding Problem 353
+## Problem 353
 
 This problem was asked by Square.
 
@@ -882,7 +882,7 @@ Determine the area of the largest rectangle that can be formed only from the bar
 
 ---
 
-## Daily Coding Problem 354
+## Problem 354
 
 This problem was asked by Google.
 
@@ -901,7 +901,7 @@ Some questions you may want to consider as part of your solution are:
 
 ---
 
-## Daily Coding Problem 355
+## Problem 355
 
 This problem was asked by Airbnb.
 
@@ -918,7 +918,7 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 
 ---
 
-## Daily Coding Problem 356
+## Problem 356
 
 This problem was asked by Netflix.
 
@@ -930,7 +930,7 @@ The queue should support `enqueue`, `dequeue`, and `get_size` operations.
 
 ---
 
-## Daily Coding Problem 357
+## Problem 357
 
 This problem was asked by LinkedIn.
 
@@ -950,7 +950,7 @@ Given this representation, determine the depth of the tree.
 
 ---
 
-## Daily Coding Problem 358
+## Problem 358
 
 This problem was asked by Dropbox.
 
@@ -965,7 +965,7 @@ Create a data structure that performs all the following operations in `O(1)` tim
 
 ---
 
-## Daily Coding Problem 359
+## Problem 359
 
 This problem was asked by Slack.
 
@@ -979,7 +979,7 @@ Given this string, return the original integers in sorted order. In the example 
 
 ---
 
-## Daily Coding Problem 360
+## Problem 360
 
 This problem was asked by Spotify.
 
@@ -993,7 +993,7 @@ For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In
 
 ---
 
-## Daily Coding Problem 361
+## Problem 361
 
 This problem was asked by Facebook.
 
@@ -1013,7 +1013,7 @@ However, it is impossible for any key to result in the following scores, so in t
 
 ---
 
-## Daily Coding Problem 362
+## Problem 362
 
 This problem was asked by Twitter.
 
@@ -1025,7 +1025,7 @@ Create a program that finds all strobogrammatic numbers with N digits.
 
 ---
 
-## Daily Coding Problem 363
+## Problem 363
 
 Write a function, add_subtract, which alternately adds and subtracts curried arguments. Here are some sample operations:
 
@@ -1039,7 +1039,7 @@ add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 
 ---
 
-## Daily Coding Problem 364
+## Problem 364
 
 This problem was asked by Facebook.
 
@@ -1049,7 +1049,7 @@ Describe an algorithm to compute the longest increasing subsequence of an array 
 
 ---
 
-## Daily Coding Problem 365
+## Problem 365
 
 This problem was asked by Google.
 
@@ -1065,7 +1065,7 @@ Implement a quack using three stacks and `O(1)` additional memory, so that the a
 
 ---
 
-## Daily Coding Problem 367 (Medium)
+## Problem 367 (Medium)
 
 This problem was asked by Two Sigma.
 
@@ -1094,7 +1094,7 @@ for num in merge_iterators(foo, bar):
 
 Bonus: Make it work without pulling in the contents of the iterators in memory.
 
-## Daily Coding Problem 368 (Hard)
+## Problem 368 (Hard)
 
 This problem was asked by Google.
 
@@ -1113,7 +1113,7 @@ kv.update(2, 1)
 
 And then called `kv.max_key(1)`, it should return `2`, since it's the largest key with value `1`.
 
-## Daily Coding Problem 369 (Medium)
+## Problem 369 (Medium)
 
 This problem was asked by Two Sigma.
 
@@ -1121,7 +1121,7 @@ You’re tracking stock price at a given instance of time. Implement an API with
 
 Also, provide max(), min(), and average() functions that give the max/min/average of all values seen thus far.
 
-## Daily Coding Problem 370 (Easy)
+## Problem 370 (Easy)
 
 This problem was asked by Postmates.
 
@@ -1146,7 +1146,7 @@ For example, if the input is the following:
 
 The total active time would be 1260 seconds.
 
-## Daily Coding Problem 371 (Hard)
+## Problem 371 (Hard)
 
 This problem was asked by Google.
 
@@ -1168,7 +1168,7 @@ The equations use addition only and are separated by newlines. Return a mapping 
 }
 ```
 
-## Daily Coding Problem 372 (Easy)
+## Problem 372 (Easy)
 
 This problem was asked by Amazon.
 
@@ -1176,7 +1176,7 @@ Write a function that takes a natural number as input and returns the number of 
 
 Constraint: don't use any loops.
 
-## Daily Coding Problem 373 (Hard)
+## Problem 373 (Hard)
 
 This problem was asked by Facebook.
 
@@ -1184,7 +1184,7 @@ Given a list of integers L, find the maximum length of a sequence of consecutive
 
 For example, given `L = [5, 2, 99, 3, 4, 1, 100]`, return 5 as we can build a sequence `[1, 2, 3, 4, 5]` which has length 5.
 
-## Daily Coding Problem 374 (Hard)
+## Problem 374 (Hard)
 
 This problem was asked by Amazon.
 
@@ -1192,7 +1192,7 @@ Given a sorted array `arr` of distinct integers, return the lowest index `i` for
 
 For example, given the array `[-5, -3, 2, 3]`, return `2` since `arr[2] == 2`. Even though `arr[3] == 3`, we return 2 since it's the lowest index.
 
-## Daily Coding Problem 375 (Medium)
+## Problem 375 (Medium)
 
 This problem was asked by Google.
 
@@ -1210,7 +1210,7 @@ For example, if the array was:
 
 This means the researcher has 5 papers with 4, 1, 0, 2, and 3 citations respectively. The h-index for this researcher is 2, since they have 2 papers with at least 2 citations and the remaining 3 papers have no more than 2 citations.
 
-## Daily Coding Problem 376 (Easy)
+## Problem 376 (Easy)
 
 This problem was asked by Google.
 
@@ -1236,10 +1236,10 @@ return `(0, 4)`, since that coin is closest. This map would be represented in ou
 
 ```
 Our position: (0, 2)
-Coins: [(## Daily Coding Problem 0, 4), (1, 0), (2, 0), (3, 2)]
+Coins: [(## Problem 0, 4), (1, 0), (2, 0), (3, 2)]
 ```
 
-## Daily Coding Problem 377 (Hard)
+## Problem 377 (Hard)
 
 This problem was asked by Microsoft.
 
@@ -1264,7 +1264,7 @@ Your function should print out the following:
 
 Recall that the median of an even-sized list is the average of the two middle numbers.
 
-## Daily Coding Problem 378 (Medium)
+## Problem 378 (Medium)
 
 This problem was asked by Coinbase.
 
@@ -1282,7 +1282,7 @@ You should return the following, as a string:
 '[null, 123, ["a", "b"], {"c": "d"}]'
 ```
 
-## Daily Coding Problem 379 (Easy)
+## Problem 379 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -1302,7 +1302,7 @@ xyz
 
 Note that `zx` is not a valid subsequence since it is not in the order of the given string.
 
-## Daily Coding Problem 380 (Medium)
+## Problem 380 (Medium)
 
 This problem was asked by Nextdoor.
 
@@ -1312,7 +1312,7 @@ For example, calling `divide(10, 3)` should return `(3, 1)` since the divisor is
 
 Bonus: Can you do it in O(log n) time?
 
-## Daily Coding Problem 381 (Easy)
+## Problem 381 (Easy)
 
 This problem was asked by Paypal.
 
@@ -1332,7 +1332,7 @@ should produce:
 3q2+7w==
 ```
 
-## Daily Coding Problem 382 (Easy)
+## Problem 382 (Easy)
 
 This problem was asked by Google.
 
@@ -1352,7 +1352,7 @@ should produce:
 deadbeef
 ```
 
-## Daily Coding Problem 383 (Medium)
+## Problem 383 (Medium)
 
 This problem was asked by Gusto.
 
@@ -1364,7 +1364,7 @@ For example, given `s = abcdefg` and `lst = ["bc", "ef"]`, return the string `ab
 
 Given `s = abcdefg` and `lst = ["bcd", "def"]`, return the string `abcdefg`, since they overlap.
 
-## Daily Coding Problem 384 (Hard)
+## Problem 384 (Hard)
 
 This problem was asked by WeWork.
 
@@ -1374,7 +1374,7 @@ For example, given an array of `[1, 5, 10]` and an amount `56`, return `7` since
 
 Given an array of `[5, 8]` and an amount `15`, return `3` since we can use 5 5-cent coins.
 
-## Daily Coding Problem 385 (Medium)
+## Problem 385 (Medium)
 
 This problem was asked by Apple.
 
@@ -1392,7 +1392,7 @@ You should be able to decrypt it and get:
 Hello world from Daily Coding Problem
 ```
 
-## Daily Coding Problem 386 (Easy)
+## Problem 386 (Easy)
 
 This problem was asked by Twitter.
 
@@ -1400,31 +1400,31 @@ Given a string, sort it in decreasing order based on the frequency of characters
 
 For example, given the string `tweet`, return `tteew`. `eettw` would also be acceptable.
 
-## Daily Coding Problem 387 (Medium)
+## Problem 387 (Medium)
 
 This problem was recently asked by Amazon.
 
 How would you explain the difference between an API and SDK to a non-technical person?
 
-## Daily Coding Problem 388 (Medium)
+## Problem 388 (Medium)
 
 This problem was asked by Airtable.
 
 How would you explain web cookies to someone non-technical?
 
-## Daily Coding Problem 389 (Hard)
+## Problem 389 (Hard)
 
 This problem was asked by Google.
 
 Explain the difference between composition and inheritance. In which cases would you use each?
 
-## Daily Coding Problem 390 (Medium)
+## Problem 390 (Medium)
 
 This problem was asked by Two Sigma.
 
 You are given an unsorted list of 999,000 unique integers, each from 1 and 1,000,000. Find the missing 1000 numbers. What is the computational and space complexity of your solution?
 
-## Daily Coding Problem 391 (Hard)
+## Problem 391 (Hard)
 
 This problem was asked by Facebook.
 
@@ -1445,7 +1445,7 @@ You should return the following:
 ['/login', '/user', '/one']
 ```
 
-## Daily Coding Problem 392 (Hard)
+## Problem 392 (Hard)
 
 This problem was asked by Google.
 
@@ -1468,7 +1468,7 @@ For example, given the following matrix:
 
 Return `14`.
 
-## Daily Coding Problem 393 (Medium)
+## Problem 393 (Medium)
 
 This problem was asked by Airbnb.
 
@@ -1476,7 +1476,7 @@ Given an array of integers, return the largest range, inclusive, of integers tha
 
 For example, given the array `[9, 6, 1, 3, 8, 10, 12, 11]`, return `(8, 12)` since 8, 9, 10, 11, and 12 are all in the array.
 
-## Daily Coding Problem 394 (Easy)
+## Problem 394 (Easy)
 
 This problem was asked by Uber.
 
@@ -1494,7 +1494,7 @@ For example, given `k = 18` and the following binary tree:
 
 Return `True` since the path `8 -> 4 -> 6` sums to 18.
 
-## Daily Coding Problem 395 (Medium)
+## Problem 395 (Medium)
 
 This problem was asked by Robinhood.
 
@@ -1514,7 +1514,7 @@ Return:
  ['now']]
 ```
 
-## Daily Coding Problem 396 (Hard)
+## Problem 396 (Hard)
 
 This problem was asked by Google.
 
@@ -1530,7 +1530,7 @@ Return 7, since the longest palindromic subsequence in the string is `APTMTPA`. 
 
 Your algorithm should run in O(n^2) time and space.
 
-## Daily Coding Problem 397 (Medium)
+## Problem 397 (Medium)
 
 This problem was asked by Microsoft.
 
@@ -1557,7 +1557,7 @@ Return:
 (8, 11)]
 ```
 
-## Daily Coding Problem 398 (Medium)
+## Problem 398 (Medium)
 
 This problem was asked by Amazon.
 
@@ -1567,7 +1567,7 @@ Given a linked list and an integer `k`, remove the k-th node from the end of the
 
 Do this in one pass.
 
-## Daily Coding Problem 399 (Hard)
+## Problem 399 (Hard)
 
 This problem was asked by Facebook.
 
@@ -1589,7 +1589,7 @@ Return the following 3 partitions:
 
 Which each add up to 8.
 
-## Daily Coding Problem 400 (Hard)
+## Problem 400 (Hard)
 
 This problem was asked by Goldman Sachs.
 

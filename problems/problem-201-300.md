@@ -553,7 +553,7 @@ What is the minimum number of swaps necessary for this to happen?
 
 ---
 
-## Daily Coding Problem 241
+## Daily Coding Problem 241 [Easy]
 
 This problem was asked by Palantir.
 
@@ -565,7 +565,7 @@ For example, suppose `N = 5`, and the respective citations of each paper are `[4
 
 Given a list of paper citations of a researcher, calculate their h-index.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution241.java)
+[Solution](https://k5kc.com/cs/algorithms/get-equal-substrings-within-budget/)
 
 ---
 

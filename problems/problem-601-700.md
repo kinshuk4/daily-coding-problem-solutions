@@ -8,9 +8,7 @@ The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for i
 
 ## Daily Coding Problem 602 (Easy)
 
-This problem was asked by Facebook.
-
-Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of `n` line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+This is same as 194.
 
 ## Daily Coding Problem 603 (Easy)
 
@@ -56,15 +54,7 @@ Implement Soundex.
 
 ## Daily Coding Problem 605 (Easy)
 
-This problem was asked by Palantir.
-
-In academia, the h-index is a metric used to calculate the impact of a researcher's papers. It is calculated as follows:
-
-A researcher has index `h` if at least `h` of her `N` papers have `h`citations each. If there are multiple `h` satisfying this formula, the maximum is chosen.
-
-For example, suppose `N` = 5, and the respective citations of each paper are `[4, 3, 0, 1, 5]`. Then the h-index would be `3`, since the researcher has `3` papers with at least `3` citations.
-
-Given a list of paper citations of a researcher, calculate their h-index.
+This is same as 241.
 
 ## Daily Coding Problem 606 (Hard)
 
