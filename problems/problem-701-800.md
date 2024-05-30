@@ -1,6 +1,6 @@
 # Daily Coding Problems 701 - 800
 
-## Daily Coding Problem: Problem #701 [Medium]
+## Daily Coding Problem 701 [Medium]
 
 This problem was asked by Amazon.
 
@@ -20,7 +20,7 @@ A lazy bartender working at this bar is trying to reduce his effort by limiting 
 
 For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy everyone.
 
-## Daily Coding Problem: Problem #702 [Medium]
+## Daily Coding Problem 702 [Medium]
 
 This problem was asked by Google.
 
@@ -43,7 +43,7 @@ node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
 
-## Daily Coding Problem: Problem #703 [Hard]
+## Daily Coding Problem 703 [Hard]
 
 This problem was asked by Two Sigma.
 
@@ -51,7 +51,7 @@ A knight is placed on a given square on an `8 x 8` chessboard. It is then moved 
 
 After `k` moves, what is the probability that the knight remains on the board?
 
-## Daily Coding Problem: Problem #704 [Medium]
+## Daily Coding Problem 704 [Medium]
 
 This problem was asked by Uber.
 
@@ -66,7 +66,7 @@ For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
 
 Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9`.
 
-## Daily Coding Problem: Problem #705 [Medium]
+## Daily Coding Problem 705 [Medium]
 
 This problem was asked by Facebook.
 
@@ -78,7 +78,7 @@ For example, given the input [2, 1, 2], we can hold 1 unit of water in the middl
 
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
 
-## Daily Coding Problem: Problem #706 [Easy]
+## Daily Coding Problem 706 [Easy]
 
 This problem was asked by Twitter.
 
@@ -88,7 +88,7 @@ For example, given the input `[5, 2, 7, 8]`, you should return `True`, since `(5
 
 Write a function that plays the `24` game.
 
-## Daily Coding Problem: Problem #707 [Medium]
+## Daily Coding Problem 707 [Medium]
 
 This problem was asked by Spotify.
 
@@ -98,7 +98,7 @@ Given a list of `N` listeners, and a list of `M` radio towers, each placed at va
 
 For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
 
-## Daily Coding Problem: Problem #708 [Easy]
+## Daily Coding Problem 708 [Easy]
 
 This problem was asked by Apple.
 
@@ -106,7 +106,7 @@ A fixed point in an array is an element whose value is equal to its index. Given
 
 For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
 
-## Daily Coding Problem: Problem #709 [Medium]
+## Daily Coding Problem 709 [Medium]
 
 This problem was asked by Slack.
 
@@ -129,7 +129,7 @@ Return two, as there are only two ways to get to the bottom right:
 
 The top left corner and bottom right corner will always be `0`.
 
-## Daily Coding Problem: Problem #710 [Medium]
+## Daily Coding Problem 710 [Medium]
 
 This problem was asked by Dropbox.
 
@@ -141,7 +141,7 @@ Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there a
 
 The order of the indices does not matter.
 
-## Daily Coding Problem: Problem #711 [Medium]
+## Daily Coding Problem 711 [Medium]
 
 This problem was asked by Nvidia.
 
@@ -149,7 +149,7 @@ You are given a list of `N` points `(x``1``, y``1``)`, `(x``2``, y``2``)`, ..., 
 
 Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
 
-## Daily Coding Problem: Problem #712 [Easy]
+## Daily Coding Problem 712 [Easy]
 
 This problem was asked by Facebook.
 
@@ -159,7 +159,7 @@ For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
 
-## Daily Coding Problem: Problem #713 [Medium]
+## Daily Coding Problem 713 [Medium]
 
 This problem was asked by Quora.
 
@@ -167,7 +167,7 @@ Given an absolute pathname that may have `.` or `..` as part of it, return the s
 
 For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 
-## Daily Coding Problem: Problem #714 [Easy]
+## Daily Coding Problem 714 [Easy]
 
 This problem was asked by Google.
 
@@ -175,7 +175,7 @@ Given the head of a singly linked list, swap every two nodes and return its head
 
 For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
 
-## Daily Coding Problem: Problem #715 [Easy]
+## Daily Coding Problem 715 [Easy]
 
 This problem was asked by Google.
 
@@ -183,7 +183,7 @@ Determine whether a doubly linked list is a palindrome. What if it’s singly li
 
 For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
 
-## Daily Coding Problem: Problem #716 [Easy]
+## Daily Coding Problem 716 [Easy]
 
 This problem was asked by Google.
 
@@ -207,7 +207,7 @@ Visually, this can be represented as follows.
 
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
 
-## Daily Coding Problem: Problem #717 [Medium]
+## Daily Coding Problem 717 [Medium]
 
 This problem was asked by Facebook.
 
@@ -215,7 +215,7 @@ A builder is looking to build a row of N houses that can be of K different color
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
-## Daily Coding Problem: Problem #718 [Medium]
+## Daily Coding Problem 718 [Medium]
 
 This problem was asked by Apple.
 
@@ -225,7 +225,7 @@ Given a number of bits `n`, generate a possible gray code for it.
 
 For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
 
-## Daily Coding Problem: Problem #719 [Easy]
+## Daily Coding Problem 719 [Easy]
 
 This problem was asked by Dropbox.
 
@@ -233,7 +233,7 @@ Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C"
 
 Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
 
-## Daily Coding Problem: Problem #720 [Hard]
+## Daily Coding Problem 720 [Hard]
 
 This problem was asked by Dropbox.
 
@@ -241,13 +241,13 @@ Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits
 
 Implement an efficient sudoku solver.
 
-## Daily Coding Problem: Problem #721 [Hard]
+## Daily Coding Problem 721 [Hard]
 
 This problem was asked by Microsoft.
 
 Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the *maximum* weight spanning tree.
 
-## Daily Coding Problem: Problem #722 [Hard]
+## Daily Coding Problem 722 [Hard]
 
 This problem was asked by Spotify.
 
@@ -255,7 +255,7 @@ There are `N` couples sitting in a row of length `2 * N`. They are currently ord
 
 What is the minimum number of swaps necessary for this to happen?
 
-## Daily Coding Problem: Problem #723 [Medium]
+## Daily Coding Problem 723 [Medium]
 
 This problem was asked by Google.
 
@@ -263,7 +263,7 @@ Given a set of closed intervals, find the smallest set of numbers that covers al
 
 For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
 
-## Daily Coding Problem: Problem #724 [Easy]
+## Daily Coding Problem 724 [Easy]
 
 This problem was asked by Microsoft.
 
@@ -283,7 +283,7 @@ For example, given the following tree:
 
 You should return 45, as it is (3 + 2) * (4 + 5).
 
-## Daily Coding Problem: Problem #725 [Easy]
+## Daily Coding Problem 725 [Easy]
 
 This problem was asked by Amazon.
 
@@ -293,13 +293,13 @@ Each move consists of moving one mouse one unit to the left or right, and only o
 
 For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
 
-## Daily Coding Problem: Problem #726 [Medium]
+## Daily Coding Problem 726 [Medium]
 
 This problem was asked by Microsoft.
 
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
 
-## Daily Coding Problem: Problem #727 [Easy]
+## Daily Coding Problem 727 [Easy]
 
 This problem was asked by Microsoft.
 
@@ -319,7 +319,7 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 ```
 
-## Daily Coding Problem: Problem #728 [Hard]
+## Daily Coding Problem 728 [Hard]
 
 This problem was asked by Twitter.
 
@@ -353,7 +353,7 @@ students = {
 }
 ```
 
-## Daily Coding Problem: Problem #729 [Medium]
+## Daily Coding Problem 729 [Medium]
 
 This problem was asked by Spotify.
 
@@ -363,7 +363,7 @@ Given a set of these ranked lists, interleave them to create a playlist that sat
 
 For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
 
-## Daily Coding Problem: Problem #730 [Medium]
+## Daily Coding Problem 730 [Medium]
 
 This problem was asked by Google.
 
@@ -387,7 +387,7 @@ for f in functions:
 
 How can we make it print out what we apparently want?
 
-## Daily Coding Problem: Problem #731 [Easy]
+## Daily Coding Problem 731 [Easy]
 
 This problem was asked by Facebook.
 
@@ -395,7 +395,7 @@ Given a array of numbers representing the stock prices of a company in chronolog
 
 For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
 
-## Daily Coding Problem: Problem #732 [Medium]
+## Daily Coding Problem 732 [Medium]
 
 This problem was asked by Glassdoor.
 
@@ -403,7 +403,7 @@ An imminent hurricane threatens the coastal town of Codeville. If at most two pe
 
 For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
 
-## Daily Coding Problem: Problem #733 [Hard]
+## Daily Coding Problem 733 [Hard]
 
 This problem was asked by Salesforce.
 
@@ -411,7 +411,7 @@ Connect 4 is a game where opponents take turns dropping red or black discs into 
 
 Design and implement Connect 4.
 
-## Daily Coding Problem: Problem #734 [Medium]
+## Daily Coding Problem 734 [Medium]
 
 This problem was asked by Stripe.
 
@@ -439,7 +439,7 @@ d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
 
-## Daily Coding Problem: Problem #735 [Easy]
+## Daily Coding Problem 735 [Easy]
 
 This problem was asked by Sumo Logic.
 
@@ -447,13 +447,13 @@ Given an unsorted array, in which all elements are distinct, find a "peak" eleme
 
 An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
 
-## Daily Coding Problem: Problem #736 [Easy]
+## Daily Coding Problem 736 [Easy]
 
 This problem was asked by Amazon.
 
 Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
 
-## Daily Coding Problem: Problem #737 [Hard]
+## Daily Coding Problem 737 [Hard]
 
 This problem was asked by Airbnb.
 
@@ -463,7 +463,7 @@ Return null if there is no such ordering.
 
 For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
 
-## Daily Coding Problem: Problem #738 [Medium]
+## Daily Coding Problem 738 [Medium]
 
 This problem was asked by Amazon.
 
@@ -473,7 +473,7 @@ You can assume that there are no spaces at the ends of the string and that there
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
-## Daily Coding Problem: Problem #739 [Hard]
+## Daily Coding Problem 739 [Hard]
 
 This problem was asked by Google.
 
@@ -485,7 +485,7 @@ A quack is a data structure combining properties of both stacks and queues. It c
 
 Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
 
-## Daily Coding Problem: Problem #740 [Easy]
+## Daily Coding Problem 740 [Easy]
 
 This problem was asked by Google.
 
@@ -495,7 +495,7 @@ These numbers have had many applications, from helping ancient Babylonians keep 
 
 Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
 
-## Daily Coding Problem: Problem #741 [Hard]
+## Daily Coding Problem 741 [Hard]
 
 This problem was asked by Facebook.
 
@@ -505,7 +505,7 @@ Don't use `eval` or a similar built-in parser.
 
 For example, given '-1 + (2 + 3)', you should return `4`.
 
-## Daily Coding Problem: Problem #742 [Easy]
+## Daily Coding Problem 742 [Easy]
 
 This problem was asked by Stripe.
 
@@ -537,13 +537,13 @@ it should become:
 
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
-## Daily Coding Problem: Problem #743 [Medium]
+## Daily Coding Problem 743 [Medium]
 
 This problem was asked by Mozilla.
 
 A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
 
-## Daily Coding Problem: Problem #744 [Hard]
+## Daily Coding Problem 744 [Hard]
 
 This problem was asked by Google.
 
@@ -554,7 +554,7 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 
 Each operation should run in O(1) time.
 
-## Daily Coding Problem: Problem #745 [Medium]
+## Daily Coding Problem 745 [Medium]
 
 This problem was asked by Triplebyte.
 
@@ -565,7 +565,7 @@ Implement a data structure which carries out the following operations without re
 
 The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
 
-## Daily Coding Problem: Problem #746 [Easy]
+## Daily Coding Problem 746 [Easy]
 
 This problem was asked by Amazon.
 
@@ -577,7 +577,7 @@ Implement a stack that has the following methods:
 
 Each method should run in constant time.
 
-## Daily Coding Problem: Problem #747 [Easy]
+## Daily Coding Problem 747 [Easy]
 
 This problem was asked by Google.
 
@@ -585,7 +585,7 @@ Given two strings A and B, return whether or not A can be shifted some number of
 
 For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
 
-## Daily Coding Problem: Problem #748 [Easy]
+## Daily Coding Problem 748 [Easy]
 
 This problem was asked by Apple.
 
@@ -601,7 +601,7 @@ For example, given the following tree:
 
 Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 + 5 - 5`.
 
-## Daily Coding Problem: Problem #749 [Hard]
+## Daily Coding Problem 749 [Hard]
 
 This problem was asked by Amazon.
 
@@ -609,7 +609,7 @@ Given a string, find the longest palindromic contiguous substring. If there are 
 
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
 
-## Daily Coding Problem: Problem #750 [Medium]
+## Daily Coding Problem 750 [Medium]
 
 This problem was asked by Jane Street.
 
@@ -617,13 +617,13 @@ Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, `generate()` should return a tree whose size is unbounded but finite.
 
-## Daily Coding Problem: Problem #751 [Hard]
+## Daily Coding Problem 751 [Hard]
 
 This problem was asked by Palantir.
 
 Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
 
-## Daily Coding Problem: Problem #752 [Easy]
+## Daily Coding Problem 752 [Easy]
 
 This problem was asked by Microsoft.
 
@@ -637,7 +637,7 @@ Print the nodes in a binary tree level-wise. For example, the following should p
   4   5
 ```
 
-## Daily Coding Problem: Problem #753 [Easy]
+## Daily Coding Problem 753 [Easy]
 
 This problem was asked by Zillow.
 
@@ -663,7 +663,7 @@ For instance, since `code` is the first word inserted in the tree, and `cob` lex
 
 Implement insertion and search functions for a ternary search tree.
 
-## Daily Coding Problem: Problem #754 [Medium]
+## Daily Coding Problem 754 [Medium]
 
 This problem was asked by Square.
 
@@ -673,7 +673,7 @@ You are asked to play the following game. You and an opponent take turns choosin
 
 Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
 
-## Daily Coding Problem: Problem #755 [Hard]
+## Daily Coding Problem 755 [Hard]
 
 This problem was asked by Google.
 
@@ -704,7 +704,7 @@ A
 
 Should return null, since we have an infinite loop.
 
-## Daily Coding Problem: Problem #756 [Easy]
+## Daily Coding Problem 756 [Easy]
 
 This problem was asked by Slack.
 
@@ -714,7 +714,7 @@ For example, the input could be 'niesevehrtfeev', which is an anagram of 'threef
 
 Given this string, return the original integers in sorted order. In the example above, this would be `357`.
 
-## Daily Coding Problem: Problem #757 [Hard]
+## Daily Coding Problem 757 [Hard]
 
 This problem was asked by MIT.
 
@@ -729,13 +729,13 @@ For this problem, cards values are counted as follows: each card between `2` and
 
 Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
 
-## Daily Coding Problem: Problem #758 [Medium]
+## Daily Coding Problem 758 [Medium]
 
 This problem was asked by Facebook.
 
 Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 
-## Daily Coding Problem: Problem #759 [Medium]
+## Daily Coding Problem 759 [Medium]
 
 This problem was asked by Snapchat.
 
@@ -745,25 +745,25 @@ IP addresses must follow the format A.B.C.D, where A, B, C, and D are numbers be
 
 For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.123'].
 
-## Daily Coding Problem: Problem #760 [Hard]
+## Daily Coding Problem 760 [Hard]
 
 This problem was asked by Apple.
 
 Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
 
-## Daily Coding Problem: Problem #761 [Easy]
+## Daily Coding Problem 761 [Easy]
 
 This problem was asked by Two Sigma.
 
 Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive).
 
-## Daily Coding Problem: Problem #762 [Hard]
+## Daily Coding Problem 762 [Hard]
 
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
 
 For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
-## Daily Coding Problem: Problem #763 [Hard]
+## Daily Coding Problem 763 [Hard]
 
 This problem was asked by Google.
 
@@ -778,13 +778,13 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
-## Daily Coding Problem: Problem #764 [Medium]
+## Daily Coding Problem 764 [Medium]
 
 This problem was asked by Twitter.
 
 Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, you should return `77641510`.
 
-## Daily Coding Problem: Problem #765 [Medium]
+## Daily Coding Problem 765 [Medium]
 
 This problem was asked by Google.
 
@@ -794,7 +794,7 @@ The list is very long, so making more than one pass is prohibitively expensive.
 
 Do this in constant space and in one pass.
 
-## Daily Coding Problem: Problem #766 [Medium]
+## Daily Coding Problem 766 [Medium]
 
 This problem was asked by LinkedIn.
 
@@ -802,7 +802,7 @@ You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy
 
 Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
 
-## Daily Coding Problem: Problem #767 [Hard]
+## Daily Coding Problem 767 [Hard]
 
 This problem was asked by Google.
 
@@ -810,13 +810,13 @@ Given a word W and a string `S`, find all starting indices in `S` which are anag
 
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
-## Daily Coding Problem: Problem #768 [Hard]
+## Daily Coding Problem 768 [Hard]
 
 This problem was asked by Facebook.
 
 Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
 
-## Daily Coding Problem: Problem #769 [Hard]
+## Daily Coding Problem 769 [Hard]
 
 This problem was asked by Two Sigma.
 
@@ -828,7 +828,7 @@ The second game: same, except that the stopping condition is a five followed by 
 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
-## Daily Coding Problem: Problem #770 [Hard]
+## Daily Coding Problem 770 [Hard]
 
 This problem was asked by Google.
 
@@ -849,7 +849,7 @@ In other words, to start, the first player takes three items from pile `B`. The 
 
 Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
 
-## Daily Coding Problem: Problem #771 [Easy]
+## Daily Coding Problem 771 [Easy]
 
 This problem was asked by Bloomberg.
 
@@ -859,13 +859,13 @@ For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a`
 
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
-## Daily Coding Problem: Problem #772 [Easy]
+## Daily Coding Problem 772 [Easy]
 
 This problem was asked by Facebook.
 
 Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
 
-## Daily Coding Problem: Problem #773 [Medium]
+## Daily Coding Problem 773 [Medium]
 
 This problem was asked by Google.
 
@@ -877,7 +877,7 @@ You may assume each element in the array is distinct.
 
 For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 
-## Daily Coding Problem: Problem #774 [Easy]
+## Daily Coding Problem 774 [Easy]
 
 This problem was asked Microsoft.
 
@@ -885,7 +885,7 @@ Using a read7() method that returns 7 characters from a file, implement readN(n)
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
 
-## Daily Coding Problem: Problem #775 [Easy]
+## Daily Coding Problem 775 [Easy]
 
 This problem was asked by Snapchat.
 
@@ -893,7 +893,7 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
-## Daily Coding Problem: Problem #776 [Easy]
+## Daily Coding Problem 776 [Easy]
 
 This problem was asked by Bloomberg.
 
@@ -905,7 +905,7 @@ For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1,
 
 Bonus: Find an `O(log N)` solution if `k = 2`.
 
-## Daily Coding Problem: Problem #777 [Easy]
+## Daily Coding Problem 777 [Easy]
 
 This problem was asked by Zillow.
 
@@ -931,7 +931,7 @@ For instance, since `code` is the first word inserted in the tree, and `cob` lex
 
 Implement insertion and search functions for a ternary search tree.
 
-## Daily Coding Problem: Problem #778 [Medium]
+## Daily Coding Problem 778 [Medium]
 
 This problem was asked by Spotify.
 
@@ -941,7 +941,7 @@ Given a set of these ranked lists, interleave them to create a playlist that sat
 
 For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
 
-## Daily Coding Problem: Problem #779 [Medium]
+## Daily Coding Problem 779 [Medium]
 
 This problem was asked by Goldman Sachs.
 
@@ -951,7 +951,7 @@ Write an algorithm that finds the minimum number of trial drops it will take, in
 
 For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be `5`.
 
-## Daily Coding Problem: Problem #780 [Hard]
+## Daily Coding Problem 780 [Hard]
 
 This problem was asked by Airbnb.
 
@@ -961,7 +961,7 @@ Return null if there is no such ordering.
 
 For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
 
-## Daily Coding Problem: Problem #781 [Medium]
+## Daily Coding Problem 781 [Medium]
 
 This problem was asked by Square.
 
@@ -977,7 +977,7 @@ x x x x
 
 Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
 
-## Daily Coding Problem: Problem #782 [Easy]
+## Daily Coding Problem 782 [Easy]
 
 This problem was asked by Palantir.
 
@@ -989,7 +989,7 @@ For example, suppose `N` = 5, and the respective citations of each paper are `[4
 
 Given a list of paper citations of a researcher, calculate their h-index.
 
-## Daily Coding Problem: Problem #783 [Hard]
+## Daily Coding Problem 783 [Hard]
 
 This problem was asked by Microsoft.
 
@@ -997,7 +997,7 @@ Given an array of numbers, find the length of the longest increasing subsequence
 
 For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 
-## Daily Coding Problem: Problem #784 [Easy]
+## Daily Coding Problem 784 [Easy]
 
 This problem was asked by Microsoft.
 
@@ -1014,7 +1014,7 @@ For example, given the following matrix:
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
-## Daily Coding Problem: Problem #785 [Easy]
+## Daily Coding Problem 785 [Easy]
 
 This problem was asked by Facebook.
 
@@ -1024,7 +1024,7 @@ For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since th
 
 You can assume the list has at least three integers.
 
-## Daily Coding Problem: Problem #786 [Medium]
+## Daily Coding Problem 786 [Medium]
 
 This problem was asked by Google.
 
@@ -1034,19 +1034,19 @@ Do this faster than the naive method of repeated multiplication.
 
 For example, `pow(2, 10)` should return 1024.
 
-## Daily Coding Problem: Problem #787 [Medium]
+## Daily Coding Problem 787 [Medium]
 
 This problem was asked by Facebook.
 
 Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
 
-## Daily Coding Problem: Problem #788 [Easy]
+## Daily Coding Problem 788 [Easy]
 
 This problem was asked by Palantir.
 
 Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
 
-## Daily Coding Problem: Problem #789 [Hard]
+## Daily Coding Problem 789 [Hard]
 
 This problem was asked by Palantir.
 
@@ -1056,7 +1056,7 @@ For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` shou
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
-## Daily Coding Problem: Problem #790 [Easy]
+## Daily Coding Problem 790 [Easy]
 
 This problem was asked by Pivotal.
 
@@ -1064,7 +1064,7 @@ A step word is formed by taking a given word, adding a letter, and anagramming t
 
 Given a dictionary of words and an input word, create a function that returns all valid step words.
 
-## Daily Coding Problem: Problem #791 [Medium]
+## Daily Coding Problem 791 [Medium]
 
 This problem was asked by Spotify.
 
@@ -1072,7 +1072,7 @@ Write a function, `throw_dice(N, faces, total)`, that determines how many ways i
 
 For example, `throw_dice(3, 6, 7)` should equal `15`.
 
-## Daily Coding Problem: Problem #792 [Hard]
+## Daily Coding Problem 792 [Hard]
 
 This problem was asked by Uber.
 
@@ -1082,7 +1082,7 @@ You can change the height of any stone by paying a cost of `1` unit to lower its
 
 For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
 
-## Daily Coding Problem: Problem #793 [Medium]
+## Daily Coding Problem 793 [Medium]
 
 This problem was asked by Yahoo.
 
@@ -1110,7 +1110,7 @@ You should convert it to:
        6     7
 ```
 
-## Daily Coding Problem: Problem #794 [Easy]
+## Daily Coding Problem 794 [Easy]
 
 This problem was asked by Amazon.
 
@@ -1122,7 +1122,7 @@ Implement a stack that has the following methods:
 
 Each method should run in constant time.
 
-## Daily Coding Problem: Problem #795 [Medium]
+## Daily Coding Problem 795 [Medium]
 
 This problem was asked by Square.
 
@@ -1130,7 +1130,7 @@ Assume you have access to a function `toss_biased()` which returns 0 or 1 with a
 
 Write a function to simulate an unbiased coin toss.
 
-## Daily Coding Problem: Problem #796 [Medium]
+## Daily Coding Problem 796 [Medium]
 
 This problem was asked by Nvidia.
 
@@ -1138,7 +1138,7 @@ You are given a list of `N` points `(x``1``, y``1``)`, `(x``2``, y``2``)`, ..., 
 
 Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
 
-## Daily Coding Problem: Problem #797 [Easy]
+## Daily Coding Problem 797 [Easy]
 
 This problem was asked by Alibaba.
 
@@ -1163,7 +1163,7 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 
 If a < c OR a==c AND b < d.
 
-## Daily Coding Problem: Problem #798 [Medium]
+## Daily Coding Problem 798 [Medium]
 
 This problem was asked by Google.
 
@@ -1178,7 +1178,7 @@ Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: 
 
 Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
 
-## Daily Coding Problem: Problem #799 [Easy]
+## Daily Coding Problem 799 [Easy]
 
 This problem was asked by Google.
 
@@ -1197,7 +1197,7 @@ mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
 
-## Daily Coding Problem: Problem #800 [Medium]
+## Daily Coding Problem 800 [Medium]
 
 This problem was asked by Fitbit.
 

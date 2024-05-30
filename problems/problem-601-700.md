@@ -1,18 +1,18 @@
 # Daily Coding Problems 601 - 700
 
-## Problem 601 (Medium)
+## Daily Coding Problem 601 (Medium)
 
 This problem was asked by Pinterest.
 
 The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given `[None, +, +, -, +]`, you could return `[1, 2, 3, 0, 4]`.
 
-## Problem 602 (Easy)
+## Daily Coding Problem 602 (Easy)
 
 This problem was asked by Facebook.
 
 Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of `n` line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
 
-## Problem 603 (Easy)
+## Daily Coding Problem 603 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -28,7 +28,7 @@ For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
 
 Given the string `..R...L.L`, you should return `..RR.LLLL`.
 
-## Problem 604 (Hard)
+## Daily Coding Problem 604 (Hard)
 
 This problem was asked by Grammarly.
 
@@ -54,7 +54,7 @@ Using this scheme, `Jackson` and `Jaxen` both map to `J250`.
 
 Implement Soundex.
 
-## Problem 605 (Easy)
+## Daily Coding Problem 605 (Easy)
 
 This problem was asked by Palantir.
 
@@ -66,7 +66,7 @@ For example, suppose `N` = 5, and the respective citations of each paper are `[4
 
 Given a list of paper citations of a researcher, calculate their h-index.
 
-## Problem 606 (Hard)
+## Daily Coding Problem 606 (Hard)
 
 This problem was asked by Google.
 
@@ -74,7 +74,7 @@ A knight's tour is a sequence of moves by a knight on a chessboard such that all
 
 Given N, write a function to return the number of knight's tours on an N by N chessboard.
 
-## Problem 607 (Medium)
+## Daily Coding Problem 607 (Medium)
 
 This problem was asked by Walmart Labs.
 
@@ -84,7 +84,7 @@ For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]
 
 Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
 
-## Problem 608 (Medium)
+## Daily Coding Problem 608 (Medium)
 
 This problem was asked by Facebook.
 
@@ -94,7 +94,7 @@ For example, given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "do
 
 Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "dar"}`, return null as there is no possible transformation from `dog` to `cat`.
 
-## Problem 609 (Medium)
+## Daily Coding Problem 609 (Medium)
 
 This problem was asked by Amazon.
 
@@ -112,13 +112,13 @@ For example, the inorder successor of 22 is 30.
 
 You can assume each node has a `parent` pointer.
 
-## Problem 610 (Medium)
+## Daily Coding Problem 610 (Medium)
 
 This question was asked by ContextLogic.
 
 Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
 
-## Problem 611 (Hard)
+## Daily Coding Problem 611 (Hard)
 
 This problem was asked by Dropbox.
 
@@ -129,7 +129,7 @@ Create a data structure that performs all the following operations in `O(1)` tim
 - `get_max`: Return a key with the highest value.
 - `get_min`: Return a key with the lowest value.
 
-## Problem 612 (Easy)
+## Daily Coding Problem 612 (Easy)
 
 This problem was asked by Stripe.
 
@@ -141,7 +141,7 @@ For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return 1 as the last 
 
 The intervals are not necessarily sorted in any order.
 
-## Problem 613 (Easy)
+## Daily Coding Problem 613 (Easy)
 
 This problem was asked by Google.
 
@@ -160,7 +160,7 @@ mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
 
-## Problem 614 (Medium)
+## Daily Coding Problem 614 (Medium)
 
 This problem was asked by Twitter.
 
@@ -184,7 +184,7 @@ edges = [
 
 You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` will take that much time.
 
-## Problem 616 (Hard)
+## Daily Coding Problem 616 (Hard)
 
 This problem was asked by Amazon.
 
@@ -210,7 +210,7 @@ gal_preferences = {
 
 Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
 
-## Problem 616 (Medium)
+## Daily Coding Problem 616 (Medium)
 
 This problem was asked by Google.
 
@@ -233,7 +233,7 @@ may have the solution:
 
 Given a three-word puzzle like the one above, create an algorithm that finds a solution.
 
-## Problem 617 (Medium)
+## Daily Coding Problem 617 (Medium)
 
 This problem was asked by Facebook.
 
@@ -257,13 +257,13 @@ In addition, note that the Roman numeral system uses [subtractive notation](http
 
 For the input `XIV`, for instance, you should return `14`.
 
-## Problem 618 (Hard)
+## Daily Coding Problem 618 (Hard)
 
 Good morning! Here's your coding interview problem for today.
 
 Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
 
-## Problem 619 (Easy)
+## Daily Coding Problem 619 (Easy)
 
 This problem was asked by Coursera.
 
@@ -283,7 +283,7 @@ For example, given the following board:
 
 `exists(board, "ABCCED")` returns `true`, `exists(board, "SEE")` returns `true`, `exists(board, "ABCB")` returns `false`.
 
-## Problem 620 (Medium)
+## Daily Coding Problem 620 (Medium)
 
 This problem was asked by LinkedIn.
 
@@ -304,7 +304,7 @@ The best we can we do here is to draw a line after the eighth brick, which will 
 
 Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
 
-## Problem 621 (Hard)
+## Daily Coding Problem 621 (Hard)
 
 This problem was asked by Uber.
 
@@ -326,7 +326,7 @@ and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the l
 
 The path does not have to pass through the root, and each node can have any amount of children.
 
-## Problem 622 (Easy)
+## Daily Coding Problem 622 (Easy)
 
 This problem was asked by Google.
 
@@ -340,7 +340,7 @@ Given the root of a binary tree, return a deepest node. For example, in the foll
 d
 ```
 
-## Problem 623 (Medium)
+## Daily Coding Problem 623 (Medium)
 
 This problem was asked by Palantir.
 
@@ -360,7 +360,7 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 ```
 
-## Problem 624 (Medium)
+## Daily Coding Problem 624 (Medium)
 
 This problem was asked by Google.
 
@@ -368,7 +368,7 @@ Given a string of parentheses, write a function to compute the minimum number of
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
 
-## Problem 625 (Easy)
+## Daily Coding Problem 625 (Easy)
 
 This problem was asked by Stripe.
 
@@ -376,7 +376,7 @@ Given an integer `n`, return the length of the longest consecutive run of `1`s i
 
 For example, given `156`, you should return `3`.
 
-## Problem 626 (Easy)
+## Daily Coding Problem 626 (Easy)
 
 This problem was asked by Facebook.
 
@@ -386,7 +386,7 @@ For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since th
 
 You can assume the list has at least three integers.
 
-## Problem 627 (Medium)
+## Daily Coding Problem 627 (Medium)
 
 This problem was asked by Google.
 
@@ -409,7 +409,7 @@ class PeekableInterface(object):
         pass
 ```
 
-## Problem 628 (Hard)
+## Daily Coding Problem 628 (Hard)
 
 This problem was asked by Citrix.
 
@@ -419,7 +419,7 @@ In addition, the lock has a certain number of "dead ends", meaning that if you t
 
 Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to `000`, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or `None` if this is impossible.
 
-## Problem 629 (Medium)
+## Daily Coding Problem 629 (Medium)
 
 This problem was asked by Etsy.
 
@@ -427,13 +427,13 @@ Given an array of numbers `N` and an integer `k`, your task is to split `N` into
 
 For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, since the optimal partition is `[5, 1, 2], [7], [3, 4]`.
 
-## Problem 630 (Medium)
+## Daily Coding Problem 630 (Medium)
 
 This problem was asked by Apple.
 
 Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
 
-## Problem 631 (Hard)
+## Daily Coding Problem 631 (Hard)
 
 This problem was asked by VMware.
 
@@ -455,7 +455,7 @@ For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5
 
 As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
 
-## Problem 632 (Medium)
+## Daily Coding Problem 632 (Medium)
 
 This problem was asked by Snapchat.
 
@@ -463,7 +463,7 @@ You are given an array of length `N`, where each element `i` represents the numb
 
 Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value `2`, `3`, and `4`.
 
-## Problem 633 (Medium)
+## Daily Coding Problem 633 (Medium)
 
 This problem was asked by Palantir.
 
@@ -471,7 +471,7 @@ You are given a list of `N` numbers, in which each number is located at most `k`
 
 Come up with an algorithm that sorts this list in `O(N log k)` time.
 
-## Problem 634 (Medium)
+## Daily Coding Problem 634 (Medium)
 
 This problem was asked by Square.
 
@@ -487,7 +487,7 @@ x x x x
 
 Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
 
-## ## Problem 635 (Hard)
+## ## Daily Coding Problem 635 (Hard)
 
 This problem was asked by Facebook.
 
@@ -502,7 +502,7 @@ For example, given the regular expression "ra." and the string "ray", your funct
 
 Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
 
-## ## Problem 636 (Medium)
+## ## Daily Coding Problem 636 (Medium)
 
 This problem was asked by Uber.
 
@@ -510,7 +510,7 @@ Suppose an array sorted in ascending order is rotated at some pivot unknown to y
 
 For example, given [5, 7, 10, 3, 4], return 3.
 
-## ## Problem 637 (Easy)
+## ## Daily Coding Problem 637 (Easy)
 
 This problem was asked by Snapchat.
 
@@ -520,7 +520,7 @@ The input list is not necessarily ordered in any way.
 
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
 
-## ## Problem 638 (Medium)
+## ## Daily Coding Problem 638 (Medium)
 
 This problem was asked by Google.
 
@@ -528,7 +528,7 @@ Given a string of words delimited by spaces, reverse the words in string. For ex
 
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
-## ## Problem 639 (Easy)
+## ## Daily Coding Problem 639 (Easy)
 
 This problem was asked by Yelp.
 
@@ -536,7 +536,7 @@ Given a mapping of digits to letters (as in a phone number), and a digit string,
 
 For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
 
-## ## Problem 640 (Easy)
+## ## Daily Coding Problem 640 (Easy)
 
 This problem was asked by Google.
 
@@ -560,7 +560,7 @@ For example, given the starting state `a`, number of steps 5000, and the followi
 
 One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656, 'c': 332 }`.
 
-## ## Problem 641 (Easy)
+## ## Daily Coding Problem 641 (Easy)
 
 This problem was asked by Amazon.
 
@@ -570,7 +570,7 @@ For example, for the input `[1, 2, 3, 10]`, you should return `7`.
 
 Do this in `O(N)` time.
 
-## ## Problem 642 (Easy)
+## ## Daily Coding Problem 642 (Easy)
 
 This problem was asked by Pivotal.
 
@@ -578,13 +578,13 @@ A step word is formed by taking a given word, adding a letter, and anagramming t
 
 Given a dictionary of words and an input word, create a function that returns all valid step words.
 
-## ## Problem 643 (Hard)
+## ## Daily Coding Problem 643 (Hard)
 
 This problem was asked by YouTube.
 
 Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
 
-## ## Problem 644 (Easy)
+## ## Daily Coding Problem 644 (Easy)
 
 This problem was asked by Google.
 
@@ -604,7 +604,7 @@ For example, the following tree has 5 unival subtrees:
  1   1
 ```
 
-## ## Problem 645 (Easy)
+## ## Daily Coding Problem 645 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -621,7 +621,7 @@ For example, given the following matrix:
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
-## ## Problem 646 (Easy)
+## ## Daily Coding Problem 646 (Easy)
 
 This problem was asked by Twitter.
 
@@ -641,7 +641,7 @@ Each student can be placed in a friend group, which can be defined as the transi
 
 Given a friendship list such as the one above, determine the number of friend groups in the class.
 
-## ## Problem 647 (Medium)
+## ## Daily Coding Problem 647 (Medium)
 
 This problem was asked by Facebook.
 
@@ -651,13 +651,13 @@ For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return t
 
 Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
 
-## ## Problem 648 (Medium)
+## ## Daily Coding Problem 648 (Medium)
 
 This question was asked by Snapchat.
 
 Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
 
-## ## Problem 649 (Easy)
+## ## Daily Coding Problem 649 (Easy)
 
 This problem was asked by Google.
 
@@ -665,7 +665,7 @@ Given a string, return the first recurring character in it, or null if there is 
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
 
-## ## Problem 650 (Hard)
+## ## Daily Coding Problem 650 (Hard)
 
 This problem was asked by Google.
 
@@ -685,7 +685,7 @@ For example, given the following matrix:
 
 And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the matrix smaller than 6 or greater than 23.
 
-## Problem 651 (Medium)
+## Daily Coding Problem 651 (Medium)
 
 This problem was asked by LinkedIn.
 
@@ -693,7 +693,7 @@ Determine whether a tree is a valid binary search tree.
 
 A binary search tree is a tree with two children, `left` and `right`, and satisfies the constraint that the key in the `left` child must be less than or equal to the root and the key in the `right` child must be greater than or equal to the root.
 
-## Problem #652 [Hard]
+## Daily Coding Problem #652 [Hard]
 
 This problem was asked by Apple.
 
@@ -701,7 +701,7 @@ You are going on a road trip, and would like to create a suitable music playlist
 
 Given `N`, `M`, and `B`, determine the number of valid playlists.
 
-## Problem #653 [Easy]
+## Daily Coding Problem #653 [Easy]
 
 This problem was asked by Google.
 
@@ -726,7 +726,7 @@ For example, given the following rectangles:
 
 return `true` as the first and third rectangle overlap each other.
 
-## Problem #654 [Medium]
+## Daily Coding Problem #654 [Medium]
 
 This problem was asked by Amazon.
 
@@ -734,7 +734,7 @@ Given a string, find the length of the smallest window that contains every disti
 
 For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
 
-## Problem #655 [Easy]
+## Daily Coding Problem #655 [Easy]
 
 This problem was asked by Facebook.
 
@@ -742,7 +742,7 @@ Given a 32-bit integer, return the number with its bits reversed.
 
 For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
 
-## Problem #656 [Medium]
+## Daily Coding Problem #656 [Medium]
 
 Given a 2-D matrix representing an image, a location of a pixel in the screen and a color `C`, replace the color of the given pixel and all adjacent same colored pixels with `C`.
 

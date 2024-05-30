@@ -1,6 +1,6 @@
 # Daily Coding Problems 501 - 600
 
-## Problem 501 (Medium)
+## Daily Coding Problem 501 (Medium)
 
 This problem was asked by Facebook.
 
@@ -10,13 +10,13 @@ It should run in O(N) time.
 
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
-## Problem 502 (Medium)
+## Daily Coding Problem 502 (Medium)
 
 This problem was asked by PayPal.
 
 Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
 
-## Problem 503 (Medium)
+## Daily Coding Problem 503 (Medium)
 
 This problem was asked by Google.
 
@@ -24,7 +24,7 @@ Given a linked list, sort it in O(n log n) time and constant space.
 
 For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
 
-## Problem 504 (Easy)
+## Daily Coding Problem 504 (Easy)
 
 This problem was asked by Twitter.
 
@@ -35,25 +35,25 @@ You run an e-commerce website and want to record the last `N` `order` ids in a l
 
 You should be as efficient with time and space as possible.
 
-## Problem 505 (Easy)
+## Daily Coding Problem 505 (Easy)
 
 This problem was asked by Amazon.
 
 Given an array and a number `k` that's smaller than the length of the array, rotate the array to the right `k` elements in-place.
 
-## Problem 506 (Medium)
+## Daily Coding Problem 506 (Medium)
 
 This problem was asked by Fitbit.
 
 Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high ...` form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
 
-## Problem 507 (Easy)
+## Daily Coding Problem 507 (Easy)
 
 This problem was asked by Uber.
 
 On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.
 
-## Problem 508 (Medium)
+## Daily Coding Problem 508 (Medium)
 
 This problem was asked by Dropbox.
 
@@ -61,7 +61,7 @@ Create an algorithm to efficiently compute the approximate median of a list of n
 
 More precisely, given an unordered list of `N` numbers, find an element whose rank is between `N / 4` and `3 * N / 4`, with a high level of certainty, in less than `O(N)` time.
 
-## Problem 509 (Medium)
+## Daily Coding Problem 509 (Medium)
 
 This problem was asked by Quora.
 
@@ -71,7 +71,7 @@ For example, given the string "race", you should return "ecarace", since we can 
 
 As another example, given the string "google", you should return "elgoogle".
 
-## Problem 510 (Hard)
+## Daily Coding Problem 510 (Hard)
 
 This problem was asked by Airbnb.
 
@@ -79,7 +79,7 @@ Given a list of words, find all pairs of unique indices such that the concatenat
 
 For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 0), (2, 3)]`.
 
-## Problem 511 (Medium)
+## Daily Coding Problem 511 (Medium)
 
 This problem was asked by Yelp.
 
@@ -87,7 +87,7 @@ You are given an array of integers, where each element represents the maximum nu
 
 For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as the optimal solution involves jumping from `6` to `5`, and then from `5` to `9`.
 
-## Problem 512 (Medium)
+## Daily Coding Problem 512 (Medium)
 
 This problem was asked by Google.
 
@@ -97,7 +97,7 @@ For example, given the array `[1, 3, 1, 2, 0, 1]`, we can go from indices `0 -> 
 
 Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
 
-## Problem 513 (Medium)
+## Daily Coding Problem 513 (Medium)
 
 This problem was asked by Lyft.
 
@@ -105,7 +105,7 @@ Given a list of integers and a number K, return which contiguous elements of the
 
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
-## Problem 514 (Medium)
+## Daily Coding Problem 514 (Medium)
 
 This problem was asked by Microsoft.
 
@@ -115,7 +115,7 @@ For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element seq
 
 Your algorithm should run in `O(n)` complexity.
 
-## Problem 515 (Medium)
+## Daily Coding Problem 515 (Medium)
 
 This problem was asked by LinkedIn.
 
@@ -123,13 +123,13 @@ Given a linked list of numbers and a pivot `k`, partition the linked list so tha
 
 For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
 
-## Problem 516 (Easy)
+## Daily Coding Problem 516 (Easy)
 
 This problem was asked by Zillow.
 
 Let's define a "sevenish" number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1`, `7`, `8`, `49`, and so on. Create an algorithm to find the `n`th sevenish number.
 
-## Problem 517 (Easy)
+## Daily Coding Problem 517 (Easy)
 
 This problem was asked by Google.
 
@@ -141,19 +141,19 @@ In this example, assume nodes with the same value are the exact same node object
 
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 
-## Problem 518 (Easy)
+## Daily Coding Problem 518 (Easy)
 
 This problem was asked by Microsoft.
 
 Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return `true` as `20 + 4 + 25 = 49`.
 
-## Problem 519 (Medium)
+## Daily Coding Problem 519 (Medium)
 
 This problem was asked by Facebook.
 
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
 
-## Problem 520 (Hard)
+## Daily Coding Problem 520 (Hard)
 
 This problem was asked by LinkedIn.
 
@@ -169,7 +169,7 @@ Here are a few examples:
 
 Given this representation, determine the depth of the tree.
 
-## Problem 521 (Medium)
+## Daily Coding Problem 521 (Medium)
 
 This problem was asked by PayPal.
 
@@ -184,13 +184,13 @@ t     a     g
    s     g
 ```
 
-## Problem 522 (Medium)
+## Daily Coding Problem 522 (Medium)
 
 This problem was asked by Microsoft.
 
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
 
-## Problem 523 (Medium)
+## Daily Coding Problem 523 (Medium)
 
 This problem was asked by Jane Street.
 
@@ -199,7 +199,7 @@ Given integers `M` and `N`, write a program that counts how many positive intege
 - `a + b = M`
 - `a XOR b = N`
 
-## Problem 524 (Medium)
+## Daily Coding Problem 524 (Medium)
 
 This problem was asked by Amazon.
 
@@ -211,7 +211,7 @@ Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not
 
 Do this in O(N) time.
 
-## Problem 525 (Easy)
+## Daily Coding Problem 525 (Easy)
 
 This problem was asked by Amazon.
 
@@ -251,7 +251,7 @@ You should print out the following:
 12
 ```
 
-## Problem 526 (Easy)
+## Daily Coding Problem 526 (Easy)
 
 This problem was asked by Yahoo.
 
@@ -261,7 +261,7 @@ Write a program to determine the lexicographically smallest string that can be c
 
 For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
 
-## Problem 527 (Medium)
+## Daily Coding Problem 527 (Medium)
 
 This problem was asked by Microsoft.
 
@@ -275,7 +275,7 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 1   2  2   1
 ```
 
-## Problem 528 (Easy)
+## Daily Coding Problem 528 (Easy)
 
 This problem was asked by Amazon.
 
@@ -297,7 +297,7 @@ With this encoding, `cats` would be represented as `0000110111`.
 
 Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
 
-## Problem 529 (Hard)
+## Daily Coding Problem 529 (Hard)
 
 This problem was asked by Google.
 
@@ -307,7 +307,7 @@ For example, given the input string `racecarannakayak`, return `["racecar", "ann
 
 Given the input string `abc`, return `["a", "b", "c"]`.
 
-## Problem 530 (Easy)
+## Daily Coding Problem 530 (Easy)
 
 This problem was asked by Google.
 
@@ -315,7 +315,7 @@ The edit distance between two strings refers to the minimum number of character 
 
 Given two strings, compute the edit distance between them.
 
-## Problem 531 (Easy)
+## Daily Coding Problem 531 (Easy)
 
 This problem was asked Microsoft.
 
@@ -323,7 +323,7 @@ Using a read7() method that returns 7 characters from a file, implement readN(n)
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
 
-## Problem 532 (Medium)
+## Daily Coding Problem 532 (Medium)
 
 This problem was asked by Google.
 
@@ -350,13 +350,13 @@ The board would look like this:
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
-## Problem 533 (Easy)
+## Daily Coding Problem 533 (Easy)
 
 This problem was asked by Facebook.
 
 Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
 
-## Problem 534 (Easy)
+## Daily Coding Problem 534 (Easy)
 
 This problem was asked by Amazon.
 
@@ -364,7 +364,7 @@ Given a string, determine whether any permutation of it is a palindrome.
 
 For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
 
-## Problem 535 (Medium)
+## Daily Coding Problem 535 (Medium)
 
 This problem was asked by Goldman Sachs.
 
@@ -374,7 +374,7 @@ Write an algorithm that finds the minimum number of trial drops it will take, in
 
 For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be `5`.
 
-## Problem 536 (Medium)
+## Daily Coding Problem 536 (Medium)
 
 This problem was asked by Google.
 
@@ -390,7 +390,7 @@ For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the fol
 2   4   8
 ```
 
-## Problem 537 (Easy)
+## Daily Coding Problem 537 (Easy)
 
 This problem was asked by Apple.
 
@@ -403,7 +403,7 @@ It is conjectured that every such sequence eventually reaches the number `1`. Te
 
 Bonus: What input `n <= 1000000` gives the longest sequence?
 
-## Problem 538 (Hard)
+## Daily Coding Problem 538 (Hard)
 
 This problem was asked by LinkedIn.
 
@@ -413,13 +413,13 @@ For example, suppose `C = {0, 1}` and `k = 3`. Then our sequence should contain 
 
 Create an algorithm that finds a De Bruijn sequence.
 
-## Problem 539 (Easy)
+## Daily Coding Problem 539 (Easy)
 
 This problem was asked by Pandora.
 
 Given an undirected graph, determine if it contains a cycle.
 
-## Problem 540 (Easy)
+## Daily Coding Problem 540 (Easy)
 
 This problem was asked by Morgan Stanley.
 
@@ -439,7 +439,7 @@ For example, given the following tree:
 
 You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
-## Problem 541 (Easy)
+## Daily Coding Problem 541 (Easy)
 
 This problem was asked by Amazon.
 
@@ -447,13 +447,13 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
-## Problem 542 (Medium)
+## Daily Coding Problem 542 (Medium)
 
 This problem was asked by Dropbox.
 
 Given an undirected graph G, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, U and V, such that no edge connects vertices of the same set.
 
-## Problem 543 (Medium)
+## Daily Coding Problem 543 (Medium)
 
 This problem was asked by Google.
 
@@ -463,7 +463,7 @@ The list is very long, so making more than one pass is prohibitively expensive.
 
 Do this in constant space and in one pass.
 
-## Problem 544 (Hard)
+## Daily Coding Problem 544 (Hard)
 
 This problem was asked by Google.
 
@@ -473,7 +473,7 @@ Integers can appear more than once in the list. You may assume all numbers in th
 
 For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
 
-## Problem 545 (Hard)
+## Daily Coding Problem 545 (Hard)
 
 This problem was asked by Twitter.
 
@@ -481,7 +481,7 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
 
-## Problem 546 (Medium)
+## Daily Coding Problem 546 (Medium)
 
 This problem was asked by Google.
 
@@ -495,13 +495,13 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 - There is 1 smaller element to the right of 6
 - There are no smaller elements to the right of 1
 
-## Problem 547 (Hard)
+## Daily Coding Problem 547 (Hard)
 
 This problem was asked by Salesforce.
 
 Given an array of integers, find the maximum XOR of any two elements.
 
-## Problem 548 (Easy)
+## Daily Coding Problem 548 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -509,7 +509,7 @@ Given a clock time in `hh:mm` format, determine, to the nearest degree, the angl
 
 Bonus: When, during the course of a day, will the angle be zero?
 
-## Problem 549 (Hard)
+## Daily Coding Problem 549 (Hard)
 
 This problem was asked by Google.
 
@@ -519,7 +519,7 @@ For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], retu
 
 Do this in O(N) time and O(1) space.
 
-## Problem 550 (Hard)
+## Daily Coding Problem 550 (Hard)
 
 This problem was asked by Jane Street.
 
@@ -527,7 +527,7 @@ Suppose you are given a table of currency exchange rates, represented as a 2D ar
 
 There are no transaction costs and you can trade fractional quantities.
 
-## Problem 551 (Medium)
+## Daily Coding Problem 551 (Medium)
 
 This problem was asked by Square.
 
@@ -535,7 +535,7 @@ Assume you have access to a function `toss_biased()` which returns 0 or 1 with a
 
 Write a function to simulate an unbiased coin toss.
 
-## Problem 552 (Easy)
+## Daily Coding Problem 552 (Easy)
 
 This problem was asked by Wayfair.
 
@@ -553,7 +553,7 @@ A B C C
 
 Given an integer `N`, determine in how many ways this task is possible.
 
-## Problem 553 (Medium)
+## Daily Coding Problem 553 (Medium)
 
 This problem was asked by Google.
 
@@ -649,7 +649,7 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 
 And there are 4 12's in the table.
 
-## Problem 558 (Medium)
+## Daily Coding Problem 558 (Medium)
 
 This problem was asked by Google.
 
@@ -657,13 +657,13 @@ The area of a circle is defined as πr^2. Estimate π to 3 decimal places using 
 
 Hint: The basic equation of a circle is x2 + y2 = r2.
 
-## Problem 559 (Medium)
+## Daily Coding Problem 559 (Medium)
 
 This problem was asked by Google.
 
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
-## Problem 560 (Easy)
+## Daily Coding Problem 560 (Easy)
 
 This problem was recently asked by Google.
 
@@ -673,13 +673,13 @@ For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` 
 
 Bonus: Can you do this in one pass?
 
-## Problem 561 (Hard)
+## Daily Coding Problem 561 (Hard)
 
 This problem was asked by Etsy.
 
 Given a sorted array, convert it into a height-balanced binary search tree.
 
-## Problem 562 (Hard)
+## Daily Coding Problem 562 (Hard)
 
 This problem was asked by Uber.
 
@@ -689,7 +689,7 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 
 Follow-up: what if you can't use division?
 
-## Problem 563 (Hard)
+## Daily Coding Problem 563 (Hard)
 
 This problem was asked by Nvidia.
 
@@ -738,7 +738,7 @@ def cons(a, b):
 
 Implement `car` and `cdr`.
 
-## Problem 568 (Easy)
+## Daily Coding Problem 568 (Easy)
 
 This problem was asked by Google.
 
@@ -746,19 +746,19 @@ Given a sorted list of integers, square the elements and give the output in sort
 
 For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 
-## Problem 569 (Hard)
+## Daily Coding Problem 569 (Hard)
 
 This problem was asked by Facebook.
 
 Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
 
-## Problem 570 (Hard)
+## Daily Coding Problem 570 (Hard)
 
 This problem was asked by Google.
 
 Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
 
-## Problem 571 (Medium)
+## Daily Coding Problem 571 (Medium)
 
 The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
 
@@ -784,7 +784,7 @@ Move 2 to 3
 Move 1 to 3
 ```
 
-## Problem 572 (Hard)
+## Daily Coding Problem 572 (Hard)
 
 This problem was asked by Palantir.
 
@@ -794,7 +794,7 @@ For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` shou
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
-## Problem 573 (Medium)
+## Daily Coding Problem 573 (Medium)
 
 This problem was asked by Google.
 
@@ -806,7 +806,7 @@ For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. 
 
 Hint: Try working backwards from the end state.
 
-## Problem 574 (Medium)
+## Daily Coding Problem 574 (Medium)
 
 This problem was asked by Amazon.
 
@@ -818,7 +818,7 @@ A bit array is a space efficient array that holds a value of `1` or `0` at each 
 - `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
 - `get(i)`: gets the value at index `i`.
 
-## Problem 575 (Medium)
+## Daily Coding Problem 575 (Medium)
 
 This problem was asked by Uber.
 
@@ -831,7 +831,7 @@ For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling `next()` repe
 
 Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be empty.
 
-## Problem 576 (Medium)
+## Daily Coding Problem 576 (Medium)
 
 This problem was asked by Spotify.
 
@@ -839,7 +839,7 @@ Write a function, `throw_dice(N, faces, total)`, that determines how many ways i
 
 For example, `throw_dice(3, 6, 7)` should equal `15`.
 
-## Problem 577 (Medium)
+## Daily Coding Problem 577 (Medium)
 
 This problem was asked by Dropbox.
 
@@ -847,7 +847,7 @@ Given a list of words, determine whether the words can be chained to form a circ
 
 For example, the words `['chair', 'height', 'racket', touch', 'tunic']` can form the following circle: `chair --> racket --> touch --> height --> tunic --> chair`.
 
-## Problem 578 (Easy)
+## Daily Coding Problem 578 (Easy)
 
 This problem was asked by Bloomberg.
 
@@ -857,7 +857,7 @@ For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a`
 
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
-## Problem 579 (Medium)
+## Daily Coding Problem 579 (Medium)
 
 This problem was asked by Flipkart.
 
@@ -867,7 +867,7 @@ On the `i``th` jump, you may move exactly i places to the left or right.
 
 Find a path with the fewest number of jumps required to get from 0 to N.
 
-## Problem 580 (Easy)
+## Daily Coding Problem 580 (Easy)
 
 This question was asked by Apple.
 
@@ -885,7 +885,7 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
      -1
 ```
 
-## Problem 581 (Easy)
+## Daily Coding Problem 581 (Easy)
 
 This problem was asked by Google.
 
@@ -911,7 +911,7 @@ and
 
 return 6.
 
-## Problem 582 (Hard)
+## Daily Coding Problem 582 (Hard)
 
 This problem was asked by Microsoft.
 
@@ -919,7 +919,7 @@ Let X be a set of n intervals on the real line. We say that a set of points P "s
 
 For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should return `[4, 9]`.
 
-## Problem 583 (Medium)
+## Daily Coding Problem 583 (Medium)
 
 This question was asked by Zillow.
 
@@ -935,7 +935,7 @@ For example, in this matrix
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 
-## Problem 584 (Easy)
+## Daily Coding Problem 584 (Easy)
 
 This problem was asked by IBM.
 
@@ -943,7 +943,7 @@ Given a string with repeated characters, rearrange the string so that no two adj
 
 For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
 
-## Problem 585 (Medium)
+## Daily Coding Problem 585 (Medium)
 
 This question was asked by Google.
 
@@ -960,7 +960,7 @@ For example, given the following matrix:
 
 Return 4.
 
-## Problem 586 (Medium)
+## Daily Coding Problem 586 (Medium)
 
 This problem was asked by Quora.
 
@@ -978,7 +978,7 @@ For example, suppose `k = 1`, and the list of tuples is:
 
 Then a reasonable similarity metric would most likely conclude that `a` and `e` are the most similar, so your program should return `[('a', 'e')]`.
 
-## Problem 587 (Medium)
+## Daily Coding Problem 587 (Medium)
 
 This problem was asked by Facebook.
 
@@ -996,7 +996,7 @@ For example, given the tree:
 
 Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 
-## Problem 588 (Easy)
+## Daily Coding Problem 588 (Easy)
 
 This problem was asked by Facebook.
 
@@ -1008,7 +1008,7 @@ Use a more space-efficient data structure, SparseArray, that implements the same
 - `set(i, val)`: updates index at `i` with `val`.
 - `get(i)`: gets the value at index `i`.
 
-## Problem 589 (Hard)
+## Daily Coding Problem 589 (Hard)
 
 This problem was asked by Two Sigma.
 
@@ -1020,7 +1020,7 @@ The second game: same, except that the stopping condition is a five followed by 
 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
-## Problem 590 (Hard)
+## Daily Coding Problem 590 (Hard)
 
 This problem was asked by Google.
 
@@ -1028,7 +1028,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 
 If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
 
-## Problem 591 (Hard)
+## Daily Coding Problem 591 (Hard)
 
 This problem was asked by Quora.
 
@@ -1046,7 +1046,7 @@ Suppose you are given a list of meanings for several words, formatted like so:
 
 Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
 
-## Problem 592 (Medium)
+## Daily Coding Problem 592 (Medium)
 
 This problem was asked by Amazon.
 
@@ -1063,7 +1063,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 ```
 
-## Problem 593 (Medium)
+## Daily Coding Problem 593 (Medium)
 
 This problem was asked by Mailchimp.
 
@@ -1073,7 +1073,7 @@ For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since 
 
 Can you do this using just one forward pass through the array?
 
-## Problem 594 (Easy)
+## Daily Coding Problem 594 (Easy)
 
 This problem was asked by Google.
 
@@ -1103,7 +1103,7 @@ and matrix:
 
 Your function should return 3, since we can make the words 'eat', 'in', and 'rat' without them touching each other. We could have alternatively made 'eat' and 'rain', but that would be incorrect since that's only 2 words.
 
-## Problem 595 (Medium)
+## Daily Coding Problem 595 (Medium)
 
 This problem was asked by Salesforce.
 
@@ -1120,7 +1120,7 @@ For example, this algorithm terminates in three steps when starting from `1234`:
 
 Write a function that returns how many steps this will take for a given input `N`.
 
-## Problem 596 (Medium)
+## Daily Coding Problem 596 (Medium)
 
 This problem was asked by Google.
 
@@ -1146,13 +1146,13 @@ should become:
   f e  d
 ```
 
-## Problem 597 (Easy)
+## Daily Coding Problem 597 (Easy)
 
 This problem was asked by Netflix.
 
 Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a^2 + b^2 = c^2`.
 
-## Problem 598 (Easy)
+## Daily Coding Problem 598 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -1160,7 +1160,7 @@ You have `n` fair coins and you flip them all at the same time. Any that come up
 
 Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
 
-## Problem 599 (Hard)
+## Daily Coding Problem 599 (Hard)
 
 This problem was asked by Two Sigma.
 
@@ -1176,7 +1176,7 @@ Given a dictionary of words, determine the letters the first player should start
 
 For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be `b`.
 
-## Problem 600 (Easy)
+## Daily Coding Problem 600 (Easy)
 
 This problem was asked by Google.
 
