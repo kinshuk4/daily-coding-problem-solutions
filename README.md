@@ -379,7 +379,7 @@ Given the string "([)]" or "((()", you should return false.
 
 ---
 
-### Problem 28
+### Problem 28 [Medium]
 >
 > This problem was asked by Palantir.
 
@@ -396,6 +396,8 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 ["the  quick brown", # 1 extra space on the left
 "fox  jumps  over", # 2 extra spaces distributed evenly
 "the   lazy   dog"] # 4 extra spaces distributed evenly
+
+[Solution](https://k5kc.com/cs/algorithms/text-justification-problem/)
 
 ---
 
@@ -2556,6 +2558,8 @@ For example, given [1, 3, 2, 8, 4, 10] and `fee = 2`, you should return 9, since
 > This problem was asked by Facebook.
 
 Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of `n` line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+
+[Solution](https://k5kc.com/cs/algorithms/number-of-overlapping-lines-between-points-on-2-parallel-lines/)
 
 ### Problem 195 (Hard)
 
@@ -8618,23 +8622,7 @@ d
 
 ### Problem 623 (Medium)
 
-This problem was asked by Palantir.
-
-Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
-
-More specifically, you should have as many words as possible in each line. There should be at least one space between each word. Pad extra spaces when necessary so that each line has exactly length k. Spaces should be distributed as equally as possible, with the extra spaces, if any, distributed starting from the left.
-
-If you can only fit one word on a line, then you should pad the right-hand side with spaces.
-
-Each word is guaranteed not to be longer than k.
-
-For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"] and k = 16, you should return the following:
-
-```
-["the  quick brown", # 1 extra space on the left
-"fox  jumps  over", # 2 extra spaces distributed evenly
-"the   lazy   dog"] # 4 extra spaces distributed evenly
-```
+Same as [28](#problem-28-medium).
 
 ### Problem 624 (Medium)
 
@@ -13568,23 +13556,7 @@ For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In 
 
 ### Problem 1026 [Medium]
 
-This problem was asked by Palantir.
-
-Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
-
-More specifically, you should have as many words as possible in each line. There should be at least one space between each word. Pad extra spaces when necessary so that each line has exactly length k. Spaces should be distributed as equally as possible, with the extra spaces, if any, distributed starting from the left.
-
-If you can only fit one word on a line, then you should pad the right-hand side with spaces.
-
-Each word is guaranteed not to be longer than k.
-
-For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"] and k = 16, you should return the following:
-
-```
-["the  quick brown", # 1 extra space on the left
-"fox  jumps  over", # 2 extra spaces distributed evenly
-"the   lazy   dog"] # 4 extra spaces distributed evenly
-```
+Same as [28](#problem-28-medium).
 
 ### Problem 1027 [Medium]
 
@@ -16363,23 +16335,7 @@ For example, given a population with weights `[100, 200, 150, 80]` and a boat li
 
 ### Problem 1245 [Medium]
 
-This problem was asked by Palantir.
-
-Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
-
-More specifically, you should have as many words as possible in each line. There should be at least one space between each word. Pad extra spaces when necessary so that each line has exactly length k. Spaces should be distributed as equally as possible, with the extra spaces, if any, distributed starting from the left.
-
-If you can only fit one word on a line, then you should pad the right-hand side with spaces.
-
-Each word is guaranteed not to be longer than k.
-
-For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"] and k = 16, you should return the following:
-
-```
-["the  quick brown", # 1 extra space on the left
-"fox  jumps  over", # 2 extra spaces distributed evenly
-"the   lazy   dog"] # 4 extra spaces distributed evenly
-```
+Same as [28](#problem-28-medium).
 
 ### Problem 1246 [Hard]
 
@@ -22200,23 +22156,7 @@ You should print out the following:
 
 ### Problem 1717 [Medium]
 
-This problem was asked by Palantir.
-
-Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
-
-More specifically, you should have as many words as possible in each line. There should be at least one space between each word. Pad extra spaces when necessary so that each line has exactly length k. Spaces should be distributed as equally as possible, with the extra spaces, if any, distributed starting from the left.
-
-If you can only fit one word on a line, then you should pad the right-hand side with spaces.
-
-Each word is guaranteed not to be longer than k.
-
-For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"] and k = 16, you should return the following:
-
-```
-["the  quick brown", # 1 extra space on the left
-"fox  jumps  over", # 2 extra spaces distributed evenly
-"the   lazy   dog"] # 4 extra spaces distributed evenly
-```
+Same as [28](#problem-28-medium).
 
 ### Problem 1718 [Easy]
 
