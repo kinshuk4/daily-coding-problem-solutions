@@ -1,6 +1,6 @@
 # Daily Coding Problems 101 - 200
 
-## Daily Coding Problem 201 (Easy)
+## Problem 201 (Easy)
 
 This problem was asked by Google.
 
@@ -20,7 +20,7 @@ Write a program that returns the weight of the maximum weight path.
 
 ---
 
-## Daily Coding Problem 202 (Easy)
+## Problem 202 (Easy)
 
 This problem was asked by Palantir.
 
@@ -30,7 +30,7 @@ Write a program that checks whether an integer is a palindrome. For example, `12
 
 ---
 
-## Daily Coding Problem 203
+## Problem 203
 
 This problem was asked by Uber.
 
@@ -42,7 +42,7 @@ For example, given `[5, 7, 10, 3, 4]`, return `3`.
 
 ---
 
-## Daily Coding Problem 204
+## Problem 204
 
 This problem was asked by Amazon.
 
@@ -52,7 +52,7 @@ Given a complete binary tree, count the number of nodes in faster than `O(n)` ti
 
 ---
 
-## Daily Coding Problem 205
+## Problem 205
 
 This problem was asked by IBM.
 
@@ -62,7 +62,7 @@ Given an integer, find the next permutation of it in absolute order. For example
 
 ---
 
-## Daily Coding Problem 206
+## Problem 206
 
 This problem was asked by Twitter.
 
@@ -74,7 +74,7 @@ Given an array and a permutation, apply the permutation to the array. For exampl
 
 ---
 
-## Daily Coding Problem 207
+## Problem 207
 
 This problem was asked by Dropbox.
 
@@ -84,7 +84,7 @@ Given an undirected graph `G`, check whether it is bipartite. Recall that a grap
 
 ---
 
-## Daily Coding Problem 208
+## Problem 208
 
 This problem was asked by LinkedIn.
 
@@ -96,7 +96,7 @@ For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solu
 
 ---
 
-## Daily Coding Problem 209
+## Problem 209
 
 This problem was asked by YouTube.
 
@@ -106,7 +106,7 @@ Write a program that computes the length of the longest common subsequence of th
 
 ---
 
-## Daily Coding Problem 210
+## Problem 210
 
 This problem was asked by Apple.
 
@@ -122,7 +122,7 @@ Bonus: What input `n <= 1000000` gives the longest sequence?
 
 ---
 
-## Daily Coding Problem 211
+## Problem 211
 
 This problem was asked by Microsoft.
 
@@ -132,7 +132,7 @@ Given a string and a pattern, find the starting indices of all occurrences of th
 
 ---
 
-## Daily Coding Problem 212
+## Problem 212
 
 This problem was asked by Dropbox.
 
@@ -144,7 +144,7 @@ Given a column number, return its alphabetical column id. For example, given `1`
 
 ---
 
-## Daily Coding Problem 213
+## Problem 213
 
 This problem was asked by Snapchat.
 
@@ -158,7 +158,7 @@ For example, given "2542540123", you should return `['254.25.40.123', '254.254.0
 
 ---
 
-## Daily Coding Problem 214
+## Problem 214
 
 This problem was asked by Stripe.
 
@@ -170,7 +170,7 @@ For example, given `156`, you should return `3`.
 
 ---
 
-## Daily Coding Problem 215
+## Problem 215
 
 This problem was asked by Yelp.
 
@@ -204,7 +204,7 @@ Given the root to a binary tree, return its bottom view.
 
 ---
 
-## Daily Coding Problem 216
+## Problem 216
 
 This problem was asked by Facebook.
 
@@ -232,7 +232,7 @@ For the input `XIV`, for instance, you should return `14`.
 
 ---
 
-## Daily Coding Problem 217
+## Problem 217
 
 This problem was asked by Oracle.
 
@@ -244,7 +244,7 @@ Do this in faster than `O(N log N)` time.
 
 ---
 
-## Daily Coding Problem 218
+## Problem 218
 
 This problem was asked by Yahoo.
 
@@ -254,7 +254,7 @@ Write an algorithm that computes the reversal of a directed graph. For example, 
 
 ---
 
-## Daily Coding Problem 219
+## Problem 219
 
 This problem was asked by Salesforce.
 
@@ -266,7 +266,7 @@ Design and implement Connect 4.
 
 ---
 
-## Daily Coding Problem 220
+## Problem 220
 
 This problem was asked by Square.
 
@@ -280,7 +280,7 @@ Write a program that returns the maximum amount of money you can win with certai
 
 ---
 
-## Daily Coding Problem 221
+## Problem 221
 
 This problem was asked by Zillow.
 
@@ -290,7 +290,7 @@ Let's define a "sevenish" number to be one which is either a power of `7`, or th
 
 ---
 
-## Daily Coding Problem 222
+## Problem 222
 
 This problem was asked by Quora.
 
@@ -302,7 +302,7 @@ For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
 ---
 
-## Daily Coding Problem 223
+## Problem 223
 
 This problem was asked by Palantir.
 
@@ -312,7 +312,7 @@ Typically, an implementation of in-order traversal of a binary tree has `O(h)` s
 
 ---
 
-## Daily Coding Problem 224
+## Problem 224
 
 This problem was asked by Amazon.
 
@@ -326,7 +326,7 @@ Do this in `O(N)` time.
 
 ---
 
-## Daily Coding Problem 225
+## Problem 225
 
 This problem was asked by Bloomberg.
 
@@ -342,7 +342,7 @@ Bonus: Find an `O(log N)` solution if `k = 2`.
 
 ---
 
-## Daily Coding Problem 226
+## Problem 226
 
 This problem was asked by Airbnb.
 
@@ -354,7 +354,7 @@ For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `[
 
 ---
 
-## Daily Coding Problem 227
+## Problem 227
 
 This problem was asked by Facebook.
 
@@ -364,7 +364,7 @@ Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as man
 
 ---
 
-## Daily Coding Problem 228
+## Problem 228
 
 This problem was asked by Twitter.
 
@@ -374,7 +374,7 @@ Given a list of numbers, create an algorithm that arranges them in order to form
 
 ---
 
-## Daily Coding Problem 229
+## Problem 229
 
 This problem was asked by Flipkart.
 
@@ -393,7 +393,7 @@ ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 
 ---
 
-## Daily Coding Problem 230
+## Problem 230
 
 This problem was asked by Goldman Sachs.
 
@@ -407,7 +407,7 @@ For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at eve
 
 ---
 
-## Daily Coding Problem 231
+## Problem 231
 
 This problem was asked by IBM.
 
@@ -419,7 +419,7 @@ For example, given "aaabbc", you could return "ababac". Given "aaab", return Non
 
 ---
 
-## Daily Coding Problem 232
+## Problem 232
 
 This problem was asked by Google.
 
@@ -443,7 +443,7 @@ assert mapsum.sum("col") == 5
 
 ---
 
-## Daily Coding Problem 233
+## Problem 233
 
 This problem was asked by Apple.
 
@@ -453,7 +453,7 @@ Implement the function `fib(n)`, which returns the nth number in the Fibonacci s
 
 ---
 
-## Daily Coding Problem 234
+## Problem 234
 
 This problem was asked by Microsoft.
 
@@ -463,7 +463,7 @@ Recall that the minimum spanning tree is the subset of edges of a tree that conn
 
 ---
 
-## Daily Coding Problem 235
+## Problem 235
 
 This problem was asked by Facebook.
 
@@ -473,7 +473,7 @@ Given an array of numbers of length `N`, find both the minimum and maximum using
 
 ---
 
-## Daily Coding Problem 236
+## Problem 236
 
 This problem was asked by Nvidia.
 
@@ -485,7 +485,7 @@ Determine if a new point p lies inside this polygon. (If p is on the boundary of
 
 ---
 
-## Daily Coding Problem 237
+## Problem 237
 
 This problem was asked by Amazon.
 
@@ -505,7 +505,7 @@ Given a k-ary tree, determine whether it is symmetric.
 
 ---
 
-## Daily Coding Problem 238
+## Problem 238
 
 This problem was asked by MIT.
 
@@ -524,7 +524,7 @@ Given perfect knowledge of the sequence of cards in the deck, implement a blackj
 
 ---
 
-## Daily Coding Problem 239
+## Problem 239
 
 This problem was asked by Uber.
 
@@ -542,7 +542,7 @@ Find the total number of valid unlock patterns of length N, where `1 <= N <= 9`.
 
 ---
 
-## Daily Coding Problem 240
+## Problem 240
 
 This problem was asked by Spotify.
 
@@ -553,7 +553,7 @@ What is the minimum number of swaps necessary for this to happen?
 
 ---
 
-## Daily Coding Problem 241 [Easy]
+## Problem 241 [Easy]
 
 This problem was asked by Palantir.
 
@@ -569,7 +569,7 @@ Given a list of paper citations of a researcher, calculate their h-index.
 
 ---
 
-## Daily Coding Problem 242
+## Problem 242
 
 This problem was asked by Twitter.
 
@@ -583,7 +583,7 @@ You can assume that all values get cleared at the end of the day, and that you w
 
 ---
 
-## Daily Coding Problem 243
+## Problem 243
 
 This problem was asked by Etsy.
 
@@ -595,7 +595,7 @@ For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, 
 
 ---
 
-## Daily Coding Problem 244
+## Problem 244
 
 This problem was asked by Square.
 
@@ -611,7 +611,7 @@ Bonus: Create a generator that produces primes indefinitely (that is, without ta
 
 ---
 
-## Daily Coding Problem 245
+## Problem 245
 
 This problem was asked by Yelp.
 
@@ -623,7 +623,7 @@ For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as t
 
 ---
 
-## Daily Coding Problem 246
+## Problem 246
 
 This problem was asked by Dropbox.
 
@@ -635,7 +635,7 @@ For example, the words `['chair', 'height', 'racket', 'touch', 'tunic']` can for
 
 ---
 
-## Daily Coding Problem 247
+## Problem 247
 
 This problem was asked by PayPal.
 
@@ -645,7 +645,7 @@ Given a binary tree, determine whether or not it is height-balanced. A height-ba
 
 ---
 
-## Daily Coding Problem 248
+## Problem 248
 
 This problem was asked by Nvidia.
 
@@ -655,7 +655,7 @@ Find the maximum of two numbers without using any if-else statements, branching,
 
 ---
 
-### Daily Coding Problem 249
+### Problem 249
 
 This problem was asked by Salesforce.
 
@@ -665,7 +665,7 @@ Given an array of integers, find the maximum XOR of any two elements.
 
 ---
 
-### Daily Coding Problem 250
+### Problem 250
 
 This problem was asked by Google.
 
@@ -690,7 +690,7 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 ---
 
-### Daily Coding Problem 251
+### Problem 251
 
 This problem was asked by Amazon.
 
@@ -700,7 +700,7 @@ Given an array of a million integers between zero and a billion, out of order, h
 
 ---
 
-### Daily Coding Problem 252
+### Problem 252
 
 This problem was asked by Palantir.
 
@@ -712,7 +712,7 @@ Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an
 
 ---
 
-### Daily Coding Problem 253
+### Problem 253
 
 This problem was asked by PayPal.
 
@@ -731,7 +731,7 @@ t     a     g
 
 ---
 
-### Daily Coding Problem 254
+### Problem 254
 
 This problem was asked by Yahoo.
 
@@ -763,7 +763,7 @@ f         e
 
 ---
 
-### Daily Coding Problem 255
+### Problem 255
 
 This problem was asked by Microsoft.
 
@@ -795,7 +795,7 @@ Given a graph, find its transitive closure.
 
 ---
 
-### Daily Coding Problem 256
+### Problem 256
 
 This problem was asked by Fitbit.
 
@@ -805,7 +805,7 @@ Given a linked list, rearrange the node values such that they appear in alternat
 
 ---
 
-### Daily Coding Problem 257
+### Problem 257
 
 This problem was asked by WhatsApp.
 
@@ -815,7 +815,7 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ---
 
-### Daily Coding Problem 258
+### Problem 258
 
 This problem was asked by Morgan Stanley.
 
@@ -839,7 +839,7 @@ You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 ---
 
-### Daily Coding Problem 259
+### Problem 259
 
 This problem was asked by Two Sigma.
 
@@ -861,7 +861,7 @@ For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only win
 
 ---
 
-### Daily Coding Problem 260
+### Problem 260
 
 This problem was asked by Pinterest.
 
@@ -871,7 +871,7 @@ The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for i
 
 ---
 
-### Daily Coding Problem 261
+### Problem 261
 
 This problem was asked by Amazon.
 
@@ -897,7 +897,7 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 
 ---
 
-### Daily Coding Problem 262
+### Problem 262
 
 This problem was asked by Mozilla.
 
@@ -907,7 +907,7 @@ A bridge in a connected (undirected) graph is an edge that, if removed, causes t
 
 ---
 
-### Daily Coding Problem 263
+### Problem 263
 
 This problem was asked by Nest.
 
@@ -924,7 +924,7 @@ We can consider a sentence valid if it conforms to the following rules:
 
 ---
 
-### Daily Coding Problem 264
+### Problem 264
 
 This problem was asked by LinkedIn.
 
@@ -938,7 +938,7 @@ Create an algorithm that finds a De Bruijn sequence.
 
 ---
 
-### Daily Coding Problem 265
+### Problem 265
 
 This problem was asked by Atlassian.
 
@@ -952,7 +952,7 @@ For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4
 
 ---
 
-### Daily Coding Problem 266
+### Problem 266
 
 This problem was asked by Pivotal.
 
@@ -964,7 +964,7 @@ Given a dictionary of words and an input word, create a function that returns al
 
 ---
 
-### Daily Coding Problem 267
+### Problem 267
 
 This problem was asked by Oracle.
 
@@ -991,7 +991,7 @@ You should return `True`, since the bishop is attacking the king diagonally.
 
 ---
 
-### Daily Coding Problem 268
+### Problem 268
 
 This problem was asked by Indeed.
 
@@ -1001,7 +1001,7 @@ Given a 32-bit positive integer `N`, determine whether it is a power of four in 
 
 ---
 
-### Daily Coding Problem 269
+### Problem 269
 
 This problem was asked by Microsoft.
 
@@ -1021,7 +1021,7 @@ Given the string `..R...L.L`, you should return `..RR.LLLL`.
 
 ---
 
-### Daily Coding Problem 270
+### Problem 270
 
 This problem was asked by Twitter.
 
@@ -1049,7 +1049,7 @@ You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` w
 
 ---
 
-### Daily Coding Problem 271
+### Problem 271
 
 This problem was asked by Netflix.
 
@@ -1061,7 +1061,7 @@ Do this in `O(log N)` time.
 
 ---
 
-### Daily Coding Problem 272
+### Problem 272
 
 This problem was asked by Spotify.
 
@@ -1073,7 +1073,7 @@ For example, `throw_dice(3, 6, 7)` should equal `15`.
 
 ---
 
-### Daily Coding Problem 273
+### Problem 273
 
 This problem was asked by Apple.
 
@@ -1085,7 +1085,7 @@ For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`
 
 ---
 
-### Daily Coding Problem 274
+### Problem 274
 
 This problem was asked by Facebook.
 
@@ -1099,7 +1099,7 @@ For example, given `'-1 + (2 + 3)'`, you should return `4`.
 
 ---
 
-### Daily Coding Problem 275
+### Problem 275
 
 This problem was asked by Epic.
 
@@ -1121,7 +1121,7 @@ Given an integer `N`, print the `Nth` term of this sequence.
 
 ---
 
-### Daily Coding Problem 276
+### Problem 276
 
 This problem was asked by Dropbox.
 
@@ -1135,7 +1135,7 @@ If the pattern is found, return the start index of its location. If not, return 
 
 ---
 
-### Daily Coding Problem 277
+### Problem 277
 
 This problem was asked by Google.
 
@@ -1162,7 +1162,7 @@ Write a program that takes in an array of integers representing byte values, and
 
 ---
 
-### Daily Coding Problem 278
+### Problem 278
 
 This problem was asked by Amazon.
 
@@ -1172,7 +1172,7 @@ Given an integer `N`, construct all possible binary search trees with `N` nodes.
 
 ---
 
-### Daily Coding Problem 279
+### Problem 279
 
 This problem was asked by Twitter.
 
@@ -1198,7 +1198,7 @@ Given a friendship list such as the one above, determine the number of friend gr
 
 ---
 
-### Daily Coding Problem 280
+### Problem 280
 
 This problem was asked by Pandora.
 
@@ -1208,7 +1208,7 @@ Given an undirected graph, determine if it contains a cycle.
 
 ---
 
-### Daily Coding Problem 281
+### Problem 281
 
 This problem was asked by LinkedIn.
 
@@ -1233,7 +1233,7 @@ Given an input consisting of brick lengths for each row such as the one above, r
 
 ---
 
-### Daily Coding Problem 282
+### Problem 282
 
 This problem was asked by Netflix.
 
@@ -1243,7 +1243,7 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 
 ---
 
-### Daily Coding Problem 283
+### Problem 283
 
 This problem was asked by Google.
 
@@ -1257,7 +1257,7 @@ Given an integer `N`, write a program that returns, in order, the first `N` regu
 
 ---
 
-### Daily Coding Problem 284
+### Problem 284
 
 This problem was asked by Yext.
 
@@ -1277,7 +1277,7 @@ Given a binary tree and a particular node, find all cousins of that node.
 
 ---
 
-### Daily Coding Problem 285
+### Problem 285
 
 This problem was asked by Mailchimp.
 
@@ -1291,7 +1291,7 @@ Can you do this using just one forward pass through the array?
 
 ---
 
-### Daily Coding Problem 286
+### Problem 286
 
 This problem was asked by VMware.
 
@@ -1317,7 +1317,7 @@ As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19
 
 ---
 
-### Daily Coding Problem 287
+### Problem 287
 
 This problem was asked by Quora.
 
@@ -1339,7 +1339,7 @@ Then a reasonable similarity metric would most likely conclude that `a` and `e` 
 
 ---
 
-### Daily Coding Problem 288
+### Problem 288
 
 This problem was asked by Salesforce.
 
@@ -1361,7 +1361,7 @@ Write a function that returns how many steps this will take for a given input `N
 
 ---
 
-### Daily Coding Problem 289
+### Problem 289
 
 This problem was asked by Google.
 
@@ -1384,7 +1384,7 @@ Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play,
 
 ---
 
-### Daily Coding Problem 290
+### Problem 290
 
 This problem was asked by Facebook.
 
@@ -1408,7 +1408,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 ---
 
-### Daily Coding Problem 291
+### Problem 291
 
 This problem was asked by Glassdoor.
 
@@ -1420,7 +1420,7 @@ For example, given a population with weights `[100, 200, 150, 80]` and a boat li
 
 ---
 
-### Daily Coding Problem 292
+### Problem 292
 
 This problem was asked by Twitter.
 
@@ -1458,7 +1458,7 @@ students = {
 
 ---
 
-### Daily Coding Problem 293
+### Problem 293
 
 This problem was asked by Uber.
 
@@ -1472,7 +1472,7 @@ For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to p
 
 ---
 
-### Daily Coding Problem 294
+### Problem 294
 
 This problem was asked by Square.
 
@@ -1502,7 +1502,7 @@ In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distan
 
 ---
 
-### Daily Coding Problem 295
+### Problem 295
 
 This problem was asked by Stitch Fix.
 
@@ -1528,7 +1528,7 @@ Bonus: Can you do this using only `O(k)` space?
 
 ---
 
-### Daily Coding Problem 296
+### Problem 296
 
 This problem was asked by Etsy.
 
@@ -1538,7 +1538,7 @@ Given a sorted array, convert it into a height-balanced binary search tree.
 
 ---
 
-### Daily Coding Problem 297
+### Problem 297
 
 This problem was asked by Amazon.
 
@@ -1562,7 +1562,7 @@ For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy
 
 ---
 
-### Daily Coding Problem 298
+### Problem 298
 
 This problem was asked by Google.
 
@@ -1576,7 +1576,7 @@ For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion wil
 
 ---
 
-### Daily Coding Problem 299
+### Problem 299
 
 This problem was asked by Samsung.
 
@@ -1602,7 +1602,7 @@ pipes = {
 
 ---
 
-### Daily Coding Problem 300
+### Problem 300
 
 This problem was asked by Uber.
 
