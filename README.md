@@ -34,11 +34,13 @@ Follow-up: what if you can't use division?
 
 ---
 
-### Problem 3
+### Problem 3 [Medium]
 
 > This problem was recently asked by Google.
 
-Given the root to a binary tree, implement serialize(root), which  serializes the tree into a string, and deserialize(s), which  deserializes the string back into the tree. For example, given the following Node class
+Given the root to a binary tree, implement `serialize(root)`, which serializes the tree into a string, and `deserialize(s)`, which deserializes the string back into the tree.
+
+For example, given the following `Node` class
 
 ```python
 class Node:
@@ -55,13 +57,21 @@ node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
 
+[Solution](https://k5kc.com/cs/algorithms/serialize-and-deserialize-binary-tree/)
+
 ---
 
-### Problem 4
+### Problem 4 [Hard]
 
 > This problem was asked by Stripe.
 
-Given an array of integers, find the first missing positive integer  in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain  duplicates and negative numbers as well. For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` should give `3`. You can modify the input array in-place.
+Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
+
+For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` should give `3`.
+
+You can modify the input array in-place.
+
+[Solution](https://k5kc.com/cs/algorithms/first-missing-positive-problem/)
 
 ---
 
@@ -9483,13 +9493,7 @@ Bonus: Can you do this in one line?
 
 ## Daily Coding Problem: Problem #694 [Hard]
 
-This problem was asked by Stripe.
-
-Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
-
-For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` should give `3`.
-
-You can modify the input array in-place.
+Same as [4](#problem-4-hard).
 
 ## Daily Coding Problem: Problem #695 [Medium]
 
@@ -9591,26 +9595,7 @@ For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy
 
 ### Problem 702 [Medium]
 
-This problem was asked by Google.
-
-Given the root to a binary tree, implement `serialize(root)`, which serializes the tree into a string, and `deserialize(s)`, which deserializes the string back into the tree.
-
-For example, given the following `Node` class
-
-```
-class Node:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-```
-
-The following test should pass:
-
-```
-node = Node('root', Node('left', Node('left.left')), Node('right'))
-assert deserialize(serialize(node)).left.left.val == 'left.left'
-```
+Same as [3](#problem-3-medium).
 
 ### Problem 703 [Hard]
 
@@ -11013,13 +10998,7 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could bu
 
 ### Problem 820 [Hard]
 
-This problem was asked by Stripe.
-
-Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
-
-For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` should give `3`.
-
-You can modify the input array in-place.
+Same as [4](#problem-4-hard).
 
 ### Problem 821 [Easy]
 
@@ -13184,26 +13163,7 @@ Recall that the minimum spanning tree is the subset of edges of a tree that conn
 
 ### Problem 997 [Medium]
 
-This problem was asked by Google.
-
-Given the root to a binary tree, implement `serialize(root)`, which serializes the tree into a string, and `deserialize(s)`, which deserializes the string back into the tree.
-
-For example, given the following `Node` class
-
-```python
-class Node:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-```
-
-The following test should pass:
-
-```python
-node = Node('root', Node('left', Node('left.left')), Node('right'))
-assert deserialize(serialize(node)).left.left.val == 'left.left'
-```
+Same as [3](#problem-3-medium).
 
 ### Problem 998 [Medium]
 
@@ -16224,26 +16184,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 ### Problem 1235 [Medium]
 
-This problem was asked by Google.
-
-Given the root to a binary tree, implement `serialize(root)`, which serializes the tree into a string, and `deserialize(s)`, which deserializes the string back into the tree.
-
-For example, given the following `Node` class
-
-```
-class Node:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-```
-
-The following test should pass:
-
-```
-node = Node('root', Node('left', Node('left.left')), Node('right'))
-assert deserialize(serialize(node)).left.left.val == 'left.left'
-```
+Same as [3](#problem-3-medium).
 
 ### Problem 1236 [Medium]
 
@@ -17036,13 +16977,7 @@ Find a path with the fewest number of jumps required to get from 0 to N.
 
 ### Problem 1302 [Hard]
 
-This problem was asked by Stripe.
-
-Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
-
-For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` should give `3`.
-
-You can modify the input array in-place.
+Same as [4](#problem-4-hard).
 
 ### Problem 1303 [Medium]
 
@@ -19712,13 +19647,7 @@ Given the root to a binary search tree, find the second largest node in the tree
 
 ### Problem 1524 [Hard]
 
-This problem was asked by Stripe.
-
-Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
-
-For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` should give `3`.
-
-You can modify the input array in-place.
+Same as [4](#problem-4-hard).
 
 ### Problem 1525 [Easy]
 
