@@ -96,11 +96,15 @@ TODO: implement this function.
 
 ---
 
-### Problem 6
+### Problem 6 [Hard]
 
 > This problem was asked by Google.
 
-An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding `next` and `prev`  fields, it holds a field named both, which is an XOR of the next node  and the previous node. Implement an XOR linked list; it has an `add(element)` which adds the element to the end, and a `get(index)`  which returns the node at index. If using a language that has no pointers (such as Python), you can  assume you have access to get_pointer and dereference_pointer functions  that converts between nodes and memory addresses.
+An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding `next` and `prev` fields, it holds a field named `both`, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an `add(element)` which adds the element to the end, and a `get(index)` which returns the node at index.
+
+If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
+
+TODO: implement this function.
 
 ---
 
@@ -8127,11 +8131,7 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
 
 ### Problem 590 (Hard)
 
-This problem was asked by Google.
-
-An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding `next` and `prev` fields, it holds a field named `both`, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an `add(element)` which adds the element to the end, and a `get(index)` which returns the node at index.
-
-If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
+Same as [6](#problem-6-hard).
 
 ### Problem 591 (Hard)
 
@@ -12144,11 +12144,7 @@ The `check` method may return occasional false positives (in other words, incorr
 
 ### Problem 921 [Hard]
 
-This problem was asked by Google.
-
-An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding `next` and `prev` fields, it holds a field named `both`, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an `add(element)` which adds the element to the end, and a `get(index)` which returns the node at index.
-
-If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
+Same as [6](#problem-6-hard).
 
 ### Problem 922 [Medium]
 
@@ -17641,11 +17637,7 @@ You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 ### Problem 1357 [Hard]
 
-This problem was asked by Google.
-
-An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding `next` and `prev` fields, it holds a field named `both`, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an `add(element)` which adds the element to the end, and a `get(index)` which returns the node at index.
-
-If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
+Same as [6](#problem-6-hard).
 
 ### Problem 1358 [Medium]
 
@@ -19964,11 +19956,7 @@ For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solu
 
 ### Problem 1547 [Hard]
 
-This problem was asked by Google.
-
-An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding `next` and `prev` fields, it holds a field named `both`, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an `add(element)` which adds the element to the end, and a `get(index)` which returns the node at index.
-
-If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
+Same as [6](#problem-6-hard).
 
 ### Problem 1548 [Easy]
 
