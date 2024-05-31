@@ -75,24 +75,24 @@ You can modify the input array in-place.
 
 ---
 
-### Problem 5
+### Problem 5 [Medium]
 
 > This problem was asked by Jane Street.
 
-`cons(a, b)` constructs a pair, and `car(pair)` and `cdr(pair)` returns the first and last element of that pair. For example, `car(cons(3, 4))` returns `3`, and cdr`(cons(3, 4))` returns `4`. Given this implementation of cons:
+`cons(a, b)` constructs a pair, and `car(pair)` and `cdr(pair)` returns the first and last element of that pair. For example, `car(cons(3, 4))` returns `3`, and `cdr(cons(3, 4))` returns `4`.
 
-```
+Given this implementation of cons:
+
+```python
 def cons(a, b):
     def pair(f):
         return f(a, b)
     return pair
 ```
 
-Implement car and cdr.
+Implement `car` and `cdr`.
 
-[Python](https://github.com/EISAWESOME/daily-coding-problem/blob/master/pb5/answer.py) (7:12)
-
-[JS](https://github.com/EISAWESOME/daily-coding-problem/blob/master/pb5/answer.js) (Not timed)
+TODO: implement this function.
 
 ---
 
@@ -7831,7 +7831,7 @@ Given an integer list where each number represents the number of hops you can ma
 
 For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
 
-566 (Medium)
+## Problem 566 (Medium)
 
 This problem was asked by Facebook.
 
@@ -7839,22 +7839,9 @@ A graph is minimally-connected if it is connected and there is no edge that can 
 
 Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
 
-567 (Medium)
+## Problem 567 (Medium)
 
-This problem was asked by Jane Street.
-
-`cons(a, b)` constructs a pair, and `car(pair)` and `cdr(pair)` returns the first and last element of that pair. For example, `car(cons(3, 4))` returns `3`, and `cdr(cons(3, 4))` returns `4`.
-
-Given this implementation of cons:
-
-```
-def cons(a, b):
-    def pair(f):
-        return f(a, b)
-    return pair
-```
-
-Implement `car` and `cdr`.
+Same as [5](#problem-5-medium).
 
 ### Problem 568 (Easy)
 
@@ -11290,20 +11277,7 @@ Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5
 
 ### Problem 846 [Medium]
 
-This problem was asked by Jane Street.
-
-`cons(a, b)` constructs a pair, and `car(pair)` and `cdr(pair)` returns the first and last element of that pair. For example, `car(cons(3, 4))` returns `3`, and `cdr(cons(3, 4))` returns `4`.
-
-Given this implementation of cons:
-
-```
-def cons(a, b):
-    def pair(f):
-        return f(a, b)
-    return pair
-```
-
-Implement `car` and `cdr`.
+Same as [5](#problem-5-medium).
 
 ### Problem 847 [Medium]
 
@@ -14927,20 +14901,7 @@ Given the root to a binary tree, return its bottom view.
 
 ### Problem 1137 [Medium]
 
-This problem was asked by Jane Street.
-
-`cons(a, b)` constructs a pair, and `car(pair)` and `cdr(pair)` returns the first and last element of that pair. For example, `car(cons(3, 4))` returns `3`, and `cdr(cons(3, 4))` returns `4`.
-
-Given this implementation of cons:
-
-```
-def cons(a, b):
-    def pair(f):
-        return f(a, b)
-    return pair
-```
-
-Implement `car` and `cdr`.
+Same as [5](#problem-5-medium).
 
 ### Problem 1138 [Medium]
 
@@ -21702,20 +21663,7 @@ d
 
 ### Problem 1688 [Medium]
 
-This problem was asked by Jane Street.
-
-`cons(a, b)` constructs a pair, and `car(pair)` and `cdr(pair)` returns the first and last element of that pair. For example, `car(cons(3, 4))` returns `3`, and `cdr(cons(3, 4))` returns `4`.
-
-Given this implementation of cons:
-
-```
-def cons(a, b):
-    def pair(f):
-        return f(a, b)
-    return pair
-```
-
-Implement `car` and `cdr`.
+Same as [5](#problem-5-medium).
 
 ### Problem 1689 [Medium]
 
