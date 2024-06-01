@@ -52,7 +52,7 @@ class Node:
 
 The following test should pass:
 
-```
+```python
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
@@ -216,98 +216,114 @@ Given an integer k and a string s, find the length of the longest substring that
 
 ---
 
-### Problem 14
+### Problem 14 (Medium)
 
 > This problem was asked by Google.
 
-The area of a circle is defined as `πr²`. Estimate `π` to 3 decimal places using a Monte Carlo method. Hint: The basic equation of a circle is `x² + y² = r²`.
+The area of a circle is defined as `πr^2`. Estimate `π` to 3 decimal places using a Monte Carlo method. Hint: The basic equation of a circle is `x^2 + y^2 = r^2`.
 
-[Python](https://github.com/EISAWESOME/daily-coding-problem/blob/master/pb14/answer.py) (19:37)
+TODO: implement this function
 
-### Problem 15
->
+### Problem 15 (Medium)
+
 > This problem was asked by Facebook.
 
   Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 
-### Problem 16
->
+### Problem 16 (Easy)
+
 > This problem was asked by Twitter.
 
- You run an e-commerce website and want to record the last N order ids in a log. Implement a data structure to accomplish this, with the following API:
+You run an e-commerce website and want to record the last `N` `order` ids in a log. Implement a data structure to accomplish this, with the following API:
 
 - record(order_id): adds the order_id to the log
 - get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
- You should be as efficient with time and space as possible.
 
-### Problem 17
->
+You should be as efficient with time and space as possible.
+
+### Problem 17 (Hard)
+
 > This problem was asked by Google.
 
-  Suppose we represent our file system by a string in the following manner:
+Suppose we represent our file system by a string in the following manner:
 
-  The string "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext" represents:
+The string `"dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"` represents:
 
-  dir
+```
+dir
     subdir1
     subdir2
         file.ext
-  The directory dir contains an empty sub-directory subdir1 and a sub-directory subdir2 containing a file file.ext.
+```
 
-  The string "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext" represents:
+The directory `dir` contains an empty sub-directory `subdir1` and a sub-directory `subdir2` containing a file `file.ext`.
 
-  dir
+The string `"dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"` represents:
+
+```
+dir
     subdir1
         file1.ext
         subsubdir1
     subdir2
         subsubdir2
             file2.ext
-  The directory dir contains two sub-directories subdir1 and subdir2. subdir1 contains a file file1.ext and an empty second-level sub-directory subsubdir1. subdir2 contains a second-level sub-directory subsubdir2 containing a file file2.ext.
+```
 
-  We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is 32 (not including the double quotes).
+The directory `dir` contains two sub-directories `subdir1` and `subdir2`. `subdir1` contains a file `file1.ext` and an empty second-level sub-directory `subsubdir1`. `subdir2` contains a second-level sub-directory `subsubdir2` containing a file `file2.ext`.
 
-  Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
+We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is `"dir/subdir2/subsubdir2/file2.ext"`, and its length is 32 (not including the double quotes).
 
-  Note:
+Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
 
-  The name of a file contains at least a period and an extension.
+Note:
 
-  The name of a directory or sub-directory will not contain a period.
+The name of a file contains at least a period and an extension.
 
-### Problem 18
->
+The name of a directory or sub-directory will not contain a period.
+
+[Solution](https://k5kc.com/cs/algorithms/longest-absolute-file-path-problem/)
+
+### Problem 18 (Hard)
+
 > This problem was asked by Google.
 
- Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
+Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
 
- For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
+For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
 
- 10 = max(10, 5, 2)
- 7 = max(5, 2, 7)
- 8 = max(2, 7, 8)
- 8 = max(7, 8, 7)
- Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
+- 10 = max(10, 5, 2)
+- 7 = max(5, 2, 7)
+- 8 = max(2, 7, 8)
+- 8 = max(7, 8, 7)
 
-### Problem 19
->
+Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
+
+[Solution](https://k5kc.com/cs/algorithms/sliding-window-maximum-problem/)
+
+### Problem 19 (Medium)
+
 > This problem was asked by Facebook.
 
- A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
+A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
 
- Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
-### Problem 20
->
+[Solution](https://k5kc.com/cs/algorithms/paint-house-2-n-houses-with-k-colors-with-no-two-adjacent-houses-with-same-color/)
+
+### Problem 20 (Easy)
+
 > This problem was asked by Google.
 
-  Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
+Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
 
-  For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
+For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
 
-  In this example, assume nodes with the same value are the exact same node objects.
+In this example, assume nodes with the same value are the exact same node objects.
 
-  Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
+Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
+
+[Solution](https://k5kc.com/cs/algorithms/intersection-of-two-linked-lists-problem/)
 
 ### Problem 21
 
@@ -317,7 +333,7 @@ The area of a circle is defined as `πr²`. Estimate `π` to 3 decimal places us
 
   For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
-22
+### Problem 22
 
 > This problem was asked by Microsoft.
 
@@ -777,6 +793,8 @@ Given such an array, find the index of the element in the array in faster than l
 For example, given the array `[13, 18, 25, 2, 8, 10]` and the element 8, return 4 (the index of 8 in the array).
 
 You can assume all the integers in the array are unique.
+
+[Solution](https://k5kc.com/cs/algorithms/search-in-rotated-sorted-array/)
 
 ---
 
@@ -7038,9 +7056,7 @@ Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 
 ### Problem 495 (Medium)
 
-This problem was asked by Facebook.
-
-Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+Same as [problem 495](#problem-15-medium).
 
 ### Problem 496 (Easy)
 
@@ -7142,14 +7158,7 @@ For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 ->
 
 ### Problem 504 (Easy)
 
-This problem was asked by Twitter.
-
-You run an e-commerce website and want to record the last `N` `order` ids in a log. Implement a data structure to accomplish this, with the following API:
-
-- record(order_id): adds the order_id to the log
-- get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
-
-You should be as efficient with time and space as possible.
+Same as [problem 16](#problem-16-easy).
 
 ### Problem 505 (Easy)
 
@@ -7243,15 +7252,7 @@ Let's define a "sevenish" number to be one which is either a power of `7`, or th
 
 ### Problem 517 (Easy)
 
-This problem was asked by Google.
-
-Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
-
-For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
-
-In this example, assume nodes with the same value are the exact same node objects.
-
-Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
+Same as [problem 20](#problem-20-easy).
 
 ### Problem 518 (Easy)
 
@@ -7755,11 +7756,7 @@ And there are 4 12's in the table.
 
 ### Problem 558 (Medium)
 
-This problem was asked by Google.
-
-The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
-
-Hint: The basic equation of a circle is x2 + y2 = r2.
+Same as [problem 14](#problem-14-medium).
 
 ### Problem 559 (Medium)
 
@@ -8997,44 +8994,7 @@ You may also use a list or array to represent a set.
 
 ### Problem 658 (Hard)
 
-This problem was asked by Google.
-
-Suppose we represent our file system by a string in the following manner:
-
-The string `"dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"` represents:
-
-```
-dir
-    subdir1
-    subdir2
-        file.ext
-```
-
-The directory `dir` contains an empty sub-directory `subdir1` and a sub-directory `subdir2` containing a file `file.ext`.
-
-The string `"dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"` represents:
-
-```
-dir
-    subdir1
-        file1.ext
-        subsubdir1
-    subdir2
-        subsubdir2
-            file2.ext
-```
-
-The directory `dir` contains two sub-directories `subdir1` and `subdir2`. `subdir1` contains a file `file1.ext` and an empty second-level sub-directory `subsubdir1`. `subdir2` contains a second-level sub-directory `subsubdir2` containing a file `file2.ext`.
-
-We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is `"dir/subdir2/subsubdir2/file2.ext"`, and its length is 32 (not including the double quotes).
-
-Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
-
-Note:
-
-The name of a file contains at least a period and an extension.
-
-The name of a directory or sub-directory will not contain a period.
+Same as [problem 17](#problem-17-hard).
 
 ### Problem 659 (Hard)
 
@@ -9704,11 +9664,7 @@ Write a program that takes in an array of integers representing byte values, and
 
 ### Problem 717 (Medium)
 
-This problem was asked by Facebook.
-
-A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
-
-Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+Same as [problem 19](#problem-19-medium).
 
 ### Problem 718 (Medium)
 
@@ -10260,18 +10216,7 @@ For example, given words "hello", and "world" and a text content of "dog cat hel
 
 ### Problem 763 (Hard)
 
-This problem was asked by Google.
-
-Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
-
-For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
-
-- 10 = max(10, 5, 2)
-- 7 = max(5, 2, 7)
-- 8 = max(2, 7, 8)
-- 8 = max(7, 8, 7)
-
-Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
+Same as [problem 18](#problem-18-hard).
 
 ### Problem 764 (Medium)
 
@@ -10891,11 +10836,7 @@ return 124 (99 + 25) as:
 
 ### Problem 815 (Medium)
 
-This problem was asked by Google.
-
-The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
-
-Hint: The basic equation of a circle is x^2 + y^2 = r^2.
+Same as [problem 14](#problem-14-medium).
 
 ### Problem 816 (Medium)
 
@@ -11574,44 +11515,7 @@ For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The long
 
 ### Problem 875 (Hard)
 
-This problem was asked by Google.
-
-Suppose we represent our file system by a string in the following manner:
-
-The string `"dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"` represents:
-
-```
-dir
-    subdir1
-    subdir2
-        file.ext
-```
-
-The directory `dir` contains an empty sub-directory `subdir1` and a sub-directory `subdir2` containing a file `file.ext`.
-
-The string `"dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"` represents:
-
-```
-dir
-    subdir1
-        file1.ext
-        subsubdir1
-    subdir2
-        subsubdir2
-            file2.ext
-```
-
-The directory `dir` contains two sub-directories `subdir1` and `subdir2`. `subdir1` contains a file `file1.ext` and an empty second-level sub-directory `subsubdir1`. `subdir2` contains a second-level sub-directory `subsubdir2` containing a file `file2.ext`.
-
-We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is `"dir/subdir2/subsubdir2/file2.ext"`, and its length is 32 (not including the double quotes).
-
-Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
-
-Note:
-
-The name of a file contains at least a period and an extension.
-
-The name of a directory or sub-directory will not contain a period.
+Same as [problem 17](#problem-17-hard).
 
 ### Problem 876 (Medium)
 
@@ -11778,11 +11682,7 @@ You may also use a list or array to represent a set.
 
 ### Problem 893 (Medium)
 
-This problem was asked by Facebook.
-
-A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
-
-Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+Same as [problem 19](#problem-19-medium).
 
 ### Problem 894 (Easy)
 
@@ -11983,9 +11883,7 @@ For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as t
 
 ### Problem 911 (Medium)
 
-This problem was asked by Facebook.
-
-Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+Same as [problem 495](#problem-15-medium).
 
 ### Problem 912 (Medium)
 
@@ -12625,28 +12523,13 @@ Given N, write a function to return the number of knight's tours on an N by N ch
 
 ### Problem 963 (Easy)
 
-This problem was asked by Google.
-
-Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
-
-For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
-
-In this example, assume nodes with the same value are the exact same node objects.
-
-Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
+Same as [problem 20](#problem-20-easy).
 
 ### Problem 964 (Easy)
 
-This problem was asked by Twitter.
+Same as [problem 16](#problem-16-easy).
 
-You run an e-commerce website and want to record the last `N` `order` ids in a log. Implement a data structure to accomplish this, with the following API:
-
-- record(order_id): adds the order_id to the log
-- get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
-
-You should be as efficient with time and space as possible.
-
-# Problem #965 (Easy)
+### Problem #965 (Easy)
 
 This problem was asked by Google.
 
@@ -14197,18 +14080,7 @@ For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, the
 
 ### Problem 1089 (Hard)
 
-This problem was asked by Google.
-
-Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
-
-For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
-
-- 10 = max(10, 5, 2)
-- 7 = max(5, 2, 7)
-- 8 = max(2, 7, 8)
-- 8 = max(7, 8, 7)
-
-Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
+Same as [problem 18](#problem-18-hard).
 
 ### Problem 1090 (Hard)
 
@@ -15001,18 +14873,7 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 
 ### Problem 1155 (Hard)
 
-This problem was asked by Google.
-
-Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
-
-For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
-
-- 10 = max(10, 5, 2)
-- 7 = max(5, 2, 7)
-- 8 = max(2, 7, 8)
-- 8 = max(7, 8, 7)
-
-Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
+Same as [problem 18](#problem-18-hard).
 
 ### Problem 1156 (Easy)
 
@@ -15959,11 +15820,7 @@ Return the list:
 
 ### Problem 1231 (Medium)
 
-This problem was asked by Google.
-
-The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
-
-Hint: The basic equation of a circle is x^2 + y^2 = r^2.
+Same as [problem 14](#problem-14-medium).
 
 ### Problem 1232 (Medium)
 
@@ -16726,14 +16583,7 @@ Implement run-length encoding and decoding. You can assume the string to be enco
 
 ### Problem 1295 (Easy)
 
-This problem was asked by Twitter.
-
-You run an e-commerce website and want to record the last `N` `order` ids in a log. Implement a data structure to accomplish this, with the following API:
-
-- record(order_id): adds the order_id to the log
-- get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
-
-You should be as efficient with time and space as possible.
+Same as [problem 16](#problem-16-easy).
 
 ### Problem 1296 (Easy)
 
@@ -16816,44 +16666,7 @@ Write a program that computes the length of the longest common subsequence of th
 
 ### Problem 1306 (Hard)
 
-This problem was asked by Google.
-
-Suppose we represent our file system by a string in the following manner:
-
-The string `"dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"` represents:
-
-```
-dir
-    subdir1
-    subdir2
-        file.ext
-```
-
-The directory `dir` contains an empty sub-directory `subdir1` and a sub-directory `subdir2` containing a file `file.ext`.
-
-The string `"dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"` represents:
-
-```
-dir
-    subdir1
-        file1.ext
-        subsubdir1
-    subdir2
-        subsubdir2
-            file2.ext
-```
-
-The directory `dir` contains two sub-directories `subdir1` and `subdir2`. `subdir1` contains a file `file1.ext` and an empty second-level sub-directory `subsubdir1`. `subdir2` contains a second-level sub-directory `subsubdir2` containing a file `file2.ext`.
-
-We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is `"dir/subdir2/subsubdir2/file2.ext"`, and its length is 32 (not including the double quotes).
-
-Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
-
-Note:
-
-The name of a file contains at least a period and an extension.
-
-The name of a directory or sub-directory will not contain a period.
+Same as [problem 17](#problem-17-hard).
 
 ### Problem 1307 (Medium)
 
@@ -17499,9 +17312,7 @@ For example, given `k` = 2 and the array `[5, 2, 4, 0, 1]`, you should return 3.
 
 ### Problem 1359 (Medium)
 
-This problem was asked by Facebook.
-
-Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+Same as [problem 495](#problem-15-medium).
 
 ### Problem 1360 (Medium)
 
@@ -17936,15 +17747,7 @@ If the pattern is found, return the start index of its location. If not, return 
 
 ### Problem 1397 (Easy)
 
-This problem was asked by Google.
-
-Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
-
-For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
-
-In this example, assume nodes with the same value are the exact same node objects.
-
-Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
+Same as [problem 20](#problem-20-easy).
 
 ### Problem 1398 (Medium)
 
@@ -17958,11 +17761,7 @@ Given the array [10, 5, 1], you should return false, since we can't modify any o
 
 ### Problem 1399 (Medium)
 
-This problem was asked by Facebook.
-
-A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
-
-Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+Same as [problem 19](#problem-19-medium).
 
 ### Problem 1400 (Medium)
 
@@ -19126,11 +18925,7 @@ Given a sequence `S`, construct the corresponding Cartesian tree.
 
 ### Problem 1496 (Medium)
 
-This problem was asked by Facebook.
-
-A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
-
-Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
+Same as [problem 19](#problem-19-medium).
 
 ### Problem 1497 (Easy)
 
@@ -19711,52 +19506,11 @@ Given the string "([)]" or "((()", you should return false.
 
 ### Problem 1543 (Medium)
 
-This problem was asked by Google.
-
-The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
-
-Hint: The basic equation of a circle is x2 + y2 = r2.
+Same as [problem 14](#problem-14-medium).
 
 ### Problem 1544 (Hard)
 
-This problem was asked by Google.
-
-Suppose we represent our file system by a string in the following manner:
-
-The string `"dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"` represents:
-
-```
-dir
-    subdir1
-    subdir2
-        file.ext
-```
-
-The directory `dir` contains an empty sub-directory `subdir1` and a sub-directory `subdir2` containing a file `file.ext`.
-
-The string `"dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"` represents:
-
-```
-dir
-    subdir1
-        file1.ext
-        subsubdir1
-    subdir2
-        subsubdir2
-            file2.ext
-```
-
-The directory `dir` contains two sub-directories `subdir1` and `subdir2`. `subdir1` contains a file `file1.ext` and an empty second-level sub-directory `subsubdir1`. `subdir2` contains a second-level sub-directory `subsubdir2` containing a file `file2.ext`.
-
-We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is `"dir/subdir2/subsubdir2/file2.ext"`, and its length is 32 (not including the double quotes).
-
-Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
-
-Note:
-
-The name of a file contains at least a period and an extension.
-
-The name of a directory or sub-directory will not contain a period.
+Same as [problem 17](#problem-17-hard).
 
 ### Problem 1545 (Hard)
 
@@ -20576,9 +20330,7 @@ You can assume that all values get cleared at the end of the day, and that you w
 
 ### Problem 1610 (Medium)
 
-This problem was asked by Facebook.
-
-Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+Same as [problem 495](#problem-15-medium).
 
 ### Problem 1611 (Easy)
 
@@ -21521,15 +21273,7 @@ Given a linked list, rearrange the node values such that they appear in alternat
 
 ### Problem 1695 (Easy)
 
-This problem was asked by Google.
-
-Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
-
-For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
-
-In this example, assume nodes with the same value are the exact same node objects.
-
-Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
+Same as [problem 20](#problem-20-easy).
 
 ### Problem 1696 (Hard)
 
