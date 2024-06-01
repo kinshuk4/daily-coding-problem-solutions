@@ -703,7 +703,7 @@ Given a function that generates perfectly random numbers between 1 and k (inclus
 It should run in O(N) time.
 
 Hint: Make sure each one of the 52! permutations of the deck is equally likely
-------
+---
 
 ### Problem 52
 
@@ -716,14 +716,14 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 
 Each operation should run in O(1) time.
 
-------
+---
 
 ### Problem 53
 
 > This problem was asked by Apple.
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it
-------
+---
 
 ### Problem 54
 
@@ -732,7 +732,7 @@ Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, fir
 Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
 
 Implement an efficient sudoku solver
-------
+---
 
 ### Problem 55
 
@@ -744,7 +744,7 @@ Implement a URL shortener with the following methods:
 - `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
 
 Hint: What if we enter the same URL twice?
-------
+---
 
 ### Problem 56
 >
@@ -752,7 +752,7 @@ Hint: What if we enter the same URL twice?
 
 Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
 
-------
+---
 
 ### Problem 57
 
@@ -764,9 +764,9 @@ You can assume that there are no spaces at the ends of the string and that there
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
-------
+---
 
-### Problem 58
+### Problem 58 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -774,17 +774,19 @@ An sorted array of integers was rotated an unknown number of times.
 
 Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
 
-For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
+For example, given the array `[13, 18, 25, 2, 8, 10]` and the element 8, return 4 (the index of 8 in the array).
 
-You can assume all the integers in the array are unique
-------
+You can assume all the integers in the array are unique.
+
+---
 
 ### Problem 59
 
 > This problem was asked by Google.
 
 Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
-------
+
+---
 
 ### Problem 60
 
@@ -796,7 +798,7 @@ For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return t
 
 Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
 
-------
+---
 
 ### Problem 61
 
@@ -808,7 +810,7 @@ Do this faster than the naive method of repeated multiplication.
 
 For example, `pow(2, 10)` should return 1024.
 
-------
+---
 
 ### Problem 62
 
@@ -822,7 +824,7 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 - Down, then right
 
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right
-------
+---
 
 ### Problem 63
 
@@ -840,7 +842,7 @@ For example, given the following matrix:
 ```
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row
-------
+---
 
 ### Problem 64
 
@@ -849,7 +851,7 @@ and the target word 'FOAM', you should return true, since it's the leftmost colu
 A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
 
 Given N, write a function to return the number of knight's tours on an N by N chessboard
-------
+---
 
 ### Problem 65
 
@@ -891,7 +893,7 @@ You should print out the following:
 12
 ```
 
-------
+---
 
 ### Problem 66
 
@@ -900,7 +902,7 @@ You should print out the following:
 Assume you have access to a function `toss_biased()` which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
 
 Write a function to simulate an unbiased coin toss
-------
+---
 
 ### Problem 67
 
@@ -912,7 +914,7 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 - `get(key)`: gets the value at `key`. If no such key exists, return null.
 
 Each operation should run in O(1) time
-------
+---
 
 ### Problem 68
 
@@ -940,7 +942,7 @@ The board would look like this:
 ```
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4
-------
+---
 
 ### Problem 69
 
@@ -951,7 +953,7 @@ Given a list of integers, return the largest product that can be made by multipl
 For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
 
 You can assume the list has at least three integers
-------
+---
 
 ### Problem 70
 
@@ -963,14 +965,14 @@ Given a positive integer `n`, return the `n`-th perfect number.
 
 For example, given 1, you should return 19. Given 2, you should return 28.
 
-------
+---
 
 ### Problem 71
 
 > This problem was asked by Two Sigma.
 
 Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive)
-------
+---
 
 ### Problem 72
 
@@ -1002,7 +1004,7 @@ A
 ```
 
 Should return null, since we have an infinite loop
-------
+---
 
 ### Problem 73
 
@@ -1010,7 +1012,7 @@ Should return null, since we have an infinite loop
 
 Given the head of a singly linked list, reverse it in-place.
 
-------
+---
 
 ### Problem 74
 
@@ -1035,7 +1037,7 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 | 6 | 12 | 18 | 24 | 30 | 36 |
 
 And there are 4 12's in the table
-------
+---
 
 ### Problem 75
 
@@ -1044,7 +1046,7 @@ And there are 4 12's in the table
 Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
 
 For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15
-------
+---
 
 ### Problem 76
 
@@ -1087,7 +1089,7 @@ tsr
 ```
 
 Your function should return 3, since we would need to remove all the columns to order it
-------
+---
 
 ### Problem 77
 
@@ -1098,7 +1100,7 @@ Given a list of possibly overlapping intervals, return a new list of intervals w
 The input list is not necessarily ordered in any way.
 
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)]
-------
+---
 
 ### Problem 78
 
@@ -1106,7 +1108,7 @@ For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3
 
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
-------
+---
 
 ### Problem 79
 
@@ -1118,7 +1120,7 @@ For example, given the array [10, 5, 7], you should return true, since we can mo
 
 Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
 
-------
+---
 
 ### Problem 80
 
@@ -1134,7 +1136,7 @@ Given the root of a binary tree, return a deepest node. For example, in the foll
 d
 ```
 
-------
+---
 
 ### Problem 81
 
@@ -1144,7 +1146,7 @@ Given a mapping of digits to letters (as in a phone number), and a digit string,
 
 For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
 
-------
+---
 
 ### Problem 82
 
@@ -1153,7 +1155,7 @@ For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f
 Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”
-------
+---
 
 ### Problem 83
 
@@ -1181,7 +1183,7 @@ should become:
   f e  d
 ```
 
-------
+---
 
 ### Problem 84
 
@@ -1200,7 +1202,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 ```
 
-------
+---
 
 ### Problem 85
 
@@ -1208,7 +1210,7 @@ For example, this matrix has 4 islands.
 
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
 
-------
+---
 
 ### Problem 86
 
@@ -1218,7 +1220,7 @@ Given a string of parentheses, write a function to compute the minimum number of
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
 
-------
+---
 
 ### Problem 88
 
@@ -1226,7 +1228,7 @@ This question was asked by ContextLogic.
 
 Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
 
-------
+---
 
 ### Problem 89
 
@@ -1236,14 +1238,14 @@ Determine whether a tree is a valid binary search tree.
 
 A binary search tree is a tree with two children, `left` and `right`, and satisfies the constraint that the key in the `left` child must be less than or equal to the root and the key in the `right`child must be greater than or equal to the root.
 
-------
+---
 
 ### Problem 90
 
 This question was asked by Google.
 
 Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform)
-------
+---
 
 ### Problem 91
 
@@ -1260,7 +1262,7 @@ for f in functions:
     print(f())
 ```
 
-------
+---
 
 ### Problem 92
 
@@ -1272,7 +1274,7 @@ Return null if there is no such ordering.
 
 For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
 
-------
+---
 
 ### Problem 93
 
@@ -1282,7 +1284,7 @@ Given a tree, find the largest tree/subtree that is a BST.
 
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
-------
+---
 
 ### Problem 94
 
@@ -1290,7 +1292,7 @@ Given a tree, return the size of the largest tree/subtree that is a BST.
 
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
 
-------
+---
 
 ### Problem 95
 
@@ -1302,7 +1304,7 @@ For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` shou
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
-------
+---
 
 ### Problem 96
 
@@ -1312,7 +1314,7 @@ Given a number in the form of a list of digits, return all possible permutations
 
 For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
 
-------
+---
 
 ### Problem 97
 
@@ -1342,7 +1344,7 @@ d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
 
-------
+---
 
 ### Problem 98
 
@@ -1363,7 +1365,7 @@ For example, given the following board:
 ```
 
 `exists(board, "ABCCED")` returns `true`, `exists(board, "SEE")` returns `true`,`exists(board, "ABCB")` returns `false`
-------
+---
 
 ### Problem 99
 
@@ -1375,7 +1377,7 @@ For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element seq
 
 Your algorithm should run in `O(n)` complexity.
 
-------
+---
 
 ### Problem 100
 
@@ -3329,7 +3331,7 @@ For example, a puzzle of the form:
 ```
   SEND
 + MORE
---------
+-----
  MONEY
 ```
 
@@ -3802,7 +3804,7 @@ Visually, this can be represented as follows.
 
 ```
  Bytes   |           Byte format
------------------------------------------------
+--------------------------
    1     | 0xxxxxxx
    2     | 110xxxxx 10xxxxxx
    3     | 1110xxxx 10xxxxxx 10xxxxxx
@@ -3961,7 +3963,7 @@ For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5
 |   |   B  |   |   | C |
 | A |      | A |   |   |
 |   |      |   |   |   |
-------------------------
+------------
 ```
 
 As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
@@ -4049,7 +4051,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 ```
         Arrangement       |   Change
-----------------------------------------
+----------------------
 ['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
 ['B', 'B', 'G', 'B']      | (B, G) -> R
 ['B', 'R', 'B']           | (R, B) -> G
@@ -5486,15 +5488,15 @@ Given the position of all the coins and your current position, find the closest 
 For example, given the following map, where you are `x`, coins are `o`, and empty spaces are `.` (top left is 0, 0):
 
 ```
----------------------
+------------
 | . | . | x | . | o |
----------------------
+------------
 | o | . | . | . | . |
----------------------
+------------
 | o | . | . | . | o |
----------------------
+------------
 | . | . | o | . | . |
----------------------
+------------
 ```
 
 return `(0, 4)`, since that coin is closest. This map would be represented in our question as:
@@ -6695,7 +6697,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 ```
         Arrangement       |   Change
-----------------------------------------
+----------------------
 ['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
 ['B', 'B', 'G', 'B']      | (B, G) -> R
 ['B', 'R', 'B']           | (R, B) -> G
@@ -7093,7 +7095,7 @@ A typical American-style crossword puzzle grid is an `N x N` matrix with black a
 
 Write a program to determine whether a given matrix qualifies as a crossword grid.
 
-------
+---
 
 ### Problem 500 (Easy)
 
@@ -7705,7 +7707,7 @@ tsr
 
 Your function should return 3, since we would need to remove all the columns to order it.
 
-554 (Easy)
+### Problem 554 (Easy)
 
 This problem was asked by Palantir.
 
@@ -7713,19 +7715,11 @@ The ancient Egyptians used to express fractions as a sum of several terms where 
 
 Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an Egyptian fraction.
 
-555 (Medium)
+### Problem 555 (Medium)
 
-This problem was asked by Amazon.
+Same as [problem 58](#problem-58-medium).
 
-An sorted array of integers was rotated an unknown number of times.
-
-Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
-
-For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
-
-You can assume all the integers in the array are unique.
-
-556 (Medium)
+### Problem 556 (Medium)
 
 This problem was asked by Facebook.
 
@@ -7735,7 +7729,7 @@ For example, given the array [10, 5, 7], you should return true, since we can mo
 
 Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
 
-557 (Medium)
+### Problem 557 (Medium)
 
 This problem was asked by Apple.
 
@@ -8480,7 +8474,7 @@ For example, a puzzle of the form:
 ```
   SEND
 + MORE
---------
+-----
  MONEY
 ```
 
@@ -8693,7 +8687,7 @@ For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5
 |   |   B  |   |   | C |
 | A |      | A |   |   |
 |   |      |   |   |   |
-------------------------
+------------
 ```
 
 As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
@@ -8991,7 +8985,7 @@ G G G
 B B B
 ```
 
-## Daily Coding Problem: Problem #657 (Easy)
+### Problem 657 (Easy)
 
 This problem was asked by Google.
 
@@ -9001,7 +8995,7 @@ For example, given the set `{1, 2, 3}`, it should return `{{}, {1}, {2}, {3}, {1
 
 You may also use a list or array to represent a set.
 
-## Daily Coding Problem: Problem #658 (Hard)
+### Problem 658 (Hard)
 
 This problem was asked by Google.
 
@@ -9042,13 +9036,13 @@ The name of a file contains at least a period and an extension.
 
 The name of a directory or sub-directory will not contain a period.
 
-## Daily Coding Problem: Problem #659 (Hard)
+### Problem 659 (Hard)
 
 This problem was asked by Twitch.
 
 Describe what happens when you type a URL into your browser and press Enter.
 
-## Daily Coding Problem: Problem #660 (Hard)
+### Problem 660 (Hard)
 
 This problem was asked by Airbnb.
 
@@ -9056,7 +9050,7 @@ You come across a dictionary of sorted words in a language you've never seen bef
 
 For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
 
-## Daily Coding Problem: Problem #661 (Hard)
+### Problem 661 (Hard)
 
 This problem was asked by Netflix.
 
@@ -9064,7 +9058,7 @@ Given a sorted list of integers of length `N`, determine if an element `x` is in
 
 Do this in `O(log N)` time.
 
-## Daily Coding Problem: Problem #662 (Easy)
+### Problem 662 (Easy)
 
 This problem was asked by Amazon.
 
@@ -9072,7 +9066,7 @@ Given `n` numbers, find the greatest common denominator between them.
 
 For example, given the numbers `[42, 56, 14]`, return `14`.
 
-## Daily Coding Problem: Problem #663 (Easy)
+### Problem 663 (Easy)
 
 This question was asked by Riot Games.
 
@@ -9084,13 +9078,13 @@ Design and implement a HitCounter class that keeps track of requests (or hits). 
 
 Follow-up: What if our system has limited memory?
 
-## Daily Coding Problem: Problem #664 (Easy)
+### Problem 664 (Easy)
 
 This problem was asked by Google.
 
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
 
-## Daily Coding Problem: Problem #665 (Easy)
+### Problem 665 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -9101,7 +9095,7 @@ Implement a URL shortener with the following methods:
 
 Hint: What if we enter the same URL twice?
 
-## Daily Coding Problem: Problem #666 (Hard)
+### Problem 666 (Hard)
 
 This problem was asked by Microsoft.
 
@@ -9109,7 +9103,7 @@ Given an array of positive integers, divide the array into two subsets such that
 
 For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of 5, which is the smallest possible difference.
 
-## Daily Coding Problem: Problem #667 (Medium)
+### Problem 667 (Medium)
 
 This problem was asked by Facebook.
 
@@ -9119,7 +9113,7 @@ A simplified description of the Elo system is as follows. Every player begins at
 
 Implement this system.
 
-## Daily Coding Problem: Problem #668 (Easy)
+### Problem 668 (Easy)
 
 This problem was asked by Google.
 
@@ -9136,7 +9130,7 @@ Here is an example:
 
 Write a program to determine whether a given input is a Toeplitz matrix.
 
-## Daily Coding Problem: Problem #669 (Hard)
+### Problem 669 (Hard)
 
 This problem was asked by Google.
 
@@ -9144,7 +9138,7 @@ The game of Nim is played as follows. Starting with three heaps, each containing
 
 ```
   A  |  B  |  C
------------------
+-----------
   3  |  4  |  5
   3  |  1  |  3
   3  |  1  |  3
@@ -9157,7 +9151,7 @@ In other words, to start, the first player takes three items from pile `B`. The 
 
 Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
 
-## Daily Coding Problem: Problem #670 (Medium)
+### Problem 670 (Medium)
 
 This problem was asked by Facebook.
 
@@ -9167,7 +9161,7 @@ For example, given `n` = 13, return 2 since 13 = 32 + 22 = 9 + 4.
 
 Given `n` = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
 
-## Daily Coding Problem: Problem #671 (Easy)
+### Problem 671 (Easy)
 
 This problem was asked by Facebook.
 
@@ -9175,7 +9169,7 @@ Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
 
 That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
 
-## Daily Coding Problem: Problem #672 (Easy)
+### Problem 672 (Easy)
 
 This problem was asked by Google.
 
@@ -9191,7 +9185,7 @@ We define a path in the triangle to start at the top and go down one row at a ti
 
 Write a program that returns the weight of the maximum weight path.
 
-## Daily Coding Problem: Problem #673 (Hard)
+### Problem 673 (Hard)
 
 This problem was asked by LinkedIn.
 
@@ -9199,7 +9193,7 @@ Given a list of points, a central point, and an integer `k`, find the nearest `k
 
 For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`.
 
-## Daily Coding Problem: Problem #674 (Easy)
+### Problem 674 (Easy)
 
 This problem was asked by Google.
 
@@ -9209,7 +9203,7 @@ Given an input describing the types of apples she will pass on her path, in orde
 
 For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion will involve types `1` and `3`, with a length of four.
 
-## Daily Coding Problem: Problem #675 (Medium)
+### Problem 675 (Medium)
 
 This problem was asked by Google.
 
@@ -9224,7 +9218,7 @@ Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: 
 
 Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
 
-## Daily Coding Problem: Problem #676 (Hard)
+### Problem 676 (Hard)
 
 This problem was asked by LinkedIn.
 
@@ -9243,7 +9237,7 @@ And here are examples of non-numbers:
 - "a -2"
 - "-"
 
-## Daily Coding Problem: Problem #677 (Easy)
+### Problem 677 (Easy)
 
 This problem was asked by Square.
 
@@ -9255,13 +9249,13 @@ Implement this algorithm.
 
 Bonus: Create a generator that produces primes indefinitely (that is, without taking `N` as an input).
 
-## Daily Coding Problem: Problem #678 (Easy)
+### Problem 678 (Easy)
 
 This problem was asked by IBM.
 
 Given an integer, find the next permutation of it in absolute order. For example, given `48975`, the next permutation would be `49578`.
 
-## Daily Coding Problem: Problem #679 (Medium)
+### Problem 679 (Medium)
 
 This problem was asked by Google.
 
@@ -9273,7 +9267,7 @@ You may assume each element in the array is distinct.
 
 For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 
-## Daily Coding Problem: Problem #680 (Medium)
+### Problem 680 (Medium)
 
 This problem was asked by Square.
 
@@ -9293,7 +9287,7 @@ Return the list:
 - apr
 - f
 
-## Daily Coding Problem: Problem #681 (Medium)
+### Problem 681 (Medium)
 
 This problem was asked by Flipkart.
 
@@ -9308,7 +9302,7 @@ snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75,
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ```
 
-## Daily Coding Problem: Problem #682 (Medium)
+### Problem 682 (Medium)
 
 This problem was asked by Squarespace.
 
@@ -9322,7 +9316,7 @@ add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
 add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 ```
 
-## Daily Coding Problem: Problem #683 (Medium)
+### Problem 683 (Medium)
 
 This problem was asked by MongoDB.
 
@@ -9332,7 +9326,7 @@ You can assume that such element exists.
 
 For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
 
-## Daily Coding Problem: Problem #684 (Medium)
+### Problem 684 (Medium)
 
 This problem was asked by Stripe.
 
@@ -9350,11 +9344,11 @@ This should call `add` on the initial value with the first element of the array,
 
 Implement your own version of `reduce`.
 
-## Daily Coding Problem: Problem #685 (Hard)
+### Problem 685 (Hard)
 
 Same as [114](#problem-114-hard)..
 
-## Daily Coding Problem: Problem #686 (Hard)
+### Problem 686 (Hard)
 
 This problem was asked by Adobe.
 
@@ -9376,7 +9370,7 @@ In this case, removing the edge (3, 4) satisfies our requirement.
 
 Write a function that returns the _maximum_ number of edges you can remove while still satisfying this requirement.
 
-## Daily Coding Problem: Problem #687 (Hard)
+### Problem 687 (Hard)
 
 This problem was asked by Airbnb.
 
@@ -9384,7 +9378,7 @@ An 8-puzzle is a game played on a 3 x 3 board of tiles, with the ninth tile miss
 
 Design a class to represent the board, and find a series of steps to bring the board to the state [[1, 2, 3], [4, 5, 6], [7, 8, None]].
 
-## Daily Coding Problem: Problem #688 (Hard)
+### Problem 688 (Hard)
 
 This problem was asked by Dropbox.
 
@@ -9402,7 +9396,7 @@ This type of formula, with `AND` statements joining tuples containing exactly on
 
 Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
 
-## Daily Coding Problem: Problem #689 (Easy)
+### Problem 689 (Easy)
 
 This problem was asked by Jane Street.
 
@@ -9410,7 +9404,7 @@ The United States uses the imperial system of weights and measures, which means 
 
 Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
 
-## Daily Coding Problem: Problem #690 (Hard)
+### Problem 690 (Hard)
 
 This problem was asked by Microsoft.
 
@@ -9418,17 +9412,17 @@ Given an array of numbers, find the length of the longest increasing subsequence
 
 For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 
-## Daily Coding Problem: Problem #691 (Medium)
+### Problem 691 (Medium)
 
 This problem was asked by Yahoo.
 
 Write a function that returns the bitwise AND of all integers between `M` and `N`, inclusive.
 
-## Daily Coding Problem: Problem #692 (Medium)
+### Problem 692 (Medium)
 
 Same as [problem 11](#problem-11-medium).
 
-## Daily Coding Problem: Problem #693 (Medium)
+### Problem 693 (Medium)
 
 This problem was asked by Cisco.
 
@@ -9438,17 +9432,17 @@ For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 
 Bonus: Can you do this in one line?
 
-## Daily Coding Problem: Problem #694 (Hard)
+### Problem 694 (Hard)
 
 Same as [4](#problem-4-hard).
 
-## Daily Coding Problem: Problem #695 (Medium)
+### Problem 695 (Medium)
 
 This question was asked by Google.
 
 Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
 
-## Daily Coding Problem: Problem #696 (Hard)
+### Problem 696 (Hard)
 
 This problem was asked by Twitter.
 
@@ -9459,7 +9453,7 @@ You are given an array of length `24`, where each element represents the number 
 
 You can assume that all values get cleared at the end of the day, and that you will not be asked for `start` and `end` values that wrap around midnight.
 
-## Daily Coding Problem: Problem #697 (Hard)
+### Problem 697 (Hard)
 
 This problem was asked by Google.
 
@@ -9470,7 +9464,7 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 
 Each operation should run in O(1) time.
 
-## Daily Coding Problem: Problem #698 (Medium)
+### Problem 698 (Medium)
 
 This problem was asked by Uber.
 
@@ -9486,7 +9480,7 @@ For example, suppose the input for a three-by-six grid is the following:
 
 Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
 
-## Daily Coding Problem: Problem #699 (Easy)
+### Problem 699 (Easy)
 
 This problem was asked by Airbnb.
 
@@ -9496,7 +9490,7 @@ For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should bec
 
 Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
 
-## Daily Coding Problem: Problem #700 (Medium)
+### Problem 700 (Medium)
 
 This problem was asked by Airbnb.
 
@@ -9699,7 +9693,7 @@ Visually, this can be represented as follows.
 
 ```
  Bytes   |           Byte format
------------------------------------------------
+--------------------------
    1     | 0xxxxxxx
    2     | 110xxxxx 10xxxxxx
    3     | 1110xxxx 10xxxxxx 10xxxxxx
@@ -10337,7 +10331,7 @@ The game of Nim is played as follows. Starting with three heaps, each containing
 
 ```
   A  |  B  |  C
------------------
+-----------
   3  |  4  |  5
   3  |  1  |  3
   3  |  1  |  3
@@ -12580,7 +12574,7 @@ For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5
 |   |   B  |   |   | C |
 | A |      | A |   |   |
 |   |      |   |   |   |
-------------------------
+------------
 ```
 
 As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
@@ -12652,7 +12646,7 @@ You run an e-commerce website and want to record the last `N` `order` ids in a l
 
 You should be as efficient with time and space as possible.
 
-# Daily Coding Problem: Problem #965 (Easy)
+# Problem #965 (Easy)
 
 This problem was asked by Google.
 
@@ -12669,7 +12663,7 @@ Visually, this can be represented as follows.
 
 ```
  Bytes   |           Byte format
------------------------------------------------
+--------------------------
    1     | 0xxxxxxx
    2     | 110xxxxx 10xxxxxx
    3     | 1110xxxx 10xxxxxx 10xxxxxx
@@ -12794,7 +12788,7 @@ For example, a puzzle of the form:
 ```
   SEND
 + MORE
---------
+-----
  MONEY
 ```
 
@@ -13447,7 +13441,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 ```
         Arrangement       |   Change
-----------------------------------------
+----------------------
 ['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
 ['B', 'B', 'G', 'B']      | (B, G) -> R
 ['B', 'R', 'B']           | (R, B) -> G
@@ -13694,15 +13688,7 @@ Given an array and a permutation, apply the permutation to the array. For exampl
 
 ### Problem 1051 (Medium)
 
-This problem was asked by Amazon.
-
-An sorted array of integers was rotated an unknown number of times.
-
-Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
-
-For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
-
-You can assume all the integers in the array are unique.
+Same as [problem 58](#problem-58-medium).
 
 ### Problem 1052 (Hard)
 
@@ -14811,15 +14797,7 @@ Same as [5](#problem-5-medium).
 
 ### Problem 1138 (Medium)
 
-This problem was asked by Amazon.
-
-An sorted array of integers was rotated an unknown number of times.
-
-Given such an array, find the index of the element in the array in faster than linear time. If the element doesn't exist in the array, return null.
-
-For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
-
-You can assume all the integers in the array are unique.
+Same as [problem 58](#problem-58-medium).
 
 ### Problem 1139 (Hard)
 
@@ -14955,7 +14933,7 @@ For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5
 |   |   B  |   |   | C |
 | A |      | A |   |   |
 |   |      |   |   |   |
-------------------------
+------------
 ```
 
 As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
@@ -16025,7 +16003,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 ```
         Arrangement       |   Change
-----------------------------------------
+----------------------
 ['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
 ['B', 'B', 'G', 'B']      | (B, G) -> R
 ['B', 'R', 'B']           | (R, B) -> G
@@ -17058,7 +17036,7 @@ The game of Nim is played as follows. Starting with three heaps, each containing
 
 ```
   A  |  B  |  C
------------------
+-----------
   3  |  4  |  5
   3  |  1  |  3
   3  |  1  |  3
@@ -17209,7 +17187,7 @@ Return two, as there are only two ways to get to the bottom right:
 
 The top left corner and bottom right corner will always be `0`.
 
-------
+---
 
 ### Problem 1334 (Easy)
 
@@ -17620,7 +17598,7 @@ For example, a puzzle of the form:
 ```
   SEND
 + MORE
---------
+-----
  MONEY
 ```
 
@@ -18479,7 +18457,7 @@ Visually, this can be represented as follows.
 
 ```
  Bytes   |           Byte format
------------------------------------------------
+--------------------------
    1     | 0xxxxxxx
    2     | 110xxxxx 10xxxxxx
    3     | 1110xxxx 10xxxxxx 10xxxxxx
@@ -19461,7 +19439,7 @@ Visually, this can be represented as follows.
 
 ```
  Bytes   |           Byte format
------------------------------------------------
+--------------------------
    1     | 0xxxxxxx
    2     | 110xxxxx 10xxxxxx
    3     | 1110xxxx 10xxxxxx 10xxxxxx
@@ -20146,7 +20124,7 @@ For example, a puzzle of the form:
 ```
   SEND
 + MORE
---------
+-----
  MONEY
 ```
 
@@ -20345,7 +20323,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 ```
         Arrangement       |   Change
-----------------------------------------
+----------------------
 ['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
 ['B', 'B', 'G', 'B']      | (B, G) -> R
 ['B', 'R', 'B']           | (R, B) -> G
@@ -20635,7 +20613,7 @@ For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5
 |   |   B  |   |   | C |
 | A |      | A |   |   |
 |   |      |   |   |   |
-------------------------
+------------
 ```
 
 As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
@@ -21867,6 +21845,10 @@ Same as [350](#problem-350-medium).
 
 Same as [114](#problem-114-hard).
 
-## Daily Coding Problem: Problem 1722 (Medium)
+### Problem 1722 (Medium)
 
 Same as [323](#problem-323-medium).
+
+### Problem 1723 (Medium)
+
+Same as [problem 58](#problem-58-medium).
