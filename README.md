@@ -501,9 +501,11 @@ Suppose you are given a table of currency exchange rates, represented as a 2D ar
 
 There are no transaction costs and you can trade fractional quantities.
 
+TODO: Solve the problem
+
 ---
 
-### Problem 33
+### Problem 33 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -513,6 +515,7 @@ Recall that the median of an even-numbered list is the average of the two middle
 
 For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should print out:
 
+```
 2
 1.5
 2
@@ -520,6 +523,9 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 2
 2
+```
+
+[Solution](https://k5kc.com/cs/algorithms/find-median-from-data-stream/)
 
 ---
 
@@ -9658,23 +9664,7 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 
 ### Problem 727 (Easy)
 
-This problem was asked by Microsoft.
-
-Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
-
-Recall that the median of an even-numbered list is the average of the two middle numbers.
-
-For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should print out:
-
-```
-2
-1.5
-2
-3.5
-2
-2
-2
-```
+Same as [problem 33](#problem-33-easy).
 
 ### Problem 728 (Hard)
 
@@ -11152,23 +11142,7 @@ Given this representation, determine the depth of the tree.
 
 ### Problem 858 (Easy)
 
-This problem was asked by Microsoft.
-
-Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
-
-Recall that the median of an even-numbered list is the average of the two middle numbers.
-
-For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should print out:
-
-```
-2
-1.5
-2
-3.5
-2
-2
-2
-```
+Same as [problem 33](#problem-33-easy).
 
 ### Problem 859 (Medium)
 
@@ -14399,23 +14373,7 @@ For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f
 
 ### Problem 1134 (Easy)
 
-This problem was asked by Microsoft.
-
-Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
-
-Recall that the median of an even-numbered list is the average of the two middle numbers.
-
-For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should print out:
-
-```
-2
-1.5
-2
-3.5
-2
-2
-2
-```
+Same as [problem 33](#problem-33-easy).
 
 ### Problem 1135 (Easy)
 
