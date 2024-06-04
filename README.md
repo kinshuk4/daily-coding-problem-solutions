@@ -325,15 +325,17 @@ Do this in O(M + N) time (where M and N are the lengths of the lists) and consta
 
 [Solution](https://k5kc.com/cs/algorithms/intersection-of-two-linked-lists-problem/)
 
-### Problem 21
+### Problem 21 (Easy)
 
 > This problem was asked by Snapchat.
 
-  Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 
-  For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
-### Problem 22
+[Solution](https://k5kc.com/cs/algorithms/meeting-rooms-2-minimum-meeting-rooms-required/).
+
+### Problem 22 (Medium)
 
 > This problem was asked by Microsoft.
 
@@ -343,50 +345,56 @@ For example, given the set of words 'quick', 'brown', 'the', 'fox', and the stri
 
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
----
-
-### Problem 23
->
-> This problem was asked by Google.
-
-  You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
-
-  Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
-
-  For example, given the following board:
-
-  [[f, f, f, f],
-  [t, t, f, t],
-  [f, f, f, f],
-  [f, f, f, f]]
-  and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
+[Solution](https://k5kc.com/cs/algorithms/word-break-2-construct-a-sentence/)
 
 ---
 
-### Problem 24
+### Problem 23 (Easy)
 
 > This problem was asked by Google.
 
- Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of its descendants or ancestors are not locked.
+You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
 
- Design a binary tree node class with the following methods:
+Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
 
- is_locked, which returns whether the node is locked
- lock, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
- unlock, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
- You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
+For example, given the following board:
+
+```python
+[[f, f, f, f],
+[t, t, f, t],
+[f, f, f, f],
+[f, f, f, f]]
+```
+
+and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum number of steps required to reach the end is 7, since we would need to go through `(1, 2)` because there is a wall everywhere else on the second row.
 
 ---
 
-### Problem 25
+### Problem 24 (Medium)
+
+> This problem was asked by Google.
+
+Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of its descendants or ancestors are not locked.
+
+Design a binary tree node class with the following methods:
+
+- `is_locked`, which returns whether the node is locked
+- `lock`, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
+- `unlock`, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
+
+You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
+
+---
+
+### Problem 25 (Hard)
 
 > This problem was asked by Facebook.
 
 Implement regular expression matching with the following special characters:
 
-. (period) which matches any single character
+- `.` (period) which matches any single character
+- `*` (asterisk) which matches zero or more of the preceding element
 
-- (asterisk) which matches zero or more of the preceding element
 That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
 
 For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
@@ -395,7 +403,7 @@ Given the regular expression ".*at" and the string "chat", your function should 
 
 ---
 
-### Problem 26
+### Problem 26 (Medium)
 
 > This problem was asked by Google.
 
@@ -405,9 +413,11 @@ The list is very long, so making more than one pass is prohibitively expensive.
 
 Do this in constant space and in one pass.
 
+[Solution](https://k5kc.com/cs/algorithms/remove-nth-node-from-end-of-list/)
+
 ---
 
-### Problem 27
+### Problem 27 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -417,10 +427,12 @@ For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
 
+[Solution](https://k5kc.com/cs/algorithms/valid-parentheses-problem/)
+
 ---
 
 ### Problem 28 (Medium)
->
+
 > This problem was asked by Palantir.
 
 Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
@@ -441,18 +453,20 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 
 ---
 
-### Problem 29
->
+### Problem 29 (Easy)
+
 > This problem was asked by Amazon.
 
 Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
 
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
+[Solution](https://k5kc.com/cs/algorithms/run-length-encoding/)
+
 ---
 
-### Problem 30
->
+### Problem 30 (Medium)
+
 > This problem was asked by Facebook.
 
 You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height. Suppose it will rain and all spots between two walls get filled up.
@@ -463,32 +477,34 @@ For example, given the input [2, 1, 2], we can hold 1 unit of water in the middl
 
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
 
+[Solution](https://k5kc.com/cs/algorithms/trapping-rain-water-problem/)
+
 ---
 
-### Problem 31
->
+### Problem 31 (Easy)
+
 > This problem was asked by Google.
 
 The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
 
 Given two strings, compute the edit distance between them.
 
+[Solution](https://k5kc.com/cs/algorithms/edit-distance-problem/)
+
 ---
 
-### Problem 32
->
+### Problem 32 (Hard)
+
 > This problem was asked by Jane Street.
 
 Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
 
 There are no transaction costs and you can trade fractional quantities.
 
-Good morning! Here's your coding interview problem for today.
-
 ---
 
 ### Problem 33
->
+
 > This problem was asked by Microsoft.
 
 Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element.
@@ -508,7 +524,7 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 ---
 
 ### Problem 34
->
+
 > This problem was asked by Quora.
 
 Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
@@ -520,7 +536,7 @@ As another example, given the string "google", you should return "elgoogle".
 ---
 
 ### Problem 35
->
+
 > This problem was asked by Google.
 
 Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
@@ -531,8 +547,8 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 
 ---
 
-### Problem 35
->
+### Problem 36
+
 > This problem was asked by Dropbox.
 
 Given the root to a binary search tree, find the second largest node in the tree.
@@ -540,7 +556,7 @@ Given the root to a binary search tree, find the second largest node in the tree
 ---
 
 ### Problem 37
->
+
 > This problem was asked by Google.
 
 The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
@@ -552,7 +568,7 @@ You may also use a list or array to represent a set.
 ---
 
 ### Problem 38
->
+
 > This problem was asked by Microsoft.
 
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
@@ -1593,11 +1609,13 @@ Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, `generate()` should return a tree whose size is unbounded but finite.
 
-### Problem 117
+### Problem 117 (Easy)
 
 > This problem was asked by Facebook.
 
 Given a binary tree, return the level of the tree with minimum sum.
+
+![Solution](https://k5kc.com/cs/algorithms/minimum-level-sum-of-a-binary-tree-problem/)
 
 ### Problem 118
 
@@ -4356,11 +4374,11 @@ For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In 
 
 ---
 
-### Problem 306
+### Problem 306 (Medium)
 
-This problem was asked by Palantir.
+> This problem was asked by Palantir.
 
-You are given a list of N numbers, in which each number is located at most k places away from its sorted position. For example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
+You are given a list of `N` numbers, in which each number is located at most `k` places away from its sorted position. For example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
 
 Come up with an algorithm that sorts this list in `O(N log k)` time.
 
@@ -4987,17 +5005,17 @@ Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b
 
 ---
 
-### Problem 346
+### Problem 346 (Medium)
 
-This problem was asked by Airbnb.
+> This problem was asked by Airbnb.
 
 You are given a huge list of airline ticket prices between different cities around the world on a given day. These are all direct flights. Each element in the list has the format `(source_city, destination, price)`.
 
 Consider a user who is willing to take up to `k` connections from their origin city `A` to their destination `B`. Find the cheapest fare possible for this journey and print the itinerary for that journey.
 
-For example, our traveler wants to go from JFK to LAX with up to 3 connections, and our input flights are as follows:
+For example, our traveler wants to go from `JFK` to `LAX` with up to `3` connections, and our input flights are as follows:
 
-```
+```python
 [
     ('JFK', 'ATL', 150),
     ('ATL', 'SFO', 400),
@@ -5009,9 +5027,9 @@ For example, our traveler wants to go from JFK to LAX with up to 3 connections, 
 ]
 ```
 
-Due to some improbably low flight prices, the cheapest itinerary would be JFK -> ATL -> ORD -> LAX, costing $440.
+Due to some improbably low flight prices, the cheapest itinerary would be `JFK -> ATL -> ORD -> LAX`, costing $440.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution346.java)
+[Solution](https://k5kc.com/cs/algorithms/cheapest-flights-within-k-stops-problem/)
 
 ---
 
@@ -5908,11 +5926,7 @@ Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with 
 
 ### Problem 404 (Easy)
 
-This problem was asked by Snapchat.
-
-Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
-
-For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+Same as [problem 21](#problem-21-easy).
 
 ### Problem 405 (Hard)
 
@@ -6190,9 +6204,7 @@ You should return `True`, since the bishop is attacking the king diagonally.
 
 ### Problem 426 (Easy)
 
-This problem was asked by Facebook.
-
-Given a binary tree, return the level of the tree with minimum sum.
+Same as [problem 117](#problem-117-easy).
 
 ### Problem 427 (Medium)
 
@@ -6843,17 +6855,7 @@ For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢,
 
 ### Problem 475 (Medium)
 
-This problem was asked by Google.
-
-Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of its descendants or ancestors are not locked.
-
-Design a binary tree node class with the following methods:
-
-- `is_locked`, which returns whether the node is locked
-- `lock`, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
-- `unlock`, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
-
-You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
+Same as [problem 24](#problem-24-medium).
 
 ### Problem 476 (Medium)
 
@@ -6892,13 +6894,7 @@ For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[
 
 ### Problem 480 (Medium)
 
-This problem was asked by Microsoft.
-
-Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return null.
-
-For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
-
-Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+Same as [problem 22](#problem-22-medium).
 
 ### Problem 481 (Hard)
 
@@ -7115,22 +7111,7 @@ Write a program to determine whether a given matrix qualifies as a crossword gri
 
 ### Problem 500 (Easy)
 
-This problem was asked by Google.
-
-You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
-
-Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
-
-For example, given the following board:
-
-```
-[[f, f, f, f],
-[t, t, f, t],
-[f, f, f, f],
-[f, f, f, f]]
-```
-
-and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum number of steps required to reach the end is 7, since we would need to go through `(1, 2)` because there is a wall everywhere else on the second row.
+Same as [problem 23](#problem-23-easy).
 
 ### Problem 501 (Medium)
 
@@ -7422,11 +7403,7 @@ Given the input string `abc`, return `["a", "b", "c"]`.
 
 ### Problem 530 (Easy)
 
-This problem was asked by Google.
-
-The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
-
-Given two strings, compute the edit distance between them.
+Same as [problem 31](#problem-31-easy).
 
 ### Problem 531 (Easy)
 
@@ -7554,11 +7531,7 @@ You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 ### Problem 541 (Easy)
 
-This problem was asked by Amazon.
-
-Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
-
-Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+Same as [problem 29](#problem-29-easy).
 
 ### Problem 542 (Medium)
 
@@ -7568,13 +7541,7 @@ Given an undirected graph G, check whether it is bipartite. Recall that a graph 
 
 ### Problem 543 (Medium)
 
-This problem was asked by Google.
-
-Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
-
-The list is very long, so making more than one pass is prohibitively expensive.
-
-Do this in constant space and in one pass.
+Same as [problem 26](#problem-26-medium).
 
 ### Problem 544 (Hard)
 
@@ -7634,11 +7601,7 @@ Do this in O(N) time and O(1) space.
 
 ### Problem 550 (Hard)
 
-This problem was asked by Jane Street.
-
-Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
-
-There are no transaction costs and you can trade fractional quantities.
+Same as [problem 32](#problem-32-hard).
 
 ### Problem 551 (Medium)
 
@@ -8381,15 +8344,7 @@ Create a data structure that performs all the following operations in `O(1)` tim
 
 ### Problem 612 (Easy)
 
-This problem was asked by Stripe.
-
-Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
-
-Intervals can "touch", such as `[0, 1]` and `[1, 2]`, but they won't be considered overlapping.
-
-For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return 1 as the last interval can be removed and the first two won't overlap.
-
-The intervals are not necessarily sorted in any order.
+Same as [problem 191](#problem-191-easy).
 
 ### Problem 613 (Easy)
 
@@ -8699,11 +8654,7 @@ Given such an array, determine the denominations that must be in use. In the cas
 
 ### Problem 633 (Medium)
 
-This problem was asked by Palantir.
-
-You are given a list of `N` numbers, in which each number is located at most `k` places away from its sorted position. For example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
-
-Come up with an algorithm that sorts this list in `O(N log k)` time.
+Same as [problem 306](#problem-306-medium).
 
 ### Problem 634 (Medium)
 
@@ -8723,18 +8674,7 @@ Determine the area of the largest rectangle that can be formed only from the bar
 
 ## ### Problem 635 (Hard)
 
-This problem was asked by Facebook.
-
-Implement regular expression matching with the following special characters:
-
-- `.` (period) which matches any single character
-- `*` (asterisk) which matches zero or more of the preceding element
-
-That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
-
-For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
-
-Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+Same as [problem 25](#problem-25-hard).
 
 ## ### Problem 636 (Medium)
 
@@ -9452,27 +9392,7 @@ Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -
 
 ### Problem 700 (Medium)
 
-This problem was asked by Airbnb.
-
-You are given a huge list of airline ticket prices between different cities around the world on a given day. These are all direct flights. Each element in the list has the format `(source_city, destination, price)`.
-
-Consider a user who is willing to take up to `k` connections from their origin city `A` to their destination `B`. Find the cheapest fare possible for this journey and print the itinerary for that journey.
-
-For example, our traveler wants to go from `JFK` to `LAX` with up to `3` connections, and our input flights are as follows:
-
-```
-[
-    ('JFK', 'ATL', 150),
-    ('ATL', 'SFO', 400),
-    ('ORD', 'LAX', 200),
-    ('LAX', 'DFW', 80),
-    ('JFK', 'HKG', 800),
-    ('ATL', 'ORD', 90),
-    ('JFK', 'LAX', 500),
-]
-```
-
-Due to some improbably low flight prices, the cheapest itinerary would be `JFK -> ATL -> ORD -> LAX`, costing $440.
+Same as [problem 346](#problem-346-medium).
 
 ### Problem 701 (Medium)
 
@@ -9523,15 +9443,7 @@ Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9
 
 ### Problem 705 (Medium)
 
-This problem was asked by Facebook.
-
-You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height. Suppose it will rain and all spots between two walls get filled up.
-
-Compute how many units of water remain trapped on the map in O(N) time and O(1) space.
-
-For example, given the input [2, 1, 2], we can hold 1 unit of water in the middle.
-
-Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
+Same as [problem 30](#problem-30-medium).
 
 ### Problem 706 (Easy)
 
@@ -9606,13 +9518,7 @@ Determine if a new point `p` lies inside this polygon. (If `p` is on the boundar
 
 ### Problem 712 (Easy)
 
-This problem was asked by Facebook.
-
-Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
-
-For example, given the string "([])[]({})", you should return true.
-
-Given the string "([)]" or "((()", you should return false.
+Same as [problem 27](#problem-27-easy).
 
 ### Problem 713 (Medium)
 
@@ -10226,13 +10132,7 @@ Given a list of numbers, create an algorithm that arranges them in order to form
 
 ### Problem 765 (Medium)
 
-This problem was asked by Google.
-
-Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
-
-The list is very long, so making more than one pass is prohibitively expensive.
-
-Do this in constant space and in one pass.
+Same as [problem 26](#problem-26-medium).
 
 ### Problem 766 (Medium)
 
@@ -10327,11 +10227,7 @@ For example, given a file with the content “Hello world”, three read7() retu
 
 ### Problem 775 (Easy)
 
-This problem was asked by Snapchat.
-
-Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
-
-For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+Same as [problem 21](#problem-21-easy).
 
 ### Problem 776 (Easy)
 
@@ -10675,27 +10571,7 @@ However, it is impossible for any key to result in the following scores, so in t
 
 ### Problem 804 (Medium)
 
-This problem was asked by Airbnb.
-
-You are given a huge list of airline ticket prices between different cities around the world on a given day. These are all direct flights. Each element in the list has the format `(source_city, destination, price)`.
-
-Consider a user who is willing to take up to `k` connections from their origin city `A` to their destination `B`. Find the cheapest fare possible for this journey and print the itinerary for that journey.
-
-For example, our traveler wants to go from `JFK` to `LAX` with up to `3` connections, and our input flights are as follows:
-
-```
-[
-    ('JFK', 'ATL', 150),
-    ('ATL', 'SFO', 400),
-    ('ORD', 'LAX', 200),
-    ('LAX', 'DFW', 80),
-    ('JFK', 'HKG', 800),
-    ('ATL', 'ORD', 90),
-    ('JFK', 'LAX', 500),
-]
-```
-
-Due to some improbably low flight prices, the cheapest itinerary would be `JFK -> ATL -> ORD -> LAX`, costing $440.
+Same as [problem 346](#problem-346-medium).
 
 ### Problem 805 (Easy)
 
@@ -10737,13 +10613,7 @@ Typically, an implementation of in-order traversal of a binary tree has `O(h)` s
 
 ### Problem 809 (Easy)
 
-This problem was asked by Facebook.
-
-Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
-
-For example, given the string "([])[]({})", you should return true.
-
-Given the string "([)]" or "((()", you should return false.
+Same as [problem 27](#problem-27-easy).
 
 ### Problem 810 (Easy)
 
@@ -10846,13 +10716,7 @@ Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, usi
 
 ### Problem 817 (Medium)
 
-This problem was asked by Microsoft.
-
-Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return null.
-
-For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
-
-Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+Same as [problem 22](#problem-22-medium).
 
 ### Problem 818 (Easy)
 
@@ -11338,18 +11202,7 @@ Given the root to a binary tree, return its bottom view.
 
 ### Problem 860 (Hard)
 
-This problem was asked by Facebook.
-
-Implement regular expression matching with the following special characters:
-
-- `.` (period) which matches any single character
-- `*` (asterisk) which matches zero or more of the preceding element
-
-That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
-
-For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
-
-Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+Same as [problem 25](#problem-25-hard).
 
 ### Problem 861 (Hard)
 
@@ -11519,11 +11372,7 @@ Same as [problem 17](#problem-17-hard).
 
 ### Problem 876 (Medium)
 
-This problem was asked by Palantir.
-
-You are given a list of `N` numbers, in which each number is located at most `k` places away from its sorted position. For example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
-
-Come up with an algorithm that sorts this list in `O(N log k)` time.
+Same as [problem 306](#problem-306-medium).
 
 ### Problem 877 (Hard)
 
@@ -11611,11 +11460,7 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 
 ### Problem 886 (Easy)
 
-This problem was asked by Google.
-
-The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
-
-Given two strings, compute the edit distance between them.
+Same as [problem 31](#problem-31-easy).
 
 ### Problem 887 (Easy)
 
@@ -11635,11 +11480,7 @@ For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central po
 
 ### Problem 889 (Easy)
 
-This problem was asked by Amazon.
-
-Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
-
-Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+Same as [problem 29](#problem-29-easy).
 
 ### Problem 890 (Medium)
 
@@ -11769,15 +11610,7 @@ Some questions you may want to consider as part of your solution are:
 
 ### Problem 902 (Easy)
 
-This problem was asked by Stripe.
-
-Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
-
-Intervals can "touch", such as `[0, 1]` and `[1, 2]`, but they won't be considered overlapping.
-
-For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return 1 as the last interval can be removed and the first two won't overlap.
-
-The intervals are not necessarily sorted in any order.
+Same as [problem 191](#problem-191-easy).
 
 ### Problem 903 (Easy)
 
@@ -11996,17 +11829,7 @@ Same as [6](#problem-6-hard).
 
 ### Problem 922 (Medium)
 
-This problem was asked by Google.
-
-Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of its descendants or ancestors are not locked.
-
-Design a binary tree node class with the following methods:
-
-- `is_locked`, which returns whether the node is locked
-- `lock`, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
-- `unlock`, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
-
-You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
+Same as [problem 24](#problem-24-medium).
 
 ### Problem 923 (Medium)
 
@@ -12258,11 +12081,7 @@ You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` w
 
 ### Problem 941 (Hard)
 
-This problem was asked by Jane Street.
-
-Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
-
-There are no transaction costs and you can trade fractional quantities.
+Same as [problem 32](#problem-32-hard).
 
 ### Problem 942 (Medium)
 
@@ -13443,15 +13262,7 @@ If the pattern is found, return the start index of its location. If not, return 
 
 ### Problem 1041 (Medium)
 
-This problem was asked by Facebook.
-
-You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height. Suppose it will rain and all spots between two walls get filled up.
-
-Compute how many units of water remain trapped on the map in O(N) time and O(1) space.
-
-For example, given the input [2, 1, 2], we can hold 1 unit of water in the middle.
-
-Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
+Same as [problem 30](#problem-30-medium).
 
 ### Problem 1042 (Hard)
 
@@ -13724,22 +13535,7 @@ That is, as long as the debounced `f` continues to be invoked, `f` itself will n
 
 ### Problem 1061 (Easy)
 
-This problem was asked by Google.
-
-You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
-
-Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
-
-For example, given the following board:
-
-```
-[[f, f, f, f],
-[t, t, f, t],
-[f, f, f, f],
-[f, f, f, f]]
-```
-
-and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum number of steps required to reach the end is 7, since we would need to go through `(1, 2)` because there is a wall everywhere else on the second row.
+Same as [problem 23](#problem-23-easy).
 
 ### Problem 1062 (Easy)
 
@@ -13873,9 +13669,7 @@ For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] sin
 
 ### Problem 1072 (Easy)
 
-This problem was asked by Facebook.
-
-Given a binary tree, return the level of the tree with minimum sum.
+Same as [problem 117](#problem-117-easy).
 
 ### Problem 1073 (Medium)
 
@@ -14749,17 +14543,7 @@ Given the string `..R...L.L`, you should return `..RR.LLLL`.
 
 ### Problem 1147 (Medium)
 
-This problem was asked by Google.
-
-Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of its descendants or ancestors are not locked.
-
-Design a binary tree node class with the following methods:
-
-- `is_locked`, which returns whether the node is locked
-- `lock`, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
-- `unlock`, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
-
-You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
+Same as [problem 24](#problem-24-medium).
 
 ### Problem 1148 (Easy)
 
@@ -14968,15 +14752,7 @@ Write a function that returns the _maximum_ number of edges you can remove while
 
 ### Problem 1163 (Easy)
 
-This problem was asked by Stripe.
-
-Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
-
-Intervals can "touch", such as `[0, 1]` and `[1, 2]`, but they won't be considered overlapping.
-
-For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return 1 as the last interval can be removed and the first two won't overlap.
-
-The intervals are not necessarily sorted in any order.
+Same as [problem 191](#problem-191-easy).
 
 ### Problem 1164 (Easy)
 
@@ -15506,13 +15282,7 @@ is considered valid.
 
 ### Problem 1207 (Medium)
 
-This problem was asked by Google.
-
-Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
-
-The list is very long, so making more than one pass is prohibitively expensive.
-
-Do this in constant space and in one pass.
+Same as [problem 26](#problem-26-medium).
 
 ### Problem 1208 (Medium)
 
@@ -16008,18 +15778,7 @@ For example, `carrace` should return true, since it can be rearranged to form `r
 
 ### Problem 1251 (Hard)
 
-This problem was asked by Facebook.
-
-Implement regular expression matching with the following special characters:
-
-- `.` (period) which matches any single character
-- `*` (asterisk) which matches zero or more of the preceding element
-
-That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
-
-For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
-
-Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+Same as [problem 25](#problem-25-hard).
 
 ### Problem 1252 (Easy)
 
@@ -16031,13 +15790,7 @@ Bonus: When, during the course of a day, will the angle be zero?
 
 ### Problem 1253 (Easy)
 
-This problem was asked by Facebook.
-
-Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
-
-For example, given the string "([])[]({})", you should return true.
-
-Given the string "([)]" or "((()", you should return false.
+Same as [problem 27](#problem-27-easy).
 
 ### Problem 1254 (Hard)
 
@@ -16199,13 +15952,7 @@ Return 4.
 
 ### Problem 1265 (Medium)
 
-This problem was asked by Microsoft.
-
-Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return null.
-
-For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
-
-Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+Same as [problem 22](#problem-22-medium).
 
 ### Problem 1266 (Medium)
 
@@ -16575,11 +16322,7 @@ Given `N`, `M`, and `B`, determine the number of valid playlists.
 
 ### Problem 1294 (Easy)
 
-This problem was asked by Amazon.
-
-Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
-
-Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+Same as [problem 29](#problem-29-easy).
 
 ### Problem 1295 (Easy)
 
@@ -17004,11 +16747,7 @@ The top left corner and bottom right corner will always be `0`.
 
 ### Problem 1334 (Easy)
 
-This problem was asked by Google.
-
-The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
-
-Given two strings, compute the edit distance between them.
+Same as [problem 31](#problem-31-easy).
 
 ### Problem 1335 (Medium)
 
@@ -17242,11 +16981,7 @@ Given an array of numbers of length `N`, find both the minimum and maximum using
 
 ### Problem 1352 (Hard)
 
-This problem was asked by Jane Street.
-
-Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
-
-There are no transaction costs and you can trade fractional quantities.
+Same as [problem 32](#problem-32-hard).
 
 ### Problem 1353 (Medium)
 
@@ -17457,22 +17192,7 @@ For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes a
 
 ### Problem 1372 (Easy)
 
-This problem was asked by Google.
-
-You are given an M by N matrix consisting of booleans that represents a board. Each True boolean represents a wall. Each False boolean represents a tile you can walk on.
-
-Given this matrix, a start coordinate, and an end coordinate, return the minimum number of steps required to reach the end coordinate from the start. If there is no possible path, then return null. You can move up, left, down, and right. You cannot move through walls. You cannot wrap around the edges of the board.
-
-For example, given the following board:
-
-```
-[[f, f, f, f],
-[t, t, f, t],
-[f, f, f, f],
-[f, f, f, f]]
-```
-
-and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum number of steps required to reach the end is 7, since we would need to go through `(1, 2)` because there is a wall everywhere else on the second row.
+Same as [problem 23](#problem-23-easy).
 
 ### Problem 1373 (Medium)
 
@@ -17828,9 +17548,7 @@ For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, the
 
 ### Problem 1406 (Easy)
 
-This problem was asked by Facebook.
-
-Given a binary tree, return the level of the tree with minimum sum.
+Same as [problem 117](#problem-117-easy).
 
 ### Problem 1407 (Medium)
 
@@ -18138,27 +17856,7 @@ We can consider a sentence valid if it conforms to the following rules:
 
 ### Problem 1434 (Medium)
 
-This problem was asked by Airbnb.
-
-You are given a huge list of airline ticket prices between different cities around the world on a given day. These are all direct flights. Each element in the list has the format `(source_city, destination, price)`.
-
-Consider a user who is willing to take up to `k` connections from their origin city `A` to their destination `B`. Find the cheapest fare possible for this journey and print the itinerary for that journey.
-
-For example, our traveler wants to go from `JFK` to `LAX` with up to `3` connections, and our input flights are as follows:
-
-```
-[
-    ('JFK', 'ATL', 150),
-    ('ATL', 'SFO', 400),
-    ('ORD', 'LAX', 200),
-    ('LAX', 'DFW', 80),
-    ('JFK', 'HKG', 800),
-    ('ATL', 'ORD', 90),
-    ('JFK', 'LAX', 500),
-]
-```
-
-Due to some improbably low flight prices, the cheapest itinerary would be `JFK -> ATL -> ORD -> LAX`, costing $440.
+Same as [problem 346](#problem-346-medium).
 
 ### Problem 1435 (Medium)
 
@@ -18386,15 +18084,7 @@ Given an input consisting of brick lengths for each row such as the one above, r
 
 ### Problem 1449 (Medium)
 
-This problem was asked by Facebook.
-
-You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height. Suppose it will rain and all spots between two walls get filled up.
-
-Compute how many units of water remain trapped on the map in O(N) time and O(1) space.
-
-For example, given the input [2, 1, 2], we can hold 1 unit of water in the middle.
-
-Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
+Same as [problem 30](#problem-30-medium).
 
 ### Problem 1450 (Medium)
 
@@ -18434,11 +18124,7 @@ Can you perform the operation without allocating extra memory (disregarding the 
 
 ### Problem 1452 (Medium)
 
-This problem was asked by Palantir.
-
-You are given a list of `N` numbers, in which each number is located at most `k` places away from its sorted position. For example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
-
-Come up with an algorithm that sorts this list in `O(N log k)` time.
+Same as [problem 306](#problem-306-medium).
 
 ### Problem 1453 (Easy)
 
@@ -18884,11 +18570,7 @@ Describe and give an example of each of the following types of polymorphism:
 
 ### Problem 1492 (Easy)
 
-This problem was asked by Snapchat.
-
-Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
-
-For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+Same as [problem 21](#problem-21-easy).
 
 ### Problem 1493 (Easy)
 
@@ -19460,11 +19142,7 @@ One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656,
 
 ### Problem 1538 (Easy)
 
-This problem was asked by Snapchat.
-
-Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
-
-For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+Same as [problem 21](#problem-21-easy).
 
 ### Problem 1539 (Easy)
 
@@ -19496,13 +19174,7 @@ Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
 ### Problem 1542 (Easy)
 
-This problem was asked by Facebook.
-
-Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
-
-For example, given the string "([])[]({})", you should return true.
-
-Given the string "([)]" or "((()", you should return false.
+Same as [problem 27](#problem-27-easy).
 
 ### Problem 1543 (Medium)
 
@@ -19823,13 +19495,7 @@ Given an integer `N`, print the `N`th term of this sequence.
 
 ### Problem 1571 (Medium)
 
-This problem was asked by Microsoft.
-
-Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return null.
-
-For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
-
-Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+Same as [problem 22](#problem-22-medium).
 
 ### Problem 1572 (Easy)
 
@@ -20684,11 +20350,7 @@ For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
 ### Problem 1641 (Easy)
 
-This problem was asked by Amazon.
-
-Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
-
-Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+Same as [problem 29](#problem-29-easy).
 
 ### Problem 1642 (Hard)
 
@@ -20712,18 +20374,7 @@ Given an integer, find the next permutation of it in absolute order. For example
 
 ### Problem 1645 (Hard)
 
-This problem was asked by Facebook.
-
-Implement regular expression matching with the following special characters:
-
-- `.` (period) which matches any single character
-- `*` (asterisk) which matches zero or more of the preceding element
-
-That is, implement a function that takes in a string and a valid regular expression and returns whether or not the string matches the regular expression.
-
-For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
-
-Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+Same as [problem 25](#problem-25-hard).
 
 ### Problem 1646 (Medium)
 
@@ -21171,11 +20822,7 @@ and the target word 'FOAM', you should return true, since it's the leftmost colu
 
 ### Problem 1684 (Easy)
 
-This problem was asked by Google.
-
-The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
-
-Given two strings, compute the edit distance between them.
+Same as [problem 31](#problem-31-easy).
 
 ### Problem 1685 (Medium)
 
@@ -21596,3 +21243,15 @@ Same as [323](#problem-323-medium).
 ### Problem 1723 (Medium)
 
 Same as [problem 58](#problem-58-medium).
+
+### Problem 1724 (Medium)
+
+Same as [problem 346](#problem-346-medium).
+
+### Problem 1725 (Easy)
+
+Same as [problem 191](#problem-191-easy).
+
+### Problem 1726 (Medium)
+
+Same as [problem 306](#problem-306-medium).
