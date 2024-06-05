@@ -529,7 +529,7 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 
 ---
 
-### Problem 34
+### Problem 34 (Medium)
 
 > This problem was asked by Quora.
 
@@ -538,6 +538,8 @@ Given a string, find the palindrome that can be made by inserting the fewest num
 For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
 
 As another example, given the string "google", you should return "elgoogle".
+
+[Solution](https://k5kc.com/cs/algorithms/minimum-insertion-steps-to-make-a-string-palindrome-problem/)
 
 ---
 
@@ -935,13 +937,14 @@ You should print out the following:
 
 ---
 
-### Problem 66
+### Problem 66 (Medium)
 
 > This problem was asked by Square.
 
 Assume you have access to a function `toss_biased()` which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
 
-Write a function to simulate an unbiased coin toss
+Write a function to simulate an unbiased coin toss.
+
 ---
 
 ### Problem 67
@@ -7171,13 +7174,7 @@ Same as [323](#problem-323-medium).
 
 ### Problem 509 (Medium)
 
-This problem was asked by Quora.
-
-Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
-
-For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
-
-As another example, given the string "google", you should return "elgoogle".
+Same as [problem 34](#problem-34-medium).
 
 ### Problem 510 (Hard)
 
@@ -7611,11 +7608,7 @@ Same as [problem 32](#problem-32-hard).
 
 ### Problem 551 (Medium)
 
-This problem was asked by Square.
-
-Assume you have access to a function `toss_biased()` which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
-
-Write a function to simulate an unbiased coin toss.
+Same as [problem 66](#problem-66-medium).
 
 ### Problem 552 (Easy)
 
@@ -10442,11 +10435,7 @@ Each method should run in constant time.
 
 ### Problem 795 (Medium)
 
-This problem was asked by Square.
-
-Assume you have access to a function `toss_biased()` which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
-
-Write a function to simulate an unbiased coin toss.
+Same as [problem 66](#problem-66-medium).
 
 ### Problem 796 (Medium)
 
@@ -13283,13 +13272,7 @@ Describe and give an example of each of the following types of polymorphism:
 
 ### Problem 1046 (Medium)
 
-This problem was asked by Quora.
-
-Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
-
-For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
-
-As another example, given the string "google", you should return "elgoogle".
+Same as [problem 34](#problem-34-medium).
 
 ### Problem 1047 (Medium)
 
@@ -15630,13 +15613,7 @@ Given a friendship list such as the one above, determine the number of friend gr
 
 ### Problem 1238 (Medium)
 
-This problem was asked by Quora.
-
-Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
-
-For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
-
-As another example, given the string "google", you should return "elgoogle".
+Same as [problem 34](#problem-34-medium).
 
 ### Problem 1239 (Medium)
 
@@ -17368,11 +17345,7 @@ The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 
 ### Problem 1391 (Medium)
 
-This problem was asked by Square.
-
-Assume you have access to a function `toss_biased()` which returns 0 or 1 with a probability that's not 50-50 (but also not 0-100 or 100-0). You do not know the bias of the coin.
-
-Write a function to simulate an unbiased coin toss.
+Same as [problem 66](#problem-66-medium).
 
 ### Problem 1392 (Hard)
 
@@ -20382,13 +20355,7 @@ Given `N`, `M`, and `B`, determine the number of valid playlists.
 
 ### Problem 1652 (Medium)
 
-This problem was asked by Quora.
-
-Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
-
-For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
-
-As another example, given the string "google", you should return "elgoogle".
+Same as [problem 34](#problem-34-medium).
 
 ### Problem 1653 (Easy)
 
@@ -21213,3 +21180,7 @@ Same as [problem 191](#problem-191-easy).
 ### Problem 1726 (Medium)
 
 Same as [problem 306](#problem-306-medium).
+
+### Problem 1728 (Medium)
+
+Same as [problem 66](#problem-66-medium).
