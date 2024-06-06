@@ -543,7 +543,7 @@ As another example, given the string "google", you should return "elgoogle".
 
 ---
 
-### Problem 35
+### Problem 35 (Hard)
 
 > This problem was asked by Google.
 
@@ -553,33 +553,41 @@ Do this in linear time and in-place.
 
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
+[Solution](https://k5kc.com/cs/algorithms/dutch-national-flag-dnf-problem/)
+
 ---
 
-### Problem 36
+### Problem 36 (Medium)
 
 > This problem was asked by Dropbox.
 
 Given the root to a binary search tree, find the second largest node in the tree.
 
+[Solution](https://k5kc.com/cs/algorithms/second-largest-element-in-binary-search-tree/)
+
 ---
 
-### Problem 37
+### Problem 37 (Easy)
 
 > This problem was asked by Google.
 
 The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
 
-For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
+For example, given the set `{1, 2, 3}`, it should return `{{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}`.
 
 You may also use a list or array to represent a set.
 
+[Solution](https://k5kc.com/cs/algorithms/subsets-1-problem/)
+
 ---
 
-### Problem 38
+### Problem 38 (Hard)
 
 > This problem was asked by Microsoft.
 
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+
+[Solution](https://k5kc.com/cs/algorithms/n-queens-problem/)
 
 ---
 
@@ -3977,9 +3985,9 @@ Given a binary tree and a particular node, find all cousins of that node.
 
 ---
 
-#### Problem 285
+#### Problem 285 (Medium)
 
-This problem was asked by Mailchimp.
+> This problem was asked by Mailchimp.
 
 You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street.
 
@@ -6052,9 +6060,7 @@ Same as [problem 12](#problem-12-hard).
 
 ### Problem 414 (Hard)
 
-This problem was asked by Microsoft.
-
-You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+Same as [problem 38](#problem-38-hard).
 
 ### Problem 415 (Hard)
 
@@ -6511,13 +6517,7 @@ For example, `pow(2, 10)` should return 1024.
 
 ### Problem 448 (Hard)
 
-This problem was asked by Google.
-
-Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
-
-Do this in linear time and in-place.
-
-For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+Same as [problem 35](#problem-35-hard).
 
 ### Problem 449 (Easy)
 
@@ -6949,9 +6949,7 @@ Bonus: Find an `O(log N)` solution if `k = 2`.
 
 ### Problem 484 (Medium)
 
-This problem was asked by Dropbox.
-
-Given the root to a binary search tree, find the second largest node in the tree.
+Same as [problem 36](#problem-36-medium).
 
 ### Problem 485 (Hard)
 
@@ -8105,13 +8103,7 @@ For example, this matrix has 4 islands.
 
 ### Problem 593 (Medium)
 
-This problem was asked by Mailchimp.
-
-You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street.
-
-For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since the top floors of the buildings with heights `8`, `6`, and `1` all have an unobstructed view to the west.
-
-Can you do this using just one forward pass through the array?
+Same as [problem 285](#problem-285-medium).
 
 ### Problem 594 (Easy)
 
@@ -8923,13 +8915,7 @@ B B B
 
 ### Problem 657 (Easy)
 
-This problem was asked by Google.
-
-The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
-
-For example, given the set `{1, 2, 3}`, it should return `{{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}`.
-
-You may also use a list or array to represent a set.
+Same as [problem 37](#problem-37-easy).
 
 ### Problem 658 (Hard)
 
@@ -11091,9 +11077,7 @@ For example, given the string "the quick brown fox jumps over the lazy dog" and 
 
 ### Problem 855 (Hard)
 
-This problem was asked by Microsoft.
-
-You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+Same as [problem 38](#problem-38-hard).
 
 ### Problem 856 (Medium)
 
@@ -11413,13 +11397,7 @@ Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with 
 
 ### Problem 885 (Hard)
 
-This problem was asked by Google.
-
-Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
-
-Do this in linear time and in-place.
-
-For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+Same as [problem 35](#problem-35-hard).
 
 ### Problem 886 (Easy)
 
@@ -11476,13 +11454,7 @@ Considering the edges of the matrix as boundaries, this divides the grid into th
 
 ### Problem 892 (Easy)
 
-This problem was asked by Google.
-
-The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
-
-For example, given the set `{1, 2, 3}`, it should return `{{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}`.
-
-You may also use a list or array to represent a set.
+Same as [problem 37](#problem-37-easy).
 
 ### Problem 893 (Medium)
 
@@ -14022,13 +13994,7 @@ Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't 
 
 ### Problem 1106 (Medium)
 
-This problem was asked by Mailchimp.
-
-You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street.
-
-For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since the top floors of the buildings with heights `8`, `6`, and `1` all have an unobstructed view to the west.
-
-Can you do this using just one forward pass through the array?
+Same as [problem 285](#problem-285-medium).
 
 ### Problem 1107 (Hard)
 
@@ -14360,13 +14326,7 @@ Same as [problem 33](#problem-33-easy).
 
 ### Problem 1135 (Easy)
 
-This problem was asked by Google.
-
-The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
-
-For example, given the set `{1, 2, 3}`, it should return `{{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}`.
-
-You may also use a list or array to represent a set.
+Same as [problem 37](#problem-37-easy).
 
 ### Problem 1136 (Medium)
 
@@ -15551,13 +15511,7 @@ Considering the edges of the matrix as boundaries, this divides the grid into th
 
 ### Problem 1233 (Hard)
 
-This problem was asked by Google.
-
-Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
-
-Do this in linear time and in-place.
-
-For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+Same as [problem 35](#problem-35-hard).
 
 ### Problem 1234 (Easy)
 
@@ -16690,9 +16644,7 @@ Same as [7](#problem-7-medium).
 
 ### Problem 1336 (Hard)
 
-This problem was asked by Microsoft.
-
-You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+Same as [problem 38](#problem-38-hard).
 
 ### Problem 1337 (Easy)
 
@@ -17281,9 +17233,7 @@ You should print out the following:
 
 ### Problem 1386 (Medium)
 
-This problem was asked by Dropbox.
-
-Given the root to a binary search tree, find the second largest node in the tree.
+Same as [problem 36](#problem-36-medium).
 
 ### Problem 1387 (Easy)
 
@@ -17483,13 +17433,7 @@ Same as [problem 117](#problem-117-easy).
 
 ### Problem 1407 (Medium)
 
-This problem was asked by Mailchimp.
-
-You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street.
-
-For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since the top floors of the buildings with heights `8`, `6`, and `1` all have an unobstructed view to the west.
-
-Can you do this using just one forward pass through the array?
+Same as [problem 285](#problem-285-medium).
 
 ### Problem 1408 (Hard)
 
@@ -18616,13 +18560,7 @@ Can you perform the operation without allocating extra memory (disregarding the 
 
 ### Problem 1503 (Easy)
 
-This problem was asked by Google.
-
-The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
-
-For example, given the set `{1, 2, 3}`, it should return `{{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}`.
-
-You may also use a list or array to represent a set.
+Same as [problem 37](#problem-37-easy).
 
 ### Problem 1504 (Hard)
 
@@ -18824,9 +18762,7 @@ The order of the indices does not matter.
 
 ### Problem 1523 (Medium)
 
-This problem was asked by Dropbox.
-
-Given the root to a binary search tree, find the second largest node in the tree.
+Same as [problem 36](#problem-36-medium).
 
 ### Problem 1524 (Hard)
 
@@ -20849,9 +20785,7 @@ Same as [problem 20](#problem-20-easy).
 
 ### Problem 1696 (Hard)
 
-This problem was asked by Microsoft.
-
-You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+Same as [problem 38](#problem-38-hard).
 
 ### Problem 1697 (Easy)
 
