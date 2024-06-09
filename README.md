@@ -3363,7 +3363,7 @@ Find the maximum of two numbers without using any if-else statements, branching,
 
 ---
 
-#### Problem 249
+### Problem 249
 
 This problem was asked by Salesforce.
 
@@ -3373,7 +3373,7 @@ Given an array of integers, find the maximum XOR of any two elements.
 
 ---
 
-#### Problem 250
+### Problem 250
 
 This problem was asked by Google.
 
@@ -3398,7 +3398,7 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 ---
 
-#### Problem 251
+### Problem 251
 
 This problem was asked by Amazon.
 
@@ -3408,7 +3408,7 @@ Given an array of a million integers between zero and a billion, out of order, h
 
 ---
 
-#### Problem 252
+### Problem 252
 
 This problem was asked by Palantir.
 
@@ -3420,7 +3420,7 @@ Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an
 
 ---
 
-#### Problem 253
+### Problem 253
 
 This problem was asked by PayPal.
 
@@ -3439,7 +3439,7 @@ t     a     g
 
 ---
 
-#### Problem 254
+### Problem 254
 
 This problem was asked by Yahoo.
 
@@ -3471,7 +3471,7 @@ f         e
 
 ---
 
-#### Problem 255
+### Problem 255
 
 This problem was asked by Microsoft.
 
@@ -3503,7 +3503,7 @@ Given a graph, find its transitive closure.
 
 ---
 
-#### Problem 256
+### Problem 256
 
 This problem was asked by Fitbit.
 
@@ -3513,7 +3513,7 @@ Given a linked list, rearrange the node values such that they appear in alternat
 
 ---
 
-#### Problem 257
+### Problem 257
 
 This problem was asked by WhatsApp.
 
@@ -3523,7 +3523,7 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ---
 
-#### Problem 258
+### Problem 258
 
 This problem was asked by Morgan Stanley.
 
@@ -3547,7 +3547,7 @@ You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 ---
 
-#### Problem 259
+### Problem 259
 
 This problem was asked by Two Sigma.
 
@@ -3569,7 +3569,7 @@ For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only win
 
 ---
 
-#### Problem 260
+### Problem 260
 
 This problem was asked by Pinterest.
 
@@ -3579,7 +3579,7 @@ The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for i
 
 ---
 
-#### Problem 261
+### Problem 261
 
 This problem was asked by Amazon.
 
@@ -3605,7 +3605,7 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 
 ---
 
-#### Problem 262
+### Problem 262
 
 This problem was asked by Mozilla.
 
@@ -3615,7 +3615,7 @@ A bridge in a connected (undirected) graph is an edge that, if removed, causes t
 
 ---
 
-#### Problem 263
+### Problem 263
 
 This problem was asked by Nest.
 
@@ -3632,7 +3632,7 @@ We can consider a sentence valid if it conforms to the following rules:
 
 ---
 
-#### Problem 264
+### Problem 264
 
 This problem was asked by LinkedIn.
 
@@ -3646,7 +3646,7 @@ Create an algorithm that finds a De Bruijn sequence.
 
 ---
 
-#### Problem 265
+### Problem 265
 
 This problem was asked by Atlassian.
 
@@ -3660,7 +3660,7 @@ For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4
 
 ---
 
-#### Problem 266
+### Problem 266
 
 This problem was asked by Pivotal.
 
@@ -3672,7 +3672,7 @@ Given a dictionary of words and an input word, create a function that returns al
 
 ---
 
-#### Problem 267
+### Problem 267
 
 This problem was asked by Oracle.
 
@@ -3699,7 +3699,7 @@ You should return `True`, since the bishop is attacking the king diagonally.
 
 ---
 
-#### Problem 268
+### Problem 268
 
 This problem was asked by Indeed.
 
@@ -3709,7 +3709,7 @@ Given a 32-bit positive integer `N`, determine whether it is a power of four in 
 
 ---
 
-#### Problem 269
+### Problem 269
 
 This problem was asked by Microsoft.
 
@@ -3729,7 +3729,7 @@ Given the string `..R...L.L`, you should return `..RR.LLLL`.
 
 ---
 
-#### Problem 270
+### Problem 270
 
 This problem was asked by Twitter.
 
@@ -3757,7 +3757,7 @@ You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` w
 
 ---
 
-#### Problem 271
+### Problem 271
 
 This problem was asked by Netflix.
 
@@ -3769,7 +3769,7 @@ Do this in `O(log N)` time.
 
 ---
 
-#### Problem 272
+### Problem 272
 
 This problem was asked by Spotify.
 
@@ -3781,7 +3781,7 @@ For example, `throw_dice(3, 6, 7)` should equal `15`.
 
 ---
 
-#### Problem 273
+### Problem 273
 
 This problem was asked by Apple.
 
@@ -3793,7 +3793,7 @@ For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`
 
 ---
 
-#### Problem 274
+### Problem 274
 
 This problem was asked by Facebook.
 
@@ -3807,7 +3807,7 @@ For example, given `'-1 + (2 + 3)'`, you should return `4`.
 
 ---
 
-#### Problem 275
+### Problem 275
 
 This problem was asked by Epic.
 
@@ -3829,7 +3829,7 @@ Given an integer `N`, print the `Nth` term of this sequence.
 
 ---
 
-#### Problem 276
+### Problem 276
 
 This problem was asked by Dropbox.
 
@@ -3843,7 +3843,7 @@ If the pattern is found, return the start index of its location. If not, return 
 
 ---
 
-#### Problem 277
+### Problem 277
 
 This problem was asked by Google.
 
@@ -3870,7 +3870,7 @@ Write a program that takes in an array of integers representing byte values, and
 
 ---
 
-#### Problem 278
+### Problem 278
 
 This problem was asked by Amazon.
 
@@ -3880,7 +3880,7 @@ Given an integer `N`, construct all possible binary search trees with `N` nodes.
 
 ---
 
-#### Problem 279
+### Problem 279
 
 This problem was asked by Twitter.
 
@@ -3906,7 +3906,7 @@ Given a friendship list such as the one above, determine the number of friend gr
 
 ---
 
-#### Problem 280
+### Problem 280
 
 This problem was asked by Pandora.
 
@@ -3916,7 +3916,7 @@ Given an undirected graph, determine if it contains a cycle.
 
 ---
 
-#### Problem 281
+### Problem 281
 
 This problem was asked by LinkedIn.
 
@@ -3941,7 +3941,7 @@ Given an input consisting of brick lengths for each row such as the one above, r
 
 ---
 
-#### Problem 282
+### Problem 282
 
 This problem was asked by Netflix.
 
@@ -3951,7 +3951,7 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 
 ---
 
-#### Problem 283
+### Problem 283
 
 This problem was asked by Google.
 
@@ -3965,7 +3965,7 @@ Given an integer `N`, write a program that returns, in order, the first `N` regu
 
 ---
 
-#### Problem 284
+### Problem 284
 
 This problem was asked by Yext.
 
@@ -3985,7 +3985,7 @@ Given a binary tree and a particular node, find all cousins of that node.
 
 ---
 
-#### Problem 285 (Medium)
+### Problem 285 (Medium)
 
 > This problem was asked by Mailchimp.
 
@@ -3995,11 +3995,11 @@ For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since 
 
 Can you do this using just one forward pass through the array?
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution285.java)
+[Solution](https://k5kc.com/cs/algorithms/buildings-with-sunset-view-problem/)
 
 ---
 
-#### Problem 286
+### Problem 286
 
 This problem was asked by VMware.
 
@@ -4025,7 +4025,7 @@ As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19
 
 ---
 
-#### Problem 287
+### Problem 287
 
 This problem was asked by Quora.
 
@@ -4047,7 +4047,7 @@ Then a reasonable similarity metric would most likely conclude that `a` and `e` 
 
 ---
 
-#### Problem 288
+### Problem 288
 
 This problem was asked by Salesforce.
 
@@ -4069,7 +4069,7 @@ Write a function that returns how many steps this will take for a given input `N
 
 ---
 
-#### Problem 289
+### Problem 289
 
 This problem was asked by Google.
 
@@ -4092,7 +4092,7 @@ Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play,
 
 ---
 
-#### Problem 290
+### Problem 290
 
 This problem was asked by Facebook.
 
@@ -4116,7 +4116,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 ---
 
-#### Problem 291
+### Problem 291
 
 This problem was asked by Glassdoor.
 
@@ -4128,7 +4128,7 @@ For example, given a population with weights `[100, 200, 150, 80]` and a boat li
 
 ---
 
-#### Problem 292
+### Problem 292
 
 This problem was asked by Twitter.
 
@@ -4166,7 +4166,7 @@ students = {
 
 ---
 
-#### Problem 293
+### Problem 293
 
 This problem was asked by Uber.
 
@@ -4180,7 +4180,7 @@ For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to p
 
 ---
 
-#### Problem 294
+### Problem 294
 
 This problem was asked by Square.
 
@@ -4210,7 +4210,7 @@ In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distan
 
 ---
 
-#### Problem 295
+### Problem 295
 
 This problem was asked by Stitch Fix.
 
@@ -4236,7 +4236,7 @@ Bonus: Can you do this using only `O(k)` space?
 
 ---
 
-#### Problem 296
+### Problem 296
 
 This problem was asked by Etsy.
 
@@ -4246,7 +4246,7 @@ Given a sorted array, convert it into a height-balanced binary search tree.
 
 ---
 
-#### Problem 297
+### Problem 297
 
 This problem was asked by Amazon.
 
@@ -4270,7 +4270,7 @@ For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy
 
 ---
 
-#### Problem 298
+### Problem 298
 
 This problem was asked by Google.
 
@@ -4284,7 +4284,7 @@ For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion wil
 
 ---
 
-#### Problem 299
+### Problem 299
 
 This problem was asked by Samsung.
 
@@ -4310,7 +4310,7 @@ pipes = {
 
 ---
 
-#### Problem 300
+### Problem 300
 
 This problem was asked by Uber.
 
