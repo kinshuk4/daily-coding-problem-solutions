@@ -591,23 +591,26 @@ You have an N by N board. Write a function that, given N, returns the number of 
 
 ---
 
-### Problem 39
->
+### Problem 39 (Medium)
+
 > This problem was asked by Dropbox.
 
 Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
 
-Any live cell with less than two live neighbours dies.
-Any live cell with two or three live neighbours remains living.
-Any live cell with more than three live neighbours dies.
-Any dead cell with exactly three live neighbours becomes a live cell.
+- Any live cell with less than two live neighbours dies.
+- Any live cell with two or three live neighbours remains living.
+- Any live cell with more than three live neighbours dies.
+- Any dead cell with exactly three live neighbours becomes a live cell.
+
 A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
 
 Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
 
-You can represent a live cell with an asterisk (*) and a dead cell with a dot (.).
+You can represent a live cell with an asterisk (`*`) and a dead cell with a dot (`.`).
 
-### Problem 40
+[Solution](https://k5kc.com/cs/algorithms/game-of-life-problem/)
+
+### Problem 40 (Hard)
 
 > This problem was asked by Google.
 
@@ -617,7 +620,9 @@ For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], retu
 
 Do this in O(N) time and O(1) space.
 
-### Problem 41
+[Solution](https://k5kc.com/cs/algorithms/single-number-2-all-elements-except-one-occur-thrice/)
+
+### Problem 41 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -629,7 +634,7 @@ Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 
 
 Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
 
-### Problem 42
+### Problem 42 (Hard)
 
 > This problem was asked by Google.
 
@@ -639,8 +644,10 @@ Integers can appear more than once in the list. You may assume all numbers in th
 
 For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
 
+[Solution](https://k5kc.com/cs/algorithms/subarray-sum-equals-k-problem/)
+
 ### Problem 43
->
+
 > This problem was asked by Amazon.
 
 Implement a stack that has the following methods:
@@ -649,6 +656,8 @@ push(val), which pushes an element onto the stack
 pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
 max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
 Each method should run in constant time.
+
+[Solution](https://k5kc.com/cs/algorithms/max-stack-problem/)
 
 ### Problem 44
 
@@ -751,9 +760,10 @@ Given a function that generates perfectly random numbers between 1 and k (inclus
 It should run in O(N) time.
 
 Hint: Make sure each one of the 52! permutations of the deck is equally likely
+
 ---
 
-### Problem 52
+### Problem 52 (Hard)
 
 > This problem was asked by Google.
 
@@ -764,6 +774,8 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 
 Each operation should run in O(1) time.
 
+[Solution](https://k5kc.com/cs/algorithms/design-lru-cache/)
+
 ---
 
 ### Problem 53
@@ -771,6 +783,7 @@ Each operation should run in O(1) time.
 > This problem was asked by Apple.
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it
+
 ---
 
 ### Problem 54
@@ -780,6 +793,7 @@ Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, fir
 Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
 
 Implement an efficient sudoku solver
+
 ---
 
 ### Problem 55
@@ -792,6 +806,7 @@ Implement a URL shortener with the following methods:
 - `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
 
 Hint: What if we enter the same URL twice?
+
 ---
 
 ### Problem 56
@@ -850,15 +865,17 @@ Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't 
 
 ---
 
-### Problem 61
+### Problem 61 (Medium)
 
 > This problem was asked by Google.
 
-Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y`are integers and returns `x^y`.
+Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.
 
 Do this faster than the naive method of repeated multiplication.
 
 For example, `pow(2, 10)` should return 1024.
+
+[Solution](https://k5kc.com/cs/algorithms/implement-power-function-1/)
 
 ---
 
@@ -4210,14 +4227,15 @@ In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distan
 
 ---
 
-### Problem 295
+### Problem 295 (Medium)
 
-This problem was asked by Stitch Fix.
+> This problem was asked by Stitch Fix.
 
 Pascal's triangle is a triangular array of integers constructed with the following formula:
 
-The first row consists of the number 1.
-For each subsequent row, each element is the sum of the numbers directly above it, on either side.
+- The first row consists of the number `1`.
+- For each subsequent row, each element is the sum of the numbers directly above it, on either side.
+
 For example, here are the first few rows:
 
 ```
@@ -4228,11 +4246,11 @@ For example, here are the first few rows:
 1 4 6 4 1
 ```
 
-Given an input `k`, return the `k`th row of Pascal's triangle.
+Given an input `k`, return the `k``th` row of Pascal's triangle.
 
 Bonus: Can you do this using only `O(k)` space?
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution295.java)
+[Solution](https://k5kc.com/cs/algorithms/pascal-s-triangle-1-generate-first-n-rows/)
 
 ---
 
@@ -6259,26 +6277,7 @@ For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to p
 
 ### Problem 429 (Medium)
 
-This problem was asked by Stitch Fix.
-
-Pascal's triangle is a triangular array of integers constructed with the following formula:
-
-- The first row consists of the number `1`.
-- For each subsequent row, each element is the sum of the numbers directly above it, on either side.
-
-For example, here are the first few rows:
-
-```
-    1
-   1 1
-  1 2 1
- 1 3 3 1
-1 4 6 4 1
-```
-
-Given an input `k`, return the `k``th` row of Pascal's triangle.
-
-Bonus: Can you do this using only `O(k)` space?
+Same as [problem 295](#problem-295-medium).
 
 ### Problem 430 (Hard)
 
@@ -6398,15 +6397,7 @@ Recall that a heap has the following operations:
 
 ### Problem 439 (Medium)
 
-This problem was asked by Facebook.
-
-Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport, compute the person's itinerary. If no such itinerary exists, return null. If there are multiple possible itineraries, return the lexicographically smallest one. All flights must be used in the itinerary.
-
-For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')] and starting airport 'YUL', you should return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
-
-Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
-
-Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
+Same as [problem 41](#problem-41-medium).
 
 ### Problem 440 (Medium)
 
@@ -6507,13 +6498,7 @@ Given a `32`-bit positive integer `N`, determine whether it is a power of four i
 
 ### Problem 447 (Medium)
 
-This problem was asked by Google.
-
-Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.
-
-Do this faster than the naive method of repeated multiplication.
-
-For example, `pow(2, 10)` should return 1024.
+Same as [problem 61](#problem-61-medium).
 
 ### Problem 448 (Hard)
 
@@ -6613,20 +6598,7 @@ Describe an algorithm to compute the longest increasing subsequence of an array 
 
 ### Problem 455 (Medium)
 
-This problem was asked by Dropbox.
-
-Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
-
-- Any live cell with less than two live neighbours dies.
-- Any live cell with two or three live neighbours remains living.
-- Any live cell with more than three live neighbours dies.
-- Any dead cell with exactly three live neighbours becomes a live cell.
-
-A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
-
-Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
-
-You can represent a live cell with an asterisk (`*`) and a dead cell with a dot (`.`).
+Same as [problem 39](#problem-39-medium).
 
 ### Problem 456 (Easy)
 
@@ -7546,13 +7518,7 @@ Same as [problem 26](#problem-26-medium).
 
 ### Problem 544 (Hard)
 
-This problem was asked by Google.
-
-Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If such a subset cannot be made, then return null.
-
-Integers can appear more than once in the list. You may assume all numbers in the list are positive.
-
-For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
+Same as [problem 42](#problem-42-hard).
 
 ### Problem 545 (Hard)
 
@@ -7592,13 +7558,7 @@ Bonus: When, during the course of a day, will the angle be zero?
 
 ### Problem 549 (Hard)
 
-This problem was asked by Google.
-
-Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
-
-For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
-
-Do this in O(N) time and O(1) space.
+Same as [problem 40](#problem-40-hard).
 
 ### Problem 550 (Hard)
 
@@ -9340,14 +9300,7 @@ You can assume that all values get cleared at the end of the day, and that you w
 
 ### Problem 697 (Hard)
 
-This problem was asked by Google.
-
-Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
-
-- `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least recently used item.
-- `get(key)`: gets the value at `key`. If no such key exists, return null.
-
-Each operation should run in O(1) time.
+Same as [problem 52](#problem-52-hard).
 
 ### Problem 698 (Medium)
 
@@ -10323,13 +10276,7 @@ You can assume the list has at least three integers.
 
 ### Problem 786 (Medium)
 
-This problem was asked by Google.
-
-Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.
-
-Do this faster than the naive method of repeated multiplication.
-
-For example, `pow(2, 10)` should return 1024.
+Same as [problem 61](#problem-61-medium).
 
 ### Problem 787 (Medium)
 
@@ -11009,14 +10956,7 @@ For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
 
 ### Problem 848 (Hard)
 
-This problem was asked by Google.
-
-Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
-
-- `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least recently used item.
-- `get(key)`: gets the value at `key`. If no such key exists, return null.
-
-Each operation should run in O(1) time.
+Same as [problem 52](#problem-52-hard).
 
 ### Problem 849 (Easy)
 
@@ -12074,26 +12014,7 @@ The path does not have to pass through the root, and each node can have any amou
 
 ### Problem 946 (Medium)
 
-This problem was asked by Stitch Fix.
-
-Pascal's triangle is a triangular array of integers constructed with the following formula:
-
-- The first row consists of the number `1`.
-- For each subsequent row, each element is the sum of the numbers directly above it, on either side.
-
-For example, here are the first few rows:
-
-```
-    1
-   1 1
-  1 2 1
- 1 3 3 1
-1 4 6 4 1
-```
-
-Given an input `k`, return the `k``th` row of Pascal's triangle.
-
-Bonus: Can you do this using only `O(k)` space?
+Same as [problem 295](#problem-295-medium).
 
 ### Problem 947 (Hard)
 
@@ -12233,15 +12154,7 @@ As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19
 
 ### Problem 958 (Medium)
 
-This problem was asked by Facebook.
-
-Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport, compute the person's itinerary. If no such itinerary exists, return null. If there are multiple possible itineraries, return the lexicographically smallest one. All flights must be used in the itinerary.
-
-For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')] and starting airport 'YUL', you should return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
-
-Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
-
-Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
+Same as [problem 41](#problem-41-medium).
 
 ### Problem 959 (Easy)
 
@@ -12469,20 +12382,7 @@ And here are examples of non-numbers:
 
 ### Problem 979 (Medium)
 
-This problem was asked by Dropbox.
-
-Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
-
-- Any live cell with less than two live neighbours dies.
-- Any live cell with two or three live neighbours remains living.
-- Any live cell with more than three live neighbours dies.
-- Any dead cell with exactly three live neighbours becomes a live cell.
-
-A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
-
-Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
-
-You can represent a live cell with an asterisk (`*`) and a dead cell with a dot (`.`).
+Same as [problem 39](#problem-39-medium).
 
 ### Problem 980 (Medium)
 
@@ -12858,9 +12758,7 @@ Given a real number `n`, find the square root of n. For example, given `n = 9`, 
 
 ### Problem 1013 (Medium)
 
-This problem was asked by Yahoo.
-
-Write a function that returns the bitwise AND of all integers between `M` and `N`, inclusive.
+Same as [problem 691](#problem-691-medium).
 
 ### Problem 1014 (Medium)
 
@@ -12993,13 +12891,7 @@ Bonus: Can you do this in one line?
 
 ### Problem 1022 (Hard)
 
-This problem was asked by Google.
-
-Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
-
-For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
-
-Do this in O(N) time and O(1) space.
+Same as [problem 40](#problem-40-hard).
 
 ### Problem 1023 (Hard)
 
@@ -13588,13 +13480,7 @@ For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion wil
 
 ### Problem 1071 (Hard)
 
-This problem was asked by Google.
-
-Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If such a subset cannot be made, then return null.
-
-Integers can appear more than once in the list. You may assume all numbers in the list are positive.
-
-For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
+Same as [problem 42](#problem-42-hard).
 
 ### Problem 1072 (Easy)
 
@@ -14695,13 +14581,7 @@ B B B
 
 ### Problem 1167 (Medium)
 
-This problem was asked by Google.
-
-Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.
-
-Do this faster than the naive method of repeated multiplication.
-
-For example, `pow(2, 10)` should return 1024.
+Same as [problem 61](#problem-61-medium).
 
 ### Problem 1168 (Easy)
 
@@ -14845,13 +14725,7 @@ For example, given the following board:
 
 ### Problem 1177 (Hard)
 
-This problem was asked by Google.
-
-Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
-
-For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
-
-Do this in O(N) time and O(1) space.
+Same as [problem 40](#problem-40-hard).
 
 ### Problem 1178 (Easy)
 
@@ -15257,15 +15131,7 @@ Write an algorithm that pairs the men and women together in such a way that no t
 
 ### Problem 1214 (Medium)
 
-This problem was asked by Facebook.
-
-Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport, compute the person's itinerary. If no such itinerary exists, return null. If there are multiple possible itineraries, return the lexicographically smallest one. All flights must be used in the itinerary.
-
-For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')] and starting airport 'YUL', you should return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
-
-Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
-
-Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
+Same as [problem 41](#problem-41-medium).
 
 ### Problem 1215 (Easy)
 
@@ -16180,26 +16046,7 @@ Given an integer, find the next permutation of it in absolute order. For example
 
 ### Problem 1292 (Medium)
 
-This problem was asked by Stitch Fix.
-
-Pascal's triangle is a triangular array of integers constructed with the following formula:
-
-- The first row consists of the number `1`.
-- For each subsequent row, each element is the sum of the numbers directly above it, on either side.
-
-For example, here are the first few rows:
-
-```
-    1
-   1 1
-  1 2 1
- 1 3 3 1
-1 4 6 4 1
-```
-
-Given an input `k`, return the `k``th` row of Pascal's triangle.
-
-Bonus: Can you do this using only `O(k)` space?
+Same as [problem 295](#problem-295-medium).
 
 ### Problem 1293 (Hard)
 
@@ -16387,9 +16234,7 @@ Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with 
 
 ### Problem 1313 (Medium)
 
-This problem was asked by Yahoo.
-
-Write a function that returns the bitwise AND of all integers between `M` and `N`, inclusive.
+Same as [problem 691](#problem-691-medium).
 
 ### Problem 1314 (Easy)
 
@@ -17138,30 +16983,11 @@ Find the maximum of two numbers without using any if-else statements, branching,
 
 ### Problem 1380 (Hard)
 
-This problem was asked by Google.
-
-Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If such a subset cannot be made, then return null.
-
-Integers can appear more than once in the list. You may assume all numbers in the list are positive.
-
-For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
+Same as [problem 42](#problem-42-hard).
 
 ### Problem 1381 (Medium)
 
-This problem was asked by Dropbox.
-
-Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
-
-- Any live cell with less than two live neighbours dies.
-- Any live cell with two or three live neighbours remains living.
-- Any live cell with more than three live neighbours dies.
-- Any dead cell with exactly three live neighbours becomes a live cell.
-
-A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
-
-Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
-
-You can represent a live cell with an asterisk (`*`) and a dead cell with a dot (`.`).
+Same as [problem 39](#problem-39-medium).
 
 ### Problem 1382 (Medium)
 
@@ -17327,14 +17153,7 @@ Given the head of a singly linked list, reverse it in-place.
 
 ### Problem 1395 (Hard)
 
-This problem was asked by Google.
-
-Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
-
-- `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least recently used item.
-- `get(key)`: gets the value at `key`. If no such key exists, return null.
-
-Each operation should run in O(1) time.
+Same as [problem 52](#problem-52-hard).
 
 ### Problem 1396 (Hard)
 
@@ -18494,20 +18313,7 @@ Given a dictionary of words and an input word, create a function that returns al
 
 ### Problem 1498 (Medium)
 
-This problem was asked by Dropbox.
-
-Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
-
-- Any live cell with less than two live neighbours dies.
-- Any live cell with two or three live neighbours remains living.
-- Any live cell with more than three live neighbours dies.
-- Any dead cell with exactly three live neighbours becomes a live cell.
-
-A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
-
-Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
-
-You can represent a live cell with an asterisk (`*`) and a dead cell with a dot (`.`).
+Same as [problem 39](#problem-39-medium).
 
 ### Problem 1499 (Medium)
 
@@ -18732,13 +18538,7 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
 
 ### Problem 1520 (Hard)
 
-This problem was asked by Google.
-
-Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
-
-For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
-
-Do this in O(N) time and O(1) space.
+Same as [problem 40](#problem-40-hard).
 
 ### Problem 1521 (Hard)
 
@@ -19628,13 +19428,7 @@ For example, given "jiujitsu", you should return `5`, corresponding to the final
 
 ### Problem 1591 (Hard)
 
-This problem was asked by Google.
-
-Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k. If such a subset cannot be made, then return null.
-
-Integers can appear more than once in the list. You may assume all numbers in the list are positive.
-
-For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
+Same as [problem 42](#problem-42-hard).
 
 ### Problem 1592 (Easy)
 
@@ -21118,3 +20912,19 @@ Same as [problem 306](#problem-306-medium).
 ### Problem 1728 (Medium)
 
 Same as [problem 66](#problem-66-medium).
+
+### Problem 1729 (Medium)
+
+Same as [problem 285](#problem-285-medium).
+
+### Problem 1730 (Medium)
+
+Same as [problem 61](#problem-61-medium).
+
+### Problem 1731 (Medium)
+
+Same as [problem 295](#problem-295-medium).
+
+### Problem 1732 (Medium)
+
+Same as [problem 691](#problem-691-medium).
