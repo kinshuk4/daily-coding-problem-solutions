@@ -671,11 +671,11 @@ You may assume each element in the array is distinct.
 
 For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 
-### Problem 45
->
+### Problem 45 (Easy)
+
 > This problem was asked by Two Sigma.
 
-Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
+Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
 
 ### Problem 46
 
@@ -1035,11 +1035,12 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 
 ---
 
-### Problem 71
+### Problem 71 (Easy)
 
 > This problem was asked by Two Sigma.
 
 Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive)
+
 ---
 
 ### Problem 72
@@ -5955,9 +5956,7 @@ Create a program that finds all strobogrammatic numbers with `N` digits.
 
 ### Problem 403 (Easy)
 
-This problem was asked by Two Sigma.
-
-Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
+Same as [problem 45](#problem-45-easy).
 
 ### Problem 404 (Easy)
 
@@ -10032,9 +10031,7 @@ Given a linked list, uniformly shuffle the nodes. What if we want to prioritize 
 
 ### Problem 761 (Easy)
 
-This problem was asked by Two Sigma.
-
-Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive).
+Same as [problem 71](#problem-71-easy).
 
 ### Problem 762 (Hard)
 
@@ -11331,9 +11328,7 @@ For example, given `100`, you can reach `1` in five steps with the following rou
 
 ### Problem 884 (Easy)
 
-This problem was asked by Two Sigma.
-
-Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive).
+Same as [problem 71](#problem-71-easy).
 
 ### Problem 885 (Hard)
 
@@ -13376,9 +13371,7 @@ An element is considered a peak if it is greater than both its left and right ne
 
 ### Problem 1064 (Easy)
 
-This problem was asked by Two Sigma.
-
-Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
+Same as [problem 45](#problem-45-easy).
 
 ### Problem 1065 (Medium)
 
@@ -15765,9 +15758,7 @@ For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
 ### Problem 1271 (Easy)
 
-This problem was asked by Two Sigma.
-
-Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive).
+Same as [problem 71](#problem-71-easy).
 
 ### Problem 1272 (Easy)
 
@@ -16228,9 +16219,7 @@ Implement a quack using three stacks and `O(1)` additional memory, so that the a
 
 ### Problem 1312 (Easy)
 
-This problem was asked by Two Sigma.
-
-Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
+Same as [problem 45](#problem-45-easy).
 
 ### Problem 1313 (Medium)
 
@@ -19440,9 +19429,7 @@ For example, given a file with the content “Hello world”, three read7() retu
 
 ### Problem 1593 (Easy)
 
-This problem was asked by Two Sigma.
-
-Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive).
+Same as [problem 71](#problem-71-easy).
 
 ### Problem 1594 (Easy)
 
