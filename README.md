@@ -659,7 +659,7 @@ Each method should run in constant time.
 
 [Solution](https://k5kc.com/cs/algorithms/max-stack-problem/)
 
-### Problem 44
+### Problem 44 (Medium)
 
 > This problem was asked by Google.
 
@@ -671,13 +671,15 @@ You may assume each element in the array is distinct.
 
 For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 
+[Solution](https://k5kc.com/cs/algorithms/count-inversions-count-smaller-on-right/)
+
 ### Problem 45 (Easy)
 
 > This problem was asked by Two Sigma.
 
 Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
 
-### Problem 46
+### Problem 46 (Hard)
 
 > This problem was asked by Amazon.
 
@@ -685,7 +687,9 @@ Given a string, find the longest palindromic contiguous substring. If there are 
 
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
 
-### Problem 47
+[Solution](https://k5kc.com/cs/algorithms/longest-palindromic-substring-problem/)
+
+### Problem 47 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -693,7 +697,9 @@ Given a array of numbers representing the stock prices of a company in chronolog
 
 For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
 
-### Problem 48
+[Solution](https://k5kc.com/cs/algorithms/best-time-to-buy-and-sell-stock-1-only-one-transaction/)
+
+### Problem 48 (Medium)
 
 > This problem was asked by Google.
 
@@ -716,6 +722,8 @@ You should return the following tree:
  / \ / \
 d  e f  g
 ```
+
+[Solution](https://k5kc.com/cs/algorithms/construct-binary-tree-from-inorder-and-preorder-traversal/)
 
 ### Problem 49
 
@@ -3799,15 +3807,15 @@ For example, `throw_dice(3, 6, 7)` should equal `15`.
 
 ---
 
-### Problem 273
+### Problem 273 (Easy)
 
-This problem was asked by Apple.
+> This problem was asked by Apple.
 
 A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return `False`.
 
 For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution273.java)
+[Solution](https://k5kc.com/cs/algorithms/find-fixed-point-in-sorted-array/)
 
 ---
 
@@ -6330,27 +6338,7 @@ If either value does not exist, return None.
 
 ### Problem 435 (Medium)
 
-This problem was asked by Google.
-
-Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
-
-For example, given the following preorder traversal:
-
-[a, b, d, e, c, f, g]
-
-And the following inorder traversal:
-
-[d, b, e, a, f, c, g]
-
-You should return the following tree:
-
-```
-    a
-   / \
-  b   c
- / \ / \
-d  e f  g
-```
+Same as [problem 48](#problem-48-medium).
 
 ### Problem 436 (Hard)
 
@@ -9101,15 +9089,7 @@ Given an integer, find the next permutation of it in absolute order. For example
 
 ### Problem 679 (Medium)
 
-This problem was asked by Google.
-
-We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements `A[i]` and `A[j]` form an inversion if `A[i] > A[j]` but `i < j`. That is, a smaller element appears after a larger element.
-
-Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
-
-You may assume each element in the array is distinct.
-
-For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+Same as [problem 44](#problem-44-medium).
 
 ### Problem 680 (Medium)
 
@@ -9404,11 +9384,7 @@ For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In
 
 ### Problem 708 (Easy)
 
-This problem was asked by Apple.
-
-A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return `False`.
-
-For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
+Same as [problem 273](#problem-273-easy).
 
 ### Problem 709 (Medium)
 
@@ -9667,11 +9643,7 @@ How can we make it print out what we apparently want?
 
 ### Problem 731 (Easy)
 
-This problem was asked by Facebook.
-
-Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
-
-For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+Same as [problem 47](#problem-47-easy).
 
 ### Problem 732 (Medium)
 
@@ -9881,11 +9853,7 @@ Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 
 
 ### Problem 749 (Hard)
 
-This problem was asked by Amazon.
-
-Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
-
-For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+Same as [problem 46](#problem-46-hard).
 
 ### Problem 750 (Medium)
 
@@ -10126,15 +10094,7 @@ Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as man
 
 ### Problem 773 (Medium)
 
-This problem was asked by Google.
-
-We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements `A[i]` and `A[j]` form an inversion if `A[i] > A[j]` but `i < j`. That is, a smaller element appears after a larger element.
-
-Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
-
-You may assume each element in the array is distinct.
-
-For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+Same as [problem 44](#problem-44-medium).
 
 ### Problem 774 (Easy)
 
@@ -10641,11 +10601,7 @@ Bonus: Create a generator that produces primes indefinitely (that is, without ta
 
 ### Problem 819 (Easy)
 
-This problem was asked by Facebook.
-
-Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
-
-For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+Same as [problem 47](#problem-47-easy).
 
 ### Problem 820 (Hard)
 
@@ -10653,11 +10609,7 @@ Same as [4](#problem-4-hard).
 
 ### Problem 821 (Easy)
 
-This problem was asked by Apple.
-
-A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return `False`.
-
-For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
+Same as [problem 273](#problem-273-easy).
 
 ### Problem 822 (Easy)
 
@@ -11244,11 +11196,7 @@ You can assume the given expression is always valid.
 
 ### Problem 874 (Hard)
 
-This problem was asked by Amazon.
-
-Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
-
-For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+Same as [problem 46](#problem-46-hard).
 
 ### Problem 875 (Hard)
 
@@ -14140,27 +14088,7 @@ For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[
 
 ### Problem 1129 (Medium)
 
-This problem was asked by Google.
-
-Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
-
-For example, given the following preorder traversal:
-
-[a, b, d, e, c, f, g]
-
-And the following inorder traversal:
-
-[d, b, e, a, f, c, g]
-
-You should return the following tree:
-
-```
-    a
-   / \
-  b   c
- / \ / \
-d  e f  g
-```
+Same as [problem 48](#problem-48-medium).
 
 ### Problem 1130 (Hard)
 
@@ -14624,27 +14552,7 @@ Write a program to determine whether a given matrix qualifies as a crossword gri
 
 ### Problem 1172 (Medium)
 
-This problem was asked by Google.
-
-Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
-
-For example, given the following preorder traversal:
-
-[a, b, d, e, c, f, g]
-
-And the following inorder traversal:
-
-[d, b, e, a, f, c, g]
-
-You should return the following tree:
-
-```
-    a
-   / \
-  b   c
- / \ / \
-d  e f  g
-```
+Same as [problem 48](#problem-48-medium).
 
 ### Problem 1173 (Hard)
 
@@ -14819,15 +14727,7 @@ One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656,
 
 ### Problem 1188 (Medium)
 
-This problem was asked by Google.
-
-We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements `A[i]` and `A[j]` form an inversion if `A[i] > A[j]` but `i < j`. That is, a smaller element appears after a larger element.
-
-Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
-
-You may assume each element in the array is distinct.
-
-For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+Same as [problem 44](#problem-44-medium).
 
 ### Problem 1189 (Easy)
 
@@ -15828,11 +15728,7 @@ We do not remove the tree at the root or its left child because it still has a `
 
 ### Problem 1275 (Hard)
 
-This problem was asked by Amazon.
-
-Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
-
-For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+Same as [problem 46](#problem-46-hard).
 
 ### Problem 1276 (Medium)
 
@@ -17903,11 +17799,7 @@ should become:
 
 ### Problem 1460 (Easy)
 
-This problem was asked by Apple.
-
-A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return `False`.
-
-For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
+Same as [problem 273](#problem-273-easy).
 
 ### Problem 1461 (Medium)
 
@@ -18075,11 +17967,7 @@ Same as [problem 11](#problem-11-medium).
 
 ### Problem 1476 (Easy)
 
-This problem was asked by Facebook.
-
-Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
-
-For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+Same as [problem 47](#problem-47-easy).
 
 ### Problem 1477 (Easy)
 
@@ -18919,11 +18807,7 @@ We can consider a sentence valid if it conforms to the following rules:
 
 ### Problem 1552 (Easy)
 
-This problem was asked by Facebook.
-
-Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
-
-For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+Same as [problem 47](#problem-47-easy).
 
 ### Problem 1553 (Hard)
 
@@ -19086,11 +18970,7 @@ Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't 
 
 ### Problem 1566 (Hard)
 
-This problem was asked by Amazon.
-
-Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
-
-For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+Same as [problem 46](#problem-46-hard).
 
 ### Problem 1567 (Easy)
 
@@ -19484,27 +19364,7 @@ Given a `k`-ary tree, determine whether it is symmetric.
 
 ### Problem 1597 (Medium)
 
-This problem was asked by Google.
-
-Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
-
-For example, given the following preorder traversal:
-
-[a, b, d, e, c, f, g]
-
-And the following inorder traversal:
-
-[d, b, e, a, f, c, g]
-
-You should return the following tree:
-
-```
-    a
-   / \
-  b   c
- / \ / \
-d  e f  g
-```
+Same as [problem 48](#problem-48-medium).
 
 ### Problem 1598 (Hard)
 
@@ -19978,15 +19838,7 @@ For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
 
 ### Problem 1639 (Medium)
 
-This problem was asked by Google.
-
-We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements `A[i]` and `A[j]` form an inversion if `A[i] > A[j]` but `i < j`. That is, a smaller element appears after a larger element.
-
-Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
-
-You may assume each element in the array is distinct.
-
-For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+Same as [problem 44](#problem-44-medium).
 
 ### Problem 1640 (Hard)
 
@@ -20915,3 +20767,11 @@ Same as [problem 295](#problem-295-medium).
 ### Problem 1732 (Medium)
 
 Same as [problem 691](#problem-691-medium).
+
+### Problem 1733 (Hard)
+
+Same as [problem 52](#problem-52-hard).
+
+### Problem 1734 (Easy)
+
+Same as [problem 273](#problem-273-easy).
