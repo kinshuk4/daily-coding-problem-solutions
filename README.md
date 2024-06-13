@@ -737,6 +737,8 @@ Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not
 
 Do this in O(N) time.
 
+[Solution](https://k5kc.com/cs/algorithms/maximum-subarray-sum/)
+
 ### Problem 50
 
 > This problem was asked by Microsoft.
@@ -757,9 +759,11 @@ For example, given the following tree:
 
 You should return 45, as it is (3 + 2) * (4 + 5).
 
+[Solution](https://k5kc.com/cs/algorithms/evaluation-of-arithmetic-expression-tree/)
+
 ---
 
-### Problem 51
+### Problem 51 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -767,7 +771,9 @@ Given a function that generates perfectly random numbers between 1 and k (inclus
 
 It should run in O(N) time.
 
-Hint: Make sure each one of the 52! permutations of the deck is equally likely
+Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+
+[Solution](https://k5kc.com/cs/algorithms/fisher-yates-shuffle/)
 
 ---
 
@@ -786,15 +792,17 @@ Each operation should run in O(1) time.
 
 ---
 
-### Problem 53
+### Problem 53 (Medium)
 
 > This problem was asked by Apple.
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it
 
+[Solution](https://k5kc.com/cs/algorithms/implement-queue-using-stacks/)
+
 ---
 
-### Problem 54
+### Problem 54 (Hard)
 
 > This problem was asked by Dropbox.
 
@@ -802,9 +810,11 @@ Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits
 
 Implement an efficient sudoku solver
 
+[Solution](https://k5kc.com/cs/algorithms/sudoku-solver-problem/)
+
 ---
 
-### Problem 55
+### Problem 55 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -814,6 +824,8 @@ Implement a URL shortener with the following methods:
 - `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
 
 Hint: What if we enter the same URL twice?
+
+[Solution](https://k5kc.com/cs/algorithms/encode-and-decode-tinyurl-problem/)
 
 ---
 
@@ -899,6 +911,7 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 - Down, then right
 
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right
+
 ---
 
 ### Problem 63
@@ -917,6 +930,7 @@ For example, given the following matrix:
 ```
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row
+
 ---
 
 ### Problem 64
@@ -926,6 +940,7 @@ and the target word 'FOAM', you should return true, since it's the leftmost colu
 A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
 
 Given N, write a function to return the number of knight's tours on an N by N chessboard
+
 ---
 
 ### Problem 65
@@ -990,6 +1005,7 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 - `get(key)`: gets the value at `key`. If no such key exists, return null.
 
 Each operation should run in O(1) time
+
 ---
 
 ### Problem 68
@@ -1018,6 +1034,7 @@ The board would look like this:
 ```
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4
+
 ---
 
 ### Problem 69
@@ -6433,9 +6450,7 @@ Given a sequence `S`, construct the corresponding Cartesian tree.
 
 ### Problem 443 (Medium)
 
-This problem was asked by Apple.
-
-Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it.
+Same as [problem 53](#problem-53-medium).
 
 ### Problem 444 (Hard)
 
@@ -7081,13 +7096,7 @@ Same as [problem 23](#problem-23-easy).
 
 ### Problem 501 (Medium)
 
-This problem was asked by Facebook.
-
-Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
-
-It should run in O(N) time.
-
-Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+Same as [problem 51](#problem-51-medium).
 
 ### Problem 502 (Medium)
 
@@ -8918,14 +8927,7 @@ Given a binary tree of integers, find the maximum path sum between two nodes. Th
 
 ### Problem 665 (Easy)
 
-This problem was asked by Microsoft.
-
-Implement a URL shortener with the following methods:
-
-- `shorten(url)`, which shortens the url into a six-character alphanumeric string, such as `zLg6wl`.
-- `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
-
-Hint: What if we enter the same URL twice?
+Same as [problem 55](#problem-55-easy).
 
 ### Problem 666 (Hard)
 
@@ -9505,11 +9507,7 @@ Given a column number, return its alphabetical column id. For example, given `1`
 
 ### Problem 720 (Hard)
 
-This problem was asked by Dropbox.
-
-Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
-
-Implement an efficient sudoku solver.
+Same as [problem 54](#problem-54-hard).
 
 ### Problem 721 (Hard)
 
@@ -10744,13 +10742,7 @@ If there is no substring containing all the characters in the set, return null.
 
 ### Problem 836 (Medium)
 
-This problem was asked by Facebook.
-
-Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
-
-It should run in O(N) time.
-
-Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+Same as [problem 51](#problem-51-medium).
 
 ### Problem 837 (Medium)
 
@@ -11371,9 +11363,7 @@ Implement division of two positive integers without using the division, multipli
 
 ### Problem 897 (Medium)
 
-This problem was asked by Apple.
-
-Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it.
+Same as [problem 53](#problem-53-medium).
 
 ### Problem 898 (Easy)
 
@@ -12295,14 +12285,7 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 ### Problem 977 (Easy)
 
-This problem was asked by Microsoft.
-
-Implement a URL shortener with the following methods:
-
-- `shorten(url)`, which shortens the url into a six-character alphanumeric string, such as `zLg6wl`.
-- `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
-
-Hint: What if we enter the same URL twice?
+Same as [problem 55](#problem-55-easy).
 
 ### Problem 978 (Hard)
 
@@ -13601,11 +13584,7 @@ For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.
 
 ### Problem 1086 (Hard)
 
-This problem was asked by Dropbox.
-
-Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
-
-Implement an efficient sudoku solver.
+Same as [problem 54](#problem-54-hard).
 
 ### Problem 1087 (Easy)
 
@@ -15756,11 +15735,7 @@ add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 
 ### Problem 1278 (Hard)
 
-This problem was asked by Dropbox.
-
-Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
-
-Implement an efficient sudoku solver.
+Same as [problem 54](#problem-54-hard).
 
 ### Problem 1279 (Medium)
 
@@ -16036,13 +16011,7 @@ Same as [problem 17](#problem-17-hard).
 
 ### Problem 1307 (Medium)
 
-This problem was asked by Facebook.
-
-Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
-
-It should run in O(N) time.
-
-Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+Same as [problem 51](#problem-51-medium).
 
 ### Problem 1308 (Medium)
 
@@ -16966,9 +16935,7 @@ Return the nodes `5` and `15`.
 
 ### Problem 1388 (Medium)
 
-This problem was asked by Apple.
-
-Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it.
+Same as [problem 53](#problem-53-medium).
 
 ### Problem 1389 (Medium)
 
@@ -17335,14 +17302,7 @@ Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
 
 ### Problem 1424 (Easy)
 
-This problem was asked by Microsoft.
-
-Implement a URL shortener with the following methods:
-
-- `shorten(url)`, which shortens the url into a six-character alphanumeric string, such as `zLg6wl`.
-- `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
-
-Hint: What if we enter the same URL twice?
+Same as [problem 55](#problem-55-easy).
 
 ### Problem 1425 (Easy)
 
@@ -18708,13 +18668,7 @@ You can assume the list has at least three integers.
 
 ### Problem 1541 (Medium)
 
-This problem was asked by Facebook.
-
-Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
-
-It should run in O(N) time.
-
-Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+Same as [problem 51](#problem-51-medium).
 
 ### Problem 1542 (Easy)
 
@@ -19002,14 +18956,7 @@ For example, given `156`, you should return `3`.
 
 ### Problem 1569 (Easy)
 
-This problem was asked by Microsoft.
-
-Implement a URL shortener with the following methods:
-
-- `shorten(url)`, which shortens the url into a six-character alphanumeric string, such as `zLg6wl`.
-- `restore(short)`, which expands the shortened string into the original url. If no such shortened string exists, return null.
-
-Hint: What if we enter the same URL twice?
+Same as [problem 55](#problem-55-easy).
 
 ### Problem 1570 (Medium)
 
@@ -19609,11 +19556,7 @@ Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly
 
 ### Problem 1620 (Hard)
 
-This problem was asked by Dropbox.
-
-Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
-
-Implement an efficient sudoku solver.
+Same as [problem 54](#problem-54-hard).
 
 ### Problem 1621 (Easy)
 
