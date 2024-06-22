@@ -829,19 +829,19 @@ Hint: What if we enter the same URL twice?
 
 ---
 
-### Problem 56
->
+### Problem 56 (Medium)
+
 > This problem was asked by Google.
 
 Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
 
 ---
 
-### Problem 57
+### Problem 57 (Medium)
 
 > This problem was asked by Amazon.
 
-Given a string s and an integer k, break up the string into multiple texts such that each text has a length of k or less. You must break it up so that words don't break across lines. If there's no way to break the text up, then return null.
+Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
 
 You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
 
@@ -865,7 +865,7 @@ You can assume all the integers in the array are unique.
 
 ---
 
-### Problem 59
+### Problem 59 (Hard)
 
 > This problem was asked by Google.
 
@@ -873,7 +873,7 @@ Implement a file syncing algorithm for two computers over a low-bandwidth networ
 
 ---
 
-### Problem 60
+### Problem 60 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -882,6 +882,8 @@ Given a multiset of integers, return whether it can be partitioned into two subs
 For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return true, since we can split it up into `{15, 5, 10, 15, 10}` and `{20, 35},` which both add up to `55`.
 
 Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
+
+[Solution](https://k5kc.com/cs/algorithms/partition-equal-subset-sum-problem/)
 
 ---
 
@@ -899,7 +901,7 @@ For example, `pow(2, 10)` should return 1024.
 
 ---
 
-### Problem 62
+### Problem 62 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -910,11 +912,13 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 - Right, then down
 - Down, then right
 
-Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right
+Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+
+[Solution](https://k5kc.com/cs/algorithms/unique-paths-in-grid-1-count-all-paths-moving-right-or-down/)
 
 ---
 
-### Problem 63
+### Problem 63 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -929,11 +933,13 @@ For example, given the following matrix:
  ['M', 'A', 'S', 'S']]
 ```
 
-and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row
+and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+
+[Solution](https://k5kc.com/cs/algorithms/word-search-1-find-if-word-exists/)
 
 ---
 
-### Problem 64
+### Problem 64 (Hard)
 
 > This problem was asked by Google.
 
@@ -943,7 +949,7 @@ Given N, write a function to return the number of knight's tours on an N by N ch
 
 ---
 
-### Problem 65
+### Problem 65 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -983,6 +989,8 @@ You should print out the following:
 12
 ```
 
+[Solution](https://k5kc.com/cs/algorithms/spiral-matrix-1-return/)
+
 ---
 
 ### Problem 66 (Medium)
@@ -995,7 +1003,7 @@ Write a function to simulate an unbiased coin toss.
 
 ---
 
-### Problem 67
+### Problem 67 (Hard)
 
 > This problem was asked by Google.
 
@@ -1004,11 +1012,11 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 - `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
 - `get(key)`: gets the value at `key`. If no such key exists, return null.
 
-Each operation should run in O(1) time
+Each operation should run in O(1) time.
 
 ---
 
-### Problem 68
+### Problem 68 (Medium)
 
 > This problem was asked by Google.
 
@@ -1033,7 +1041,7 @@ The board would look like this:
 [b 0 0 0 0]
 ```
 
-You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4
+You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
 ---
 
@@ -1046,9 +1054,10 @@ Given a list of integers, return the largest product that can be made by multipl
 For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
 
 You can assume the list has at least three integers
+
 ---
 
-### Problem 70
+### Problem 70 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -1068,7 +1077,7 @@ Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with 
 
 ---
 
-### Problem 72
+### Problem 72 (Hard)
 
 > This problem was asked by Google.
 
@@ -1080,7 +1089,7 @@ The graph is represented with a string and an edge list. The `i`-th character re
 
 For example, the following input graph:
 
-```
+```d
 ABACA
 [(0, 1),
  (0, 2),
@@ -1092,23 +1101,25 @@ Would have maximum value 3 using the path of vertices `[0, 2, 3, 4]`, `(A, A, C,
 
 The following input graph:
 
-```
-A
+```d
 [(0, 0)]
 ```
 
-Should return null, since we have an infinite loop
+Should return null, since we have an infinite loop.
+
 ---
 
-### Problem 73
+### Problem 73 (Easy)
 
 > This problem was asked by Google.
 
 Given the head of a singly linked list, reverse it in-place.
 
+[Solution](https://k5kc.com/cs/algorithms/reverse-linked-list-problem/)
+
 ---
 
-### Problem 74
+### Problem 74 (Medium)
 
 > This problem was asked by Apple.
 
@@ -1130,19 +1141,25 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 
 | 6 | 12 | 18 | 24 | 30 | 36 |
 
-And there are 4 12's in the table
+And there are 4 12's in the table.
+
+[Solution](https://k5kc.com/cs/algorithms/number-of-cells-in-multiplication-table-containing-x/)
+
 ---
 
-### Problem 75
+### Problem 75 (Hard)
 
 > This problem was asked by Microsoft.
 
 Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
 
-For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15
+For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
+
+[Solution](https://k5kc.com/cs/algorithms/longest-increasing-subsequence-lis-problem/)
+
 ---
 
-### Problem 76
+### Problem 76 (Medium)
 
 > This problem was asked by Google.
 
@@ -1150,7 +1167,7 @@ You are given an N by M 2D matrix of lowercase letters. Determine the minimum nu
 
 For example, given the following table:
 
-```
+```d
 cba
 daf
 ghi
@@ -1158,7 +1175,7 @@ ghi
 
 This is not ordered because of the a in the center. We can remove the second column to make it ordered:
 
-```
+```d
 ca
 df
 gi
@@ -1168,7 +1185,7 @@ So your function should return 1, since we only needed to remove 1 column.
 
 As another example, given the following table:
 
-```
+```d
 abcdef
 ```
 
@@ -1176,16 +1193,17 @@ Your function should return 0, since the rows are already ordered (there's only 
 
 As another example, given the following table:
 
-```
+```d
 zyx
 wvu
 tsr
 ```
 
-Your function should return 3, since we would need to remove all the columns to order it
+Your function should return 3, since we would need to remove all the columns to order it.
+
 ---
 
-### Problem 77
+### Problem 77 (Easy)
 
 > This problem was asked by Snapchat.
 
@@ -1193,18 +1211,23 @@ Given a list of possibly overlapping intervals, return a new list of intervals w
 
 The input list is not necessarily ordered in any way.
 
-For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)]
+For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
+
+[Solution](https://k5kc.com/cs/algorithms/merge-overlapping-intervals/)
+
 ---
 
-### Problem 78
+### Problem 78 (Medium)
 
 > This problem was asked recently by Google.
 
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
+[Solution](https://k5kc.com/cs/algorithms/merge-k-sorted-lists/)
+
 ---
 
-### Problem 79
+### Problem 79 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -1214,9 +1237,11 @@ For example, given the array [10, 5, 7], you should return true, since we can mo
 
 Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
 
+[Solution](https://k5kc.com/cs/algorithms/non-decreasing-array-problem/)
+
 ---
 
-### Problem 80
+### Problem 80 (Easy)
 
 > This problem was asked by Google.
 
@@ -1230,9 +1255,11 @@ Given the root of a binary tree, return a deepest node. For example, in the foll
 d
 ```
 
+[Solution](https://k5kc.com/cs/algorithms/find-deepest-node-in-a-binary-tree/)
+
 ---
 
-### Problem 81
+### Problem 81 (Easy)
 
 > This problem was asked by Yelp.
 
@@ -1242,16 +1269,17 @@ For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f
 
 ---
 
-### Problem 82
+### Problem 82 (Easy)
 
 > This problem was asked Microsoft.
 
 Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
 
-For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”
+For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+
 ---
 
-### Problem 83
+### Problem 83 (Medium)
 
 > This problem was asked by Google.
 
@@ -1277,17 +1305,19 @@ should become:
   f e  d
 ```
 
+[Solution](https://k5kc.com/cs/algorithms/invert-binary-tree-problem/)
+
 ---
 
-### Problem 84
+### Problem 84 (Medium)
 
 > This problem was asked by Amazon.
 
-Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring and their perimiter is surrounded by water.
+Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
 
 For example, this matrix has 4 islands.
 
-```
+```d
 1 0 0 0 0
 0 0 1 1 0
 0 1 1 0 0
@@ -1295,6 +1325,8 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 1 1 0 0 1
 ```
+
+[Solution](https://k5kc.com/cs/algorithms/number-of-islands/)
 
 ---
 
@@ -1339,6 +1371,7 @@ A binary search tree is a tree with two children, `left` and `right`, and satisf
 This question was asked by Google.
 
 Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform)
+
 ---
 
 ### Problem 91
@@ -6176,13 +6209,7 @@ For example, given `100`, you can reach `1` in five steps with the following rou
 
 ### Problem 420 (Easy)
 
-This problem was asked by Microsoft.
-
-A number is considered perfect if its digits sum up to exactly 10.
-
-Given a positive integer `n`, return the `n`-th perfect number.
-
-For example, given 1, you should return 19. Given 2, you should return 28.
+Same as [problem 70](#problem-70-easy).
 
 ### Problem 421 (Medium)
 
@@ -6679,16 +6706,7 @@ Determine how many times you would need to apply this operation to ensure that a
 
 ### Problem 461 (Medium)
 
-This problem was asked by Facebook.
-
-There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
-
-For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
-
-- Right, then down
-- Down, then right
-
-Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+Same as [problem 62](#problem-62-medium).
 
 ### Problem 462 (Hard)
 
@@ -6728,9 +6746,7 @@ For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Gi
 
 ### Problem 465 (Easy)
 
-This problem was asked by Google.
-
-Given the head of a singly linked list, reverse it in-place.
+Same as [problem 73](#problem-73-easy).
 
 ### Problem 466 (Easy)
 
@@ -6863,9 +6879,7 @@ for f in functions:
 
 ### Problem 478 (Hard)
 
-This problem was asked by Google.
-
-Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+Same as [problem 59](#problem-59-hard).
 
 ### Problem 479 (Easy)
 
@@ -7007,9 +7021,7 @@ Write a program that checks whether an integer is a palindrome. For example, `12
 
 ### Problem 492 (Medium)
 
-This problem was asked by Google.
-
-Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+Same as [problem 56](#problem-56-medium).
 
 ### Problem 493 (Medium)
 
@@ -7276,43 +7288,7 @@ Do this in O(N) time.
 
 ### Problem 525 (Easy)
 
-This problem was asked by Amazon.
-
-Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
-
-For example, given the following matrix:
-
-```
-[[1,  2,  3,  4,  5],
- [6,  7,  8,  9,  10],
- [11, 12, 13, 14, 15],
- [16, 17, 18, 19, 20]]
-```
-
-You should print out the following:
-
-```
-1
-2
-3
-4
-5
-10
-15
-20
-19
-18
-17
-16
-11
-6
-7
-8
-9
-14
-13
-12
-```
+Same as [problem 65](#problem-65-easy).
 
 ### Problem 526 (Easy)
 
@@ -7376,38 +7352,11 @@ Same as [problem 31](#problem-31-easy).
 
 ### Problem 531 (Easy)
 
-This problem was asked Microsoft.
-
-Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
-
-For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+Same as [problem 82](#problem-82-easy).
 
 ### Problem 532 (Medium)
 
-This problem was asked by Google.
-
-On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
-
-You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
-
-For example, given M = 5 and the list of bishops:
-
-- (0, 0)
-- (1, 2)
-- (2, 2)
-- (4, 0)
-
-The board would look like this:
-
-```
-[b 0 0 0 0]
-[0 0 b 0 0]
-[0 0 b 0 0]
-[0 0 0 0 0]
-[b 0 0 0 0]
-```
-
-You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
+Same as [problem 68](#problem-68-medium).
 
 ### Problem 533 (Easy)
 
@@ -7584,45 +7533,7 @@ Given an integer `N`, determine in how many ways this task is possible.
 
 ### Problem 553 (Medium)
 
-This problem was asked by Google.
-
-You are given an N by M 2D matrix of lowercase letters. Determine the minimum number of columns that can be removed to ensure that each row is ordered from top to bottom lexicographically. That is, the letter at each column is lexicographically later as you go down each row. It does not matter whether each row itself is ordered lexicographically.
-
-For example, given the following table:
-
-```
-cba
-daf
-ghi
-```
-
-This is not ordered because of the a in the center. We can remove the second column to make it ordered:
-
-```
-ca
-df
-gi
-```
-
-So your function should return 1, since we only needed to remove 1 column.
-
-As another example, given the following table:
-
-```
-abcdef
-```
-
-Your function should return 0, since the rows are already ordered (there's only one row).
-
-As another example, given the following table:
-
-```
-zyx
-wvu
-tsr
-```
-
-Your function should return 3, since we would need to remove all the columns to order it.
+Same as [problem 76](#problem-76-medium).
 
 ### Problem 554 (Easy)
 
@@ -7638,37 +7549,11 @@ Same as [problem 58](#problem-58-medium).
 
 ### Problem 556 (Medium)
 
-This problem was asked by Facebook.
-
-Given an array of integers, write a function to determine whether the array could become non-decreasing by modifying at most 1 element.
-
-For example, given the array [10, 5, 7], you should return true, since we can modify the 10 into a 1 to make the array non-decreasing.
-
-Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
+Same as [problem 79](#problem-79-medium).
 
 ### Problem 557 (Medium)
 
-This problem was asked by Apple.
-
-Suppose you have a multiplication table that is N by N. That is, a 2D array where the value at the `i`-th row and `j`-th column is `(i + 1) * (j + 1)` (if 0-indexed) or `i * j` (if 1-indexed).
-
-Given integers N and X, write a function that returns the number of times X appears as a value in an N by N multiplication table.
-
-For example, given N = 6 and X = 12, you should return 4, since the multiplication table looks like this:
-
-| 1 | 2 | 3 | 4 | 5 | 6 |
-
-| 2 | 4 | 6 | 8 | 10 | 12 |
-
-| 3 | 6 | 9 | 12 | 15 | 18 |
-
-| 4 | 8 | 12 | 16 | 20 | 24 |
-
-| 5 | 10 | 15 | 20 | 25 | 30 |
-
-| 6 | 12 | 18 | 24 | 30 | 36 |
-
-And there are 4 12's in the table.
+Same as [problem 74](#problem-74-medium).
 
 ### Problem 558 (Medium)
 
@@ -7676,9 +7561,7 @@ Same as [problem 14](#problem-14-medium).
 
 ### Problem 559 (Medium)
 
-This problem was asked by Google.
-
-Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+Same as [problem 78](#problem-78-medium).
 
 ### Problem 560 (Easy)
 
@@ -8042,20 +7925,7 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 
 ### Problem 592 (Medium)
 
-This problem was asked by Amazon.
-
-Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
-
-For example, this matrix has 4 islands.
-
-```
-1 0 0 0 0
-0 0 1 1 0
-0 1 1 0 0
-0 0 0 0 0
-1 1 0 0 1
-1 1 0 0 1
-```
+Same as [problem 84](#problem-84-medium).
 
 ### Problem 593 (Medium)
 
@@ -8110,29 +7980,7 @@ Write a function that returns how many steps this will take for a given input `N
 
 ### Problem 596 (Medium)
 
-This problem was asked by Google.
-
-Invert a binary tree.
-
-For example, given the following tree:
-
-```
-    a
-   / \
-  b   c
- / \  /
-d   e f
-```
-
-should become:
-
-```
-  a
- / \
- c  b
- \  / \
-  f e  d
-```
+Same as [problem 83](#problem-83-medium).
 
 ### Problem 597 (Easy)
 
@@ -8228,11 +8076,7 @@ Same as [241](#problem-241-easy).
 
 ### Problem 606 (Hard)
 
-This problem was asked by Google.
-
-A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
-
-Given N, write a function to return the number of knight's tours on an N by N chessboard.
+Same as [problem 64](#problem-64-hard).
 
 ### Problem 607 (Medium)
 
@@ -8480,17 +8324,7 @@ The path does not have to pass through the root, and each node can have any amou
 
 ### Problem 622 (Easy)
 
-This problem was asked by Google.
-
-Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
-
-```
-    a
-   / \
-  b   c
- /
-d
-```
+Same as [problem 80](#problem-80-easy).
 
 ### Problem 623 (Medium)
 
@@ -8633,13 +8467,7 @@ For example, given [5, 7, 10, 3, 4], return 3.
 
 ## ### Problem 637 (Easy)
 
-This problem was asked by Snapchat.
-
-Given a list of possibly overlapping intervals, return a new list of intervals where all overlapping intervals have been merged.
-
-The input list is not necessarily ordered in any way.
-
-For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
+Same as [problem 77](#problem-77-easy).
 
 ## ### Problem 638 (Medium)
 
@@ -8651,11 +8479,7 @@ Follow-up: given a mutable string representation, can you perform this operation
 
 ## ### Problem 639 (Easy)
 
-This problem was asked by Yelp.
-
-Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
-
-For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
+Same as [problem 81](#problem-81-easy).
 
 ## ### Problem 640 (Easy)
 
@@ -8711,20 +8535,7 @@ Same as [problem 8](#problem-8-easy).
 
 ## ### Problem 645 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
-
-For example, given the following matrix:
-
-```
-[['F', 'A', 'C', 'I'],
- ['O', 'B', 'Q', 'P'],
- ['A', 'N', 'O', 'B'],
- ['M', 'A', 'S', 'S']]
-```
-
-and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+Same as [problem 63](#problem-63-easy).
 
 ## ### Problem 646 (Easy)
 
@@ -8748,13 +8559,7 @@ Given a friendship list such as the one above, determine the number of friend gr
 
 ## ### Problem 647 (Medium)
 
-This problem was asked by Facebook.
-
-Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
-
-For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return true, since we can split it up into `{15, 5, 10, 15, 10}` and `{20, 35},` which both add up to `55`.
-
-Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
+Same as [problem 60](#problem-60-medium).
 
 ## ### Problem 648 (Medium)
 
@@ -9232,11 +9037,7 @@ Create a data structure that can efficiently convert a certain quantity of one u
 
 ### Problem 690 (Hard)
 
-This problem was asked by Microsoft.
-
-Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
-
-For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
+Same as [problem 75](#problem-75-hard).
 
 ### Problem 691 (Medium)
 
@@ -9713,13 +9514,7 @@ For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC10
 
 ### Problem 738 (Medium)
 
-This problem was asked by Amazon.
-
-Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
-
-You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
-
-For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+Same as [problem 57](#problem-57-medium).
 
 ### Problem 739 (Hard)
 
@@ -9793,14 +9588,7 @@ A bridge in a connected (undirected) graph is an edge that, if removed, causes t
 
 ### Problem 744 (Hard)
 
-This problem was asked by Google.
-
-Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
-
-- `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
-- `get(key)`: gets the value at `key`. If no such key exists, return null.
-
-Each operation should run in O(1) time.
+Same as [problem 67](#problem-67-hard).
 
 ### Problem 745 (Medium)
 
@@ -9919,34 +9707,7 @@ Write a program that returns the maximum amount of money you can win with certai
 
 ### Problem 755 (Hard)
 
-This problem was asked by Google.
-
-In a directed graph, each node is assigned an uppercase letter. We define a path's value as the number of most frequently-occurring letter along that path. For example, if a path in the graph goes through "ABACA", the value of the path is 3, since there are 3 occurrences of 'A' on the path.
-
-Given a graph with `n` nodes and `m` directed edges, return the largest value path of the graph. If the largest value is infinite, then return null.
-
-The graph is represented with a string and an edge list. The `i`-th character represents the uppercase letter of the `i`-th node. Each tuple in the edge list `(i, j)` means there is a directed edge from the `i`-th node to the `j`-th node. Self-edges are possible, as well as multi-edges.
-
-For example, the following input graph:
-
-```
-ABACA
-[(0, 1),
- (0, 2),
- (2, 3),
- (3, 4)]
-```
-
-Would have maximum value 3 using the path of vertices `[0, 2, 3, 4]`, `(A, A, C, A)`.
-
-The following input graph:
-
-```
-A
-[(0, 0)]
-```
-
-Should return null, since we have an infinite loop.
+Same as [problem 72](#problem-72-hard).
 
 ### Problem 756 (Easy)
 
@@ -10096,11 +9857,7 @@ Same as [problem 44](#problem-44-medium).
 
 ### Problem 774 (Easy)
 
-This problem was asked Microsoft.
-
-Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
-
-For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+Same as [problem 82](#problem-82-easy).
 
 ### Problem 775 (Easy)
 
@@ -10196,28 +9953,11 @@ Same as [241](#problem-241-easy).
 
 ### Problem 783 (Hard)
 
-This problem was asked by Microsoft.
-
-Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
-
-For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
+Same as [problem 75](#problem-75-hard).
 
 ### Problem 784 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
-
-For example, given the following matrix:
-
-```
-[['F', 'A', 'C', 'I'],
- ['O', 'B', 'Q', 'P'],
- ['A', 'N', 'O', 'B'],
- ['M', 'A', 'S', 'S']]
-```
-
-and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+Same as [problem 63](#problem-63-easy).
 
 ### Problem 785 (Easy)
 
@@ -10534,13 +10274,7 @@ Implement this system.
 
 ### Problem 813 (Medium)
 
-This problem was asked by Facebook.
-
-Given an array of integers, write a function to determine whether the array could become non-decreasing by modifying at most 1 element.
-
-For example, given the array [10, 5, 7], you should return true, since we can modify the 10 into a 1 to make the array non-decreasing.
-
-Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
+Same as [problem 79](#problem-79-medium).
 
 ### Problem 814 (Easy)
 
@@ -10611,13 +10345,7 @@ Same as [problem 273](#problem-273-easy).
 
 ### Problem 822 (Easy)
 
-This problem was asked by Snapchat.
-
-Given a list of possibly overlapping intervals, return a new list of intervals where all overlapping intervals have been merged.
-
-The input list is not necessarily ordered in any way.
-
-For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
+Same as [problem 77](#problem-77-easy).
 
 ### Problem 823 (Medium)
 
@@ -10649,9 +10377,7 @@ For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 
 ### Problem 826 (Hard)
 
-This problem was asked by Google.
-
-Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+Same as [problem 59](#problem-59-hard).
 
 ### Problem 827 (Medium)
 
@@ -10829,29 +10555,7 @@ Given integers `M` and `N`, write a program that counts how many positive intege
 
 ### Problem 842 (Medium)
 
-This problem was asked by Google.
-
-Invert a binary tree.
-
-For example, given the following tree:
-
-```
-    a
-   / \
-  b   c
- / \  /
-d   e f
-```
-
-should become:
-
-```
-  a
- / \
- c  b
- \  / \
-  f e  d
-```
+Same as [problem 83](#problem-83-medium).
 
 ### Problem 843 (Medium)
 
@@ -10948,13 +10652,7 @@ For example, given words "hello", and "world" and a text content of "dog cat hel
 
 ### Problem 854 (Medium)
 
-This problem was asked by Amazon.
-
-Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
-
-You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
-
-For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+Same as [problem 57](#problem-57-medium).
 
 ### Problem 855 (Hard)
 
@@ -11300,16 +10998,7 @@ Same as [problem 29](#problem-29-easy).
 
 ### Problem 890 (Medium)
 
-This problem was asked by Facebook.
-
-There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
-
-For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
-
-- Right, then down
-- Down, then right
-
-Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+Same as [problem 62](#problem-62-medium).
 
 ### Problem 891 (Medium)
 
@@ -11428,17 +11117,7 @@ Given an array of numbers and a number `k`, determine if there are three entries
 
 ### Problem 904 (Easy)
 
-This problem was asked by Google.
-
-Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
-
-```
-    a
-   / \
-  b   c
- /
-d
-```
+Same as [problem 80](#problem-80-easy).
 
 ### Problem 905 (Medium)
 
@@ -11466,45 +11145,7 @@ For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
 
 ### Problem 908 (Medium)
 
-This problem was asked by Google.
-
-You are given an N by M 2D matrix of lowercase letters. Determine the minimum number of columns that can be removed to ensure that each row is ordered from top to bottom lexicographically. That is, the letter at each column is lexicographically later as you go down each row. It does not matter whether each row itself is ordered lexicographically.
-
-For example, given the following table:
-
-```
-cba
-daf
-ghi
-```
-
-This is not ordered because of the a in the center. We can remove the second column to make it ordered:
-
-```
-ca
-df
-gi
-```
-
-So your function should return 1, since we only needed to remove 1 column.
-
-As another example, given the following table:
-
-```
-abcdef
-```
-
-Your function should return 0, since the rows are already ordered (there's only one row).
-
-As another example, given the following table:
-
-```
-zyx
-wvu
-tsr
-```
-
-Your function should return 3, since we would need to remove all the columns to order it.
+Same as [problem 76](#problem-76-medium).
 
 ### Problem 909 (Medium)
 
@@ -11571,9 +11212,7 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 
 ### Problem 916 (Easy)
 
-This problem was asked by Google.
-
-Given the head of a singly linked list, reverse it in-place.
+Same as [problem 73](#problem-73-easy).
 
 ### Problem 917 (Medium)
 
@@ -11711,13 +11350,7 @@ Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -
 
 ### Problem 928 (Easy)
 
-This problem was asked by Microsoft.
-
-A number is considered perfect if its digits sum up to exactly 10.
-
-Given a positive integer `n`, return the `n`-th perfect number.
-
-For example, given 1, you should return 19. Given 2, you should return 28.
+Same as [problem 70](#problem-70-easy).
 
 ### Problem 929 (Medium)
 
@@ -11825,43 +11458,7 @@ Let us consider a "move" to be a rotation of a single wheel by one digit, in eit
 
 ### Problem 939 (Easy)
 
-This problem was asked by Amazon.
-
-Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
-
-For example, given the following matrix:
-
-```
-[[1,  2,  3,  4,  5],
- [6,  7,  8,  9,  10],
- [11, 12, 13, 14, 15],
- [16, 17, 18, 19, 20]]
-```
-
-You should print out the following:
-
-```
-1
-2
-3
-4
-5
-10
-15
-20
-19
-18
-17
-16
-11
-6
-7
-8
-9
-14
-13
-12
-```
+Same as [problem 65](#problem-65-easy).
 
 ### Problem 940 (Medium)
 
@@ -12059,9 +11656,7 @@ You should return 45, as it is (3 + 2) * (4 + 5).
 
 ### Problem 956 (Medium)
 
-This problem was asked by Google.
-
-Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+Same as [problem 78](#problem-78-medium).
 
 ### Problem 957 (Hard)
 
@@ -12115,11 +11710,7 @@ For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 
 ### Problem 962 (Hard)
 
-This problem was asked by Google.
-
-A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
-
-Given N, write a function to return the number of knight's tours on an N by N chessboard.
+Same as [problem 64](#problem-64-hard).
 
 ### Problem 963 (Easy)
 
@@ -12179,20 +11770,7 @@ Find a path with the fewest number of jumps required to get from 0 to N.
 
 ### Problem 969 (Medium)
 
-This problem was asked by Amazon.
-
-Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
-
-For example, this matrix has 4 islands.
-
-```
-1 0 0 0 0
-0 0 1 1 0
-0 1 1 0 0
-0 0 0 0 0
-1 1 0 0 1
-1 1 0 0 1
-```
+Same as [problem 84](#problem-84-medium).
 
 ### Problem 970 (Easy)
 
@@ -12312,30 +11890,7 @@ Same as [problem 39](#problem-39-medium).
 
 ### Problem 980 (Medium)
 
-This problem was asked by Google.
-
-On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
-
-You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
-
-For example, given M = 5 and the list of bishops:
-
-- (0, 0)
-- (1, 2)
-- (2, 2)
-- (4, 0)
-
-The board would look like this:
-
-```
-[b 0 0 0 0]
-[0 0 b 0 0]
-[0 0 b 0 0]
-[0 0 0 0 0]
-[b 0 0 0 0]
-```
-
-You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
+Same as [problem 68](#problem-68-medium).
 
 ### Problem 981 (Medium)
 
@@ -12504,33 +12059,11 @@ Same as [3](#problem-3-medium).
 
 ### Problem 998 (Medium)
 
-This problem was asked by Google.
-
-Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+Same as [problem 56](#problem-56-medium).
 
 ### Problem 999 (Medium)
 
-This problem was asked by Apple.
-
-Suppose you have a multiplication table that is N by N. That is, a 2D array where the value at the `i`-th row and `j`-th column is `(i + 1) * (j + 1)` (if 0-indexed) or `i * j` (if 1-indexed).
-
-Given integers N and X, write a function that returns the number of times X appears as a value in an N by N multiplication table.
-
-For example, given N = 6 and X = 12, you should return 4, since the multiplication table looks like this:
-
-| 1 | 2 | 3 | 4 | 5 | 6 |
-
-| 2 | 4 | 6 | 8 | 10 | 12 |
-
-| 3 | 6 | 9 | 12 | 15 | 18 |
-
-| 4 | 8 | 12 | 16 | 20 | 24 |
-
-| 5 | 10 | 15 | 20 | 25 | 30 |
-
-| 6 | 12 | 18 | 24 | 30 | 36 |
-
-And there are 4 12's in the table.
+Same as [problem 74](#problem-74-medium).
 
 ### Problem 1000 (Medium)
 
@@ -12698,34 +12231,7 @@ Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "d
 
 ### Problem 1015 (Hard)
 
-This problem was asked by Google.
-
-In a directed graph, each node is assigned an uppercase letter. We define a path's value as the number of most frequently-occurring letter along that path. For example, if a path in the graph goes through "ABACA", the value of the path is 3, since there are 3 occurrences of 'A' on the path.
-
-Given a graph with `n` nodes and `m` directed edges, return the largest value path of the graph. If the largest value is infinite, then return null.
-
-The graph is represented with a string and an edge list. The `i`-th character represents the uppercase letter of the `i`-th node. Each tuple in the edge list `(i, j)` means there is a directed edge from the `i`-th node to the `j`-th node. Self-edges are possible, as well as multi-edges.
-
-For example, the following input graph:
-
-```
-ABACA
-[(0, 1),
- (0, 2),
- (2, 3),
- (3, 4)]
-```
-
-Would have maximum value 3 using the path of vertices `[0, 2, 3, 4]`, `(A, A, C, A)`.
-
-The following input graph:
-
-```
-A
-[(0, 0)]
-```
-
-Should return null, since we have an infinite loop.
+Same as [problem 72](#problem-72-hard).
 
 ### Problem 1016 (Easy)
 
@@ -13696,14 +13202,7 @@ return `true` as the first and third rectangle overlap each other.
 
 ### Problem 1096 (Hard)
 
-This problem was asked by Google.
-
-Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
-
-- `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
-- `get(key)`: gets the value at `key`. If no such key exists, return null.
-
-Each operation should run in O(1) time.
+Same as [problem 67](#problem-67-hard).
 
 ### Problem 1097 (Easy)
 
@@ -13782,21 +13281,11 @@ The top left corner and bottom right corner will always be `0`.
 
 ### Problem 1104 (Easy)
 
-This problem was asked by Yelp.
-
-Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
-
-For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
+Same as [problem 81](#problem-81-easy).
 
 ### Problem 1105 (Medium)
 
-This problem was asked by Facebook.
-
-Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
-
-For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return true, since we can split it up into `{15, 5, 10, 15, 10}` and `{20, 35},` which both add up to `55`.
-
-Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
+Same as [problem 60](#problem-60-medium).
 
 ### Problem 1106 (Medium)
 
@@ -14100,11 +13589,7 @@ Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5
 
 ### Problem 1133 (Easy)
 
-This problem was asked by Yelp.
-
-Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
-
-For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
+Same as [problem 81](#problem-81-easy).
 
 ### Problem 1134 (Easy)
 
@@ -14188,9 +13673,7 @@ Let's define a "sevenish" number to be one which is either a power of `7`, or th
 
 ### Problem 1143 (Medium)
 
-This problem was asked by Google.
-
-Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+Same as [problem 78](#problem-78-medium).
 
 ### Problem 1144 (Easy)
 
@@ -14244,20 +13727,7 @@ Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -
 
 ### Problem 1149 (Medium)
 
-This problem was asked by Amazon.
-
-Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
-
-For example, this matrix has 4 islands.
-
-```
-1 0 0 0 0
-0 0 1 1 0
-0 1 1 0 0
-0 0 0 0 0
-1 1 0 0 1
-1 1 0 0 1
-```
+Same as [problem 84](#problem-84-medium).
 
 ### Problem 1150 (Hard)
 
@@ -15020,45 +14490,7 @@ For example, given `100`, you can reach `1` in five steps with the following rou
 
 ### Problem 1216 (Medium)
 
-This problem was asked by Google.
-
-You are given an N by M 2D matrix of lowercase letters. Determine the minimum number of columns that can be removed to ensure that each row is ordered from top to bottom lexicographically. That is, the letter at each column is lexicographically later as you go down each row. It does not matter whether each row itself is ordered lexicographically.
-
-For example, given the following table:
-
-```
-cba
-daf
-ghi
-```
-
-This is not ordered because of the a in the center. We can remove the second column to make it ordered:
-
-```
-ca
-df
-gi
-```
-
-So your function should return 1, since we only needed to remove 1 column.
-
-As another example, given the following table:
-
-```
-abcdef
-```
-
-Your function should return 0, since the rows are already ordered (there's only one row).
-
-As another example, given the following table:
-
-```
-zyx
-wvu
-tsr
-```
-
-Your function should return 3, since we would need to remove all the columns to order it.
+Same as [problem 76](#problem-76-medium).
 
 ### Problem 1217 (Easy)
 
@@ -15189,19 +14621,11 @@ Given a binary tree and a particular node, find all cousins of that node.
 
 ### Problem 1227 (Medium)
 
-This problem was asked by Google.
-
-Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+Same as [problem 56](#problem-56-medium).
 
 ### Problem 1228 (Easy)
 
-This problem was asked by Snapchat.
-
-Given a list of possibly overlapping intervals, return a new list of intervals where all overlapping intervals have been merged.
-
-The input list is not necessarily ordered in any way.
-
-For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
+Same as [problem 77](#problem-77-easy).
 
 ### Problem 1229 (Easy)
 
@@ -15711,13 +15135,7 @@ Same as [problem 46](#problem-46-hard).
 
 ### Problem 1276 (Medium)
 
-This problem was asked by Facebook.
-
-Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
-
-For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return true, since we can split it up into `{15, 5, 10, 15, 10}` and `{20, 35},` which both add up to `55`.
-
-Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
+Same as [problem 60](#problem-60-medium).
 
 ### Problem 1277 (Medium)
 
@@ -15795,13 +15213,7 @@ return 6.
 
 ### Problem 1282 (Easy)
 
-This problem was asked by Microsoft.
-
-A number is considered perfect if its digits sum up to exactly 10.
-
-Given a positive integer `n`, return the `n`-th perfect number.
-
-For example, given 1, you should return 19. Given 2, you should return 28.
+Same as [problem 70](#problem-70-easy).
 
 ### Problem 1283 (Medium)
 
@@ -15938,11 +15350,7 @@ Do this in `O(N)` time.
 
 ### Problem 1297 (Easy)
 
-This problem was asked Microsoft.
-
-Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
-
-For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+Same as [problem 82](#problem-82-easy).
 
 ### Problem 1298 (Medium)
 
@@ -16369,43 +15777,11 @@ Your algorithm should run in `O(n)` complexity.
 
 ### Problem 1339 (Medium)
 
-This problem was asked by Google.
-
-On our special chessboard, two bishops attack each other if they share the same diagonal. This includes bishops that have another bishop located between them, i.e. bishops can attack through pieces.
-
-You are given N bishops, represented as (row, column) tuples on a M by M chessboard. Write a function to count the number of pairs of bishops that attack each other. The ordering of the pair doesn't matter: (1, 2) is considered the same as (2, 1).
-
-For example, given M = 5 and the list of bishops:
-
-- (0, 0)
-- (1, 2)
-- (2, 2)
-- (4, 0)
-
-The board would look like this:
-
-```
-[b 0 0 0 0]
-[0 0 b 0 0]
-[0 0 b 0 0]
-[0 0 0 0 0]
-[b 0 0 0 0]
-```
-
-You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
+Same as [problem 68](#problem-68-medium).
 
 ### Problem 1340 (Medium)
 
-This problem was asked by Facebook.
-
-There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
-
-For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
-
-- Right, then down
-- Down, then right
-
-Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+Same as [problem 62](#problem-62-medium).
 
 ### Problem 1341 (Easy)
 
@@ -16678,34 +16054,7 @@ On election day, a voting machine writes data in the form `(voter_id, candidate_
 
 ### Problem 1364 (Hard)
 
-This problem was asked by Google.
-
-In a directed graph, each node is assigned an uppercase letter. We define a path's value as the number of most frequently-occurring letter along that path. For example, if a path in the graph goes through "ABACA", the value of the path is 3, since there are 3 occurrences of 'A' on the path.
-
-Given a graph with `n` nodes and `m` directed edges, return the largest value path of the graph. If the largest value is infinite, then return null.
-
-The graph is represented with a string and an edge list. The `i`-th character represents the uppercase letter of the `i`-th node. Each tuple in the edge list `(i, j)` means there is a directed edge from the `i`-th node to the `j`-th node. Self-edges are possible, as well as multi-edges.
-
-For example, the following input graph:
-
-```
-ABACA
-[(0, 1),
- (0, 2),
- (2, 3),
- (3, 4)]
-```
-
-Would have maximum value 3 using the path of vertices `[0, 2, 3, 4]`, `(A, A, C, A)`.
-
-The following input graph:
-
-```
-A
-[(0, 0)]
-```
-
-Should return null, since we have an infinite loop.
+Same as [problem 72](#problem-72-hard).
 
 ### Problem 1365 (Easy)
 
@@ -16873,43 +16222,7 @@ Follow-up: What if our system has limited memory?
 
 ### Problem 1385 (Easy)
 
-This problem was asked by Amazon.
-
-Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
-
-For example, given the following matrix:
-
-```
-[[1,  2,  3,  4,  5],
- [6,  7,  8,  9,  10],
- [11, 12, 13, 14, 15],
- [16, 17, 18, 19, 20]]
-```
-
-You should print out the following:
-
-```
-1
-2
-3
-4
-5
-10
-15
-20
-19
-18
-17
-16
-11
-6
-7
-8
-9
-14
-13
-12
-```
+Same as [problem 65](#problem-65-easy).
 
 ### Problem 1386 (Medium)
 
@@ -16999,9 +16312,7 @@ Bonus: Find an `O(log N)` solution if `k = 2`.
 
 ### Problem 1394 (Easy)
 
-This problem was asked by Google.
-
-Given the head of a singly linked list, reverse it in-place.
+Same as [problem 73](#problem-73-easy).
 
 ### Problem 1395 (Hard)
 
@@ -17023,13 +16334,7 @@ Same as [problem 20](#problem-20-easy).
 
 ### Problem 1398 (Medium)
 
-This problem was asked by Facebook.
-
-Given an array of integers, write a function to determine whether the array could become non-decreasing by modifying at most 1 element.
-
-For example, given the array [10, 5, 7], you should return true, since we can modify the 10 into a 1 to make the array non-decreasing.
-
-Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
+Same as [problem 79](#problem-79-medium).
 
 ### Problem 1399 (Medium)
 
@@ -17043,9 +16348,9 @@ Given a `32`-bit positive integer `N`, determine whether it is a power of four i
 
 ### Problem 1401 (Hard)
 
-This problem was asked by Google.
+Same as [problem 59](#problem-59-hard).
 
-Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?### Problem 1402 (Easy)
+### Problem 1402 (Easy)
 
 This problem was asked by Amazon.
 
@@ -17268,13 +16573,7 @@ Follow-up: given a mutable string representation, can you perform this operation
 
 ### Problem 1420 (Medium)
 
-This problem was asked by Amazon.
-
-Given a string s and an integer k, break up the string into multiple lines such that each line has a length of k or less. You must break it up so that words don't break across lines. Each line has to have the maximum possible amount of words. If there's no way to break the text up, then return null.
-
-You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
-
-For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+Same as [problem 57](#problem-57-medium).
 
 ### Problem 1421 (Hard)
 
@@ -17413,11 +16712,7 @@ For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return 5 as the longest
 
 ### Problem 1437 (Hard)
 
-This problem was asked by Microsoft.
-
-Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
-
-For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
+Same as [problem 75](#problem-75-hard).
 
 ### Problem 1438 (Medium)
 
@@ -17437,20 +16732,7 @@ Determine the area of the largest rectangle that can be formed only from the bar
 
 ### Problem 1439 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
-
-For example, given the following matrix:
-
-```
-[['F', 'A', 'C', 'I'],
- ['O', 'B', 'Q', 'P'],
- ['A', 'N', 'O', 'B'],
- ['M', 'A', 'S', 'S']]
-```
-
-and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+Same as [problem 63](#problem-63-easy).
 
 ### Problem 1440 (Easy)
 
@@ -17707,14 +16989,7 @@ For example, given the string "acbbac", return "b". Given the string "abcdef", r
 
 ### Problem 1457 (Hard)
 
-This problem was asked by Google.
-
-Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
-
-- `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
-- `get(key)`: gets the value at `key`. If no such key exists, return null.
-
-Each operation should run in O(1) time.
+Same as [problem 67](#problem-67-hard).
 
 ### Problem 1458 (Medium)
 
@@ -17733,29 +17008,7 @@ ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 
 ### Problem 1459 (Medium)
 
-This problem was asked by Google.
-
-Invert a binary tree.
-
-For example, given the following tree:
-
-```
-    a
-   / \
-  b   c
- / \  /
-d   e f
-```
-
-should become:
-
-```
-  a
- / \
- c  b
- \  / \
-  f e  d
-```
+Same as [problem 83](#problem-83-medium).
 
 ### Problem 1460 (Easy)
 
@@ -17834,11 +17087,7 @@ For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[
 
 ### Problem 1468 (Hard)
 
-This problem was asked by Google.
-
-A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
-
-Given N, write a function to return the number of knight's tours on an N by N chessboard.
+Same as [problem 64](#problem-64-hard).
 
 ### Problem 1469 (Hard)
 
@@ -17893,27 +17142,7 @@ You can assume the list has at least three integers.
 
 ### Problem 1473 (Medium)
 
-This problem was asked by Apple.
-
-Suppose you have a multiplication table that is N by N. That is, a 2D array where the value at the `i`-th row and `j`-th column is `(i + 1) * (j + 1)` (if 0-indexed) or `i * j` (if 1-indexed).
-
-Given integers N and X, write a function that returns the number of times X appears as a value in an N by N multiplication table.
-
-For example, given N = 6 and X = 12, you should return 4, since the multiplication table looks like this:
-
-| 1 | 2 | 3 | 4 | 5 | 6 |
-
-| 2 | 4 | 6 | 8 | 10 | 12 |
-
-| 3 | 6 | 9 | 12 | 15 | 18 |
-
-| 4 | 8 | 12 | 16 | 20 | 24 |
-
-| 5 | 10 | 15 | 20 | 25 | 30 |
-
-| 6 | 12 | 18 | 24 | 30 | 36 |
-
-And there are 4 12's in the table.
+Same as [problem 74](#problem-74-medium).
 
 ### Problem 1474 (Easy)
 
@@ -17941,17 +17170,7 @@ Given an integer `N`, write a program that returns, in order, the first `N` regu
 
 ### Problem 1478 (Easy)
 
-This problem was asked by Google.
-
-Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
-
-```
-    a
-   / \
-  b   c
- /
-d
-```
+Same as [problem 80](#problem-80-easy).
 
 ### Problem 1479 (Medium)
 
@@ -18160,20 +17379,7 @@ Implement a job scheduler which takes in a function `f` and an integer `n`, and 
 
 ### Problem 1500 (Medium)
 
-This problem was asked by Amazon.
-
-Given a matrix of 1s and 0s, return the number of "islands" in the matrix. A 1 represents land and 0 represents water, so an island is a group of 1s that are neighboring whose perimeter is surrounded by water.
-
-For example, this matrix has 4 islands.
-
-```
-1 0 0 0 0
-0 0 1 1 0
-0 1 1 0 0
-0 0 0 0 0
-1 1 0 0 1
-1 1 0 0 1
-```
+Same as [problem 84](#problem-84-medium).
 
 ### Problem 1501 (Easy)
 
@@ -18447,27 +17653,7 @@ Given a directed graph of links between various websites, write a program that c
 
 ### Problem 1527 (Medium)
 
-This problem was asked by Apple.
-
-Suppose you have a multiplication table that is N by N. That is, a 2D array where the value at the `i`-th row and `j`-th column is `(i + 1) * (j + 1)` (if 0-indexed) or `i * j` (if 1-indexed).
-
-Given integers N and X, write a function that returns the number of times X appears as a value in an N by N multiplication table.
-
-For example, given N = 6 and X = 12, you should return 4, since the multiplication table looks like this:
-
-| 1 | 2 | 3 | 4 | 5 | 6 |
-
-| 2 | 4 | 6 | 8 | 10 | 12 |
-
-| 3 | 6 | 9 | 12 | 15 | 18 |
-
-| 4 | 8 | 12 | 16 | 20 | 24 |
-
-| 5 | 10 | 15 | 20 | 25 | 30 |
-
-| 6 | 12 | 18 | 24 | 30 | 36 |
-
-And there are 4 12's in the table.
+Same as [problem 74](#problem-74-medium).
 
 ### Problem 1528 (Medium)
 
@@ -18537,29 +17723,7 @@ For example, given "aaabbc", you could return "ababac". Given "aaab", return `No
 
 ### Problem 1532 (Medium)
 
-This problem was asked by Google.
-
-Invert a binary tree.
-
-For example, given the following tree:
-
-```
-    a
-   / \
-  b   c
- / \  /
-d   e f
-```
-
-should become:
-
-```
-  a
- / \
- c  b
- \  / \
-  f e  d
-```
+Same as [problem 83](#problem-83-medium).
 
 ### Problem 1533 (Medium)
 
@@ -18881,16 +18045,7 @@ For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes a
 
 ### Problem 1563 (Medium)
 
-This problem was asked by Facebook.
-
-There is an N by M matrix of zeroes. Given N and M, write a function to count the number of ways of starting at the top-left corner and getting to the bottom-right corner. You can only move right or down.
-
-For example, given a 2 by 2 matrix, you should return 2, since there are two ways to get to the bottom-right:
-
-- Right, then down
-- Down, then right
-
-Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
+Same as [problem 62](#problem-62-medium).
 
 ### Problem 1564 (Hard)
 
@@ -18914,13 +18069,7 @@ And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the mat
 
 ### Problem 1565 (Medium)
 
-This problem was asked by Facebook.
-
-Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
-
-For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return true, since we can split it up into `{15, 5, 10, 15, 10}` and `{20, 35},` which both add up to `55`.
-
-Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
+Same as [problem 60](#problem-60-medium).
 
 ### Problem 1566 (Hard)
 
@@ -18982,11 +18131,7 @@ Same as [problem 22](#problem-22-medium).
 
 ### Problem 1572 (Easy)
 
-This problem was asked by Yelp.
-
-Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
-
-For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
+Same as [problem 81](#problem-81-easy).
 
 ### Problem 1573 (Easy)
 
@@ -19248,11 +18393,7 @@ Same as [problem 42](#problem-42-hard).
 
 ### Problem 1592 (Easy)
 
-This problem was asked Microsoft.
-
-Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
-
-For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+Same as [problem 82](#problem-82-easy).
 
 ### Problem 1593 (Easy)
 
@@ -20002,14 +19143,7 @@ The `check` method may return occasional false positives (in other words, incorr
 
 ### Problem 1662 (Hard)
 
-This problem was asked by Google.
-
-Implement an LFU (Least Frequently Used) cache. It should be able to be initialized with a cache size `n`, and contain the following methods:
-
-- `set(key, value)`: sets `key` to `value`. If there are already `n` items in the cache and we are adding a new item, then it should also remove the least frequently used item. If there is a tie, then the least recently used key should be removed.
-- `get(key)`: gets the value at `key`. If no such key exists, return null.
-
-Each operation should run in O(1) time.
+Same as [problem 67](#problem-67-hard).
 
 ### Problem 1663 (Hard)
 
@@ -20066,13 +19200,7 @@ For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC10
 
 ### Problem 1668 (Easy)
 
-This problem was asked by Microsoft.
-
-A number is considered perfect if its digits sum up to exactly 10.
-
-Given a positive integer `n`, return the `n`-th perfect number.
-
-For example, given 1, you should return 19. Given 2, you should return 28.
+Same as [problem 70](#problem-70-easy).
 
 ### Problem 1669 (Easy)
 
@@ -20092,45 +19220,7 @@ For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2
 
 ### Problem 1671 (Medium)
 
-This problem was asked by Google.
-
-You are given an N by M 2D matrix of lowercase letters. Determine the minimum number of columns that can be removed to ensure that each row is ordered from top to bottom lexicographically. That is, the letter at each column is lexicographically later as you go down each row. It does not matter whether each row itself is ordered lexicographically.
-
-For example, given the following table:
-
-```
-cba
-daf
-ghi
-```
-
-This is not ordered because of the a in the center. We can remove the second column to make it ordered:
-
-```
-ca
-df
-gi
-```
-
-So your function should return 1, since we only needed to remove 1 column.
-
-As another example, given the following table:
-
-```
-abcdef
-```
-
-Your function should return 0, since the rows are already ordered (there's only one row).
-
-As another example, given the following table:
-
-```
-zyx
-wvu
-tsr
-```
-
-Your function should return 3, since we would need to remove all the columns to order it.
+Same as [problem 76](#problem-76-medium).
 
 ### Problem 1672 (Hard)
 
@@ -20167,9 +19257,7 @@ Let us consider a "move" to be a rotation of a single wheel by one digit, in eit
 
 ### Problem 1674 (Hard)
 
-This problem was asked by Google.
-
-Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+Same as [problem 59](#problem-59-hard).
 
 ### Problem 1675 (Easy)
 
@@ -20236,26 +19324,11 @@ For example, given the string "()())()", you should return 1. Given the string "
 
 ### Problem 1682 (Medium)
 
-This problem was asked by Google.
-
-Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+Same as [problem 56](#problem-56-medium).
 
 ### Problem 1683 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
-
-For example, given the following matrix:
-
-```
-[['F', 'A', 'C', 'I'],
- ['O', 'B', 'Q', 'P'],
- ['A', 'N', 'O', 'B'],
- ['M', 'A', 'S', 'S']]
-```
-
-and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+Same as [problem 63](#problem-63-easy).
 
 ### Problem 1684 (Easy)
 
@@ -20279,17 +19352,7 @@ Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `l
 
 ### Problem 1687 (Easy)
 
-This problem was asked by Google.
-
-Given the root of a binary tree, return a deepest node. For example, in the following tree, return d.
-
-```
-    a
-   / \
-  b   c
- /
-d
-```
+Same as [problem 80](#problem-80-easy).
 
 ### Problem 1688 (Medium)
 
@@ -20499,13 +19562,7 @@ Given a `32`-bit positive integer `N`, determine whether it is a power of four i
 
 ### Problem 1709 (Medium)
 
-This problem was asked by Facebook.
-
-Given an array of integers, write a function to determine whether the array could become non-decreasing by modifying at most 1 element.
-
-For example, given the array [10, 5, 7], you should return true, since we can modify the 10 into a 1 to make the array non-decreasing.
-
-Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
+Same as [problem 79](#problem-79-medium).
 
 ### Problem 1710 (Medium)
 
@@ -20613,43 +19670,7 @@ Link: <https://k5kc.com/cs/algorithms/spiral-matrix-1-return/>
 
 ### Problem 1716 (Easy)
 
-This problem was asked by Amazon.
-
-Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
-
-For example, given the following matrix:
-
-```
-[[1,  2,  3,  4,  5],
- [6,  7,  8,  9,  10],
- [11, 12, 13, 14, 15],
- [16, 17, 18, 19, 20]]
-```
-
-You should print out the following:
-
-```
-1
-2
-3
-4
-5
-10
-15
-20
-19
-18
-17
-16
-11
-6
-7
-8
-9
-14
-13
-12
-```
+Same as [problem 65](#problem-65-easy).
 
 ### Problem 1717 (Medium)
 
@@ -20718,3 +19739,7 @@ Same as [problem 52](#problem-52-hard).
 ### Problem 1734 (Easy)
 
 Same as [problem 273](#problem-273-easy).
+
+### Problem 1735 (Easy)
+
+Same as [problem 73](#problem-73-easy).
