@@ -1756,7 +1756,7 @@ For example, in this matrix
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 
-### Problem 123
+### Problem 123 (Hard)
 
 > This problem was asked by LinkedIn.
 
@@ -2002,7 +2002,7 @@ class PeekableInterface(object):
         pass
 ```
 
-### Problem 140
+### Problem 140 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -6255,13 +6255,7 @@ Given a graph, find its transitive closure.
 
 ### Problem 424 (Medium)
 
-This problem was asked by Facebook.
-
-Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
-
-For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. The order does not matter.
-
-Follow-up: Can you do this in linear time and constant space?
+Same as [problem 140](#problem-140-medium).
 
 ### Problem 425 (Hard)
 
@@ -8859,22 +8853,7 @@ Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b
 
 ### Problem 676 (Hard)
 
-This problem was asked by LinkedIn.
-
-Given a string, return whether it represents a number. Here are the different kinds of numbers:
-
-- "10", a positive integer
-- "-10", a negative integer
-- "10.1", a positive real number
-- "-10.1", a negative real number
-- "1e5", a number in scientific notation
-
-And here are examples of non-numbers:
-
-- "a"
-- "x 1"
-- "a -2"
-- "-"
+Same as [problem 123](#problem-123-hard).
 
 ### Problem 677 (Easy)
 
@@ -11867,22 +11846,7 @@ Same as [problem 55](#problem-55-easy).
 
 ### Problem 978 (Hard)
 
-This problem was asked by LinkedIn.
-
-Given a string, return whether it represents a number. Here are the different kinds of numbers:
-
-- "10", a positive integer
-- "-10", a negative integer
-- "10.1", a positive real number
-- "-10.1", a negative real number
-- "1e5", a number in scientific notation
-
-And here are examples of non-numbers:
-
-- "a"
-- "x 1"
-- "a -2"
-- "-"
+Same as [problem 123](#problem-123-hard).
 
 ### Problem 979 (Medium)
 
@@ -12974,13 +12938,7 @@ Given a binary tree of integers, find the maximum path sum between two nodes. Th
 
 ### Problem 1079 (Medium)
 
-This problem was asked by Facebook.
-
-Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
-
-For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. The order does not matter.
-
-Follow-up: Can you do this in linear time and constant space?
+Same as [problem 140](#problem-140-medium).
 
 ### Problem 1080 (Easy)
 
@@ -14026,22 +13984,7 @@ Given a sequence `S`, construct the corresponding Cartesian tree.
 
 ### Problem 1174 (Hard)
 
-This problem was asked by LinkedIn.
-
-Given a string, return whether it represents a number. Here are the different kinds of numbers:
-
-- "10", a positive integer
-- "-10", a negative integer
-- "10.1", a positive real number
-- "-10.1", a negative real number
-- "1e5", a number in scientific notation
-
-And here are examples of non-numbers:
-
-- "a"
-- "x 1"
-- "a -2"
-- "-"
+Same as [problem 123](#problem-123-hard).
 
 ### Problem 1175 (Medium)
 
@@ -17044,13 +16987,7 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 
 ### Problem 1464 (Medium)
 
-This problem was asked by Facebook.
-
-Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
-
-For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. The order does not matter.
-
-Follow-up: Can you do this in linear time and constant space?
+Same as [problem 140](#problem-140-medium).
 
 ### Problem 1465 (Medium)
 
@@ -19743,3 +19680,23 @@ Same as [problem 273](#problem-273-easy).
 ### Problem 1735 (Easy)
 
 Same as [problem 73](#problem-73-easy).
+
+### Problem 1736 (Medium)
+
+Same as [problem 53](#problem-53-medium).
+
+### Problem 1737 (Medium)
+
+Same as [problem 140](#problem-140-medium).
+
+### Problem 1738 (Hard)
+
+Same as [problem 72](#problem-72-hard).
+
+### Problem 1739 (Medium)
+
+Same as [problem 24](#problem-24-medium).
+
+### Problem 1740 (Hard)
+
+Same as [problem 123](#problem-123-hard).
