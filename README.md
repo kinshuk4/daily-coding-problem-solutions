@@ -5279,9 +5279,9 @@ Determine the area of the largest rectangle that can be formed only from the bar
 
 ---
 
-### Problem 354
+### Problem 354 (Hard)
 
-This problem was asked by Google.
+> This problem was asked by Google.
 
 Design a system to crawl and copy all of Wikipedia using a distributed network of machines.
 
@@ -6347,18 +6347,7 @@ We can consider a sentence valid if it conforms to the following rules:
 
 ### Problem 432 (Hard)
 
-This problem was asked by Google.
-
-Design a system to crawl and copy all of Wikipedia using a distributed network of machines.
-
-More specifically, suppose your server has access to a set of client machines. Your client machines can execute code you have written to access Wikipedia pages, download and parse their data, and write the results to a database.
-
-Some questions you may want to consider as part of your solution are:
-
-- How will you reach as many pages as possible?
-- How can you keep track of pages that have already been visited?
-- How will you deal with your client machines being blacklisted?
-- How can you update your database when Wikipedia pages are added or updated?
+Same as [problem 354](#problem-354-hard).
 
 ### Problem 433 (Medium)
 
@@ -11071,18 +11060,7 @@ Do this in O(N) time.
 
 ### Problem 901 (Hard)
 
-This problem was asked by Google.
-
-Design a system to crawl and copy all of Wikipedia using a distributed network of machines.
-
-More specifically, suppose your server has access to a set of client machines. Your client machines can execute code you have written to access Wikipedia pages, download and parse their data, and write the results to a database.
-
-Some questions you may want to consider as part of your solution are:
-
-- How will you reach as many pages as possible?
-- How can you keep track of pages that have already been visited?
-- How will you deal with your client machines being blacklisted?
-- How can you update your database when Wikipedia pages are added or updated?
+Same as [problem 354](#problem-354-hard).
 
 ### Problem 902 (Easy)
 
@@ -13931,18 +13909,7 @@ For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central po
 
 ### Problem 1170 (Hard)
 
-This problem was asked by Google.
-
-Design a system to crawl and copy all of Wikipedia using a distributed network of machines.
-
-More specifically, suppose your server has access to a set of client machines. Your client machines can execute code you have written to access Wikipedia pages, download and parse their data, and write the results to a database.
-
-Some questions you may want to consider as part of your solution are:
-
-- How will you reach as many pages as possible?
-- How can you keep track of pages that have already been visited?
-- How will you deal with your client machines being blacklisted?
-- How can you update your database when Wikipedia pages are added or updated?
+Same as [problem 354](#problem-354-hard).
 
 ### Problem 1171 (Easy)
 
@@ -19700,3 +19667,7 @@ Same as [problem 24](#problem-24-medium).
 ### Problem 1740 (Hard)
 
 Same as [problem 123](#problem-123-hard).
+
+### Problem 1741 (Hard)
+
+Same as [problem 354](#problem-354-hard).
