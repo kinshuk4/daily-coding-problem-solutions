@@ -3946,7 +3946,7 @@ Write a program that takes in an array of integers representing byte values, and
 
 ---
 
-### Problem 278
+### Problem 278 (Easy)
 
 This problem was asked by Amazon.
 
@@ -6811,9 +6811,7 @@ Follow-up: If you can preprocess the array, can you do this in constant time?
 
 ### Problem 471 (Easy)
 
-This problem was asked by Amazon.
-
-Given an integer `N`, construct all possible binary search trees with `N` nodes.
+Same as [problem 278](#problem-278-easy).
 
 ### Problem 472 (Medium)
 
@@ -12692,9 +12690,7 @@ Given an integer `N`, print the `N`th term of this sequence.
 
 ### Problem 1057 (Easy)
 
-This problem was asked by Amazon.
-
-Given an integer `N`, construct all possible binary search trees with `N` nodes.
+Same as [problem 278](#problem-278-easy).
 
 ### Problem 1058 (Medium)
 
@@ -17134,9 +17130,7 @@ In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distan
 
 ### Problem 1484 (Easy)
 
-This problem was asked by Amazon.
-
-Given an integer `N`, construct all possible binary search trees with `N` nodes.
+Same as [problem 278](#problem-278-easy).
 
 ### Problem 1485 (Easy)
 
@@ -19671,3 +19665,7 @@ Same as [problem 123](#problem-123-hard).
 ### Problem 1741 (Hard)
 
 Same as [problem 354](#problem-354-hard).
+
+### Problem 1742 (Easy)
+
+Same as [problem 278](#problem-278-easy).
