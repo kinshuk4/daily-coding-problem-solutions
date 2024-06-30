@@ -5008,25 +5008,23 @@ Your function should return 3, since we can make the words 'eat', 'in', and 'rat
 
 ---
 
-### Problem 342
+### Problem 342 (Medium)
 
 This problem was asked by Stripe.
 
-`reduce` (also known as `fold`) is a function that takes in an array, a combining function, and an initial value and builds up a result by calling the combining function on each element of the array, left to right. For example, we can write `sum()` in terms of reduce:
+`reduce` (also known as `fold`) is a function that takes in an array, a combining function, and an initial value and builds up a result by calling the combining function on each element of the array, left to right. For example, we can write `sum()` in terms of `reduce`:
 
-```python
+```
 def add(a, b):
     return a + b
-```
 
-```python
 def sum(lst):
     return reduce(lst, add, 0)
 ```
 
-This should call add on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
+This should call `add` on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
 
-Implement your own version of reduce.
+Implement your own version of `reduce`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution342.java)
 
@@ -8925,21 +8923,7 @@ For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
 
 ### Problem 684 (Medium)
 
-This problem was asked by Stripe.
-
-`reduce` (also known as `fold`) is a function that takes in an array, a combining function, and an initial value and builds up a result by calling the combining function on each element of the array, left to right. For example, we can write `sum()` in terms of `reduce`:
-
-```
-def add(a, b):
-    return a + b
-
-def sum(lst):
-    return reduce(lst, add, 0)
-```
-
-This should call `add` on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
-
-Implement your own version of `reduce`.
+Same as [problem 342](#problem-342-medium).
 
 ### Problem 685 (Hard)
 
@@ -12994,21 +12978,7 @@ For the input `XIV`, for instance, you should return `14`.
 
 ### Problem 1084 (Medium)
 
-This problem was asked by Stripe.
-
-`reduce` (also known as `fold`) is a function that takes in an array, a combining function, and an initial value and builds up a result by calling the combining function on each element of the array, left to right. For example, we can write `sum()` in terms of `reduce`:
-
-```
-def add(a, b):
-    return a + b
-
-def sum(lst):
-    return reduce(lst, add, 0)
-```
-
-This should call `add` on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
-
-Implement your own version of `reduce`.
+Same as [problem 342](#problem-342-medium).
 
 ### Problem 1085 (Medium)
 
@@ -15536,21 +15506,7 @@ Given a sorted array, convert it into a height-balanced binary search tree.
 
 ### Problem 1326 (Medium)
 
-This problem was asked by Stripe.
-
-`reduce` (also known as `fold`) is a function that takes in an array, a combining function, and an initial value and builds up a result by calling the combining function on each element of the array, left to right. For example, we can write `sum()` in terms of `reduce`:
-
-```
-def add(a, b):
-    return a + b
-
-def sum(lst):
-    return reduce(lst, add, 0)
-```
-
-This should call `add` on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
-
-Implement your own version of `reduce`.
+Same as [problem 342](#problem-342-medium).
 
 ### Problem 1327 (Hard)
 
@@ -19669,3 +19625,7 @@ Same as [problem 354](#problem-354-hard).
 ### Problem 1742 (Easy)
 
 Same as [problem 278](#problem-278-easy).
+
+### Problem 1743 (Medium)
+
+Same as [problem 342](#problem-342-medium).
