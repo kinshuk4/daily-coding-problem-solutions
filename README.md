@@ -19629,3 +19629,7 @@ Same as [problem 278](#problem-278-easy).
 ### Problem 1743 (Medium)
 
 Same as [problem 342](#problem-342-medium).
+
+### Problem 1744 (Medium)
+
+Same as [problem 78](#problem-78-medium).
