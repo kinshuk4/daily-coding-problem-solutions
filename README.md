@@ -4871,7 +4871,7 @@ a XOR b = N
 
 ---
 
-### Problem 333
+### Problem 333 (Medium)
 
 This problem was asked by Pinterest.
 
@@ -6924,11 +6924,7 @@ Same as [problem 13](#problem-13-hard).
 
 ### Problem 486 (Medium)
 
-This problem was asked by Pinterest.
-
-At a party, there is a single person who everyone knows, but who does not know anyone in return (the "celebrity"). To help figure out who this is, you have access to an `O(1)` method called `knows(a, b)`, which returns `True` if person `a` knows person `b`, else `False`.
-
-Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
+Same as [problem 333](#problem-333-medium).
 
 ### Problem 487 (Medium)
 
@@ -10392,11 +10388,7 @@ For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return 5 as the longest
 
 ### Problem 833 (Medium)
 
-This problem was asked by Pinterest.
-
-At a party, there is a single person who everyone knows, but who does not know anyone in return (the "celebrity"). To help figure out who this is, you have access to an `O(1)` method called `knows(a, b)`, which returns `True` if person `a` knows person `b`, else `False`.
-
-Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
+Same as [problem 333](#problem-333-medium).
 
 ### Problem 834 (Hard)
 
@@ -14625,11 +14617,7 @@ For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
 
 ### Problem 1241 (Medium)
 
-This problem was asked by Pinterest.
-
-At a party, there is a single person who everyone knows, but who does not know anyone in return (the "celebrity"). To help figure out who this is, you have access to an `O(1)` method called `knows(a, b)`, which returns `True` if person `a` knows person `b`, else `False`.
-
-Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
+Same as [problem 333](#problem-333-medium).
 
 ### Problem 1242 (Medium)
 
@@ -19633,3 +19621,7 @@ Same as [problem 342](#problem-342-medium).
 ### Problem 1744 (Medium)
 
 Same as [problem 78](#problem-78-medium).
+
+### Problem 1745 (Medium)
+
+Same as [problem 333](#problem-333-medium).
