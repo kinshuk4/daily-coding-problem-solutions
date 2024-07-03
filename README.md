@@ -2157,7 +2157,7 @@ G G G
 B B B
 ```
 
-### Problem 152
+### Problem 152 (Medium)
 
 > This problem was asked by Triplebyte.
 
@@ -4879,7 +4879,7 @@ At a party, there is a single person who everyone knows, but who does not know a
 
 Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution333.java)
+[Solution](https://k5kc.com/cs/algorithms/find-the-celebrity-problem/)
 
 ---
 
@@ -7000,13 +7000,7 @@ Same as [problem 56](#problem-56-medium).
 
 ### Problem 493 (Medium)
 
-This problem was asked by Triplebyte.
-
-You are given `n` numbers as well as `n` probabilities that sum up to 1. Write a function to generate one of the numbers with its corresponding probability.
-
-For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2, 0.2]`, your function should return `1` 10% of the time, `2` 50% of the time, and 3 and 4 20% of the time.
-
-You can generate random numbers between 0 and 1 uniformly.
+Same as [problem 152](#problem-152-medium).
 
 ### Problem 494 (Medium)
 
@@ -10092,13 +10086,7 @@ Let's define a "sevenish" number to be one which is either a power of `7`, or th
 
 ### Problem 802 (Medium)
 
-This problem was asked by Triplebyte.
-
-You are given `n` numbers as well as `n` probabilities that sum up to 1. Write a function to generate one of the numbers with its corresponding probability.
-
-For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2, 0.2]`, your function should return `1` 10% of the time, `2` 50% of the time, and 3 and 4 20% of the time.
-
-You can generate random numbers between 0 and 1 uniformly.
+Same as [problem 152](#problem-152-medium).
 
 ### Problem 803 (Medium)
 
@@ -16050,13 +16038,7 @@ Describe an algorithm to compute the longest increasing subsequence of an array 
 
 ### Problem 1383 (Medium)
 
-This problem was asked by Triplebyte.
-
-You are given `n` numbers as well as `n` probabilities that sum up to 1. Write a function to generate one of the numbers with its corresponding probability.
-
-For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2, 0.2]`, your function should return `1` 10% of the time, `2` 50% of the time, and 3 and 4 20% of the time.
-
-You can generate random numbers between 0 and 1 uniformly.
+Same as [problem 152](#problem-152-medium).
 
 ### Problem 1384 (Easy)
 
@@ -19625,3 +19607,7 @@ Same as [problem 78](#problem-78-medium).
 ### Problem 1745 (Medium)
 
 Same as [problem 333](#problem-333-medium).
+
+### Problem 1746 (Medium)
+
+Same as [problem 152](#problem-152-medium).
