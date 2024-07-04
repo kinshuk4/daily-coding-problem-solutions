@@ -241,6 +241,8 @@ You run an e-commerce website and want to record the last `N` `order` ids in a l
 
 You should be as efficient with time and space as possible.
 
+TODO: implement this function.
+
 ### Problem 17 (Hard)
 
 > This problem was asked by Google.
@@ -1267,6 +1269,8 @@ Given a mapping of digits to letters (as in a phone number), and a digit string,
 
 For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
 
+[Solution](https://k5kc.com/cs/algorithms/letter-combinations-of-a-phone-number-problem/)
+
 ---
 
 ### Problem 82 (Easy)
@@ -1276,6 +1280,7 @@ For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f
 Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+
 
 ---
 
@@ -1433,7 +1438,7 @@ Can you perform the operation without allocating extra memory (disregarding the 
 
 ---
 
-### Problem 96
+### Problem 96 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -6862,11 +6867,7 @@ Same as [problem 59](#problem-59-hard).
 
 ### Problem 479 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a number in the form of a list of digits, return all possible permutations.
-
-For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
+Same as [problem 96](#problem-96-easy).
 
 ### Problem 480 (Medium)
 
@@ -13430,11 +13431,7 @@ For example, given "jiujitsu", you should return `5`, corresponding to the final
 
 ### Problem 1128 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a number in the form of a list of digits, return all possible permutations.
-
-For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
+Same as [problem 96](#problem-96-easy).
 
 ### Problem 1129 (Medium)
 
@@ -16905,11 +16902,7 @@ Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b
 
 ### Problem 1467 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a number in the form of a list of digits, return all possible permutations.
-
-For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
+Same as [problem 96](#problem-96-easy).
 
 ### Problem 1468 (Hard)
 
@@ -19611,3 +19604,7 @@ Same as [problem 333](#problem-333-medium).
 ### Problem 1746 (Medium)
 
 Same as [problem 152](#problem-152-medium).
+
+### Problem 1747 (Easy)
+
+Same as [problem 96](#problem-96-easy).
