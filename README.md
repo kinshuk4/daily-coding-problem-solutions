@@ -1343,13 +1343,15 @@ Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, usi
 
 ---
 
-### Problem 86
+### Problem 86 (Medium)
 
 > This problem was asked by Google.
 
 Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+
+[Solution](https://k5kc.com/cs/algorithms/minimum-remove-to-make-valid-parentheses/)
 
 ---
 
@@ -1897,7 +1899,7 @@ Design and implement a HitCounter class that keeps track of requests (or hits). 
 
 Follow-up: What if our system has limited memory?
 
-### Problem 133
+### Problem 133 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -1914,6 +1916,8 @@ For example, the inorder successor of 22 is 30.
 ```
 
 You can assume each node has a `parent` pointer.
+
+[Solution](https://k5kc.com/cs/algorithms/inorder-successor-in-binary-search-tree-using-parent-link/)
 
 ### Problem 134
 
@@ -5365,7 +5369,7 @@ Create a data structure that performs all the following operations in `O(1)` tim
 
 ---
 
-### Problem 359
+### Problem 359 (Easy)
 
 This problem was asked by Slack.
 
@@ -8070,21 +8074,7 @@ Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "d
 
 ### Problem 609 (Medium)
 
-This problem was asked by Amazon.
-
-Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
-
-For example, the inorder successor of 22 is 30.
-
-```
-   10
-  /  \
- 5    30
-     /  \
-   22    35
-```
-
-You can assume each node has a `parent` pointer.
+Same as [problem 133](#problem-133-medium).
 
 ### Problem 610 (Medium)
 
@@ -8302,11 +8292,7 @@ Same as [28](#problem-28-medium).
 
 ### Problem 624 (Medium)
 
-This problem was asked by Google.
-
-Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
-
-For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+Same as [problem 86](#problem-86-medium).
 
 ### Problem 625 (Easy)
 
@@ -9652,13 +9638,7 @@ Same as [problem 72](#problem-72-hard).
 
 ### Problem 756 (Easy)
 
-This problem was asked by Slack.
-
-You are given a string formed by concatenating several words corresponding to the integers zero through nine and then anagramming.
-
-For example, the input could be 'niesevehrtfeev', which is an anagram of 'threefiveseven'. Note that there can be multiple instances of each integer.
-
-Given this string, return the original integers in sorted order. In the example above, this would be `357`.
+Same as [problem 359](#problem-359-easy).
 
 ### Problem 757 (Hard)
 
@@ -11410,11 +11390,7 @@ Same as [problem 32](#problem-32-hard).
 
 ### Problem 942 (Medium)
 
-This problem was asked by Google.
-
-Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
-
-For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+Same as [problem 86](#problem-86-medium).
 
 ### Problem 943 (Easy)
 
@@ -11538,13 +11514,7 @@ Hint: Try working backwards from the end state.
 
 ### Problem 952 (Easy)
 
-This problem was asked by Slack.
-
-You are given a string formed by concatenating several words corresponding to the integers zero through nine and then anagramming.
-
-For example, the input could be 'niesevehrtfeev', which is an anagram of 'threefiveseven'. Note that there can be multiple instances of each integer.
-
-Given this string, return the original integers in sorted order. In the example above, this would be `357`.
+Same as [problem 359](#problem-359-easy).
 
 ### Problem 953 (Hard)
 
@@ -12619,21 +12589,7 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 
 ### Problem 1055 (Medium)
 
-This problem was asked by Amazon.
-
-Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
-
-For example, the inorder successor of 22 is 30.
-
-```
-   10
-  /  \
- 5    30
-     /  \
-   22    35
-```
-
-You can assume each node has a `parent` pointer.
+Same as [problem 133](#problem-133-medium).
 
 ### Problem 1056 (Medium)
 
@@ -13748,13 +13704,7 @@ If a < c OR a==c AND b < d.
 
 ### Problem 1160 (Easy)
 
-This problem was asked by Slack.
-
-You are given a string formed by concatenating several words corresponding to the integers zero through nine and then anagramming.
-
-For example, the input could be 'niesevehrtfeev', which is an anagram of 'threefiveseven'. Note that there can be multiple instances of each integer.
-
-Given this string, return the original integers in sorted order. In the example above, this would be `357`.
+Same as [problem 359](#problem-359-easy).
 
 ### Problem 1161 (Hard)
 
@@ -14450,11 +14400,7 @@ and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
 
 ### Problem 1225 (Medium)
 
-This problem was asked by Google.
-
-Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
-
-For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+Same as [problem 86](#problem-86-medium).
 
 ### Problem 1226 (Medium)
 
@@ -16376,21 +16322,7 @@ Given an integer `N`, determine in how many ways this task is possible.
 
 ### Problem 1418 (Medium)
 
-This problem was asked by Amazon.
-
-Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
-
-For example, the inorder successor of 22 is 30.
-
-```
-   10
-  /  \
- 5    30
-     /  \
-   22    35
-```
-
-You can assume each node has a `parent` pointer.
+Same as [problem 133](#problem-133-medium).
 
 ### Problem 1419 (Medium)
 
@@ -18564,21 +18496,7 @@ Write a function that returns how many steps this will take for a given input `N
 
 ### Problem 1625 (Medium)
 
-This problem was asked by Amazon.
-
-Given a node in a binary search tree, return the next bigger element, also known as the inorder successor.
-
-For example, the inorder successor of 22 is 30.
-
-```
-   10
-  /  \
- 5    30
-     /  \
-   22    35
-```
-
-You can assume each node has a `parent` pointer.
+Same as [problem 133](#problem-133-medium).
 
 ### Problem 1626 (Easy)
 
@@ -19133,11 +19051,7 @@ Determine if a new point `p` lies inside this polygon. (If `p` is on the boundar
 
 ### Problem 1681 (Medium)
 
-This problem was asked by Google.
-
-Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
-
-For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+Same as [problem 86](#problem-86-medium).
 
 ### Problem 1682 (Medium)
 
@@ -19608,3 +19522,7 @@ Same as [problem 152](#problem-152-medium).
 ### Problem 1747 (Easy)
 
 Same as [problem 96](#problem-96-easy).
+
+### Problem 1748 (Easy)
+
+Same as [problem 359](#problem-359-easy).
