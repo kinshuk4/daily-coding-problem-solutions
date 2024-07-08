@@ -1513,7 +1513,7 @@ Your algorithm should run in `O(n)` complexity.
 
 ---
 
-### Problem 100
+### Problem 100 (Easy)
 
 > This problem was asked by Google.
 
@@ -6152,32 +6152,7 @@ For example, given [1, 3, 2, 8, 4, 10] and `fee = 2`, you should return 9, since
 
 ### Problem 416 (Easy)
 
-This problem was asked by Google.
-
-You are in an infinite 2D grid where you can move in any of the 8 directions:
-
-```
- (x,y) to
-    (x+1, y),
-    (x - 1, y),
-    (x, y+1),
-    (x, y-1),
-    (x-1, y-1),
-    (x+1,y+1),
-    (x-1,y+1),
-    (x+1,y-1)
-```
-
-You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it. You start from the first point.
-
-Example:
-
-```
-Input: [(0, 0), (1, 1), (1, 2)]
-Output: 2
-```
-
-It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to move from `(1, 1)` to `(1, 2)`.
+Same as [problem 100](#problem-100-easy).
 
 ### Problem 417 (Easy)
 
@@ -13276,32 +13251,7 @@ For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, 
 
 ### Problem 1120 (Easy)
 
-This problem was asked by Google.
-
-You are in an infinite 2D grid where you can move in any of the 8 directions:
-
-```
- (x,y) to
-    (x+1, y),
-    (x - 1, y),
-    (x, y+1),
-    (x, y-1),
-    (x-1, y-1),
-    (x+1,y+1),
-    (x-1,y+1),
-    (x+1,y-1)
-```
-
-You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it. You start from the first point.
-
-Example:
-
-```
-Input: [(0, 0), (1, 1), (1, 2)]
-Output: 2
-```
-
-It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to move from `(1, 1)` to `(1, 2)`.
+Same as [problem 100](#problem-100-easy).
 
 ### Problem 1121 (Hard)
 
@@ -13582,32 +13532,7 @@ For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 
 ### Problem 1153 (Easy)
 
-This problem was asked by Google.
-
-You are in an infinite 2D grid where you can move in any of the 8 directions:
-
-```
- (x,y) to
-    (x+1, y),
-    (x - 1, y),
-    (x, y+1),
-    (x, y-1),
-    (x-1, y-1),
-    (x+1,y+1),
-    (x-1,y+1),
-    (x+1,y-1)
-```
-
-You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it. You start from the first point.
-
-Example:
-
-```
-Input: [(0, 0), (1, 1), (1, 2)]
-Output: 2
-```
-
-It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to move from `(1, 1)` to `(1, 2)`.
+Same as [problem 100](#problem-100-easy).
 
 ### Problem 1154 (Easy)
 
@@ -19504,3 +19429,8 @@ Same as [problem 130](#problem-130-medium).
 ### Problem 1750 (Medium)
 
 Same as [problem 192](#problem-192-medium).
+
+### Problem 1751 (Easy)
+
+Same as [problem 100](#problem-100-easy).
+
