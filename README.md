@@ -92,7 +92,7 @@ def cons(a, b):
 
 Implement `car` and `cdr`.
 
-TODO: implement this function.
+[Solution](https://k5kc.com/cs/pl/problems/implementing-car-and-cdr-functions-for-pair-construction/)
 
 ---
 
@@ -104,7 +104,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 
 If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
 
-TODO: implement this function.
+[Solution](https://k5kc.com/cs/algorithms/xor-doubly-linked-list/)
 
 ---
 
@@ -162,13 +162,13 @@ Follow-up: Can you do this in O(N) time and constant space?
 
 ---
 
-### Problem 10
+### Problem 10 (Medium)
 
 > This problem was asked by Apple.
 
 Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
-TODO: implement this function
+[Solution](https://k5kc.com/cs/pl/problems/implement-job-scheduler-with-delay-function-execution/)
 
 ---
 
@@ -222,7 +222,7 @@ Given an integer k and a string s, find the length of the longest substring that
 
 The area of a circle is defined as `πr^2`. Estimate `π` to 3 decimal places using a Monte Carlo method. Hint: The basic equation of a circle is `x^2 + y^2 = r^2`.
 
-TODO: implement this function
+[Solution](https://k5kc.com/cs/algorithms/estimating-the-value-of-pi-using-monte-carlo-method/)
 
 ### Problem 15 (Medium)
 
@@ -3493,7 +3493,7 @@ Given an array of a million integers between zero and a billion, out of order, h
 
 ---
 
-### Problem 252
+### Problem 252 (Easy)
 
 This problem was asked by Palantir.
 
@@ -7476,11 +7476,7 @@ Same as [problem 76](#problem-76-medium).
 
 ### Problem 554 (Easy)
 
-This problem was asked by Palantir.
-
-The ancient Egyptians used to express fractions as a sum of several terms where each numerator is one. For example, `4 / 13` can be represented as `1 / 4 + 1 / 18 + 1 / 468`.
-
-Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an Egyptian fraction.
+Same as [problem 252](#problem-252-easy).
 
 ### Problem 555 (Medium)
 
@@ -10850,11 +10846,7 @@ Same as [problem 31](#problem-31-easy).
 
 ### Problem 887 (Easy)
 
-This problem was asked by Palantir.
-
-The ancient Egyptians used to express fractions as a sum of several terms where each numerator is one. For example, `4 / 13` can be represented as `1 / 4 + 1 / 18 + 1 / 468`.
-
-Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an Egyptian fraction.
+Same as [problem 252](#problem-252-easy).
 
 ### Problem 888 (Hard)
 
@@ -15200,11 +15192,7 @@ Same as [problem 691](#problem-691-medium).
 
 ### Problem 1314 (Easy)
 
-This problem was asked by Palantir.
-
-The ancient Egyptians used to express fractions as a sum of several terms where each numerator is one. For example, `4 / 13` can be represented as `1 / 4 + 1 / 18 + 1 / 468`.
-
-Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an Egyptian fraction.
+Same as [problem 252](#problem-252-easy).
 
 ### Problem 1315 (Medium)
 
@@ -19437,3 +19425,7 @@ Same as [problem 100](#problem-100-easy).
 ### Problem 1752 (Medium)
 
 Same as [problem 26](#problem-26-medium).
+
+### Problem 1753 (Easy)
+
+Same as [problem 252](#problem-252-easy).
