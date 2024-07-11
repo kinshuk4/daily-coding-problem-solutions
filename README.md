@@ -5425,7 +5425,7 @@ A strobogrammatic number is a positive number that appears the same after being 
 
 Create a program that finds all strobogrammatic numbers with `N` digits.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution362.java)
+[Solution](https://k5kc.com/cs/algorithms/strobogrammatic-number-2-generate-for-length-n/)
 
 ---
 
