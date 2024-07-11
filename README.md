@@ -228,7 +228,7 @@ The area of a circle is defined as `πr^2`. Estimate `π` to 3 decimal places us
 
 > This problem was asked by Facebook.
 
-  Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 
 ### Problem 16 (Easy)
 
@@ -5417,13 +5417,13 @@ However, it is impossible for any key to result in the following scores, so in t
 
 ---
 
-### Problem 362
+### Problem 362 (Easy)
 
-This problem was asked by Twitter.
+> This problem was asked by Twitter.
 
-A strobogrammatic number is a positive number that appears the same after being rotated `180` degrees. For example, `16891` is strobogrammatic.
+A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, `16891` is strobogrammatic.
 
-Create a program that finds all strobogrammatic numbers with N digits.
+Create a program that finds all strobogrammatic numbers with `N` digits.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution362.java)
 
@@ -6013,11 +6013,7 @@ Given an array and a permutation, apply the permutation to the array. For exampl
 
 ### Problem 402 (Easy)
 
-This problem was asked by Twitter.
-
-A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, `16891` is strobogrammatic.
-
-Create a program that finds all strobogrammatic numbers with `N` digits.
+Same as [problem 362](#problem-362-easy).
 
 ### Problem 403 (Easy)
 
@@ -11722,11 +11718,7 @@ Describe an algorithm to compute the longest increasing subsequence of an array 
 
 ### Problem 982 (Easy)
 
-This problem was asked by Twitter.
-
-A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, `16891` is strobogrammatic.
-
-Create a program that finds all strobogrammatic numbers with `N` digits.
+Same as [problem 362](#problem-362-easy).
 
 ### Problem 983 (Medium)
 
@@ -13824,11 +13816,7 @@ For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, 
 
 ### Problem 1183 (Easy)
 
-This problem was asked by Twitter.
-
-A strobogrammatic number is a positive number that appears the same after being rotated 180 degrees. For example, `16891` is strobogrammatic.
-
-Create a program that finds all strobogrammatic numbers with `N` digits.
+Same as [problem 362](#problem-362-easy).
 
 ### Problem 1184 (Medium)
 
@@ -19429,3 +19417,7 @@ Same as [problem 26](#problem-26-medium).
 ### Problem 1753 (Easy)
 
 Same as [problem 252](#problem-252-easy).
+
+### Problem 1754 (Easy)
+
+Same as [problem 362](#problem-362-easy).
