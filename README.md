@@ -2835,9 +2835,9 @@ For example, given `[5, 7, 10, 3, 4]`, return `3`.
 
 ---
 
-### Problem 204
+### Problem 204 (Easy)
 
-This problem was asked by Amazon.
+> This problem was asked by Amazon.
 
 Given a complete binary tree, count the number of nodes in faster than `O(n)` time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
 
@@ -9382,9 +9382,7 @@ An element is considered a peak if it is greater than both its left and right ne
 
 ### Problem 736 (Easy)
 
-This problem was asked by Amazon.
-
-Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
+Same as [problem 204](#problem-204-easy).
 
 ### Problem 737 (Hard)
 
@@ -11034,9 +11032,7 @@ Given a binary tree and a particular node, find all cousins of that node.
 
 ### Problem 913 (Easy)
 
-This problem was asked by Amazon.
-
-Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
+Same as [problem 204](#problem-204-easy).
 
 ### Problem 914 (Hard)
 
@@ -15716,9 +15712,7 @@ Same as [problem 72](#problem-72-hard).
 
 ### Problem 1365 (Easy)
 
-This problem was asked by Amazon.
-
-Given a complete binary tree, count the number of nodes in faster than O(n) time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
+Same as [problem 204](#problem-204-easy).
 
 ### Problem 1366 (Medium)
 
@@ -19421,3 +19415,7 @@ Same as [problem 252](#problem-252-easy).
 ### Problem 1754 (Easy)
 
 Same as [problem 362](#problem-362-easy).
+
+### Problem 1755 (Easy)
+
+Same as [problem 204](#problem-204-easy).
