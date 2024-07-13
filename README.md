@@ -388,6 +388,8 @@ Design a binary tree node class with the following methods:
 
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 
+[Solution](https://k5kc.com/cs/algorithms/locking-and-unlocking-resources-represented-as-binary-tree-nodes/)
+
 ---
 
 ### Problem 25 (Hard)
@@ -404,6 +406,8 @@ That is, implement a function that takes in a string and a valid regular express
 For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
 
 Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+
+TODO: add solution
 
 ---
 
@@ -638,6 +642,8 @@ Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 
 
 Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
 
+[Solution](https://k5kc.com/cs/algorithms/reconstruct-itinerary-problem/)
+
 ### Problem 42 (Hard)
 
 > This problem was asked by Google.
@@ -682,6 +688,8 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 > This problem was asked by Two Sigma.
 
 Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
+
+TODO: add solution
 
 ### Problem 46 (Hard)
 
@@ -839,6 +847,8 @@ Hint: What if we enter the same URL twice?
 
 Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
 
+[Solution](https://k5kc.com/cs/algorithms/m-coloring-problem-undirected-graph-as-adjacency-matrix/)
+
 ---
 
 ### Problem 57 (Medium)
@@ -850,6 +860,8 @@ Given a string s and an integer k, break up the string into multiple lines such 
 You can assume that there are no spaces at the ends of the string and that there is exactly one space between each word.
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
+
+[Solution](https://k5kc.com/cs/algorithms/text-justification-problem/)
 
 ---
 
@@ -874,6 +886,8 @@ You can assume all the integers in the array are unique.
 > This problem was asked by Google.
 
 Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
+
+[Solution](https://k5kc.com/cs/algorithms/low-bandwidth-almost-similar-file-syncing-algorithm-between-two-computers/)
 
 ---
 
@@ -951,6 +965,8 @@ A knight's tour is a sequence of moves by a knight on a chessboard such that all
 
 Given N, write a function to return the number of knight's tours on an N by N chessboard
 
+TODO: solve the problem
+
 ---
 
 ### Problem 65 (Easy)
@@ -1018,6 +1034,8 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 
 Each operation should run in O(1) time.
 
+[Solution](https://k5kc.com/cs/algorithms/lfu-cache-problem/)
+
 ---
 
 ### Problem 68 (Medium)
@@ -1047,6 +1065,8 @@ The board would look like this:
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
+TODO: solve this problem
+
 ---
 
 ### Problem 69
@@ -1059,6 +1079,8 @@ For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since th
 
 You can assume the list has at least three integers
 
+[Solution](https://k5kc.com/cs/algorithms/maximum-product-of-three-numbers-problem/)
+
 ---
 
 ### Problem 70 (Easy)
@@ -1070,6 +1092,8 @@ A number is considered perfect if its digits sum up to exactly 10.
 Given a positive integer `n`, return the `n`-th perfect number.
 
 For example, given 1, you should return 19. Given 2, you should return 28.
+
+[Solution](https://k5kc.com/cs/algorithms/nth-number-with-sum-of-digits-as-10/)
 
 ---
 
