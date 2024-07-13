@@ -230,6 +230,8 @@ The area of a circle is defined as `πr^2`. Estimate `π` to 3 decimal places us
 
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 
+[Solution](https://k5kc.com/cs/algorithms/reservoir-sampling-explained/)
+
 ### Problem 16 (Easy)
 
 > This problem was asked by Twitter.
@@ -241,7 +243,7 @@ You run an e-commerce website and want to record the last `N` `order` ids in a l
 
 You should be as efficient with time and space as possible.
 
-TODO: implement this function.
+[Solution](https://k5kc.com/cs/algorithms/design-log-order-records/)
 
 ### Problem 17 (Hard)
 
