@@ -1913,9 +1913,9 @@ This question was asked by Snapchat.
 
 Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
 
-### Problem 132
+### Problem 132 (Easy)
 
-This question was asked by Riot Games.
+> This question was asked by Riot Games.
 
 Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
 
@@ -8653,15 +8653,7 @@ For example, given the numbers `[42, 56, 14]`, return `14`.
 
 ### Problem 663 (Easy)
 
-This question was asked by Riot Games.
-
-Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
-
-- `record(timestamp)`: records a hit that happened at `timestamp`
-- `total()`: returns the total number of hits recorded
-- `range(lower, upper)`: returns the number of hits that occurred between timestamps `lower` and `upper` (inclusive)
-
-Follow-up: What if our system has limited memory?
+Same as [problem 132](#problem-132-easy).
 
 ### Problem 664 (Easy)
 
@@ -10910,15 +10902,7 @@ Same as [problem 19](#problem-19-medium).
 
 ### Problem 894 (Easy)
 
-This question was asked by Riot Games.
-
-Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
-
-- `record(timestamp)`: records a hit that happened at `timestamp`
-- `total()`: returns the total number of hits recorded
-- `range(lower, upper)`: returns the number of hits that occurred between timestamps `lower` and `upper` (inclusive)
-
-Follow-up: What if our system has limited memory?
+Same as [problem 132](#problem-132-easy).
 
 ### Problem 895 (Hard)
 
@@ -15882,15 +15866,7 @@ Same as [problem 152](#problem-152-medium).
 
 ### Problem 1384 (Easy)
 
-This question was asked by Riot Games.
-
-Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
-
-- `record(timestamp)`: records a hit that happened at `timestamp`
-- `total()`: returns the total number of hits recorded
-- `range(lower, upper)`: returns the number of hits that occurred between timestamps `lower` and `upper` (inclusive)
-
-Follow-up: What if our system has limited memory?
+Same as [problem 132](#problem-132-easy).
 
 ### Problem 1385 (Easy)
 
@@ -19445,3 +19421,7 @@ Same as [problem 362](#problem-362-easy).
 ### Problem 1755 (Easy)
 
 Same as [problem 204](#problem-204-easy).
+
+### Problem 1756 (Easy)
+
+Same as [problem 132](#problem-132-easy).
