@@ -19425,3 +19425,7 @@ Same as [problem 204](#problem-204-easy).
 ### Problem 1756 (Easy)
 
 Same as [problem 132](#problem-132-easy).
+
+### Problem 1757 (Hard)
+
+Same as [problem 12](#problem-12-hard).
