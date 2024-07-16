@@ -8623,9 +8623,7 @@ Same as [problem 17](#problem-17-hard).
 
 ### Problem 659 (Hard)
 
-This problem was asked by Twitch.
-
-Describe what happens when you type a URL into your browser and press Enter.
+Same as [problem 183](#problem-183-hard).
 
 ### Problem 660 (Hard)
 
@@ -11251,9 +11249,7 @@ For example, given the numbers `[42, 56, 14]`, return `14`.
 
 ### Problem 932 (Hard)
 
-This problem was asked by Twitch.
-
-Describe what happens when you type a URL into your browser and press Enter.
+Same as [problem 183](#problem-183-hard).
 
 ### Problem 933 (Medium)
 
@@ -15755,9 +15751,7 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 ### Problem 1368 (Hard)
 
-This problem was asked by Twitch.
-
-Describe what happens when you type a URL into your browser and press Enter.
+Same as [problem 183](#problem-183-hard).
 
 ### Problem 1369 (Medium)
 
@@ -19433,3 +19427,7 @@ Same as [problem 12](#problem-12-hard).
 ### Problem 1758 (Hard)
 
 Same as [problem 35](#problem-35-hard).
+
+### Problem 1759 (Hard)
+
+Same as [problem 183](#problem-183-hard).
