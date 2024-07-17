@@ -19431,3 +19431,7 @@ Same as [problem 35](#problem-35-hard).
 ### Problem 1759 (Hard)
 
 Same as [problem 183](#problem-183-hard).
+
+### Problem 1760 (Hard)
+
+Same as [problem 18](#problem-18-hard).
