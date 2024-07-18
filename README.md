@@ -2531,7 +2531,7 @@ For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a`
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
 ### Problem 177 (Easy)
->
+
 > This problem was asked by Airbnb.
 
 Given a linked list and a positive integer k, rotate the list to the right by k places.
@@ -2560,11 +2560,13 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
 
  For example, given the sequence 2, 4, 3, 8, 7, 5, you should construct the following tree:
 
+```d
         5
        / \
       3   7
      / \   \
     2   4   8
+```
 
 ### Problem 180 (Medium)
 
@@ -2589,7 +2591,7 @@ For example, given the input string racecarannakayak, return ["racecar", "anna",
 Given the input string abc, return ["a", "b", "c"].
 
 ### Problem 182 (Medium)
->
+
 > This problem was asked by Facebook.
 
 A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
@@ -2601,6 +2603,8 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 > This problem was asked by Twitch.
 
 Describe what happens when you type a URL into your browser and press Enter.
+
+[Solution](https://k5kc.com/cs/system-design/what-happens-when-you-type-an-url-in-the-browser-and-press-enter/)
 
 ### Problem 184 (Easy)
 
@@ -7634,15 +7638,7 @@ Can you perform the operation without allocating extra memory (disregarding the 
 
 ### Problem 573 (Medium)
 
-This problem was asked by Google.
-
-Given a stack of N elements, interleave the first half of the stack with the second half reversed using only one other queue. This should be done in-place.
-
-Recall that you can only push or pop from a stack, and enqueue or dequeue from a queue.
-
-For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. If the stack is [1, 2, 3, 4], it should become [1, 4, 2, 3].
-
-Hint: Try working backwards from the end state.
+Same as [problem 180](#problem-180-medium).
 
 ### Problem 574 (Medium)
 
@@ -11453,15 +11449,7 @@ Find the busiest period in the building, that is, the time with the most people 
 
 ### Problem 951 (Medium)
 
-This problem was asked by Google.
-
-Given a stack of N elements, interleave the first half of the stack with the second half reversed using only one other queue. This should be done in-place.
-
-Recall that you can only push or pop from a stack, and enqueue or dequeue from a queue.
-
-For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. If the stack is [1, 2, 3, 4], it should become [1, 4, 2, 3].
-
-Hint: Try working backwards from the end state.
+Same as [problem 180](#problem-180-medium).
 
 ### Problem 952 (Easy)
 
@@ -14113,15 +14101,7 @@ If either value does not exist, return None.
 
 ### Problem 1211 (Medium)
 
-This problem was asked by Google.
-
-Given a stack of N elements, interleave the first half of the stack with the second half reversed using only one other queue. This should be done in-place.
-
-Recall that you can only push or pop from a stack, and enqueue or dequeue from a queue.
-
-For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. If the stack is [1, 2, 3, 4], it should become [1, 4, 2, 3].
-
-Hint: Try working backwards from the end state.
+Same as [problem 180](#problem-180-medium).
 
 ### Problem 1212 (Medium)
 
@@ -19435,3 +19415,7 @@ Same as [problem 183](#problem-183-hard).
 ### Problem 1760 (Hard)
 
 Same as [problem 18](#problem-18-hard).
+
+### Problem 1761 (Medium)
+
+Same as [problem 180](#problem-180-medium).
