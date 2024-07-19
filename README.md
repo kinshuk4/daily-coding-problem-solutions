@@ -4531,7 +4531,7 @@ If either value does not exist, return None.
 
 ---
 
-### Problem 308
+### Problem 308 (Hard)
 
 This problem was asked by Quantcast.
 
@@ -6063,16 +6063,7 @@ Given a tree, return the size of the largest tree/subtree that is a BST.
 
 ### Problem 406 (Hard)
 
-This problem was asked by Quantcast.
-
-You are presented with an array representing a Boolean expression. The elements are of two kinds:
-
-- `T` and `F`, representing the values `True` and `False`.
-- `&`, `|`, and `^`, representing the bitwise operators for `AND`, `OR`, and `XOR`.
-
-Determine the number of ways to group the array elements using parentheses so that the entire expression evaluates to `True`.
-
-For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T) & T` and `F | (T & T)`.
+Same as [problem 308](#problem-308-hard).
 
 ### Problem 407 (Medium)
 
@@ -12870,16 +12861,7 @@ For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B 
 
 ### Problem 1088 (Hard)
 
-This problem was asked by Quantcast.
-
-You are presented with an array representing a Boolean expression. The elements are of two kinds:
-
-- `T` and `F`, representing the values `True` and `False`.
-- `&`, `|`, and `^`, representing the bitwise operators for `AND`, `OR`, and `XOR`.
-
-Determine the number of ways to group the array elements using parentheses so that the entire expression evaluates to `True`.
-
-For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T) & T` and `F | (T & T)`.
+Same as [problem 308](#problem-308-hard).
 
 ### Problem 1089 (Hard)
 
@@ -16014,16 +15996,7 @@ Given a string and a pattern, find the starting indices of all occurrences of th
 
 ### Problem 1405 (Hard)
 
-This problem was asked by Quantcast.
-
-You are presented with an array representing a Boolean expression. The elements are of two kinds:
-
-- `T` and `F`, representing the values `True` and `False`.
-- `&`, `|`, and `^`, representing the bitwise operators for `AND`, `OR`, and `XOR`.
-
-Determine the number of ways to group the array elements using parentheses so that the entire expression evaluates to `True`.
-
-For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T) & T` and `F | (T & T)`.
+Same as [problem 308](#problem-308-hard).
 
 ### Problem 1406 (Easy)
 
@@ -19419,3 +19392,7 @@ Same as [problem 18](#problem-18-hard).
 ### Problem 1761 (Medium)
 
 Same as [problem 180](#problem-180-medium).
+
+### Problem 1762 (Hard)
+
+Same as [problem 308](#problem-308-hard).
