@@ -3513,7 +3513,7 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 ---
 
-### Problem 251
+### Problem 251 (Medium)
 
 This problem was asked by Amazon.
 
@@ -6208,9 +6208,7 @@ Same as [problem 70](#problem-70-easy).
 
 ### Problem 421 (Medium)
 
-This problem was asked by Amazon.
-
-Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
+Same as [problem 251](#problem-251-medium).
 
 ### Problem 422 (Easy)
 
@@ -12416,9 +12414,7 @@ Given a sequence `S`, construct the corresponding Cartesian tree.
 
 ### Problem 1049 (Medium)
 
-This problem was asked by Amazon.
-
-Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
+Same as [problem 251](#problem-251-medium).
 
 ### Problem 1050 (Easy)
 
@@ -16753,9 +16749,7 @@ For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition
 
 ### Problem 1480 (Medium)
 
-This problem was asked by Amazon.
-
-Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
+Same as [problem 251](#problem-251-medium).
 
 ### Problem 1481 (Hard)
 
@@ -19396,3 +19390,7 @@ Same as [problem 180](#problem-180-medium).
 ### Problem 1762 (Hard)
 
 Same as [problem 308](#problem-308-hard).
+
+### Problem 1763 (Medium)
+
+Same as [problem 251](#problem-251-medium).
