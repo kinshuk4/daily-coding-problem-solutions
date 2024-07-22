@@ -372,6 +372,8 @@ For example, given the following board:
 
 and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum number of steps required to reach the end is 7, since we would need to go through `(1, 2)` because there is a wall everywhere else on the second row.
 
+[Solution](https://k5kc.com/cs/algorithms/find-the-shortest-path-between-2-cells-in-boolean-maze/)
+
 ---
 
 ### Problem 24 (Medium)
@@ -407,7 +409,7 @@ For example, given the regular expression "ra." and the string "ray", your funct
 
 Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
 
-TODO: add solution
+[Solution](https://k5kc.com/cs/algorithms/regular-expression-matching-problem/)
 
 ---
 
@@ -509,7 +511,7 @@ Suppose you are given a table of currency exchange rates, represented as a 2D ar
 
 There are no transaction costs and you can trade fractional quantities.
 
-TODO: Solve the problem
+[Solution](https://k5kc.com/cs/algorithms/check-currency-arbitrage-with-bellman-ford/)
 
 ---
 
@@ -689,7 +691,7 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 
 Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
 
-TODO: add solution
+[Solution](https://k5kc.com/cs/algorithms/implement-rand7-using-rand5-/)
 
 ### Problem 46 (Hard)
 
@@ -737,7 +739,7 @@ d  e f  g
 
 [Solution](https://k5kc.com/cs/algorithms/construct-binary-tree-from-inorder-and-preorder-traversal/)
 
-### Problem 49
+### Problem 49 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -3027,11 +3029,11 @@ Given the root to a binary tree, return its bottom view.
 
 ---
 
-### Problem 216
+### Problem 216 (Medium)
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
-Given a number in Roman numeral format, convert it to decimal.
+Given a number in [Roman numeral](https://en.wikipedia.org/wiki/Roman_numerals) format, convert it to decimal.
 
 The values of Roman numerals are as follows:
 
@@ -3047,11 +3049,9 @@ The values of Roman numerals are as follows:
 }
 ```
 
-In addition, note that the Roman numeral system uses subtractive notation for numbers such as `IV` and `XL`.
+In addition, note that the Roman numeral system uses [subtractive notation](https://en.wikipedia.org/wiki/Subtractive_notation) for numbers such as `IV` and `XL`.
 
 For the input `XIV`, for instance, you should return `14`.
-
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution216.java)
 
 ---
 
@@ -7225,15 +7225,7 @@ Given integers `M` and `N`, write a program that counts how many positive intege
 
 ### Problem 524 (Medium)
 
-This problem was asked by Amazon.
-
-Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
-
-For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
-
-Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
-
-Do this in O(N) time.
+Same as [problem 49](#problem-49-medium).
 
 ### Problem 525 (Easy)
 
@@ -8132,27 +8124,7 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 ### Problem 617 (Medium)
 
-This problem was asked by Facebook.
-
-Given a number in [Roman numeral](https://en.wikipedia.org/wiki/Roman_numerals) format, convert it to decimal.
-
-The values of Roman numerals are as follows:
-
-```
-{
-    'M': 1000,
-    'D': 500,
-    'C': 100,
-    'L': 50,
-    'X': 10,
-    'V': 5,
-    'I': 1
-}
-```
-
-In addition, note that the Roman numeral system uses [subtractive notation](https://en.wikipedia.org/wiki/Subtractive_notation) for numbers such as `IV` and `XL`.
-
-For the input `XIV`, for instance, you should return `14`.
+Same as [problem 216](#problem-216-medium).
 
 ### Problem 618 (Hard)
 
@@ -10882,15 +10854,7 @@ Write a function that plays the `24` game.
 
 ### Problem 900 (Medium)
 
-This problem was asked by Amazon.
-
-Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
-
-For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
-
-Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
-
-Do this in O(N) time.
+Same as [problem 49](#problem-49-medium).
 
 ### Problem 901 (Hard)
 
@@ -12758,27 +12722,7 @@ Design and implement Connect 4.
 
 ### Problem 1083 (Medium)
 
-This problem was asked by Facebook.
-
-Given a number in [Roman numeral](https://en.wikipedia.org/wiki/Roman_numerals) format, convert it to decimal.
-
-The values of Roman numerals are as follows:
-
-```
-{
-    'M': 1000,
-    'D': 500,
-    'C': 100,
-    'L': 50,
-    'X': 10,
-    'V': 5,
-    'I': 1
-}
-```
-
-In addition, note that the Roman numeral system uses [subtractive notation](https://en.wikipedia.org/wiki/Subtractive_notation) for numbers such as `IV` and `XL`.
-
-For the input `XIV`, for instance, you should return `14`.
+Same as [problem 216](#problem-216-medium).
 
 ### Problem 1084 (Medium)
 
@@ -14454,15 +14398,7 @@ Bonus: Can you do this in one pass?
 
 ### Problem 1256 (Medium)
 
-This problem was asked by Amazon.
-
-Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
-
-For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
-
-Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
-
-Do this in O(N) time.
+Same as [problem 49](#problem-49-medium).
 
 ### Problem 1257 (Medium)
 
@@ -15123,27 +15059,7 @@ Same as [problem 13](#problem-13-hard).
 
 ### Problem 1321 (Medium)
 
-This problem was asked by Facebook.
-
-Given a number in [Roman numeral](https://en.wikipedia.org/wiki/Roman_numerals) format, convert it to decimal.
-
-The values of Roman numerals are as follows:
-
-```
-{
-    'M': 1000,
-    'D': 500,
-    'C': 100,
-    'L': 50,
-    'X': 10,
-    'V': 5,
-    'I': 1
-}
-```
-
-In addition, note that the Roman numeral system uses [subtractive notation](https://en.wikipedia.org/wiki/Subtractive_notation) for numbers such as `IV` and `XL`.
-
-For the input `XIV`, for instance, you should return `14`.
+Same as [problem 216](#problem-216-medium).
 
 ### Problem 1322 (Hard)
 
@@ -17260,15 +17176,7 @@ Bonus: Can you do this in one pass?
 
 ### Problem 1536 (Medium)
 
-This problem was asked by Amazon.
-
-Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
-
-For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
-
-Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
-
-Do this in O(N) time.
+Same as [problem 49](#problem-49-medium).
 
 ### Problem 1537 (Easy)
 
@@ -19327,3 +19235,7 @@ Same as [problem 251](#problem-251-medium).
 ### Problem 1764 (Hard)
 
 Same as [problem 349](#problem-349-hard).
+
+### Problem 17665 (Medium)
+
+Same as [problem 216](#problem-216-medium).
