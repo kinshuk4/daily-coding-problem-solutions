@@ -8322,11 +8322,11 @@ x x x x
 
 Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
 
-## ### Problem 635 (Hard)
+### Problem 635 (Hard)
 
 Same as [problem 25](#problem-25-hard).
 
-## ### Problem 636 (Medium)
+### Problem 636 (Medium)
 
 This problem was asked by Uber.
 
@@ -8334,11 +8334,11 @@ Suppose an array sorted in ascending order is rotated at some pivot unknown to y
 
 For example, given [5, 7, 10, 3, 4], return 3.
 
-## ### Problem 637 (Easy)
+### Problem 637 (Easy)
 
 Same as [problem 77](#problem-77-easy).
 
-## ### Problem 638 (Medium)
+### Problem 638 (Medium)
 
 This problem was asked by Google.
 
@@ -8346,11 +8346,11 @@ Given a string of words delimited by spaces, reverse the words in string. For ex
 
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
-## ### Problem 639 (Easy)
+### Problem 639 (Easy)
 
 Same as [problem 81](#problem-81-easy).
 
-## ### Problem 640 (Easy)
+### Problem 640 (Easy)
 
 This problem was asked by Google.
 
@@ -8374,7 +8374,7 @@ For example, given the starting state `a`, number of steps 5000, and the followi
 
 One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656, 'c': 332 }`.
 
-## ### Problem 641 (Easy)
+### Problem 641 (Easy)
 
 This problem was asked by Amazon.
 
@@ -8384,7 +8384,7 @@ For example, for the input `[1, 2, 3, 10]`, you should return `7`.
 
 Do this in `O(N)` time.
 
-## ### Problem 642 (Easy)
+### Problem 642 (Easy)
 
 This problem was asked by Pivotal.
 
@@ -8392,21 +8392,21 @@ A step word is formed by taking a given word, adding a letter, and anagramming t
 
 Given a dictionary of words and an input word, create a function that returns all valid step words.
 
-## ### Problem 643 (Hard)
+### Problem 643 (Hard)
 
 This problem was asked by YouTube.
 
 Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
 
-## ### Problem 644 (Easy)
+### Problem 644 (Easy)
 
 Same as [problem 8](#problem-8-easy).
 
-## ### Problem 645 (Easy)
+### Problem 645 (Easy)
 
 Same as [problem 63](#problem-63-easy).
 
-## ### Problem 646 (Easy)
+### Problem 646 (Easy)
 
 This problem was asked by Twitter.
 
@@ -8426,17 +8426,17 @@ Each student can be placed in a friend group, which can be defined as the transi
 
 Given a friendship list such as the one above, determine the number of friend groups in the class.
 
-## ### Problem 647 (Medium)
+### Problem 647 (Medium)
 
 Same as [problem 60](#problem-60-medium).
 
-## ### Problem 648 (Medium)
+### Problem 648 (Medium)
 
 This question was asked by Snapchat.
 
 Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
 
-## ### Problem 649 (Easy)
+### Problem 649 (Easy)
 
 This problem was asked by Google.
 
@@ -8444,7 +8444,7 @@ Given a string, return the first recurring character in it, or null if there is 
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
 
-## ### Problem 650 (Hard)
+### Problem 650 (Hard)
 
 This problem was asked by Google.
 
@@ -19236,6 +19236,10 @@ Same as [problem 251](#problem-251-medium).
 
 Same as [problem 349](#problem-349-hard).
 
-### Problem 17665 (Medium)
+### Problem 1765 (Medium)
 
 Same as [problem 216](#problem-216-medium).
+
+### Problem 1766 (Easy)
+
+Same as [problem 77](#problem-77-easy).
