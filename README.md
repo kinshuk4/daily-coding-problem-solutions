@@ -1023,6 +1023,8 @@ Assume you have access to a function `toss_biased()` which returns 0 or 1 with a
 
 Write a function to simulate an unbiased coin toss.
 
+[Solution](https://k5kc.com/cs/algorithms/simulating-an-unbiased-coin-toss-using-a-biased-coin/)
+
 ---
 
 ### Problem 67 (Hard)
@@ -3052,6 +3054,8 @@ The values of Roman numerals are as follows:
 In addition, note that the Roman numeral system uses [subtractive notation](https://en.wikipedia.org/wiki/Subtractive_notation) for numbers such as `IV` and `XL`.
 
 For the input `XIV`, for instance, you should return `14`.
+
+[Solution](https://k5kc.com/cs/algorithms/roman-to-integer-problem/)
 
 ---
 
