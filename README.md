@@ -19247,3 +19247,7 @@ Same as [problem 216](#problem-216-medium).
 ### Problem 1766 (Easy)
 
 Same as [problem 77](#problem-77-easy).
+
+### Problem 1767 (Medium)
+
+Same as [problem 30](#problem-30-medium).
