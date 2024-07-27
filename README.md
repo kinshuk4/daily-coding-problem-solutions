@@ -2174,7 +2174,7 @@ Given a list of points, a central point, and an integer `k`, find the nearest `k
 For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`
 ---
 
-### Problem 151
+### Problem 151 (Medium)
 
 Given a 2-D matrix representing an image, a location of a pixel in the screen and a color `C`, replace the color of the given pixel and all adjacent same colored pixels with `C`.
 
@@ -8505,25 +8505,7 @@ For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, 
 
 ### Problem 656 (Medium)
 
-Given a 2-D matrix representing an image, a location of a pixel in the screen and a color `C`, replace the color of the given pixel and all adjacent same colored pixels with `C`.
-
-For example, given the following matrix, and location pixel of (2, 2), and 'G' for green:
-
-```
-B B W
-W W W
-W W W
-B B B
-```
-
-Becomes
-
-```
-B B G
-G G G
-G G G
-B B B
-```
+Same as [problem 151](#problem-151-medium).
 
 ### Problem 657 (Easy)
 
@@ -12621,25 +12603,7 @@ One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656,
 
 ### Problem 1081 (Medium)
 
-Given a 2-D matrix representing an image, a location of a pixel in the screen and a color `C`, replace the color of the given pixel and all adjacent same colored pixels with `C`.
-
-For example, given the following matrix, and location pixel of (2, 2), and 'G' for green:
-
-```
-B B W
-W W W
-W W W
-B B B
-```
-
-Becomes
-
-```
-B B G
-G G G
-G G G
-B B B
-```
+Same as [problem 151](#problem-151-medium).
 
 ### Problem 1082 (Hard)
 
@@ -13439,25 +13403,7 @@ After `k` moves, what is the probability that the knight remains on the board?
 
 ### Problem 1166 (Medium)
 
-Given a 2-D matrix representing an image, a location of a pixel in the screen and a color `C`, replace the color of the given pixel and all adjacent same colored pixels with `C`.
-
-For example, given the following matrix, and location pixel of (2, 2), and 'G' for green:
-
-```
-B B W
-W W W
-W W W
-B B B
-```
-
-Becomes
-
-```
-B B G
-G G G
-G G G
-B B B
-```
+Same as [problem 151](#problem-151-medium).
 
 ### Problem 1167 (Medium)
 
@@ -19131,3 +19077,7 @@ Same as [problem 458](#problem-458-hard).
 ### Problem 1769 (Medium)
 
 Same as [problem 294](#problem-294-medium).
+
+### Problem 1770 (Medium)
+
+Same as [problem 151](#problem-151-medium).
