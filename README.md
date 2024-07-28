@@ -3924,7 +3924,7 @@ Don't use eval or a similar built-in parser.
 
 For example, given `'-1 + (2 + 3)'`, you should return `4`.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution274.java)
+[Solution](https://k5kc.com/cs/algorithms/basic-calculator-1-problem/)
 
 ---
 
