@@ -2196,6 +2196,8 @@ G G G
 B B B
 ```
 
+[Solution](https://k5kc.com/cs/algorithms/flood-fill-problem/)
+
 ### Problem 152 (Medium)
 
 > This problem was asked by Triplebyte.
@@ -3912,9 +3914,9 @@ For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`
 
 ---
 
-### Problem 274
+### Problem 274 (Hard)
 
-This problem was asked by Facebook.
+> This problem was asked by Facebook.
 
 Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
 
@@ -4325,7 +4327,7 @@ paths = {
 
 In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distance of `28`.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution294.java)
+[Solution](https://k5kc.com/cs/algorithms/shortest-uphill-downhill-route-for-a-competitive-runner/)
 
 ---
 
@@ -9332,13 +9334,7 @@ Given an integer `N`, write a program that returns, in order, the first `N` regu
 
 ### Problem 741 (Hard)
 
-This problem was asked by Facebook.
-
-Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
-
-Don't use `eval` or a similar built-in parser.
-
-For example, given '-1 + (2 + 3)', you should return `4`.
+Same as [problem 274](#problem-274-hard).
 
 ### Problem 742 (Easy)
 
@@ -11491,13 +11487,7 @@ Same as [7](#problem-7-medium).
 
 ### Problem 974 (Hard)
 
-This problem was asked by Facebook.
-
-Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
-
-Don't use `eval` or a similar built-in parser.
-
-For example, given '-1 + (2 + 3)', you should return `4`.
+Same as [problem 274](#problem-274-hard).
 
 ### Problem 975 (Hard)
 
@@ -15799,13 +15789,7 @@ You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
 ### Problem 1416 (Hard)
 
-This problem was asked by Facebook.
-
-Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
-
-Don't use `eval` or a similar built-in parser.
-
-For example, given '-1 + (2 + 3)', you should return `4`.
+Same as [problem 274](#problem-274-hard).
 
 ### Problem 1417 (Easy)
 
@@ -19081,3 +19065,7 @@ Same as [problem 294](#problem-294-medium).
 ### Problem 1770 (Medium)
 
 Same as [problem 151](#problem-151-medium).
+
+### Problem 1771 (Hard)
+
+Same as [problem 274](#problem-274-hard).
