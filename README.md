@@ -4736,13 +4736,13 @@ For example, given `100`, you can reach `1` in five steps with the following rou
 
 ---
 
-### Problem 322
+### Problem 322 (Medium)
 
-This problem was asked by Flipkart.
+> This problem was asked by Flipkart.
 
-Starting from `0` on a number line, you would like to make a series of jumps that lead to the integer `N`.
+Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
 
-On the `i`th jump, you may move exactly `i` places to the left or right.
+On the `ith` jump, you may move exactly `i` places to the left or right.
 
 Find a path with the fewest number of jumps required to get from `0` to `N`.
 
@@ -7653,13 +7653,7 @@ Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two 
 
 ### Problem 579 (Medium)
 
-This problem was asked by Flipkart.
-
-Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
-
-On the `i``th` jump, you may move exactly i places to the left or right.
-
-Find a path with the fewest number of jumps required to get from 0 to N.
+Same as [problem 322](#problem-322-medium).
 
 ### Problem 580 (Easy)
 
@@ -11425,13 +11419,7 @@ You are given an array of length `n + 1` whose elements belong to the set `{1, 2
 
 ### Problem 968 (Medium)
 
-This problem was asked by Flipkart.
-
-Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
-
-On the `i``th` jump, you may move exactly i places to the left or right.
-
-Find a path with the fewest number of jumps required to get from 0 to N.
+Same as [problem 322](#problem-322-medium).
 
 ### Problem 969 (Medium)
 
@@ -14744,13 +14732,7 @@ For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2
 
 ### Problem 1301 (Medium)
 
-This problem was asked by Flipkart.
-
-Starting from 0 on a number line, you would like to make a series of jumps that lead to the integer N.
-
-On the `i``th` jump, you may move exactly i places to the left or right.
-
-Find a path with the fewest number of jumps required to get from 0 to N.
+Same as [problem 322](#problem-322-medium).
 
 ### Problem 1302 (Hard)
 
@@ -19069,3 +19051,7 @@ Same as [problem 151](#problem-151-medium).
 ### Problem 1771 (Hard)
 
 Same as [problem 274](#problem-274-hard).
+
+### Problem 1772 (Medium)
+
+Same as [problem 322](#problem-322-medium).
