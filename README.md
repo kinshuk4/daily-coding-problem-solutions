@@ -1069,7 +1069,7 @@ The board would look like this:
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
-TODO: solve this problem
+[Solution](https://k5kc.com/cs/algorithms/bishop-diagonally-attack-on-chess-board-problem/)
 
 ---
 
@@ -1106,6 +1106,8 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 > This problem was asked by Two Sigma.
 
 Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive)
+
+[Solution](https://k5kc.com/cs/algorithms/implement-rand5-using-rand7-/)
 
 ---
 
