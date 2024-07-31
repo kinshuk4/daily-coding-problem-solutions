@@ -1141,6 +1141,8 @@ The following input graph:
 
 Should return null, since we have an infinite loop.
 
+[Solution](https://k5kc.com/cs/algorithms/largest-value-path-in-a-directed-graph-problem/)
+
 ---
 
 ### Problem 73 (Easy)
