@@ -4905,16 +4905,14 @@ Determine how many times you would need to apply this operation to ensure that a
 
 ---
 
-### Problem 332
+### Problem 332 (Easy)
 
-This problem was asked by Jane Street.
+> This problem was asked by Jane Street.
 
 Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following conditions:
 
-```
-a + b = M
-a XOR b = N
-```
+- `a + b = M`
+- `a XOR b = N`
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution332.java)
 
@@ -7204,12 +7202,7 @@ Given a string and a pattern, find the starting indices of all occurrences of th
 
 ### Problem 523 (Medium)
 
-This problem was asked by Jane Street.
-
-Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following conditions:
-
-- `a + b = M`
-- `a XOR b = N`
+Same as [problem 332](#problem-332-easy).
 
 ### Problem 524 (Medium)
 
@@ -10316,12 +10309,7 @@ t     a     g
 
 ### Problem 841 (Easy)
 
-This problem was asked by Jane Street.
-
-Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following conditions:
-
-- `a + b = M`
-- `a XOR b = N`
+Same as [problem 332](#problem-332-easy).
 
 ### Problem 842 (Medium)
 
@@ -13164,12 +13152,7 @@ Same as [problem 78](#problem-78-medium).
 
 ### Problem 1144 (Easy)
 
-This problem was asked by Jane Street.
-
-Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following conditions:
-
-- `a + b = M`
-- `a XOR b = N`
+Same as [problem 332](#problem-332-easy).
 
 ### Problem 1145 (Medium)
 
@@ -19059,3 +19042,7 @@ Same as [problem 274](#problem-274-hard).
 ### Problem 1772 (Medium)
 
 Same as [problem 322](#problem-322-medium).
+
+### Problem 1773 (Easy)
+
+Same as [problem 332](#problem-332-easy).
