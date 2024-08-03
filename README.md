@@ -4723,7 +4723,7 @@ For example, given "jiujitsu", you should return 5, corresponding to the final f
 
 ---
 
-### Problem 321
+### Problem 321 (Easy)
 
 This problem was asked by PagerDuty.
 
@@ -6194,16 +6194,7 @@ For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4
 
 ### Problem 419 (Easy)
 
-This problem was asked by PagerDuty.
-
-Given a positive integer `N`, find the smallest number of steps it will take to reach `1`.
-
-There are two kinds of permitted steps:
-
-- You may decrement `N` to `N - 1`.
-- If `a * b = N`, you may decrement `N` to the larger of `a` and `b`.
-
-For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
+Same as [problem 321](#problem-321-easy).
 
 ### Problem 420 (Easy)
 
@@ -10685,16 +10676,7 @@ Design a class to represent the board, and find a series of steps to bring the b
 
 ### Problem 883 (Easy)
 
-This problem was asked by PagerDuty.
-
-Given a positive integer `N`, find the smallest number of steps it will take to reach `1`.
-
-There are two kinds of permitted steps:
-
-- You may decrement `N` to `N - 1`.
-- If `a * b = N`, you may decrement `N` to the larger of `a` and `b`.
-
-For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
+Same as [problem 321](#problem-321-easy).
 
 ### Problem 884 (Easy)
 
@@ -13829,16 +13811,7 @@ Same as [problem 41](#problem-41-medium).
 
 ### Problem 1215 (Easy)
 
-This problem was asked by PagerDuty.
-
-Given a positive integer `N`, find the smallest number of steps it will take to reach `1`.
-
-There are two kinds of permitted steps:
-
-- You may decrement `N` to `N - 1`.
-- If `a * b = N`, you may decrement `N` to the larger of `a` and `b`.
-
-For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
+Same as [problem 321](#problem-321-easy).
 
 ### Problem 1216 (Medium)
 
@@ -19046,3 +19019,7 @@ Same as [problem 322](#problem-322-medium).
 ### Problem 1773 (Easy)
 
 Same as [problem 332](#problem-332-easy).
+
+### Problem 1774 (Easy)
+
+Same as [problem 321](#problem-321-easy).
