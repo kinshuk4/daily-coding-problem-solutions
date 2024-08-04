@@ -4736,7 +4736,7 @@ There are two kinds of permitted steps:
 
 For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution321.java)
+[Solution](https://k5kc.com/cs/algorithms/minimum-steps-to-reduce-number-to-1/)
 
 ---
 
