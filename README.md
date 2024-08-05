@@ -3357,19 +3357,20 @@ Given perfect knowledge of the sequence of cards in the deck, implement a blackj
 
 ---
 
-### Problem 239
+### Problem 239 (Medium)
 
-This problem was asked by Uber.
+> This problem was asked by Uber.
 
-One way to unlock an Android phone is through a pattern of swipes across a 1-9 keypad.
+One way to unlock an Android phone is through a pattern of swipes across a `1-9` keypad.
 
 For a pattern to be valid, it must satisfy the following:
 
-All of its keys must be distinct.
-It must not connect two keys by jumping over a third key, unless that key has already been used.
+- All of its keys must be distinct.
+- It must not connect two keys by jumping over a third key, unless that key has already been used.
+
 For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
 
-Find the total number of valid unlock patterns of length N, where `1 <= N <= 9`.
+Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution239.java)
 
@@ -8914,18 +8915,7 @@ After `k` moves, what is the probability that the knight remains on the board?
 
 ### Problem 704 (Medium)
 
-This problem was asked by Uber.
-
-One way to unlock an Android phone is through a pattern of swipes across a `1-9` keypad.
-
-For a pattern to be valid, it must satisfy the following:
-
-- All of its keys must be distinct.
-- It must not connect two keys by jumping over a third key, unless that key has already been used.
-
-For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
-
-Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9`.
+Same as [problem 239](#problem-239-medium).
 
 ### Problem 705 (Medium)
 
@@ -11506,18 +11496,7 @@ For example, given "(()", you could return "(())". Given "))()(", you could retu
 
 ### Problem 985 (Medium)
 
-This problem was asked by Uber.
-
-One way to unlock an Android phone is through a pattern of swipes across a `1-9` keypad.
-
-For a pattern to be valid, it must satisfy the following:
-
-- All of its keys must be distinct.
-- It must not connect two keys by jumping over a third key, unless that key has already been used.
-
-For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
-
-Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9`.
+Same as [problem 239](#problem-239-medium).
 
 ### Problem 986 (Easy)
 
@@ -15222,18 +15201,7 @@ Same as [problem 495](#problem-15-medium).
 
 ### Problem 1360 (Medium)
 
-This problem was asked by Uber.
-
-One way to unlock an Android phone is through a pattern of swipes across a `1-9` keypad.
-
-For a pattern to be valid, it must satisfy the following:
-
-- All of its keys must be distinct.
-- It must not connect two keys by jumping over a third key, unless that key has already been used.
-
-For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
-
-Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9`.
+Same as [problem 239](#problem-239-medium).
 
 ### Problem 1361 (Hard)
 
@@ -18979,3 +18947,7 @@ Same as [problem 321](#problem-321-easy).
 ### Problem 1775 (Medium)
 
 Same as [problem 361](#problem-361-medium).
+
+### Problem 1776 (Medium)
+
+Same as [problem 239](#problem-239-medium).
