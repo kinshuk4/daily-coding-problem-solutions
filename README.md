@@ -3372,7 +3372,7 @@ For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
 
 Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9`.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution239.java)
+[Solution](https://k5kc.com/cs/algorithms/android-unlock-patterns-problem/)
 
 ---
 
@@ -18951,3 +18951,7 @@ Same as [problem 361](#problem-361-medium).
 ### Problem 1776 (Medium)
 
 Same as [problem 239](#problem-239-medium).
+
+### Problem 1777 (Medium)
+
+Same as [problem 68](#problem-68-medium).
