@@ -2012,7 +2012,7 @@ A bit array is a space efficient array that holds a value of `1` or `0` at each 
 - `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
 - `get(i)`: gets the value at index `i`.
 
-### Problem 138
+### Problem 138 (Hard)
 
 > This problem was asked by Google.
 
@@ -6779,13 +6779,7 @@ Write an algorithm that computes the reversal of a directed graph. For example, 
 
 ### Problem 474 (Hard)
 
-This problem was asked by Google.
-
-Find the minimum number of coins required to make `n` cents.
-
-You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
-
-For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢, and a 1¢.
+Same as [problem 138](#problem-138-hard).
 
 ### Problem 475 (Medium)
 
@@ -11933,13 +11927,7 @@ Write a function that returns how many steps this will take for a given input `N
 
 ### Problem 1029 (Hard)
 
-This problem was asked by Google.
-
-Find the minimum number of coins required to make `n` cents.
-
-You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
-
-For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢, and a 1¢.
+Same as [problem 138](#problem-138-hard).
 
 ### Problem 1030 (Easy)
 
@@ -15013,13 +15001,7 @@ Your function should return 3, since we can make the words 'eat', 'in', and 'rat
 
 ### Problem 1343 (Hard)
 
-This problem was asked by Google.
-
-Find the minimum number of coins required to make `n` cents.
-
-You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
-
-For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢, and a 1¢.
+Same as [problem 138](#problem-138-hard).
 
 ### Problem 1344 (Hard)
 
@@ -18959,3 +18941,7 @@ Same as [problem 68](#problem-68-medium).
 ### Problem 1778 (Hard)
 
 Same as [problem 9](#problem-9-hard).
+
+### Problem 1779 (Hard)
+
+Same as [problem 138](#problem-138-hard).
