@@ -1667,7 +1667,7 @@ Given two strings A and B, return whether or not A can be shifted some number of
 
 For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
 
-### Problem 109
+### Problem 109 (Medium)
 
 > This problem was asked by Cisco.
 
@@ -8812,13 +8812,7 @@ Same as [problem 11](#problem-11-medium).
 
 ### Problem 693 (Medium)
 
-This problem was asked by Cisco.
-
-Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit should be swapped, the 3rd and 4th bit should be swapped, and so on.
-
-For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
-
-Bonus: Can you do this in one line?
+Same as [problem 109](#problem-109-medium).
 
 ### Problem 694 (Hard)
 
@@ -11858,13 +11852,7 @@ Return the nodes `5` and `15`.
 
 ### Problem 1021 (Medium)
 
-This problem was asked by Cisco.
-
-Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit should be swapped, the 3rd and 4th bit should be swapped, and so on.
-
-For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
-
-Bonus: Can you do this in one line?
+Same as [problem 109](#problem-109-medium).
 
 ### Problem 1022 (Hard)
 
@@ -14423,13 +14411,7 @@ For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy
 
 ### Problem 1280 (Medium)
 
-This problem was asked by Cisco.
-
-Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit should be swapped, the 3rd and 4th bit should be swapped, and so on.
-
-For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
-
-Bonus: Can you do this in one line?
+Same as [problem 109](#problem-109-medium).
 
 ### Problem 1281 (Easy)
 
@@ -18945,3 +18927,7 @@ Same as [problem 9](#problem-9-hard).
 ### Problem 1779 (Hard)
 
 Same as [problem 138](#problem-138-hard).
+
+### Problem 1780 (Medium)
+
+Same as [problem 109](#problem-109-medium).
