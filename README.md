@@ -4781,7 +4781,7 @@ For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes a
 
 ---
 
-### Problem 325
+### Problem 325 (Easy)
 
 This problem was asked by Jane Street.
 
@@ -8790,11 +8790,7 @@ Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or ret
 
 ### Problem 689 (Easy)
 
-This problem was asked by Jane Street.
-
-The United States uses the imperial system of weights and measures, which means that there are many different, seemingly arbitrary units to measure distance. There are 12 inches in a foot, 3 feet in a yard, 22 yards in a chain, [and so on](https://en.wikipedia.org/wiki/Imperial_units#Length).
-
-Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
+Same as [problem 325](#problem-325-easy).
 
 ### Problem 690 (Hard)
 
@@ -11738,11 +11734,7 @@ For example, given the following board:
 
 ### Problem 1010 (Easy)
 
-This problem was asked by Jane Street.
-
-The United States uses the imperial system of weights and measures, which means that there are many different, seemingly arbitrary units to measure distance. There are 12 inches in a foot, 3 feet in a yard, 22 yards in a chain, [and so on](https://en.wikipedia.org/wiki/Imperial_units#Length).
-
-Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
+Same as [problem 325](#problem-325-easy).
 
 ### Problem 1011 (Hard)
 
@@ -15934,11 +15926,7 @@ You should convert it to:
 
 ### Problem 1445 (Easy)
 
-This problem was asked by Jane Street.
-
-The United States uses the imperial system of weights and measures, which means that there are many different, seemingly arbitrary units to measure distance. There are 12 inches in a foot, 3 feet in a yard, 22 yards in a chain, [and so on](https://en.wikipedia.org/wiki/Imperial_units#Length).
-
-Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
+Same as [problem 325](#problem-325-easy).
 
 ### Problem 1446 (Medium)
 
@@ -18931,3 +18919,7 @@ Same as [problem 138](#problem-138-hard).
 ### Problem 1780 (Medium)
 
 Same as [problem 109](#problem-109-medium).
+
+### Problem 1781 (Easy)
+
+Same as [problem 325](#problem-325-easy).
