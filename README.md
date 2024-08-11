@@ -1675,6 +1675,8 @@ Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit
 
 For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 
+[Solution](https://k5kc.com/cs/algorithms/swap-odd-and-even-bits-in-an-integer/)
+
 Bonus: Can you do this in one line?
 
 ### Problem 110
@@ -2242,7 +2244,7 @@ You can assume that such element exists.
 
 For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
 
-### Problem 156
+### Problem 156 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -2251,6 +2253,8 @@ Given a positive integer `n`, find the smallest number of squared integers which
 For example, given `n` = 13, return 2 since 13 = 3^2 + 2^2 = 9 + 4.
 
 Given `n` = 27, return 3 since 27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9.
+
+[Solution](https://k5kc.com/cs/algorithms/least-number-of-perfect-squares-that-sums-to-n/)
 
 ### Problem 157
 
@@ -8582,13 +8586,7 @@ Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play,
 
 ### Problem 670 (Medium)
 
-This problem was asked by Facebook.
-
-Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
-
-For example, given `n` = 13, return 2 since 13 = 32 + 22 = 9 + 4.
-
-Given `n` = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
+Same as [problem 156](#problem-156-medium).
 
 ### Problem 671 (Easy)
 
@@ -11504,13 +11502,7 @@ Follow-up: If you can preprocess the array, can you do this in constant time?
 
 ### Problem 988 (Medium)
 
-This problem was asked by Facebook.
-
-Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
-
-For example, given `n` = 13, return 2 since 13 = 3^2 + 2^2 = 9 + 4.
-
-Given `n` = 27, return 3 since 27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9.
+Same as [problem 156](#problem-156-medium).
 
 ### Problem 989 (Medium)
 
@@ -16162,13 +16154,7 @@ You should return `True`, since the bishop is attacking the king diagonally.
 
 ### Problem 1470 (Medium)
 
-This problem was asked by Facebook.
-
-Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
-
-For example, given `n` = 13, return 2 since 13 = 32 + 22 = 9 + 4.
-
-Given `n` = 27, return 3 since 27 = 32 + 32 + 32 = 9 + 9 + 9.
+Same as [problem 156](#problem-156-medium).
 
 ### Problem 1471 (Hard)
 
@@ -18923,3 +18909,7 @@ Same as [problem 109](#problem-109-medium).
 ### Problem 1781 (Easy)
 
 Same as [problem 325](#problem-325-easy).
+
+### Problem 1782 (Medium)
+
+Same as [problem 156](#problem-156-medium).
