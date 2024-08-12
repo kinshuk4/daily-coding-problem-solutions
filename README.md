@@ -4466,9 +4466,9 @@ The check method may return occasional false positives (in other words, incorrec
 
 ---
 
-### Problem 302
+### Problem 302 (Medium)
 
-This problem was asked by Uber.
+> This problem was asked by Uber.
 
 You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
 
@@ -8835,19 +8835,7 @@ Same as [problem 52](#problem-52-hard).
 
 ### Problem 698 (Medium)
 
-This problem was asked by Uber.
-
-You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
-
-For example, suppose the input for a three-by-six grid is the following:
-
-```
-\    /
- \  /
-  \/
-```
-
-Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
+Same as [problem 302](#problem-302-medium).
 
 ### Problem 699 (Easy)
 
@@ -10654,19 +10642,7 @@ Same as [problem 62](#problem-62-medium).
 
 ### Problem 891 (Medium)
 
-This problem was asked by Uber.
-
-You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
-
-For example, suppose the input for a three-by-six grid is the following:
-
-```
-\    /
- \  /
-  \/
-```
-
-Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
+Same as [problem 302](#problem-302-medium).
 
 ### Problem 892 (Easy)
 
@@ -13887,19 +13863,7 @@ Same as [problem 14](#problem-14-medium).
 
 ### Problem 1232 (Medium)
 
-This problem was asked by Uber.
-
-You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
-
-For example, suppose the input for a three-by-six grid is the following:
-
-```
-\    /
- \  /
-  \/
-```
-
-Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
+Same as [problem 302](#problem-302-medium).
 
 ### Problem 1233 (Hard)
 
@@ -18913,3 +18877,7 @@ Same as [problem 325](#problem-325-easy).
 ### Problem 1782 (Medium)
 
 Same as [problem 156](#problem-156-medium).
+
+### Problem 1783 (Medium)
+
+Same as [problem 302](#problem-302-medium).
