@@ -3139,9 +3139,9 @@ For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
 ---
 
-### Problem 223
+### Problem 223 (Hard)
 
-This problem was asked by Palantir.
+> This problem was asked by Palantir.
 
 Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
 
@@ -9369,9 +9369,7 @@ That is, `generate()` should return a tree whose size is unbounded but finite.
 
 ### Problem 751 (Hard)
 
-This problem was asked by Palantir.
-
-Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
+Same as [problem 223](#problem-223-hard).
 
 ### Problem 752 (Easy)
 
@@ -9902,9 +9900,7 @@ Same as [problem 13](#problem-13-hard).
 
 ### Problem 808 (Hard)
 
-This problem was asked by Palantir.
-
-Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
+Same as [problem 223](#problem-223-hard).
 
 ### Problem 809 (Easy)
 
@@ -16232,9 +16228,7 @@ For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solu
 
 ### Problem 1487 (Hard)
 
-This problem was asked by Palantir.
-
-Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
+Same as [problem 223](#problem-223-hard).
 
 ### Problem 1488 (Hard)
 
@@ -18881,3 +18875,7 @@ Same as [problem 156](#problem-156-medium).
 ### Problem 1783 (Medium)
 
 Same as [problem 302](#problem-302-medium).
+
+### Problem 1784 (Hard)
+
+Same as [problem 223](#problem-223-hard).
