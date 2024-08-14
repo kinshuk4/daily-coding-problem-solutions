@@ -1369,7 +1369,7 @@ For example, this matrix has 4 islands.
 
 ---
 
-### Problem 85
+### Problem 85 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -1389,15 +1389,17 @@ For example, given the string "()())()", you should return 1. Given the string "
 
 ---
 
-### Problem 88
+### Problem 88 (Medium)
 
 This question was asked by ContextLogic.
 
 Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
 
+[Solution](https://k5kc.com/cs/algorithms/divide-two-integers-problem/)
+
 ---
 
-### Problem 89
+### Problem 89 (Medium)
 
 > This problem was asked by LinkedIn.
 
@@ -1405,17 +1407,19 @@ Determine whether a tree is a valid binary search tree.
 
 A binary search tree is a tree with two children, `left` and `right`, and satisfies the constraint that the key in the `left` child must be less than or equal to the root and the key in the `right`child must be greater than or equal to the root.
 
----
-
-### Problem 90
-
-This question was asked by Google.
-
-Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform)
+[Solution](https://k5kc.com/cs/algorithms/validate-binary-search-tree-problem/)
 
 ---
 
-### Problem 91
+### Problem 90 (Medium)
+
+> This question was asked by Google.
+
+Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
+
+---
+
+### Problem 91 (Easy)
 
 > This problem was asked by Dropbox.
 
@@ -1444,7 +1448,7 @@ For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC10
 
 ---
 
-### Problem 93
+### Problem 93 (Hard)
 
 > This problem was asked by Apple.
 
@@ -1454,7 +1458,7 @@ Given a tree, return the size of the largest tree/subtree that is a BST.
 
 ---
 
-### Problem 94
+### Problem 94 (Easy)
 
 > This problem was asked by Google.
 
@@ -1462,7 +1466,7 @@ Given a binary tree of integers, find the maximum path sum between two nodes. Th
 
 ---
 
-### Problem 95
+### Problem 95 (Hard)
 
 > This problem was asked by Palantir.
 
@@ -1484,7 +1488,7 @@ For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[
 
 ---
 
-### Problem 97
+### Problem 97 (Medium)
 
 > This problem was asked by Stripe.
 
@@ -1514,7 +1518,7 @@ d.get(1, 0) # get key 1 at time 0 should be 2
 
 ---
 
-### Problem 98
+### Problem 98 (Easy)
 
 > This problem was asked by Coursera.
 
@@ -1532,10 +1536,11 @@ For example, given the following board:
 ]
 ```
 
-`exists(board, "ABCCED")` returns `true`, `exists(board, "SEE")` returns `true`,`exists(board, "ABCB")` returns `false`
+`exists(board, "ABCCED")` returns `true`, `exists(board, "SEE")` returns `true`, `exists(board, "ABCB")` returns `false`.
+
 ---
 
-### Problem 99
+### Problem 99 (Medium)
 
 > This problem was asked by Microsoft.
 
@@ -4935,7 +4940,7 @@ Given a list of `N` people and the above operation, find a way to identify the c
 
 ---
 
-### Problem 334
+### Problem 334 (Easy)
 
 This problem was asked by Twitter.
 
@@ -6069,11 +6074,7 @@ Same as [problem 21](#problem-21-easy).
 
 ### Problem 405 (Hard)
 
-This problem was asked by Apple.
-
-Given a tree, find the largest tree/subtree that is a BST.
-
-Given a tree, return the size of the largest tree/subtree that is a BST.
+Same as [problem 93](#problem-93-hard).
 
 ### Problem 406 (Hard)
 
@@ -6797,18 +6798,7 @@ You are given an array of length `n + 1` whose elements belong to the set `{1, 2
 
 ### Problem 477 (Easy)
 
-This problem was asked by Dropbox.
-
-What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
-
-```
-functions = []
-for i in range(10):
-    functions.append(lambda : i)
-
-for f in functions:
-    print(f())
-```
+Same as [problem 91](#problem-91-easy).
 
 ### Problem 478 (Hard)
 
@@ -7103,13 +7093,7 @@ For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2
 
 ### Problem 514 (Medium)
 
-This problem was asked by Microsoft.
-
-Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
-
-For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element sequence is `[1, 2, 3, 4]`. Return its length: `4`.
-
-Your algorithm should run in `O(n)` complexity.
+Same as [problem 99](#problem-99-medium).
 
 ### Problem 515 (Medium)
 
@@ -7137,9 +7121,7 @@ Given an array of numbers and a number `k`, determine if there are three entries
 
 ### Problem 519 (Medium)
 
-This problem was asked by Facebook.
-
-Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
+Same as [problem 85](#problem-85-medium).
 
 ### Problem 520 (Hard)
 
@@ -7563,13 +7545,7 @@ Move 1 to 3
 
 ### Problem 572 (Hard)
 
-This problem was asked by Palantir.
-
-Given a number represented by a list of digits, find the next greater permutation of a number, in terms of lexicographic ordering. If there is not greater permutation possible, return the permutation with the lowest value/ordering.
-
-For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` should return `[2,1,3]`. The list `[3,2,1]` should return `[1,2,3]`.
-
-Can you perform the operation without allocating extra memory (disregarding the input memory)?
+Same as [problem 95](#problem-95-hard).
 
 ### Problem 573 (Medium)
 
@@ -7964,9 +7940,7 @@ Same as [problem 133](#problem-133-medium).
 
 ### Problem 610 (Medium)
 
-This question was asked by ContextLogic.
-
-Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+Same as [problem 88](#problem-88-medium).
 
 ### Problem 611 (Hard)
 
@@ -8087,23 +8061,7 @@ Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `l
 
 ### Problem 619 (Easy)
 
-This problem was asked by Coursera.
-
-Given a 2D board of characters and a word, find if the word exists in the grid.
-
-The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
-
-For example, given the following board:
-
-```
-[
-  ['A','B','C','E'],
-  ['S','F','C','S'],
-  ['A','D','E','E']
-]
-```
-
-`exists(board, "ABCCED")` returns `true`, `exists(board, "SEE")` returns `true`, `exists(board, "ABCB")` returns `false`.
+Same as [problem 98](#problem-98-easy).
 
 ### Problem 620 (Medium)
 
@@ -8419,11 +8377,7 @@ And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the mat
 
 ### Problem 651 (Medium)
 
-This problem was asked by LinkedIn.
-
-Determine whether a tree is a valid binary search tree.
-
-A binary search tree is a tree with two children, `left` and `right`, and satisfies the constraint that the key in the `left` child must be less than or equal to the root and the key in the `right` child must be greater than or equal to the root.
+Same as [problem 89](#problem-89-medium).
 
 ### Problem 652 (Hard)
 
@@ -8520,9 +8474,7 @@ Same as [problem 132](#problem-132-easy).
 
 ### Problem 664 (Easy)
 
-This problem was asked by Google.
-
-Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
+Same as [problem 94](#problem-94-easy).
 
 ### Problem 665 (Easy)
 
@@ -8814,9 +8766,7 @@ Same as [4](#problem-4-hard).
 
 ### Problem 695 (Medium)
 
-This question was asked by Google.
-
-Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
+Same as [problem 90](#problem-90-medium).
 
 ### Problem 696 (Hard)
 
@@ -8893,13 +8843,7 @@ Same as [problem 30](#problem-30-medium).
 
 ### Problem 706 (Easy)
 
-This problem was asked by Twitter.
-
-The `24` game is played as follows. You are given a list of four integers, each between `1` and `9`, in a fixed order. By placing the operators `+`, `-`, `*`, and `/` between the numbers, and grouping them with parentheses, determine whether it is possible to reach the value `24`.
-
-For example, given the input `[5, 2, 7, 8]`, you should return `True`, since `(5 * 2 - 7) * 8 = 24`.
-
-Write a function that plays the `24` game.
+Same as [problem 334](#problem-334-easy).
 
 ### Problem 707 (Medium)
 
@@ -9188,31 +9132,7 @@ Design and implement Connect 4.
 
 ### Problem 734 (Medium)
 
-This problem was asked by Stripe.
-
-Write a map implementation with a get function that lets you retrieve the value of a key at a particular time.
-
-It should contain the following methods:
-
-- `set(key, value, time)`: sets key to value for t = time.
-- `get(key, time)`: gets the key at t = time.
-
-The map should work like this. If we set a key at a particular time, it will maintain that value forever or until it gets set at a later time. In other words, when we get a key at a time, it should return the value that was set for that key set at the most recent time.
-
-Consider the following examples:
-
-```
-d.set(1, 1, 0) # set key 1 to value 1 at time 0
-d.set(1, 2, 2) # set key 1 to value 2 at time 2
-d.get(1, 1) # get key 1 at time 1 should be 1
-d.get(1, 3) # get key 1 at time 3 should be 2
-d.set(1, 1, 5) # set key 1 to value 1 at time 5
-d.get(1, 0) # get key 1 at time 0 should be null
-d.get(1, 10) # get key 1 at time 10 should be 1
-d.set(1, 1, 0) # set key 1 to value 1 at time 0
-d.set(1, 2, 0) # set key 1 to value 2 at time 0
-d.get(1, 0) # get key 1 at time 0 should be 2
-```
+Same as [problem 97](#problem-97-medium).
 
 ### Problem 735 (Easy)
 
@@ -9697,13 +9617,7 @@ Write a program that checks whether an integer is a palindrome. For example, `12
 
 ### Problem 789 (Hard)
 
-This problem was asked by Palantir.
-
-Given a number represented by a list of digits, find the next greater permutation of a number, in terms of lexicographic ordering. If there is not greater permutation possible, return the permutation with the lowest value/ordering.
-
-For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` should return `[2,1,3]`. The list `[3,2,1]` should return `[1,2,3]`.
-
-Can you perform the operation without allocating extra memory (disregarding the input memory)?
+Same as [problem 95](#problem-95-hard).
 
 ### Problem 790 (Easy)
 
@@ -9995,9 +9909,7 @@ Same as [problem 14](#problem-14-medium).
 
 ### Problem 816 (Medium)
 
-This problem was asked by Facebook.
-
-Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
+Same as [problem 85](#problem-85-medium).
 
 ### Problem 817 (Medium)
 
@@ -10553,11 +10465,7 @@ Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly
 
 ### Problem 878 (Hard)
 
-This problem was asked by Apple.
-
-Given a tree, find the largest tree/subtree that is a BST.
-
-Given a tree, return the size of the largest tree/subtree that is a BST.
+Same as [problem 93](#problem-93-hard).
 
 ### Problem 879 (Easy)
 
@@ -10662,9 +10570,7 @@ For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 
 
 ### Problem 896 (Medium)
 
-This question was asked by ContextLogic.
-
-Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+Same as [problem 88](#problem-88-medium).
 
 ### Problem 897 (Medium)
 
@@ -10686,13 +10592,7 @@ Recall that a heap has the following operations:
 
 ### Problem 899 (Easy)
 
-This problem was asked by Twitter.
-
-The `24` game is played as follows. You are given a list of four integers, each between `1` and `9`, in a fixed order. By placing the operators `+`, `-`, `*`, and `/` between the numbers, and grouping them with parentheses, determine whether it is possible to reach the value `24`.
-
-For example, given the input `[5, 2, 7, 8]`, you should return `True`, since `(5 * 2 - 7) * 8 = 24`.
-
-Write a function that plays the `24` game.
+Same as [problem 334](#problem-334-easy).
 
 ### Problem 900 (Medium)
 
@@ -11574,11 +11474,7 @@ For example, given [5, 7, 10, 3, 4], return 3.
 
 ### Problem 1001 (Medium)
 
-This problem was asked by LinkedIn.
-
-Determine whether a tree is a valid binary search tree.
-
-A binary search tree is a tree with two children, `left` and `right`, and satisfies the constraint that the key in the `left` child must be less than or equal to the root and the key in the `right` child must be greater than or equal to the root.
+Same as [problem 89](#problem-89-medium).
 
 ### Problem 1002 (Easy)
 
@@ -11678,23 +11574,7 @@ Given an array of integers, find the maximum XOR of any two elements.
 
 ### Problem 1009 (Easy)
 
-This problem was asked by Coursera.
-
-Given a 2D board of characters and a word, find if the word exists in the grid.
-
-The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
-
-For example, given the following board:
-
-```
-[
-  ['A','B','C','E'],
-  ['S','F','C','S'],
-  ['A','D','E','E']
-]
-```
-
-`exists(board, "ABCCED")` returns `true`, `exists(board, "SEE")` returns `true`, `exists(board, "ABCB")` returns `false`.
+Same as [problem 98](#problem-98-easy).
 
 ### Problem 1010 (Easy)
 
@@ -11844,13 +11724,7 @@ Same as [28](#problem-28-medium).
 
 ### Problem 1027 (Medium)
 
-This problem was asked by Microsoft.
-
-Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
-
-For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element sequence is `[1, 2, 3, 4]`. Return its length: `4`.
-
-Your algorithm should run in `O(n)` complexity.
+Same as [problem 99](#problem-99-medium).
 
 ### Problem 1028 (Medium)
 
@@ -12055,31 +11929,7 @@ Same as [problem 34](#problem-34-medium).
 
 ### Problem 1047 (Medium)
 
-This problem was asked by Stripe.
-
-Write a map implementation with a get function that lets you retrieve the value of a key at a particular time.
-
-It should contain the following methods:
-
-- `set(key, value, time)`: sets key to value for t = time.
-- `get(key, time)`: gets the key at t = time.
-
-The map should work like this. If we set a key at a particular time, it will maintain that value forever or until it gets set at a later time. In other words, when we get a key at a time, it should return the value that was set for that key set at the most recent time.
-
-Consider the following examples:
-
-```
-d.set(1, 1, 0) # set key 1 to value 1 at time 0
-d.set(1, 2, 2) # set key 1 to value 2 at time 2
-d.get(1, 1) # get key 1 at time 1 should be 1
-d.get(1, 3) # get key 1 at time 3 should be 2
-d.set(1, 1, 5) # set key 1 to value 1 at time 5
-d.get(1, 0) # get key 1 at time 0 should be null
-d.get(1, 10) # get key 1 at time 10 should be 1
-d.set(1, 1, 0) # set key 1 to value 1 at time 0
-d.set(1, 2, 0) # set key 1 to value 2 at time 0
-d.get(1, 0) # get key 1 at time 0 should be 2
-```
+Same as [problem 97](#problem-97-medium).
 
 ### Problem 1048 (Hard)
 
@@ -12402,9 +12252,7 @@ Given a `k`-ary tree, determine whether it is symmetric.
 
 ### Problem 1078 (Easy)
 
-This problem was asked by Google.
-
-Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
+Same as [problem 94](#problem-94-easy).
 
 ### Problem 1079 (Medium)
 
@@ -12765,9 +12613,7 @@ On election day, a voting machine writes data in the form `(voter_id, candidate_
 
 ### Problem 1115 (Medium)
 
-This question was asked by Google.
-
-Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
+Same as [problem 90](#problem-90-medium).
 
 ### Problem 1116 (Hard)
 
@@ -12801,18 +12647,7 @@ class Stack:
 
 ### Problem 1118 (Easy)
 
-This problem was asked by Dropbox.
-
-What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
-
-```python
-functions = []
-for i in range(10):
-    functions.append(lambda : i)
-
-for f in functions:
-    print(f())
-```
+Same as [problem 91](#problem-91-easy).
 
 ### Problem 1119 (Medium)
 
@@ -12898,11 +12733,7 @@ Same as [problem 48](#problem-48-medium).
 
 ### Problem 1130 (Hard)
 
-This problem was asked by Apple.
-
-Given a tree, find the largest tree/subtree that is a BST.
-
-Given a tree, return the size of the largest tree/subtree that is a BST.
+Same as [problem 93](#problem-93-hard).
 
 ### Problem 1131 (Hard)
 
@@ -13239,13 +13070,7 @@ Same as [problem 61](#problem-61-medium).
 
 ### Problem 1168 (Easy)
 
-This problem was asked by Twitter.
-
-The `24` game is played as follows. You are given a list of four integers, each between `1` and `9`, in a fixed order. By placing the operators `+`, `-`, `*`, and `/` between the numbers, and grouping them with parentheses, determine whether it is possible to reach the value `24`.
-
-For example, given the input `[5, 2, 7, 8]`, you should return `True`, since `(5 * 2 - 7) * 8 = 24`.
-
-Write a function that plays the `24` game.
+Same as [problem 334](#problem-334-easy).
 
 ### Problem 1169 (Hard)
 
@@ -13313,23 +13138,7 @@ Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 
 ### Problem 1176 (Easy)
 
-This problem was asked by Coursera.
-
-Given a 2D board of characters and a word, find if the word exists in the grid.
-
-The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
-
-For example, given the following board:
-
-```
-[
-  ['A','B','C','E'],
-  ['S','F','C','S'],
-  ['A','D','E','E']
-]
-```
-
-`exists(board, "ABCCED")` returns `true`, `exists(board, "SEE")` returns `true`, `exists(board, "ABCB")` returns `false`.
+Same as [problem 98](#problem-98-easy).
 
 ### Problem 1177 (Hard)
 
@@ -13724,18 +13533,7 @@ class Stack:
 
 ### Problem 1219 (Easy)
 
-This problem was asked by Dropbox.
-
-What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
-
-```
-functions = []
-for i in range(10):
-    functions.append(lambda : i)
-
-for f in functions:
-    print(f())
-```
+Same as [problem 91](#problem-91-easy).
 
 ### Problem 1220 (Easy)
 
@@ -13923,9 +13721,7 @@ Same as [problem 34](#problem-34-medium).
 
 ### Problem 1239 (Medium)
 
-This question was asked by ContextLogic.
-
-Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+Same as [problem 88](#problem-88-medium).
 
 ### Problem 1240 (Medium)
 
@@ -13999,11 +13795,7 @@ The order of the indices does not matter.
 
 ### Problem 1249 (Medium)
 
-This problem was asked by LinkedIn.
-
-Determine whether a tree is a valid binary search tree.
-
-A binary search tree is a tree with two children, `left` and `right`, and satisfies the constraint that the key in the `left` child must be less than or equal to the root and the key in the `right` child must be greater than or equal to the root.
+Same as [problem 89](#problem-89-medium).
 
 ### Problem 1250 (Easy)
 
@@ -14201,9 +13993,7 @@ You can assume that you can do some pre-processing. `sum()` should be optimized 
 
 ### Problem 1268 (Medium)
 
- This problem was asked by Facebook.
-
-Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
+Same as [problem 85](#problem-85-medium).
 
 ### Problem 1269 (Medium)
 
@@ -14569,9 +14359,7 @@ Given an integer n, find the next biggest integer with the same number of 1-bits
 
 ### Problem 1304 (Medium)
 
-This question was asked by Google.
-
-Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
+Same as [problem 90](#problem-90-medium).
 
 ### Problem 1305 (Hard)
 
@@ -14873,13 +14661,7 @@ Bonus: Create a generator that produces primes indefinitely (that is, without ta
 
 ### Problem 1338 (Medium)
 
-This problem was asked by Microsoft.
-
-Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
-
-For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element sequence is `[1, 2, 3, 4]`. Return its length: `4`.
-
-Your algorithm should run in `O(n)` complexity.
+Same as [problem 99](#problem-99-medium).
 
 ### Problem 1339 (Medium)
 
@@ -15255,9 +15037,7 @@ For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
 ### Problem 1378 (Easy)
 
-This problem was asked by Google.
-
-Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
+Same as [problem 94](#problem-94-easy).
 
 ### Problem 1379 (Hard)
 
@@ -15945,13 +15725,7 @@ Move 1 to 3
 
 ### Problem 1451 (Hard)
 
-This problem was asked by Palantir.
-
-Given a number represented by a list of digits, find the next greater permutation of a number, in terms of lexicographic ordering. If there is not greater permutation possible, return the permutation with the lowest value/ordering.
-
-For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` should return `[2,1,3]`. The list `[3,2,1]` should return `[1,2,3]`.
-
-Can you perform the operation without allocating extra memory (disregarding the input memory)?
+Same as [problem 95](#problem-95-hard).
 
 ### Problem 1452 (Medium)
 
@@ -16242,31 +16016,7 @@ For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC10
 
 ### Problem 1489 (Medium)
 
-This problem was asked by Stripe.
-
-Write a map implementation with a get function that lets you retrieve the value of a key at a particular time.
-
-It should contain the following methods:
-
-- `set(key, value, time)`: sets key to value for t = time.
-- `get(key, time)`: gets the key at t = time.
-
-The map should work like this. If we set a key at a particular time, it will maintain that value forever or until it gets set at a later time. In other words, when we get a key at a time, it should return the value that was set for that key set at the most recent time.
-
-Consider the following examples:
-
-```
-d.set(1, 1, 0) # set key 1 to value 1 at time 0
-d.set(1, 2, 2) # set key 1 to value 2 at time 2
-d.get(1, 1) # get key 1 at time 1 should be 1
-d.get(1, 3) # get key 1 at time 3 should be 2
-d.set(1, 1, 5) # set key 1 to value 1 at time 5
-d.get(1, 0) # get key 1 at time 0 should be null
-d.get(1, 10) # get key 1 at time 10 should be 1
-d.set(1, 1, 0) # set key 1 to value 1 at time 0
-d.set(1, 2, 0) # set key 1 to value 2 at time 0
-d.get(1, 0) # get key 1 at time 0 should be 2
-```
+Same as [problem 97](#problem-97-medium).
 
 ### Problem 1490 (Medium)
 
@@ -16365,13 +16115,7 @@ Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 
 
 ### Problem 1502 (Hard)
 
-This problem was asked by Palantir.
-
-Given a number represented by a list of digits, find the next greater permutation of a number, in terms of lexicographic ordering. If there is not greater permutation possible, return the permutation with the lowest value/ordering.
-
-For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` should return `[2,1,3]`. The list `[3,2,1]` should return `[1,2,3]`.
-
-Can you perform the operation without allocating extra memory (disregarding the input memory)?
+Same as [problem 95](#problem-95-hard).
 
 ### Problem 1503 (Easy)
 
@@ -16855,18 +16599,7 @@ Write a program to determine whether a given input is a Toeplitz matrix.
 
 ### Problem 1550 (Easy)
 
-This problem was asked by Dropbox.
-
-What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
-
-```
-functions = []
-for i in range(10):
-    functions.append(lambda : i)
-
-for f in functions:
-    print(f())
-```
+Same as [problem 91](#problem-91-easy).
 
 ### Problem 1551 (Medium)
 
@@ -17802,11 +17535,7 @@ Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 
 ### Problem 1631 (Medium)
 
-This problem was asked by LinkedIn.
-
-Determine whether a tree is a valid binary search tree.
-
-A binary search tree is a tree with two children, `left` and `right`, and satisfies the constraint that the key in the `left` child must be less than or equal to the root and the key in the `right` child must be greater than or equal to the root.
+Same as [problem 89](#problem-89-medium).
 
 ### Problem 1632 (Hard)
 
@@ -17818,9 +17547,7 @@ For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15
 
 ### Problem 1633 (Medium)
 
-This problem was asked by Facebook.
-
-Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
+Same as [problem 85](#problem-85-medium).
 
 ### Problem 1634 (Medium)
 
@@ -18238,17 +17965,11 @@ For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `Fals
 
 ### Problem 1678 (Medium)
 
-This question was asked by ContextLogic.
-
-Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+Same as [problem 88](#problem-88-medium).
 
 ### Problem 1679 (Hard)
 
-This problem was asked by Apple.
-
-Given a tree, find the largest tree/subtree that is a BST.
-
-Given a tree, return the size of the largest tree/subtree that is a BST.
+Same as [problem 93](#problem-93-hard).
 
 ### Problem 1680 (Medium)
 
@@ -18476,13 +18197,7 @@ Given a binary tree and a particular node, find all cousins of that node.
 
 ### Problem 1706 (Medium)
 
-This problem was asked by Microsoft.
-
-Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
-
-For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element sequence is `[1, 2, 3, 4]`. Return its length: `4`.
-
-Your algorithm should run in `O(n)` complexity.
+Same as [problem 99](#problem-99-medium).
 
 ### Problem 1707 (Medium)
 
@@ -18879,3 +18594,7 @@ Same as [problem 302](#problem-302-medium).
 ### Problem 1784 (Hard)
 
 Same as [problem 223](#problem-223-hard).
+
+### Problem 1785 (Medium)
+
+Same as [problem 41](#problem-223-medium).
