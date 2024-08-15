@@ -18597,4 +18597,8 @@ Same as [problem 223](#problem-223-hard).
 
 ### Problem 1785 (Medium)
 
-Same as [problem 41](#problem-223-medium).
+Same as [problem 41](#problem-41-medium).
+
+### Problem 1786 (Easy)
+
+Same as [problem 334](#problem-334-easy).
