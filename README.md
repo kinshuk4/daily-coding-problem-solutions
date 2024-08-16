@@ -1583,7 +1583,7 @@ It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to mov
 
 ---
 
-### Problem 101
+### Problem 101 (Easy)
 
 > This problem was asked by Alibaba.
 
@@ -1608,15 +1608,15 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 
 If a < c OR a==c AND b < d.
 
-### Problem 102
+### Problem 102 (Medium)
 
 > This problem was asked by Lyft.
 
 Given a list of integers and a number K, return which contiguous elements of the list sum to K.
 
-For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4].
+For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
-### Problem 103
+### Problem 103 (Medium)
 
 > This problem was asked by Square.
 
@@ -1626,15 +1626,15 @@ For example, given the string "figehaeci" and the set of characters {a, e, i}, y
 
 If there is no substring containing all the characters in the set, return null.
 
-### Problem 104
+### Problem 104 (Easy)
 
 > This problem was asked by Google.
 
 Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
 
-For example, `1 -> 4 -> 3 -> 4 -> 1` returns true while `1 -> 4` returns false.
+For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
 
-### Problem 105
+### Problem 105 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -1642,15 +1642,15 @@ Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
 
 That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N`milliseconds.
 
-### Problem 106
+### Problem 106 (Medium)
 
 > This problem was asked by Pinterest.
 
 Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
 
-For example, `[2, 0, 1, 0]` returns `true` while `[1, 1, 0, 1]` returns `false`.
+For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
 
-### Problem 107
+### Problem 107 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -1664,7 +1664,7 @@ Print the nodes in a binary tree level-wise. For example, the following should p
   4   5
 ```
 
-### Problem 108
+### Problem 108 (Easy)
 
 > This problem was asked by Google.
 
@@ -1684,7 +1684,7 @@ For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 
 Bonus: Can you do this in one line?
 
-### Problem 110
+### Problem 110 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -1700,9 +1700,9 @@ For example, given the tree
    4   5
 ```
 
-it should return [[1, 2], [1, 3, 4], [1, 3, 5]].
+Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 
-### Problem 111
+### Problem 111 (Hard)
 
 > This problem was asked by Google.
 
@@ -1710,7 +1710,7 @@ Given a word W and a string `S`, find all starting indices in `S` which are anag
 
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
-### Problem 112
+### Problem 112 (Hard)
 
 > This problem was asked by Twitter.
 
@@ -1718,7 +1718,7 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
 
-### Problem 113
+### Problem 113 (Medium)
 
 > This problem was asked by Google.
 
@@ -1736,13 +1736,13 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 
 ![Solution](https://k5kc.com/cs/algorithms/reverse-words-in-a-string-keep-delimiters-in-order/)
 
-### Problem 115
+### Problem 115 (Hard)
 
 > This problem was asked by Google.
 
 Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
 
-### Problem 116
+### Problem 116 (Medium)
 
 > This problem was asked by Jane Street.
 
@@ -1758,7 +1758,7 @@ Given a binary tree, return the level of the tree with minimum sum.
 
 ![Solution](https://k5kc.com/cs/algorithms/minimum-level-sum-of-a-binary-tree-problem/)
 
-### Problem 118
+### Problem 118 (Easy)
 
 > This problem was asked by Google.
 
@@ -1766,7 +1766,7 @@ Given a sorted list of integers, square the elements and give the output in sort
 
 For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 
-### Problem 119
+### Problem 119 (Medium)
 
 > This problem was asked by Google.
 
@@ -1774,13 +1774,13 @@ Given a set of closed intervals, find the smallest set of numbers that covers al
 
 For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
 
-### Problem 120
+### Problem 120 (Medium)
 
 > This problem was asked by Microsoft.
 
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
 
-### Problem 121
+### Problem 121 (Hard)
 
 > This problem was asked by Google.
 
@@ -1788,7 +1788,7 @@ Given a string which we can delete at most k, return whether you can make a pali
 
 For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 
-### Problem 122
+### Problem 122 (Medium)
 
 This question was asked by Zillow.
 
@@ -1831,7 +1831,7 @@ You have 100 fair coins and you flip them all at the same time. Any that come up
 
 Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
 
-### Problem 125
+### Problem 125 (Easy)
 
 > This problem was asked by Google.
 
@@ -1849,13 +1849,13 @@ For example, given the following tree and `K` of 20
 
 Return the nodes `5` and `15`.
 
-### Problem 126
+### Problem 126 (Medium)
 
 > This problem was asked by Facebook.
 
 Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 
-### Problem 127
+### Problem 127 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -1884,7 +1884,7 @@ return 124 (99 + 25) as:
 4 -> 2 -> 1
 ```
 
-### Problem 128
+### Problem 128 (Medium)
 
 The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
 
@@ -1910,7 +1910,7 @@ Move 2 to 3
 Move 1 to 3
 ```
 
-### Problem 129
+### Problem 129 (Medium)
 
 Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
 
@@ -1922,7 +1922,7 @@ Given an array of numbers representing the stock prices of a company in chronolo
 
 For example, given `k` = 2 and the array `[5, 2, 4, 0, 1]`, you should return 3.
 
-### Problem 131
+### Problem 131 (Medium)
 
 This question was asked by Snapchat.
 
@@ -1960,7 +1960,7 @@ You can assume each node has a `parent` pointer.
 
 [Solution](https://k5kc.com/cs/algorithms/inorder-successor-in-binary-search-tree-using-parent-link/)
 
-### Problem 134
+### Problem 134 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -1972,7 +1972,7 @@ Use a more space-efficient data structure, SparseArray, that implements the same
 - `set(i, val)`: updates index at `i` with `val`.
 - `get(i)`: gets the value at index `i`.
 
-### Problem 135
+### Problem 135 (Easy)
 
 This question was asked by Apple.
 
@@ -1990,7 +1990,7 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
      -1
 ```
 
-### Problem 136
+### Problem 136 (Medium)
 
 This question was asked by Google.
 
@@ -2007,7 +2007,7 @@ For example, given the following matrix:
 
 Return 4.
 
-### Problem 137
+### Problem 137 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -2029,7 +2029,7 @@ You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
 
 For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢, and a 1¢.
 
-### Problem 139
+### Problem 139 (Medium)
 
 > This problem was asked by Google.
 
@@ -2062,7 +2062,7 @@ For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. T
 
 Follow-up: Can you do this in linear time and constant space?
 
-### Problem 141
+### Problem 141 (Hard)
 
 > This problem was asked by Microsoft.
 
@@ -2080,7 +2080,7 @@ class Stack:
         pass
 ```
 
-### Problem 142
+### Problem 142 (Hard)
 
 > This problem was asked by Google.
 
@@ -2088,7 +2088,7 @@ You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent 
 
 For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
-### Problem 143
+### Problem 143 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -2100,9 +2100,9 @@ Given a pivot `x`, and a list `lst`, partition the list into three parts.
 
 Ordering within a part can be arbitrary.
 
-For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14].
+For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`.
 
-### Problem 144
+### Problem 144 (Medium)
 
 > This problem was asked by Google.
 
@@ -2114,7 +2114,7 @@ If two distances to larger numbers are the equal, then return any one of them. I
 
 Follow-up: If you can preprocess the array, can you do this in constant time?
 
-### Problem 145
+### Problem 145 (Easy)
 
 > This problem was asked by Google.
 
@@ -2122,7 +2122,7 @@ Given the head of a singly linked list, swap every two nodes and return its head
 
 For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
 
-### Problem 146
+### Problem 146 (Medium)
 
 This question was asked by BufferBox.
 
@@ -2152,11 +2152,11 @@ should be pruned to:
 
 We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
 
-### Problem 147
+### Problem 147 (Hard)
 
-Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst` from `i` to j`.
+Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst` from `i` to `j`.
 
-### Problem 148
+### Problem 148 (Medium)
 
 > This problem was asked by Apple.
 
@@ -2166,7 +2166,7 @@ Given a number of bits `n`, generate a possible gray code for it.
 
 For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
 
-### Problem 149
+### Problem 149 (Hard)
 
 > This problem was asked by Goldman Sachs.
 
@@ -2176,13 +2176,14 @@ For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])
 
 You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
 
-### Problem 150
+### Problem 150 (Hard)
 
 > This problem was asked by LinkedIn.
 
 Given a list of points, a central point, and an integer `k`, find the nearest `k` points from the central point.
 
 For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`
+
 ---
 
 ### Problem 151 (Medium)
@@ -2219,13 +2220,13 @@ For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2,
 
 You can generate random numbers between 0 and 1 uniformly.
 
-### Problem 153
+### Problem 153 (Hard)
 
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
 
 For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
-### Problem 154
+### Problem 154 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -2239,7 +2240,7 @@ Recall that a heap has the following operations:
 - `push(item)`, which adds a new key to the heap
 - `pop()`, which removes and returns the max value of the heap
 
-### Problem 155
+### Problem 155 (Medium)
 
 > This problem was asked by MongoDB.
 
@@ -2261,7 +2262,7 @@ Given `n` = 27, return 3 since 27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9.
 
 [Solution](https://k5kc.com/cs/algorithms/least-number-of-perfect-squares-that-sums-to-n/)
 
-### Problem 157
+### Problem 157 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -2269,7 +2270,7 @@ Given a string, determine whether any permutation of it is a palindrome.
 
 For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
 
-### Problem 158
+### Problem 158 (Medium)
 
 > This problem was asked by Slack.
 
@@ -2292,7 +2293,7 @@ Return two, as there are only two ways to get to the bottom right:
 
 The top left corner and bottom right corner will always be `0`.
 
-### Problem 159
+### Problem 159 (Easy)
 
 > This problem was asked by Google.
 
@@ -2300,7 +2301,7 @@ Given a string, return the first recurring character in it, or null if there is 
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
 
-### Problem 160
+### Problem 160 (Hard)
 
 > This problem was asked by Uber.
 
@@ -2322,7 +2323,7 @@ and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the l
 
 The path does not have to pass through the root, and each node can have any amount of children.
 
-### Problem 161
+### Problem 161 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -2330,7 +2331,7 @@ Given a 32-bit integer, return the number with its bits reversed.
 
 For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
 
-### Problem 162
+### Problem 162 (Medium)
 
 > This problem was asked by Square.
 
@@ -2350,7 +2351,7 @@ Return the list:
 - apr
 - f
 
-### Problem 163
+### Problem 163 (Hard)
 
 > This problem was asked by Jane Street.
 
@@ -2362,7 +2363,7 @@ For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']`shoul
 
 You can assume the given expression is always valid.
 
-### Problem 164
+### Problem 164 (Medium)
 
 > This problem was asked by Google.
 
@@ -3168,7 +3169,7 @@ Do this in `O(N)` time.
 
 ---
 
-### Problem 225
+### Problem 225 (Easy)
 
 This problem was asked by Bloomberg.
 
@@ -6044,13 +6045,7 @@ Which each add up to 8.
 
 ### Problem 400 (Hard)
 
-This problem was asked by Goldman Sachs.
-
-Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including `i`, excluding `j`).
-
-For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`.
-
-You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
+Same as [problem 149](#problem-149-hard).
 
 ### Problem 401 (Easy)
 
@@ -6140,11 +6135,7 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 
 ### Problem 411 (Hard)
 
-This problem was asked by Google.
-
-Given a string which we can delete at most k, return whether you can make a palindrome.
-
-For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+Same as [problem 121](#problem-121-hard).
 
 ### Problem 412 (Medium)
 
@@ -6346,45 +6337,15 @@ Same as [problem 48](#problem-48-medium).
 
 ### Problem 436 (Hard)
 
-This problem was asked by Microsoft.
-
-Implement 3 stacks using a single list:
-
-```
-class Stack:
-    def __init__(self):
-        self.list = []
-
-    def pop(self, stack_number):
-        pass
-
-    def push(self, item, stack_number):
-        pass
-```
+Same as [problem 141](#problem-141-hard).
 
 ### Problem 437 (Medium)
 
-This problem was asked by Square.
-
-Given a string and a set of characters, return the shortest substring containing all the characters in the set.
-
-For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
-
-If there is no substring containing all the characters in the set, return null.
+Same as [problem 103](#problem-103-medium).
 
 ### Problem 438 (Easy)
 
-This problem was asked by Amazon.
-
-Implement a stack API using only a heap. A stack implements the following methods:
-
-- `push(item)`, which adds an element to the stack
-- `pop()`, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
-
-Recall that a heap has the following operations:
-
-- `push(item)`, which adds a new key to the heap
-- `pop()`, which removes and returns the max value of the heap
+Same as [problem 154](#problem-154-easy).
 
 ### Problem 439 (Medium)
 
@@ -6402,17 +6363,7 @@ Describe and give an example of each of the following types of polymorphism:
 
 ### Problem 441 (Medium)
 
-This problem was asked by Amazon.
-
-Given a pivot `x`, and a list `lst`, partition the list into three parts.
-
-- The first part contains all elements in `lst` that are less than `x`
-- The second part contains all elements in `lst` that are equal to `x`
-- The third part contains all elements in `lst` that are larger than `x`
-
-Ordering within a part can be arbitrary.
-
-For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`.
+Same as [problem 143](#problem-143-medium).
 
 ### Problem 442 (Hard)
 
@@ -6451,33 +6402,7 @@ If the pattern is found, return the start index of its location. If not, return 
 
 ### Problem 445 (Medium)
 
-This question was asked by BufferBox.
-
-Given a binary tree where all nodes are either `0` or `1`, prune the tree so that subtrees containing all `0`s are removed.
-
-For example, given the following tree:
-
-```
-   0
-  / \
- 1   0
-    / \
-   1   0
-  / \
- 0   0
-```
-
-should be pruned to:
-
-```
-   0
-  / \
- 1   0
-    /
-   1
-```
-
-We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
+Same as [problem 146](#problem-146-medium).
 
 ### Problem 446 (Medium)
 
@@ -6495,36 +6420,11 @@ Same as [problem 35](#problem-35-hard).
 
 ### Problem 449 (Easy)
 
-This problem was asked by Alibaba.
-
-Given an even number (greater than 2), return two prime numbers whose sum will be equal to the given number.
-
-A solution will always exist. See [Goldbach’s conjecture](https://en.wikipedia.org/wiki/Goldbach's_conjecture).
-
-Example:
-
-```
-Input: 4
-Output: 2 + 2 = 4
-```
-
-If there are more than one solution possible, return the lexicographically smaller solution.
-
-If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, then
-
-```
-[a, b] < [c, d]
-```
-
-If a < c OR a==c AND b < d.
+Same as [problem 101](#problem-101-easy).
 
 ### Problem 450 (Hard)
 
-This problem was asked by Google.
-
-You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
-
-For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+Same as [problem 142](#problem-142-hard).
 
 ### Problem 451 (Easy)
 
@@ -6534,50 +6434,11 @@ Implement the function `fib(n)`, which returns the `n``th` number in the Fibonac
 
 ### Problem 452 (Easy)
 
-This problem was asked by Microsoft.
-
-Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
-
-For example, the following linked list:
-
-```
-1 -> 2 -> 3 -> 4 -> 5
-```
-
-is the number 54321.
-
-Given two linked lists in this format, return their sum in the same linked list format.
-
-For example, given
-
-```
-9 -> 9
-5 -> 2
-```
-
-return ### Problem 124 (99 + 25) as:
-
-```
-4 -> 2 -> 1
-```
+Same as [problem 127](#problem-127-easy).
 
 ### Problem 453 (Easy)
 
-This problem was asked by Google.
-
-Given the root of a binary search tree, and a target `K`, return two nodes in the tree whose sum equals `K`.
-
-For example, given the following tree and `K` of 20
-
-```
-    10
-   /   \
- 5      15
-       /  \
-     11    15
-```
-
-Return the nodes `5` and `15`.
+Same as [problem 125](#problem-125-easy).
 
 ### Problem 454 (Medium)
 
@@ -6611,11 +6472,7 @@ Find the busiest period in the building, that is, the time with the most people 
 
 ### Problem 457 (Hard)
 
-This problem was asked by Google.
-
-Given a word W and a string `S`, find all starting indices in `S` which are anagrams of `W`.
-
-For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+Same as [problem 111](#problem-111-hard).
 
 ### Problem 458 (Hard)
 
@@ -6726,7 +6583,7 @@ Given a `k`-ary tree, determine whether it is symmetric.
 
 ### Problem 467 (Medium)
 
-Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
+Same as [problem 129](#problem-129-medium).
 
 ### Problem 468 (Medium)
 
@@ -6758,15 +6615,7 @@ Same as [problem 361](#problem-361-medium).
 
 ### Problem 470 (Medium)
 
-This problem was asked by Google.
-
-Given an array of numbers and an index `i`, return the index of the nearest larger number of the number at index `i`, where distance is measured in array indices.
-
-For example, given `[4, 1, 3, 5, 6]` and index `0`, you should return `3`.
-
-If two distances to larger numbers are the equal, then return any one of them. If the array at `i` doesn't have a nearest larger integer, then return null.
-
-Follow-up: If you can preprocess the array, can you do this in constant time?
+Same as [problem 144](#problem-144-medium).
 
 ### Problem 471 (Easy)
 
@@ -6792,9 +6641,7 @@ Same as [problem 24](#problem-24-medium).
 
 ### Problem 476 (Medium)
 
-This problem was asked by Google.
-
-You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+Same as [problem 164](#problem-164-medium).
 
 ### Problem 477 (Easy)
 
@@ -6814,15 +6661,7 @@ Same as [problem 22](#problem-22-medium).
 
 ### Problem 481 (Hard)
 
-This problem was asked by Jane Street.
-
-Given an arithmetic expression in [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), write a program to evaluate it.
-
-The expression is given as a list of numbers and operands. For example: `[5, 3, '+']` should return `5 + 3 = 8`.
-
-For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']` should return `5`, since it is equivalent to ((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5.
-
-You can assume the given expression is always valid.
+Same as [problem 163](#problem-163-hard).
 
 ### Problem 482 (Medium)
 
@@ -6844,15 +6683,7 @@ and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
 
 ### Problem 483 (Easy)
 
-This problem was asked by Bloomberg.
-
-There are `N` prisoners standing in a circle, waiting to be executed. The executions are carried out starting with the `k`th person, and removing every successive `k`th person going clockwise until there is no one left.
-
-Given `N` and `k`, write an algorithm to determine where a prisoner should stand in order to be the last survivor.
-
-For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1, 5, 3]`, so you should return `3`.
-
-Bonus: Find an `O(log N)` solution if `k = 2`.
+Same as [problem 225](#problem-225-easy).
 
 ### Problem 484 (Medium)
 
@@ -7085,11 +6916,7 @@ Same as [problem 192](#problem-192-medium).
 
 ### Problem 513 (Medium)
 
-This problem was asked by Lyft.
-
-Given a list of integers and a number K, return which contiguous elements of the list sum to K.
-
-For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
+Same as [problem 102](#problem-102-medium).
 
 ### Problem 514 (Medium)
 
@@ -7248,11 +7075,7 @@ Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as man
 
 ### Problem 534 (Easy)
 
-This problem was asked by Amazon.
-
-Given a string, determine whether any permutation of it is a palindrome.
-
-For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
+Same as [problem 157](#problem-157-easy).
 
 ### Problem 535 (Medium)
 
@@ -7349,11 +7172,7 @@ Same as [problem 42](#problem-42-hard).
 
 ### Problem 545 (Hard)
 
-This problem was asked by Twitter.
-
-Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. Assume that each node in the tree also has a pointer to its parent.
-
-According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
+Same as [problem 112](#problem-112-hard).
 
 ### Problem 546 (Medium)
 
@@ -7479,11 +7298,7 @@ Same as [problem 564](#problem-9-hard).
 
 ### 565 (Medium)
 
-This problem was asked by Pinterest.
-
-Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
-
-For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
+Same as [problem 106](#problem-106-medium).
 
 ### Problem 566 (Medium)
 
@@ -7499,11 +7314,7 @@ Same as [5](#problem-5-medium).
 
 ### Problem 568 (Easy)
 
-This problem was asked by Google.
-
-Given a sorted list of integers, square the elements and give the output in sorted order.
-
-For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+Same as [problem 118](#problem-118-easy).
 
 ### Problem 569 (Hard)
 
@@ -7513,35 +7324,11 @@ Given an array of numbers of length `N`, find both the minimum and maximum using
 
 ### Problem 570 (Hard)
 
-This problem was asked by Google.
-
-Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
+Same as [problem 115](#problem-115-hard).
 
 ### Problem 571 (Medium)
 
-The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
-
-All the disks start off on the first rod in a stack. They are ordered by size, with the largest disk on the bottom and the smallest one at the top.
-
-The goal of this puzzle is to move all the disks from the first rod to the last rod while following these rules:
-
-- You can only move one disk at a time.
-- A move consists of taking the uppermost disk from one of the stacks and placing it on top of another stack.
-- You cannot place a larger disk on top of a smaller disk.
-
-Write a function that prints out all the steps necessary to complete the Tower of Hanoi. You should assume that the rods are numbered, with the first rod being 1, the second (auxiliary) rod being 2, and the last (goal) rod being 3.
-
-For example, with n = 3, we can do this in 7 moves:
-
-```
-Move 1 to 3
-Move 1 to 2
-Move 3 to 2
-Move 1 to 3
-Move 2 to 1
-Move 2 to 3
-Move 1 to 3
-```
+Same as [problem 128](#problem-128-medium).
 
 ### Problem 572 (Hard)
 
@@ -7553,15 +7340,7 @@ Same as [problem 180](#problem-180-medium).
 
 ### Problem 574 (Medium)
 
-This problem was asked by Amazon.
-
-Implement a bit array.
-
-A bit array is a space efficient array that holds a value of `1` or `0` at each index.
-
-- `init(size)`: initialize the array with `size`
-- `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
-- `get(i)`: gets the value at index `i`.
+Same as [problem 137](#problem-137-medium).
 
 ### Problem 575 (Medium)
 
@@ -7608,21 +7387,7 @@ Same as [problem 322](#problem-322-medium).
 
 ### Problem 580 (Easy)
 
-This question was asked by Apple.
-
-Given a binary tree, find a minimum path sum from root to a leaf.
-
-For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
-
-```
-  10
- /  \
-5    5
- \     \
-   2    1
-       /
-     -1
-```
+Same as [problem 135](#problem-135-easy).
 
 ### Problem 581 (Easy)
 
@@ -7660,19 +7425,7 @@ For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should
 
 ### Problem 583 (Medium)
 
-This question was asked by Zillow.
-
-You are given a 2-d `matrix` where each cell represents number of coins in that cell. Assuming we start at `matrix[0][0]`, and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
-
-For example, in this matrix
-
-```
-0 3 1 1
-2 0 0 4
-1 5 3 1
-```
-
-The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+Same as [problem 122](#problem-122-medium).
 
 ### Problem 584 (Easy)
 
@@ -7684,20 +7437,7 @@ For example, given "aaabbc", you could return "ababac". Given "aaab", return `No
 
 ### Problem 585 (Medium)
 
-This question was asked by Google.
-
-Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
-
-For example, given the following matrix:
-
-```
-[[1, 0, 0, 0],
- [1, 0, 1, 1],
- [1, 0, 1, 1],
- [0, 1, 0, 0]]
-```
-
-Return 4.
+Same as [problem 136](#problem-136-medium).
 
 ### Problem 586 (Medium)
 
@@ -7719,33 +7459,11 @@ Then a reasonable similarity metric would most likely conclude that `a` and `e` 
 
 ### Problem 587 (Medium)
 
-This problem was asked by Facebook.
-
-Given a binary tree, return all paths from the root to leaves.
-
-For example, given the tree:
-
-```
-   1
-  / \
- 2   3
-    / \
-   4   5
-```
-
-Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
+Same as [problem 110](#problem-110-medium).
 
 ### Problem 588 (Easy)
 
-This problem was asked by Facebook.
-
-You have a large array with most of the elements as zero.
-
-Use a more space-efficient data structure, SparseArray, that implements the same interface:
-
-- `init(arr, size)`: initialize with the original large array and size.
-- `set(i, val)`: updates index at `i` with `val`.
-- `get(i)`: gets the value at index `i`.
+Same as [problem 134](#problem-134-easy).
 
 ### Problem 589 (Hard)
 
@@ -8055,9 +7773,7 @@ Same as [problem 216](#problem-216-medium).
 
 ### Problem 618 (Hard)
 
-Good morning! Here's your coding interview problem for today.
-
-Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
+Same as [problem 147](#problem-147-hard).
 
 ### Problem 619 (Easy)
 
@@ -8086,25 +7802,7 @@ Given an input consisting of brick lengths for each row such as the one above, r
 
 ### Problem 621 (Hard)
 
-This problem was asked by Uber.
-
-Given a tree where each edge has a weight, compute the length of the longest path in the tree.
-
-For example, given the following tree:
-
-```
-   a
-  /|\
- b c d
-    / \
-   e   f
-  / \
- g   h
-```
-
-and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of 17.
-
-The path does not have to pass through the root, and each node can have any amount of children.
+Same as [problem 160](#problem-160-hard).
 
 ### Problem 622 (Easy)
 
@@ -8138,26 +7836,7 @@ You can assume the list has at least three integers.
 
 ### Problem 627 (Medium)
 
-This problem was asked by Google.
-
-Given an `iterator` with methods `next()` and `hasNext()`, create a wrapper iterator, `PeekableInterface`, which also implements `peek()`. `peek` shows the next element that would be returned on `next()`.
-
-Here is the interface:
-
-```
-class PeekableInterface(object):
-    def __init__(self, iterator):
-        pass
-
-    def peek(self):
-        pass
-
-    def next(self):
-        pass
-
-    def hasNext(self):
-        pass
-```
+Same as [problem 139](#problem-139-medium).
 
 ### Problem 628 (Hard)
 
@@ -8251,11 +7930,7 @@ Same as [problem 77](#problem-77-easy).
 
 ### Problem 638 (Medium)
 
-This problem was asked by Google.
-
-Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
-
-Follow-up: given a mutable string representation, can you perform this operation in-place?
+Same as [problem 113](#problem-113-medium).
 
 ### Problem 639 (Easy)
 
@@ -8343,17 +8018,11 @@ Same as [problem 60](#problem-60-medium).
 
 ### Problem 648 (Medium)
 
-This question was asked by Snapchat.
-
-Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+Same as [problem 131](#problem-131-medium).
 
 ### Problem 649 (Easy)
 
-This problem was asked by Google.
-
-Given a string, return the first recurring character in it, or null if there is no recurring character.
-
-For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+Same as [problem 159](#problem-159-easy).
 
 ### Problem 650 (Hard)
 
@@ -8422,11 +8091,7 @@ For example, given "jiujitsu", you should return `5`, corresponding to the final
 
 ### Problem 655 (Easy)
 
-This problem was asked by Facebook.
-
-Given a 32-bit integer, return the number with its bits reversed.
-
-For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+Same as [problem 161](#problem-161-easy).
 
 ### Problem 656 (Medium)
 
@@ -8542,11 +8207,7 @@ Same as [problem 156](#problem-156-medium).
 
 ### Problem 671 (Easy)
 
-This problem was asked by Facebook.
-
-Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
-
-That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
+Same as [problem 105](#problem-105-easy).
 
 ### Problem 672 (Easy)
 
@@ -8566,11 +8227,7 @@ Write a program that returns the weight of the maximum weight path.
 
 ### Problem 673 (Hard)
 
-This problem was asked by LinkedIn.
-
-Given a list of points, a central point, and an integer `k`, find the nearest `k` points from the central point.
-
-For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`.
+Same as [problem 150](#problem-150-hard).
 
 ### Problem 674 (Easy)
 
@@ -8625,23 +8282,7 @@ Same as [problem 44](#problem-44-medium).
 
 ### Problem 680 (Medium)
 
-This problem was asked by Square.
-
-Given a list of words, return the shortest unique prefix of each word. For example, given the list:
-
-- dog
-- cat
-- apple
-- apricot
-- fish
-
-Return the list:
-
-- d
-- c
-- app
-- apr
-- f
+Same as [problem 162](#problem-162-medium).
 
 ### Problem 681 (Medium)
 
@@ -8674,13 +8315,7 @@ add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 
 ### Problem 683 (Medium)
 
-This problem was asked by MongoDB.
-
-Given a list of elements, find the majority element, which appears more than half the time (`> floor(len(lst) / 2.0)`).
-
-You can assume that such element exists.
-
-For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
+Same as [problem 155](#problem-155-medium).
 
 ### Problem 684 (Medium)
 
@@ -8861,26 +8496,7 @@ Same as [problem 273](#problem-273-easy).
 
 ### Problem 709 (Medium)
 
-This problem was asked by Slack.
-
-You are given an N by M matrix of `0`s and `1`s. Starting from the top left corner, how many ways are there to reach the bottom right corner?
-
-You can only move right and down. `0` represents an empty space while `1` represents a wall you cannot walk through.
-
-For example, given the following matrix:
-
-```
-[[0, 0, 1],
- [0, 0, 1],
- [1, 0, 0]]
-```
-
-Return two, as there are only two ways to get to the bottom right:
-
-- Right, down, down, right
-- Down, right, down, right
-
-The top left corner and bottom right corner will always be `0`.
+Same as [problem 158](#problem-158-medium).
 
 ### Problem 710 (Medium)
 
@@ -8916,19 +8532,11 @@ For example, given "/usr/bin/../bin/./scripts/../", return "/usr/bin/".
 
 ### Problem 714 (Easy)
 
-This problem was asked by Google.
-
-Given the head of a singly linked list, swap every two nodes and return its head.
-
-For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+Same as [problem 145](#problem-145-easy).
 
 ### Problem 715 (Easy)
 
-This problem was asked by Google.
-
-Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
-
-For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
+Same as [problem 104](#problem-104-easy).
 
 ### Problem 716 (Easy)
 
@@ -8960,13 +8568,7 @@ Same as [problem 19](#problem-19-medium).
 
 ### Problem 718 (Medium)
 
-This problem was asked by Apple.
-
-[Gray code](https://en.wikipedia.org/wiki/Gray_code) is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
-
-Given a number of bits `n`, generate a possible gray code for it.
-
-For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
+Same as [problem 148](#problem-148-hard).
 
 ### Problem 719 (Easy)
 
@@ -8996,11 +8598,7 @@ What is the minimum number of swaps necessary for this to happen?
 
 ### Problem 723 (Medium)
 
-This problem was asked by Google.
-
-Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
-
-For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
+Same as [problem 119](#problem-119-medium).
 
 ### Problem 724 (Easy)
 
@@ -9034,9 +8632,7 @@ For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes a
 
 ### Problem 726 (Medium)
 
-This problem was asked by Microsoft.
-
-Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
+Same as [problem 120](#problem-120-medium).
 
 ### Problem 727 (Easy)
 
@@ -9253,11 +8849,7 @@ Each method should run in constant time.
 
 ### Problem 747 (Easy)
 
-This problem was asked by Google.
-
-Given two strings A and B, return whether or not A can be shifted some number of times to get B.
-
-For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
+Same as [problem 108](#problem-108-easy).
 
 ### Problem 748 (Easy)
 
@@ -9281,11 +8873,7 @@ Same as [problem 46](#problem-46-hard).
 
 ### Problem 750 (Medium)
 
-This problem was asked by Jane Street.
-
-Generate a finite, but an arbitrarily large binary tree quickly in O(1).
-
-That is, `generate()` should return a tree whose size is unbounded but finite.
+Same as [problem 116](#problem-116-medium).
 
 ### Problem 751 (Hard)
 
@@ -9293,17 +8881,7 @@ Same as [problem 223](#problem-223-hard).
 
 ### Problem 752 (Easy)
 
-This problem was asked by Microsoft.
-
-Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
-
-```
-  1
- / \
-2   3
-   / \
-  4   5
-```
+Same as [problem 107](#problem-107-easy).
 
 ### Problem 753 (Easy)
 
@@ -9366,9 +8944,7 @@ Given perfect knowledge of the sequence of cards in the deck, implement a blackj
 
 ### Problem 758 (Medium)
 
-This problem was asked by Facebook.
-
-Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+Same as [problem 126](#problem-126-medium).
 
 ### Problem 759 (Medium)
 
@@ -9392,9 +8968,7 @@ Same as [problem 71](#problem-71-easy).
 
 ### Problem 762 (Hard)
 
-Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
-
-For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+Same as [problem 153](#problem-153-hard).
 
 ### Problem 763 (Hard)
 
@@ -9420,11 +8994,7 @@ Determine how many times you would need to apply this operation to ensure that a
 
 ### Problem 767 (Hard)
 
-This problem was asked by Google.
-
-Given a word W and a string `S`, find all starting indices in `S` which are anagrams of `W`.
-
-For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+Same as [problem 111](#problem-111-hard).
 
 ### Problem 768 (Hard)
 
@@ -9495,15 +9065,7 @@ Same as [problem 21](#problem-21-easy).
 
 ### Problem 776 (Easy)
 
-This problem was asked by Bloomberg.
-
-There are `N` prisoners standing in a circle, waiting to be executed. The executions are carried out starting with the `k`th person, and removing every successive `k`th person going clockwise until there is no one left.
-
-Given `N` and `k`, write an algorithm to determine where a prisoner should stand in order to be the last survivor.
-
-For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1, 5, 3]`, so you should return `3`.
-
-Bonus: Find an `O(log N)` solution if `k = 2`.
+Same as [problem 225](#problem-225-easy).
 
 ### Problem 777 (Easy)
 
@@ -9699,28 +9261,7 @@ Determine if a new point `p` lies inside this polygon. (If `p` is on the boundar
 
 ### Problem 797 (Easy)
 
-This problem was asked by Alibaba.
-
-Given an even number (greater than 2), return two prime numbers whose sum will be equal to the given number.
-
-A solution will always exist. See [Goldbach’s conjecture](https://en.wikipedia.org/wiki/Goldbach's_conjecture).
-
-Example:
-
-```
-Input: 4
-Output: 2 + 2 = 4
-```
-
-If there are more than one solution possible, return the lexicographically smaller solution.
-
-If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, then
-
-```
-[a, b] < [c, d]
-```
-
-If a < c OR a==c AND b < d.
+Same as [problem 101](#problem-101-easy).
 
 ### Problem 798 (Medium)
 
@@ -9842,23 +9383,7 @@ You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 ### Problem 811 (Medium)
 
-This problem was asked by Square.
-
-Given a list of words, return the shortest unique prefix of each word. For example, given the list:
-
-- dog
-- cat
-- apple
-- apricot
-- fish
-
-Return the list:
-
-- d
-- c
-- app
-- apr
-- f
+Same as [problem 162](#problem-162-medium).
 
 ### Problem 812 (Medium)
 
@@ -9876,32 +9401,7 @@ Same as [problem 79](#problem-79-medium).
 
 ### Problem 814 (Easy)
 
-This problem was asked by Microsoft.
-
-Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
-
-For example, the following linked list:
-
-```
-1 -> 2 -> 3 -> 4 -> 5
-```
-
-is the number 54321.
-
-Given two linked lists in this format, return their sum in the same linked list format.
-
-For example, given
-
-```
-9 -> 9
-5 -> 2
-```
-
-return 124 (99 + 25) as:
-
-```
-4 -> 2 -> 1
-```
+Same as [problem 127](#problem-127-easy).
 
 ### Problem 815 (Medium)
 
@@ -9945,15 +9445,7 @@ Same as [problem 77](#problem-77-easy).
 
 ### Problem 823 (Medium)
 
-This problem was asked by Amazon.
-
-Implement a bit array.
-
-A bit array is a space efficient array that holds a value of `1` or `0` at each index.
-
-- `init(size)`: initialize the array with `size`
-- `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
-- `get(i)`: gets the value at index `i`.
+Same as [problem 137](#problem-137-medium).
 
 ### Problem 824 (Easy)
 
@@ -9965,11 +9457,7 @@ If only one input tree has a node in a given position, the corresponding node in
 
 ### Problem 825 (Easy)
 
-This problem was asked by Google.
-
-Given a sorted list of integers, square the elements and give the output in sorted order.
-
-For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+Same as [problem 118](#problem-118-easy).
 
 ### Problem 826 (Hard)
 
@@ -10050,13 +9538,7 @@ What is the minimum number of swaps necessary for this to happen?
 
 ### Problem 835 (Medium)
 
-This problem was asked by Square.
-
-Given a string and a set of characters, return the shortest substring containing all the characters in the set.
-
-For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
-
-If there is no substring containing all the characters in the set, return null.
+Same as [problem 103](#problem-103-medium).
 
 ### Problem 836 (Medium)
 
@@ -10077,19 +9559,7 @@ We can consider a sentence valid if it conforms to the following rules:
 
 ### Problem 838 (Medium)
 
-This question was asked by Zillow.
-
-You are given a 2-d `matrix` where each cell represents number of coins in that cell. Assuming we start at `matrix[0][0]`, and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
-
-For example, in this matrix
-
-```
-0 3 1 1
-2 0 0 4
-1 5 3 1
-```
-
-The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+Same as [problem 122](#problem-122-medium).
 
 ### Problem 839 (Easy)
 
@@ -10170,9 +9640,7 @@ Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or ret
 
 ### Problem 845 (Medium)
 
-This problem was asked by Facebook.
-
-Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+Same as [problem 126](#problem-126-medium).
 
 ### Problem 846 (Medium)
 
@@ -10180,11 +9648,7 @@ Same as [5](#problem-5-medium).
 
 ### Problem 847 (Medium)
 
-This problem was asked by Pinterest.
-
-Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
-
-For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
+Same as [problem 106](#problem-106-medium).
 
 ### Problem 848 (Hard)
 
@@ -10233,9 +9697,7 @@ Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 
 ### Problem 853 (Hard)
 
-Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
-
-For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+Same as [problem 153](#problem-153-hard).
 
 ### Problem 854 (Medium)
 
@@ -10333,11 +9795,7 @@ A bridge in a connected (undirected) graph is an edge that, if removed, causes t
 
 ### Problem 863 (Medium)
 
-This problem was asked by Jane Street.
-
-Generate a finite, but an arbitrarily large binary tree quickly in O(1).
-
-That is, `generate()` should return a tree whose size is unbounded but finite.
+Same as [problem 116](#problem-116-medium).
 
 ### Problem 864 (Medium)
 
@@ -10394,36 +9852,15 @@ Write a program that returns the weight of the maximum weight path.
 
 ### Problem 868 (Easy)
 
-This problem was asked by Amazon.
-
-Given a string, determine whether any permutation of it is a palindrome.
-
-For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
+Same as [problem 157](#problem-157-easy).
 
 ### Problem 869 (Easy)
 
-This problem was asked by Google.
-
-Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
-
-For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
+Same as [problem 104](#problem-104-easy).
 
 ### Problem 870 (Medium)
 
-This question was asked by Google.
-
-Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
-
-For example, given the following matrix:
-
-```
-[[1, 0, 0, 0],
- [1, 0, 1, 1],
- [1, 0, 1, 1],
- [0, 1, 0, 0]]
-```
-
-Return 4.
+Same as [problem 136](#problem-136-medium).
 
 ### Problem 871 (Hard)
 
@@ -10435,15 +9872,7 @@ Same as [323](#problem-323-medium).
 
 ### Problem 873 (Hard)
 
-This problem was asked by Jane Street.
-
-Given an arithmetic expression in [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), write a program to evaluate it.
-
-The expression is given as a list of numbers and operands. For example: `[5, 3, '+']` should return `5 + 3 = 8`.
-
-For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']` should return `5`, since it is equivalent to ((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5.
-
-You can assume the given expression is always valid.
+Same as [problem 163](#problem-163-hard).
 
 ### Problem 874 (Hard)
 
@@ -10459,9 +9888,7 @@ Same as [problem 306](#problem-306-medium).
 
 ### Problem 877 (Hard)
 
-This problem was asked by Google.
-
-Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
+Same as [problem 115](#problem-115-hard).
 
 ### Problem 878 (Hard)
 
@@ -10530,11 +9957,7 @@ Same as [problem 252](#problem-252-easy).
 
 ### Problem 888 (Hard)
 
-This problem was asked by LinkedIn.
-
-Given a list of points, a central point, and an integer `k`, find the nearest `k` points from the central point.
-
-For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`.
+Same as [problem 150](#problem-150-hard).
 
 ### Problem 889 (Easy)
 
@@ -10562,11 +9985,7 @@ Same as [problem 132](#problem-132-easy).
 
 ### Problem 895 (Hard)
 
-This problem was asked by Google.
-
-Given a string which we can delete at most k, return whether you can make a palindrome.
-
-For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+Same as [problem 121](#problem-121-hard).
 
 ### Problem 896 (Medium)
 
@@ -10578,17 +9997,7 @@ Same as [problem 53](#problem-53-medium).
 
 ### Problem 898 (Easy)
 
-This problem was asked by Amazon.
-
-Implement a stack API using only a heap. A stack implements the following methods:
-
-- `push(item)`, which adds an element to the stack
-- `pop()`, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
-
-Recall that a heap has the following operations:
-
-- `push(item)`, which adds a new key to the heap
-- `pop()`, which removes and returns the max value of the heap
+Same as [problem 154](#problem-154-easy).
 
 ### Problem 899 (Easy)
 
@@ -10632,13 +10041,7 @@ Given a set of points (x, y) on a 2D cartesian plane, find the two closest point
 
 ### Problem 907 (Medium)
 
-This problem was asked by Apple.
-
-[Gray code](https://en.wikipedia.org/wiki/Gray_code) is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
-
-Given a number of bits `n`, generate a possible gray code for it.
-
-For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
+Same as [problem 148](#problem-148-hard).
 
 ### Problem 908 (Medium)
 
@@ -10646,11 +10049,7 @@ Same as [problem 76](#problem-76-medium).
 
 ### Problem 909 (Medium)
 
-This problem was asked by Google.
-
-Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
-
-For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
+Same as [problem 119](#problem-119-medium).
 
 ### Problem 910 (Medium)
 
@@ -10879,11 +10278,7 @@ The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for i
 
 ### Problem 934 (Easy)
 
-This problem was asked by Google.
-
-Given a string, return the first recurring character in it, or null if there is no recurring character.
-
-For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+Same as [problem 159](#problem-159-easy).
 
 ### Problem 935 (Easy)
 
@@ -10911,11 +10306,7 @@ and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
 
 ### Problem 937 (Hard)
 
-This problem was asked by Google.
-
-You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
-
-For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+Same as [problem 142](#problem-142-hard).
 
 ### Problem 938 (Hard)
 
@@ -10989,25 +10380,7 @@ Given an integer, find the next permutation of it in absolute order. For example
 
 ### Problem 945 (Hard)
 
-This problem was asked by Uber.
-
-Given a tree where each edge has a weight, compute the length of the longest path in the tree.
-
-For example, given the following tree:
-
-```
-   a
-  /|\
- b c d
-    / \
-   e   f
-  / \
- g   h
-```
-
-and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of 17.
-
-The path does not have to pass through the root, and each node can have any amount of children.
+Same as [problem 160](#problem-160-hard).
 
 ### Problem 946 (Medium)
 
@@ -11023,29 +10396,7 @@ Do this in faster than `O(N log N)` time.
 
 ### Problem 948 (Medium)
 
-The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
-
-All the disks start off on the first rod in a stack. They are ordered by size, with the largest disk on the bottom and the smallest one at the top.
-
-The goal of this puzzle is to move all the disks from the first rod to the last rod while following these rules:
-
-- You can only move one disk at a time.
-- A move consists of taking the uppermost disk from one of the stacks and placing it on top of another stack.
-- You cannot place a larger disk on top of a smaller disk.
-
-Write a function that prints out all the steps necessary to complete the Tower of Hanoi. You should assume that the rods are numbered, with the first rod being 1, the second (auxiliary) rod being 2, and the last (goal) rod being 3.
-
-For example, with n = 3, we can do this in 7 moves:
-
-```
-Move 1 to 3
-Move 1 to 2
-Move 3 to 2
-Move 1 to 3
-Move 2 to 1
-Move 2 to 3
-Move 1 to 3
-```
+Same as [problem 128](#problem-128-medium).
 
 ### Problem 949 (Medium)
 
@@ -11195,15 +10546,11 @@ Write a program that takes in an array of integers representing byte values, and
 
 ### Problem 966 (Medium)
 
-This question was asked by Snapchat.
-
-Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+Same as [problem 131](#problem-131-medium).
 
 ### Problem 967 (Medium)
 
-This problem was asked by Google.
-
-You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+Same as [problem 164](#problem-164-medium).
 
 ### Problem 968 (Medium)
 
@@ -11215,15 +10562,7 @@ Same as [problem 84](#problem-84-medium).
 
 ### Problem 970 (Easy)
 
-This problem was asked by Facebook.
-
-You have a large array with most of the elements as zero.
-
-Use a more space-efficient data structure, SparseArray, that implements the same interface:
-
-- `init(arr, size)`: initialize with the original large array and size.
-- `set(i, val)`: updates index at `i` with `val`.
-- `get(i)`: gets the value at index `i`.
+Same as [problem 134](#problem-134-easy).
 
 ### Problem 971 (Medium)
 
@@ -11324,21 +10663,7 @@ Same as [problem 362](#problem-362-easy).
 
 ### Problem 983 (Medium)
 
-This problem was asked by Facebook.
-
-Given a binary tree, return all paths from the root to leaves.
-
-For example, given the tree:
-
-```
-   1
-  / \
- 2   3
-    / \
-   4   5
-```
-
-Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
+Same as [problem 110](#problem-110-medium).
 
 ### Problem 984 (Hard)
 
@@ -11362,15 +10687,7 @@ For example, given `156`, you should return `3`.
 
 ### Problem 987 (Medium)
 
-This problem was asked by Google.
-
-Given an array of numbers and an index `i`, return the index of the nearest larger number of the number at index `i`, where distance is measured in array indices.
-
-For example, given `[4, 1, 3, 5, 6]` and index `0`, you should return `3`.
-
-If two distances to larger numbers are the equal, then return any one of them. If the array at `i` doesn't have a nearest larger integer, then return null.
-
-Follow-up: If you can preprocess the array, can you do this in constant time?
+Same as [problem 144](#problem-144-medium).
 
 ### Problem 988 (Medium)
 
@@ -11414,27 +10731,11 @@ How can we make it print out what we apparently want?
 
 ### Problem 993 (Medium)
 
-This problem was asked by MongoDB.
-
-Given a list of elements, find the majority element, which appears more than half the time (`> floor(len(lst) / 2.0)`).
-
-You can assume that such element exists.
-
-For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
+Same as [problem 155](#problem-155-medium).
 
 ### Problem 994 (Easy)
 
-This problem was asked by Microsoft.
-
-Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
-
-```
-  1
- / \
-2   3
-   / \
-  4   5
-```
+Same as [problem 107](#problem-107-easy).
 
 ### Problem 995 (Hard)
 
@@ -11516,13 +10817,7 @@ Given a graph, find its transitive closure.
 
 ### Problem 1004 (Hard)
 
-This problem was asked by Goldman Sachs.
-
-Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including `i`, excluding `j`).
-
-For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`.
-
-You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
+Same as [problem 149](#problem-149-hard).
 
 ### Problem 1005 (Hard)
 
@@ -11588,7 +10883,7 @@ Find the maximum of two numbers without using any if-else statements, branching,
 
 ### Problem 1012 (Medium)
 
-Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
+Same as [problem 129](#problem-129-medium).
 
 ### Problem 1013 (Medium)
 
@@ -11632,7 +10927,7 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 
 ### Problem 1017 (Hard)
 
-Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
+Same as [problem 147](#problem-147-hard).
 
 ### Problem 1018 (Easy)
 
@@ -11670,21 +10965,7 @@ return 6.
 
 ### Problem 1020 (Easy)
 
-This problem was asked by Google.
-
-Given the root of a binary search tree, and a target `K`, return two nodes in the tree whose sum equals `K`.
-
-For example, given the following tree and `K` of 20
-
-```
-    10
-   /   \
- 5      15
-       /  \
-     11    15
-```
-
-Return the nodes `5` and `15`.
+Same as [problem 125](#problem-125-easy).
 
 ### Problem 1021 (Medium)
 
@@ -11704,11 +10985,7 @@ For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `[
 
 ### Problem 1024 (Easy)
 
-This problem was asked by Facebook.
-
-Given a 32-bit integer, return the number with its bits reversed.
-
-For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+Same as [problem 161](#problem-161-easy).
 
 ### Problem 1025 (Easy)
 
@@ -11849,11 +11126,7 @@ Given a sorted array, convert it into a height-balanced binary search tree.
 
 ### Problem 1038 (Medium)
 
-This problem was asked by Google.
-
-Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
-
-Follow-up: given a mutable string representation, can you perform this operation in-place?
+Same as [problem 113](#problem-113-medium).
 
 ### Problem 1039 (Hard)
 
@@ -11888,26 +11161,7 @@ Write a program that computes the length of the longest common subsequence of th
 
 ### Problem 1043 (Medium)
 
-This problem was asked by Google.
-
-Given an `iterator` with methods `next()` and `hasNext()`, create a wrapper iterator, `PeekableInterface`, which also implements `peek()`. `peek` shows the next element that would be returned on `next()`.
-
-Here is the interface:
-
-```
-class PeekableInterface(object):
-    def __init__(self, iterator):
-        pass
-
-    def peek(self):
-        pass
-
-    def next(self):
-        pass
-
-    def hasNext(self):
-        pass
-```
+Same as [problem 139](#problem-139-medium).
 
 ### Problem 1044 (Hard)
 
@@ -12008,9 +11262,7 @@ Same as [problem 458](#problem-458-hard).
 
 ### Problem 1054 (Medium)
 
-This problem was asked by Microsoft.
-
-Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
+Same as [problem 120](#problem-120-medium).
 
 ### Problem 1055 (Medium)
 
@@ -12064,11 +11316,7 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 
 ### Problem 1060 (Easy)
 
-This problem was asked by Facebook.
-
-Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
-
-That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
+Same as [problem 105](#problem-105-easy).
 
 ### Problem 1061 (Easy)
 
@@ -12076,11 +11324,7 @@ Same as [problem 23](#problem-23-easy).
 
 ### Problem 1062 (Easy)
 
-This problem was asked by Google.
-
-Given the head of a singly linked list, swap every two nodes and return its head.
-
-For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+Same as [problem 145](#problem-145-easy).
 
 ### Problem 1063 (Easy)
 
@@ -12128,33 +11372,7 @@ Write an algorithm that pairs the men and women together in such a way that no t
 
 ### Problem 1067 (Medium)
 
-This question was asked by BufferBox.
-
-Given a binary tree where all nodes are either `0` or `1`, prune the tree so that subtrees containing all `0`s are removed.
-
-For example, given the following tree:
-
-```
-   0
-  / \
- 1   0
-    / \
-   1   0
-  / \
- 0   0
-```
-
-should be pruned to:
-
-```
-   0
-  / \
- 1   0
-    /
-   1
-```
-
-We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
+Same as [problem 146](#problem-146-medium).
 
 ### Problem 1068 (Easy)
 
@@ -12208,11 +11426,7 @@ Implement a job scheduler which takes in a function `f` and an integer `n`, and 
 
 ### Problem 1074 (Hard)
 
-This problem was asked by Twitter.
-
-Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. Assume that each node in the tree also has a pointer to its parent.
-
-According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
+Same as [problem 112](#problem-112-hard).
 
 ### Problem 1075 (Easy)
 
@@ -12318,11 +11532,7 @@ Same as [problem 54](#problem-54-hard).
 
 ### Problem 1087 (Easy)
 
-This problem was asked by Google.
-
-Given two strings A and B, return whether or not A can be shifted some number of times to get B.
-
-For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
+Same as [problem 108](#problem-108-easy).
 
 ### Problem 1088 (Hard)
 
@@ -12473,26 +11683,7 @@ Given an input such as the one above, return the lowest possible cost of moving 
 
 ### Problem 1103 (Medium)
 
-This problem was asked by Slack.
-
-You are given an N by M matrix of `0`s and `1`s. Starting from the top left corner, how many ways are there to reach the bottom right corner?
-
-You can only move right and down. `0` represents an empty space while `1` represents a wall you cannot walk through.
-
-For example, given the following matrix:
-
-```
-[[0, 0, 1],
- [0, 0, 1],
- [1, 0, 0]]
-```
-
-Return two, as there are only two ways to get to the bottom right:
-
-- Right, down, down, right
-- Down, right, down, right
-
-The top left corner and bottom right corner will always be `0`.
+Same as [problem 158](#problem-158-medium).
 
 ### Problem 1104 (Easy)
 
@@ -12536,17 +11727,7 @@ Given an undirected graph, determine if it contains a cycle.
 
 ### Problem 1109 (Medium)
 
-This problem was asked by Amazon.
-
-Given a pivot `x`, and a list `lst`, partition the list into three parts.
-
-- The first part contains all elements in `lst` that are less than `x`
-- The second part contains all elements in `lst` that are equal to `x`
-- The third part contains all elements in `lst` that are larger than `x`
-
-Ordering within a part can be arbitrary.
-
-For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`.
+Same as [problem 143](#problem-143-medium).
 
 ### Problem 1110 (Easy)
 
@@ -12576,21 +11757,7 @@ For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy
 
 ### Problem 1112 (Easy)
 
-This question was asked by Apple.
-
-Given a binary tree, find a minimum path sum from root to a leaf.
-
-For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
-
-```
-  10
- /  \
-5    5
- \     \
-   2    1
-       /
-     -1
-```
+Same as [problem 135](#problem-135-easy).
 
 ### Problem 1113 (Easy)
 
@@ -12629,21 +11796,7 @@ Implement a quack using three stacks and `O(1)` additional memory, so that the a
 
 ### Problem 1117 (Hard)
 
-This problem was asked by Microsoft.
-
-Implement 3 stacks using a single list:
-
-```
-class Stack:
-    def __init__(self):
-        self.list = []
-
-    def pop(self, stack_number):
-        pass
-
-    def push(self, item, stack_number):
-        pass
-```
+Same as [problem 141](#problem-141-hard).
 
 ### Problem 1118 (Easy)
 
@@ -12705,11 +11858,7 @@ For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should
 
 ### Problem 1125 (Medium)
 
-This problem was asked by Lyft.
-
-Given a list of integers and a number K, return which contiguous elements of the list sum to K.
-
-For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
+Same as [problem 102](#problem-102-medium).
 
 ### Problem 1126 (Medium)
 
@@ -12752,9 +11901,7 @@ Given perfect knowledge of the sequence of cards in the deck, implement a blackj
 
 ### Problem 1132 (Medium)
 
-This problem was asked by Facebook.
-
-Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+Same as [problem 126](#problem-126-medium).
 
 ### Problem 1133 (Easy)
 
@@ -12808,11 +11955,7 @@ Same as [problem 58](#problem-58-medium).
 
 ### Problem 1139 (Hard)
 
-This problem was asked by Twitter.
-
-Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. Assume that each node in the tree also has a pointer to its parent.
-
-According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
+Same as [problem 112](#problem-112-hard).
 
 ### Problem 1140 (Hard)
 
@@ -12917,11 +12060,9 @@ As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19
 
 ### Problem 1151 (Easy)
 
-This problem was asked by Google.
+Same as [problem 104](#problem-104-easy).
 
-Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
-
-For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.### Problem 1152 (Medium)
+### Problem 1152 (Medium)
 
 This problem was asked by Quora.
 
@@ -12935,21 +12076,7 @@ Same as [problem 100](#problem-100-easy).
 
 ### Problem 1154 (Easy)
 
-This question was asked by Apple.
-
-Given a binary tree, find a minimum path sum from root to a leaf.
-
-For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
-
-```
-  10
- /  \
-5    5
- \     \
-   2    1
-       /
-     -1
-```
+Same as [problem 135](#problem-135-easy).
 
 ### Problem 1155 (Hard)
 
@@ -12957,17 +12084,7 @@ Same as [problem 18](#problem-18-hard).
 
 ### Problem 1156 (Easy)
 
-This problem was asked by Microsoft.
-
-Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
-
-```
-  1
- / \
-2   3
-   / \
-  4   5
-```
+Same as [problem 107](#problem-107-easy).
 
 ### Problem 1157 (Easy)
 
@@ -12983,28 +12100,7 @@ For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 ->
 
 ### Problem 1159 (Easy)
 
-This problem was asked by Alibaba.
-
-Given an even number (greater than 2), return two prime numbers whose sum will be equal to the given number.
-
-A solution will always exist. See [Goldbach’s conjecture](https://en.wikipedia.org/wiki/Goldbach's_conjecture).
-
-Example:
-
-```
-Input: 4
-Output: 2 + 2 = 4
-```
-
-If there are more than one solution possible, return the lexicographically smaller solution.
-
-If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, then
-
-```
-[a, b] < [c, d]
-```
-
-If a < c OR a==c AND b < d.
+Same as [problem 101](#problem-101-easy).
 
 ### Problem 1160 (Easy)
 
@@ -13074,11 +12170,7 @@ Same as [problem 334](#problem-334-easy).
 
 ### Problem 1169 (Hard)
 
-This problem was asked by LinkedIn.
-
-Given a list of points, a central point, and an integer `k`, find the nearest `k` points from the central point.
-
-For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`.
+Same as [problem 150](#problem-150-hard).
 
 ### Problem 1170 (Hard)
 
@@ -13159,19 +12251,11 @@ Bonus: What input `n <= 1000000` gives the longest sequence?
 
 ### Problem 1179 (Easy)
 
-This problem was asked by Facebook.
-
-Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
-
-That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
+Same as [problem 105](#problem-105-easy).
 
 ### Problem 1180 (Easy)
 
-This problem was asked by Google.
-
-Given the head of a singly linked list, swap every two nodes and return its head.
-
-For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+Same as [problem 145](#problem-145-easy).
 
 ### Problem 1181 (Medium)
 
@@ -13205,9 +12289,7 @@ For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In
 
 ### Problem 1185 (Hard)
 
-Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
-
-For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+Same as [problem 153](#problem-153-hard).
 
 ### Problem 1186 (Easy)
 
@@ -13362,11 +12444,7 @@ Implement a job scheduler which takes in a function `f` and an integer `n`, and 
 
 ### Problem 1200 (Easy)
 
-This problem was asked by Facebook.
-
-Given a 32-bit integer, return the number with its bits reversed.
-
-For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+Same as [problem 161](#problem-161-easy).
 
 ### Problem 1201 (Medium)
 
@@ -13390,40 +12468,7 @@ For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `[
 
 ### Problem 1204 (Easy)
 
-This problem was asked by Amazon.
-
-Given `n` numbers, find the greatest common denominator between them.
-
-For example, given the numbers `[42, 56, 14]`, return `14`.
-
-### Problem 1205 (Easy)
-
-This problem was asked by Microsoft.
-
-Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
-
-For example, the following linked list:
-
-```
-1 -> 2 -> 3 -> 4 -> 5
-```
-
-is the number 54321.
-
-Given two linked lists in this format, return their sum in the same linked list format.
-
-For example, given
-
-```
-9 -> 9
-5 -> 2
-```
-
-return 124 (99 + 25) as:
-
-```
-4 -> 2 -> 1
-```
+Same as [problem 127](#problem-127-easy).
 
 ### Problem 1206 (Hard)
 
@@ -13459,15 +12504,7 @@ Same as [problem 180](#problem-180-medium).
 
 ### Problem 1212 (Medium)
 
-This problem was asked by Amazon.
-
-Implement a bit array.
-
-A bit array is a space efficient array that holds a value of `1` or `0` at each index.
-
-- `init(size)`: initialize the array with `size`
-- `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
-- `get(i)`: gets the value at index `i`.
+Same as [problem 137](#problem-137-medium).
 
 ### Problem 1213 (Hard)
 
@@ -13515,21 +12552,7 @@ Write an algorithm that finds the total number of set bits in all integers betwe
 
 ### Problem 1218 (Hard)
 
-This problem was asked by Microsoft.
-
-Implement 3 stacks using a single list:
-
-```
-class Stack:
-    def __init__(self):
-        self.list = []
-
-    def pop(self, stack_number):
-        pass
-
-    def push(self, item, stack_number):
-        pass
-```
+Same as [problem 141](#problem-141-hard).
 
 ### Problem 1219 (Easy)
 
@@ -13633,23 +12656,7 @@ Same as [problem 8](#problem-8-easy).
 
 ### Problem 1230 (Medium)
 
-This problem was asked by Square.
-
-Given a list of words, return the shortest unique prefix of each word. For example, given the list:
-
-- dog
-- cat
-- apple
-- apricot
-- fish
-
-Return the list:
-
-- d
-- c
-- app
-- apr
-- f
+Same as [problem 162](#problem-162-medium).
 
 ### Problem 1231 (Medium)
 
@@ -13725,13 +12732,7 @@ Same as [problem 88](#problem-88-medium).
 
 ### Problem 1240 (Medium)
 
-This problem was asked by Apple.
-
-[Gray code](https://en.wikipedia.org/wiki/Gray_code) is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
-
-Given a number of bits `n`, generate a possible gray code for it.
-
-For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
+Same as [problem 148](#problem-148-hard).
 
 ### Problem 1241 (Medium)
 
@@ -13749,11 +12750,7 @@ Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "d
 
 ### Problem 1243 (Easy)
 
-This problem was asked by Google.
-
-Given two strings A and B, return whether or not A can be shifted some number of times to get B.
-
-For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
+Same as [problem 108](#problem-108-easy).
 
 ### Problem 1244 (Medium)
 
@@ -13775,11 +12772,7 @@ Recall that the minimum spanning tree is the subset of edges of a tree that conn
 
 ### Problem 1247 (Easy)
 
-This problem was asked by Google.
-
-Given a sorted list of integers, square the elements and give the output in sorted order.
-
-For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+Same as [problem 118](#problem-118-easy).
 
 ### Problem 1248 (Medium)
 
@@ -13799,11 +12792,7 @@ Same as [problem 89](#problem-89-medium).
 
 ### Problem 1250 (Easy)
 
-This problem was asked by Amazon.
-
-Given a string, determine whether any permutation of it is a palindrome.
-
-For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
+Same as [problem 157](#problem-157-easy).
 
 ### Problem 1251 (Hard)
 
@@ -13855,26 +12844,7 @@ For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In
 
 ### Problem 1258 (Medium)
 
-This problem was asked by Google.
-
-Given an `iterator` with methods `next()` and `hasNext()`, create a wrapper iterator, `PeekableInterface`, which also implements `peek()`. `peek` shows the next element that would be returned on `next()`.
-
-Here is the interface:
-
-```
-class PeekableInterface(object):
-    def __init__(self, iterator):
-        pass
-
-    def peek(self):
-        pass
-
-    def next(self):
-        pass
-
-    def hasNext(self):
-        pass
-```
+Same as [problem 139](#problem-139-medium).
 
 ### Problem 1259 (Medium)
 
@@ -13938,38 +12908,11 @@ How can we make it print out what we apparently want?
 
 ### Problem 1263 (Medium)
 
-This problem was asked by Facebook.
-
-Given a binary tree, return all paths from the root to leaves.
-
-For example, given the tree:
-
-```
-   1
-  / \
- 2   3
-    / \
-   4   5
-```
-
-Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
+Same as [problem 110](#problem-110-medium).
 
 ### Problem 1264 (Medium)
 
-This question was asked by Google.
-
-Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
-
-For example, given the following matrix:
-
-```
-[[1, 0, 0, 0],
- [1, 0, 1, 1],
- [1, 0, 1, 1],
- [0, 1, 0, 0]]
-```
-
-Return 4.
+Same as [problem 136](#problem-136-medium).
 
 ### Problem 1265 (Medium)
 
@@ -13983,13 +12926,7 @@ Given a list of numbers, create an algorithm that arranges them in order to form
 
 ### Problem 1267 (Hard)
 
-This problem was asked by Goldman Sachs.
-
-Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including `i`, excluding `j`).
-
-For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`.
-
-You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
+Same as [problem 149](#problem-149-hard).
 
 ### Problem 1268 (Medium)
 
@@ -14021,11 +12958,7 @@ Follow-up: What if you couldn't use any extra space?
 
 ### Problem 1270 (Hard)
 
-This problem was asked by Google.
-
-Given a word W and a string `S`, find all starting indices in `S` which are anagrams of `W`.
-
-For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+Same as [problem 111](#problem-111-hard).
 
 ### Problem 1271 (Easy)
 
@@ -14069,33 +13002,7 @@ assert mapsum.sum("col") == 5
 
 ### Problem 1274 (Medium)
 
-This question was asked by BufferBox.
-
-Given a binary tree where all nodes are either `0` or `1`, prune the tree so that subtrees containing all `0`s are removed.
-
-For example, given the following tree:
-
-```
-   0
-  / \
- 1   0
-    / \
-   1   0
-  / \
- 0   0
-```
-
-should be pruned to:
-
-```
-   0
-  / \
- 1   0
-    /
-   1
-```
-
-We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
+Same as [problem 146](#problem-146-medium).
 
 ### Problem 1275 (Hard)
 
@@ -14337,11 +13244,7 @@ Same as [problem 12](#problem-12-hard).
 
 ### Problem 1300 (Medium)
 
-This problem was asked by Lyft.
-
-Given a list of integers and a number K, return which contiguous elements of the list sum to K.
-
-For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
+Same as [problem 102](#problem-102-medium).
 
 ### Problem 1301 (Medium)
 
@@ -14478,7 +13381,7 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 
 ### Problem 1319 (Medium)
 
-Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
+Same as [problem 129](#problem-129-medium).
 
 ### Problem 1320 (Hard)
 
@@ -14612,28 +13515,7 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 
 ### Problem 1333 (Medium)
 
-This problem was asked by Slack.
-
-You are given an N by M matrix of `0`s and `1`s. Starting from the top left corner, how many ways are there to reach the bottom right corner?
-
-You can only move right and down. `0` represents an empty space while `1` represents a wall you cannot walk through.
-
-For example, given the following matrix:
-
-```
-[[0, 0, 1],
- [0, 0, 1],
- [1, 0, 0]]
-```
-
-Return two, as there are only two ways to get to the bottom right:
-
-- Right, down, down, right
-- Down, right, down, right
-
-The top left corner and bottom right corner will always be `0`.
-
----
+Same as [problem 158](#problem-158-medium).
 
 ### Problem 1334 (Easy)
 
@@ -14753,15 +13635,7 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ### Problem 1346 (Medium)
 
-This problem was asked by Google.
-
-Given an array of numbers and an index `i`, return the index of the nearest larger number of the number at index `i`, where distance is measured in array indices.
-
-For example, given `[4, 1, 3, 5, 6]` and index `0`, you should return `3`.
-
-If two distances to larger numbers are the equal, then return any one of them. If the array at `i` doesn't have a nearest larger integer, then return null.
-
-Follow-up: If you can preprocess the array, can you do this in constant time?
+Same as [problem 144](#problem-144-medium).
 
 ### Problem 1347 (Easy)
 
@@ -14773,25 +13647,7 @@ For example, given "aaabbc", you could return "ababac". Given "aaab", return `No
 
 ### Problem 1348 (Hard)
 
-This problem was asked by Uber.
-
-Given a tree where each edge has a weight, compute the length of the longest path in the tree.
-
-For example, given the following tree:
-
-```
-   a
-  /|\
- b c d
-    / \
-   e   f
-  / \
- g   h
-```
-
-and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of 17.
-
-The path does not have to pass through the root, and each node can have any amount of children.
+Same as [problem 160](#problem-160-hard).
 
 ### Problem 1349 (Medium)
 
@@ -14972,11 +13828,7 @@ For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.
 
 ### Problem 1370 (Hard)
 
-This problem was asked by Google.
-
-Given a string which we can delete at most k, return whether you can make a palindrome.
-
-For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+Same as [problem 121](#problem-121-hard).
 
 ### Problem 1371 (Easy)
 
@@ -15007,11 +13859,7 @@ Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be em
 
 ### Problem 1374 (Medium)
 
-This problem was asked by Pinterest.
-
-Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
-
-For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
+Same as [problem 106](#problem-106-medium).
 
 ### Problem 1375 (Medium)
 
@@ -15029,11 +13877,7 @@ Given a linked list, uniformly shuffle the nodes. What if we want to prioritize 
 
 ### Problem 1377 (Hard)
 
-This problem was asked by Google.
-
-You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
-
-For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+Same as [problem 142](#problem-142-hard).
 
 ### Problem 1378 (Easy)
 
@@ -15077,21 +13921,7 @@ Same as [problem 36](#problem-36-medium).
 
 ### Problem 1387 (Easy)
 
-This problem was asked by Google.
-
-Given the root of a binary search tree, and a target `K`, return two nodes in the tree whose sum equals `K`.
-
-For example, given the following tree and `K` of 20
-
-```
-    10
-   /   \
- 5      15
-       /  \
-     11    15
-```
-
-Return the nodes `5` and `15`.
+Same as [problem 125](#problem-125-easy).
 
 ### Problem 1388 (Medium)
 
@@ -15117,19 +13947,7 @@ Then a reasonable similarity metric would most likely conclude that `a` and `e` 
 
 ### Problem 1390 (Medium)
 
-This question was asked by Zillow.
-
-You are given a 2-d `matrix` where each cell represents number of coins in that cell. Assuming we start at `matrix[0][0]`, and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
-
-For example, in this matrix
-
-```
-0 3 1 1
-2 0 0 4
-1 5 3 1
-```
-
-The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+Same as [problem 122](#problem-122-medium).
 
 ### Problem 1391 (Medium)
 
@@ -15147,15 +13965,7 @@ Let us consider a "move" to be a rotation of a single wheel by one digit, in eit
 
 ### Problem 1393 (Easy)
 
-This problem was asked by Bloomberg.
-
-There are `N` prisoners standing in a circle, waiting to be executed. The executions are carried out starting with the `k`th person, and removing every successive `k`th person going clockwise until there is no one left.
-
-Given `N` and `k`, write an algorithm to determine where a prisoner should stand in order to be the last survivor.
-
-For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1, 5, 3]`, so you should return `3`.
-
-Bonus: Find an `O(log N)` solution if `k = 2`.
+Same as [problem 225](#problem-225-easy).
 
 ### Problem 1394 (Easy)
 
@@ -15251,7 +14061,7 @@ Same as [problem 285](#problem-285-medium).
 
 ### Problem 1408 (Hard)
 
-Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
+Same as [problem 147](#problem-147-hard).
 
 ### Problem 1409 (Easy)
 
@@ -15291,27 +14101,15 @@ Design and implement Connect 4.
 
 ### Problem 1411 (Hard)
 
-This problem was asked by Google.
-
-Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
+Same as [problem 115](#problem-115-hard).
 
 ### Problem 1412 (Medium)
 
-This problem was asked by Jane Street.
-
-Generate a finite, but an arbitrarily large binary tree quickly in O(1).
-
-That is, `generate()` should return a tree whose size is unbounded but finite.
+Same as [problem 116](#problem-116-medium).
 
 ### Problem 1413 (Medium)
 
-This problem was asked by Square.
-
-Given a string and a set of characters, return the shortest substring containing all the characters in the set.
-
-For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
-
-If there is no substring containing all the characters in the set, return null.
+Same as [problem 103](#problem-103-medium).
 
 ### Problem 1414 (Easy)
 
@@ -15383,11 +14181,7 @@ Same as [problem 133](#problem-133-medium).
 
 ### Problem 1419 (Medium)
 
-This problem was asked by Google.
-
-Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
-
-Follow-up: given a mutable string representation, can you perform this operation in-place?
+Same as [problem 113](#problem-113-medium).
 
 ### Problem 1420 (Medium)
 
@@ -15465,31 +14259,15 @@ An element is considered a peak if it is greater than both its left and right ne
 
 ### Problem 1430 (Easy)
 
-This problem was asked by Facebook.
-
-You have a large array with most of the elements as zero.
-
-Use a more space-efficient data structure, SparseArray, that implements the same interface:
-
-- `init(arr, size)`: initialize with the original large array and size.
-- `set(i, val)`: updates index at `i` with `val`.
-- `get(i)`: gets the value at index `i`.
+Same as [problem 134](#problem-134-easy).
 
 ### Problem 1431 (Medium)
 
-This problem was asked by MongoDB.
-
-Given a list of elements, find the majority element, which appears more than half the time (`> floor(len(lst) / 2.0)`).
-
-You can assume that such element exists.
-
-For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
+Same as [problem 155](#problem-155-medium).
 
 ### Problem 1432 (Medium)
 
-This question was asked by Snapchat.
-
-Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+Same as [problem 131](#problem-131-medium).
 
 ### Problem 1433 (Medium)
 
@@ -15510,9 +14288,7 @@ Same as [problem 346](#problem-346-medium).
 
 ### Problem 1435 (Medium)
 
-This problem was asked by Microsoft.
-
-Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
+Same as [problem 120](#problem-120-medium).
 
 ### Problem 1436 (Easy)
 
@@ -15598,17 +14374,7 @@ Write a program that takes in an array of integers representing byte values, and
 
 ### Problem 1442 (Easy)
 
-This problem was asked by Amazon.
-
-Implement a stack API using only a heap. A stack implements the following methods:
-
-- `push(item)`, which adds an element to the stack
-- `pop()`, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
-
-Recall that a heap has the following operations:
-
-- `push(item)`, which adds a new key to the heap
-- `pop()`, which removes and returns the max value of the heap
+Same as [problem 154](#problem-154-easy).
 
 ### Problem 1443 (Hard)
 
@@ -15662,11 +14428,7 @@ Same as [problem 325](#problem-325-easy).
 
 ### Problem 1446 (Medium)
 
-This problem was asked by Google.
-
-Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
-
-For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
+Same as [problem 119](#problem-119-medium).
 
 ### Problem 1447 (Medium)
 
@@ -15699,29 +14461,7 @@ Same as [problem 30](#problem-30-medium).
 
 ### Problem 1450 (Medium)
 
-The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
-
-All the disks start off on the first rod in a stack. They are ordered by size, with the largest disk on the bottom and the smallest one at the top.
-
-The goal of this puzzle is to move all the disks from the first rod to the last rod while following these rules:
-
-- You can only move one disk at a time.
-- A move consists of taking the uppermost disk from one of the stacks and placing it on top of another stack.
-- You cannot place a larger disk on top of a smaller disk.
-
-Write a function that prints out all the steps necessary to complete the Tower of Hanoi. You should assume that the rods are numbered, with the first rod being 1, the second (auxiliary) rod being 2, and the last (goal) rod being 3.
-
-For example, with n = 3, we can do this in 7 moves:
-
-```
-Move 1 to 3
-Move 1 to 2
-Move 3 to 2
-Move 1 to 3
-Move 2 to 1
-Move 2 to 3
-Move 1 to 3
-```
+Same as [problem 128](#problem-128-medium).
 
 ### Problem 1451 (Hard)
 
@@ -15765,11 +14505,7 @@ Write a program that returns the weight of the maximum weight path.
 
 ### Problem 1456 (Easy)
 
-This problem was asked by Google.
-
-Given a string, return the first recurring character in it, or null if there is no recurring character.
-
-For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+Same as [problem 159](#problem-159-easy).
 
 ### Problem 1457 (Hard)
 
@@ -15810,15 +14546,7 @@ For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at eve
 
 ### Problem 1462 (Hard)
 
-This problem was asked by Jane Street.
-
-Given an arithmetic expression in [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation), write a program to evaluate it.
-
-The expression is given as a list of numbers and operands. For example: `[5, 3, '+']` should return `5 + 3 = 8`.
-
-For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']` should return `5`, since it is equivalent to ((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5.
-
-You can assume the given expression is always valid.
+Same as [problem 163](#problem-163-hard).
 
 ### Problem 1463 (Easy)
 
@@ -15942,17 +14670,7 @@ Same as [problem 80](#problem-80-easy).
 
 ### Problem 1479 (Medium)
 
-This problem was asked by Amazon.
-
-Given a pivot `x`, and a list `lst`, partition the list into three parts.
-
-- The first part contains all elements in `lst` that are less than `x`
-- The second part contains all elements in `lst` that are equal to `x`
-- The third part contains all elements in `lst` that are larger than `x`
-
-Ordering within a part can be arbitrary.
-
-For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`.
+Same as [problem 143](#problem-143-medium).
 
 ### Problem 1480 (Medium)
 
@@ -16020,9 +14738,7 @@ Same as [problem 97](#problem-97-medium).
 
 ### Problem 1490 (Medium)
 
-This problem was asked by Google.
-
-You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+Same as [problem 164](#problem-164-medium).
 
 ### Problem 1491 (Medium)
 
@@ -16133,11 +14849,7 @@ If the pattern is found, return the start index of its location. If not, return 
 
 ### Problem 1505 (Medium)
 
-This problem was asked by Pinterest.
-
-Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
-
-For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
+Same as [problem 106](#problem-106-medium).
 
 ### Problem 1506 (Hard)
 
@@ -16181,21 +14893,7 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 
 ### Problem 1510 (Hard)
 
-This problem was asked by Microsoft.
-
-Implement 3 stacks using a single list:
-
-```
-class Stack:
-    def __init__(self):
-        self.list = []
-
-    def pop(self, stack_number):
-        pass
-
-    def push(self, item, stack_number):
-        pass
-```
+Same as [problem 141](#problem-141-hard).
 
 ### Problem 1511 (Medium)
 
@@ -16217,11 +14915,7 @@ and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
 
 ### Problem 1512 (Easy)
 
-This problem was asked by Google.
-
-Given a string, return the first recurring character in it, or null if there is no recurring character.
-
-For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+Same as [problem 159](#problem-159-easy).
 
 ### Problem 1513 (Medium)
 
@@ -16245,11 +14939,7 @@ Given a list of numbers, create an algorithm that arranges them in order to form
 
 ### Problem 1516 (Medium)
 
-This problem was asked by Google.
-
-Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
-
-Follow-up: given a mutable string representation, can you perform this operation in-place?
+Same as [problem 113](#problem-113-medium).
 
 ### Problem 1517 (Easy)
 
@@ -16295,11 +14985,7 @@ Same as [problem 40](#problem-40-hard).
 
 ### Problem 1521 (Hard)
 
-This problem was asked by Google.
-
-Given a word W and a string `S`, find all starting indices in `S` which are anagrams of `W`.
-
-For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+Same as [problem 111](#problem-111-hard).
 
 ### Problem 1522 (Medium)
 
@@ -16375,33 +15061,7 @@ For example, given a population with weights `[100, 200, 150, 80]` and a boat li
 
 ### Problem 1529 (Medium)
 
-This question was asked by BufferBox.
-
-Given a binary tree where all nodes are either `0` or `1`, prune the tree so that subtrees containing all `0`s are removed.
-
-For example, given the following tree:
-
-```
-   0
-  / \
- 1   0
-    / \
-   1   0
-  / \
- 0   0
-```
-
-should be pruned to:
-
-```
-   0
-  / \
- 1   0
-    /
-   1
-```
-
-We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
+Same as [problem 146](#problem-146-medium).
 
 ### Problem 1530 (Easy)
 
@@ -16462,15 +15122,7 @@ pipes = {
 
 ### Problem 1534 (Medium)
 
-This problem was asked by Amazon.
-
-Implement a bit array.
-
-A bit array is a space efficient array that holds a value of `1` or `0` at each index.
-
-- `init(size)`: initialize the array with `size`
-- `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
-- `get(i)`: gets the value at index `i`.
+Same as [problem 137](#problem-137-medium).
 
 ### Problem 1535 (Easy)
 
@@ -16628,19 +15280,11 @@ For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `[
 
 ### Problem 1554 (Easy)
 
-This problem was asked by Amazon.
-
-Given a string, determine whether any permutation of it is a palindrome.
-
-For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
+Same as [problem 157](#problem-157-easy).
 
 ### Problem 1555 (Medium)
 
-This problem was asked by Jane Street.
-
-Generate a finite, but an arbitrarily large binary tree quickly in O(1).
-
-That is, `generate()` should return a tree whose size is unbounded but finite.
+Same as [problem 116](#problem-116-medium).
 
 ### Problem 1556 (Easy)
 
@@ -16652,19 +15296,7 @@ If only one input tree has a node in a given position, the corresponding node in
 
 ### Problem 1557 (Medium)
 
-This question was asked by Zillow.
-
-You are given a 2-d `matrix` where each cell represents number of coins in that cell. Assuming we start at `matrix[0][0]`, and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
-
-For example, in this matrix
-
-```
-0 3 1 1
-2 0 0 4
-1 5 3 1
-```
-
-The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+Same as [problem 122](#problem-122-medium).
 
 ### Problem 1558 (Easy)
 
@@ -16704,25 +15336,11 @@ Given this representation, determine the depth of the tree.
 
 ### Problem 1560 (Medium)
 
-This problem was asked by Google.
-
-Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
-
-For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
+Same as [problem 119](#problem-119-medium).
 
 ### Problem 1561 (Easy)
 
-This problem was asked by Microsoft.
-
-Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
-
-```
-  1
- / \
-2   3
-   / \
-  4   5
-```
+Same as [problem 107](#problem-107-easy).
 
 ### Problem 1562 (Easy)
 
@@ -16834,23 +15452,7 @@ An element is considered a peak if it is greater than both its left and right ne
 
 ### Problem 1574 (Medium)
 
-This problem was asked by Square.
-
-Given a list of words, return the shortest unique prefix of each word. For example, given the list:
-
-- dog
-- cat
-- apple
-- apricot
-- fish
-
-Return the list:
-
-- d
-- c
-- app
-- apr
-- f
+Same as [problem 162](#problem-162-medium).
 
 ### Problem 1575 (Medium)
 
@@ -17029,26 +15631,7 @@ For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as t
 
 ### Problem 1588 (Medium)
 
-This problem was asked by Slack.
-
-You are given an N by M matrix of `0`s and `1`s. Starting from the top left corner, how many ways are there to reach the bottom right corner?
-
-You can only move right and down. `0` represents an empty space while `1` represents a wall you cannot walk through.
-
-For example, given the following matrix:
-
-```
-[[0, 0, 1],
- [0, 0, 1],
- [1, 0, 0]]
-```
-
-Return two, as there are only two ways to get to the bottom right:
-
-- Right, down, down, right
-- Down, right, down, right
-
-The top left corner and bottom right corner will always be `0`.
+Same as [problem 158](#problem-158-medium).
 
 ### Problem 1589 (Easy)
 
@@ -17170,35 +15753,11 @@ For example, given "2542540123", you should return ['254.25.40.123', '254.254.0.
 
 ### Problem 1600 (Easy)
 
-This problem was asked by Amazon.
-
-Implement a stack API using only a heap. A stack implements the following methods:
-
-- `push(item)`, which adds an element to the stack
-- `pop()`, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
-
-Recall that a heap has the following operations:
-
-- `push(item)`, which adds a new key to the heap
-- `pop()`, which removes and returns the max value of the heap
+Same as [problem 154](#problem-154-easy).
 
 ### Problem 1601 (Easy)
 
-This question was asked by Apple.
-
-Given a binary tree, find a minimum path sum from root to a leaf.
-
-For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
-
-```
-  10
- /  \
-5    5
- \     \
-   2    1
-       /
-     -1
-```
+Same as [problem 135](#problem-135-easy).
 
 ### Problem 1602 (Medium)
 
@@ -17335,28 +15894,7 @@ Given an array and a number `k` that's smaller than the length of the array, rot
 
 ### Problem 1616 (Easy)
 
-This problem was asked by Alibaba.
-
-Given an even number (greater than 2), return two prime numbers whose sum will be equal to the given number.
-
-A solution will always exist. See [Goldbach’s conjecture](https://en.wikipedia.org/wiki/Goldbach's_conjecture).
-
-Example:
-
-```
-Input: 4
-Output: 2 + 2 = 4
-```
-
-If there are more than one solution possible, return the lexicographically smaller solution.
-
-If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, then
-
-```
-[a, b] < [c, d]
-```
-
-If a < c OR a==c AND b < d.
+Same as [problem 101](#problem-101-easy).
 
 ### Problem 1617 (Easy)
 
@@ -17382,9 +15920,7 @@ Let's define a "sevenish" number to be one which is either a power of `7`, or th
 
 ### Problem 1619 (Hard)
 
-This problem was asked by Google.
-
-Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
+Same as [problem 115](#problem-115-hard).
 
 ### Problem 1620 (Hard)
 
@@ -17442,40 +15978,11 @@ Same as [problem 133](#problem-133-medium).
 
 ### Problem 1626 (Easy)
 
-This problem was asked by Microsoft.
-
-Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
-
-For example, the following linked list:
-
-```
-1 -> 2 -> 3 -> 4 -> 5
-```
-
-is the number 54321.
-
-Given two linked lists in this format, return their sum in the same linked list format.
-
-For example, given
-
-```
-9 -> 9
-5 -> 2
-```
-
-return 124 (99 + 25) as:
-
-```
-4 -> 2 -> 1
-```
+Same as [problem 127](#problem-127-easy).
 
 ### Problem 1627 (Easy)
 
-This problem was asked by Facebook.
-
-Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
-
-That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N` milliseconds.
+Same as [problem 105](#problem-105-easy).
 
 ### Problem 1628 (Medium)
 
@@ -17503,35 +16010,13 @@ Follow-up: What if you couldn't use any extra space?
 
 ### Problem 1629 (Medium)
 
-This problem was asked by Amazon.
-
-Given a pivot `x`, and a list `lst`, partition the list into three parts.
-
-- The first part contains all elements in `lst` that are less than `x`
-- The second part contains all elements in `lst` that are equal to `x`
-- The third part contains all elements in `lst` that are larger than `x`
-
-Ordering within a part can be arbitrary.
-
-For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`.
+Same as [problem 143](#problem-143-medium).
 
 ### Problem 1630 (Medium)
 
 This problem was asked by Facebook.
 
-Given a binary tree, return all paths from the root to leaves.
-
-For example, given the tree:
-
-```
-   1
-  / \
- 2   3
-    / \
-   4   5
-```
-
-Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
+Same as [problem 110](#problem-110-medium).
 
 ### Problem 1631 (Medium)
 
@@ -17569,11 +16054,7 @@ For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should
 
 ### Problem 1636 (Hard)
 
-This problem was asked by Google.
-
-Given a string which we can delete at most k, return whether you can make a palindrome.
-
-For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+Same as [problem 121](#problem-121-hard).
 
 ### Problem 1637 (Hard)
 
@@ -17585,11 +16066,7 @@ Do this in `O(log N)` time.
 
 ### Problem 1638 (Easy)
 
-This problem was asked by Google.
-
-Given the head of a singly linked list, swap every two nodes and return its head.
-
-For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+Same as [problem 145](#problem-145-easy).
 
 ### Problem 1639 (Medium)
 
@@ -17597,11 +16074,7 @@ Same as [problem 44](#problem-44-medium).
 
 ### Problem 1640 (Hard)
 
-This problem was asked by Google.
-
-You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
-
-For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+Same as [problem 142](#problem-142-hard).
 
 ### Problem 1641 (Easy)
 
@@ -17609,17 +16082,11 @@ Same as [problem 29](#problem-29-easy).
 
 ### Problem 1642 (Hard)
 
-Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
-
-For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+Same as [problem 153](#problem-153-hard).
 
 ### Problem 1643 (Easy)
 
-This problem was asked by Facebook.
-
-Given a 32-bit integer, return the number with its bits reversed.
-
-For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+Same as [problem 161](#problem-161-easy).
 
 ### Problem 1644 (Easy)
 
@@ -17633,9 +16100,7 @@ Same as [problem 25](#problem-25-hard).
 
 ### Problem 1646 (Medium)
 
-This problem was asked by Facebook.
-
-Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+Same as [problem 126](#problem-126-medium).
 
 ### Problem 1647 (Medium)
 
@@ -17875,19 +16340,11 @@ Same as [problem 70](#problem-70-easy).
 
 ### Problem 1669 (Easy)
 
-This problem was asked by Google.
-
-Given a sorted list of integers, square the elements and give the output in sorted order.
-
-For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+Same as [problem 118](#problem-118-easy).
 
 ### Problem 1670 (Medium)
 
-This problem was asked by Lyft.
-
-Given a list of integers and a number K, return which contiguous elements of the list sum to K.
-
-For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
+Same as [problem 102](#problem-102-medium).
 
 ### Problem 1671 (Medium)
 
@@ -17957,11 +16414,7 @@ assert mapsum.sum("col") == 5
 
 ### Problem 1677 (Easy)
 
-This problem was asked by Google.
-
-Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
-
-For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
+Same as [problem 104](#problem-104-easy).
 
 ### Problem 1678 (Medium)
 
@@ -18007,9 +16460,7 @@ For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In
 
 ### Problem 1686 (Hard)
 
-Good morning! Here's your coding interview problem for today.
-
-Given a list, sort it using this method: `reverse(lst, i, j)`, which reverses `lst` from `i` to `j`.
+Same as [problem 147](#problem-147-hard).
 
 ### Problem 1687 (Easy)
 
@@ -18134,30 +16585,13 @@ This problem was asked by Uber.
 
 On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.### Problem 1702 (Medium)
 
-This question was asked by Google.
+### Problem 1702 (Medium)
 
-Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
-
-For example, given the following matrix:
-
-```
-[[1, 0, 0, 0],
- [1, 0, 1, 1],
- [1, 0, 1, 1],
- [0, 1, 0, 0]]
-```
-
-Return 4.
+Same as [problem 136](#problem-136-medium).
 
 ### Problem 1703 (Hard)
 
-This problem was asked by Goldman Sachs.
-
-Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including `i`, excluding `j`).
-
-For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`.
-
-You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
+Same as [problem 149](#problem-149-hard).
 
 ### Problem 1704 (Medium)
 
@@ -18221,9 +16655,7 @@ Same as [problem 79](#problem-79-medium).
 
 ### Problem 1710 (Medium)
 
-This question was asked by Snapchat.
-
-Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+Same as [problem 131](#problem-131-medium).
 
 ### Problem 1711 (Easy)
 
@@ -18255,21 +16687,7 @@ Given a graph, find its transitive closure.
 
 ### Problem 1712 (Easy)
 
-This problem was asked by Google.
-
-Given the root of a binary search tree, and a target `K`, return two nodes in the tree whose sum equals `K`.
-
-For example, given the following tree and `K` of 20
-
-```
-    10
-   /   \
- 5      15
-       /  \
-     11    15
-```
-
-Return the nodes `5` and `15`.
+Same as [problem 125](#problem-125-easy).
 
 ### Problem 1713 (Hard)
 
@@ -18602,3 +17020,7 @@ Same as [problem 41](#problem-41-medium).
 ### Problem 1786 (Easy)
 
 Same as [problem 334](#problem-334-easy).
+
+### Problem 1787 (Easy)
+
+Same as [problem 225](#problem-225-easy).
