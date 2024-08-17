@@ -4701,7 +4701,7 @@ Write a function that returns the bitwise `AND` of all integers between `M` and 
 
 ---
 
-### Problem 318
+### Problem 318 (Hard)
 
 This problem was asked by Apple.
 
@@ -4713,7 +4713,7 @@ Given `N`, `M`, and `B`, determine the number of valid playlists.
 
 ---
 
-### Problem 319
+### Problem 319 (Hard)
 
 This problem was asked by Airbnb.
 
@@ -4725,13 +4725,13 @@ Design a class to represent the board, and find a series of steps to bring the b
 
 ---
 
-### Problem 320
+### Problem 320 (Medium)
 
 This problem was asked by Amazon.
 
 Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
 
-For example, given "jiujitsu", you should return 5, corresponding to the final five letters.
+For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution320.java)
 
@@ -4780,7 +4780,7 @@ More precisely, given an unordered list of `N` numbers, find an element whose ra
 
 ---
 
-### Problem 324
+### Problem 324 (Easy)
 
 This problem was asked by Amazon.
 
@@ -4806,7 +4806,7 @@ Create a data structure that can efficiently convert a certain quantity of one u
 
 ---
 
-### Problem 326
+### Problem 326 (Hard)
 
 This problem was asked by Netflix.
 
@@ -4824,13 +4824,13 @@ For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree 
 3   6
 ```
 
-Given a sequence S, construct the corresponding Cartesian tree.
+Given a sequence `S`, construct the corresponding Cartesian tree.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution326.java)
 
 ---
 
-### Problem 327
+### Problem 327 (Easy)
 
 This problem was asked by Salesforce.
 
@@ -4842,7 +4842,7 @@ If only one input tree has a node in a given position, the corresponding node in
 
 ---
 
-### Problem 328
+### Problem 328 (Medium)
 
 This problem was asked by Facebook.
 
@@ -4856,11 +4856,11 @@ Implement this system.
 
 ---
 
-### Problem 329
+### Problem 329 (Hard)
 
 This problem was asked by Amazon.
 
-The stable marriage problem is defined as follows:
+The [stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem) is defined as follows:
 
 Suppose you have `N` men and `N` women, and each person has ranked their prospective opposite-sex partners in order of preference.
 
@@ -4885,7 +4885,7 @@ Write an algorithm that pairs the men and women together in such a way that no t
 
 ---
 
-### Problem 330
+### Problem 330 (Hard)
 
 This problem was asked by Dropbox.
 
@@ -4899,15 +4899,15 @@ For example, suppose we have the following formula, where the symbol `¬` is use
 
 One way to satisfy this formula would be to let `a = False`, `b = True`, and `c = True`.
 
-This type of formula, with AND statements joining tuples containing exactly one OR, is known as 2-CNF.
+This type of formula, with `AND` statements joining tuples containing exactly one `OR`, is known as `2-CNF`.
 
-Given a 2-CNF formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
+Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution330.java)
 
 ---
 
-### Problem 331
+### Problem 331 (Medium)
 
 This problem was asked by LinkedIn.
 
@@ -4958,7 +4958,7 @@ Write a function that plays the `24` game.
 
 ---
 
-### Problem 335
+### Problem 335 (Hard)
 
 This problem was asked by Google.
 
@@ -4978,7 +4978,7 @@ Given a directed graph of links between various websites, write a program that c
 
 ---
 
-### Problem 336
+### Problem 336 (Medium)
 
 This problem was asked by Microsoft.
 
@@ -4996,7 +4996,7 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 
 ---
 
-### Problem 337
+### Problem 337 (Hard)
 
 This problem was asked by Apple.
 
@@ -5006,7 +5006,7 @@ Given a linked list, uniformly shuffle the nodes. What if we want to prioritize 
 
 ---
 
-### Problem 338
+### Problem 338 (Medium)
 
 This problem was asked by Facebook.
 
@@ -5016,7 +5016,7 @@ Given an integer `n`, find the next biggest integer with the same number of `1`-
 
 ---
 
-### Problem 339
+### Problem 339 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -5026,11 +5026,11 @@ Given an array of numbers and a number `k`, determine if there are three entries
 
 ---
 
-### Problem 340
+### Problem 340 (Easy)
 
 This problem was asked by Google.
 
-Given a set of points `(x, y)` on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
+Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution340.java)
 
@@ -6084,19 +6084,7 @@ Same as [problem 130](#problem-130-medium).
 
 ### Problem 409 (Hard)
 
-This problem was asked by Google.
-
-PageRank is an algorithm used by Google to rank the importance of different websites. While there have been changes over the years, the central idea is to assign each site a score based on the importance of other pages that link to that page.
-
-More mathematically, suppose there are `N` sites, and each site `i` has a certain count `C``i` of outgoing links. Then the score for a particular site `S``j` is defined as :
-
-```
-score(Sj) = (1 - d) / N + d * (score(Sx) / Cx+ score(Sy) / Cy+ ... + score(Sz) / Cz))
-```
-
-Here, `S``x`, `S``y`, `...`, `S``z` denote the scores of all the other sites that have outgoing links to `S``j`, and `d` is a damping factor, usually set to around `0.85`, used to model the probability that a user will stop searching.
-
-Given a directed graph of links between various websites, write a program that calculates each site's page rank.
+Same as [problem 335](#problem-335-hard).
 
 ### Problem 410 (Hard)
 
@@ -6157,11 +6145,7 @@ Same as [problem 251](#problem-251-medium).
 
 ### Problem 422 (Easy)
 
-This problem was asked by Salesforce.
-
-Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
-
-If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+Same as [problem 327](#problem-327-easy).
 
 ### Problem 423 (Easy)
 
@@ -6205,9 +6189,7 @@ Same as [problem 354](#problem-354-hard).
 
 ### Problem 433 (Medium)
 
-This problem was asked by Facebook.
-
-Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
+Same as [problem 338](#problem-338-medium).
 
 ### Problem 434 (Easy)
 
@@ -6243,24 +6225,7 @@ Same as [problem 143](#problem-143-medium).
 
 ### Problem 442 (Hard)
 
-This problem was asked by Netflix.
-
-A Cartesian tree with sequence `S` is a binary tree defined by the following two properties:
-
-- It is heap-ordered, so that each parent value is strictly less than that of its children.
-- An in-order traversal of the tree produces nodes with values that correspond exactly to `S`.
-
-For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree would be:
-
-```
-      1
-    /   \   
-  2       9
- / \
-3   6
-```
-
-Given a sequence `S`, construct the corresponding Cartesian tree.
+Same as [problem 326](#problem-326-hard).
 
 ### Problem 443 (Medium)
 
@@ -6367,11 +6332,7 @@ Same as [350](#problem-350-medium).
 
 ### Problem 460 (Medium)
 
-This problem was asked by LinkedIn.
-
-You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation called `flip`, which changes a single `x` to `y` or vice versa.
-
-Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
+Same as [problem 331](#problem-331-medium).
 
 ### Problem 461 (Medium)
 
@@ -6632,9 +6593,7 @@ Same as [problem 20](#problem-20-easy).
 
 ### Problem 518 (Easy)
 
-This problem was asked by Microsoft.
-
-Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return `true` as `20 + 4 + 25 = 49`.
+Same as [problem 339](#problem-339-easy).
 
 ### Problem 519 (Medium)
 
@@ -6688,17 +6647,7 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 
 ### Problem 527 (Medium)
 
-This problem was asked by Microsoft.
-
-Write a program to determine how many distinct ways there are to create a max heap from a list of `N` given integers.
-
-For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, shown below.
-
-```
-  3      3
- / \    / \
-1   2  2   1
-```
+Same as [problem 336](#problem-336-medium).
 
 ### Problem 528 (Easy)
 
@@ -7058,9 +7007,7 @@ Same as [problem 259](#problem-259-hard).
 
 ### Problem 600 (Easy)
 
-This problem was asked by Google.
-
-Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
+Same as [problem 340](#problem-340-easy).
 
 ### Problem 601 (Medium)
 
@@ -7127,29 +7074,7 @@ Same as [problem 270](#problem-270-medium).
 
 ### Problem 616 (Hard)
 
-This problem was asked by Amazon.
-
-The [stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem) is defined as follows:
-
-Suppose you have `N` men and `N` women, and each person has ranked their prospective opposite-sex partners in order of preference.
-
-For example, if `N = 3`, the input could be something like this:
-
-```
-guy_preferences = {
-    'andrew': ['caroline', 'abigail', 'betty'],
-    'bill': ['caroline', 'betty', 'abigail'],
-    'chester': ['betty', 'caroline', 'abigail'],
-}
-
-gal_preferences = {
-    'abigail': ['andrew', 'bill', 'chester'],
-    'betty': ['bill', 'andrew', 'chester'],
-    'caroline': ['bill', 'chester', 'andrew']
-}
-```
-
-Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
+Same as [problem 329](#problem-329-hard).
 
 ### Problem 616 (Medium)
 
@@ -7337,11 +7262,7 @@ Same as [problem 89](#problem-89-medium).
 
 ### Problem 652 (Hard)
 
-This problem was asked by Apple.
-
-You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a buffer of `B` songs between repeats.
-
-Given `N`, `M`, and `B`, determine the number of valid playlists.
+Same as [problem 318](#problem-318-hard).
 
 ### Problem 653 (Easy)
 
@@ -7349,11 +7270,7 @@ Same as [problem 187](#problem-187-easy).
 
 ### Problem 654 (Medium)
 
-This problem was asked by Amazon.
-
-Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
-
-For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
+Same as [problem 320](#problem-320-medium).
 
 ### Problem 655 (Easy)
 
@@ -7405,13 +7322,7 @@ Same as [problem 186](#problem-186-hard).
 
 ### Problem 667 (Medium)
 
-This problem was asked by Facebook.
-
-In chess, the Elo rating system is used to calculate player strengths based on game results.
-
-A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
-
-Implement this system.
+Same as [problem 328](#problem-328-medium).
 
 ### Problem 668 (Easy)
 
@@ -7541,29 +7452,11 @@ Write a function that returns the _maximum_ number of edges you can remove while
 
 ### Problem 687 (Hard)
 
-This problem was asked by Airbnb.
-
-An 8-puzzle is a game played on a 3 x 3 board of tiles, with the ninth tile missing. The remaining tiles are labeled 1 through 8 but shuffled randomly. Tiles may slide horizontally or vertically into an empty space, but may not be removed from the board.
-
-Design a class to represent the board, and find a series of steps to bring the board to the state [[1, 2, 3], [4, 5, 6], [7, 8, None]].
+Same as [problem 319](#problem-319-hard).
 
 ### Problem 688 (Hard)
 
-This problem was asked by Dropbox.
-
-A Boolean formula can be said to be satisfiable if there is a way to assign truth values to each variable such that the entire formula evaluates to true.
-
-For example, suppose we have the following formula, where the symbol `¬` is used to denote negation:
-
-```
-(¬c OR b) AND (b OR c) AND (¬b OR c) AND (¬c OR ¬a)
-```
-
-One way to satisfy this formula would be to let `a = False`, `b = True`, and `c = True`.
-
-This type of formula, with `AND` statements joining tuples containing exactly one `OR`, is known as `2-CNF`.
-
-Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
+Same as [problem 330](#problem-330-hard).
 
 ### Problem 689 (Easy)
 
@@ -7733,13 +7626,7 @@ You should return 45, as it is (3 + 2) * (4 + 5).
 
 ### Problem 725 (Easy)
 
-This problem was asked by Amazon.
-
-Consider the following scenario: there are `N` mice and `N` holes placed at integer points along a line. Given this, find a method that maps mice to holes such that the largest number of steps any mouse takes is minimized.
-
-Each move consists of moving one mouse one unit to the left or right, and only one mouse can fit inside each hole.
-
-For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
+Same as [problem 324](#problem-324-easy).
 
 ### Problem 726 (Medium)
 
@@ -7935,9 +7822,7 @@ Same as [problem 213](#problem-213-medium).
 
 ### Problem 760 (Hard)
 
-This problem was asked by Apple.
-
-Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
+Same as [problem 337](#problem-337-hard).
 
 ### Problem 761 (Easy)
 
@@ -7961,11 +7846,7 @@ Same as [problem 26](#problem-26-medium).
 
 ### Problem 766 (Medium)
 
-This problem was asked by LinkedIn.
-
-You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation called `flip`, which changes a single `x` to `y` or vice versa.
-
-Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
+Same as [problem 331](#problem-331-medium).
 
 ### Problem 767 (Hard)
 
@@ -8101,9 +7982,7 @@ Same as [problem 61](#problem-61-medium).
 
 ### Problem 787 (Medium)
 
-This problem was asked by Facebook.
-
-Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
+Same as [problem 338](#problem-338-medium).
 
 ### Problem 788 (Easy)
 
@@ -8222,13 +8101,7 @@ Same as [problem 162](#problem-162-medium).
 
 ### Problem 812 (Medium)
 
-This problem was asked by Facebook.
-
-In chess, the Elo rating system is used to calculate player strengths based on game results.
-
-A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
-
-Implement this system.
+Same as [problem 328](#problem-328-medium).
 
 ### Problem 813 (Medium)
 
@@ -8276,11 +8149,7 @@ Same as [problem 137](#problem-137-medium).
 
 ### Problem 824 (Easy)
 
-This problem was asked by Salesforce.
-
-Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
-
-If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+Same as [problem 327](#problem-327-easy).
 
 ### Problem 825 (Easy)
 
@@ -8296,17 +8165,7 @@ Same as [problem 314](#problem-314-medium).
 
 ### Problem 828 (Medium)
 
-This problem was asked by Microsoft.
-
-Write a program to determine how many distinct ways there are to create a max heap from a list of `N` given integers.
-
-For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, shown below.
-
-```
-  3      3
- / \    / \
-1   2  2   1
-```
+Same as [problem 336](#problem-336-medium).
 
 ### Problem 829 (Hard)
 
@@ -8403,21 +8262,7 @@ Same as [problem 211](#problem-211-medium).
 
 ### Problem 844 (Hard)
 
-This problem was asked by Dropbox.
-
-A Boolean formula can be said to be satisfiable if there is a way to assign truth values to each variable such that the entire formula evaluates to true.
-
-For example, suppose we have the following formula, where the symbol `¬` is used to denote negation:
-
-```
-(¬c OR b) AND (b OR c) AND (¬b OR c) AND (¬c OR ¬a)
-```
-
-One way to satisfy this formula would be to let `a = False`, `b = True`, and `c = True`.
-
-This type of formula, with `AND` statements joining tuples containing exactly one `OR`, is known as `2-CNF`.
-
-Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
+Same as [problem 330](#problem-330-hard).
 
 ### Problem 845 (Medium)
 
@@ -8587,11 +8432,7 @@ Same as [problem 166](#problem-166-medium).
 
 ### Problem 882 (Hard)
 
-This problem was asked by Airbnb.
-
-An 8-puzzle is a game played on a 3 x 3 board of tiles, with the ninth tile missing. The remaining tiles are labeled 1 through 8 but shuffled randomly. Tiles may slide horizontally or vertically into an empty space, but may not be removed from the board.
-
-Design a class to represent the board, and find a series of steps to bring the board to the state [[1, 2, 3], [4, 5, 6], [7, 8, None]].
+Same as [problem 319](#problem-319-hard).
 
 ### Problem 883 (Easy)
 
@@ -8675,9 +8516,7 @@ Same as [problem 191](#problem-191-easy).
 
 ### Problem 903 (Easy)
 
-This problem was asked by Microsoft.
-
-Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return `true` as `20 + 4 + 25 = 49`.
+Same as [problem 339](#problem-339-easy).
 
 ### Problem 904 (Easy)
 
@@ -8689,9 +8528,7 @@ Same as [problem 246](#problem-246-medium).
 
 ### Problem 906 (Easy)
 
-This problem was asked by Google.
-
-Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
+Same as [problem 340](#problem-340-easy).
 
 ### Problem 907 (Medium)
 
@@ -8752,19 +8589,7 @@ Same as [problem 208](#problem-208-medium).
 
 ### Problem 918 (Hard)
 
-This problem was asked by Google.
-
-PageRank is an algorithm used by Google to rank the importance of different websites. While there have been changes over the years, the central idea is to assign each site a score based on the importance of other pages that link to that page.
-
-More mathematically, suppose there are `N` sites, and each site `i` has a certain count `C``i` of outgoing links. Then the score for a particular site `S``j` is defined as :
-
-```
-score(Sj) = (1 - d) / N + d * (score(Sx) / Cx+ score(Sy) / Cy+ ... + score(Sz) / Cz))
-```
-
-Here, `S``x`, `S``y`, `...`, `S``z` denote the scores of all the other sites that have outgoing links to `S``j`, and `d` is a damping factor, usually set to around `0.85`, used to model the probability that a user will stop searching.
-
-Given a directed graph of links between various websites, write a program that calculates each site's page rank.
+Same as [problem 335](#problem-335-hard).
 
 ### Problem 919 (Medium)
 
@@ -9030,11 +8855,7 @@ Same as [problem 274](#problem-274-hard).
 
 ### Problem 975 (Hard)
 
-This problem was asked by Apple.
-
-You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a buffer of `B` songs between repeats.
-
-Given `N`, `M`, and `B`, determine the number of valid playlists.
+Same as [problem 318](#problem-318-hard).
 
 ### Problem 976 (Medium)
 
@@ -9357,24 +9178,7 @@ Same as [problem 97](#problem-97-medium).
 
 ### Problem 1048 (Hard)
 
-This problem was asked by Netflix.
-
-A Cartesian tree with sequence `S` is a binary tree defined by the following two properties:
-
-- It is heap-ordered, so that each parent value is strictly less than that of its children.
-- An in-order traversal of the tree produces nodes with values that correspond exactly to `S`.
-
-For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree would be:
-
-```
-      1
-    /   \   
-  2       9
- / \
-3   6
-```
-
-Given a sequence `S`, construct the corresponding Cartesian tree.
+Same as [problem 326](#problem-326-hard).
 
 ### Problem 1049 (Medium)
 
@@ -9494,29 +9298,7 @@ Same as [problem 218](#problem-218-medium).
 
 ### Problem 1066 (Hard)
 
-This problem was asked by Amazon.
-
-The [stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem) is defined as follows:
-
-Suppose you have `N` men and `N` women, and each person has ranked their prospective opposite-sex partners in order of preference.
-
-For example, if `N = 3`, the input could be something like this:
-
-```
-guy_preferences = {
-    'andrew': ['caroline', 'abigail', 'betty'],
-    'bill': ['caroline', 'betty', 'abigail'],
-    'chester': ['betty', 'caroline', 'abigail'],
-}
-
-gal_preferences = {
-    'abigail': ['andrew', 'bill', 'chester'],
-    'betty': ['bill', 'andrew', 'chester'],
-    'caroline': ['bill', 'chester', 'andrew']
-}
-```
-
-Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
+Same as [problem 329](#problem-329-hard).
 
 ### Problem 1067 (Medium)
 
@@ -9666,9 +9448,7 @@ Same as [problem 165](#problem-165-medium).
 
 ### Problem 1094 (Hard)
 
-This problem was asked by Apple.
-
-Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
+Same as [problem 337](#problem-337-hard).
 
 ### Problem 1095 (Easy)
 
@@ -9702,13 +9482,7 @@ Same as [problem 271](#problem-271-hard).
 
 ### Problem 1101 (Easy)
 
-This problem was asked by Amazon.
-
-Consider the following scenario: there are `N` mice and `N` holes placed at integer points along a line. Given this, find a method that maps mice to holes such that the largest number of steps any mouse takes is minimized.
-
-Each move consists of moving one mouse one unit to the left or right, and only one mouse can fit inside each hole.
-
-For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
+Same as [problem 324](#problem-324-easy).
 
 ### Problem 1102 (Medium)
 
@@ -9847,11 +9621,7 @@ Same as [350](#problem-350-medium).
 
 ### Problem 1127 (Medium)
 
-This problem was asked by Amazon.
-
-Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
-
-For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
+Same as [problem 320](#problem-320-medium).
 
 ### Problem 1128 (Easy)
 
@@ -9993,11 +9763,7 @@ Same as [problem 359](#problem-359-easy).
 
 ### Problem 1161 (Hard)
 
-This problem was asked by Airbnb.
-
-An 8-puzzle is a game played on a 3 x 3 board of tiles, with the ninth tile missing. The remaining tiles are labeled 1 through 8 but shuffled randomly. Tiles may slide horizontally or vertically into an empty space, but may not be removed from the board.
-
-Design a class to represent the board, and find a series of steps to bring the board to the state [[1, 2, 3], [4, 5, 6], [7, 8, None]].
+Same as [problem 319](#problem-319-hard).
 
 ### Problem 1162 (Hard)
 
@@ -10076,24 +9842,7 @@ Same as [problem 48](#problem-48-medium).
 
 ### Problem 1173 (Hard)
 
-This problem was asked by Netflix.
-
-A Cartesian tree with sequence `S` is a binary tree defined by the following two properties:
-
-- It is heap-ordered, so that each parent value is strictly less than that of its children.
-- An in-order traversal of the tree produces nodes with values that correspond exactly to `S`.
-
-For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree would be:
-
-```
-      1
-    /   \   
-  2       9
- / \
-3   6
-```
-
-Given a sequence `S`, construct the corresponding Cartesian tree.
+Same as [problem 326](#problem-326-hard).
 
 ### Problem 1174 (Hard)
 
@@ -10183,9 +9932,7 @@ Same as [problem 44](#problem-44-medium).
 
 ### Problem 1189 (Easy)
 
-This problem was asked by Microsoft.
-
-Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return `true` as `20 + 4 + 25 = 49`.
+Same as [problem 339](#problem-339-easy).
 
 ### Problem 1190 (Medium)
 
@@ -10205,29 +9952,11 @@ Same as [problem 259](#problem-259-hard).
 
 ### Problem 1194 (Hard)
 
-This problem was asked by Dropbox.
-
-A Boolean formula can be said to be satisfiable if there is a way to assign truth values to each variable such that the entire formula evaluates to true.
-
-For example, suppose we have the following formula, where the symbol `¬` is used to denote negation:
-
-```
-(¬c OR b) AND (b OR c) AND (¬b OR c) AND (¬c OR ¬a)
-```
-
-One way to satisfy this formula would be to let `a = False`, `b = True`, and `c = True`.
-
-This type of formula, with `AND` statements joining tuples containing exactly one `OR`, is known as `2-CNF`.
-
-Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
+Same as [problem 330](#problem-330-hard).
 
 ### Problem 1195 (Medium)
 
-This problem was asked by Amazon.
-
-Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
-
-For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
+Same as [problem 320](#problem-320-medium).
 
 ### Problem 1196 (Hard)
 
@@ -10312,29 +10041,7 @@ Same as [problem 137](#problem-137-medium).
 
 ### Problem 1213 (Hard)
 
-This problem was asked by Amazon.
-
-The [stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem) is defined as follows:
-
-Suppose you have `N` men and `N` women, and each person has ranked their prospective opposite-sex partners in order of preference.
-
-For example, if `N = 3`, the input could be something like this:
-
-```
-guy_preferences = {
-    'andrew': ['caroline', 'abigail', 'betty'],
-    'bill': ['caroline', 'betty', 'abigail'],
-    'chester': ['betty', 'caroline', 'abigail'],
-}
-
-gal_preferences = {
-    'abigail': ['andrew', 'bill', 'chester'],
-    'betty': ['bill', 'andrew', 'chester'],
-    'caroline': ['bill', 'chester', 'andrew']
-}
-```
-
-Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
+Same as [problem 329](#problem-329-hard).
 
 ### Problem 1214 (Medium)
 
@@ -10362,11 +10069,7 @@ Same as [problem 91](#problem-91-easy).
 
 ### Problem 1220 (Easy)
 
-This problem was asked by Salesforce.
-
-Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
-
-If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+Same as [problem 327](#problem-327-easy).
 
 ### Problem 1221 (Easy)
 
@@ -10554,11 +10257,7 @@ Same as [problem 139](#problem-139-medium).
 
 ### Problem 1259 (Medium)
 
-This problem was asked by LinkedIn.
-
-You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation called `flip`, which changes a single `x` to `y` or vice versa.
-
-Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
+Same as [problem 331](#problem-331-medium).
 
 ### Problem 1260 (Easy)
 
@@ -10688,19 +10387,7 @@ Same as [problem 199](#problem-199-hard).
 
 ### Problem 1289 (Hard)
 
-This problem was asked by Google.
-
-PageRank is an algorithm used by Google to rank the importance of different websites. While there have been changes over the years, the central idea is to assign each site a score based on the importance of other pages that link to that page.
-
-More mathematically, suppose there are `N` sites, and each site `i` has a certain count `C``i` of outgoing links. Then the score for a particular site `S``j` is defined as :
-
-```
-score(Sj) = (1 - d) / N + d * (score(Sx) / Cx+ score(Sy) / Cy+ ... + score(Sz) / Cz))
-```
-
-Here, `S``x`, `S``y`, `...`, `S``z` denote the scores of all the other sites that have outgoing links to `S``j`, and `d` is a damping factor, usually set to around `0.85`, used to model the probability that a user will stop searching.
-
-Given a directed graph of links between various websites, write a program that calculates each site's page rank.
+Same as [problem 335](#problem-335-hard).
 
 ### Problem 1290 (Medium)
 
@@ -10716,11 +10403,7 @@ Same as [problem 295](#problem-295-medium).
 
 ### Problem 1293 (Hard)
 
-This problem was asked by Apple.
-
-You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a buffer of `B` songs between repeats.
-
-Given `N`, `M`, and `B`, determine the number of valid playlists.
+Same as [problem 318](#problem-318-hard).
 
 ### Problem 1294 (Easy)
 
@@ -10760,9 +10443,7 @@ Same as [4](#problem-4-hard).
 
 ### Problem 1303 (Medium)
 
-This problem was asked by Facebook.
-
-Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
+Same as [problem 338](#problem-338-medium).
 
 ### Problem 1304 (Medium)
 
@@ -10884,9 +10565,7 @@ Same as [problem 181](#problem-181-hard).
 
 ### Problem 1329 (Easy)
 
-This problem was asked by Google.
-
-Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
+Same as [problem 340](#problem-340-easy).
 
 ### Problem 1330 (Easy)
 
@@ -11059,17 +10738,7 @@ Same as [problem 32](#problem-32-hard).
 
 ### Problem 1353 (Medium)
 
-This problem was asked by Microsoft.
-
-Write a program to determine how many distinct ways there are to create a max heap from a list of `N` given integers.
-
-For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, shown below.
-
-```
-  3      3
- / \    / \
-1   2  2   1
-```
+Same as [problem 336](#problem-336-medium).
 
 ### Problem 1354 (Medium)
 
@@ -11141,13 +10810,7 @@ Same as [problem 121](#problem-121-hard).
 
 ### Problem 1371 (Easy)
 
-This problem was asked by Amazon.
-
-Consider the following scenario: there are `N` mice and `N` holes placed at integer points along a line. Given this, find a method that maps mice to holes such that the largest number of steps any mouse takes is minimized.
-
-Each move consists of moving one mouse one unit to the left or right, and only one mouse can fit inside each hole.
-
-For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
+Same as [problem 324](#problem-324-easy).
 
 ### Problem 1372 (Easy)
 
@@ -11167,9 +10830,7 @@ Same as [problem 246](#problem-246-medium).
 
 ### Problem 1376 (Hard)
 
-This problem was asked by Apple.
-
-Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
+Same as [problem 337](#problem-337-hard).
 
 ### Problem 1377 (Hard)
 
@@ -11763,24 +11424,7 @@ Same as [problem 218](#problem-218-medium).
 
 ### Problem 1495 (Hard)
 
-This problem was asked by Netflix.
-
-A Cartesian tree with sequence `S` is a binary tree defined by the following two properties:
-
-- It is heap-ordered, so that each parent value is strictly less than that of its children.
-- An in-order traversal of the tree produces nodes with values that correspond exactly to `S`.
-
-For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree would be:
-
-```
-      1
-    /   \   
-  2       9
- / \
-3   6
-```
-
-Given a sequence `S`, construct the corresponding Cartesian tree.
+Same as [problem 326](#problem-326-hard).
 
 ### Problem 1496 (Medium)
 
@@ -11938,19 +11582,7 @@ Same as [problem 277](#problem-277-easy).
 
 ### Problem 1526 (Hard)
 
-This problem was asked by Google.
-
-PageRank is an algorithm used by Google to rank the importance of different websites. While there have been changes over the years, the central idea is to assign each site a score based on the importance of other pages that link to that page.
-
-More mathematically, suppose there are `N` sites, and each site `i` has a certain count `C``i` of outgoing links. Then the score for a particular site `S``j` is defined as :
-
-```
-score(Sj) = (1 - d) / N + d * (score(Sx) / Cx+ score(Sy) / Cy+ ... + score(Sz) / Cz))
-```
-
-Here, `S``x`, `S``y`, `...`, `S``z` denote the scores of all the other sites that have outgoing links to `S``j`, and `d` is a damping factor, usually set to around `0.85`, used to model the probability that a user will stop searching.
-
-Given a directed graph of links between various websites, write a program that calculates each site's page rank.
+Same as [problem 335](#problem-335-hard).
 
 ### Problem 1527 (Medium)
 
@@ -12102,11 +11734,7 @@ Same as [problem 116](#problem-116-medium).
 
 ### Problem 1556 (Easy)
 
-This problem was asked by Salesforce.
-
-Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
-
-If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+Same as [problem 327](#problem-327-easy).
 
 ### Problem 1557 (Medium)
 
@@ -12142,13 +11770,7 @@ Same as [problem 107](#problem-107-easy).
 
 ### Problem 1562 (Easy)
 
-This problem was asked by Amazon.
-
-Consider the following scenario: there are `N` mice and `N` holes placed at integer points along a line. Given this, find a method that maps mice to holes such that the largest number of steps any mouse takes is minimized.
-
-Each move consists of moving one mouse one unit to the left or right, and only one mouse can fit inside each hole.
-
-For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
+Same as [problem 324](#problem-324-easy).
 
 ### Problem 1563 (Medium)
 
@@ -12248,11 +11870,7 @@ Same as [problem 244](#problem-244-easy).
 
 ### Problem 1586 (Hard)
 
-This problem was asked by Airbnb.
-
-An 8-puzzle is a game played on a 3 x 3 board of tiles, with the ninth tile missing. The remaining tiles are labeled 1 through 8 but shuffled randomly. Tiles may slide horizontally or vertically into an empty space, but may not be removed from the board.
-
-Design a class to represent the board, and find a series of steps to bring the board to the state [[1, 2, 3], [4, 5, 6], [7, 8, None]].
+Same as [problem 319](#problem-319-hard).
 
 ### Problem 1587 (Medium)
 
@@ -12268,11 +11886,7 @@ Same as [problem 290](#problem-290-easy).
 
 ### Problem 1590 (Medium)
 
-This problem was asked by Amazon.
-
-Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
-
-For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
+Same as [problem 320](#problem-320-medium).
 
 ### Problem 1591 (Hard)
 
@@ -12329,11 +11943,7 @@ Same as [problem 135](#problem-135-easy).
 
 ### Problem 1602 (Medium)
 
-This problem was asked by LinkedIn.
-
-You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation called `flip`, which changes a single `x` to `y` or vice versa.
-
-Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
+Same as [problem 331](#problem-331-medium).
 
 ### Problem 1603 (Easy)
 
@@ -12357,17 +11967,7 @@ Same as [problem 176](#problem-176-easy).
 
 ### Problem 1608 (Medium)
 
-This problem was asked by Microsoft.
-
-Write a program to determine how many distinct ways there are to create a max heap from a list of `N` given integers.
-
-For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, shown below.
-
-```
-  3      3
- / \    / \
-1   2  2   1
-```
+Same as [problem 336](#problem-336-medium).
 
 ### Problem 1609 (Hard)
 
@@ -12564,11 +12164,7 @@ Same as [problem 234](#problem-234-hard).
 
 ### Problem 1651 (Hard)
 
-This problem was asked by Apple.
-
-You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a buffer of `B` songs between repeats.
-
-Given `N`, `M`, and `B`, determine the number of valid playlists.
+Same as [problem 318](#problem-318-hard).
 
 ### Problem 1652 (Medium)
 
@@ -12670,9 +12266,7 @@ Same as [problem 67](#problem-67-hard).
 
 ### Problem 1663 (Hard)
 
-This problem was asked by Apple.
-
-Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
+Same as [problem 337](#problem-337-hard).
 
 ### Problem 1664 (Easy)
 
@@ -12796,9 +12390,7 @@ Same as [problem 227](#problem-227-easy).
 
 ### Problem 1691 (Medium)
 
-This problem was asked by Facebook.
-
-Given an integer n, find the next biggest integer with the same number of 1-bits on. For example, given the number 6 (`0110` in binary), return 9 (`1001`).
+Same as [problem 338](#problem-338-medium).
 
 ### Problem 1692 (Easy)
 
@@ -12901,13 +12493,7 @@ Same as [problem 99](#problem-99-medium).
 
 ### Problem 1707 (Medium)
 
-This problem was asked by Facebook.
-
-In chess, the Elo rating system is used to calculate player strengths based on game results.
-
-A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
-
-Implement this system.
+Same as [problem 328](#problem-328-medium).
 
 ### Problem 1708 (Medium)
 
