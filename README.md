@@ -3945,7 +3945,7 @@ For example, given `'-1 + (2 + 3)'`, you should return `4`.
 
 ---
 
-### Problem 275
+### Problem 275 (Medium)
 
 This problem was asked by Epic.
 
@@ -3967,7 +3967,7 @@ Given an integer `N`, print the `Nth` term of this sequence.
 
 ---
 
-### Problem 276
+### Problem 276 (Hard)
 
 This problem was asked by Dropbox.
 
@@ -3981,7 +3981,7 @@ If the pattern is found, return the start index of its location. If not, return 
 
 ---
 
-### Problem 277
+### Problem 277 (Easy)
 
 This problem was asked by Google.
 
@@ -4018,11 +4018,11 @@ Given an integer `N`, construct all possible binary search trees with `N` nodes.
 
 ---
 
-### Problem 279
+### Problem 279 (Easy)
 
 This problem was asked by Twitter.
 
-A classroom consists of N students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
+A classroom consists of `N` students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
 
 ```
 {
@@ -4044,7 +4044,7 @@ Given a friendship list such as the one above, determine the number of friend gr
 
 ---
 
-### Problem 280
+### Problem 280 (Easy)
 
 This problem was asked by Pandora.
 
@@ -4054,7 +4054,7 @@ Given an undirected graph, determine if it contains a cycle.
 
 ---
 
-### Problem 281
+### Problem 281 (Medium)
 
 This problem was asked by LinkedIn.
 
@@ -4079,7 +4079,7 @@ Given an input consisting of brick lengths for each row such as the one above, r
 
 ---
 
-### Problem 282
+### Problem 282 (Easy)
 
 This problem was asked by Netflix.
 
@@ -4089,7 +4089,7 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 
 ---
 
-### Problem 283
+### Problem 283 (Easy)
 
 This problem was asked by Google.
 
@@ -4103,7 +4103,7 @@ Given an integer `N`, write a program that returns, in order, the first `N` regu
 
 ---
 
-### Problem 284
+### Problem 284 (Medium)
 
 This problem was asked by Yext.
 
@@ -4137,7 +4137,7 @@ Can you do this using just one forward pass through the array?
 
 ---
 
-### Problem 286
+### Problem 286 (Hard)
 
 This problem was asked by VMware.
 
@@ -4163,11 +4163,11 @@ As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19
 
 ---
 
-### Problem 287
+### Problem 287 (Medium)
 
 This problem was asked by Quora.
 
-You are given a list of (website, user) pairs that represent users visiting websites. Come up with a program that identifies the top `k` pairs of websites with the greatest similarity.
+You are given a list of `(website, user)` pairs that represent users visiting websites. Come up with a program that identifies the top `k` pairs of websites with the greatest similarity.
 
 For example, suppose `k = 1`, and the list of tuples is:
 
@@ -4185,21 +4185,20 @@ Then a reasonable similarity metric would most likely conclude that `a` and `e` 
 
 ---
 
-### Problem 288
+### Problem 288 (Medium)
 
 This problem was asked by Salesforce.
 
-The number `6174` is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
+The number 6174 is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
 
-For a given input `x`, create two new numbers that consist of the digits in `x` in ascending and descending order.
-Subtract the smaller number from the larger number.
+- For a given input `x`, create two new numbers that consist of the digits in `x` in ascending and descending order.
+- Subtract the smaller number from the larger number.
+
 For example, this algorithm terminates in three steps when starting from `1234`:
 
-```
-4321 - 1234 = 3087
-8730 - 0378 = 8352
-8532 - 2358 = 6174
-```
+- `4321 - 1234 = 3087`
+- `8730 - 0378 = 8352`
+- `8532 - 2358 = 6174`
 
 Write a function that returns how many steps this will take for a given input `N`.
 
@@ -4207,11 +4206,11 @@ Write a function that returns how many steps this will take for a given input `N
 
 ---
 
-### Problem 289
+### Problem 289 (Hard)
 
 This problem was asked by Google.
 
-The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For example, if the initial heap sizes are 3, 4, and 5, a game could be played as shown below:
+The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For example, if the initial heap sizes are `3`, `4`, and `5`, a game could be played as shown below:
 
 | A   | B   | C   |
 | --- | --- | --- |
@@ -4230,7 +4229,7 @@ Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play,
 
 ---
 
-### Problem 290
+### Problem 290 (Easy)
 
 This problem was asked by Facebook.
 
@@ -4254,7 +4253,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 ---
 
-### Problem 291
+### Problem 291 (Medium)
 
 This problem was asked by Glassdoor.
 
@@ -4266,7 +4265,7 @@ For example, given a population with weights `[100, 200, 150, 80]` and a boat li
 
 ---
 
-### Problem 292
+### Problem 292 (Hard)
 
 This problem was asked by Twitter.
 
@@ -4304,15 +4303,15 @@ students = {
 
 ---
 
-### Problem 293
+### Problem 293 (Hard)
 
 This problem was asked by Uber.
 
-You have N stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start and end stones of the pyramid should each be one stone high.
+You have `N` stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start and end stones of the pyramid should each be one stone high.
 
 You can change the height of any stone by paying a cost of `1` unit to lower its height by `1`, as many times as necessary. Given this information, determine the lowest cost method to produce this pyramid.
 
-For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay 2 to create `[0, 1, 2, 3, 2, 1]`.
+For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution293.java)
 
@@ -4375,7 +4374,7 @@ Bonus: Can you do this using only `O(k)` space?
 
 ---
 
-### Problem 296
+### Problem 296 (Hard)
 
 This problem was asked by Etsy.
 
@@ -4385,7 +4384,7 @@ Given a sorted array, convert it into a height-balanced binary search tree.
 
 ---
 
-### Problem 297
+### Problem 297 (Medium)
 
 This problem was asked by Amazon.
 
@@ -4409,7 +4408,7 @@ For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy
 
 ---
 
-### Problem 298
+### Problem 298 (Easy)
 
 This problem was asked by Google.
 
@@ -4423,18 +4422,20 @@ For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion wil
 
 ---
 
-### Problem 299
+### Problem 299 (Medium)
 
 This problem was asked by Samsung.
 
 A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
 
-For example, here is a possible configuration, where A, B, and C are houses, and arrows represent pipes:
-`A <--> B <--> C <--> plant`
+For example, here is a possible configuration, where `A`, `B`, and `C` are houses, and arrows represent pipes:
+```
+A <--> B <--> C <--> plant
+```
 
 Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water.
 
-In the following setup, for example, we can remove all but the pipes from plant to A, plant to B, and B to C, for a total cost of 16.
+In the following setup, for example, we can remove all but the pipes from `plant` to `A`, `plant` to `B`, and `B` to `C`, for a total cost of `16`.
 
 ```python
 pipes = {
@@ -4449,17 +4450,17 @@ pipes = {
 
 ---
 
-### Problem 300
+### Problem 300 (Easy)
 
 This problem was asked by Uber.
 
-On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top 3 candidates at any given time. If you find a voter voting more than once, report this as fraud.
+On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution300.java)
 
 ---
 
-### Problem 301
+### Problem 301 (Medium)
 
 This problem was asked by Triplebyte.
 
@@ -4468,7 +4469,7 @@ Implement a data structure which carries out the following operations without re
 - `add(value)`: Add a value to the set of values.
 - `check(value)`: Check whether a value is in the set.
 
-The check method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
+The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution301.java)
 
@@ -4494,7 +4495,7 @@ Considering the edges of the matrix as boundaries, this divides the grid into th
 
 ---
 
-### Problem 303
+### Problem 303 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -4506,11 +4507,11 @@ Bonus: When, during the course of a day, will the angle be zero?
 
 ---
 
-### Problem 304
+### Problem 304 (Hard)
 
 This problem was asked by Two Sigma.
 
-A knight is placed on a given square on an `8 x 8` chessboard. It is then moved randomly several times, where each move is a standard knight move. If the knight jumps off the board at any point, however, it is not allowed to jump back on.
+A knight is placed on a given square on an `8 x 8` chessboard. It is then moved randomly several times, where each move is a standard [knight move](https://en.wikipedia.org/wiki/Knight_(chess)#Movement). If the knight jumps off the board at any point, however, it is not allowed to jump back on.
 
 After `k` moves, what is the probability that the knight remains on the board?
 
@@ -4518,7 +4519,7 @@ After `k` moves, what is the probability that the knight remains on the board?
 
 ---
 
-### Problem 305
+### Problem 305 (Easy)
 
 This problem was asked by Amazon.
 
@@ -4542,7 +4543,7 @@ Come up with an algorithm that sorts this list in `O(N log k)` time.
 
 ---
 
-### Problem 307
+### Problem 307 (Easy)
 
 This problem was asked by Oracle.
 
@@ -4571,13 +4572,13 @@ For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, the
 
 ---
 
-### Problem 309
+### Problem 309 (Medium)
 
 This problem was asked by Walmart Labs.
 
 There are `M` people sitting in a row of `N` seats, where `M < N`. Your task is to redistribute people such that there are no gaps between any of them, while keeping overall movement to a minimum.
 
-For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]`, where `0` represents an empty seat and `1` represents a person. In this case, one solution would be to place the person on the right in the fourth seat. We can consider the cost of a solution to be the sum of the absolute distance each person must move, so that the cost here would be `5`.
+For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]`, where `0` represents an empty seat and `1` represents a person. In this case, one solution would be to place the person on the right in the fourth seat. We can consider the cost of a solution to be the sum of the absolute distance each person must move, so that the cost here would be five.
 
 Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
 
@@ -4585,7 +4586,7 @@ Given an input such as the one above, return the lowest possible cost of moving 
 
 ---
 
-### Problem 310
+### Problem 310 (Easy)
 
 This problem was asked by Pivotal.
 
@@ -4595,7 +4596,7 @@ Write an algorithm that finds the total number of set bits in all integers betwe
 
 ---
 
-### Problem 311
+### Problem 311 (Easy)
 
 This problem was asked by Sumo Logic.
 
@@ -4607,7 +4608,7 @@ An element is considered a peak if it is greater than both its left and right ne
 
 ---
 
-### Problem 312
+### Problem 312 (Easy)
 
 This problem was asked by Wayfair.
 
@@ -4623,13 +4624,13 @@ A B B C
 A B C C
 ```
 
-Given an integer N, determine in how many ways this task is possible.
+Given an integer `N`, determine in how many ways this task is possible.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution312.java)
 
 ---
 
-### Problem 313
+### Problem 313 (Hard)
 
 This problem was asked by Citrix.
 
@@ -4643,7 +4644,7 @@ Let us consider a "move" to be a rotation of a single wheel by one digit, in eit
 
 ---
 
-### Problem 314
+### Problem 314 (Medium)
 
 This problem was asked by Spotify.
 
@@ -4657,7 +4658,7 @@ For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In
 
 ---
 
-### Problem 315
+### Problem 315 (Easy)
 
 This problem was asked by Google.
 
@@ -4678,7 +4679,7 @@ Write a program to determine whether a given input is a Toeplitz matrix.
 
 ---
 
-### Problem 316
+### Problem 316 (Medium)
 
 This problem was asked by Snapchat.
 
@@ -4690,7 +4691,7 @@ Given such an array, determine the denominations that must be in use. In the cas
 
 ---
 
-### Problem 317
+### Problem 317 (Medium)
 
 This problem was asked by Yahoo.
 
@@ -6075,28 +6076,7 @@ Same as [problem 308](#problem-308-hard).
 
 ### Problem 407 (Medium)
 
-This problem was asked by Samsung.
-
-A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
-
-For example, here is a possible configuration, where `A`, `B`, and `C` are houses, and arrows represent pipes:
-
-```
-A <--> B <--> C <--> plant
-```
-
-Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water.
-
-In the following setup, for example, we can remove all but the pipes from `plant` to `A`, `plant` to `B`, and `B` to `C`, for a total cost of `16`.
-
-```
-pipes = {
-    'plant': {'A': 1, 'B': 5, 'C': 20},
-    'A': {'C': 15},
-    'B': {'C': 10},
-    'C': {}
-}
-```
+Same as [problem 299](#problem-299-medium).
 
 ### Problem 408 (Medium)
 
@@ -6137,21 +6117,7 @@ Same as [problem 121](#problem-121-hard).
 
 ### Problem 412 (Medium)
 
-This problem was asked by Epic.
-
-The "look and say" sequence is defined as follows: beginning with the term `1`, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
-
-```
-1
-11
-21
-1211
-111221
-```
-
-As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
-
-Given an integer `N`, print the `N`th term of this sequence.
+Same as [problem 275](#problem-275-medium).
 
 ### Problem 413 (Hard)
 
@@ -6171,11 +6137,7 @@ Same as [problem 100](#problem-100-easy).
 
 ### Problem 417 (Easy)
 
-This problem was asked by Amazon.
-
-Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
-
-For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
+Same as [problem 305](#problem-305-easy).
 
 ### Problem 418 (Easy)
 
@@ -6223,13 +6185,7 @@ Same as [problem 294](#problem-294-medium).
 
 ### Problem 428 (Hard)
 
-This problem was asked by Uber.
-
-You have `N` stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start and end stones of the pyramid should each be one stone high.
-
-You can change the height of any stone by paying a cost of `1` unit to lower its height by `1`, as many times as necessary. Given this information, determine the lowest cost method to produce this pyramid.
-
-For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
+Same as [problem 293](#problem-293-hard).
 
 ### Problem 429 (Medium)
 
@@ -6255,11 +6211,7 @@ Given an integer n, find the next biggest integer with the same number of 1-bits
 
 ### Problem 434 (Easy)
 
-This problem was asked by Oracle.
-
-Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
-
-If either value does not exist, return None.
+Same as [problem 307](#problem-307-easy).
 
 ### Problem 435 (Medium)
 
@@ -6316,13 +6268,7 @@ Same as [problem 53](#problem-53-medium).
 
 ### Problem 444 (Hard)
 
-This problem was asked by Dropbox.
-
-Implement an efficient string matching algorithm.
-
-That is, given a string of length `N` and a pattern of length `k`, write a program that searches for the pattern in the string with less than `O(N * k)` worst-case time complexity.
-
-If the pattern is found, return the start index of its location. If not, return `False`.
+Same as [problem 276](#problem-276-hard).
 
 ### Problem 445 (Medium)
 
@@ -6437,23 +6383,7 @@ Same as [problem 217](#problem-217-hard).
 
 ### Problem 463 (Easy)
 
-This problem was asked by Facebook.
-
-On a mysterious island there are creatures known as Quxes which come in three colors: red, green, and blue. One power of the Qux is that if two of them are standing next to each other, they can transform into a single creature of the third color.
-
-Given `N` Quxes standing in a line, determine the smallest number of them remaining after any possible sequence of such transformations.
-
-For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end up with a single Qux through the following steps:
-
-```
-        Arrangement       |   Change
-----------------------
-['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
-['B', 'B', 'G', 'B']      | (B, G) -> R
-['B', 'R', 'B']           | (R, B) -> G
-['B', 'G']                | (B, G) -> R
-['R']                     |
-```
+Same as [problem 290](#problem-290-easy).
 
 ### Problem 464 (Medium)
 
@@ -6563,19 +6493,7 @@ Same as [problem 333](#problem-333-medium).
 
 ### Problem 487 (Medium)
 
-This problem was asked by Yext.
-
-Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram `4` and `6` are cousins.
-
-```
-    1
-   / \
-  2   3
- / \   \
-4   5   6
-```
-
-Given a binary tree and a particular node, find all cousins of that node.
+Same as [problem 284](#problem-284-medium).
 
 ### Problem 488 (Hard)
 
@@ -6615,9 +6533,7 @@ Same as [problem 495](#problem-15-medium).
 
 ### Problem 496 (Easy)
 
-This problem was asked by Pivotal.
-
-Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
+Same as [problem 310](#problem-310-easy).
 
 ### Problem 497 (Medium)
 
@@ -6672,9 +6588,7 @@ Same as [problem 256](#problem-256-medium).
 
 ### Problem 507 (Easy)
 
-This problem was asked by Uber.
-
-On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.
+Same as [problem 300](#problem-300-easy).
 
 ### Problem 508 (Medium)
 
@@ -6844,9 +6758,7 @@ Same as [problem 264](#problem-264-hard).
 
 ### Problem 539 (Easy)
 
-This problem was asked by Pandora.
-
-Given an undirected graph, determine if it contains a cycle.
+Same as [problem 280](#problem-280-easy).
 
 ### Problem 540 (Easy)
 
@@ -6882,11 +6794,7 @@ Same as [problem 249](#problem-249-hard).
 
 ### Problem 548 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
-
-Bonus: When, during the course of a day, will the angle be zero?
+Same as [problem 303](#problem-303-easy).
 
 ### Problem 549 (Hard)
 
@@ -6902,21 +6810,7 @@ Same as [problem 66](#problem-66-medium).
 
 ### Problem 552 (Easy)
 
-This problem was asked by Wayfair.
-
-You are given a `2 x N` board, and instructed to completely cover the board with the following shapes:
-
-- Dominoes, or `2 x 1` rectangles.
-- Trominoes, or `L`-shapes.
-
-For example, if `N = 4`, here is one possible configuration, where `A` is a domino, and `B` and `C` are trominoes.
-
-```
-A B B C
-A B C C
-```
-
-Given an integer `N`, determine in how many ways this task is possible.
+Same as [problem 312](#problem-312-easy).
 
 ### Problem 553 (Medium)
 
@@ -6958,9 +6852,7 @@ Bonus: Can you do this in one pass?
 
 ### Problem 561 (Hard)
 
-This problem was asked by Etsy.
-
-Given a sorted array, convert it into a height-balanced binary search tree.
+Same as [problem 296](#problem-296-hard).
 
 ### Problem 562 (Hard)
 
@@ -7066,21 +6958,7 @@ Same as [problem 136](#problem-136-medium).
 
 ### Problem 586 (Medium)
 
-This problem was asked by Quora.
-
-You are given a list of `(website, user)` pairs that represent users visiting websites. Come up with a program that identifies the top `k` pairs of websites with the greatest similarity.
-
-For example, suppose `k = 1`, and the list of tuples is:
-
-```python
-[('a', 1), ('a', 3), ('a', 5),
- ('b', 2), ('b', 6),
- ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5)
- ('d', 4), ('d', 5), ('d', 6), ('d', 7),
- ('e', 1), ('e', 3), ('e': 5), ('e', 6)]
-```
-
-Then a reasonable similarity metric would most likely conclude that `a` and `e` are the most similar, so your program should return `[('a', 'e')]`.
+Same as [problem 287](#problem-287-medium).
 
 ### Problem 587 (Medium)
 
@@ -7156,20 +7034,7 @@ Your function should return 3, since we can make the words 'eat', 'in', and 'rat
 
 ### Problem 595 (Medium)
 
-This problem was asked by Salesforce.
-
-The number 6174 is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
-
-- For a given input `x`, create two new numbers that consist of the digits in `x` in ascending and descending order.
-- Subtract the smaller number from the larger number.
-
-For example, this algorithm terminates in three steps when starting from `1234`:
-
-- `4321 - 1234 = 3087`
-- `8730 - 0378 = 8352`
-- `8532 - 2358 = 6174`
-
-Write a function that returns how many steps this will take for a given input `N`.
+Same as [problem 288](#problem-288-medium).
 
 ### Problem 596 (Medium)
 
@@ -7177,9 +7042,7 @@ Same as [problem 83](#problem-83-medium).
 
 ### Problem 597 (Easy)
 
-This problem was asked by Netflix.
-
-Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a^2 + b^2 = c^2`.
+Same as [problem 282](#problem-282-easy).
 
 ### Problem 598 (Easy)
 
@@ -7225,13 +7088,7 @@ Same as [problem 64](#problem-64-hard).
 
 ### Problem 607 (Medium)
 
-This problem was asked by Walmart Labs.
-
-There are `M` people sitting in a row of `N` seats, where `M < N`. Your task is to redistribute people such that there are no gaps between any of them, while keeping overall movement to a minimum.
-
-For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]`, where `0` represents an empty seat and `1` represents a person. In this case, one solution would be to place the person on the right in the fourth seat. We can consider the cost of a solution to be the sum of the absolute distance each person must move, so that the cost here would be five.
-
-Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
+Same as [problem 309](#problem-309-medium).
 
 ### Problem 608 (Medium)
 
@@ -7312,24 +7169,7 @@ Same as [problem 98](#problem-98-easy).
 
 ### Problem 620 (Medium)
 
-This problem was asked by LinkedIn.
-
-A wall consists of several rows of bricks of various integer lengths and uniform height. Your goal is to find a vertical line going from the top to the bottom of the wall that cuts through the fewest number of bricks. If the line goes through the edge between two bricks, this does not count as a cut.
-
-For example, suppose the input is as follows, where values in each row represent the lengths of bricks in that row:
-
-```
-[[3, 5, 1, 1],
- [2, 3, 3, 2],
- [5, 5],
- [4, 4, 2],
- [1, 3, 3, 3],
- [1, 1, 6, 1, 1]]
-```
-
-The best we can we do here is to draw a line after the eighth brick, which will only require cutting through the bricks in the third and fifth row.
-
-Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
+Same as [problem 281](#problem-281-medium).
 
 ### Problem 621 (Hard)
 
@@ -7367,13 +7207,7 @@ Same as [problem 139](#problem-139-medium).
 
 ### Problem 628 (Hard)
 
-This problem was asked by Citrix.
-
-You are given a circular lock with three wheels, each of which display the numbers `0` through `9` in order. Each of these wheels rotate clockwise and counterclockwise.
-
-In addition, the lock has a certain number of "dead ends", meaning that if you turn the wheels to one of these combinations, the lock becomes stuck in that state and cannot be opened.
-
-Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to `000`, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or `None` if this is impossible.
+Same as [problem 313](#problem-313-hard).
 
 ### Problem 629 (Medium)
 
@@ -7387,33 +7221,11 @@ Implement a job scheduler which takes in a function `f` and an integer `n`, and 
 
 ### Problem 631 (Hard)
 
-This problem was asked by VMware.
-
-The skyline of a city is composed of several buildings of various widths and heights, possibly overlapping one another when viewed from a distance. We can represent the buildings using an array of `(left, right, height)` tuples, which tell us where on an imaginary x-axis a building begins and ends, and how tall it is. The skyline itself can be described by a list of `(x, height)` tuples, giving the locations at which the height visible to a distant observer changes, and each new height.
-
-Given an array of buildings as described above, create a function that returns the skyline.
-
-For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5), (19, 23, 4)]`. In aggregate, these buildings would create a skyline that looks like the one below.
-
-```
-     ______  
-    |      |        ___
- ___|      |___    |   | 
-|   |   B  |   |   | C |
-| A |      | A |   |   |
-|   |      |   |   |   |
-------------
-```
-
-As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
+Same as [problem 286](#problem-286-hard).
 
 ### Problem 632 (Medium)
 
-This problem was asked by Snapchat.
-
-You are given an array of length `N`, where each element `i` represents the number of ways we can produce `i` units of change. For example, `[1, 0, 1, 1, 2]` would indicate that there is only one way to make `0`, `2`, or `3` units, and two ways of making `4` units.
-
-Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value `2`, `3`, and `4`.
+Same as [problem 316](#problem-316-medium).
 
 ### Problem 633 (Medium)
 
@@ -7501,23 +7313,7 @@ Same as [problem 63](#problem-63-easy).
 
 ### Problem 646 (Easy)
 
-This problem was asked by Twitter.
-
-A classroom consists of `N` students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
-
-```
-{0: [1, 2],
- 1: [0, 5],
- 2: [0],
- 3: [6],
- 4: [],
- 5: [1],
- 6: [3]} 
-```
-
-Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. For the example above, the friend groups would be `{0, 1, 2, 5}, {3, 6}, {4}`.
-
-Given a friendship list such as the one above, determine the number of friend groups in the class.
+Same as [problem 279](#problem-279-easy).
 
 ### Problem 647 (Medium)
 
@@ -7619,41 +7415,11 @@ Implement this system.
 
 ### Problem 668 (Easy)
 
-This problem was asked by Google.
-
-In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
-
-Here is an example:
-
-```
-1 2 3 4 8
-5 1 2 3 4
-4 5 1 2 3
-7 4 5 1 2
-```
-
-Write a program to determine whether a given input is a Toeplitz matrix.
+Same as [problem 315](#problem-315-easy).
 
 ### Problem 669 (Hard)
 
-This problem was asked by Google.
-
-The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For example, if the initial heap sizes are `3`, `4`, and `5`, a game could be played as shown below:
-
-```
-  A  |  B  |  C
------------
-  3  |  4  |  5
-  3  |  1  |  3
-  3  |  1  |  3
-  0  |  1  |  3
-  0  |  1  |  0
-  0  |  0  |  0 
-```
-
-In other words, to start, the first player takes three items from pile `B`. The second player responds by removing two stones from pile `C`. The game continues in this way until player one takes last stone and loses.
-
-Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
+Same as [problem 289](#problem-289-medium).
 
 ### Problem 670 (Medium)
 
@@ -7673,13 +7439,7 @@ Same as [problem 150](#problem-150-hard).
 
 ### Problem 674 (Easy)
 
-This problem was asked by Google.
-
-A girl is walking along an apple orchard with a bag in each hand. She likes to pick apples from each tree as she goes along, but is meticulous about not putting different kinds of apples in the same bag.
-
-Given an input describing the types of apples she will pass on her path, in order, determine the length of the longest portion of her path that consists of just two types of apple trees.
-
-For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion will involve types `1` and `3`, with a length of four.
+Same as [problem 298](#problem-298-easy).
 
 ### Problem 675 (Medium)
 
@@ -7815,9 +7575,7 @@ Same as [problem 75](#problem-75-hard).
 
 ### Problem 691 (Medium)
 
-This problem was asked by Yahoo.
-
-Write a function that returns the bitwise AND of all integers between `M` and `N`, inclusive.
+Same as [problem 317](#problem-317-medium).
 
 ### Problem 692 (Medium)
 
@@ -7863,23 +7621,7 @@ Same as [problem 346](#problem-346-medium).
 
 ### Problem 701 (Medium)
 
-This problem was asked by Amazon.
-
-At a popular bar, each customer has a set of favorite drinks, and will happily accept any drink among this set. For example, in the following situation, customer `0` will be satisfied with drinks `0`, `1`, `3`, or `6`.
-
-```
-preferences = {
-    0: [0, 1, 3, 6],
-    1: [1, 4, 7],
-    2: [2, 4, 7, 5],
-    3: [3, 2, 5],
-    4: [5, 8]
-}
-```
-
-A lazy bartender working at this bar is trying to reduce his effort by limiting the drink recipes he must memorize. Given a dictionary input such as the one above, return the fewest number of drinks he must learn in order to satisfy all customers.
-
-For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy everyone.
+Same as [problem 297](#problem-297-medium).
 
 ### Problem 702 (Medium)
 
@@ -7887,11 +7629,7 @@ Same as [3](#problem-3-medium).
 
 ### Problem 703 (Hard)
 
-This problem was asked by Two Sigma.
-
-A knight is placed on a given square on an `8 x 8` chessboard. It is then moved randomly several times, where each move is a standard [knight move](https://en.wikipedia.org/wiki/Knight_(chess)#Movement). If the knight jumps off the board at any point, however, it is not allowed to jump back on.
-
-After `k` moves, what is the probability that the knight remains on the board?
+Same as [problem 304](#problem-304-medium).
 
 ### Problem 704 (Medium)
 
@@ -7907,13 +7645,7 @@ Same as [problem 334](#problem-334-easy).
 
 ### Problem 707 (Medium)
 
-This problem was asked by Spotify.
-
-You are the technical director of WSPT radio, serving listeners nationwide. For simplicity's sake we can consider each listener to live along a horizontal line stretching from `0` (west) to `1000` (east).
-
-Given a list of `N` listeners, and a list of `M` radio towers, each placed at various locations along this line, determine what the minimum broadcast range would have to be in order for each listener's home to be covered.
-
-For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
+Same as [problem 314](#problem-314-medium).
 
 ### Problem 708 (Easy)
 
@@ -7949,27 +7681,7 @@ Same as [problem 104](#problem-104-easy).
 
 ### Problem 716 (Easy)
 
-This problem was asked by Google.
-
-UTF-8 is a character encoding that maps each symbol to one, two, three, or four bytes.
-
-For example, the Euro sign, €, corresponds to the three bytes `11100010 10000010 10101100`. The rules for mapping characters are as follows:
-
-- For a single-byte character, the first bit must be zero.
-- For an `n`-byte character, the first byte starts with `n` ones and a zero. The other `n - 1` bytes all start with `10`.
-
-Visually, this can be represented as follows.
-
-```
- Bytes   |           Byte format
---------------------------
-   1     | 0xxxxxxx
-   2     | 110xxxxx 10xxxxxx
-   3     | 1110xxxx 10xxxxxx 10xxxxxx
-   4     | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
-```
-
-Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
+Same as [problem 277](#problem-277-easy).
 
 ### Problem 717 (Medium)
 
@@ -8039,37 +7751,7 @@ Same as [problem 33](#problem-33-easy).
 
 ### Problem 728 (Hard)
 
-This problem was asked by Twitter.
-
-A teacher must divide a class of students into two teams to play dodgeball. Unfortunately, not all the kids get along, and several refuse to be put on the same team as that of their enemies.
-
-Given an adjacency list of students and their enemies, write an algorithm that finds a satisfactory pair of teams, or returns `False` if none exists.
-
-For example, given the following enemy graph you should return the teams `{0, 1, 4, 5}` and `{2, 3}`.
-
-```
-students = {
-    0: [3],
-    1: [2],
-    2: [1, 4],
-    3: [0, 4, 5],
-    4: [2, 3],
-    5: [3]
-}
-```
-
-On the other hand, given the input below, you should return `False`.
-
-```
-students = {
-    0: [3],
-    1: [2],
-    2: [1, 3, 4],
-    3: [0, 2, 4, 5],
-    4: [2, 3],
-    5: [3]
-}
-```
+Same as [problem 292](#problem-292-hard).
 
 ### Problem 729 (Medium)
 
@@ -8091,11 +7773,7 @@ Same as [problem 47](#problem-47-easy).
 
 ### Problem 732 (Medium)
 
-This problem was asked by Glassdoor.
-
-An imminent hurricane threatens the coastal town of Codeville. If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is `k`, determine how many boats will be needed to save everyone.
-
-For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
+Same as [problem 291](#problem-291-medium).
 
 ### Problem 733 (Hard)
 
@@ -8107,11 +7785,7 @@ Same as [problem 97](#problem-97-medium).
 
 ### Problem 735 (Easy)
 
-This problem was asked by Sumo Logic.
-
-Given an unsorted array, in which all elements are distinct, find a "peak" element in `O(log N)` time.
-
-An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
+Same as [problem 311](#problem-311-easy).
 
 ### Problem 736 (Easy)
 
@@ -8145,13 +7819,7 @@ Implement a quack using three stacks and `O(1)` additional memory, so that the a
 
 ### Problem 740 (Easy)
 
-This problem was asked by Google.
-
-A regular number in mathematics is defined as one which evenly divides some power of `60`. Equivalently, we can say that a regular number is one whose only prime divisors are `2`, `3`, and `5`.
-
-These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
-
-Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
+Same as [problem 283](#problem-283-easy).
 
 ### Problem 741 (Hard)
 
@@ -8171,14 +7839,7 @@ Same as [problem 67](#problem-67-hard).
 
 ### Problem 745 (Medium)
 
-This problem was asked by Triplebyte.
-
-Implement a data structure which carries out the following operations without resizing the underlying array:
-
-- `add(value)`: Add a value to the set of values.
-- `check(value)`: Check whether a value is in the set.
-
-The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
+Same as [problem 301](#problem-301-medium).
 
 ### Problem 746 (Easy)
 
@@ -8320,24 +7981,7 @@ Same as [problem 178](#problem-178-hard).
 
 ### Problem 770 (Hard)
 
-This problem was asked by Google.
-
-The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For example, if the initial heap sizes are `3`, `4`, and `5`, a game could be played as shown below:
-
-```
-  A  |  B  |  C
------------
-  3  |  4  |  5
-  3  |  1  |  3
-  3  |  1  |  3
-  0  |  1  |  3
-  0  |  1  |  0
-  0  |  0  |  0 
-```
-
-In other words, to start, the first player takes three items from pile `B`. The second player responds by removing two stones from pile `C`. The game continues in this way until player one takes last stone and loses.
-
-Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
+Same as [problem 289](#problem-289-medium).
 
 ### Problem 771 (Easy)
 
@@ -8479,13 +8123,7 @@ Same as [problem 272](#problem-272-medium).
 
 ### Problem 792 (Hard)
 
-This problem was asked by Uber.
-
-You have `N` stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start and end stones of the pyramid should each be one stone high.
-
-You can change the height of any stone by paying a cost of `1` unit to lower its height by `1`, as many times as necessary. Given this information, determine the lowest cost method to produce this pyramid.
-
-For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
+Same as [problem 293](#problem-293-hard).
 
 ### Problem 793 (Medium)
 
@@ -8654,13 +8292,7 @@ Same as [problem 59](#problem-59-hard).
 
 ### Problem 827 (Medium)
 
-This problem was asked by Spotify.
-
-You are the technical director of WSPT radio, serving listeners nationwide. For simplicity's sake we can consider each listener to live along a horizontal line stretching from `0` (west) to `1000` (east).
-
-Given a list of `N` listeners, and a list of `M` radio towers, each placed at various locations along this line, determine what the minimum broadcast range would have to be in order for each listener's home to be covered.
-
-For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
+Same as [problem 314](#problem-314-medium).
 
 ### Problem 828 (Medium)
 
@@ -8833,21 +8465,7 @@ Same as [problem 38](#problem-38-hard).
 
 ### Problem 856 (Medium)
 
-This problem was asked by Quora.
-
-You are given a list of `(website, user)` pairs that represent users visiting websites. Come up with a program that identifies the top `k` pairs of websites with the greatest similarity.
-
-For example, suppose `k = 1`, and the list of tuples is:
-
-```
-[('a', 1), ('a', 3), ('a', 5),
- ('b', 2), ('b', 6),
- ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5)
- ('d', 4), ('d', 5), ('d', 6), ('d', 7),
- ('e', 1), ('e', 3), ('e': 5), ('e', 6)]
-```
-
-Then a reasonable similarity metric would most likely conclude that `a` and `e` are the most similar, so your program should return `[('a', 'e')]`.
+Same as [problem 287](#problem-287-medium).
 
 ### Problem 857 (Hard)
 
@@ -8879,11 +8497,7 @@ Same as [problem 25](#problem-25-hard).
 
 ### Problem 861 (Hard)
 
-This problem was asked by Two Sigma.
-
-A knight is placed on a given square on an `8 x 8` chessboard. It is then moved randomly several times, where each move is a standard [knight move](https://en.wikipedia.org/wiki/Knight_(chess)#Movement). If the knight jumps off the board at any point, however, it is not allowed to jump back on.
-
-After `k` moves, what is the probability that the knight remains on the board?
+Same as [problem 304](#problem-304-medium).
 
 ### Problem 862 (Medium)
 
@@ -8895,36 +8509,11 @@ Same as [problem 116](#problem-116-medium).
 
 ### Problem 864 (Medium)
 
-This problem was asked by Glassdoor.
-
-An imminent hurricane threatens the coastal town of Codeville. If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is `k`, determine how many boats will be needed to save everyone.
-
-For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
+Same as [problem 291](#problem-291-medium).
 
 ### Problem 865 (Medium)
 
-This problem was asked by Samsung.
-
-A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
-
-For example, here is a possible configuration, where `A`, `B`, and `C` are houses, and arrows represent pipes:
-
-```
-A <--> B <--> C <--> plant
-```
-
-Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water.
-
-In the following setup, for example, we can remove all but the pipes from `plant` to `A`, `plant` to `B`, and `B` to `C`, for a total cost of `16`.
-
-```
-pipes = {
-    'plant': {'A': 1, 'B': 5, 'C': 20},
-    'A': {'C': 15},
-    'B': {'C': 10},
-    'C': {}
-}
-```
+Same as [problem 299](#problem-299-medium).
 
 ### Problem 866 (Medium)
 
@@ -9126,19 +8715,7 @@ Same as [problem 495](#problem-15-medium).
 
 ### Problem 912 (Medium)
 
-This problem was asked by Yext.
-
-Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram `4` and `6` are cousins.
-
-```
-    1
-   / \
-  2   3
- / \   \
-4   5   6
-```
-
-Given a binary tree and a particular node, find all cousins of that node.
+Same as [problem 284](#problem-284-medium).
 
 ### Problem 913 (Easy)
 
@@ -9191,35 +8768,11 @@ Given a directed graph of links between various websites, write a program that c
 
 ### Problem 919 (Medium)
 
-This problem was asked by LinkedIn.
-
-A wall consists of several rows of bricks of various integer lengths and uniform height. Your goal is to find a vertical line going from the top to the bottom of the wall that cuts through the fewest number of bricks. If the line goes through the edge between two bricks, this does not count as a cut.
-
-For example, suppose the input is as follows, where values in each row represent the lengths of bricks in that row:
-
-```
-[[3, 5, 1, 1],
- [2, 3, 3, 2],
- [5, 5],
- [4, 4, 2],
- [1, 3, 3, 3],
- [1, 1, 6, 1, 1]]
-```
-
-The best we can we do here is to draw a line after the eighth brick, which will only require cutting through the bricks in the third and fifth row.
-
-Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
+Same as [problem 281](#problem-281-medium).
 
 ### Problem 920 (Medium)
 
-This problem was asked by Triplebyte.
-
-Implement a data structure which carries out the following operations without resizing the underlying array:
-
-- `add(value)`: Add a value to the set of values.
-- `check(value)`: Check whether a value is in the set.
-
-The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
+Same as [problem 301](#problem-301-medium).
 
 ### Problem 921 (Hard)
 
@@ -9313,13 +8866,7 @@ Same as [problem 142](#problem-142-hard).
 
 ### Problem 938 (Hard)
 
-This problem was asked by Citrix.
-
-You are given a circular lock with three wheels, each of which display the numbers `0` through `9` in order. Each of these wheels rotate clockwise and counterclockwise.
-
-In addition, the lock has a certain number of "dead ends", meaning that if you turn the wheels to one of these combinations, the lock becomes stuck in that state and cannot be opened.
-
-Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to `000`, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or `None` if this is impossible.
+Same as [problem 313](#problem-313-hard).
 
 ### Problem 939 (Easy)
 
@@ -9339,21 +8886,7 @@ Same as [problem 86](#problem-86-medium).
 
 ### Problem 943 (Easy)
 
-This problem was asked by Wayfair.
-
-You are given a `2 x N` board, and instructed to completely cover the board with the following shapes:
-
-- Dominoes, or `2 x 1` rectangles.
-- Trominoes, or `L`-shapes.
-
-For example, if `N = 4`, here is one possible configuration, where `A` is a domino, and `B` and `C` are trominoes.
-
-```
-A B B C
-A B C C
-```
-
-Given an integer `N`, determine in how many ways this task is possible.
+Same as [problem 312](#problem-312-easy).
 
 ### Problem 944 (Easy)
 
@@ -9425,25 +8958,7 @@ Same as [problem 78](#problem-78-medium).
 
 ### Problem 957 (Hard)
 
-This problem was asked by VMware.
-
-The skyline of a city is composed of several buildings of various widths and heights, possibly overlapping one another when viewed from a distance. We can represent the buildings using an array of `(left, right, height)` tuples, which tell us where on an imaginary x-axis a building begins and ends, and how tall it is. The skyline itself can be described by a list of `(x, height)` tuples, giving the locations at which the height visible to a distant observer changes, and each new height.
-
-Given an array of buildings as described above, create a function that returns the skyline.
-
-For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5), (19, 23, 4)]`. In aggregate, these buildings would create a skyline that looks like the one below.
-
-```
-     ______  
-    |      |        ___
- ___|      |___    |   | 
-|   |   B  |   |   | C |
-| A |      | A |   |   |
-|   |      |   |   |   |
-------------
-```
-
-As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
+Same as [problem 286](#problem-286-hard).
 
 ### Problem 958 (Medium)
 
@@ -9451,9 +8966,7 @@ Same as [problem 41](#problem-41-medium).
 
 ### Problem 959 (Easy)
 
-This problem was asked by Pivotal.
-
-Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
+Same as [problem 310](#problem-310-easy).
 
 ### Problem 960 (Medium)
 
@@ -9477,29 +8990,7 @@ Same as [problem 16](#problem-16-easy).
 
 ### Problem #965 (Easy)
 
-This problem was asked by Google.
-
-UTF-8 is a character encoding that maps each symbol to one, two, three, or four bytes.
-
-For example, the Euro sign, €, corresponds to the three bytes 11100010 10000010 10101100. The rules for mapping characters are as follows:
-
-- For a single-byte character, the first bit must be zero.
-- For an n-byte character, the first byte starts with n ones and a zero.
-
-The other n - 1 bytes all start with 10.
-
-Visually, this can be represented as follows.
-
-```
- Bytes   |           Byte format
---------------------------
-   1     | 0xxxxxxx
-   2     | 110xxxxx 10xxxxxx
-   3     | 1110xxxx 10xxxxxx 10xxxxxx
-   4     | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
-```
-
-Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
+Same as [problem 277](#problem-277-easy).
 
 ### Problem 966 (Medium)
 
@@ -9601,11 +9092,7 @@ Same as [problem 156](#problem-156-medium).
 
 ### Problem 989 (Medium)
 
-This problem was asked by Snapchat.
-
-You are given an array of length `N`, where each element `i` represents the number of ways we can produce `i` units of change. For example, `[1, 0, 1, 1, 2]` would indicate that there is only one way to make `0`, `2`, or `3` units, and two ways of making `4` units.
-
-Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value `2`, `3`, and `4`.
+Same as [problem 316](#problem-316-medium).
 
 ### Problem 990 (Hard)
 
@@ -9723,11 +9210,7 @@ Same as [problem 147](#problem-147-hard).
 
 ### Problem 1018 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
-
-Bonus: When, during the course of a day, will the angle be zero?
+Same as [problem 303](#problem-303-easy).
 
 ### Problem 1019 (Easy)
 
@@ -9755,11 +9238,7 @@ Same as [problem 161](#problem-161-easy).
 
 ### Problem 1025 (Easy)
 
-This problem was asked by Amazon.
-
-Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
-
-For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
+Same as [problem 305](#problem-305-easy).
 
 ### Problem 1026 (Medium)
 
@@ -9771,20 +9250,7 @@ Same as [problem 99](#problem-99-medium).
 
 ### Problem 1028 (Medium)
 
-This problem was asked by Salesforce.
-
-The number 6174 is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
-
-- For a given input `x`, create two new numbers that consist of the digits in `x` in ascending and descending order.
-- Subtract the smaller number from the larger number.
-
-For example, this algorithm terminates in three steps when starting from `1234`:
-
-- `4321 - 1234 = 3087`
-- `8730 - 0378 = 8352`
-- `8532 - 2358 = 6174`
-
-Write a function that returns how many steps this will take for a given input `N`.
+Same as [problem 288](#problem-288-medium).
 
 ### Problem 1029 (Hard)
 
@@ -9792,23 +9258,7 @@ Same as [problem 138](#problem-138-hard).
 
 ### Problem 1030 (Easy)
 
-This problem was asked by Facebook.
-
-On a mysterious island there are creatures known as Quxes which come in three colors: red, green, and blue. One power of the Qux is that if two of them are standing next to each other, they can transform into a single creature of the third color.
-
-Given `N` Quxes standing in a line, determine the smallest number of them remaining after any possible sequence of such transformations.
-
-For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end up with a single Qux through the following steps:
-
-```
-        Arrangement       |   Change
-----------------------
-['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
-['B', 'B', 'G', 'B']      | (B, G) -> R
-['B', 'R', 'B']           | (R, B) -> G
-['B', 'G']                | (B, G) -> R
-['R']                     |
-```
+Same as [problem 290](#problem-290-easy).
 
 ### Problem 1031 (Medium)
 
@@ -9827,20 +9277,7 @@ ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 
 ### Problem 1032 (Easy)
 
-This problem was asked by Google.
-
-In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
-
-Here is an example:
-
-```
-1 2 3 4 8
-5 1 2 3 4
-4 5 1 2 3
-7 4 5 1 2
-```
-
-Write a program to determine whether a given input is a Toeplitz matrix.
+Same as [problem 315](#problem-315-easy).
 
 ### Problem 1033 (Hard)
 
@@ -9876,9 +9313,7 @@ For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the fol
 
 ### Problem 1037 (Hard)
 
-This problem was asked by Etsy.
-
-Given a sorted array, convert it into a height-balanced binary search tree.
+Same as [problem 296](#problem-296-hard).
 
 ### Problem 1038 (Medium)
 
@@ -9890,13 +9325,7 @@ Same as [problem 242](#problem-242-hard).
 
 ### Problem 1040 (Hard)
 
-This problem was asked by Dropbox.
-
-Implement an efficient string matching algorithm.
-
-That is, given a string of length `N` and a pattern of length `k`, write a program that searches for the pattern in the string with less than `O(N * k)` worst-case time complexity.
-
-If the pattern is found, return the start index of its location. If not, return `False`.
+Same as [problem 276](#problem-276-hard).
 
 ### Problem 1041 (Medium)
 
@@ -10007,21 +9436,7 @@ Same as [problem 133](#problem-133-medium).
 
 ### Problem 1056 (Medium)
 
-This problem was asked by Epic.
-
-The "look and say" sequence is defined as follows: beginning with the term `1`, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
-
-```
-1
-11
-21
-1211
-111221
-```
-
-As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
-
-Given an integer `N`, print the `N`th term of this sequence.
+Same as [problem 275](#problem-275-medium).
 
 ### Problem 1057 (Easy)
 
@@ -10123,13 +9538,7 @@ Write a program that returns the maximum amount of money you can win with certai
 
 ### Problem 1070 (Easy)
 
-This problem was asked by Google.
-
-A girl is walking along an apple orchard with a bag in each hand. She likes to pick apples from each tree as she goes along, but is meticulous about not putting different kinds of apples in the same bag.
-
-Given an input describing the types of apples she will pass on her path, in order, determine the length of the longest portion of her path that consists of just two types of apple trees.
-
-For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion will involve types `1` and `3`, with a length of four.
+Same as [problem 298](#problem-298-easy).
 
 ### Problem 1071 (Hard)
 
@@ -10245,33 +9654,11 @@ Same as [problem 167](#problem-167-hard).
 
 ### Problem 1091 (Easy)
 
-This problem was asked by Twitter.
-
-A classroom consists of `N` students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
-
-```
-{0: [1, 2],
- 1: [0, 5],
- 2: [0],
- 3: [6],
- 4: [],
- 5: [1],
- 6: [3]} 
-```
-
-Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. For the example above, the friend groups would be `{0, 1, 2, 5}, {3, 6}, {4}`.
-
-Given a friendship list such as the one above, determine the number of friend groups in the class.
+Same as [problem 279](#problem-279-easy).
 
 ### Problem 1092 (Easy)
 
-This problem was asked by Google.
-
-A regular number in mathematics is defined as one which evenly divides some power of `60`. Equivalently, we can say that a regular number is one whose only prime divisors are `2`, `3`, and `5`.
-
-These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
-
-Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
+Same as [problem 283](#problem-283-easy).
 
 ### Problem 1093 (Medium)
 
@@ -10303,11 +9690,7 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 
 ### Problem 1098 (Easy)
 
-This problem was asked by Oracle.
-
-Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
-
-If either value does not exist, return None.
+Same as [problem 307](#problem-307-easy).
 
 ### Problem 1099 (Easy)
 
@@ -10329,13 +9712,7 @@ For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes a
 
 ### Problem 1102 (Medium)
 
-This problem was asked by Walmart Labs.
-
-There are `M` people sitting in a row of `N` seats, where `M < N`. Your task is to redistribute people such that there are no gaps between any of them, while keeping overall movement to a minimum.
-
-For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]`, where `0` represents an empty seat and `1` represents a person. In this case, one solution would be to place the person on the right in the fourth seat. We can consider the cost of a solution to be the sum of the absolute distance each person must move, so that the cost here would be five.
-
-Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
+Same as [problem 309](#problem-309-medium).
 
 ### Problem 1103 (Medium)
 
@@ -10377,9 +9754,7 @@ Write a function that returns the _maximum_ number of edges you can remove while
 
 ### Problem 1108 (Easy)
 
-This problem was asked by Pandora.
-
-Given an undirected graph, determine if it contains a cycle.
+Same as [problem 280](#problem-280-easy).
 
 ### Problem 1109 (Medium)
 
@@ -10387,29 +9762,11 @@ Same as [problem 143](#problem-143-medium).
 
 ### Problem 1110 (Easy)
 
-This problem was asked by Netflix.
-
-Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a^2 + b^2 = c^2`.
+Same as [problem 282](#problem-282-easy).
 
 ### Problem 1111 (Medium)
 
-This problem was asked by Amazon.
-
-At a popular bar, each customer has a set of favorite drinks, and will happily accept any drink among this set. For example, in the following situation, customer `0` will be satisfied with drinks `0`, `1`, `3`, or `6`.
-
-```
-preferences = {
-    0: [0, 1, 3, 6],
-    1: [1, 4, 7],
-    2: [2, 4, 7, 5],
-    3: [3, 2, 5],
-    4: [5, 8]
-}
-```
-
-A lazy bartender working at this bar is trying to reduce his effort by limiting the drink recipes he must memorize. Given a dictionary input such as the one above, return the fewest number of drinks he must learn in order to satisfy all customers.
-
-For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy everyone.
+Same as [problem 297](#problem-297-medium).
 
 ### Problem 1112 (Easy)
 
@@ -10430,9 +9787,7 @@ Write a program to determine whether a given matrix qualifies as a crossword gri
 
 ### Problem 1114 (Easy)
 
-This problem was asked by Uber.
-
-On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.
+Same as [problem 300](#problem-300-easy).
 
 ### Problem 1115 (Medium)
 
@@ -10552,13 +9907,7 @@ Same as [problem 264](#problem-264-hard).
 
 ### Problem 1141 (Medium)
 
-This problem was asked by Walmart Labs.
-
-There are `M` people sitting in a row of `N` seats, where `M < N`. Your task is to redistribute people such that there are no gaps between any of them, while keeping overall movement to a minimum.
-
-For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]`, where `0` represents an empty seat and `1` represents a person. In this case, one solution would be to place the person on the right in the fourth seat. We can consider the cost of a solution to be the sum of the absolute distance each person must move, so that the cost here would be five.
-
-Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
+Same as [problem 309](#problem-309-medium).
 
 ### Problem 1142 (Easy)
 
@@ -10574,14 +9923,7 @@ Same as [problem 332](#problem-332-easy).
 
 ### Problem 1145 (Medium)
 
-This problem was asked by Triplebyte.
-
-Implement a data structure which carries out the following operations without resizing the underlying array:
-
-- `add(value)`: Add a value to the set of values.
-- `check(value)`: Check whether a value is in the set.
-
-The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
+Same as [problem 301](#problem-301-medium).
 
 ### Problem 1146 (Easy)
 
@@ -10607,25 +9949,7 @@ Same as [problem 84](#problem-84-medium).
 
 ### Problem 1150 (Hard)
 
-This problem was asked by VMware.
-
-The skyline of a city is composed of several buildings of various widths and heights, possibly overlapping one another when viewed from a distance. We can represent the buildings using an array of `(left, right, height)` tuples, which tell us where on an imaginary x-axis a building begins and ends, and how tall it is. The skyline itself can be described by a list of `(x, height)` tuples, giving the locations at which the height visible to a distant observer changes, and each new height.
-
-Given an array of buildings as described above, create a function that returns the skyline.
-
-For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5), (19, 23, 4)]`. In aggregate, these buildings would create a skyline that looks like the one below.
-
-```
-     ______  
-    |      |        ___
- ___|      |___    |   | 
-|   |   B  |   |   | C |
-| A |      | A |   |   |
-|   |      |   |   |   |
-------------
-```
-
-As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
+Same as [problem 286](#problem-286-hard).
 
 ### Problem 1151 (Easy)
 
@@ -10711,11 +10035,7 @@ Write a function that, given `n`, returns the number of rounds you'd expect to p
 
 ### Problem 1165 (Hard)
 
-This problem was asked by Two Sigma.
-
-A knight is placed on a given square on an `8 x 8` chessboard. It is then moved randomly several times, where each move is a standard [knight move](https://en.wikipedia.org/wiki/Knight_(chess)#Movement). If the knight jumps off the board at any point, however, it is not allowed to jump back on.
-
-After `k` moves, what is the probability that the knight remains on the board?
+Same as [problem 304](#problem-304-medium).
 
 ### Problem 1166 (Medium)
 
@@ -10934,11 +10254,7 @@ Each method should run in constant time.
 
 ### Problem 1198 (Medium)
 
-This problem was asked by Snapchat.
-
-You are given an array of length `N`, where each element `i` represents the number of ways we can produce `i` units of change. For example, `[1, 0, 1, 1, 2]` would indicate that there is only one way to make `0`, `2`, or `3` units, and two ways of making `4` units.
-
-Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value `2`, `3`, and `4`.
+Same as [problem 316](#problem-316-medium).
 
 ### Problem 1199 (Medium)
 
@@ -10984,11 +10300,7 @@ Same as [problem 198](#problem-198-medium).
 
 ### Problem 1210 (Easy)
 
-This problem was asked by Oracle.
-
-Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
-
-If either value does not exist, return None.
+Same as [problem 307](#problem-307-easy).
 
 ### Problem 1211 (Medium)
 
@@ -11038,9 +10350,7 @@ Same as [problem 76](#problem-76-medium).
 
 ### Problem 1217 (Easy)
 
-This problem was asked by Pivotal.
-
-Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
+Same as [problem 310](#problem-310-easy).
 
 ### Problem 1218 (Hard)
 
@@ -11106,19 +10416,7 @@ Same as [problem 86](#problem-86-medium).
 
 ### Problem 1226 (Medium)
 
-This problem was asked by Yext.
-
-Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram `4` and `6` are cousins.
-
-```
-    1
-   / \
-  2   3
- / \   \
-4   5   6
-```
-
-Given a binary tree and a particular node, find all cousins of that node.
+Same as [problem 284](#problem-284-medium).
 
 ### Problem 1227 (Medium)
 
@@ -11150,23 +10448,7 @@ Same as [problem 35](#problem-35-hard).
 
 ### Problem 1234 (Easy)
 
-This problem was asked by Facebook.
-
-On a mysterious island there are creatures known as Quxes which come in three colors: red, green, and blue. One power of the Qux is that if two of them are standing next to each other, they can transform into a single creature of the third color.
-
-Given `N` Quxes standing in a line, determine the smallest number of them remaining after any possible sequence of such transformations.
-
-For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end up with a single Qux through the following steps:
-
-```
-        Arrangement       |   Change
-----------------------
-['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
-['B', 'B', 'G', 'B']      | (B, G) -> R
-['B', 'R', 'B']           | (R, B) -> G
-['B', 'G']                | (B, G) -> R
-['R']                     |
-```
+Same as [problem 290](#problem-290-easy).
 
 ### Problem 1235 (Medium)
 
@@ -11178,23 +10460,7 @@ Same as [problem 272](#problem-272-medium).
 
 ### Problem 1237 (Easy)
 
-This problem was asked by Twitter.
-
-A classroom consists of `N` students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
-
-```
-{0: [1, 2],
- 1: [0, 5],
- 2: [0],
- 3: [6],
- 4: [],
- 5: [1],
- 6: [3]} 
-```
-
-Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. For the example above, the friend groups would be `{0, 1, 2, 5}, {3, 6}, {4}`.
-
-Given a friendship list such as the one above, determine the number of friend groups in the class.
+Same as [problem 279](#problem-279-easy).
 
 ### Problem 1238 (Medium)
 
@@ -11222,11 +10488,7 @@ Same as [problem 108](#problem-108-easy).
 
 ### Problem 1244 (Medium)
 
-This problem was asked by Glassdoor.
-
-An imminent hurricane threatens the coastal town of Codeville. If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is `k`, determine how many boats will be needed to save everyone.
-
-For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
+Same as [problem 291](#problem-291-medium).
 
 ### Problem 1245 (Medium)
 
@@ -11258,11 +10520,7 @@ Same as [problem 25](#problem-25-hard).
 
 ### Problem 1252 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
-
-Bonus: When, during the course of a day, will the angle be zero?
+Same as [problem 303](#problem-303-easy).
 
 ### Problem 1253 (Easy)
 
@@ -11288,13 +10546,7 @@ Same as [problem 49](#problem-49-medium).
 
 ### Problem 1257 (Medium)
 
-This problem was asked by Spotify.
-
-You are the technical director of WSPT radio, serving listeners nationwide. For simplicity's sake we can consider each listener to live along a horizontal line stretching from `0` (west) to `1000` (east).
-
-Given a list of `N` listeners, and a list of `M` radio towers, each placed at various locations along this line, determine what the minimum broadcast range would have to be in order for each listener's home to be covered.
-
-For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
+Same as [problem 314](#problem-314-medium).
 
 ### Problem 1258 (Medium)
 
@@ -11358,20 +10610,7 @@ Same as [problem 71](#problem-71-easy).
 
 ### Problem 1272 (Easy)
 
-This problem was asked by Google.
-
-In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
-
-Here is an example:
-
-```
-1 2 3 4 8
-5 1 2 3 4
-4 5 1 2 3
-7 4 5 1 2
-```
-
-Write a program to determine whether a given input is a Toeplitz matrix.
+Same as [problem 315](#problem-315-easy).
 
 ### Problem 1273 (Easy)
 
@@ -11409,23 +10648,7 @@ Same as [problem 54](#problem-54-hard).
 
 ### Problem 1279 (Medium)
 
-This problem was asked by Amazon.
-
-At a popular bar, each customer has a set of favorite drinks, and will happily accept any drink among this set. For example, in the following situation, customer `0` will be satisfied with drinks `0`, `1`, `3`, or `6`.
-
-```
-preferences = {
-    0: [0, 1, 3, 6],
-    1: [1, 4, 7],
-    2: [2, 4, 7, 5],
-    3: [3, 2, 5],
-    4: [5, 8]
-}
-```
-
-A lazy bartender working at this bar is trying to reduce his effort by limiting the drink recipes he must memorize. Given a dictionary input such as the one above, return the fewest number of drinks he must learn in order to satisfy all customers.
-
-For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy everyone.
+Same as [problem 297](#problem-297-medium).
 
 ### Problem 1280 (Medium)
 
@@ -11517,20 +10740,7 @@ Same as [problem 82](#problem-82-easy).
 
 ### Problem 1298 (Medium)
 
-This problem was asked by Salesforce.
-
-The number 6174 is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
-
-- For a given input `x`, create two new numbers that consist of the digits in `x` in ascending and descending order.
-- Subtract the smaller number from the larger number.
-
-For example, this algorithm terminates in three steps when starting from `1234`:
-
-- `4321 - 1234 = 3087`
-- `8730 - 0378 = 8352`
-- `8532 - 2358 = 6174`
-
-Write a function that returns how many steps this will take for a given input `N`.
+Same as [problem 288](#problem-288-medium).
 
 ### Problem 1299 (Hard)
 
@@ -11572,28 +10782,7 @@ Same as [problem 51](#problem-51-medium).
 
 ### Problem 1308 (Medium)
 
-This problem was asked by Samsung.
-
-A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
-
-For example, here is a possible configuration, where `A`, `B`, and `C` are houses, and arrows represent pipes:
-
-```
-A <--> B <--> C <--> plant
-```
-
-Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water.
-
-In the following setup, for example, we can remove all but the pipes from `plant` to `A`, `plant` to `B`, and `B` to `C`, for a total cost of `16`.
-
-```
-pipes = {
-    'plant': {'A': 1, 'B': 5, 'C': 20},
-    'A': {'C': 15},
-    'B': {'C': 10},
-    'C': {}
-}
-```
+Same as [problem 299](#problem-299-medium).
 
 ### Problem 1309 (Hard)
 
@@ -11629,21 +10818,7 @@ Same as [problem 252](#problem-252-easy).
 
 ### Problem 1315 (Medium)
 
-This problem was asked by Epic.
-
-The "look and say" sequence is defined as follows: beginning with the term `1`, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
-
-```
-1
-11
-21
-1211
-111221
-```
-
-As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
-
-Given an integer `N`, print the `N`th term of this sequence.
+Same as [problem 275](#problem-275-medium).
 
 ### Problem 1316 (Hard)
 
@@ -11677,34 +10852,11 @@ Same as [problem 216](#problem-216-medium).
 
 ### Problem 1322 (Hard)
 
-This problem was asked by Google.
-
-The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For example, if the initial heap sizes are `3`, `4`, and `5`, a game could be played as shown below:
-
-```
-  A  |  B  |  C
------------
-  3  |  4  |  5
-  3  |  1  |  3
-  3  |  1  |  3
-  0  |  1  |  3
-  0  |  1  |  0
-  0  |  0  |  0 
-```
-
-In other words, to start, the first player takes three items from pile `B`. The second player responds by removing two stones from pile `C`. The game continues in this way until player one takes last stone and loses.
-
-Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
+Same as [problem 289](#problem-289-medium).
 
 ### Problem 1323 (Hard)
 
-This problem was asked by Uber.
-
-You have `N` stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start and end stones of the pyramid should each be one stone high.
-
-You can change the height of any stone by paying a cost of `1` unit to lower its height by `1`, as many times as necessary. Given this information, determine the lowest cost method to produce this pyramid.
-
-For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
+Same as [problem 293](#problem-293-hard).
 
 ### Problem 1324 (Hard)
 
@@ -11712,9 +10864,7 @@ Same as [problem 242](#problem-242-hard).
 
 ### Problem 1325 (Hard)
 
-This problem was asked by Etsy.
-
-Given a sorted array, convert it into a height-balanced binary search tree.
+Same as [problem 296](#problem-296-hard).
 
 ### Problem 1326 (Medium)
 
@@ -11897,11 +11047,7 @@ For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the fol
 
 ### Problem 1350 (Easy)
 
-This problem was asked by Amazon.
-
-Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
-
-For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
+Same as [problem 305](#problem-305-easy).
 
 ### Problem 1351 (Hard)
 
@@ -11959,19 +11105,11 @@ Same as [problem 193](#problem-193-hard).
 
 ### Problem 1362 (Easy)
 
-This problem was asked by Google.
-
-A girl is walking along an apple orchard with a bag in each hand. She likes to pick apples from each tree as she goes along, but is meticulous about not putting different kinds of apples in the same bag.
-
-Given an input describing the types of apples she will pass on her path, in order, determine the length of the longest portion of her path that consists of just two types of apple trees.
-
-For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion will involve types `1` and `3`, with a length of four.
+Same as [problem 298](#problem-298-easy).
 
 ### Problem 1363 (Easy)
 
-This problem was asked by Uber.
-
-On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.
+Same as [problem 300](#problem-300-easy).
 
 ### Problem 1364 (Hard)
 
@@ -12085,21 +11223,7 @@ Same as [problem 53](#problem-53-medium).
 
 ### Problem 1389 (Medium)
 
-This problem was asked by Quora.
-
-You are given a list of `(website, user)` pairs that represent users visiting websites. Come up with a program that identifies the top `k` pairs of websites with the greatest similarity.
-
-For example, suppose `k = 1`, and the list of tuples is:
-
-```
-[('a', 1), ('a', 3), ('a', 5),
- ('b', 2), ('b', 6),
- ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5)
- ('d', 4), ('d', 5), ('d', 6), ('d', 7),
- ('e', 1), ('e', 3), ('e': 5), ('e', 6)]
-```
-
-Then a reasonable similarity metric would most likely conclude that `a` and `e` are the most similar, so your program should return `[('a', 'e')]`.
+Same as [problem 287](#problem-287-medium).
 
 ### Problem 1390 (Medium)
 
@@ -12111,13 +11235,7 @@ Same as [problem 66](#problem-66-medium).
 
 ### Problem 1392 (Hard)
 
-This problem was asked by Citrix.
-
-You are given a circular lock with three wheels, each of which display the numbers `0` through `9` in order. Each of these wheels rotate clockwise and counterclockwise.
-
-In addition, the lock has a certain number of "dead ends", meaning that if you turn the wheels to one of these combinations, the lock becomes stuck in that state and cannot be opened.
-
-Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to `000`, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or `None` if this is impossible.
+Same as [problem 313](#problem-313-hard).
 
 ### Problem 1393 (Easy)
 
@@ -12133,13 +11251,7 @@ Same as [problem 52](#problem-52-hard).
 
 ### Problem 1396 (Hard)
 
-This problem was asked by Dropbox.
-
-Implement an efficient string matching algorithm.
-
-That is, given a string of length `N` and a pattern of length `k`, write a program that searches for the pattern in the string with less than `O(N * k)` worst-case time complexity.
-
-If the pattern is found, return the start index of its location. If not, return `False`.
+Same as [problem 276](#problem-276-hard).
 
 ### Problem 1397 (Easy)
 
@@ -12225,21 +11337,7 @@ Same as [problem 274](#problem-274-hard).
 
 ### Problem 1417 (Easy)
 
-This problem was asked by Wayfair.
-
-You are given a `2 x N` board, and instructed to completely cover the board with the following shapes:
-
-- Dominoes, or `2 x 1` rectangles.
-- Trominoes, or `L`-shapes.
-
-For example, if `N = 4`, here is one possible configuration, where `A` is a domino, and `B` and `C` are trominoes.
-
-```
-A B B C
-A B C C
-```
-
-Given an integer `N`, determine in how many ways this task is possible.
+Same as [problem 312](#problem-312-easy).
 
 ### Problem 1418 (Medium)
 
@@ -12395,27 +11493,7 @@ Implement insertion and search functions for a ternary search tree.
 
 ### Problem 1441 (Easy)
 
-This problem was asked by Google.
-
-UTF-8 is a character encoding that maps each symbol to one, two, three, or four bytes.
-
-For example, the Euro sign, €, corresponds to the three bytes `11100010 10000010 10101100`. The rules for mapping characters are as follows:
-
-- For a single-byte character, the first bit must be zero.
-- For an `n`-byte character, the first byte starts with `n` ones and a zero. The other `n - 1` bytes all start with `10`.
-
-Visually, this can be represented as follows.
-
-```
- Bytes   |           Byte format
---------------------------
-   1     | 0xxxxxxx
-   2     | 110xxxxx 10xxxxxx
-   3     | 1110xxxx 10xxxxxx 10xxxxxx
-   4     | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
-```
-
-Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
+Same as [problem 277](#problem-277-easy).
 
 ### Problem 1442 (Easy)
 
@@ -12457,24 +11535,7 @@ Same as [problem 361](#problem-361-medium).
 
 ### Problem 1448 (Medium)
 
-This problem was asked by LinkedIn.
-
-A wall consists of several rows of bricks of various integer lengths and uniform height. Your goal is to find a vertical line going from the top to the bottom of the wall that cuts through the fewest number of bricks. If the line goes through the edge between two bricks, this does not count as a cut.
-
-For example, suppose the input is as follows, where values in each row represent the lengths of bricks in that row:
-
-```
-[[3, 5, 1, 1],
- [2, 3, 3, 2],
- [5, 5],
- [4, 4, 2],
- [1, 3, 3, 3],
- [1, 1, 6, 1, 1]]
-```
-
-The best we can we do here is to draw a line after the eighth brick, which will only require cutting through the bricks in the third and fifth row.
-
-Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
+Same as [problem 281](#problem-281-medium).
 
 ### Problem 1449 (Medium)
 
@@ -12545,9 +11606,7 @@ Same as [problem 163](#problem-163-hard).
 
 ### Problem 1463 (Easy)
 
-This problem was asked by Netflix.
-
-Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a^2``+ b^2``= c^2`.
+Same as [problem 282](#problem-282-easy).
 
 ### Problem 1464 (Medium)
 
@@ -12626,13 +11685,7 @@ Same as [problem 47](#problem-47-easy).
 
 ### Problem 1477 (Easy)
 
-This problem was asked by Google.
-
-A regular number in mathematics is defined as one which evenly divides some power of `60`. Equivalently, we can say that a regular number is one whose only prime divisors are `2`, `3`, and `5`.
-
-These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
-
-Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
+Same as [problem 283](#problem-283-easy).
 
 ### Problem 1478 (Easy)
 
@@ -12702,9 +11755,7 @@ Same as [problem 21](#problem-21-easy).
 
 ### Problem 1493 (Easy)
 
-This problem was asked by Netflix.
-
-Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a``2``+ b``2``= c``2`.
+Same as [problem 282](#problem-282-easy).
 
 ### Problem 1494 (Medium)
 
@@ -12767,13 +11818,7 @@ Same as [problem 37](#problem-37-easy).
 
 ### Problem 1504 (Hard)
 
-This problem was asked by Dropbox.
-
-Implement an efficient string matching algorithm.
-
-That is, given a string of length `N` and a pattern of length `k`, write a program that searches for the pattern in the string with less than `O(N * k)` worst-case time complexity.
-
-If the pattern is found, return the start index of its location. If not, return `False`.
+Same as [problem 276](#problem-276-hard).
 
 ### Problem 1505 (Medium)
 
@@ -12889,27 +11934,7 @@ Same as [4](#problem-4-hard).
 
 ### Problem 1525 (Easy)
 
-This problem was asked by Google.
-
-UTF-8 is a character encoding that maps each symbol to one, two, three, or four bytes.
-
-For example, the Euro sign, €, corresponds to the three bytes `11100010 10000010 10101100`. The rules for mapping characters are as follows:
-
-- For a single-byte character, the first bit must be zero.
-- For an `n`-byte character, the first byte starts with `n` ones and a zero. The other `n - 1` bytes all start with `10`.
-
-Visually, this can be represented as follows.
-
-```
- Bytes   |           Byte format
---------------------------
-   1     | 0xxxxxxx
-   2     | 110xxxxx 10xxxxxx
-   3     | 1110xxxx 10xxxxxx 10xxxxxx
-   4     | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
-```
-
-Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
+Same as [problem 277](#problem-277-easy).
 
 ### Problem 1526 (Hard)
 
@@ -12933,11 +11958,7 @@ Same as [problem 74](#problem-74-medium).
 
 ### Problem 1528 (Medium)
 
-This problem was asked by Glassdoor.
-
-An imminent hurricane threatens the coastal town of Codeville. If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is `k`, determine how many boats will be needed to save everyone.
-
-For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
+Same as [problem 291](#problem-291-medium).
 
 ### Problem 1529 (Medium)
 
@@ -12957,28 +11978,7 @@ Same as [problem 83](#problem-83-medium).
 
 ### Problem 1533 (Medium)
 
-This problem was asked by Samsung.
-
-A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
-
-For example, here is a possible configuration, where `A`, `B`, and `C` are houses, and arrows represent pipes:
-
-```
-A <--> B <--> C <--> plant
-```
-
-Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water.
-
-In the following setup, for example, we can remove all but the pipes from `plant` to `A`, `plant` to `B`, and `B` to `C`, for a total cost of `16`.
-
-```
-pipes = {
-    'plant': {'A': 1, 'B': 5, 'C': 20},
-    'A': {'C': 15},
-    'B': {'C': 10},
-    'C': {}
-}
-```
+Same as [problem 299](#problem-299-medium).
 
 ### Problem 1534 (Medium)
 
@@ -13028,11 +12028,7 @@ Same as [problem 21](#problem-21-easy).
 
 ### Problem 1539 (Easy)
 
-This problem was asked by Amazon.
-
-Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
-
-For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
+Same as [problem 305](#problem-305-easy).
 
 ### Problem 1540 (Easy)
 
@@ -13062,13 +12058,7 @@ Same as [problem 17](#problem-17-hard).
 
 ### Problem 1545 (Hard)
 
-This problem was asked by Uber.
-
-You have `N` stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start and end stones of the pyramid should each be one stone high.
-
-You can change the height of any stone by paying a cost of `1` unit to lower its height by `1`, as many times as necessary. Given this information, determine the lowest cost method to produce this pyramid.
-
-For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
+Same as [problem 293](#problem-293-hard).
 
 ### Problem 1546 (Medium)
 
@@ -13084,20 +12074,7 @@ Same as [problem 265](#problem-265-easy).
 
 ### Problem 1549 (Easy)
 
-This problem was asked by Google.
-
-In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
-
-Here is an example:
-
-```
-1 2 3 4 8
-5 1 2 3 4
-4 5 1 2 3
-7 4 5 1 2
-```
-
-Write a program to determine whether a given input is a Toeplitz matrix.
+Same as [problem 315](#problem-315-easy).
 
 ### Problem 1550 (Easy)
 
@@ -13137,23 +12114,7 @@ Same as [problem 122](#problem-122-medium).
 
 ### Problem 1558 (Easy)
 
-This problem was asked by Twitter.
-
-A classroom consists of `N` students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
-
-```
-{0: [1, 2],
- 1: [0, 5],
- 2: [0],
- 3: [6],
- 4: [],
- 5: [1],
- 6: [3]} 
-```
-
-Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. For the example above, the friend groups would be `{0, 1, 2, 5}, {3, 6}, {4}`.
-
-Given a friendship list such as the one above, determine the number of friend groups in the class.
+Same as [problem 279](#problem-279-easy).
 
 ### Problem 1559 (Hard)
 
@@ -13219,21 +12180,7 @@ Same as [problem 55](#problem-55-easy).
 
 ### Problem 1570 (Medium)
 
-This problem was asked by Epic.
-
-The "look and say" sequence is defined as follows: beginning with the term `1`, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
-
-```
-1
-11
-21
-1211
-111221
-```
-
-As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
-
-Given an integer `N`, print the `N`th term of this sequence.
+Same as [problem 275](#problem-275-medium).
 
 ### Problem 1571 (Medium)
 
@@ -13317,23 +12264,7 @@ Same as [problem 158](#problem-158-medium).
 
 ### Problem 1589 (Easy)
 
-This problem was asked by Facebook.
-
-On a mysterious island there are creatures known as Quxes which come in three colors: red, green, and blue. One power of the Qux is that if two of them are standing next to each other, they can transform into a single creature of the third color.
-
-Given `N` Quxes standing in a line, determine the smallest number of them remaining after any possible sequence of such transformations.
-
-For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end up with a single Qux through the following steps:
-
-```
-        Arrangement       |   Change
-----------------------
-['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
-['B', 'B', 'G', 'B']      | (B, G) -> R
-['B', 'R', 'B']           | (R, B) -> G
-['B', 'G']                | (B, G) -> R
-['R']                     |
-```
+Same as [problem 290](#problem-290-easy).
 
 ### Problem 1590 (Medium)
 
@@ -13406,35 +12337,15 @@ Determine how many times you would need to apply this operation to ensure that a
 
 ### Problem 1603 (Easy)
 
-This problem was asked by Pivotal.
-
-Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
+Same as [problem 310](#problem-310-easy).
 
 ### Problem 1604 (Easy)
 
-This problem was asked by Oracle.
-
-Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
-
-If either value does not exist, return None.
+Same as [problem 307](#problem-307-easy).
 
 ### Problem 1605 (Easy)
 
-This problem was asked by Wayfair.
-
-You are given a `2 x N` board, and instructed to completely cover the board with the following shapes:
-
-- Dominoes, or `2 x 1` rectangles.
-- Trominoes, or `L`-shapes.
-
-For example, if `N = 4`, here is one possible configuration, where `A` is a domino, and `B` and `C` are trominoes.
-
-```
-A B B C
-A B C C
-```
-
-Given an integer `N`, determine in how many ways this task is possible.
+Same as [problem 312](#problem-312-easy).
 
 ### Problem 1606 (Easy)
 
@@ -13478,31 +12389,11 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 
 ### Problem 1612 (Hard)
 
-This problem was asked by Etsy.
-
-Given a sorted array, convert it into a height-balanced binary search tree.
+Same as [problem 296](#problem-296-hard).
 
 ### Problem 1613 (Hard)
 
-This problem was asked by VMware.
-
-The skyline of a city is composed of several buildings of various widths and heights, possibly overlapping one another when viewed from a distance. We can represent the buildings using an array of `(left, right, height)` tuples, which tell us where on an imaginary x-axis a building begins and ends, and how tall it is. The skyline itself can be described by a list of `(x, height)` tuples, giving the locations at which the height visible to a distant observer changes, and each new height.
-
-Given an array of buildings as described above, create a function that returns the skyline.
-
-For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5), (19, 23, 4)]`. In aggregate, these buildings would create a skyline that looks like the one below.
-
-```
-     ______  
-    |      |        ___
- ___|      |___    |   | 
-|   |   B  |   |   | C |
-| A |      | A |   |   |
-|   |      |   |   |   |
-------------
-```
-
-As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
+Same as [problem 286](#problem-286-hard).
 
 ### Problem 1614 (Medium)
 
@@ -13534,13 +12425,7 @@ Same as [problem 54](#problem-54-hard).
 
 ### Problem 1621 (Easy)
 
-This problem was asked by Google.
-
-A regular number in mathematics is defined as one which evenly divides some power of `60`. Equivalently, we can say that a regular number is one whose only prime divisors are `2`, `3`, and `5`.
-
-These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
-
-Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
+Same as [problem 283](#problem-283-easy).
 
 ### Problem 1622 (Hard)
 
@@ -13563,20 +12448,7 @@ Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b
 
 ### Problem 1624 (Medium)
 
-This problem was asked by Salesforce.
-
-The number 6174 is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
-
-- For a given input `x`, create two new numbers that consist of the digits in `x` in ascending and descending order.
-- Subtract the smaller number from the larger number.
-
-For example, this algorithm terminates in three steps when starting from `1234`:
-
-- `4321 - 1234 = 3087`
-- `8730 - 0378 = 8352`
-- `8532 - 2358 = 6174`
-
-Write a function that returns how many steps this will take for a given input `N`.
+Same as [problem 288](#problem-288-medium).
 
 ### Problem 1625 (Medium)
 
@@ -13790,14 +12662,7 @@ Write a function that returns the _maximum_ number of edges you can remove while
 
 ### Problem 1661 (Medium)
 
-This problem was asked by Triplebyte.
-
-Implement a data structure which carries out the following operations without resizing the underlying array:
-
-- `add(value)`: Add a value to the set of values.
-- `check(value)`: Check whether a value is in the set.
-
-The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
+Same as [problem 301](#problem-301-medium).
 
 ### Problem 1662 (Hard)
 
@@ -13815,24 +12680,7 @@ Same as [problem 206](#problem-206-easy).
 
 ### Problem 1665 (Medium)
 
-This problem was asked by LinkedIn.
-
-A wall consists of several rows of bricks of various integer lengths and uniform height. Your goal is to find a vertical line going from the top to the bottom of the wall that cuts through the fewest number of bricks. If the line goes through the edge between two bricks, this does not count as a cut.
-
-For example, suppose the input is as follows, where values in each row represent the lengths of bricks in that row:
-
-```
-[[3, 5, 1, 1],
- [2, 3, 3, 2],
- [5, 5],
- [4, 4, 2],
- [1, 3, 3, 3],
- [1, 1, 6, 1, 1]]
-```
-
-The best we can we do here is to draw a line after the eighth brick, which will only require cutting through the bricks in the third and fifth row.
-
-Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
+Same as [problem 281](#problem-281-medium).
 
 ### Problem 1666 (Easy)
 
@@ -13870,13 +12718,7 @@ Same as [problem 267](#problem-267-hard).
 
 ### Problem 1673 (Hard)
 
-This problem was asked by Citrix.
-
-You are given a circular lock with three wheels, each of which display the numbers `0` through `9` in order. Each of these wheels rotate clockwise and counterclockwise.
-
-In addition, the lock has a certain number of "dead ends", meaning that if you turn the wheels to one of these combinations, the lock becomes stuck in that state and cannot be opened.
-
-Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to `000`, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or `None` if this is impossible.
+Same as [problem 313](#problem-313-hard).
 
 ### Problem 1674 (Hard)
 
@@ -13884,9 +12726,7 @@ Same as [problem 59](#problem-59-hard).
 
 ### Problem 1675 (Easy)
 
-This problem was asked by Pandora.
-
-Given an undirected graph, determine if it contains a cycle.
+Same as [problem 280](#problem-280-easy).
 
 ### Problem 1676 (Easy)
 
@@ -13962,11 +12802,7 @@ Given an integer n, find the next biggest integer with the same number of 1-bits
 
 ### Problem 1692 (Easy)
 
-This problem was asked by Microsoft.
-
-Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
-
-Bonus: When, during the course of a day, will the angle be zero?
+Same as [problem 303](#problem-303-easy).
 
 ### Problem 1693 (Easy)
 
@@ -14021,11 +12857,7 @@ Write a program to determine whether a given matrix qualifies as a crossword gri
 
 ### Problem 1698 (Medium)
 
-This problem was asked by Snapchat.
-
-You are given an array of length `N`, where each element `i` represents the number of ways we can produce `i` units of change. For example, `[1, 0, 1, 1, 2]` would indicate that there is only one way to make `0`, `2`, or `3` units, and two ways of making `4` units.
-
-Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value `2`, `3`, and `4`.
+Same as [problem 316](#problem-316-medium).
 
 ### Problem 1699 (Medium)
 
@@ -14045,9 +12877,7 @@ Implement a quack using three stacks and `O(1)` additional memory, so that the a
 
 ### Problem 1701 (Easy)
 
-This problem was asked by Uber.
-
-On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.### Problem 1702 (Medium)
+Same as [problem 300](#problem-300-easy).
 
 ### Problem 1702 (Medium)
 
@@ -14059,39 +12889,11 @@ Same as [problem 149](#problem-149-hard).
 
 ### Problem 1704 (Medium)
 
-This problem was asked by Amazon.
-
-At a popular bar, each customer has a set of favorite drinks, and will happily accept any drink among this set. For example, in the following situation, customer `0` will be satisfied with drinks `0`, `1`, `3`, or `6`.
-
-```
-preferences = {
-    0: [0, 1, 3, 6],
-    1: [1, 4, 7],
-    2: [2, 4, 7, 5],
-    3: [3, 2, 5],
-    4: [5, 8]
-}
-```
-
-A lazy bartender working at this bar is trying to reduce his effort by limiting the drink recipes he must memorize. Given a dictionary input such as the one above, return the fewest number of drinks he must learn in order to satisfy all customers.
-
-For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy everyone.
+Same as [problem 297](#problem-297-medium).
 
 ### Problem 1705 (Medium)
 
-This problem was asked by Yext.
-
-Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram `4` and `6` are cousins.
-
-```
-    1
-   / \
-  2   3
- / \   \
-4   5   6
-```
-
-Given a binary tree and a particular node, find all cousins of that node.
+Same as [problem 284](#problem-284-medium).
 
 ### Problem 1706 (Medium)
 
