@@ -3469,7 +3469,7 @@ For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as t
 
 ---
 
-### Problem 246
+### Problem 246 (Medium)
 
 This problem was asked by Dropbox.
 
@@ -3481,7 +3481,7 @@ For example, the words `['chair', 'height', 'racket', 'touch', 'tunic']` can for
 
 ---
 
-### Problem 247
+### Problem 247 (Medium)
 
 This problem was asked by PayPal.
 
@@ -3491,7 +3491,7 @@ Given a binary tree, determine whether or not it is height-balanced. A height-ba
 
 ---
 
-### Problem 248
+### Problem 248 (Hard)
 
 This problem was asked by Nvidia.
 
@@ -3501,7 +3501,7 @@ Find the maximum of two numbers without using any if-else statements, branching,
 
 ---
 
-### Problem 249
+### Problem 249 (Hard)
 
 This problem was asked by Salesforce.
 
@@ -3511,7 +3511,7 @@ Given an array of integers, find the maximum XOR of any two elements.
 
 ---
 
-### Problem 250
+### Problem 250 (Medium)
 
 This problem was asked by Google.
 
@@ -3528,7 +3528,9 @@ For example, a puzzle of the form:
 
 may have the solution:
 
-`{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O': 0, 'R': 8, 'Y': 2}`
+```
+{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
+```
 
 Given a three-word puzzle like the one above, create an algorithm that finds a solution.
 
@@ -3558,7 +3560,7 @@ Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an
 
 ---
 
-### Problem 253
+### Problem 253 (Medium)
 
 This problem was asked by PayPal.
 
@@ -3577,7 +3579,7 @@ t     a     g
 
 ---
 
-### Problem 254
+### Problem 254 (Medium)
 
 This problem was asked by Yahoo.
 
@@ -3586,30 +3588,30 @@ Recall that a full binary tree is one in which each node is either a leaf node, 
 For example, given the following tree:
 
 ```
-         a
+         0
       /     \
-    b         c
+    1         2
   /            \
-d                 e
+3                 4
   \             /   \
-    f          g     h
+    5          6     7
 ```
 
 You should convert it to:
 
 ```
-     a
+     0
   /     \
-f         e
+5         4
         /   \
-       g     h
+       6     7
 ```
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution254.java)
 
 ---
 
-### Problem 255
+### Problem 255 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -3641,7 +3643,7 @@ Given a graph, find its transitive closure.
 
 ---
 
-### Problem 256
+### Problem 256 (Medium)
 
 This problem was asked by Fitbit.
 
@@ -3651,7 +3653,7 @@ Given a linked list, rearrange the node values such that they appear in alternat
 
 ---
 
-### Problem 257
+### Problem 257 (Easy)
 
 This problem was asked by WhatsApp.
 
@@ -3661,7 +3663,7 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 ---
 
-### Problem 258
+### Problem 258 (Easy)
 
 This problem was asked by Morgan Stanley.
 
@@ -3685,29 +3687,27 @@ You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 ---
 
-### Problem 259
+### Problem 259 (Hard)
 
 This problem was asked by Two Sigma.
 
 Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
 
-```
-Player 1: g
-Player 2: h
-Player 1: o
-Player 2: s
-Player 1: t [loses]
-```
+- Player 1: `g`
+- Player 2: `h`
+- Player 1: `o`
+- Player 2: `s`
+- Player 1: `t` [loses]
 
 Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
 
-For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be b.
+For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be `b`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution259.java)
 
 ---
 
-### Problem 260
+### Problem 260 (Medium)
 
 This problem was asked by Pinterest.
 
@@ -3717,7 +3717,7 @@ The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for i
 
 ---
 
-### Problem 261
+### Problem 261 (Easy)
 
 This problem was asked by Amazon.
 
@@ -3735,7 +3735,7 @@ Here is an example tree (note that only the leaf nodes have letters):
 c               s
 ```
 
-With this encoding, cats would be represented as `0000110111`.
+With this encoding, `cats` would be represented as `0000110111`.
 
 Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
 
@@ -3743,7 +3743,7 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 
 ---
 
-### Problem 262
+### Problem 262 (Medium)
 
 This problem was asked by Mozilla.
 
@@ -3753,7 +3753,7 @@ A bridge in a connected (undirected) graph is an edge that, if removed, causes t
 
 ---
 
-### Problem 263
+### Problem 263 (Medium)
 
 This problem was asked by Nest.
 
@@ -3761,16 +3761,16 @@ Create a basic sentence checker that takes in a stream of characters and determi
 
 We can consider a sentence valid if it conforms to the following rules:
 
-- The sentence must start with a capital letter, followed by a lowercase letter or a space.
-- All other characters must be lowercase letters, separators `(,,;,:)` or terminal marks `(.,?,!,‽)`.
-- There must be a single space between each word.
-- The sentence must end with a terminal mark immediately following a word.
+1. The sentence must start with a capital letter, followed by a lowercase letter or a space.
+2. All other characters must be lowercase letters, separators (`,`,`;`,`:`) or terminal marks (`.`,`?`,`!`,`‽`).
+3. There must be a single space between each word.
+4. The sentence must end with a terminal mark immediately following a word.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution263.java)
 
 ---
 
-### Problem 264
+### Problem 264 (Hard)
 
 This problem was asked by LinkedIn.
 
@@ -3784,7 +3784,7 @@ Create an algorithm that finds a De Bruijn sequence.
 
 ---
 
-### Problem 265
+### Problem 265 (Easy)
 
 This problem was asked by Atlassian.
 
@@ -3798,7 +3798,7 @@ For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4
 
 ---
 
-### Problem 266
+### Problem 266 (Easy)
 
 This problem was asked by Pivotal.
 
@@ -3810,11 +3810,11 @@ Given a dictionary of words and an input word, create a function that returns al
 
 ---
 
-### Problem 267
+### Problem 267 (Hard)
 
 This problem was asked by Oracle.
 
-You are presented with an 8 by 8 matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
+You are presented with an `8` by `8` matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
 
 For details on how each piece moves, see [here](https://en.wikipedia.org/wiki/Chess_piece#Moves_of_the_pieces).
 
@@ -3847,7 +3847,7 @@ Given a 32-bit positive integer `N`, determine whether it is a power of four in 
 
 ---
 
-### Problem 269
+### Problem 269 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -3867,7 +3867,7 @@ Given the string `..R...L.L`, you should return `..RR.LLLL`.
 
 ---
 
-### Problem 270
+### Problem 270 (Medium)
 
 This problem was asked by Twitter.
 
@@ -3895,7 +3895,7 @@ You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` w
 
 ---
 
-### Problem 271
+### Problem 271 (Hard)
 
 This problem was asked by Netflix.
 
@@ -3907,7 +3907,7 @@ Do this in `O(log N)` time.
 
 ---
 
-### Problem 272
+### Problem 272 (Medium)
 
 This problem was asked by Spotify.
 
@@ -6179,13 +6179,7 @@ For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In 
 
 ### Problem 418 (Easy)
 
-This problem was asked by Atlassian.
-
-MegaCorp wants to give bonuses to its employees based on how many lines of codes they have written. They would like to give the smallest positive amount to each worker consistent with the constraint that if a developer has written more lines of code than their neighbor, they should receive more money.
-
-Given an array representing a line of seats of employees at MegaCorp, determine how much each one should get paid.
-
-For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4, 2, 1]`.
+Same as [problem 265](#problem-265-easy).
 
 ### Problem 419 (Easy)
 
@@ -6209,31 +6203,7 @@ If only one input tree has a node in a given position, the corresponding node in
 
 ### Problem 423 (Easy)
 
-This problem was asked by Microsoft.
-
-The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix `M`, where `M[i][j] == 1` if there is a path between vertices `i` and `j`, and otherwise `0`.
-
-For example, suppose we are given the following graph in adjacency list form:
-
-```
-graph = [
-    [0, 1, 3],
-    [1, 2],
-    [2],
-    [3]
-]
-```
-
-The transitive closure of this graph would be:
-
-```
-[1, 1, 1, 1]
-[0, 1, 1, 0]
-[0, 0, 1, 0]
-[0, 0, 0, 1]
-```
-
-Given a graph, find its transitive closure.
+Same as [problem 255](#problem-255-easy).
 
 ### Problem 424 (Medium)
 
@@ -6241,26 +6211,7 @@ Same as [problem 140](#problem-140-medium).
 
 ### Problem 425 (Hard)
 
-This problem was asked by Oracle.
-
-You are presented with an `8` by `8` matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
-
-For details on how each piece moves, see [here](https://en.wikipedia.org/wiki/Chess_piece#Moves_of_the_pieces).
-
-For example, given the following matrix:
-
-```
-...K....
-........
-.B......
-......P.
-.......R
-..N.....
-........
-.....Q..
-```
-
-You should return `True`, since the bishop is attacking the king diagonally.
+Same as [problem 267](#problem-267-hard).
 
 ### Problem 426 (Easy)
 
@@ -6290,16 +6241,7 @@ Same as [problem 199](#problem-199-hard).
 
 ### Problem 431 (Medium)
 
-This problem was asked by Nest.
-
-Create a basic sentence checker that takes in a stream of characters and determines whether they form valid sentences. If a sentence is valid, the program should print it out.
-
-We can consider a sentence valid if it conforms to the following rules:
-
-1. The sentence must start with a capital letter, followed by a lowercase letter or a space.
-2. All other characters must be lowercase letters, separators (`,`,`;`,`:`) or terminal marks (`.`,`?`,`!`,`‽`).
-3. There must be a single space between each word.
-4. The sentence must end with a terminal mark immediately following a word.
+Same as [problem 263](#problem-263-medium).
 
 ### Problem 432 (Hard)
 
@@ -6679,37 +6621,11 @@ Write an algorithm that finds the total number of set bits in all integers betwe
 
 ### Problem 497 (Medium)
 
-This problem was asked by Yahoo.
-
-Recall that a full binary tree is one in which each node is either a leaf node, or has two children. Given a binary tree, convert it to a full one by removing nodes with only one child.
-
-For example, given the following tree:
-
-```
-         0
-      /     \
-    1         2
-  /            \
-3                 4
-  \             /   \
-    5          6     7
-```
-
-You should convert it to:
-
-```
-     0
-  /     \
-5         4
-        /   \
-       6     7
-```
+Same as [problem 254](#problem-254-medium).
 
 ### Problem 498 (Easy)
 
-This problem was asked by WhatsApp.
-
-Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given `[3, 7, 5, 6, 9]`, you should return `(1, 3)`.
+Same as [problem 257](#problem-257-easy).
 
 ### Problem 499 (Easy)
 
@@ -6736,9 +6652,7 @@ Same as [problem 51](#problem-51-medium).
 
 ### Problem 502 (Medium)
 
-This problem was asked by PayPal.
-
-Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
+Same as [problem 247](#problem-247-medium).
 
 ### Problem 503 (Medium)
 
@@ -6754,9 +6668,7 @@ Same as [problem 197](#problem-197-easy).
 
 ### Problem 506 (Medium)
 
-This problem was asked by Fitbit.
-
-Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high ...` form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
+Same as [problem 256](#problem-256-medium).
 
 ### Problem 507 (Easy)
 
@@ -6832,18 +6744,7 @@ Given this representation, determine the depth of the tree.
 
 ### Problem 521 (Medium)
 
-This problem was asked by PayPal.
-
-Given a string and a number of lines `k`, print the string in zigzag form. In zigzag, characters are printed out diagonally from top left to bottom right until reaching the `k``th` line, then back up to top right, and so on.
-
-For example, given the sentence `"thisisazigzag"` and `k = 4`, you should print:
-
-```
-t     a     g
- h   s z   a
-  i i   i z
-   s     g
-```
+Same as [problem 253](#problem-253-medium).
 
 ### Problem 522 (Medium)
 
@@ -6887,25 +6788,7 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 
 ### Problem 528 (Easy)
 
-This problem was asked by Amazon.
-
-Huffman coding is a method of encoding characters based on their frequency. Each letter is assigned a variable-length binary string, such as `0101` or `111110`, where shorter lengths correspond to more common letters. To accomplish this, a binary tree is built such that the path from the root to any leaf uniquely maps to a character. When traversing the path, descending to a left child corresponds to a `0` in the prefix, while descending right corresponds to `1`.
-
-Here is an example tree (note that only the leaf nodes have letters):
-
-```
-        *
-      /   \
-    *       *
-   / \     / \
-  *   a   t   *
- /             \
-c               s
-```
-
-With this encoding, `cats` would be represented as `0000110111`.
-
-Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
+Same as [problem 261](#problem-261-easy).
 
 ### Problem 529 (Hard)
 
@@ -6957,13 +6840,7 @@ Same as [problem 210](#problem-210-easy).
 
 ### Problem 538 (Hard)
 
-This problem was asked by LinkedIn.
-
-Given a set of characters `C` and an integer `k`, a De Bruijn sequence is a cyclic sequence in which every possible `k`-length string of characters in `C` occurs exactly once.
-
-For example, suppose `C = {0, 1}` and `k = 3`. Then our sequence should contain the substrings `{'000', '001', '010', '011', '100', '101', '110', '111'}`, and one possible solution would be `00010111`.
-
-Create an algorithm that finds a De Bruijn sequence.
+Same as [problem 264](#problem-264-hard).
 
 ### Problem 539 (Easy)
 
@@ -6973,23 +6850,7 @@ Given an undirected graph, determine if it contains a cycle.
 
 ### Problem 540 (Easy)
 
-This problem was asked by Morgan Stanley.
-
-In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
-
-Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
-
-For example, given the following tree:
-
-```
-       1
-    /     \
-  2         3
- / \       / \
-4   5     6   7
-```
-
-You should return `[1, 3, 2, 4, 5, 6, 7]`.
+Same as [problem 258](#problem-258-easy).
 
 ### Problem 541 (Easy)
 
@@ -7017,9 +6878,7 @@ Same as [problem 165](#problem-165-medium).
 
 ### Problem 547 (Hard)
 
-This problem was asked by Salesforce.
-
-Given an array of integers, find the maximum XOR of any two elements.
+Same as [problem 249](#problem-249-hard).
 
 ### Problem 548 (Easy)
 
@@ -7115,9 +6974,7 @@ Follow-up: what if you can't use division?
 
 ### Problem 563 (Hard)
 
-This problem was asked by Nvidia.
-
-Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
+Same as [problem 248](#problem-248-hard).
 
 ### 564 (Hard)
 
@@ -7169,19 +7026,11 @@ Same as [problem 166](#problem-166-medium).
 
 ### Problem 576 (Medium)
 
-This problem was asked by Spotify.
-
-Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
-
-For example, `throw_dice(3, 6, 7)` should equal `15`.
+Same as [problem 272](#problem-272-medium).
 
 ### Problem 577 (Medium)
 
-This problem was asked by Dropbox.
-
-Given a list of words, determine whether the words can be chained to form a circle. A word `X` can be placed in front of another word `Y` in a circle if the last character of `X` is same as the first character of `Y`.
-
-For example, the words `['chair', 'height', 'racket', touch', 'tunic']` can form the following circle: `chair --> racket --> touch --> height --> tunic --> chair`.
+Same as [problem 246](#problem-246-medium).
 
 ### Problem 578 (Easy)
 
@@ -7342,19 +7191,7 @@ Write a function that, given `n`, returns the number of rounds you'd expect to p
 
 ### Problem 599 (Hard)
 
-This problem was asked by Two Sigma.
-
-Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
-
-- Player 1: `g`
-- Player 2: `h`
-- Player 1: `o`
-- Player 2: `s`
-- Player 1: `t` [loses]
-
-Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
-
-For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be `b`.
+Same as [problem 259](#problem-259-hard).
 
 ### Problem 600 (Easy)
 
@@ -7364,9 +7201,7 @@ Given a set of points (x, y) on a 2D cartesian plane, find the two closest point
 
 ### Problem 601 (Medium)
 
-This problem was asked by Pinterest.
-
-The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given `[None, +, +, -, +]`, you could return `[1, 2, 3, 0, 4]`.
+Same as [problem 260](#problem-260-medium).
 
 ### Problem 602 (Easy)
 
@@ -7374,19 +7209,7 @@ Same as [194](#problem-194-easy).
 
 ### Problem 603 (Easy)
 
-This problem was asked by Microsoft.
-
-You are given an string representing the initial conditions of some dominoes. Each element can take one of three values:
-
-- `L`, meaning the domino has just been pushed to the left,
-- `R`, meaning the domino has just been pushed to the right, or
-- `.`, meaning the domino is standing still.
-
-Determine the orientation of each tile when the dominoes stop falling. Note that if a domino receives a force from the left and right side simultaneously, it will remain upright.
-
-For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
-
-Given the string `..R...L.L`, you should return `..RR.LLLL`.
+Same as [problem 269](#problem-269-easy).
 
 ### Problem 604 (Hard)
 
@@ -7443,27 +7266,7 @@ Same as [problem 232](#problem-232-easy).
 
 ### Problem 614 (Medium)
 
-This problem was asked by Twitter.
-
-A network consists of nodes labeled `0` to `N`. You are given a list of edges `(a, b, t)`, describing the time `t` it takes for a message to be sent from node `a` to node `b`. Whenever a node receives a message, it immediately passes the message on to a neighboring node, if possible.
-
-Assuming all nodes are connected, determine how long it will take for every node to receive a message that begins at node `0`.
-
-For example, given `N = 5`, and the following edges:
-
-```
-edges = [
-    (0, 1, 5),
-    (0, 2, 3),
-    (0, 5, 4),
-    (1, 3, 8),
-    (2, 3, 1),
-    (3, 5, 10),
-    (3, 4, 5)
-]
-```
-
-You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` will take that much time.
+Same as [problem 270](#problem-270-medium).
 
 ### Problem 616 (Hard)
 
@@ -7493,26 +7296,7 @@ Write an algorithm that pairs the men and women together in such a way that no t
 
 ### Problem 616 (Medium)
 
-This problem was asked by Google.
-
-A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
-
-For example, a puzzle of the form:
-
-```
-  SEND
-+ MORE
------
- MONEY
-```
-
-may have the solution:
-
-```
-{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
-```
-
-Given a three-word puzzle like the one above, create an algorithm that finds a solution.
+Same as [problem 250](#problem-250-medium).
 
 ### Problem 617 (Medium)
 
@@ -7701,11 +7485,7 @@ Same as [problem 224](#problem-224-easy).
 
 ### Problem 642 (Easy)
 
-This problem was asked by Pivotal.
-
-A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
-
-Given a dictionary of words and an input word, create a function that returns all valid step words.
+Same as [problem 266](#problem-266-easy).
 
 ### Problem 643 (Hard)
 
@@ -7805,11 +7585,7 @@ Same as [problem 226](#problem-226-hard).
 
 ### Problem 661 (Hard)
 
-This problem was asked by Netflix.
-
-Given a sorted list of integers of length `N`, determine if an element `x` is in the list without performing any multiplication, division, or bit-shift operations.
-
-Do this in `O(log N)` time.
+Same as [problem 271](#problem-271-hard).
 
 ### Problem 662 (Easy)
 
@@ -8387,9 +8163,7 @@ Same as [problem 173](#problem-173-easy).
 
 ### Problem 743 (Medium)
 
-This problem was asked by Mozilla.
-
-A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+Same as [problem 262](#problem-262-medium).
 
 ### Problem 744 (Hard)
 
@@ -8697,19 +8471,11 @@ Same as [problem 95](#problem-95-hard).
 
 ### Problem 790 (Easy)
 
-This problem was asked by Pivotal.
-
-A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
-
-Given a dictionary of words and an input word, create a function that returns all valid step words.
+Same as [problem 266](#problem-266-easy).
 
 ### Problem 791 (Medium)
 
-This problem was asked by Spotify.
-
-Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
-
-For example, `throw_dice(3, 6, 7)` should equal `15`.
+Same as [problem 272](#problem-272-medium).
 
 ### Problem 792 (Hard)
 
@@ -8723,31 +8489,7 @@ For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to p
 
 ### Problem 793 (Medium)
 
-This problem was asked by Yahoo.
-
-Recall that a full binary tree is one in which each node is either a leaf node, or has two children. Given a binary tree, convert it to a full one by removing nodes with only one child.
-
-For example, given the following tree:
-
-```
-         0
-      /     \
-    1         2
-  /            \
-3                 4
-  \             /   \
-    5          6     7
-```
-
-You should convert it to:
-
-```
-     0
-  /     \
-5         4
-        /   \
-       6     7
-```
+Same as [problem 254](#problem-254-medium).
 
 ### Problem 794 (Easy)
 
@@ -8794,9 +8536,7 @@ Same as [problem 232](#problem-232-easy).
 
 ### Problem 800 (Medium)
 
-This problem was asked by Fitbit.
-
-Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high ...` form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
+Same as [problem 256](#problem-256-medium).
 
 ### Problem 801 (Easy)
 
@@ -8836,23 +8576,7 @@ Same as [problem 27](#problem-27-easy).
 
 ### Problem 810 (Easy)
 
-This problem was asked by Morgan Stanley.
-
-In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
-
-Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
-
-For example, given the following tree:
-
-```
-       1
-    /     \
-  2         3
- / \       / \
-4   5     6   7
-```
-
-You should return `[1, 3, 2, 4, 5, 6, 7]`.
+Same as [problem 258](#problem-258-easy).
 
 ### Problem 811 (Medium)
 
@@ -8993,16 +8717,7 @@ Same as [problem 51](#problem-51-medium).
 
 ### Problem 837 (Medium)
 
-This problem was asked by Nest.
-
-Create a basic sentence checker that takes in a stream of characters and determines whether they form valid sentences. If a sentence is valid, the program should print it out.
-
-We can consider a sentence valid if it conforms to the following rules:
-
-1. The sentence must start with a capital letter, followed by a lowercase letter or a space.
-2. All other characters must be lowercase letters, separators (`,`,`;`,`:`) or terminal marks (`.`,`?`,`!`,`‽`).
-3. There must be a single space between each word.
-4. The sentence must end with a terminal mark immediately following a word.
+Same as [problem 263](#problem-263-medium).
 
 ### Problem 838 (Medium)
 
@@ -9040,18 +8755,7 @@ Your function should return 3, since we can make the words 'eat', 'in', and 'rat
 
 ### Problem 840 (Medium)
 
-This problem was asked by PayPal.
-
-Given a string and a number of lines `k`, print the string in zigzag form. In zigzag, characters are printed out diagonally from top left to bottom right until reaching the `k``th` line, then back up to top right, and so on.
-
-For example, given the sentence `"thisisazigzag"` and `k = 4`, you should print:
-
-```
-t     a     g
- h   s z   a
-  i i   i z
-   s     g
-```
+Same as [problem 253](#problem-253-medium).
 
 ### Problem 841 (Easy)
 
@@ -9105,13 +8809,7 @@ Same as [problem 210](#problem-210-easy).
 
 ### Problem 850 (Hard)
 
-This problem was asked by LinkedIn.
-
-Given a set of characters `C` and an integer `k`, a De Bruijn sequence is a cyclic sequence in which every possible `k`-length string of characters in `C` occurs exactly once.
-
-For example, suppose `C = {0, 1}` and `k = 3`. Then our sequence should contain the substrings `{'000', '001', '010', '011', '100', '101', '110', '111'}`, and one possible solution would be `00010111`.
-
-Create an algorithm that finds a De Bruijn sequence.
+Same as [problem 264](#problem-264-hard).
 
 ### Problem 851 (Medium)
 
@@ -9189,9 +8887,7 @@ After `k` moves, what is the probability that the knight remains on the board?
 
 ### Problem 862 (Medium)
 
-This problem was asked by Mozilla.
-
-A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+Same as [problem 262](#problem-262-medium).
 
 ### Problem 863 (Medium)
 
@@ -9400,11 +9096,7 @@ Same as [problem 80](#problem-80-easy).
 
 ### Problem 905 (Medium)
 
-This problem was asked by Dropbox.
-
-Given a list of words, determine whether the words can be chained to form a circle. A word `X` can be placed in front of another word `Y` in a circle if the last character of `X` is same as the first character of `Y`.
-
-For example, the words `['chair', 'height', 'racket', touch', 'tunic']` can form the following circle: `chair --> racket --> touch --> height --> tunic --> chair`.
+Same as [problem 246](#problem-246-medium).
 
 ### Problem 906 (Easy)
 
@@ -9545,9 +9237,7 @@ Given a `32`-bit positive integer `N`, determine whether it is a power of four i
 
 ### Problem 924 (Easy)
 
-This problem was asked by WhatsApp.
-
-Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given `[3, 7, 5, 6, 9]`, you should return `(1, 3)`.
+Same as [problem 257](#problem-257-easy).
 
 ### Problem 925 (Easy)
 
@@ -9589,9 +9279,7 @@ Same as [problem 183](#problem-183-hard).
 
 ### Problem 933 (Medium)
 
-This problem was asked by Pinterest.
-
-The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given `[None, +, +, -, +]`, you could return `[1, 2, 3, 0, 4]`.
+Same as [problem 260](#problem-260-medium).
 
 ### Problem 934 (Easy)
 
@@ -9599,9 +9287,7 @@ Same as [problem 159](#problem-159-easy).
 
 ### Problem 935 (Easy)
 
-This problem was asked by PayPal.
-
-Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
+Same as [problem 247](#problem-247-medium).
 
 ### Problem 936 (Medium)
 
@@ -9641,27 +9327,7 @@ Same as [problem 65](#problem-65-easy).
 
 ### Problem 940 (Medium)
 
-This problem was asked by Twitter.
-
-A network consists of nodes labeled `0` to `N`. You are given a list of edges `(a, b, t)`, describing the time `t` it takes for a message to be sent from node `a` to node `b`. Whenever a node receives a message, it immediately passes the message on to a neighboring node, if possible.
-
-Assuming all nodes are connected, determine how long it will take for every node to receive a message that begins at node `0`.
-
-For example, given `N = 5`, and the following edges:
-
-```
-edges = [
-    (0, 1, 5),
-    (0, 2, 3),
-    (0, 5, 4),
-    (1, 3, 8),
-    (2, 3, 1),
-    (3, 5, 10),
-    (3, 4, 5)
-]
-```
-
-You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` will take that much time.
+Same as [problem 270](#problem-270-medium).
 
 ### Problem 941 (Hard)
 
@@ -9881,26 +9547,7 @@ Given `N`, `M`, and `B`, determine the number of valid playlists.
 
 ### Problem 976 (Medium)
 
-This problem was asked by Google.
-
-A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
-
-For example, a puzzle of the form:
-
-```
-  SEND
-+ MORE
------
- MONEY
-```
-
-may have the solution:
-
-```
-{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
-```
-
-Given a three-word puzzle like the one above, create an algorithm that finds a solution.
+Same as [problem 250](#problem-250-medium).
 
 ### Problem 977 (Easy)
 
@@ -10016,31 +9663,7 @@ Same as [problem 224](#problem-224-easy).
 
 ### Problem 1003 (Easy)
 
-This problem was asked by Microsoft.
-
-The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix `M`, where `M[i][j] == 1` if there is a path between vertices `i` and `j`, and otherwise `0`.
-
-For example, suppose we are given the following graph in adjacency list form:
-
-```
-graph = [
-    [0, 1, 3],
-    [1, 2],
-    [2],
-    [3]
-]
-```
-
-The transitive closure of this graph would be:
-
-```
-[1, 1, 1, 1]
-[0, 1, 1, 0]
-[0, 0, 1, 0]
-[0, 0, 0, 1]
-```
-
-Given a graph, find its transitive closure.
+Same as [problem 255](#problem-255-easy).
 
 ### Problem 1004 (Hard)
 
@@ -10056,32 +9679,11 @@ Same as [194](#problem-194-easy).
 
 ### Problem 1007 (Hard)
 
-This problem was asked by Oracle.
-
-You are presented with an `8` by `8` matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
-
-For details on how each piece moves, see [here](https://en.wikipedia.org/wiki/Chess_piece#Moves_of_the_pieces).
-
-For example, given the following matrix:
-
-```
-...K....
-........
-.B......
-......P.
-.......R
-..N.....
-........
-.....Q..
-```
-
-You should return `True`, since the bishop is attacking the king diagonally.
+Same as [problem 267](#problem-267-hard).
 
 ### Problem 1008 (Hard)
 
-This problem was asked by Salesforce.
-
-Given an array of integers, find the maximum XOR of any two elements.
+Same as [problem 249](#problem-249-hard).
 
 ### Problem 1009 (Easy)
 
@@ -10093,9 +9695,7 @@ Same as [problem 325](#problem-325-easy).
 
 ### Problem 1011 (Hard)
 
-This problem was asked by Nvidia.
-
-Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
+Same as [problem 248](#problem-248-hard).
 
 ### Problem 1012 (Medium)
 
@@ -10115,25 +9715,7 @@ Same as [problem 72](#problem-72-hard).
 
 ### Problem 1016 (Easy)
 
-This problem was asked by Amazon.
-
-Huffman coding is a method of encoding characters based on their frequency. Each letter is assigned a variable-length binary string, such as `0101` or `111110`, where shorter lengths correspond to more common letters. To accomplish this, a binary tree is built such that the path from the root to any leaf uniquely maps to a character. When traversing the path, descending to a left child corresponds to a `0` in the prefix, while descending right corresponds to `1`.
-
-Here is an example tree (note that only the leaf nodes have letters):
-
-```
-        *
-      /   \
-    *       *
-   / \     / \
-  *   a   t   *
- /             \
-c               s
-```
-
-With this encoding, `cats` would be represented as `0000110111`.
-
-Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
+Same as [problem 261](#problem-261-easy).
 
 ### Problem 1017 (Hard)
 
@@ -10274,13 +9856,7 @@ Write a function that, given `n`, returns the number of rounds you'd expect to p
 
 ### Problem 1035 (Easy)
 
-This problem was asked by Atlassian.
-
-MegaCorp wants to give bonuses to its employees based on how many lines of codes they have written. They would like to give the smallest positive amount to each worker consistent with the constraint that if a developer has written more lines of code than their neighbor, they should receive more money.
-
-Given an array representing a line of seats of employees at MegaCorp, determine how much each one should get paid.
-
-For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4, 2, 1]`.
+Same as [problem 265](#problem-265-easy).
 
 ### Problem 1036 (Medium)
 
@@ -10533,19 +10109,7 @@ Same as [problem 146](#problem-146-medium).
 
 ### Problem 1068 (Easy)
 
-This problem was asked by Microsoft.
-
-You are given an string representing the initial conditions of some dominoes. Each element can take one of three values:
-
-- `L`, meaning the domino has just been pushed to the left,
-- `R`, meaning the domino has just been pushed to the right, or
-- `.`, meaning the domino is standing still.
-
-Determine the orientation of each tile when the dominoes stop falling. Note that if a domino receives a force from the left and right side simultaneously, it will remain upright.
-
-For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
-
-Given the string `..R...L.L`, you should return `..RR.LLLL`.
+Same as [problem 269](#problem-269-easy).
 
 ### Problem 1069 (Medium)
 
@@ -10751,11 +10315,7 @@ Same as [problem 197](#problem-197-easy).
 
 ### Problem 1100 (Hard)
 
-This problem was asked by Netflix.
-
-Given a sorted list of integers of length `N`, determine if an element `x` is in the list without performing any multiplication, division, or bit-shift operations.
-
-Do this in `O(log N)` time.
+Same as [problem 271](#problem-271-hard).
 
 ### Problem 1101 (Easy)
 
@@ -10912,19 +10472,7 @@ Same as [problem 193](#problem-193-hard).
 
 ### Problem 1122 (Hard)
 
-This problem was asked by Two Sigma.
-
-Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
-
-- Player 1: `g`
-- Player 2: `h`
-- Player 1: `o`
-- Player 2: `s`
-- Player 1: `t` [loses]
-
-Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
-
-For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be `b`.
+Same as [problem 259](#problem-259-hard).
 
 ### Problem 1123 (Medium)
 
@@ -11000,13 +10548,7 @@ Same as [problem 112](#problem-112-hard).
 
 ### Problem 1140 (Hard)
 
-This problem was asked by LinkedIn.
-
-Given a set of characters `C` and an integer `k`, a De Bruijn sequence is a cyclic sequence in which every possible `k`-length string of characters in `C` occurs exactly once.
-
-For example, suppose `C = {0, 1}` and `k = 3`. Then our sequence should contain the substrings `{'000', '001', '010', '011', '100', '101', '110', '111'}`, and one possible solution would be `00010111`.
-
-Create an algorithm that finds a De Bruijn sequence.
+Same as [problem 264](#problem-264-hard).
 
 ### Problem 1141 (Medium)
 
@@ -11043,19 +10585,7 @@ The `check` method may return occasional false positives (in other words, incorr
 
 ### Problem 1146 (Easy)
 
-This problem was asked by Microsoft.
-
-You are given an string representing the initial conditions of some dominoes. Each element can take one of three values:
-
-- `L`, meaning the domino has just been pushed to the left,
-- `R`, meaning the domino has just been pushed to the right, or
-- `.`, meaning the domino is standing still.
-
-Determine the orientation of each tile when the dominoes stop falling. Note that if a domino receives a force from the left and right side simultaneously, it will remain upright.
-
-For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
-
-Given the string `..R...L.L`, you should return `..RR.LLLL`.
+Same as [problem 269](#problem-269-easy).
 
 ### Problem 1147 (Medium)
 
@@ -11339,25 +10869,7 @@ Given an array of numbers and a number `k`, determine if there are three entries
 
 ### Problem 1190 (Medium)
 
-This problem was asked by Twitter.
-
-A network consists of nodes labeled `0` to `N`. You are given a list of edges `(a, b, t)`, describing the time `t` it takes for a message to be sent from node `a` to node `b`. Whenever a node receives a message, it immediately passes the message on to a neighboring node, if possible.
-
-Assuming all nodes are connected, determine how long it will take for every node to receive a message that begins at node `0`.
-
-For example, given `N = 5`, and the following edges:
-
-```
-edges = [
-    (0, 1, 5),
-    (0, 2, 3),
-    (0, 5, 4),
-    (1, 3, 8),
-    (2, 3, 1),
-    (3, 5, 10),
-    (3, 4, 5)
-]
-```
+Same as [problem 270](#problem-270-medium).
 
 ### Problem 1191 (Medium)
 
@@ -11365,27 +10877,11 @@ Same as [323](#problem-323-medium).
 
 ### Problem 1192 (Easy)
 
-This problem was asked by Pivotal.
-
-A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
-
-Given a dictionary of words and an input word, create a function that returns all valid step words.
+Same as [problem 266](#problem-266-easy).
 
 ### Problem 1193 (Hard)
 
-This problem was asked by Two Sigma.
-
-Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
-
-- Player 1: `g`
-- Player 2: `h`
-- Player 1: `o`
-- Player 2: `s`
-- Player 1: `t` [loses]
-
-Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
-
-For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be `b`.
+Same as [problem 259](#problem-259-hard).
 
 ### Problem 1194 (Hard)
 
@@ -11678,11 +11174,7 @@ Same as [3](#problem-3-medium).
 
 ### Problem 1236 (Medium)
 
-This problem was asked by Spotify.
-
-Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
-
-For example, `throw_dice(3, 6, 7)` should equal `15`.
+Same as [problem 272](#problem-272-medium).
 
 ### Problem 1237 (Easy)
 
@@ -11957,34 +11449,15 @@ Same as [problem 195](#problem-195-hard).
 
 ### Problem 1285 (Medium)
 
-This problem was asked by PayPal.
-
-Given a string and a number of lines `k`, print the string in zigzag form. In zigzag, characters are printed out diagonally from top left to bottom right until reaching the `k``th` line, then back up to top right, and so on.
-
-For example, given the sentence `"thisisazigzag"` and `k = 4`, you should print:
-
-```
-t     a     g
- h   s z   a
-  i i   i z
-   s     g
-```
+Same as [problem 253](#problem-253-medium).
 
 ### Problem 1286 (Medium)
 
-This problem was asked by Mozilla.
-
-A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+Same as [problem 262](#problem-262-medium).
 
 ### Problem 1287 (Easy)
 
-This problem was asked by Atlassian.
-
-MegaCorp wants to give bonuses to its employees based on how many lines of codes they have written. They would like to give the smallest positive amount to each worker consistent with the constraint that if a developer has written more lines of code than their neighbor, they should receive more money.
-
-Given an array representing a line of seats of employees at MegaCorp, determine how much each one should get paid.
-
-For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4, 2, 1]`.
+Same as [problem 265](#problem-265-easy).
 
 ### Problem 1288 (Hard)
 
@@ -12128,9 +11601,7 @@ Same as [problem 349](#problem-349-hard).
 
 ### Problem 1310 (Medium)
 
-This problem was asked by Fitbit.
-
-Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high ...` form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
+Same as [problem 256](#problem-256-medium).
 
 ### Problem 1311 (Hard)
 
@@ -12180,9 +11651,7 @@ Same as [problem 217](#problem-217-hard).
 
 ### Problem 1317 (Medium)
 
-This problem was asked by Pinterest.
-
-The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given `[None, +, +, -, +]`, you could return `[1, 2, 3, 0, 4]`.
+Same as [problem 260](#problem-260-medium).
 
 ### Problem 1318 (Easy)
 
@@ -12324,9 +11793,7 @@ Same as [problem 62](#problem-62-medium).
 
 ### Problem 1341 (Easy)
 
-This problem was asked by PayPal.
-
-Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
+Same as [problem 247](#problem-247-medium).
 
 ### Problem 1342 (Easy)
 
@@ -12398,9 +11865,7 @@ students = {
 
 ### Problem 1345 (Easy)
 
-This problem was asked by WhatsApp.
-
-Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given `[3, 7, 5, 6, 9]`, you should return `(1, 3)`.
+Same as [problem 257](#problem-257-easy).
 
 ### Problem 1346 (Medium)
 
@@ -12470,23 +11935,7 @@ Same as [problem 214](#problem-214-easy).
 
 ### Problem 1356 (Easy)
 
-This problem was asked by Morgan Stanley.
-
-In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
-
-Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
-
-For example, given the following tree:
-
-```
-       1
-    /     \
-  2         3
- / \       / \
-4   5     6   7
-```
-
-You should return `[1, 3, 2, 4, 5, 6, 7]`.
+Same as [problem 258](#problem-258-easy).
 
 ### Problem 1357 (Hard)
 
@@ -12538,26 +11987,7 @@ Same as [problem 207](#problem-207-medium).
 
 ### Problem 1367 (Medium)
 
-This problem was asked by Google.
-
-A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
-
-For example, a puzzle of the form:
-
-```
-  SEND
-+ MORE
------
- MONEY
-```
-
-may have the solution:
-
-```
-{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
-```
-
-Given a three-word puzzle like the one above, create an algorithm that finds a solution.
+Same as [problem 250](#problem-250-medium).
 
 ### Problem 1368 (Hard)
 
@@ -12595,11 +12025,7 @@ Same as [problem 106](#problem-106-medium).
 
 ### Problem 1375 (Medium)
 
-This problem was asked by Dropbox.
-
-Given a list of words, determine whether the words can be chained to form a circle. A word `X` can be placed in front of another word `Y` in a circle if the last character of `X` is same as the first character of `Y`.
-
-For example, the words `['chair', 'height', 'racket', touch', 'tunic']` can form the following circle: `chair --> racket --> touch --> height --> tunic --> chair`.
+Same as [problem 246](#problem-246-medium).
 
 ### Problem 1376 (Hard)
 
@@ -12617,9 +12043,7 @@ Same as [problem 94](#problem-94-easy).
 
 ### Problem 1379 (Hard)
 
-This problem was asked by Nvidia.
-
-Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
+Same as [problem 248](#problem-248-hard).
 
 ### Problem 1380 (Hard)
 
@@ -12741,25 +12165,7 @@ Same as [problem 59](#problem-59-hard).
 
 ### Problem 1402 (Easy)
 
-This problem was asked by Amazon.
-
-Huffman coding is a method of encoding characters based on their frequency. Each letter is assigned a variable-length binary string, such as `0101` or `111110`, where shorter lengths correspond to more common letters. To accomplish this, a binary tree is built such that the path from the root to any leaf uniquely maps to a character. When traversing the path, descending to a left child corresponds to a `0` in the prefix, while descending right corresponds to `1`.
-
-Here is an example tree (note that only the leaf nodes have letters):
-
-```
-        *
-      /   \
-    *       *
-   / \     / \
-  *   a   t   *
- /             \
-c               s
-```
-
-With this encoding, `cats` would be represented as `0000110111`.
-
-Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
+Same as [problem 261](#problem-261-easy).
 
 ### Problem 1403 (Hard)
 
@@ -12787,31 +12193,7 @@ Same as [problem 147](#problem-147-hard).
 
 ### Problem 1409 (Easy)
 
-This problem was asked by Microsoft.
-
-The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix `M`, where `M[i][j] == 1` if there is a path between vertices `i` and `j`, and otherwise `0`.
-
-For example, suppose we are given the following graph in adjacency list form:
-
-```
-graph = [
-    [0, 1, 3],
-    [1, 2],
-    [2],
-    [3]
-]
-```
-
-The transitive closure of this graph would be:
-
-```
-[1, 1, 1, 1]
-[0, 1, 1, 0]
-[0, 0, 1, 0]
-[0, 0, 0, 1]
-```
-
-Given a graph, find its transitive closure.
+Same as [problem 255](#problem-255-easy).
 
 ### Problem 1410 (Hard)
 
@@ -12915,9 +12297,7 @@ You should return 45, as it is (3 + 2) * (4 + 5).
 
 ### Problem 1426 (Hard)
 
-This problem was asked by Salesforce.
-
-Given an array of integers, find the maximum XOR of any two elements.
+Same as [problem 249](#problem-249-hard).
 
 ### Problem 1427 (Easy)
 
@@ -12949,16 +12329,7 @@ Same as [problem 131](#problem-131-medium).
 
 ### Problem 1433 (Medium)
 
-This problem was asked by Nest.
-
-Create a basic sentence checker that takes in a stream of characters and determines whether they form valid sentences. If a sentence is valid, the program should print it out.
-
-We can consider a sentence valid if it conforms to the following rules:
-
-1. The sentence must start with a capital letter, followed by a lowercase letter or a space.
-2. All other characters must be lowercase letters, separators (`,`,`;`,`:`) or terminal marks (`.`,`?`,`!`,`‽`).
-3. There must be a single space between each word.
-4. The sentence must end with a terminal mark immediately following a word.
+Same as [problem 263](#problem-263-medium).
 
 ### Problem 1434 (Medium)
 
@@ -13070,31 +12441,7 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 
 ### Problem 1444 (Medium)
 
-This problem was asked by Yahoo.
-
-Recall that a full binary tree is one in which each node is either a leaf node, or has two children. Given a binary tree, convert it to a full one by removing nodes with only one child.
-
-For example, given the following tree:
-
-```
-         0
-      /     \
-    1         2
-  /            \
-3                 4
-  \             /   \
-    5          6     7
-```
-
-You should convert it to:
-
-```
-     0
-  /     \
-5         4
-        /   \
-       6     7
-```
+Same as [problem 254](#problem-254-medium).
 
 ### Problem 1445 (Easy)
 
@@ -13241,26 +12588,7 @@ Same as [problem 64](#problem-64-hard).
 
 ### Problem 1469 (Hard)
 
-This problem was asked by Oracle.
-
-You are presented with an `8` by `8` matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
-
-For details on how each piece moves, see [here](https://en.wikipedia.org/wiki/Chess_piece#Moves_of_the_pieces).
-
-For example, given the following matrix:
-
-```
-...K....
-........
-.B......
-......P.
-.......R
-..N.....
-........
-.....Q..
-```
-
-You should return `True`, since the bishop is attacking the king diagonally.
+Same as [problem 267](#problem-267-hard).
 
 ### Problem 1470 (Medium)
 
@@ -13268,11 +12596,7 @@ Same as [problem 156](#problem-156-medium).
 
 ### Problem 1471 (Hard)
 
-This problem was asked by Netflix.
-
-Given a sorted list of integers of length `N`, determine if an element `x` is in the list without performing any multiplication, division, or bit-shift operations.
-
-Do this in `O(log N)` time.
+Same as [problem 271](#problem-271-hard).
 
 ### Problem 1472 (Easy)
 
@@ -13413,11 +12737,7 @@ Same as [problem 19](#problem-19-medium).
 
 ### Problem 1497 (Easy)
 
-This problem was asked by Pivotal.
-
-A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
-
-Given a dictionary of words and an input word, create a function that returns all valid step words.
+Same as [problem 266](#problem-266-easy).
 
 ### Problem 1498 (Medium)
 
@@ -13461,9 +12781,7 @@ Same as [problem 106](#problem-106-medium).
 
 ### Problem 1506 (Hard)
 
-This problem was asked by Salesforce.
-
-Given an array of integers, find the maximum XOR of any two elements.
+Same as [problem 249](#problem-249-hard).
 
 ### Problem 1507 (Medium)
 
@@ -13543,25 +12861,7 @@ Same as [problem 8](#problem-8-easy).
 
 ### Problem 1518 (Easy)
 
-This problem was asked by Amazon.
-
-Huffman coding is a method of encoding characters based on their frequency. Each letter is assigned a variable-length binary string, such as `0101` or `111110`, where shorter lengths correspond to more common letters. To accomplish this, a binary tree is built such that the path from the root to any leaf uniquely maps to a character. When traversing the path, descending to a left child corresponds to a `0` in the prefix, while descending right corresponds to `1`.
-
-Here is an example tree (note that only the leaf nodes have letters):
-
-```
-        *
-      /   \
-    *       *
-   / \     / \
-  *   a   t   *
- /             \
-c               s
-```
-
-With this encoding, `cats` would be represented as `0000110111`.
-
-Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
+Same as [problem 261](#problem-261-easy).
 
 ### Problem 1519 (Hard)
 
@@ -13645,23 +12945,7 @@ Same as [problem 146](#problem-146-medium).
 
 ### Problem 1530 (Easy)
 
-This problem was asked by Morgan Stanley.
-
-In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
-
-Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
-
-For example, given the following tree:
-
-```
-       1
-    /     \
-  2         3
- / \       / \
-4   5     6   7
-```
-
-You should return `[1, 3, 2, 4, 5, 6, 7]`.
+Same as [problem 258](#problem-258-easy).
 
 ### Problem 1531 (Easy)
 
@@ -13796,13 +13080,7 @@ Same as [6](#problem-6-hard).
 
 ### Problem 1548 (Easy)
 
-This problem was asked by Atlassian.
-
-MegaCorp wants to give bonuses to its employees based on how many lines of codes they have written. They would like to give the smallest positive amount to each worker consistent with the constraint that if a developer has written more lines of code than their neighbor, they should receive more money.
-
-Given an array representing a line of seats of employees at MegaCorp, determine how much each one should get paid.
-
-For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4, 2, 1]`.
+Same as [problem 265](#problem-265-easy).
 
 ### Problem 1549 (Easy)
 
@@ -13827,16 +13105,7 @@ Same as [problem 91](#problem-91-easy).
 
 ### Problem 1551 (Medium)
 
-This problem was asked by Nest.
-
-Create a basic sentence checker that takes in a stream of characters and determines whether they form valid sentences. If a sentence is valid, the program should print it out.
-
-We can consider a sentence valid if it conforms to the following rules:
-
-1. The sentence must start with a capital letter, followed by a lowercase letter or a space.
-2. All other characters must be lowercase letters, separators (`,`,`;`,`:`) or terminal marks (`.`,`?`,`!`,`‽`).
-3. There must be a single space between each word.
-4. The sentence must end with a terminal mark immediately following a word.
+Same as [problem 263](#problem-263-medium).
 
 ### Problem 1552 (Easy)
 
@@ -13988,26 +13257,7 @@ Same as [problem 162](#problem-162-medium).
 
 ### Problem 1575 (Medium)
 
-This problem was asked by Google.
-
-A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
-
-For example, a puzzle of the form:
-
-```
-  SEND
-+ MORE
------
- MONEY
-```
-
-may have the solution:
-
-```
-{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O', 0, 'R': 8, 'Y': 2}
-```
-
-Given a three-word puzzle like the one above, create an algorithm that finds a solution.
+Same as [problem 250](#problem-250-medium).
 
 ### Problem 1576 (Hard)
 
@@ -14188,9 +13438,7 @@ Given an integer `N`, determine in how many ways this task is possible.
 
 ### Problem 1606 (Easy)
 
-This problem was asked by PayPal.
-
-Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
+Same as [problem 247](#problem-247-medium).
 
 ### Problem 1607 (Easy)
 
@@ -14270,19 +13518,7 @@ Same as [problem 101](#problem-101-easy).
 
 ### Problem 1617 (Easy)
 
-This problem was asked by Microsoft.
-
-You are given an string representing the initial conditions of some dominoes. Each element can take one of three values:
-
-- `L`, meaning the domino has just been pushed to the left,
-- `R`, meaning the domino has just been pushed to the right, or
-- `.`, meaning the domino is standing still.
-
-Determine the orientation of each tile when the dominoes stop falling. Note that if a domino receives a force from the left and right side simultaneously, it will remain upright.
-
-For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
-
-Given the string `..R...L.L`, you should return `..RR.LLLL`.
+Same as [problem 269](#problem-269-easy).
 
 ### Problem 1618 (Easy)
 
@@ -14394,11 +13630,7 @@ Same as [problem 121](#problem-121-hard).
 
 ### Problem 1637 (Hard)
 
-This problem was asked by Netflix.
-
-Given a sorted list of integers of length `N`, determine if an element `x` is in the list without performing any multiplication, division, or bit-shift operations.
-
-Do this in `O(log N)` time.
+Same as [problem 271](#problem-271-hard).
 
 ### Problem 1638 (Easy)
 
@@ -14532,9 +13764,7 @@ Same as [problem 201](#problem-201-easy).
 
 ### Problem 1659 (Easy)
 
-This problem was asked by WhatsApp.
-
-Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given `[3, 7, 5, 6, 9]`, you should return `(1, 3)`.
+Same as [problem 257](#problem-257-easy).
 
 ### Problem 1660 (Hard)
 
@@ -14636,26 +13866,7 @@ Same as [problem 76](#problem-76-medium).
 
 ### Problem 1672 (Hard)
 
-This problem was asked by Oracle.
-
-You are presented with an `8` by `8` matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
-
-For details on how each piece moves, see [here](https://en.wikipedia.org/wiki/Chess_piece#Moves_of_the_pieces).
-
-For example, given the following matrix:
-
-```
-...K....
-........
-.B......
-......P.
-.......R
-..N.....
-........
-.....Q..
-```
-
-You should return `True`, since the bishop is attacking the king diagonally.
+Same as [problem 267](#problem-267-hard).
 
 ### Problem 1673 (Hard)
 
@@ -14785,9 +13996,7 @@ Implement insertion and search functions for a ternary search tree.
 
 ### Problem 1694 (Medium)
 
-This problem was asked by Fitbit.
-
-Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high ...` form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
+Same as [problem 256](#problem-256-medium).
 
 ### Problem 1695 (Easy)
 
@@ -14820,11 +14029,7 @@ Given such an array, determine the denominations that must be in use. In the cas
 
 ### Problem 1699 (Medium)
 
-This problem was asked by Spotify.
-
-Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
-
-For example, `throw_dice(3, 6, 7)` should equal `15`.
+Same as [problem 272](#problem-272-medium).
 
 ### Problem 1700 (Hard)
 
@@ -14918,31 +14123,7 @@ Same as [problem 131](#problem-131-medium).
 
 ### Problem 1711 (Easy)
 
-This problem was asked by Microsoft.
-
-The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix `M`, where `M[i][j] == 1` if there is a path between vertices `i` and `j`, and otherwise `0`.
-
-For example, suppose we are given the following graph in adjacency list form:
-
-```
-graph = [
-    [0, 1, 3],
-    [1, 2],
-    [2],
-    [3]
-]
-```
-
-The transitive closure of this graph would be:
-
-```
-[1, 1, 1, 1]
-[0, 1, 1, 0]
-[0, 0, 1, 0]
-[0, 0, 0, 1]
-```
-
-Given a graph, find its transitive closure.
+Same as [problem 255](#problem-255-easy).
 
 ### Problem 1712 (Easy)
 
@@ -15277,3 +14458,7 @@ Same as [problem 334](#problem-334-easy).
 ### Problem 1787 (Easy)
 
 Same as [problem 225](#problem-225-easy).
+
+### Problem 1788 (Hard)
+
+Same as [problem 150](#problem-150-hard).
