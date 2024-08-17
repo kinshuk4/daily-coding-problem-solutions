@@ -3251,34 +3251,33 @@ For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at eve
 
 ---
 
-### Problem 231
+### Problem 231 (Easy)
 
 This problem was asked by IBM.
 
-Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
+Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return `None`.
 
-For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
+For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution231.java)
 
 ---
 
-### Problem 232
+### Problem 232 (Easy)
 
 This problem was asked by Google.
 
-Implement a PrefixMapSum class with the following methods:
+Implement a `PrefixMapSum` class with the following methods:
 
 `insert(key: str, value: int)`: Set a given key's value in the map. If the key already exists, overwrite the value.
 `sum(prefix: str)`: Return the sum of all values of keys that begin with a given prefix.
+
 For example, you should be able to run the following code:
 
 ```
 mapsum.insert("columnar", 3)
 assert mapsum.sum("col") == 3
-```
 
-```
 mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
@@ -3287,17 +3286,17 @@ assert mapsum.sum("col") == 5
 
 ---
 
-### Problem 233
+### Problem 233 (Easy)
 
 This problem was asked by Apple.
 
-Implement the function `fib(n)`, which returns the nth number in the Fibonacci sequence, using only `O(1)` space.
+Implement the function `fib(n)`, which returns the `nth` number in the Fibonacci sequence, using only `O(1)` space.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution233.java)
 
 ---
 
-### Problem 234
+### Problem 234 (Hard)
 
 This problem was asked by Microsoft.
 
@@ -3307,7 +3306,7 @@ Recall that the minimum spanning tree is the subset of edges of a tree that conn
 
 ---
 
-### Problem 235
+### Problem 235 (Hard)
 
 This problem was asked by Facebook.
 
@@ -3317,19 +3316,19 @@ Given an array of numbers of length `N`, find both the minimum and maximum using
 
 ---
 
-### Problem 236
+### Problem 236 (Medium)
 
 This problem was asked by Nvidia.
 
-You are given a list of N points `(x1, y1), (x2, y2), ..., (xN, yN)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point 1 to point 2, point 2 to point 3, and so on, finally looping around to connect point N to point 1.
+You are given a list of `N` points `(x1, y1), (x2, y2), ..., (xN, yN)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point `1` to point `2`, point `2` to point `3`, and so on, finally looping around to connect point `N` to point `1`.
 
-Determine if a new point p lies inside this polygon. (If p is on the boundary of the polygon, you should return False).
+Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution236.md)
 
 ---
 
-### Problem 237
+### Problem 237 (Easy)
 
 This problem was asked by Amazon.
 
@@ -3349,18 +3348,18 @@ Given a k-ary tree, determine whether it is symmetric.
 
 ---
 
-### Problem 238
+### Problem 238 (Hard)
 
 This problem was asked by MIT.
 
-Blackjack is a two player card game whose rules are as follows:
+[Blackjack](https://en.wikipedia.org/wiki/Blackjack) is a two player card game whose rules are as follows:
 
 - The player and then the dealer are each given two cards.
-- The player can then "hit", or ask for arbitrarily many additional cards, so long as their total does not exceed 21.
-- The dealer must then hit if their total is 16 or lower, otherwise pass.
-- Finally, the two compare totals, and the one with the greatest sum not exceeding 21 is the winner.
+- The player can then "hit", or ask for arbitrarily many additional cards, so long as their total does not exceed `21`.
+- The dealer must then hit if their total is `16` or lower, otherwise pass.
+- Finally, the two compare totals, and the one with the greatest sum not exceeding `21` is the winner.
 
-For this problem, cards values are counted as follows: each card between 2 and 10 counts as their face value, face cards count as 10, and aces count as 1.
+For this problem, cards values are counted as follows: each card between `2` and `10` counts as their face value, face cards count as `10`, and aces count as `1`.
 
 Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
 
@@ -3387,11 +3386,12 @@ Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9
 
 ---
 
-### Problem 240
+### Problem 240 (Hard)
 
 This problem was asked by Spotify.
 
 There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side.
+
 What is the minimum number of swaps necessary for this to happen?
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution240.md)
@@ -3414,21 +3414,22 @@ Given a list of paper citations of a researcher, calculate their h-index.
 
 ---
 
-### Problem 242
+### Problem 242 (Hard)
 
 This problem was asked by Twitter.
 
-You are given an array of length 24, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
+You are given an array of length `24`, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
 
-- `update(hour: int, value: int)`: Increment the element at index hour by value.
-- `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between start and end (inclusive).
-You can assume that all values get cleared at the end of the day, and that you will not be asked for start and end values that wrap around midnight.
+- `update(hour: int, value: int)`: Increment the element at index `hour` by `value`.
+- `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between `start` and `end` (inclusive).
+
+You can assume that all values get cleared at the end of the day, and that you will not be asked for `start` and `end` values that wrap around midnight.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution242.java)
 
 ---
 
-### Problem 243
+### Problem 243 (Medium)
 
 This problem was asked by Etsy.
 
@@ -3440,7 +3441,7 @@ For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, 
 
 ---
 
-### Problem 244
+### Problem 244 (Easy)
 
 This problem was asked by Square.
 
@@ -3456,7 +3457,7 @@ Bonus: Create a generator that produces primes indefinitely (that is, without ta
 
 ---
 
-### Problem 245
+### Problem 245 (Medium)
 
 This problem was asked by Yelp.
 
@@ -6409,9 +6410,7 @@ Same as [problem 142](#problem-142-hard).
 
 ### Problem 451 (Easy)
 
-This problem was asked by Apple.
-
-Implement the function `fib(n)`, which returns the `n``th` number in the Fibonacci sequence, using only `O(1)` space.
+Same as [problem 233](#problem-233-easy).
 
 ### Problem 452 (Easy)
 
@@ -6524,19 +6523,7 @@ Same as [problem 73](#problem-73-easy).
 
 ### Problem 466 (Easy)
 
-This problem was asked by Amazon.
-
-A tree is symmetric if its data and shape remain unchanged when it is reflected about the root node. The following tree is an example:
-
-```
-        4
-      / | \
-    3   5   3
-  /           \
-9              9
-```
-
-Given a `k`-ary tree, determine whether it is symmetric.
+Same as [problem 237](#problem-237-easy).
 
 ### Problem 467 (Medium)
 
@@ -6791,11 +6778,7 @@ Same as [problem 167](#problem-167-hard).
 
 ### Problem 511 (Medium)
 
-This problem was asked by Yelp.
-
-You are given an array of integers, where each element represents the maximum number of steps that can be jumped going forward from that element. Write a function to return the minimum number of jumps you must take in order to get from the start to the end of the array.
-
-For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as the optimal solution involves jumping from `6` to `5`, and then from `5` to `9`.
+Same as [problem 245](#problem-245-medium).
 
 ### Problem 512 (Medium)
 
@@ -7158,9 +7141,7 @@ Same as [problem 118](#problem-118-easy).
 
 ### Problem 569 (Hard)
 
-This problem was asked by Facebook.
-
-Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
+Same as [problem 235](#problem-235-hard).
 
 ### Problem 570 (Hard)
 
@@ -7228,11 +7209,7 @@ Same as [problem 122](#problem-122-medium).
 
 ### Problem 584 (Easy)
 
-This problem was asked by IBM.
-
-Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return `None`.
-
-For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
+Same as [problem 231](#problem-231-easy).
 
 ### Problem 585 (Medium)
 
@@ -7462,22 +7439,7 @@ Same as [problem 191](#problem-191-easy).
 
 ### Problem 613 (Easy)
 
-This problem was asked by Google.
-
-Implement a `PrefixMapSum` class with the following methods:
-
-- `insert(key: str, value: int)`: Set a given key's value in the map. If the key already exists, overwrite the value.
-- `sum(prefix: str)`: Return the sum of all values of keys that begin with a given prefix.
-
-For example, you should be able to run the following code:
-
-```
-mapsum.insert("columnar", 3)
-assert mapsum.sum("col") == 3
-
-mapsum.insert("column", 2)
-assert mapsum.sum("col") == 5
-```
+Same as [problem 232](#problem-232-easy).
 
 ### Problem 614 (Medium)
 
@@ -7631,11 +7593,7 @@ Let us consider a "move" to be a rotation of a single wheel by one digit, in eit
 
 ### Problem 629 (Medium)
 
-This problem was asked by Etsy.
-
-Given an array of numbers `N` and an integer `k`, your task is to split `N` into `k` partitions such that the maximum sum of any partition is minimized. Return this sum.
-
-For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, since the optimal partition is `[5, 1, 2], [7], [3, 4]`.
+Same as [problem 243](#problem-243-medium).
 
 ### Problem 630 (Medium)
 
@@ -7968,15 +7926,7 @@ Same as [problem 123](#problem-123-hard).
 
 ### Problem 677 (Easy)
 
-This problem was asked by Square.
-
-The Sieve of Eratosthenes is an algorithm used to generate all prime numbers smaller than `N`. The method is to take increasingly larger prime numbers, and mark their multiples as composite.
-
-For example, to find all primes less than `100`, we would first mark `[4, 6, 8, ...]` (multiples of two), then `[6, 9, 12, ...]` (multiples of three), and so on. Once we have done this for all primes less than `N`, the unmarked numbers that remain will be prime.
-
-Implement this algorithm.
-
-Bonus: Create a generator that produces primes indefinitely (that is, without taking `N` as an input).
+Same as [problem 244](#problem-244-easy).
 
 ### Problem 678 (Easy)
 
@@ -8111,14 +8061,7 @@ Same as [problem 90](#problem-90-medium).
 
 ### Problem 696 (Hard)
 
-This problem was asked by Twitter.
-
-You are given an array of length `24`, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
-
-- `update(hour: int, value: int)`: Increment the element at index `hour` by `value`.
-- `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between `start` and `end` (inclusive).
-
-You can assume that all values get cleared at the end of the day, and that you will not be asked for `start` and `end` values that wrap around midnight.
+Same as [problem 242](#problem-242-hard).
 
 ### Problem 697 (Hard)
 
@@ -8210,11 +8153,7 @@ Same as [problem 172](#problem-172-medium).
 
 ### Problem 711 (Medium)
 
-This problem was asked by Nvidia.
-
-You are given a list of `N` points `(x``1``, y``1``)`, `(x``2``, y``2``)`, ..., `(x``N``, y``N``)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point `1` to point `2`, point `2` to point `3`, and so on, finally looping around to connect point `N` to point `1`.
-
-Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
+Same as [problem 236](#problem-236-medium).
 
 ### Problem 712 (Easy)
 
@@ -8274,17 +8213,11 @@ Same as [problem 54](#problem-54-hard).
 
 ### Problem 721 (Hard)
 
-This problem was asked by Microsoft.
-
-Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the _maximum_ weight spanning tree.
+Same as [problem 234](#problem-234-hard).
 
 ### Problem 722 (Hard)
 
-This problem was asked by Spotify.
-
-There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side.
-
-What is the minimum number of swaps necessary for this to happen?
+Same as [problem 240](#problem-240-hard).
 
 ### Problem 723 (Medium)
 
@@ -8555,18 +8488,7 @@ Same as [problem 359](#problem-359-easy).
 
 ### Problem 757 (Hard)
 
-This problem was asked by MIT.
-
-[Blackjack](https://en.wikipedia.org/wiki/Blackjack) is a two player card game whose rules are as follows:
-
-- The player and then the dealer are each given two cards.
-- The player can then "hit", or ask for arbitrarily many additional cards, so long as their total does not exceed `21`.
-- The dealer must then hit if their total is `16` or lower, otherwise pass.
-- Finally, the two compare totals, and the one with the greatest sum not exceeding `21` is the winner.
-
-For this problem, cards values are counted as follows: each card between `2` and `10` counts as their face value, face cards count as `10`, and aces count as `1`.
-
-Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
+Same as [problem 238](#problem-238-hard).
 
 ### Problem 758 (Medium)
 
@@ -8616,9 +8538,7 @@ Same as [problem 111](#problem-111-hard).
 
 ### Problem 768 (Hard)
 
-This problem was asked by Facebook.
-
-Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
+Same as [problem 235](#problem-235-hard).
 
 ### Problem 769 (Hard)
 
@@ -8847,11 +8767,7 @@ Same as [problem 66](#problem-66-medium).
 
 ### Problem 796 (Medium)
 
-This problem was asked by Nvidia.
-
-You are given a list of `N` points `(x``1``, y``1``)`, `(x``2``, y``2``)`, ..., `(x``N``, y``N``)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point `1` to point `2`, point `2` to point `3`, and so on, finally looping around to connect point `N` to point `1`.
-
-Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
+Same as [problem 236](#problem-236-medium).
 
 ### Problem 797 (Easy)
 
@@ -8874,22 +8790,7 @@ Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b
 
 ### Problem 799 (Easy)
 
-This problem was asked by Google.
-
-Implement a `PrefixMapSum` class with the following methods:
-
-- `insert(key: str, value: int)`: Set a given key's value in the map. If the key already exists, overwrite the value.
-- `sum(prefix: str)`: Return the sum of all values of keys that begin with a given prefix.
-
-For example, you should be able to run the following code:
-
-```
-mapsum.insert("columnar", 3)
-assert mapsum.sum("col") == 3
-
-mapsum.insert("column", 2)
-assert mapsum.sum("col") == 5
-```
+Same as [problem 232](#problem-232-easy).
 
 ### Problem 800 (Medium)
 
@@ -8989,15 +8890,7 @@ Same as [problem 22](#problem-22-medium).
 
 ### Problem 818 (Easy)
 
-This problem was asked by Square.
-
-The Sieve of Eratosthenes is an algorithm used to generate all prime numbers smaller than `N`. The method is to take increasingly larger prime numbers, and mark their multiples as composite.
-
-For example, to find all primes less than `100`, we would first mark `[4, 6, 8, ...]` (multiples of two), then `[6, 9, 12, ...]` (multiples of three), and so on. Once we have done this for all primes less than `N`, the unmarked numbers that remain will be prime.
-
-Implement this algorithm.
-
-Bonus: Create a generator that produces primes indefinitely (that is, without taking `N` as an input).
+Same as [problem 244](#problem-244-easy).
 
 ### Problem 819 (Easy)
 
@@ -9088,11 +8981,7 @@ Same as [problem 333](#problem-333-medium).
 
 ### Problem 834 (Hard)
 
-This problem was asked by Spotify.
-
-There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side.
-
-What is the minimum number of swaps necessary for this to happen?
+Same as [problem 240](#problem-240-hard).
 
 ### Problem 835 (Medium)
 
@@ -9537,11 +9426,7 @@ Same as [problem 119](#problem-119-medium).
 
 ### Problem 910 (Medium)
 
-This problem was asked by Yelp.
-
-You are given an array of integers, where each element represents the maximum number of steps that can be jumped going forward from that element. Write a function to return the minimum number of jumps you must take in order to get from the start to the end of the array.
-
-For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as the optimal solution involves jumping from `6` to `5`, and then from `5` to `9`.
+Same as [problem 245](#problem-245-medium).
 
 ### Problem 911 (Medium)
 
@@ -9976,11 +9861,7 @@ Same as [problem 168](#problem-168-medium).
 
 ### Problem 972 (Easy)
 
-This problem was asked by IBM.
-
-Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return `None`.
-
-For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
+Same as [problem 231](#problem-231-easy).
 
 ### Problem 973 (Medium)
 
@@ -10107,9 +9988,7 @@ Follow-up: what if you can't use division?
 
 ### Problem 996 (Hard)
 
-This problem was asked by Microsoft.
-
-Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the _maximum_ weight spanning tree.
+Same as [problem 234](#problem-234-hard).
 
 ### Problem 997 (Medium)
 
@@ -10169,18 +10048,7 @@ Same as [problem 149](#problem-149-hard).
 
 ### Problem 1005 (Hard)
 
-This problem was asked by MIT.
-
-[Blackjack](https://en.wikipedia.org/wiki/Blackjack) is a two player card game whose rules are as follows:
-
-- The player and then the dealer are each given two cards.
-- The player can then "hit", or ask for arbitrarily many additional cards, so long as their total does not exceed `21`.
-- The dealer must then hit if their total is `16` or lower, otherwise pass.
-- Finally, the two compare totals, and the one with the greatest sum not exceeding `21` is the winner.
-
-For this problem, cards values are counted as follows: each card between `2` and `10` counts as their face value, face cards count as `10`, and aces count as `1`.
-
-Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
+Same as [problem 238](#problem-238-hard).
 
 ### Problem 1006 (Easy)
 
@@ -10442,14 +10310,7 @@ Same as [problem 113](#problem-113-medium).
 
 ### Problem 1039 (Hard)
 
-This problem was asked by Twitter.
-
-You are given an array of length `24`, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
-
-- `update(hour: int, value: int)`: Increment the element at index `hour` by `value`.
-- `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between `start` and `end` (inclusive).
-
-You can assume that all values get cleared at the end of the day, and that you will not be asked for `start` and `end` values that wrap around midnight.
+Same as [problem 242](#problem-242-hard).
 
 ### Problem 1040 (Hard)
 
@@ -10726,9 +10587,7 @@ Same as [problem 112](#problem-112-hard).
 
 ### Problem 1075 (Easy)
 
-This problem was asked by Apple.
-
-Implement the function `fib(n)`, which returns the `n``th` number in the Fibonacci sequence, using only `O(1)` space.
+Same as [problem 233](#problem-233-easy).
 
 ### Problem 1076 (Medium)
 
@@ -10746,19 +10605,7 @@ add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 
 ### Problem 1077 (Easy)
 
-This problem was asked by Amazon.
-
-A tree is symmetric if its data and shape remain unchanged when it is reflected about the root node. The following tree is an example:
-
-```
-        4
-      / | \
-    3   5   3
-  /           \
-9              9
-```
-
-Given a `k`-ary tree, determine whether it is symmetric.
+Same as [problem 237](#problem-237-easy).
 
 ### Problem 1078 (Easy)
 
@@ -11053,11 +10900,7 @@ Same as [problem 91](#problem-91-easy).
 
 ### Problem 1119 (Medium)
 
-This problem was asked by Etsy.
-
-Given an array of numbers `N` and an integer `k`, your task is to split `N` into `k` partitions such that the maximum sum of any partition is minimized. Return this sum.
-
-For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, since the optimal partition is `[5, 1, 2], [7], [3, 4]`.
+Same as [problem 243](#problem-243-medium).
 
 ### Problem 1120 (Easy)
 
@@ -11121,18 +10964,7 @@ Same as [problem 93](#problem-93-hard).
 
 ### Problem 1131 (Hard)
 
-This problem was asked by MIT.
-
-[Blackjack](https://en.wikipedia.org/wiki/Blackjack) is a two player card game whose rules are as follows:
-
-- The player and then the dealer are each given two cards.
-- The player can then "hit", or ask for arbitrarily many additional cards, so long as their total does not exceed `21`.
-- The dealer must then hit if their total is `16` or lower, otherwise pass.
-- Finally, the two compare totals, and the one with the greatest sum not exceeding `21` is the winner.
-
-For this problem, cards values are counted as follows: each card between `2` and `10` counts as their face value, face cards count as `10`, and aces count as `1`.
-
-Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
+Same as [problem 238](#problem-238-hard).
 
 ### Problem 1132 (Medium)
 
@@ -11447,11 +11279,7 @@ Same as [problem 203](#problem-203-medium).
 
 ### Problem 1182 (Medium)
 
-This problem was asked by Etsy.
-
-Given an array of numbers `N` and an integer `k`, your task is to split `N` into `k` partitions such that the maximum sum of any partition is minimized. Return this sum.
-
-For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, since the optimal partition is `[5, 1, 2], [7], [3, 4]`.
+Same as [problem 243](#problem-243-medium).
 
 ### Problem 1183 (Easy)
 
@@ -11632,11 +11460,7 @@ Same as [problem 218](#problem-218-medium).
 
 ### Problem 1202 (Hard)
 
-This problem was asked by Spotify.
-
-There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side.
-
-What is the minimum number of swaps necessary for this to happen?
+Same as [problem 240](#problem-240-hard).
 
 ### Problem 1203 (Hard)
 
@@ -11740,9 +11564,7 @@ If only one input tree has a node in a given position, the corresponding node in
 
 ### Problem 1221 (Easy)
 
-This problem was asked by Apple.
-
-Implement the function `fib(n)`, which returns the `n``th` number in the Fibonacci sequence, using only `O(1)` space.
+Same as [problem 233](#problem-233-easy).
 
 ### Problem 1222 (Easy)
 
@@ -11920,9 +11742,7 @@ Same as [28](#problem-28-medium).
 
 ### Problem 1246 (Hard)
 
-This problem was asked by Microsoft.
-
-Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the _maximum_ weight spanning tree.
+Same as [problem 234](#problem-234-hard).
 
 ### Problem 1247 (Easy)
 
@@ -12063,22 +11883,7 @@ Write a program to determine whether a given input is a Toeplitz matrix.
 
 ### Problem 1273 (Easy)
 
-This problem was asked by Google.
-
-Implement a `PrefixMapSum` class with the following methods:
-
-- `insert(key: str, value: int)`: Set a given key's value in the map. If the key already exists, overwrite the value.
-- `sum(prefix: str)`: Return the sum of all values of keys that begin with a given prefix.
-
-For example, you should be able to run the following code:
-
-```
-mapsum.insert("columnar", 3)
-assert mapsum.sum("col") == 3
-
-mapsum.insert("column", 2)
-assert mapsum.sum("col") == 5
-```
+Same as [problem 232](#problem-232-easy).
 
 ### Problem 1274 (Medium)
 
@@ -12203,11 +12008,7 @@ Given a directed graph of links between various websites, write a program that c
 
 ### Problem 1290 (Medium)
 
-This problem was asked by Nvidia.
-
-You are given a list of `N` points `(x``1``, y``1``)`, `(x``2``, y``2``)`, ..., `(x``N``, y``N``)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point `1` to point `2`, point `2` to point `3`, and so on, finally looping around to connect point `N` to point `1`.
-
-Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
+Same as [problem 236](#problem-236-medium).
 
 ### Problem 1291 (Easy)
 
@@ -12438,14 +12239,7 @@ For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to p
 
 ### Problem 1324 (Hard)
 
-This problem was asked by Twitter.
-
-You are given an array of length `24`, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
-
-- `update(hour: int, value: int)`: Increment the element at index `hour` by `value`.
-- `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between `start` and `end` (inclusive).
-
-You can assume that all values get cleared at the end of the day, and that you will not be asked for `start` and `end` values that wrap around midnight.
+Same as [problem 242](#problem-242-hard).
 
 ### Problem 1325 (Hard)
 
@@ -12514,15 +12308,7 @@ Same as [problem 38](#problem-38-hard).
 
 ### Problem 1337 (Easy)
 
-This problem was asked by Square.
-
-The Sieve of Eratosthenes is an algorithm used to generate all prime numbers smaller than `N`. The method is to take increasingly larger prime numbers, and mark their multiples as composite.
-
-For example, to find all primes less than `100`, we would first mark `[4, 6, 8, ...]` (multiples of two), then `[6, 9, 12, ...]` (multiples of three), and so on. Once we have done this for all primes less than `N`, the unmarked numbers that remain will be prime.
-
-Implement this algorithm.
-
-Bonus: Create a generator that produces primes indefinitely (that is, without taking `N` as an input).
+Same as [problem 244](#problem-244-easy).
 
 ### Problem 1338 (Medium)
 
@@ -12622,11 +12408,7 @@ Same as [problem 144](#problem-144-medium).
 
 ### Problem 1347 (Easy)
 
-This problem was asked by IBM.
-
-Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return `None`.
-
-For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
+Same as [problem 231](#problem-231-easy).
 
 ### Problem 1348 (Hard)
 
@@ -12658,9 +12440,7 @@ For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In 
 
 ### Problem 1351 (Hard)
 
-This problem was asked by Facebook.
-
-Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
+Same as [problem 235](#problem-235-hard).
 
 ### Problem 1352 (Hard)
 
@@ -12682,11 +12462,7 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 
 ### Problem 1354 (Medium)
 
-This problem was asked by Yelp.
-
-You are given an array of integers, where each element represents the maximum number of steps that can be jumped going forward from that element. Write a function to return the minimum number of jumps you must take in order to get from the start to the end of the array.
-
-For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as the optimal solution involves jumping from `6` to `5`, and then from `5` to `9`.
+Same as [problem 245](#problem-245-medium).
 
 ### Problem 1355 (Easy)
 
@@ -13564,19 +13340,7 @@ Same as [problem 278](#problem-278-easy).
 
 ### Problem 1485 (Easy)
 
-This problem was asked by Amazon.
-
-A tree is symmetric if its data and shape remain unchanged when it is reflected about the root node. The following tree is an example:
-
-```
-        4
-      / | \
-    3   5   3
-  /           \
-9              9
-```
-
-Given a `k`-ary tree, determine whether it is symmetric.
+Same as [problem 237](#problem-237-easy).
 
 ### Problem 1486 (Medium)
 
@@ -13901,11 +13665,7 @@ You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 ### Problem 1531 (Easy)
 
-This problem was asked by IBM.
-
-Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return `None`.
-
-For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
+Same as [problem 231](#problem-231-easy).
 
 ### Problem 1532 (Medium)
 
@@ -14251,18 +14011,7 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 ### Problem 1576 (Hard)
 
-This problem was asked by MIT.
-
-[Blackjack](https://en.wikipedia.org/wiki/Blackjack) is a two player card game whose rules are as follows:
-
-- The player and then the dealer are each given two cards.
-- The player can then "hit", or ask for arbitrarily many additional cards, so long as their total does not exceed `21`.
-- The dealer must then hit if their total is `16` or lower, otherwise pass.
-- Finally, the two compare totals, and the one with the greatest sum not exceeding `21` is the winner.
-
-For this problem, cards values are counted as follows: each card between `2` and `10` counts as their face value, face cards count as `10`, and aces count as `1`.
-
-Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
+Same as [problem 238](#problem-238-hard).
 
 ### Problem 1577 (Hard)
 
@@ -14270,9 +14019,7 @@ Same as [problem 217](#problem-217-hard).
 
 ### Problem 1578 (Hard)
 
-This problem was asked by Facebook.
-
-Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
+Same as [problem 235](#problem-235-hard).
 
 ### Problem 1579 (Medium)
 
@@ -14300,15 +14047,7 @@ Same as [problem 166](#problem-166-medium).
 
 ### Problem 1585 (Easy)
 
-This problem was asked by Square.
-
-The Sieve of Eratosthenes is an algorithm used to generate all prime numbers smaller than `N`. The method is to take increasingly larger prime numbers, and mark their multiples as composite.
-
-For example, to find all primes less than `100`, we would first mark `[4, 6, 8, ...]` (multiples of two), then `[6, 9, 12, ...]` (multiples of three), and so on. Once we have done this for all primes less than `N`, the unmarked numbers that remain will be prime.
-
-Implement this algorithm.
-
-Bonus: Create a generator that produces primes indefinitely (that is, without taking `N` as an input).
+Same as [problem 244](#problem-244-easy).
 
 ### Problem 1586 (Hard)
 
@@ -14320,11 +14059,7 @@ Design a class to represent the board, and find a series of steps to bring the b
 
 ### Problem 1587 (Medium)
 
-This problem was asked by Yelp.
-
-You are given an array of integers, where each element represents the maximum number of steps that can be jumped going forward from that element. Write a function to return the minimum number of jumps you must take in order to get from the start to the end of the array.
-
-For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as the optimal solution involves jumping from `6` to `5`, and then from `5` to `9`.
+Same as [problem 245](#problem-245-medium).
 
 ### Problem 1588 (Medium)
 
@@ -14380,19 +14115,7 @@ Same as [problem 181](#problem-181-hard).
 
 ### Problem 1596 (Easy)
 
-This problem was asked by Amazon.
-
-A tree is symmetric if its data and shape remain unchanged when it is reflected about the root node. The following tree is an example:
-
-```
-        4
-      / | \
-    3   5   3
-  /           \
-9              9
-```
-
-Given a `k`-ary tree, determine whether it is symmetric.
+Same as [problem 237](#problem-237-easy).
 
 ### Problem 1597 (Medium)
 
@@ -14489,14 +14212,7 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 
 ### Problem 1609 (Hard)
 
-This problem was asked by Twitter.
-
-You are given an array of length `24`, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
-
-- `update(hour: int, value: int)`: Increment the element at index `hour` by `value`.
-- `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between `start` and `end` (inclusive).
-
-You can assume that all values get cleared at the end of the day, and that you will not be asked for `start` and `end` values that wrap around midnight.
+Same as [problem 242](#problem-242-hard).
 
 ### Problem 1610 (Medium)
 
@@ -14740,9 +14456,7 @@ Same as [problem 212](#problem-212-easy).
 
 ### Problem 1650 (Hard)
 
-This problem was asked by Microsoft.
-
-Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the _maximum_ weight spanning tree.
+Same as [problem 234](#problem-234-hard).
 
 ### Problem 1651 (Hard)
 
@@ -14965,22 +14679,7 @@ Given an undirected graph, determine if it contains a cycle.
 
 ### Problem 1676 (Easy)
 
-This problem was asked by Google.
-
-Implement a `PrefixMapSum` class with the following methods:
-
-- `insert(key: str, value: int)`: Set a given key's value in the map. If the key already exists, overwrite the value.
-- `sum(prefix: str)`: Return the sum of all values of keys that begin with a given prefix.
-
-For example, you should be able to run the following code:
-
-```
-mapsum.insert("columnar", 3)
-assert mapsum.sum("col") == 3
-
-mapsum.insert("column", 2)
-assert mapsum.sum("col") == 5
-```
+Same as [problem 232](#problem-232-easy).
 
 ### Problem 1677 (Easy)
 
@@ -14996,11 +14695,7 @@ Same as [problem 93](#problem-93-hard).
 
 ### Problem 1680 (Medium)
 
-This problem was asked by Nvidia.
-
-You are given a list of `N` points `(x``1``, y``1``)`, `(x``2``, y``2``)`, ..., `(x``N``, y``N``)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point `1` to point `2`, point `2` to point `3`, and so on, finally looping around to connect point `N` to point `1`.
-
-Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
+Same as [problem 236](#problem-236-medium).
 
 ### Problem 1681 (Medium)
 
