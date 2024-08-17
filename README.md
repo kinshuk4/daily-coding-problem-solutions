@@ -5036,7 +5036,7 @@ Given a set of points (x, y) on a 2D cartesian plane, find the two closest point
 
 ---
 
-### Problem 341
+### Problem 341 (Easy)
 
 This problem was asked by Google.
 
@@ -5091,7 +5091,7 @@ Implement your own version of `reduce`.
 
 ---
 
-### Problem 343
+### Problem 343 (Medium)
 
 This problem was asked by Google.
 
@@ -5107,13 +5107,13 @@ For example, given the following tree:
 2  4 6  10
 ```
 
-and the range `[4, 9]`, return `23 (5 + 4 + 6 + 8)`.
+and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution343.java)
 
 ---
 
-### Problem 344
+### Problem 344 (Hard)
 
 This problem was asked by Adobe.
 
@@ -5133,13 +5133,13 @@ For example, suppose your input was the following tree:
 
 In this case, removing the edge `(3, 4)` satisfies our requirement.
 
-Write a function that returns the maximum number of edges you can remove while still satisfying this requirement.
+Write a function that returns the _maximum_ number of edges you can remove while still satisfying this requirement.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution344.java)
 
 ---
 
-### Problem 345
+### Problem 345 (Medium)
 
 This problem was asked by Google.
 
@@ -5186,7 +5186,7 @@ Due to some improbably low flight prices, the cheapest itinerary would be `JFK -
 
 ---
 
-### Problem 347
+### Problem 347 (Easy)
 
 This problem was asked by Yahoo.
 
@@ -5200,7 +5200,7 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 
 ---
 
-### Problem 348
+### Problem 348 (Easy)
 
 This problem was asked by Zillow.
 
@@ -5222,7 +5222,7 @@ The tree is structured according to the following rules:
 - right child nodes link to words lexicographically later than the parent prefix
 - middle child nodes continue the current word
 
-For instance, since code is the first word inserted in the tree, and `cob` lexicographically precedes `cod`, `cob` is represented as a left child extending from `cod`.
+For instance, since `code` is the first word inserted in the tree, and `cob` lexicographically precedes `cod`, `cob` is represented as a left child extending from `cod`.
 
 Implement insertion and search functions for a ternary search tree.
 
@@ -5274,11 +5274,11 @@ Here are a few examples:
 
 ---
 
-### Problem 351
+### Problem 351 (Hard)
 
 This problem was asked by Quora.
 
-Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the bank", bank probably means the place where people deposit money, not the land beside a river or lake.
+Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the _bank_", bank probably means the place where people deposit money, not the land beside a river or lake.
 
 Suppose you are given a list of meanings for several words, formatted like so:
 
@@ -5296,7 +5296,7 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 
 ---
 
-### Problem 352
+### Problem 352 (Easy)
 
 This problem was asked by Palantir.
 
@@ -5305,15 +5305,15 @@ A typical American-style crossword puzzle grid is an `N x N` matrix with black a
 - Every white square must be part of an "across" word and a "down" word.
 - No word can be fewer than three letters long.
 - Every white square must be reachable from every other white square.
+- The grid is rotationally symmetric (for example, the colors of the top left and bottom right squares must match).
 
-The grid is rotationally symmetric (for example, the colors of the top left and bottom right squares must match).
 Write a program to determine whether a given matrix qualifies as a crossword grid.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution352.md)
 
 ---
 
-### Problem 353
+### Problem 353 (Medium)
 
 This problem was asked by Square.
 
@@ -6420,21 +6420,7 @@ Same as [problem 163](#problem-163-hard).
 
 ### Problem 482 (Medium)
 
-This problem was asked by Google.
-
-Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
-
-For example, given the following tree:
-
-```
-    5
-   / \
-  3   8
- / \ / \
-2  4 6  10
-```
-
-and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
+Same as [problem 343](#problem-343-medium).
 
 ### Problem 483 (Easy)
 
@@ -6506,18 +6492,7 @@ Same as [problem 257](#problem-257-easy).
 
 ### Problem 499 (Easy)
 
-This problem was asked by Palantir.
-
-A typical American-style crossword puzzle grid is an `N x N` matrix with black and white squares, which obeys the following rules:
-
-- Every white square must be part of an "across" word and a "down" word.
-- No word can be fewer than three letters long.
-- Every white square must be reachable from every other white square.
-- The grid is rotationally symmetric (for example, the colors of the top left and bottom right squares must match).
-
-Write a program to determine whether a given matrix qualifies as a crossword grid.
-
----
+Same as [problem 352](#problem-352-easy).
 
 ### Problem 500 (Easy)
 
@@ -6637,13 +6612,7 @@ Same as [problem 65](#problem-65-easy).
 
 ### Problem 526 (Easy)
 
-This problem was asked by Yahoo.
-
-You are given a string of length `N` and a parameter `k`. The string can be manipulated by taking one of the first `k` letters and moving it to the end.
-
-Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
-
-For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
+Same as [problem 347](#problem-347-easy).
 
 ### Problem 527 (Medium)
 
@@ -6927,21 +6896,7 @@ Same as [6](#problem-6-hard).
 
 ### Problem 591 (Hard)
 
-This problem was asked by Quora.
-
-Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the _bank_", bank probably means the place where people deposit money, not the land beside a river or lake.
-
-Suppose you are given a list of meanings for several words, formatted like so:
-
-```
-{
-    "word_1": ["meaning one", "meaning two", ...],
-    ...
-    "word_n": ["meaning one", "meaning two", ...]
-}
-```
-
-Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
+Same as [problem 351](#problem-351-hard).
 
 ### Problem 592 (Medium)
 
@@ -6953,33 +6908,7 @@ Same as [problem 285](#problem-285-medium).
 
 ### Problem 594 (Easy)
 
-This problem was asked by Google.
-
-You are given an N by N matrix of random letters and a dictionary of words. Find the maximum number of words that can be packed on the board from the given dictionary.
-
-A word is considered to be able to be packed on the board if:
-
-- It can be found in the dictionary
-- It can be constructed from untaken letters by other words found so far on the board
-- The letters are adjacent to each other (vertically and horizontally, not diagonally).
-
-Each tile can be visited only once by any word.
-
-For example, given the following dictionary:
-
-```
-{ 'eat', 'rain', 'in', 'rat' }
-```
-
-and matrix:
-
-```
-[['e', 'a', 'n'],
- ['t', 't', 'i'],
- ['a', 'r', 'a']]
-```
-
-Your function should return 3, since we can make the words 'eat', 'in', and 'rat' without them touching each other. We could have alternatively made 'eat' and 'rain', but that would be incorrect since that's only 2 words.
+Same as [problem 341](#problem-341-easy).
 
 ### Problem 595 (Medium)
 
@@ -7158,19 +7087,7 @@ Same as [problem 306](#problem-306-medium).
 
 ### Problem 634 (Medium)
 
-This problem was asked by Square.
-
-You are given a histogram consisting of rectangles of different heights. These heights are represented in an input list, such that `[1, 3, 2, 5]` corresponds to the following diagram:
-
-```
-      x
-      x  
-  x   x
-  x x x
-x x x x
-```
-
-Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
+Same as [problem 353](#problem-353-medium).
 
 ### Problem 635 (Hard)
 
@@ -7354,18 +7271,7 @@ Same as [problem 298](#problem-298-easy).
 
 ### Problem 675 (Medium)
 
-This problem was asked by Google.
-
-You are given a set of synonyms, such as `(big, large)` and `(eat, consume)`. Using this set, determine if two sentences with the same number of words are equivalent.
-
-For example, the following two sentences are equivalent:
-
-- "He wants to eat food."
-- "He wants to consume food."
-
-Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: consider the case of `(coach, bus)` and `(coach, teacher)`.
-
-Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
+Same as [problem 345](#problem-345-medium).
 
 ### Problem 676 (Hard)
 
@@ -7430,25 +7336,7 @@ Same as [114](#problem-114-hard)..
 
 ### Problem 686 (Hard)
 
-This problem was asked by Adobe.
-
-You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an "edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even number of nodes.
-
-For example, suppose your input was the following tree:
-
-```
-   1
-  / \ 
- 2   3
-    / \ 
-   4   5
- / | \
-6  7  8
-```
-
-In this case, removing the edge (3, 4) satisfies our requirement.
-
-Write a function that returns the _maximum_ number of edges you can remove while still satisfying this requirement.
+Same as [problem 344](#problem-344-hard).
 
 ### Problem 687 (Hard)
 
@@ -7766,29 +7654,7 @@ Same as [problem 107](#problem-107-easy).
 
 ### Problem 753 (Easy)
 
-This problem was asked by Zillow.
-
-A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example which represents the words `code`, `cob`, `be`, `ax`, `war`, and `we`.
-
-```
-       c
-    /  |  \
-   b   o   w
- / |   |   |
-a  e   d   a
-|    / |   | \ 
-x   b  e   r  e  
-```
-
-The tree is structured according to the following rules:
-
-- left child nodes link to words lexicographically earlier than the parent prefix
-- right child nodes link to words lexicographically later than the parent prefix
-- middle child nodes continue the current word
-
-For instance, since `code` is the first word inserted in the tree, and `cob` lexicographically precedes `cod`, `cob` is represented as a left child extending from `cod`.
-
-Implement insertion and search functions for a ternary search tree.
+Same as [problem 348](#problem-348-easy).
 
 ### Problem 754 (Medium)
 
@@ -7890,29 +7756,7 @@ Same as [problem 225](#problem-225-easy).
 
 ### Problem 777 (Easy)
 
-This problem was asked by Zillow.
-
-A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example which represents the words `code`, `cob`, `be`, `ax`, `war`, and `we`.
-
-```
-       c
-    /  |  \
-   b   o   w
- / |   |   |
-a  e   d   a
-|    / |   | \ 
-x   b  e   r  e  
-```
-
-The tree is structured according to the following rules:
-
-- left child nodes link to words lexicographically earlier than the parent prefix
-- right child nodes link to words lexicographically later than the parent prefix
-- middle child nodes continue the current word
-
-For instance, since `code` is the first word inserted in the tree, and `cob` lexicographically precedes `cod`, `cob` is represented as a left child extending from `cod`.
-
-Implement insertion and search functions for a ternary search tree.
+Same as [problem 348](#problem-348-easy).
 
 ### Problem 778 (Medium)
 
@@ -7940,19 +7784,7 @@ For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC10
 
 ### Problem 781 (Medium)
 
-This problem was asked by Square.
-
-You are given a histogram consisting of rectangles of different heights. These heights are represented in an input list, such that `[1, 3, 2, 5]` corresponds to the following diagram:
-
-```
-      x
-      x  
-  x   x
-  x x x
-x x x x
-```
-
-Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
+Same as [problem 353](#problem-353-medium).
 
 ### Problem 782 (Easy)
 
@@ -8034,18 +7866,7 @@ Same as [problem 101](#problem-101-easy).
 
 ### Problem 798 (Medium)
 
-This problem was asked by Google.
-
-You are given a set of synonyms, such as `(big, large)` and `(eat, consume)`. Using this set, determine if two sentences with the same number of words are equivalent.
-
-For example, the following two sentences are equivalent:
-
-- "He wants to eat food."
-- "He wants to consume food."
-
-Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: consider the case of `(coach, bus)` and `(coach, teacher)`.
-
-Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
+Same as [problem 345](#problem-345-medium).
 
 ### Problem 799 (Easy)
 
@@ -8216,33 +8037,7 @@ Same as [problem 122](#problem-122-medium).
 
 ### Problem 839 (Easy)
 
-This problem was asked by Google.
-
-You are given an N by N matrix of random letters and a dictionary of words. Find the maximum number of words that can be packed on the board from the given dictionary.
-
-A word is considered to be able to be packed on the board if:
-
-- It can be found in the dictionary
-- It can be constructed from untaken letters by other words found so far on the board
-- The letters are adjacent to each other (vertically and horizontally, not diagonally).
-
-Each tile can be visited only once by any word.
-
-For example, given the following dictionary:
-
-```
-{ 'eat', 'rain', 'in', 'rat' }
-```
-
-and matrix:
-
-```
-[['e', 'a', 'n'],
- ['t', 't', 'i'],
- ['a', 'r', 'a']]
-```
-
-Your function should return 3, since we can make the words 'eat', 'in', and 'rat' without them touching each other. We could have alternatively made 'eat' and 'rain', but that would be incorrect since that's only 2 words.
+Same as [problem 341](#problem-341-easy).
 
 ### Problem 840 (Medium)
 
@@ -8669,21 +8464,7 @@ Same as [problem 247](#problem-247-medium).
 
 ### Problem 936 (Medium)
 
-This problem was asked by Google.
-
-Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
-
-For example, given the following tree:
-
-```
-    5
-   / \
-  3   8
- / \ / \
-2  4 6  10
-```
-
-and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
+Same as [problem 343](#problem-343-medium).
 
 ### Problem 937 (Hard)
 
@@ -9252,21 +9033,7 @@ Same as [problem 207](#problem-207-medium).
 
 ### Problem 1059 (Hard)
 
-This problem was asked by Quora.
-
-Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the _bank_", bank probably means the place where people deposit money, not the land beside a river or lake.
-
-Suppose you are given a list of meanings for several words, formatted like so:
-
-```
-{
-    "word_1": ["meaning one", "meaning two", ...],
-    ...
-    "word_n": ["meaning one", "meaning two", ...]
-}
-```
-
-Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
+Same as [problem 351](#problem-351-hard).
 
 ### Problem 1060 (Easy)
 
@@ -9460,13 +9227,7 @@ Same as [problem 67](#problem-67-hard).
 
 ### Problem 1097 (Easy)
 
-This problem was asked by Yahoo.
-
-You are given a string of length `N` and a parameter `k`. The string can be manipulated by taking one of the first `k` letters and moving it to the end.
-
-Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
-
-For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
+Same as [problem 347](#problem-347-easy).
 
 ### Problem 1098 (Easy)
 
@@ -9506,25 +9267,7 @@ Same as [problem 285](#problem-285-medium).
 
 ### Problem 1107 (Hard)
 
-This problem was asked by Adobe.
-
-You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an "edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even number of nodes.
-
-For example, suppose your input was the following tree:
-
-```
-   1
-  / \ 
- 2   3
-    / \ 
-   4   5
- / | \
-6  7  8
-```
-
-In this case, removing the edge (3, 4) satisfies our requirement.
-
-Write a function that returns the _maximum_ number of edges you can remove while still satisfying this requirement.
+Same as [problem 344](#problem-344-hard).
 
 ### Problem 1108 (Easy)
 
@@ -9548,16 +9291,7 @@ Same as [problem 135](#problem-135-easy).
 
 ### Problem 1113 (Easy)
 
-This problem was asked by Palantir.
-
-A typical American-style crossword puzzle grid is an `N x N` matrix with black and white squares, which obeys the following rules:
-
-- Every white square must be part of an "across" word and a "down" word.
-- No word can be fewer than three letters long.
-- Every white square must be reachable from every other white square.
-- The grid is rotationally symmetric (for example, the colors of the top left and bottom right squares must match).
-
-Write a program to determine whether a given matrix qualifies as a crossword grid.
+Same as [problem 352](#problem-352-easy).
 
 ### Problem 1114 (Easy)
 
@@ -9767,25 +9501,7 @@ Same as [problem 319](#problem-319-hard).
 
 ### Problem 1162 (Hard)
 
-This problem was asked by Adobe.
-
-You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an "edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even number of nodes.
-
-For example, suppose your input was the following tree:
-
-```
-   1
-  / \ 
- 2   3
-    / \ 
-   4   5
- / | \
-6  7  8
-```
-
-In this case, removing the edge (3, 4) satisfies our requirement.
-
-Write a function that returns the _maximum_ number of edges you can remove while still satisfying this requirement.
+Same as [problem 344](#problem-344-hard).
 
 ### Problem 1163 (Easy)
 
@@ -9825,16 +9541,7 @@ Same as [problem 354](#problem-354-hard).
 
 ### Problem 1171 (Easy)
 
-This problem was asked by Palantir.
-
-A typical American-style crossword puzzle grid is an `N x N` matrix with black and white squares, which obeys the following rules:
-
-- Every white square must be part of an "across" word and a "down" word.
-- No word can be fewer than three letters long.
-- Every white square must be reachable from every other white square.
-- The grid is rotationally symmetric (for example, the colors of the top left and bottom right squares must match).
-
-Write a program to determine whether a given matrix qualifies as a crossword grid.
+Same as [problem 352](#problem-352-easy).
 
 ### Problem 1172 (Medium)
 
@@ -10097,21 +9804,7 @@ Given this representation, determine the depth of the tree.
 
 ### Problem 1224 (Medium)
 
-This problem was asked by Google.
-
-Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
-
-For example, given the following tree:
-
-```
-    5
-   / \
-  3   8
- / \ / \
-2  4 6  10
-```
-
-and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
+Same as [problem 343](#problem-343-medium).
 
 ### Problem 1225 (Medium)
 
@@ -10511,13 +10204,7 @@ Same as [problem 260](#problem-260-medium).
 
 ### Problem 1318 (Easy)
 
-This problem was asked by Yahoo.
-
-You are given a string of length `N` and a parameter `k`. The string can be manipulated by taking one of the first `k` letters and moving it to the end.
-
-Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
-
-For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
+Same as [problem 347](#problem-347-easy).
 
 ### Problem 1319 (Medium)
 
@@ -10626,33 +10313,7 @@ Same as [problem 247](#problem-247-medium).
 
 ### Problem 1342 (Easy)
 
-This problem was asked by Google.
-
-You are given an N by N matrix of random letters and a dictionary of words. Find the maximum number of words that can be packed on the board from the given dictionary.
-
-A word is considered to be able to be packed on the board if:
-
-- It can be found in the dictionary
-- It can be constructed from untaken letters by other words found so far on the board
-- The letters are adjacent to each other (vertically and horizontally, not diagonally).
-
-Each tile can be visited only once by any word.
-
-For example, given the following dictionary:
-
-```
-{ 'eat', 'rain', 'in', 'rat' }
-```
-
-and matrix:
-
-```
-[['e', 'a', 'n'],
- ['t', 't', 'i'],
- ['a', 'r', 'a']]
-```
-
-Your function should return 3, since we can make the words 'eat', 'in', and 'rat' without them touching each other. We could have alternatively made 'eat' and 'rain', but that would be incorrect since that's only 2 words.
+Same as [problem 341](#problem-341-easy).
 
 ### Problem 1343 (Hard)
 
@@ -11108,19 +10769,7 @@ Same as [problem 75](#problem-75-hard).
 
 ### Problem 1438 (Medium)
 
-This problem was asked by Square.
 
-You are given a histogram consisting of rectangles of different heights. These heights are represented in an input list, such that `[1, 3, 2, 5]` corresponds to the following diagram:
-
-```
-      x
-      x  
-  x   x
-  x x x
-x x x x
-```
-
-Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
 
 ### Problem 1439 (Easy)
 
@@ -11128,29 +10777,7 @@ Same as [problem 63](#problem-63-easy).
 
 ### Problem 1440 (Easy)
 
-This problem was asked by Zillow.
-
-A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example which represents the words `code`, `cob`, `be`, `ax`, `war`, and `we`.
-
-```
-       c
-    /  |  \
-   b   o   w
- / |   |   |
-a  e   d   a
-|    / |   | \ 
-x   b  e   r  e  
-```
-
-The tree is structured according to the following rules:
-
-- left child nodes link to words lexicographically earlier than the parent prefix
-- right child nodes link to words lexicographically later than the parent prefix
-- middle child nodes continue the current word
-
-For instance, since `code` is the first word inserted in the tree, and `cob` lexicographically precedes `cod`, `cob` is represented as a left child extending from `cod`.
-
-Implement insertion and search functions for a ternary search tree.
+Same as [problem 348](#problem-348-easy).
 
 ### Problem 1441 (Easy)
 
@@ -11162,21 +10789,7 @@ Same as [problem 154](#problem-154-easy).
 
 ### Problem 1443 (Hard)
 
-This problem was asked by Quora.
-
-Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the _bank_", bank probably means the place where people deposit money, not the land beside a river or lake.
-
-Suppose you are given a list of meanings for several words, formatted like so:
-
-```
-{
-    "word_1": ["meaning one", "meaning two", ...],
-    ...
-    "word_n": ["meaning one", "meaning two", ...]
-}
-```
-
-Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
+Same as [problem 351](#problem-351-hard).
 
 ### Problem 1444 (Medium)
 
@@ -11285,18 +10898,7 @@ Write a program that returns the maximum amount of money you can win with certai
 
 ### Problem 1466 (Medium)
 
-This problem was asked by Google.
-
-You are given a set of synonyms, such as `(big, large)` and `(eat, consume)`. Using this set, determine if two sentences with the same number of words are equivalent.
-
-For example, the following two sentences are equivalent:
-
-- "He wants to eat food."
-- "He wants to consume food."
-
-Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: consider the case of `(coach, bus)` and `(coach, teacher)`.
-
-Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
+Same as [problem 345](#problem-345-medium).
 
 ### Problem 1467 (Easy)
 
@@ -11508,21 +11110,7 @@ Same as [problem 141](#problem-141-hard).
 
 ### Problem 1511 (Medium)
 
-This problem was asked by Google.
-
-Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
-
-For example, given the following tree:
-
-```
-    5
-   / \
-  3   8
- / \ / \
-2  4 6  10
-```
-
-and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
+Same as [problem 343](#problem-343-medium).
 
 ### Problem 1512 (Easy)
 
@@ -11979,13 +11567,7 @@ Same as [problem 495](#problem-15-medium).
 
 ### Problem 1611 (Easy)
 
-This problem was asked by Yahoo.
-
-You are given a string of length `N` and a parameter `k`. The string can be manipulated by taking one of the first `k` letters and moving it to the end.
-
-Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
-
-For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
+Same as [problem 347](#problem-347-easy).
 
 ### Problem 1612 (Hard)
 
@@ -12033,18 +11615,7 @@ Same as [problem 13](#problem-13-hard).
 
 ### Problem 1623 (Medium)
 
-This problem was asked by Google.
-
-You are given a set of synonyms, such as `(big, large)` and `(eat, consume)`. Using this set, determine if two sentences with the same number of words are equivalent.
-
-For example, the following two sentences are equivalent:
-
-- "He wants to eat food."
-- "He wants to consume food."
-
-Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: consider the case of `(coach, bus)` and `(coach, teacher)`.
-
-Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
+Same as [problem 345](#problem-345-medium).
 
 ### Problem 1624 (Medium)
 
@@ -12192,21 +11763,7 @@ You should return 45, as it is (3 + 2) * (4 + 5).
 
 ### Problem 1654 (Hard)
 
-This problem was asked by Quora.
-
-Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the _bank_", bank probably means the place where people deposit money, not the land beside a river or lake.
-
-Suppose you are given a list of meanings for several words, formatted like so:
-
-```
-{
-    "word_1": ["meaning one", "meaning two", ...],
-    ...
-    "word_n": ["meaning one", "meaning two", ...]
-}
-```
-
-Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
+Same as [problem 351](#problem-351-hard).
 
 ### Problem 1655 (Medium)
 
@@ -12236,25 +11793,7 @@ Same as [problem 257](#problem-257-easy).
 
 ### Problem 1660 (Hard)
 
-This problem was asked by Adobe.
-
-You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an "edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even number of nodes.
-
-For example, suppose your input was the following tree:
-
-```
-   1
-  / \ 
- 2   3
-    / \ 
-   4   5
- / | \
-6  7  8
-```
-
-In this case, removing the edge (3, 4) satisfies our requirement.
-
-Write a function that returns the _maximum_ number of edges you can remove while still satisfying this requirement.
+Same as [problem 344](#problem-344-hard).
 
 ### Problem 1661 (Medium)
 
@@ -12398,29 +11937,7 @@ Same as [problem 303](#problem-303-easy).
 
 ### Problem 1693 (Easy)
 
-This problem was asked by Zillow.
-
-A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example which represents the words `code`, `cob`, `be`, `ax`, `war`, and `we`.
-
-```
-       c
-    /  |  \
-   b   o   w
- / |   |   |
-a  e   d   a
-|    / |   | \ 
-x   b  e   r  e  
-```
-
-The tree is structured according to the following rules:
-
-- left child nodes link to words lexicographically earlier than the parent prefix
-- right child nodes link to words lexicographically later than the parent prefix
-- middle child nodes continue the current word
-
-For instance, since `code` is the first word inserted in the tree, and `cob` lexicographically precedes `cod`, `cob` is represented as a left child extending from `cod`.
-
-Implement insertion and search functions for a ternary search tree.
+Same as [problem 348](#problem-348-easy).
 
 ### Problem 1694 (Medium)
 
@@ -12436,16 +11953,7 @@ Same as [problem 38](#problem-38-hard).
 
 ### Problem 1697 (Easy)
 
-This problem was asked by Palantir.
-
-A typical American-style crossword puzzle grid is an `N x N` matrix with black and white squares, which obeys the following rules:
-
-- Every white square must be part of an "across" word and a "down" word.
-- No word can be fewer than three letters long.
-- Every white square must be reachable from every other white square.
-- The grid is rotationally symmetric (for example, the colors of the top left and bottom right squares must match).
-
-Write a program to determine whether a given matrix qualifies as a crossword grid.
+Same as [problem 352](#problem-352-easy).
 
 ### Problem 1698 (Medium)
 
@@ -12527,33 +12035,7 @@ The queue should support `enqueue`, `dequeue`, and `get_size` operations.
 
 ### Problem 1714 (Easy)
 
-This problem was asked by Google.
-
-You are given an N by N matrix of random letters and a dictionary of words. Find the maximum number of words that can be packed on the board from the given dictionary.
-
-A word is considered to be able to be packed on the board if:
-
-- It can be found in the dictionary
-- It can be constructed from untaken letters by other words found so far on the board
-- The letters are adjacent to each other (vertically and horizontally, not diagonally).
-
-Each tile can be visited only once by any word.
-
-For example, given the following dictionary:
-
-```
-{ 'eat', 'rain', 'in', 'rat' }
-```
-
-and matrix:
-
-```
-[['e', 'a', 'n'],
- ['t', 't', 'i'],
- ['a', 'r', 'a']]
-```
-
-Your function should return 3, since we can make the words 'eat', 'in', and 'rat' without them touching each other. We could have alternatively made 'eat' and 'rain', but that would be incorrect since that's only 2 words.
+Same as [problem 341](#problem-341-easy).
 
 ### Problem 1715 (Hard)
 
