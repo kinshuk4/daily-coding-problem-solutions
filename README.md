@@ -10,9 +10,9 @@ Now lets go through the problems.
 
 > This problem was recently asked by Google.
 
-Given a list of numbers and a number k, return whether any two numbers from the list add up to k.
+Given a list of numbers and a number `k`, return whether any two numbers from the list add up to `k`.
 
-For example, given `[10, 15, 3, 7]` and `k` of `17`, return `true` since 10 + 7 is 17.
+For example, given `[10, 15, 3, 7]` and `k` of `17`, return `true` since `10 + 7` is `17`.
 
 Bonus: Can you do this in one pass?
 
@@ -20,7 +20,7 @@ Bonus: Can you do this in one pass?
 
 ---
 
-### Problem 2
+### Problem 2 (Hard)
 
 > This problem was asked by Uber
 
@@ -166,7 +166,7 @@ Follow-up: Can you do this in O(N) time and constant space?
 
 > This problem was asked by Apple.
 
-Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
+Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
 
 [Solution](https://k5kc.com/cs/pl/problems/implement-job-scheduler-with-delay-function-execution/)
 
@@ -658,15 +658,16 @@ For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] sin
 
 [Solution](https://k5kc.com/cs/algorithms/subarray-sum-equals-k-problem/)
 
-### Problem 43
+### Problem 43 (Easy)
 
 > This problem was asked by Amazon.
 
 Implement a stack that has the following methods:
 
-push(val), which pushes an element onto the stack
-pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
-max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+- push(val), which pushes an element onto the stack
+- pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+- max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+
 Each method should run in constant time.
 
 [Solution](https://k5kc.com/cs/algorithms/max-stack-problem/)
@@ -753,11 +754,11 @@ Do this in O(N) time.
 
 [Solution](https://k5kc.com/cs/algorithms/maximum-subarray-sum/)
 
-### Problem 50
+### Problem 50 (Easy)
 
 > This problem was asked by Microsoft.
 
-Suppose  an arithmetic expression is given as a binary tree. Each leaf is an  integer and each internal node is one of '+', '−', '∗', or '/'.
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
 
 Given the root to such a tree, write a function to evaluate it.
 
@@ -1013,8 +1014,6 @@ You should print out the following:
 
 [Solution](https://k5kc.com/cs/algorithms/spiral-matrix-1-return/)
 
----
-
 ### Problem 66 (Medium)
 
 > This problem was asked by Square.
@@ -1073,7 +1072,7 @@ You should return 2, since bishops 1 and 3 attack each other, as well as bishops
 
 ---
 
-### Problem 69
+### Problem 69 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -1436,17 +1435,15 @@ for f in functions:
 
 ---
 
-### Problem 92
+### Problem 92 (Hard)
 
 > This problem was asked by Airbnb.
 
-We're given a hashmap with a key `courseId` and value a list of `courseIds`, which represents that the prerequsite of `courseId` is `courseIds`. Return a sorted ordering of courses such that we can finish all courses.
+We're given a hashmap associating each `courseId` key with a list of `courseIds` values, which represents that the prerequisites of `courseId` are `courseIds`. Return a sorted ordering of courses such that we can finish all courses.
 
 Return null if there is no such ordering.
 
 For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
-
----
 
 ### Problem 93 (Hard)
 
@@ -1823,11 +1820,11 @@ And here are examples of non-numbers:
 - "a -2"
 - "-"
 
-### Problem 124
+### Problem 124 (Easy)
 
 > This problem was asked by Microsoft.
 
-You have 100 fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
+You have `n` fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
 
 Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
 
@@ -2524,22 +2521,25 @@ Describe and give an example of each of the following types of polymorphism:
 >
 > This problem was asked by Google.
 
-You are given a starting state start, a list of transition probabilities for a Markov chain, and a number of steps num_steps. Run the Markov chain starting from start for num_steps and compute the number of times we visited each state.
+You are given a starting state `start`, a list of transition probabilities for a Markov chain, and a number of steps `num_steps`. Run the Markov chain starting from `start` for `num_steps` and compute the number of times we visited each state.
 
-For example, given the starting state a, number of steps 5000, and the following transition probabilities:
+For example, given the starting state `a`, number of steps 5000, and the following transition probabilities:
 
+```
 [
-('a', 'a', 0.9),
-('a', 'b', 0.075),
-('a', 'c', 0.025),
-('b', 'a', 0.15),
-('b', 'b', 0.8),
-('b', 'c', 0.05),
-('c', 'a', 0.25),
-('c', 'b', 0.25),
-('c', 'c', 0.5)
+  ('a', 'a', 0.9),
+  ('a', 'b', 0.075),
+  ('a', 'c', 0.025),
+  ('b', 'a', 0.15),
+  ('b', 'b', 0.8),
+  ('b', 'c', 0.05),
+  ('c', 'a', 0.25),
+  ('c', 'b', 0.25),
+  ('c', 'c', 0.5)
 ]
-One instance of running this Markov chain might produce { 'a': 3012, 'b': 1656, 'c': 332 }.
+```
+
+One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656, 'c': 332 }`.
 
 ### Problem 176 (Easy)
 
@@ -2555,11 +2555,11 @@ Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two 
 
 > This problem was asked by Airbnb.
 
-Given a linked list and a positive integer k, rotate the list to the right by k places.
+Given a linked list and a positive integer `k`, rotate the list to the right by `k` places.
 
-For example, given the linked list 7 -> 7 -> 3 -> 5 and k = 2, it should become 3 -> 5 -> 7 -> 7.
+For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
 
-Given the linked list 1 -> 2 -> 3 -> 4 -> 5 and k = 3, it should become 3 -> 4 -> 5 -> 1 -> 2.
+Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
 
 ### Problem 178 (Hard)
 
@@ -2579,7 +2579,7 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
 
  Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
 
- For example, given the sequence 2, 4, 3, 8, 7, 5, you should construct the following tree:
+ For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
 
 ```d
         5
@@ -3110,7 +3110,7 @@ Design and implement Connect 4.
 
 ---
 
-### Problem 220
+### Problem 220 (Medium)
 
 This problem was asked by Square.
 
@@ -3218,11 +3218,11 @@ Given a list of numbers, create an algorithm that arranges them in order to form
 
 ---
 
-### Problem 229
+### Problem 229 (Medium)
 
 This problem was asked by Flipkart.
 
-Snakes and Ladders is a game played on a `10 x 10` board, the goal of which is get from square `1` to square `100`. On each turn players will roll a six-sided die and move forward a number of spaces equal to the result. If they land on a square that represents a snake or ladder, they will be transported ahead or behind, respectively, to a new square.
+[Snakes and Ladders](https://en.wikipedia.org/wiki/Snakes_and_Ladders) is a game played on a `10 x 10` board, the goal of which is get from square `1` to square `100`. On each turn players will roll a six-sided die and move forward a number of spaces equal to the result. If they land on a square that represents a snake or ladder, they will be transported ahead or behind, respectively, to a new square.
 
 Find the smallest number of turns it takes to play snakes and ladders.
 
@@ -3837,7 +3837,7 @@ You should return `True`, since the bishop is attacking the king diagonally.
 
 ---
 
-### Problem 268
+### Problem 268 (Medium)
 
 This problem was asked by Indeed.
 
@@ -4594,13 +4594,11 @@ Write an algorithm that finds the total number of set bits in all integers betwe
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution310.java)
 
----
-
 ### Problem 311 (Easy)
 
-This problem was asked by Sumo Logic.
+> This problem was asked by Sumo Logic.
 
-Given an unsorted array, in which all elements are distinct, find a "peak" element in `O(log N)` time.
+Given a array that's sorted but rotated at some unknown pivot, in which all elements are distinct, find a "peak" element in `O(log N)` time.
 
 An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
 
@@ -5352,7 +5350,7 @@ Some questions you may want to consider as part of your solution are:
 
 ---
 
-### Problem 355
+### Problem 355 (Hard)
 
 This problem was asked by Airbnb.
 
@@ -5369,7 +5367,7 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 
 ---
 
-### Problem 356
+### Problem 356 (Hard)
 
 This problem was asked by Netflix.
 
@@ -5381,7 +5379,7 @@ The queue should support `enqueue`, `dequeue`, and `get_size` operations.
 
 ---
 
-### Problem 357
+### Problem 357 (Hard)
 
 This problem was asked by LinkedIn.
 
@@ -5401,7 +5399,7 @@ Given this representation, determine the depth of the tree.
 
 ---
 
-### Problem 358
+### Problem 358 (Hard)
 
 This problem was asked by Dropbox.
 
@@ -5430,7 +5428,7 @@ Given this string, return the original integers in sorted order. In the example 
 
 ---
 
-### Problem 360
+### Problem 360 (Medium)
 
 This problem was asked by Spotify.
 
@@ -5482,9 +5480,9 @@ Create a program that finds all strobogrammatic numbers with `N` digits.
 
 ---
 
-### Problem 363
+### Problem 363 (Medium)
 
-Write a function, add_subtract, which alternately adds and subtracts curried arguments. Here are some sample operations:
+Write a function, `add_subtract`, which alternately adds and subtracts curried arguments. Here are some sample operations:
 
 ```
 add_subtract(7) -> 7
@@ -5496,7 +5494,7 @@ add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 
 ---
 
-### Problem 364
+### Problem 364 (Medium)
 
 This problem was asked by Facebook.
 
@@ -5506,7 +5504,7 @@ Describe an algorithm to compute the longest increasing subsequence of an array 
 
 ---
 
-### Problem 365
+### Problem 365 (Hard)
 
 This problem was asked by Google.
 
@@ -6088,16 +6086,7 @@ Same as [problem 335](#problem-335-hard).
 
 ### Problem 410 (Hard)
 
-This problem was asked by Airbnb.
-
-You are given an array `X` of floating-point numbers `x``1`, `x``2`, ... `x``n`. These can be rounded up or down to create a corresponding array `Y` of integers `y``1`, `y``2`, ... `y``n`.
-
-Write an algorithm that finds an appropriate `Y` array with the following properties:
-
-- The rounded sums of both arrays should be equal.
-- The absolute pairwise difference between elements is minimized. In other words, `|x``1``- y``1``| + |x``2``- y``2``| + ... + |x``n``- y``n``|` should be as small as possible.
-
-For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do better than `[1, 2, 5]`, which has an absolute difference of `|1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1`.
+Same as [problem 355](#problem-355-hard).
 
 ### Problem 411 (Hard)
 
@@ -6241,9 +6230,7 @@ Same as [problem 146](#problem-146-medium).
 
 ### Problem 446 (Medium)
 
-This problem was asked by Indeed.
-
-Given a `32`-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
+Same as [problem 268](#problem-268-medium).
 
 ### Problem 447 (Medium)
 
@@ -6275,9 +6262,7 @@ Same as [problem 125](#problem-125-easy).
 
 ### Problem 454 (Medium)
 
-This problem was asked by Facebook.
-
-Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
+Same as [problem 364](#problem-364-medium).
 
 ### Problem 455 (Medium)
 
@@ -6444,11 +6429,7 @@ Same as [problem 284](#problem-284-medium).
 
 ### Problem 488 (Hard)
 
-This problem was asked by Netflix.
-
-Implement a queue using a set of fixed-length arrays.
-
-The queue should support `enqueue`, `dequeue`, and `get_size` operations.
+Same as [problem 356](#problem-356-hard).
 
 ### Problem 489 (Easy)
 
@@ -6576,19 +6557,7 @@ Same as [problem 85](#problem-85-medium).
 
 ### Problem 520 (Hard)
 
-This problem was asked by LinkedIn.
-
-You are given a binary tree in a peculiar string representation. Each node is written in the form `(lr)`, where `l` corresponds to the left child and `r` corresponds to the right child.
-
-If either `l` or `r` is null, it will be represented as a zero. Otherwise, it will be represented by a new `(lr)` pair.
-
-Here are a few examples:
-
-- A root node with no children: `(00)`
-- A root node with two children: `((00)(00))`
-- An unbalanced tree with three consecutive left children: `((((00)0)0)0)`
-
-Given this representation, determine the depth of the tree.
+Same as [problem 357](#problem-357-hard).
 
 ### Problem 521 (Medium)
 
@@ -6652,19 +6621,7 @@ Same as [problem 230](#problem-230-medium).
 
 ### Problem 536 (Medium)
 
-This problem was asked by Google.
-
-Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
-
-For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
-
-```
-    5
-   / \
-  3   7
- / \   \
-2   4   8
-```
+Same as [problem 179](#problem-179-medium).
 
 ### Problem 537 (Easy)
 
@@ -6760,13 +6717,7 @@ Same as [problem 78](#problem-78-medium).
 
 ### Problem 560 (Easy)
 
-This problem was recently asked by Google.
-
-Given a list of numbers and a number `k`, return whether any two numbers from the list add up to `k`.
-
-For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` is `17`.
-
-Bonus: Can you do this in one pass?
+Same as [problem 1](#problem-1-easy).
 
 ### Problem 561 (Hard)
 
@@ -6774,13 +6725,7 @@ Same as [problem 296](#problem-296-hard).
 
 ### Problem 562 (Hard)
 
-This problem was asked by Uber.
-
-Given an array of integers, return a new array such that each element at index `i` of the new array is the product of all the numbers in the original array except the one at `i`.
-
-For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[120, 60, 40, 30, 24]`. If our input was `[3, 2, 1]`, the expected output would be `[2, 3, 6]`.
-
-Follow-up: what if you can't use division?
+Same as [problem 2](#problem-2-hard).
 
 ### Problem 563 (Hard)
 
@@ -6924,11 +6869,7 @@ Same as [problem 282](#problem-282-easy).
 
 ### Problem 598 (Easy)
 
-This problem was asked by Microsoft.
-
-You have `n` fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
-
-Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
+Same as [problem 124](#problem-124-easy).
 
 ### Problem 599 (Hard)
 
@@ -6980,14 +6921,7 @@ Same as [problem 88](#problem-88-medium).
 
 ### Problem 611 (Hard)
 
-This problem was asked by Dropbox.
-
-Create a data structure that performs all the following operations in `O(1)` time:
-
-- `plus`: Add a key with value `1`. If the key already exists, increment its value by one.
-- `minus`: Decrement the value of a key. If the key's value is currently `1`, remove it.
-- `get_max`: Return a key with the highest value.
-- `get_min`: Return a key with the lowest value.
+Same as [problem 358](#problem-358-hard).
 
 ### Problem 612 (Easy)
 
@@ -7047,13 +6981,7 @@ Same as [problem 214](#problem-214-easy).
 
 ### Problem 626 (Easy)
 
-This problem was asked by Facebook.
-
-Given a list of integers, return the largest product that can be made by multiplying any three integers.
-
-For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
-
-You can assume the list has at least three integers.
+Same as [problem 69](#problem-69-easy).
 
 ### Problem 627 (Medium)
 
@@ -7069,9 +6997,7 @@ Same as [problem 243](#problem-243-medium).
 
 ### Problem 630 (Medium)
 
-This problem was asked by Apple.
-
-Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
+Same as [problem 10](#problem-10-medium).
 
 ### Problem 631 (Hard)
 
@@ -7111,27 +7037,7 @@ Same as [problem 81](#problem-81-easy).
 
 ### Problem 640 (Easy)
 
-This problem was asked by Google.
-
-You are given a starting state `start`, a list of transition probabilities for a Markov chain, and a number of steps `num_steps`. Run the Markov chain starting from `start` for `num_steps` and compute the number of times we visited each state.
-
-For example, given the starting state `a`, number of steps 5000, and the following transition probabilities:
-
-```
-[
-  ('a', 'a', 0.9),
-  ('a', 'b', 0.075),
-  ('a', 'c', 0.025),
-  ('b', 'a', 0.15),
-  ('b', 'b', 0.8),
-  ('b', 'c', 0.05),
-  ('c', 'a', 0.25),
-  ('c', 'b', 0.25),
-  ('c', 'c', 0.5)
-]
-```
-
-One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656, 'c': 332 }`.
+Same as [problem 175](#problem-175-easy).
 
 ### Problem 641 (Easy)
 
@@ -7295,32 +7201,11 @@ Same as [problem 162](#problem-162-medium).
 
 ### Problem 681 (Medium)
 
-This problem was asked by Flipkart.
-
-[Snakes and Ladders](https://en.wikipedia.org/wiki/Snakes_and_Ladders) is a game played on a `10 x 10` board, the goal of which is get from square `1` to square `100`. On each turn players will roll a six-sided die and move forward a number of spaces equal to the result. If they land on a square that represents a snake or ladder, they will be transported ahead or behind, respectively, to a new square.
-
-Find the smallest number of turns it takes to play snakes and ladders.
-
-For convenience, here are the squares representing snakes and ladders, and their outcomes:
-
-```
-snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78}
-ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
-```
+Same as [problem 229](#problem-229-medium).
 
 ### Problem 682 (Medium)
 
-This problem was asked by Squarespace.
-
-Write a function, `add_subtract`, which alternately adds and subtracts curried arguments. Here are some sample operations:
-
-```
-add_subtract(7) -> 7
-
-add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
-
-add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
-```
+Same as [problem 363](#problem-363-medium).
 
 ### Problem 683 (Medium)
 
@@ -7388,13 +7273,7 @@ Same as [problem 302](#problem-302-medium).
 
 ### Problem 699 (Easy)
 
-This problem was asked by Airbnb.
-
-Given a linked list and a positive integer `k`, rotate the list to the right by `k` places.
-
-For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
-
-Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
+Same as [problem 177](#problem-177-easy).
 
 ### Problem 700 (Medium)
 
@@ -7410,7 +7289,7 @@ Same as [3](#problem-3-medium).
 
 ### Problem 703 (Hard)
 
-Same as [problem 304](#problem-304-medium).
+Same as [problem 304](#problem-304-hard).
 
 ### Problem 704 (Medium)
 
@@ -7470,7 +7349,7 @@ Same as [problem 19](#problem-19-medium).
 
 ### Problem 718 (Medium)
 
-Same as [problem 148](#problem-148-hard).
+Same as [problem 148](#problem-148-medium).
 
 ### Problem 719 (Easy)
 
@@ -7494,23 +7373,7 @@ Same as [problem 119](#problem-119-medium).
 
 ### Problem 724 (Easy)
 
-This problem was asked by Microsoft.
-
-Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
-
-Given the root to such a tree, write a function to evaluate it.
-
-For example, given the following tree:
-
-```
-    *
-   / \
-  +    +
- / \  / \
-3  2  4  5
-```
-
-You should return 45, as it is (3 + 2) * (4 + 5).
+Same as [problem 50](#problem-50-easy).
 
 ### Problem 725 (Easy)
 
@@ -7530,13 +7393,7 @@ Same as [problem 292](#problem-292-hard).
 
 ### Problem 729 (Medium)
 
-This problem was asked by Spotify.
-
-You have access to ranked lists of songs for various users. Each song is represented as an integer, and more preferred songs appear earlier in each list. For example, the list `[4, 1, 7]` indicates that a user likes song `4` the best, followed by songs `1` and `7`.
-
-Given a set of these ranked lists, interleave them to create a playlist that satisfies everyone's priorities.
-
-For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
+Same as [problem 360](#problem-360-medium).
 
 ### Problem 730 (Medium)
 
@@ -7568,13 +7425,7 @@ Same as [problem 204](#problem-204-easy).
 
 ### Problem 737 (Hard)
 
-This problem was asked by Airbnb.
-
-We're given a hashmap associating each `courseId` key with a list of `courseIds` values, which represents that the prerequisites of `courseId` are `courseIds`. Return a sorted ordering of courses such that we can finish all courses.
-
-Return null if there is no such ordering.
-
-For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
+Same as [problem 92](#problem-92-hard).
 
 ### Problem 738 (Medium)
 
@@ -7582,15 +7433,7 @@ Same as [problem 57](#problem-57-medium).
 
 ### Problem 739 (Hard)
 
-This problem was asked by Google.
-
-A quack is a data structure combining properties of both stacks and queues. It can be viewed as a list of elements written left to right such that three operations are possible:
-
-- `push(x)`: add a new item `x` to the left end of the list
-- `pop()`: remove and return the item on the left end of the list
-- `pull()`: remove the item on the right end of the list.
-
-Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
+Same as [problem 365](#problem-365-hard).
 
 ### Problem 740 (Easy)
 
@@ -7618,15 +7461,7 @@ Same as [problem 301](#problem-301-medium).
 
 ### Problem 746 (Easy)
 
-This problem was asked by Amazon.
-
-Implement a stack that has the following methods:
-
-- push(val), which pushes an element onto the stack
-- pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
-- max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
-
-Each method should run in constant time.
+Same as [problem 43](#problem-43-easy).
 
 ### Problem 747 (Easy)
 
@@ -7658,13 +7493,7 @@ Same as [problem 348](#problem-348-easy).
 
 ### Problem 754 (Medium)
 
-This problem was asked by Square.
-
-In front of you is a row of `N` coins, with values `v``1`, `v``1`, ..., `v``n`.
-
-You are asked to play the following game. You and an opponent take turns choosing either the first or last coin from the row, removing it from the row, and receiving the value of the coin.
-
-Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
+Same as [problem 220](#problem-220-medium).
 
 ### Problem 755 (Hard)
 
@@ -7760,13 +7589,7 @@ Same as [problem 348](#problem-348-easy).
 
 ### Problem 778 (Medium)
 
-This problem was asked by Spotify.
-
-You have access to ranked lists of songs for various users. Each song is represented as an integer, and more preferred songs appear earlier in each list. For example, the list `[4, 1, 7]` indicates that a user likes song `4` the best, followed by songs `1` and `7`.
-
-Given a set of these ranked lists, interleave them to create a playlist that satisfies everyone's priorities.
-
-For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
+Same as [problem 360](#problem-360-medium).
 
 ### Problem 779 (Medium)
 
@@ -7774,13 +7597,7 @@ Same as [problem 230](#problem-230-medium).
 
 ### Problem 780 (Hard)
 
-This problem was asked by Airbnb.
-
-We're given a hashmap associating each `courseId` key with a list of `courseIds` values, which represents that the prerequisites of `courseId` are `courseIds`. Return a sorted ordering of courses such that we can finish all courses.
-
-Return null if there is no such ordering.
-
-For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
+Same as [problem 92](#problem-92-hard).
 
 ### Problem 781 (Medium)
 
@@ -7800,13 +7617,7 @@ Same as [problem 63](#problem-63-easy).
 
 ### Problem 785 (Easy)
 
-This problem was asked by Facebook.
-
-Given a list of integers, return the largest product that can be made by multiplying any three integers.
-
-For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
-
-You can assume the list has at least three integers.
+Same as [problem 69](#problem-69-easy).
 
 ### Problem 786 (Medium)
 
@@ -7842,15 +7653,7 @@ Same as [problem 254](#problem-254-medium).
 
 ### Problem 794 (Easy)
 
-This problem was asked by Amazon.
-
-Implement a stack that has the following methods:
-
-- push(val), which pushes an element onto the stack
-- pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
-- max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
-
-Each method should run in constant time.
+Same as [problem 43](#problem-43-easy).
 
 ### Problem 795 (Medium)
 
@@ -7990,14 +7793,7 @@ Same as [problem 336](#problem-336-medium).
 
 ### Problem 829 (Hard)
 
-This problem was asked by Dropbox.
-
-Create a data structure that performs all the following operations in `O(1)` time:
-
-- `plus`: Add a key with value `1`. If the key already exists, increment its value by one.
-- `minus`: Decrement the value of a key. If the key's value is currently `1`, remove it.
-- `get_max`: Return a key with the highest value.
-- `get_min`: Return a key with the lowest value.
+Same as [problem 358](#problem-358-hard).
 
 ### Problem 830 (Medium)
 
@@ -8109,19 +7905,7 @@ Same as [problem 287](#problem-287-medium).
 
 ### Problem 857 (Hard)
 
-This problem was asked by LinkedIn.
-
-You are given a binary tree in a peculiar string representation. Each node is written in the form `(lr)`, where `l` corresponds to the left child and `r` corresponds to the right child.
-
-If either `l` or `r` is null, it will be represented as a zero. Otherwise, it will be represented by a new `(lr)` pair.
-
-Here are a few examples:
-
-- A root node with no children: `(00)`
-- A root node with two children: `((00)(00))`
-- An unbalanced tree with three consecutive left children: `((((00)0)0)0)`
-
-Given this representation, determine the depth of the tree.
+Same as [problem 357](#problem-357-hard).
 
 ### Problem 858 (Easy)
 
@@ -8137,7 +7921,7 @@ Same as [problem 25](#problem-25-hard).
 
 ### Problem 861 (Hard)
 
-Same as [problem 304](#problem-304-medium).
+Same as [problem 304](#problem-304-hard).
 
 ### Problem 862 (Medium)
 
@@ -8209,13 +7993,7 @@ Same as [problem 93](#problem-93-hard).
 
 ### Problem 879 (Easy)
 
-This problem was recently asked by Google.
-
-Given a list of numbers and a number `k`, return whether any two numbers from the list add up to `k`.
-
-For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` is `17`.
-
-Bonus: Can you do this in one pass?
+Same as [problem 1](#problem-1-easy).
 
 ### Problem 880 (Hard)
 
@@ -8327,7 +8105,7 @@ Same as [problem 340](#problem-340-easy).
 
 ### Problem 907 (Medium)
 
-Same as [problem 148](#problem-148-hard).
+Same as [problem 148](#problem-148-medium).
 
 ### Problem 908 (Medium)
 
@@ -8355,24 +8133,11 @@ Same as [problem 204](#problem-204-easy).
 
 ### Problem 914 (Hard)
 
-This problem was asked by Netflix.
-
-Implement a queue using a set of fixed-length arrays.
-
-The queue should support `enqueue`, `dequeue`, and `get_size` operations.
+Same as [problem 356](#problem-356-hard).
 
 ### Problem 915 (Hard)
 
-This problem was asked by Airbnb.
-
-You are given an array `X` of floating-point numbers `x``1`, `x``2`, ... `x``n`. These can be rounded up or down to create a corresponding array `Y` of integers `y``1`, `y``2`, ... `y``n`.
-
-Write an algorithm that finds an appropriate `Y` array with the following properties:
-
-- The rounded sums of both arrays should be equal.
-- The absolute pairwise difference between elements is minimized. In other words, `|x``1``- y``1``| + |x``2``- y``2``| + ... + |x``n``- y``n``|` should be as small as possible.
-
-For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do better than `[1, 2, 5]`, which has an absolute difference of `|1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1`.
+Same as [problem 355](#problem-355-hard).
 
 ### Problem 916 (Easy)
 
@@ -8404,9 +8169,7 @@ Same as [problem 24](#problem-24-medium).
 
 ### Problem 923 (Medium)
 
-This problem was asked by Indeed.
-
-Given a `32`-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
+Same as [problem 268](#problem-268-medium).
 
 ### Problem 924 (Easy)
 
@@ -8422,13 +8185,7 @@ Same as [problem 196](#problem-196-easy).
 
 ### Problem 927 (Easy)
 
-This problem was asked by Airbnb.
-
-Given a linked list and a positive integer `k`, rotate the list to the right by `k` places.
-
-For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
-
-Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
+Same as [problem 177](#problem-177-easy).
 
 ### Problem 928 (Easy)
 
@@ -8540,23 +8297,7 @@ Same as [problem 8](#problem-8-easy).
 
 ### Problem 955 (Easy)
 
-This problem was asked by Microsoft.
-
-Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
-
-Given the root to such a tree, write a function to evaluate it.
-
-For example, given the following tree:
-
-```
-    *
-   / \
-  +    +
- / \  / \
-3  2  4  5
-```
-
-You should return 45, as it is (3 + 2) * (4 + 5).
+Same as [problem 50](#problem-50-easy).
 
 ### Problem 956 (Medium)
 
@@ -8594,7 +8335,7 @@ Same as [problem 20](#problem-20-easy).
 
 Same as [problem 16](#problem-16-easy).
 
-### Problem #965 (Easy)
+### Problem 965 (Easy)
 
 Same as [problem 277](#problem-277-easy).
 
@@ -8660,9 +8401,7 @@ Same as [problem 68](#problem-68-medium).
 
 ### Problem 981 (Medium)
 
-This problem was asked by Facebook.
-
-Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
+Same as [problem 364](#problem-364-medium).
 
 ### Problem 982 (Easy)
 
@@ -8714,13 +8453,7 @@ Same as [problem 107](#problem-107-easy).
 
 ### Problem 995 (Hard)
 
-This problem was asked by Uber.
-
-Given an array of integers, return a new array such that each element at index `i` of the new array is the product of all the numbers in the original array except the one at `i`.
-
-For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[120, 60, 40, 30, 24]`. If our input was `[3, 2, 1]`, the expected output would be `[2, 3, 6]`.
-
-Follow-up: what if you can't use division?
+Same as [problem 2](#problem-2-hard).
 
 ### Problem 996 (Hard)
 
@@ -8864,18 +8597,7 @@ Same as [problem 290](#problem-290-easy).
 
 ### Problem 1031 (Medium)
 
-This problem was asked by Flipkart.
-
-[Snakes and Ladders](https://en.wikipedia.org/wiki/Snakes_and_Ladders) is a game played on a `10 x 10` board, the goal of which is get from square `1` to square `100`. On each turn players will roll a six-sided die and move forward a number of spaces equal to the result. If they land on a square that represents a snake or ladder, they will be transported ahead or behind, respectively, to a new square.
-
-Find the smallest number of turns it takes to play snakes and ladders.
-
-For convenience, here are the squares representing snakes and ladders, and their outcomes:
-
-```
-snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78}
-ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
-```
+Same as [problem 229](#problem-229-medium).
 
 ### Problem 1032 (Easy)
 
@@ -8887,11 +8609,7 @@ Same as [problem 186](#problem-186-hard).
 
 ### Problem 1034 (Easy)
 
-This problem was asked by Microsoft.
-
-You have `n` fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
-
-Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
+Same as [problem 124](#problem-124-easy).
 
 ### Problem 1035 (Easy)
 
@@ -8899,19 +8617,7 @@ Same as [problem 265](#problem-265-easy).
 
 ### Problem 1036 (Medium)
 
-This problem was asked by Google.
-
-Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
-
-For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
-
-```
-    5
-   / \
-  3   7
- / \   \
-2   4   8
-```
+Same as [problem 179](#problem-179-medium).
 
 ### Problem 1037 (Hard)
 
@@ -8975,37 +8681,7 @@ Same as [problem 58](#problem-58-medium).
 
 ### Problem 1052 (Hard)
 
-This problem was asked by Twitter.
-
-A teacher must divide a class of students into two teams to play dodgeball. Unfortunately, not all the kids get along, and several refuse to be put on the same team as that of their enemies.
-
-Given an adjacency list of students and their enemies, write an algorithm that finds a satisfactory pair of teams, or returns `False` if none exists.
-
-For example, given the following enemy graph you should return the teams `{0, 1, 4, 5}` and `{2, 3}`.
-
-```
-students = {
-    0: [3],
-    1: [2],
-    2: [1, 4],
-    3: [0, 4, 5],
-    4: [2, 3],
-    5: [3]
-}
-```
-
-On the other hand, given the input below, you should return `False`.
-
-```
-students = {
-    0: [3],
-    1: [2],
-    2: [1, 3, 4],
-    3: [0, 2, 4, 5],
-    4: [2, 3],
-    5: [3]
-}
-```
+Same as [problem 292](#problem-292-hard).
 
 ### Problem 1053 (Hard)
 
@@ -9049,11 +8725,7 @@ Same as [problem 145](#problem-145-easy).
 
 ### Problem 1063 (Easy)
 
-This problem was asked by Sumo Logic.
-
-Given a array that's sorted but rotated at some unknown pivot, in which all elements are distinct, find a "peak" element in `O(log N)` time.
-
-An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
+Same as [problem 311](#problem-311-easy).
 
 ### Problem 1064 (Easy)
 
@@ -9077,13 +8749,7 @@ Same as [problem 269](#problem-269-easy).
 
 ### Problem 1069 (Medium)
 
-This problem was asked by Square.
-
-In front of you is a row of `N` coins, with values `v``1`, `v``1`, ..., `v``n`.
-
-You are asked to play the following game. You and an opponent take turns choosing either the first or last coin from the row, removing it from the row, and receiving the value of the coin.
-
-Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
+Same as [problem 220](#problem-220-medium).
 
 ### Problem 1070 (Easy)
 
@@ -9099,9 +8765,7 @@ Same as [problem 117](#problem-117-easy).
 
 ### Problem 1073 (Medium)
 
-This problem was asked by Apple.
-
-Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
+Same as [problem 10](#problem-10-medium).
 
 ### Problem 1074 (Hard)
 
@@ -9113,17 +8777,7 @@ Same as [problem 233](#problem-233-easy).
 
 ### Problem 1076 (Medium)
 
-This problem was asked by Squarespace.
-
-Write a function, `add_subtract`, which alternately adds and subtracts curried arguments. Here are some sample operations:
-
-```
-add_subtract(7) -> 7
-
-add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
-
-add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
-```
+Same as [problem 363](#problem-363-medium).
 
 ### Problem 1077 (Easy)
 
@@ -9139,27 +8793,7 @@ Same as [problem 140](#problem-140-medium).
 
 ### Problem 1080 (Easy)
 
-This problem was asked by Google.
-
-You are given a starting state `start`, a list of transition probabilities for a Markov chain, and a number of steps `num_steps`. Run the Markov chain starting from `start` for `num_steps` and compute the number of times we visited each state.
-
-For example, given the starting state `a`, number of steps 5000, and the following transition probabilities:
-
-```
-[
-  ('a', 'a', 0.9),
-  ('a', 'b', 0.075),
-  ('a', 'c', 0.025),
-  ('b', 'a', 0.15),
-  ('b', 'b', 0.8),
-  ('b', 'c', 0.05),
-  ('c', 'a', 0.25),
-  ('c', 'b', 0.25),
-  ('c', 'c', 0.5)
-]
-```
-
-One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656, 'c': 332 }`.
+Same as [problem 175](#problem-175-easy).
 
 ### Problem 1081 (Medium)
 
@@ -9303,15 +8937,7 @@ Same as [problem 90](#problem-90-medium).
 
 ### Problem 1116 (Hard)
 
-This problem was asked by Google.
-
-A quack is a data structure combining properties of both stacks and queues. It can be viewed as a list of elements written left to right such that three operations are possible:
-
-- `push(x)`: add a new item `x` to the left end of the list
-- `pop()`: remove and return the item on the left end of the list
-- `pull()`: remove the item on the right end of the list.
-
-Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
+Same as [problem 365](#problem-365-hard).
 
 ### Problem 1117 (Hard)
 
@@ -9439,13 +9065,7 @@ Same as [problem 24](#problem-24-medium).
 
 ### Problem 1148 (Easy)
 
-This problem was asked by Airbnb.
-
-Given a linked list and a positive integer `k`, rotate the list to the right by `k` places.
-
-For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
-
-Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
+Same as [problem 177](#problem-177-easy).
 
 ### Problem 1149 (Medium)
 
@@ -9509,15 +9129,11 @@ Same as [problem 191](#problem-191-easy).
 
 ### Problem 1164 (Easy)
 
-This problem was asked by Microsoft.
-
-You have `n` fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
-
-Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
+Same as [problem 124](#problem-124-easy).
 
 ### Problem 1165 (Hard)
 
-Same as [problem 304](#problem-304-medium).
+Same as [problem 304](#problem-304-hard).
 
 ### Problem 1166 (Medium)
 
@@ -9593,13 +9209,7 @@ Same as [problem 362](#problem-362-easy).
 
 ### Problem 1184 (Medium)
 
-This problem was asked by Spotify.
-
-You have access to ranked lists of songs for various users. Each song is represented as an integer, and more preferred songs appear earlier in each list. For example, the list `[4, 1, 7]` indicates that a user likes song `4` the best, followed by songs `1` and `7`.
-
-Given a set of these ranked lists, interleave them to create a playlist that satisfies everyone's priorities.
-
-For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
+Same as [problem 360](#problem-360-medium).
 
 ### Problem 1185 (Hard)
 
@@ -9611,27 +9221,7 @@ Same as [194](#problem-194-easy).
 
 ### Problem 1187 (Easy)
 
-This problem was asked by Google.
-
-You are given a starting state `start`, a list of transition probabilities for a Markov chain, and a number of steps `num_steps`. Run the Markov chain starting from `start` for `num_steps` and compute the number of times we visited each state.
-
-For example, given the starting state `a`, number of steps 5000, and the following transition probabilities:
-
-```
-[
-  ('a', 'a', 0.9),
-  ('a', 'b', 0.075),
-  ('a', 'c', 0.025),
-  ('b', 'a', 0.15),
-  ('b', 'b', 0.8),
-  ('b', 'c', 0.05),
-  ('c', 'a', 0.25),
-  ('c', 'b', 0.25),
-  ('c', 'c', 0.5)
-]
-```
-
-One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656, 'c': 332 }`.
+Same as [problem 175](#problem-175-easy).
 
 ### Problem 1188 (Medium)
 
@@ -9667,26 +9257,11 @@ Same as [problem 320](#problem-320-medium).
 
 ### Problem 1196 (Hard)
 
-This problem was asked by Dropbox.
-
-Create a data structure that performs all the following operations in `O(1)` time:
-
-- `plus`: Add a key with value `1`. If the key already exists, increment its value by one.
-- `minus`: Decrement the value of a key. If the key's value is currently `1`, remove it.
-- `get_max`: Return a key with the highest value.
-- `get_min`: Return a key with the lowest value.
+Same as [problem 358](#problem-358-hard).
 
 ### Problem 1197 (Easy)
 
-This problem was asked by Amazon.
-
-Implement a stack that has the following methods:
-
-- push(val), which pushes an element onto the stack
-- pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
-- max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
-
-Each method should run in constant time.
+Same as [problem 43](#problem-43-easy).
 
 ### Problem 1198 (Medium)
 
@@ -9694,9 +9269,7 @@ Same as [problem 316](#problem-316-medium).
 
 ### Problem 1199 (Medium)
 
-This problem was asked by Apple.
-
-Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
+Same as [problem 10](#problem-10-medium).
 
 ### Problem 1200 (Easy)
 
@@ -9788,19 +9361,7 @@ Same as [problem 196](#problem-196-easy).
 
 ### Problem 1223 (Hard)
 
-This problem was asked by LinkedIn.
-
-You are given a binary tree in a peculiar string representation. Each node is written in the form `(lr)`, where `l` corresponds to the left child and `r` corresponds to the right child.
-
-If either `l` or `r` is null, it will be represented as a zero. Otherwise, it will be represented by a new `(lr)` pair.
-
-Here are a few examples:
-
-- A root node with no children: `(00)`
-- A root node with two children: `((00)(00))`
-- An unbalanced tree with three consecutive left children: `((((00)0)0)0)`
-
-Given this representation, determine the depth of the tree.
+Same as [problem 357](#problem-357-hard).
 
 ### Problem 1224 (Medium)
 
@@ -9868,7 +9429,7 @@ Same as [problem 88](#problem-88-medium).
 
 ### Problem 1240 (Medium)
 
-Same as [problem 148](#problem-148-hard).
+Same as [problem 148](#problem-148-medium).
 
 ### Problem 1241 (Medium)
 
@@ -9928,13 +9489,7 @@ Same as [problem 200](#problem-200-hard).
 
 ### Problem 1255 (Easy)
 
-This problem was recently asked by Google.
-
-Given a list of numbers and a number `k`, return whether any two numbers from the list add up to `k`.
-
-For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` is `17`.
-
-Bonus: Can you do this in one pass?
+Same as [problem 1](#problem-1-easy).
 
 ### Problem 1256 (Medium)
 
@@ -10022,17 +9577,7 @@ Same as [problem 60](#problem-60-medium).
 
 ### Problem 1277 (Medium)
 
-This problem was asked by Squarespace.
-
-Write a function, `add_subtract`, which alternately adds and subtracts curried arguments. Here are some sample operations:
-
-```
-add_subtract(7) -> 7
-
-add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
-
-add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
-```
+Same as [problem 363](#problem-363-medium).
 
 ### Problem 1278 (Hard)
 
@@ -10168,15 +9713,7 @@ Same as [problem 256](#problem-256-medium).
 
 ### Problem 1311 (Hard)
 
-This problem was asked by Google.
-
-A quack is a data structure combining properties of both stacks and queues. It can be viewed as a list of elements written left to right such that three operations are possible:
-
-- `push(x)`: add a new item `x` to the left end of the list
-- `pop()`: remove and return the item on the left end of the list
-- `pull()`: remove the item on the right end of the list.
-
-Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
+Same as [problem 365](#problem-365-hard).
 
 ### Problem 1312 (Easy)
 
@@ -10240,11 +9777,7 @@ Same as [problem 342](#problem-342-medium).
 
 ### Problem 1327 (Hard)
 
-This problem was asked by Netflix.
-
-Implement a queue using a set of fixed-length arrays.
-
-The queue should support `enqueue`, `dequeue`, and `get_size` operations.
+Same as [problem 356](#problem-356-hard).
 
 ### Problem 1328 (Hard)
 
@@ -10264,16 +9797,7 @@ Same as [problem 187](#problem-187-easy).
 
 ### Problem 1332 (Hard)
 
-This problem was asked by Airbnb.
-
-You are given an array `X` of floating-point numbers `x``1`, `x``2`, ... `x``n`. These can be rounded up or down to create a corresponding array `Y` of integers `y``1`, `y``2`, ... `y``n`.
-
-Write an algorithm that finds an appropriate `Y` array with the following properties:
-
-- The rounded sums of both arrays should be equal.
-- The absolute pairwise difference between elements is minimized. In other words, `|x``1``- y``1``| + |x``2``- y``2``| + ... + |x``n``- y``n``|` should be as small as possible.
-
-For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do better than `[1, 2, 5]`, which has an absolute difference of `|1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1`.
+Same as [problem 355](#problem-355-hard).
 
 ### Problem 1333 (Medium)
 
@@ -10321,37 +9845,7 @@ Same as [problem 138](#problem-138-hard).
 
 ### Problem 1344 (Hard)
 
-This problem was asked by Twitter.
-
-A teacher must divide a class of students into two teams to play dodgeball. Unfortunately, not all the kids get along, and several refuse to be put on the same team as that of their enemies.
-
-Given an adjacency list of students and their enemies, write an algorithm that finds a satisfactory pair of teams, or returns `False` if none exists.
-
-For example, given the following enemy graph you should return the teams `{0, 1, 4, 5}` and `{2, 3}`.
-
-```
-students = {
-    0: [3],
-    1: [2],
-    2: [1, 4],
-    3: [0, 4, 5],
-    4: [2, 3],
-    5: [3]
-}
-```
-
-On the other hand, given the input below, you should return `False`.
-
-```
-students = {
-    0: [3],
-    1: [2],
-    2: [1, 3, 4],
-    3: [0, 2, 4, 5],
-    4: [2, 3],
-    5: [3]
-}
-```
+Same as [problem 292](#problem-292-hard).
 
 ### Problem 1345 (Easy)
 
@@ -10371,19 +9865,7 @@ Same as [problem 160](#problem-160-hard).
 
 ### Problem 1349 (Medium)
 
-This problem was asked by Google.
-
-Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
-
-For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
-
-```
-    5
-   / \
-  3   7
- / \   \
-2   4   8
-```
+Same as [problem 179](#problem-179-medium).
 
 ### Problem 1350 (Easy)
 
@@ -10515,9 +9997,7 @@ Same as [problem 39](#problem-39-medium).
 
 ### Problem 1382 (Medium)
 
-This problem was asked by Facebook.
-
-Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
+Same as [problem 364](#problem-364-medium).
 
 ### Problem 1383 (Medium)
 
@@ -10589,9 +10069,7 @@ Same as [problem 19](#problem-19-medium).
 
 ### Problem 1400 (Medium)
 
-This problem was asked by Indeed.
-
-Given a `32`-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
+Same as [problem 268](#problem-268-medium).
 
 ### Problem 1401 (Hard)
 
@@ -10675,13 +10153,7 @@ Same as [problem 57](#problem-57-medium).
 
 ### Problem 1421 (Hard)
 
-This problem was asked by Uber.
-
-Given an array of integers, return a new array such that each element at index `i` of the new array is the product of all the numbers in the original array except the one at `i`.
-
-For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[120, 60, 40, 30, 24]`. If our input was `[3, 2, 1]`, the expected output would be `[2, 3, 6]`.
-
-Follow-up: what if you can't use division?
+Same as [problem 2](#problem-2-hard).
 
 ### Problem 1422 (Hard)
 
@@ -10697,23 +10169,7 @@ Same as [problem 55](#problem-55-easy).
 
 ### Problem 1425 (Easy)
 
-This problem was asked by Microsoft.
-
-Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
-
-Given the root to such a tree, write a function to evaluate it.
-
-For example, given the following tree:
-
-```
-    *
-   / \
-  +    +
- / \  / \
-3  2  4  5
-```
-
-You should return 45, as it is (3 + 2) * (4 + 5).
+Same as [problem 50](#problem-50-easy).
 
 ### Problem 1426 (Hard)
 
@@ -10729,11 +10185,7 @@ Same as [problem 186](#problem-186-hard).
 
 ### Problem 1429 (Easy)
 
-This problem was asked by Sumo Logic.
-
-Given a array that's sorted but rotated at some unknown pivot, in which all elements are distinct, find a "peak" element in `O(log N)` time.
-
-An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
+Same as [problem 311](#problem-311-easy).
 
 ### Problem 1430 (Easy)
 
@@ -10769,7 +10221,7 @@ Same as [problem 75](#problem-75-hard).
 
 ### Problem 1438 (Medium)
 
-
+Same as [problem 353](#problem-353-medium).
 
 ### Problem 1439 (Easy)
 
@@ -10849,18 +10301,7 @@ Same as [problem 67](#problem-67-hard).
 
 ### Problem 1458 (Medium)
 
-This problem was asked by Flipkart.
-
-[Snakes and Ladders](https://en.wikipedia.org/wiki/Snakes_and_Ladders) is a game played on a `10 x 10` board, the goal of which is get from square `1` to square `100`. On each turn players will roll a six-sided die and move forward a number of spaces equal to the result. If they land on a square that represents a snake or ladder, they will be transported ahead or behind, respectively, to a new square.
-
-Find the smallest number of turns it takes to play snakes and ladders.
-
-For convenience, here are the squares representing snakes and ladders, and their outcomes:
-
-```
-snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78}
-ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
-```
+Same as [problem 229](#problem-229-medium).
 
 ### Problem 1459 (Medium)
 
@@ -10888,13 +10329,7 @@ Same as [problem 140](#problem-140-medium).
 
 ### Problem 1465 (Medium)
 
-This problem was asked by Square.
-
-In front of you is a row of `N` coins, with values `v1`, `v1`, ..., `vn`.
-
-You are asked to play the following game. You and an opponent take turns choosing either the first or last coin from the row, removing it from the row, and receiving the value of the coin.
-
-Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
+Same as [problem 220](#problem-220-medium).
 
 ### Problem 1466 (Medium)
 
@@ -10922,13 +10357,7 @@ Same as [problem 271](#problem-271-hard).
 
 ### Problem 1472 (Easy)
 
-This problem was asked by Facebook.
-
-Given a list of integers, return the largest product that can be made by multiplying any three integers.
-
-For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
-
-You can assume the list has at least three integers.
+Same as [problem 69](#problem-69-easy).
 
 ### Problem 1473 (Medium)
 
@@ -10992,13 +10421,7 @@ Same as [problem 223](#problem-223-hard).
 
 ### Problem 1488 (Hard)
 
-This problem was asked by Airbnb.
-
-We're given a hashmap associating each `courseId` key with a list of `courseIds` values, which represents that the prerequisites of `courseId` are `courseIds`. Return a sorted ordering of courses such that we can finish all courses.
-
-Return null if there is no such ordering.
-
-For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
+Same as [problem 92](#problem-92-hard).
 
 ### Problem 1489 (Medium)
 
@@ -11042,9 +10465,7 @@ Same as [problem 39](#problem-39-medium).
 
 ### Problem 1499 (Medium)
 
-This problem was asked by Apple.
-
-Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
+Same as [problem 10](#problem-10-medium).
 
 ### Problem 1500 (Medium)
 
@@ -11076,29 +10497,11 @@ Same as [problem 249](#problem-249-hard).
 
 ### Problem 1507 (Medium)
 
-This problem was asked by Google.
-
-Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
-
-For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
-
-```
-    5
-   / \
-  3   7
- / \   \
-2   4   8
-```
+Same as [problem 179](#problem-179-medium).
 
 ### Problem 1508 (Hard)
 
-This problem was asked by Uber.
-
-Given an array of integers, return a new array such that each element at index `i` of the new array is the product of all the numbers in the original array except the one at `i`.
-
-For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[120, 60, 40, 30, 24]`. If our input was `[3, 2, 1]`, the expected output would be `[2, 3, 6]`.
-
-Follow-up: what if you can't use division?
+Same as [problem 2](#problem-2-hard).
 
 ### Problem 1509 (Medium)
 
@@ -11206,13 +10609,7 @@ Same as [problem 137](#problem-137-medium).
 
 ### Problem 1535 (Easy)
 
-This problem was recently asked by Google.
-
-Given a list of numbers and a number `k`, return whether any two numbers from the list add up to `k`.
-
-For example, given `[10, 15, 3, 7]` and `k` of `17`, return true since `10 + 7` is `17`.
-
-Bonus: Can you do this in one pass?
+Same as [problem 1](#problem-1-easy).
 
 ### Problem 1536 (Medium)
 
@@ -11220,27 +10617,7 @@ Same as [problem 49](#problem-49-medium).
 
 ### Problem 1537 (Easy)
 
-This problem was asked by Google.
-
-You are given a starting state `start`, a list of transition probabilities for a Markov chain, and a number of steps `num_steps`. Run the Markov chain starting from `start` for `num_steps` and compute the number of times we visited each state.
-
-For example, given the starting state `a`, number of steps 5000, and the following transition probabilities:
-
-```
-[
-  ('a', 'a', 0.9),
-  ('a', 'b', 0.075),
-  ('a', 'c', 0.025),
-  ('b', 'a', 0.15),
-  ('b', 'b', 0.8),
-  ('b', 'c', 0.05),
-  ('c', 'a', 0.25),
-  ('c', 'b', 0.25),
-  ('c', 'c', 0.5)
-]
-```
-
-One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656, 'c': 332 }`.
+Same as [problem 175](#problem-175-easy).
 
 ### Problem 1538 (Easy)
 
@@ -11252,13 +10629,7 @@ Same as [problem 305](#problem-305-easy).
 
 ### Problem 1540 (Easy)
 
-This problem was asked by Facebook.
-
-Given a list of integers, return the largest product that can be made by multiplying any three integers.
-
-For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since that's `-10 * -10 * 5`.
-
-You can assume the list has at least three integers.
+Same as [problem 69](#problem-69-easy).
 
 ### Problem 1541 (Medium)
 
@@ -11334,19 +10705,7 @@ Same as [problem 279](#problem-279-easy).
 
 ### Problem 1559 (Hard)
 
-This problem was asked by LinkedIn.
-
-You are given a binary tree in a peculiar string representation. Each node is written in the form `(lr)`, where `l` corresponds to the left child and `r` corresponds to the right child.
-
-If either `l` or `r` is null, it will be represented as a zero. Otherwise, it will be represented by a new `(lr)` pair.
-
-Here are a few examples:
-
-- A root node with no children: `(00)`
-- A root node with two children: `((00)(00))`
-- An unbalanced tree with three consecutive left children: `((((00)0)0)0)`
-
-Given this representation, determine the depth of the tree.
+Same as [problem 357](#problem-357-hard).
 
 ### Problem 1560 (Medium)
 
@@ -11402,11 +10761,7 @@ Same as [problem 81](#problem-81-easy).
 
 ### Problem 1573 (Easy)
 
-This problem was asked by Sumo Logic.
-
-Given a array that's sorted but rotated at some unknown pivot, in which all elements are distinct, find a "peak" element in `O(log N)` time.
-
-An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
+Same as [problem 311](#problem-311-easy).
 
 ### Problem 1574 (Medium)
 
@@ -11506,16 +10861,7 @@ Same as [problem 48](#problem-48-medium).
 
 ### Problem 1598 (Hard)
 
-This problem was asked by Airbnb.
-
-You are given an array `X` of floating-point numbers `x``1`, `x``2`, ... `x``n`. These can be rounded up or down to create a corresponding array `Y` of integers `y``1`, `y``2`, ... `y``n`.
-
-Write an algorithm that finds an appropriate `Y` array with the following properties:
-
-- The rounded sums of both arrays should be equal.
-- The absolute pairwise difference between elements is minimized. In other words, `|x``1``- y``1``| + |x``2``- y``2``| + ... + |x``n``- y``n``|` should be as small as possible.
-
-For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do better than `[1, 2, 5]`, which has an absolute difference of `|1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1`.
+Same as [problem 355](#problem-355-hard).
 
 ### Problem 1599 (Medium)
 
@@ -11713,13 +11059,7 @@ Same as [problem 126](#problem-126-medium).
 
 ### Problem 1647 (Medium)
 
-This problem was asked by Square.
-
-In front of you is a row of `N` coins, with values `v``1`, `v``1`, ..., `v``n`.
-
-You are asked to play the following game. You and an opponent take turns choosing either the first or last coin from the row, removing it from the row, and receiving the value of the coin.
-
-Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
+Same as [problem 220](#problem-220-medium).
 
 ### Problem 1648 (Medium)
 
@@ -11743,23 +11083,7 @@ Same as [problem 34](#problem-34-medium).
 
 ### Problem 1653 (Easy)
 
-This problem was asked by Microsoft.
-
-Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
-
-Given the root to such a tree, write a function to evaluate it.
-
-For example, given the following tree:
-
-```
-    *
-   / \
-  +    +
- / \  / \
-3  2  4  5
-```
-
-You should return 45, as it is (3 + 2) * (4 + 5).
+Same as [problem 50](#problem-50-easy).
 
 ### Problem 1654 (Hard)
 
@@ -11775,13 +11099,7 @@ Same as [problem 11](#problem-11-medium).
 
 ### Problem 1657 (Easy)
 
-This problem was asked by Airbnb.
-
-Given a linked list and a positive integer `k`, rotate the list to the right by `k` places.
-
-For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
-
-Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
+Same as [problem 177](#problem-177-easy).
 
 ### Problem 1658 (Easy)
 
@@ -11821,13 +11139,7 @@ Same as [problem 184](#problem-184-easy).
 
 ### Problem 1667 (Hard)
 
-This problem was asked by Airbnb.
-
-We're given a hashmap associating each `courseId` key with a list of `courseIds` values, which represents that the prerequisites of `courseId` are `courseIds`. Return a sorted ordering of courses such that we can finish all courses.
-
-Return null if there is no such ordering.
-
-For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
+Same as [problem 92](#problem-92-hard).
 
 ### Problem 1668 (Easy)
 
@@ -11899,13 +11211,7 @@ Same as [problem 31](#problem-31-easy).
 
 ### Problem 1685 (Medium)
 
-This problem was asked by Spotify.
-
-You have access to ranked lists of songs for various users. Each song is represented as an integer, and more preferred songs appear earlier in each list. For example, the list `[4, 1, 7]` indicates that a user likes song `4` the best, followed by songs `1` and `7`.
-
-Given a set of these ranked lists, interleave them to create a playlist that satisfies everyone's priorities.
-
-For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
+Same as [problem 360](#problem-360-medium).
 
 ### Problem 1686 (Hard)
 
@@ -11965,15 +11271,7 @@ Same as [problem 272](#problem-272-medium).
 
 ### Problem 1700 (Hard)
 
-This problem was asked by Google.
-
-A quack is a data structure combining properties of both stacks and queues. It can be viewed as a list of elements written left to right such that three operations are possible:
-
-- `push(x)`: add a new item `x` to the left end of the list
-- `pop()`: remove and return the item on the left end of the list
-- `pull()`: remove the item on the right end of the list.
-
-Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
+Same as [problem 365](#problem-365-hard).
 
 ### Problem 1701 (Easy)
 
@@ -12005,9 +11303,7 @@ Same as [problem 328](#problem-328-medium).
 
 ### Problem 1708 (Medium)
 
-This problem was asked by Indeed.
-
-Given a `32`-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
+Same as [problem 268](#problem-268-medium).
 
 ### Problem 1709 (Medium)
 
@@ -12027,11 +11323,7 @@ Same as [problem 125](#problem-125-easy).
 
 ### Problem 1713 (Hard)
 
-This problem was asked by Netflix.
-
-Implement a queue using a set of fixed-length arrays.
-
-The queue should support `enqueue`, `dequeue`, and `get_size` operations.
+Same as [problem 356](#problem-356-hard).
 
 ### Problem 1714 (Easy)
 
@@ -12040,10 +11332,6 @@ Same as [problem 341](#problem-341-easy).
 ### Problem 1715 (Hard)
 
 Same as [problem 193](#problem-193-hard).
-
-### Solution
-
-Link: <https://k5kc.com/cs/algorithms/spiral-matrix-1-return/>
 
 ### Problem 1716 (Easy)
 
