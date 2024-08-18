@@ -11620,3 +11620,7 @@ Same as [problem 225](#problem-225-easy).
 ### Problem 1788 (Hard)
 
 Same as [problem 150](#problem-150-hard).
+
+### Problem 1789 (Medium)
+
+Same as [problem 314](#problem-314-medium).
