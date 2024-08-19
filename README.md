@@ -11624,3 +11624,7 @@ Same as [problem 150](#problem-150-hard).
 ### Problem 1789 (Medium)
 
 Same as [problem 314](#problem-314-medium).
+
+### Problem 1790 (Easy)
+
+Same as [problem 233](#problem-233-easy).
