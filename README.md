@@ -11632,3 +11632,7 @@ Same as [problem 233](#problem-233-easy).
 ### Problem 1791 (Hard)
 
 Same as [problem 358](#problem-358-hard).
+
+### Problem 1792 (Easy)
+
+Same as [problem 94](#problem-94-easy).
