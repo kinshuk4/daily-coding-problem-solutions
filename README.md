@@ -7153,7 +7153,7 @@ Same as [problem 315](#problem-315-easy).
 
 ### Problem 669 (Hard)
 
-Same as [problem 289](#problem-289-medium).
+Same as [problem 289](#problem-289-hard).
 
 ### Problem 670 (Medium)
 
@@ -7557,7 +7557,7 @@ Same as [problem 178](#problem-178-hard).
 
 ### Problem 770 (Hard)
 
-Same as [problem 289](#problem-289-medium).
+Same as [problem 289](#problem-289-hard).
 
 ### Problem 771 (Easy)
 
@@ -9757,7 +9757,7 @@ Same as [problem 216](#problem-216-medium).
 
 ### Problem 1322 (Hard)
 
-Same as [problem 289](#problem-289-medium).
+Same as [problem 289](#problem-289-hard).
 
 ### Problem 1323 (Hard)
 
@@ -11640,3 +11640,7 @@ Same as [problem 94](#problem-94-easy).
 ### Problem 1793 (Medium)
 
 Same as [problem 309](#problem-309-medium).
+
+### Problem 1794 (Hard)
+
+Same as [problem 289](#problem-289-hard).
