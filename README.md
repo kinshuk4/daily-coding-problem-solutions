@@ -1416,6 +1416,8 @@ A binary search tree is a tree with two children, `left` and `right`, and satisf
 
 Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
 
+[Solution](https://k5kc.com/cs/algorithms/random-pick-with-blacklist-problem/)
+
 ---
 
 ### Problem 91 (Easy)
@@ -11648,3 +11650,7 @@ Same as [problem 289](#problem-289-hard).
 ### Problem 1795 (Medium)
 
 Same as [problem 139](#problem-139-medium).
+
+### Problem 1796 (Medium)
+
+Same as [problem 90](#problem-90-medium).
