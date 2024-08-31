@@ -11654,3 +11654,7 @@ Same as [problem 139](#problem-139-medium).
 ### Problem 1796 (Medium)
 
 Same as [problem 90](#problem-90-medium).
+
+### Problem 1797 (Medium)
+
+Same as [problem 57](#problem-57-medium).
