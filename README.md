@@ -1386,7 +1386,41 @@ For example, given the string "()())()", you should return 1. Given the string "
 
 [Solution](https://k5kc.com/cs/algorithms/minimum-remove-to-make-valid-parentheses/)
 
----
+
+### Problem 87 (Hard)
+
+This problem was asked by Uber.
+
+A rule looks like this:
+
+```
+A NE B
+```
+
+This means this means point `A` is located northeast of point `B`.
+
+```
+A SW C
+```
+
+means that point `A` is southwest of `C`.
+
+Given a list of rules, check if the sum of the rules validate. For example:
+
+```
+A N B
+B NE C
+C N A
+```
+
+does not validate, since `A` cannot be both north and south of `C`.
+
+```
+A NW B
+A N B
+```
+
+is considered valid.
 
 ### Problem 88 (Medium)
 
@@ -6280,38 +6314,7 @@ Same as [problem 111](#problem-111-hard).
 
 ### Problem 458 (Hard)
 
-This problem was asked by Uber.
-
-A rule looks like this:
-
-```
-A NE B
-```
-
-This means this means point `A` is located northeast of point `B`.
-
-```
-A SW C
-```
-
-means that point `A` is southwest of `C`.
-
-Given a list of rules, check if the sum of the rules validate. For example:
-
-```
-A N B
-B NE C
-C N A
-```
-
-does not validate, since `A` cannot be both north and south of `C`.
-
-```
-A NW B
-A N B
-```
-
-is considered valid.
+Same as [87](#problem-87-hard).
 
 ### Problem 459 (Medium)
 
@@ -8687,7 +8690,7 @@ Same as [problem 292](#problem-292-hard).
 
 ### Problem 1053 (Hard)
 
-Same as [problem 458](#problem-458-hard).
+Same as [87](#problem-87-hard).
 
 ### Problem 1054 (Medium)
 
@@ -9295,7 +9298,7 @@ Same as [problem 127](#problem-127-easy).
 
 ### Problem 1206 (Hard)
 
-Same as [problem 458](#problem-458-hard).
+Same as [87](#problem-87-hard).
 
 ### Problem 1207 (Medium)
 
