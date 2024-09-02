@@ -18,8 +18,6 @@ Bonus: Can you do this in one pass?
 
 [Solution](https://k5kc.com/cs/algorithms/2sum-problem/)
 
----
-
 ### Problem 2 (Hard)
 
 > This problem was asked by Uber
@@ -31,8 +29,6 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 Follow-up: what if you can't use division?
 
 [Solution](https://k5kc.com/cs/algorithms/product-of-array-except-self/)
-
----
 
 ### Problem 3 (Medium)
 
@@ -59,8 +55,6 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 
 [Solution](https://k5kc.com/cs/algorithms/serialize-and-deserialize-binary-tree/)
 
----
-
 ### Problem 4 (Hard)
 
 > This problem was asked by Stripe.
@@ -72,8 +66,6 @@ For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` sh
 You can modify the input array in-place.
 
 [Solution](https://k5kc.com/cs/algorithms/first-missing-positive-problem/)
-
----
 
 ### Problem 5 (Medium)
 
@@ -94,8 +86,6 @@ Implement `car` and `cdr`.
 
 [Solution](https://k5kc.com/cs/pl/problems/implementing-car-and-cdr-functions-for-pair-construction/)
 
----
-
 ### Problem 6 (Hard)
 
 > This problem was asked by Google.
@@ -105,8 +95,6 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
 
 [Solution](https://k5kc.com/cs/algorithms/xor-doubly-linked-list/)
-
----
 
 ### Problem 7 (Medium)
 
@@ -119,8 +107,6 @@ For example, the message '111' would give 3, since it could be decoded as 'aaa',
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
 [Solution](https://k5kc.com/cs/algorithms/decode-ways-problem/)
-
----
 
 ### Problem 8 (Easy)
 
@@ -144,8 +130,6 @@ For example, the following tree has 5 unival subtrees:
 
 [Solution](https://k5kc.com/cs/algorithms/count-univalue-subtrees-problem/)
 
----
-
 ### Problem 9 (Hard)
 
 > This problem was asked by Airbnb.
@@ -160,8 +144,6 @@ Follow-up: Can you do this in O(N) time and constant space?
 
 [Solution](https://k5kc.com/cs/algorithms/house-robber-1/)
 
----
-
 ### Problem 10 (Medium)
 
 > This problem was asked by Apple.
@@ -169,8 +151,6 @@ Follow-up: Can you do this in O(N) time and constant space?
 Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
 
 [Solution](https://k5kc.com/cs/pl/problems/implement-job-scheduler-with-delay-function-execution/)
-
----
 
 ### Problem 11 (Medium)
 
@@ -183,8 +163,6 @@ For example, given the query string `de` and the set of strings [`dog`, `deer`, 
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 
 [Solution](https://k5kc.com/cs/algorithms/autocomplete-suggestion-system/)
-
----
 
 ### Problem 12 (Hard)
 
@@ -204,8 +182,6 @@ What if, instead of being able to climb 1 or 2 steps at a time, you  could climb
 
 [Solution](https://k5kc.com/cs/algorithms/climbing-stairs-problem-1-take-atmost-2-steps/)
 
----
-
 ### Problem 13 (Hard)
 
 > This problem was asked by Amazon.
@@ -213,8 +189,6 @@ What if, instead of being able to climb 1 or 2 steps at a time, you  could climb
 Given an integer k and a string s, find the length of the longest substring that contains at most k distinct characters. For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
 [Solution](https://k5kc.com/cs/algorithms/longest-substring-with-at-most-k-distinct-characters/)
-
----
 
 ### Problem 14 (Medium)
 
@@ -351,8 +325,6 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string
 
 [Solution](https://k5kc.com/cs/algorithms/word-break-2-construct-a-sentence/)
 
----
-
 ### Problem 23 (Easy)
 
 > This problem was asked by Google.
@@ -374,8 +346,6 @@ and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum nu
 
 [Solution](https://k5kc.com/cs/algorithms/find-the-shortest-path-between-2-cells-in-boolean-maze/)
 
----
-
 ### Problem 24 (Medium)
 
 > This problem was asked by Google.
@@ -391,8 +361,6 @@ Design a binary tree node class with the following methods:
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 
 [Solution](https://k5kc.com/cs/algorithms/locking-and-unlocking-resources-represented-as-binary-tree-nodes/)
-
----
 
 ### Problem 25 (Hard)
 
@@ -411,8 +379,6 @@ Given the regular expression ".*at" and the string "chat", your function should 
 
 [Solution](https://k5kc.com/cs/algorithms/regular-expression-matching-problem/)
 
----
-
 ### Problem 26 (Medium)
 
 > This problem was asked by Google.
@@ -425,8 +391,6 @@ Do this in constant space and in one pass.
 
 [Solution](https://k5kc.com/cs/algorithms/remove-nth-node-from-end-of-list/)
 
----
-
 ### Problem 27 (Easy)
 
 > This problem was asked by Facebook.
@@ -438,8 +402,6 @@ For example, given the string "([])[]({})", you should return true.
 Given the string "([)]" or "((()", you should return false.
 
 [Solution](https://k5kc.com/cs/algorithms/valid-parentheses-problem/)
-
----
 
 ### Problem 28 (Medium)
 
@@ -461,8 +423,6 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 
 [Solution](https://k5kc.com/cs/algorithms/text-justification-problem/)
 
----
-
 ### Problem 29 (Easy)
 
 > This problem was asked by Amazon.
@@ -472,8 +432,6 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
 [Solution](https://k5kc.com/cs/algorithms/run-length-encoding/)
-
----
 
 ### Problem 30 (Medium)
 
@@ -489,8 +447,6 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in
 
 [Solution](https://k5kc.com/cs/algorithms/trapping-rain-water-problem/)
 
----
-
 ### Problem 31 (Easy)
 
 > This problem was asked by Google.
@@ -501,8 +457,6 @@ Given two strings, compute the edit distance between them.
 
 [Solution](https://k5kc.com/cs/algorithms/edit-distance-problem/)
 
----
-
 ### Problem 32 (Hard)
 
 > This problem was asked by Jane Street.
@@ -512,8 +466,6 @@ Suppose you are given a table of currency exchange rates, represented as a 2D ar
 There are no transaction costs and you can trade fractional quantities.
 
 [Solution](https://k5kc.com/cs/algorithms/check-currency-arbitrage-with-bellman-ford/)
-
----
 
 ### Problem 33 (Easy)
 
@@ -537,8 +489,6 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 
 [Solution](https://k5kc.com/cs/algorithms/find-median-from-data-stream/)
 
----
-
 ### Problem 34 (Medium)
 
 > This problem was asked by Quora.
@@ -550,8 +500,6 @@ For example, given the string "race", you should return "ecarace", since we can 
 As another example, given the string "google", you should return "elgoogle".
 
 [Solution](https://k5kc.com/cs/algorithms/minimum-insertion-steps-to-make-a-string-palindrome-problem/)
-
----
 
 ### Problem 35 (Hard)
 
@@ -565,8 +513,6 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 
 [Solution](https://k5kc.com/cs/algorithms/dutch-national-flag-dnf-problem/)
 
----
-
 ### Problem 36 (Medium)
 
 > This problem was asked by Dropbox.
@@ -574,8 +520,6 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 Given the root to a binary search tree, find the second largest node in the tree.
 
 [Solution](https://k5kc.com/cs/algorithms/second-largest-element-in-binary-search-tree/)
-
----
 
 ### Problem 37 (Easy)
 
@@ -589,8 +533,6 @@ You may also use a list or array to represent a set.
 
 [Solution](https://k5kc.com/cs/algorithms/subsets-1-problem/)
 
----
-
 ### Problem 38 (Hard)
 
 > This problem was asked by Microsoft.
@@ -598,8 +540,6 @@ You may also use a list or array to represent a set.
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
 [Solution](https://k5kc.com/cs/algorithms/n-queens-problem/)
-
----
 
 ### Problem 39 (Medium)
 
@@ -776,8 +716,6 @@ You should return 45, as it is (3 + 2) * (4 + 5).
 
 [Solution](https://k5kc.com/cs/algorithms/evaluation-of-arithmetic-expression-tree/)
 
----
-
 ### Problem 51 (Medium)
 
 > This problem was asked by Facebook.
@@ -789,8 +727,6 @@ It should run in O(N) time.
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
 [Solution](https://k5kc.com/cs/algorithms/fisher-yates-shuffle/)
-
----
 
 ### Problem 52 (Hard)
 
@@ -805,8 +741,6 @@ Each operation should run in O(1) time.
 
 [Solution](https://k5kc.com/cs/algorithms/design-lru-cache/)
 
----
-
 ### Problem 53 (Medium)
 
 > This problem was asked by Apple.
@@ -814,8 +748,6 @@ Each operation should run in O(1) time.
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it
 
 [Solution](https://k5kc.com/cs/algorithms/implement-queue-using-stacks/)
-
----
 
 ### Problem 54 (Hard)
 
@@ -826,8 +758,6 @@ Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits
 Implement an efficient sudoku solver
 
 [Solution](https://k5kc.com/cs/algorithms/sudoku-solver-problem/)
-
----
 
 ### Problem 55 (Easy)
 
@@ -842,8 +772,6 @@ Hint: What if we enter the same URL twice?
 
 [Solution](https://k5kc.com/cs/algorithms/encode-and-decode-tinyurl-problem/)
 
----
-
 ### Problem 56 (Medium)
 
 > This problem was asked by Google.
@@ -851,8 +779,6 @@ Hint: What if we enter the same URL twice?
 Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
 
 [Solution](https://k5kc.com/cs/algorithms/m-coloring-problem-undirected-graph-as-adjacency-matrix/)
-
----
 
 ### Problem 57 (Medium)
 
@@ -865,8 +791,6 @@ You can assume that there are no spaces at the ends of the string and that there
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
 [Solution](https://k5kc.com/cs/algorithms/text-justification-problem/)
-
----
 
 ### Problem 58 (Medium)
 
@@ -882,8 +806,6 @@ You can assume all the integers in the array are unique.
 
 [Solution](https://k5kc.com/cs/algorithms/search-in-rotated-sorted-array/)
 
----
-
 ### Problem 59 (Hard)
 
 > This problem was asked by Google.
@@ -891,8 +813,6 @@ You can assume all the integers in the array are unique.
 Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
 
 [Solution](https://k5kc.com/cs/algorithms/low-bandwidth-almost-similar-file-syncing-algorithm-between-two-computers/)
-
----
 
 ### Problem 60 (Medium)
 
@@ -906,8 +826,6 @@ Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't 
 
 [Solution](https://k5kc.com/cs/algorithms/partition-equal-subset-sum-problem/)
 
----
-
 ### Problem 61 (Medium)
 
 > This problem was asked by Google.
@@ -919,8 +837,6 @@ Do this faster than the naive method of repeated multiplication.
 For example, `pow(2, 10)` should return 1024.
 
 [Solution](https://k5kc.com/cs/algorithms/implement-power-function-1/)
-
----
 
 ### Problem 62 (Medium)
 
@@ -936,8 +852,6 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
 [Solution](https://k5kc.com/cs/algorithms/unique-paths-in-grid-1-count-all-paths-moving-right-or-down/)
-
----
 
 ### Problem 63 (Easy)
 
@@ -958,8 +872,6 @@ and the target word 'FOAM', you should return true, since it's the leftmost colu
 
 [Solution](https://k5kc.com/cs/algorithms/word-search-1-find-if-word-exists/)
 
----
-
 ### Problem 64 (Hard)
 
 > This problem was asked by Google.
@@ -969,8 +881,6 @@ A knight's tour is a sequence of moves by a knight on a chessboard such that all
 Given N, write a function to return the number of knight's tours on an N by N chessboard
 
 [Solution](https://k5kc.com/cs/algorithms/count-knight-s-tour/)
-
----
 
 ### Problem 65 (Easy)
 
@@ -1024,8 +934,6 @@ Write a function to simulate an unbiased coin toss.
 
 [Solution](https://k5kc.com/cs/algorithms/simulating-an-unbiased-coin-toss-using-a-biased-coin/)
 
----
-
 ### Problem 67 (Hard)
 
 > This problem was asked by Google.
@@ -1038,8 +946,6 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 Each operation should run in O(1) time.
 
 [Solution](https://k5kc.com/cs/algorithms/lfu-cache-problem/)
-
----
 
 ### Problem 68 (Medium)
 
@@ -1070,8 +976,6 @@ You should return 2, since bishops 1 and 3 attack each other, as well as bishops
 
 [Solution](https://k5kc.com/cs/algorithms/bishop-diagonally-attack-on-chess-board-problem/)
 
----
-
 ### Problem 69 (Easy)
 
 > This problem was asked by Facebook.
@@ -1083,8 +987,6 @@ For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since th
 You can assume the list has at least three integers
 
 [Solution](https://k5kc.com/cs/algorithms/maximum-product-of-three-numbers-problem/)
-
----
 
 ### Problem 70 (Easy)
 
@@ -1098,8 +1000,6 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 
 [Solution](https://k5kc.com/cs/algorithms/nth-number-with-sum-of-digits-as-10/)
 
----
-
 ### Problem 71 (Easy)
 
 > This problem was asked by Two Sigma.
@@ -1107,8 +1007,6 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive)
 
 [Solution](https://k5kc.com/cs/algorithms/implement-rand5-using-rand7-/)
-
----
 
 ### Problem 72 (Hard)
 
@@ -1142,8 +1040,6 @@ Should return null, since we have an infinite loop.
 
 [Solution](https://k5kc.com/cs/algorithms/largest-value-path-in-a-directed-graph-problem/)
 
----
-
 ### Problem 73 (Easy)
 
 > This problem was asked by Google.
@@ -1151,8 +1047,6 @@ Should return null, since we have an infinite loop.
 Given the head of a singly linked list, reverse it in-place.
 
 [Solution](https://k5kc.com/cs/algorithms/reverse-linked-list-problem/)
-
----
 
 ### Problem 74 (Medium)
 
@@ -1180,8 +1074,6 @@ And there are 4 12's in the table.
 
 [Solution](https://k5kc.com/cs/algorithms/number-of-cells-in-multiplication-table-containing-x/)
 
----
-
 ### Problem 75 (Hard)
 
 > This problem was asked by Microsoft.
@@ -1191,8 +1083,6 @@ Given an array of numbers, find the length of the longest increasing subsequence
 For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 
 [Solution](https://k5kc.com/cs/algorithms/longest-increasing-subsequence-lis-problem/)
-
----
 
 ### Problem 76 (Medium)
 
@@ -1236,7 +1126,7 @@ tsr
 
 Your function should return 3, since we would need to remove all the columns to order it.
 
----
+[Solution](https://k5kc.com/cs/algorithms/minimum-columns-to-remove-for-lexicographical-order-in-matrix-problem/)
 
 ### Problem 77 (Easy)
 
@@ -1250,8 +1140,6 @@ For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3
 
 [Solution](https://k5kc.com/cs/algorithms/merge-overlapping-intervals/)
 
----
-
 ### Problem 78 (Medium)
 
 > This problem was asked recently by Google.
@@ -1259,8 +1147,6 @@ For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
 [Solution](https://k5kc.com/cs/algorithms/merge-k-sorted-lists/)
-
----
 
 ### Problem 79 (Medium)
 
@@ -1273,8 +1159,6 @@ For example, given the array [10, 5, 7], you should return true, since we can mo
 Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
 
 [Solution](https://k5kc.com/cs/algorithms/non-decreasing-array-problem/)
-
----
 
 ### Problem 80 (Easy)
 
@@ -1292,8 +1176,6 @@ d
 
 [Solution](https://k5kc.com/cs/algorithms/find-deepest-node-in-a-binary-tree/)
 
----
-
 ### Problem 81 (Easy)
 
 > This problem was asked by Yelp.
@@ -1304,8 +1186,6 @@ For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f
 
 [Solution](https://k5kc.com/cs/algorithms/letter-combinations-of-a-phone-number-problem/)
 
----
-
 ### Problem 82 (Easy)
 
 > This problem was asked Microsoft.
@@ -1314,8 +1194,6 @@ Using a read7() method that returns 7 characters from a file, implement readN(n)
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
 
-
----
 
 ### Problem 83 (Medium)
 
@@ -1345,8 +1223,6 @@ should become:
 
 [Solution](https://k5kc.com/cs/algorithms/invert-binary-tree-problem/)
 
----
-
 ### Problem 84 (Medium)
 
 > This problem was asked by Amazon.
@@ -1366,15 +1242,11 @@ For example, this matrix has 4 islands.
 
 [Solution](https://k5kc.com/cs/algorithms/number-of-islands/)
 
----
-
 ### Problem 85 (Medium)
 
 > This problem was asked by Facebook.
 
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
-
----
 
 ### Problem 86 (Medium)
 
@@ -1430,8 +1302,6 @@ Implement division of two positive integers without using the division, multipli
 
 [Solution](https://k5kc.com/cs/algorithms/divide-two-integers-problem/)
 
----
-
 ### Problem 89 (Medium)
 
 > This problem was asked by LinkedIn.
@@ -1442,8 +1312,6 @@ A binary search tree is a tree with two children, `left` and `right`, and satisf
 
 [Solution](https://k5kc.com/cs/algorithms/validate-binary-search-tree-problem/)
 
----
-
 ### Problem 90 (Medium)
 
 > This question was asked by Google.
@@ -1451,8 +1319,6 @@ A binary search tree is a tree with two children, `left` and `right`, and satisf
 Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
 
 [Solution](https://k5kc.com/cs/algorithms/random-pick-with-blacklist-problem/)
-
----
 
 ### Problem 91 (Easy)
 
@@ -1468,8 +1334,6 @@ for i in range(10):
 for f in functions:
     print(f())
 ```
-
----
 
 ### Problem 92 (Hard)
 
@@ -1489,15 +1353,11 @@ Given a tree, find the largest tree/subtree that is a BST.
 
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
----
-
 ### Problem 94 (Easy)
 
 > This problem was asked by Google.
 
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
-
----
 
 ### Problem 95 (Hard)
 
@@ -1509,8 +1369,6 @@ For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` shou
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
----
-
 ### Problem 96 (Easy)
 
 > This problem was asked by Microsoft.
@@ -1518,8 +1376,6 @@ Can you perform the operation without allocating extra memory (disregarding the 
 Given a number in the form of a list of digits, return all possible permutations.
 
 For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
-
----
 
 ### Problem 97 (Medium)
 
@@ -1549,8 +1405,6 @@ d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
 
----
-
 ### Problem 98 (Easy)
 
 > This problem was asked by Coursera.
@@ -1571,8 +1425,6 @@ For example, given the following board:
 
 `exists(board, "ABCCED")` returns `true`, `exists(board, "SEE")` returns `true`, `exists(board, "ABCB")` returns `false`.
 
----
-
 ### Problem 99 (Medium)
 
 > This problem was asked by Microsoft.
@@ -1582,8 +1434,6 @@ Given an unsorted array of integers, find the length of the longest consecutive 
 For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element sequence is `[1, 2, 3, 4]`. Return its length: `4`.
 
 Your algorithm should run in `O(n)` complexity.
-
----
 
 ### Problem 100 (Easy)
 
@@ -1613,8 +1463,6 @@ Output: 2
 ```
 
 It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to move from `(1, 1)`to `(1, 2)`.
-
----
 
 ### Problem 101 (Easy)
 
@@ -2216,8 +2064,6 @@ You can assume that you can do some pre-processing. `sum()` should be optimized 
 Given a list of points, a central point, and an integer `k`, find the nearest `k` points from the central point.
 
 For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`
-
----
 
 ### Problem 151 (Medium)
 
@@ -2878,8 +2724,6 @@ Let X be a set of n intervals on the real line. We say that a set of points P "s
 
 For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should return `[4, 9]`.
 
----
-
 ### Problem 201 (Easy)
 
 This problem was asked by Google.
@@ -2898,8 +2742,6 @@ Write a program that returns the weight of the maximum weight path.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution201.java)
 
----
-
 ### Problem 202 (Easy)
 
 This problem was asked by Palantir.
@@ -2907,8 +2749,6 @@ This problem was asked by Palantir.
 Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution202.java)
-
----
 
 ### Problem 203 (Medium)
 
@@ -2920,8 +2760,6 @@ For example, given `[5, 7, 10, 3, 4]`, return `3`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution203.java)
 
----
-
 ### Problem 204 (Easy)
 
 > This problem was asked by Amazon.
@@ -2930,8 +2768,6 @@ Given a complete binary tree, count the number of nodes in faster than `O(n)` ti
 
 [Solution](https://k5kc.com/cs/algorithms/count-complete-tree-nodes-problem/)
 
----
-
 ### Problem 205 (Easy)
 
 This problem was asked by IBM.
@@ -2939,8 +2775,6 @@ This problem was asked by IBM.
 Given an integer, find the next permutation of it in absolute order. For example, given `48975`, the next permutation would be `49578`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution205.java)
-
----
 
 ### Problem 206 (Easy)
 
@@ -2952,8 +2786,6 @@ Given an array and a permutation, apply the permutation to the array. For exampl
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution206.java)
 
----
-
 ### Problem 207 (Medium)
 
 This problem was asked by Dropbox.
@@ -2961,8 +2793,6 @@ This problem was asked by Dropbox.
 Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution207.java)
-
----
 
 ### Problem 208 (Medium)
 
@@ -2974,8 +2804,6 @@ For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solu
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution208.java)
 
----
-
 ### Problem 209 (Hard)
 
 This problem was asked by YouTube.
@@ -2983,8 +2811,6 @@ This problem was asked by YouTube.
 Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution209.java)
-
----
 
 ### Problem 210 (Easy)
 
@@ -3000,8 +2826,6 @@ Bonus: What input `n <= 1000000` gives the longest sequence?
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution210.java)
 
----
-
 ### Problem 211 (Medium)
 
 This problem was asked by Microsoft.
@@ -3009,8 +2833,6 @@ This problem was asked by Microsoft.
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution211.java)
-
----
 
 ### Problem 212 (Easy)
 
@@ -3021,8 +2843,6 @@ Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C"
 Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution212.java)
-
----
 
 ### Problem 213 (Medium)
 
@@ -3036,8 +2856,6 @@ For example, given "2542540123", you should return `['254.25.40.123', '254.254.0
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution213.java)
 
----
-
 ### Problem 214 (Easy)
 
 This problem was asked by Stripe.
@@ -3047,8 +2865,6 @@ Given an integer `n`, return the length of the longest consecutive run of `1`s i
 For example, given `156`, you should return `3`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution214.java)
-
----
 
 ### Problem 215 (Medium)
 
@@ -3082,8 +2898,6 @@ Given the root to a binary tree, return its bottom view.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution215.java)
 
----
-
 ### Problem 216 (Medium)
 
 > This problem was asked by Facebook.
@@ -3110,8 +2924,6 @@ For the input `XIV`, for instance, you should return `14`.
 
 [Solution](https://k5kc.com/cs/algorithms/roman-to-integer-problem/)
 
----
-
 ### Problem 217 (Hard)
 
 This problem was asked by Oracle.
@@ -3122,8 +2934,6 @@ Do this in faster than `O(N log N)` time.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution217.java)
 
----
-
 ### Problem 218 (Medium)
 
 This problem was asked by Yahoo.
@@ -3131,8 +2941,6 @@ This problem was asked by Yahoo.
 Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A -> B -> C`, it should become `A <- B <- C`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution218.java)
-
----
 
 ### Problem 219 (Hard)
 
@@ -3143,8 +2951,6 @@ Connect 4 is a game where opponents take turns dropping red or black discs into 
 Design and implement Connect 4.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution219.java)
-
----
 
 ### Problem 220 (Medium)
 
@@ -3158,8 +2964,6 @@ Write a program that returns the maximum amount of money you can win with certai
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution220.java)
 
----
-
 ### Problem 221 (Easy)
 
 This problem was asked by Zillow.
@@ -3167,8 +2971,6 @@ This problem was asked by Zillow.
 Let's define a "sevenish" number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1, 7, 8, 49`, and so on. Create an algorithm to find the `n`th sevenish number.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution221.java)
-
----
 
 ### Problem 222 (Medium)
 
@@ -3180,8 +2982,6 @@ For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution222.java)
 
----
-
 ### Problem 223 (Hard)
 
 > This problem was asked by Palantir.
@@ -3189,8 +2989,6 @@ For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution223.java)
-
----
 
 ### Problem 224 (Easy)
 
@@ -3203,8 +3001,6 @@ For example, for the input `[1, 2, 3, 10]`, you should return `7`.
 Do this in `O(N)` time.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution224.java)
-
----
 
 ### Problem 225 (Easy)
 
@@ -3220,8 +3016,6 @@ Bonus: Find an `O(log N)` solution if `k = 2`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution225.java)
 
----
-
 ### Problem 226 (Hard)
 
 This problem was asked by Airbnb.
@@ -3232,8 +3026,6 @@ For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `[
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution226.java)
 
----
-
 ### Problem 227 (Easy)
 
 This problem was asked by Facebook.
@@ -3242,8 +3034,6 @@ Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as man
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution227.java)
 
----
-
 ### Problem 228 (Medium)
 
 This problem was asked by Twitter.
@@ -3251,8 +3041,6 @@ This problem was asked by Twitter.
 Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, you should return `77641510`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution228.java)
-
----
 
 ### Problem 229 (Medium)
 
@@ -3271,8 +3059,6 @@ ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution229.java)
 
----
-
 ### Problem 230 (Medium)
 
 > This problem was asked by Goldman Sachs.
@@ -3285,8 +3071,6 @@ For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at eve
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution230.java)
 
----
-
 ### Problem 231 (Easy)
 
 This problem was asked by IBM.
@@ -3296,8 +3080,6 @@ Given a string with repeated characters, rearrange the string so that no two adj
 For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution231.java)
-
----
 
 ### Problem 232 (Easy)
 
@@ -3320,8 +3102,6 @@ assert mapsum.sum("col") == 5
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution232.java)
 
----
-
 ### Problem 233 (Easy)
 
 This problem was asked by Apple.
@@ -3329,8 +3109,6 @@ This problem was asked by Apple.
 Implement the function `fib(n)`, which returns the `nth` number in the Fibonacci sequence, using only `O(1)` space.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution233.java)
-
----
 
 ### Problem 234 (Hard)
 
@@ -3340,8 +3118,6 @@ Recall that the minimum spanning tree is the subset of edges of a tree that conn
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution234.java)
 
----
-
 ### Problem 235 (Hard)
 
 This problem was asked by Facebook.
@@ -3349,8 +3125,6 @@ This problem was asked by Facebook.
 Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution235.java)
-
----
 
 ### Problem 236 (Medium)
 
@@ -3361,8 +3135,6 @@ You are given a list of `N` points `(x1, y1), (x2, y2), ..., (xN, yN)` represent
 Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution236.md)
-
----
 
 ### Problem 237 (Easy)
 
@@ -3382,8 +3154,6 @@ Given a k-ary tree, determine whether it is symmetric.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution237.java)
 
----
-
 ### Problem 238 (Hard)
 
 This problem was asked by MIT.
@@ -3400,8 +3170,6 @@ For this problem, cards values are counted as follows: each card between `2` and
 Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution238.java)
-
----
 
 ### Problem 239 (Medium)
 
@@ -3420,8 +3188,6 @@ Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9
 
 [Solution](https://k5kc.com/cs/algorithms/android-unlock-patterns-problem/)
 
----
-
 ### Problem 240 (Hard)
 
 This problem was asked by Spotify.
@@ -3431,8 +3197,6 @@ There are `N` couples sitting in a row of length `2 * N`. They are currently ord
 What is the minimum number of swaps necessary for this to happen?
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution240.md)
-
----
 
 ### Problem 241 (Easy)
 
@@ -3448,8 +3212,6 @@ Given a list of paper citations of a researcher, calculate their h-index.
 
 [Solution](https://k5kc.com/cs/algorithms/get-equal-substrings-within-budget/)
 
----
-
 ### Problem 242 (Hard)
 
 This problem was asked by Twitter.
@@ -3463,8 +3225,6 @@ You can assume that all values get cleared at the end of the day, and that you w
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution242.java)
 
----
-
 ### Problem 243 (Medium)
 
 This problem was asked by Etsy.
@@ -3474,8 +3234,6 @@ Given an array of numbers `N` and an integer `k`, your task is to split `N` into
 For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, since the optimal partition is `[5, 1, 2], [7], [3, 4]`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution243.java)
-
----
 
 ### Problem 244 (Easy)
 
@@ -3491,8 +3249,6 @@ Bonus: Create a generator that produces primes indefinitely (that is, without ta
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution244.java)
 
----
-
 ### Problem 245 (Medium)
 
 This problem was asked by Yelp.
@@ -3502,8 +3258,6 @@ You are given an array of integers, where each element represents the maximum nu
 For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as the optimal solution involves jumping from `6` to `5`, and then from `5` to `9`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution245.java)
-
----
 
 ### Problem 246 (Medium)
 
@@ -3515,8 +3269,6 @@ For example, the words `['chair', 'height', 'racket', 'touch', 'tunic']` can for
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution246.java)
 
----
-
 ### Problem 247 (Medium)
 
 This problem was asked by PayPal.
@@ -3524,8 +3276,6 @@ This problem was asked by PayPal.
 Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution247.java)
-
----
 
 ### Problem 248 (Hard)
 
@@ -3535,8 +3285,6 @@ Find the maximum of two numbers without using any if-else statements, branching,
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution248.java)
 
----
-
 ### Problem 249 (Hard)
 
 This problem was asked by Salesforce.
@@ -3544,8 +3292,6 @@ This problem was asked by Salesforce.
 Given an array of integers, find the maximum XOR of any two elements.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution249.java)
-
----
 
 ### Problem 250 (Medium)
 
@@ -3572,8 +3318,6 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution250.java)
 
----
-
 ### Problem 251 (Medium)
 
 This problem was asked by Amazon.
@@ -3581,8 +3325,6 @@ This problem was asked by Amazon.
 Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution251.md)
-
----
 
 ### Problem 252 (Easy)
 
@@ -3593,8 +3335,6 @@ The ancient Egyptians used to express fractions as a sum of several terms where 
 Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an Egyptian fraction.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution252.java)
-
----
 
 ### Problem 253 (Medium)
 
@@ -3612,8 +3352,6 @@ t     a     g
 ```
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution253.java)
-
----
 
 ### Problem 254 (Medium)
 
@@ -3645,8 +3383,6 @@ You should convert it to:
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution254.java)
 
----
-
 ### Problem 255 (Easy)
 
 This problem was asked by Microsoft.
@@ -3677,8 +3413,6 @@ Given a graph, find its transitive closure.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution255.java)
 
----
-
 ### Problem 256 (Medium)
 
 This problem was asked by Fitbit.
@@ -3687,8 +3421,6 @@ Given a linked list, rearrange the node values such that they appear in alternat
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution256.java)
 
----
-
 ### Problem 257 (Easy)
 
 This problem was asked by WhatsApp.
@@ -3696,8 +3428,6 @@ This problem was asked by WhatsApp.
 Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given `[3, 7, 5, 6, 9]`, you should return `(1, 3)`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution257.java)
-
----
 
 ### Problem 258 (Easy)
 
@@ -3721,8 +3451,6 @@ You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution258.java)
 
----
-
 ### Problem 259 (Hard)
 
 This problem was asked by Two Sigma.
@@ -3741,8 +3469,6 @@ For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only win
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution259.java)
 
----
-
 ### Problem 260 (Medium)
 
 This problem was asked by Pinterest.
@@ -3750,8 +3476,6 @@ This problem was asked by Pinterest.
 The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given `[None, +, +, -, +]`, you could return `[1, 2, 3, 0, 4]`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution260.java)
-
----
 
 ### Problem 261 (Easy)
 
@@ -3777,8 +3501,6 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution261.java)
 
----
-
 ### Problem 262 (Medium)
 
 This problem was asked by Mozilla.
@@ -3786,8 +3508,6 @@ This problem was asked by Mozilla.
 A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution262.md)
-
----
 
 ### Problem 263 (Medium)
 
@@ -3804,8 +3524,6 @@ We can consider a sentence valid if it conforms to the following rules:
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution263.java)
 
----
-
 ### Problem 264 (Hard)
 
 This problem was asked by LinkedIn.
@@ -3817,8 +3535,6 @@ For example, suppose `C = {0, 1}` and `k = 3`. Then our sequence should contain 
 Create an algorithm that finds a De Bruijn sequence.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution264.java)
-
----
 
 ### Problem 265 (Easy)
 
@@ -3832,8 +3548,6 @@ For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution265.java)
 
----
-
 ### Problem 266 (Easy)
 
 This problem was asked by Pivotal.
@@ -3843,8 +3557,6 @@ A step word is formed by taking a given word, adding a letter, and anagramming t
 Given a dictionary of words and an input word, create a function that returns all valid step words.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution266.java)
-
----
 
 ### Problem 267 (Hard)
 
@@ -3871,8 +3583,6 @@ You should return `True`, since the bishop is attacking the king diagonally.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution267.java)
 
----
-
 ### Problem 268 (Medium)
 
 This problem was asked by Indeed.
@@ -3880,8 +3590,6 @@ This problem was asked by Indeed.
 Given a 32-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution268.java)
-
----
 
 ### Problem 269 (Easy)
 
@@ -3900,8 +3608,6 @@ For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
 Given the string `..R...L.L`, you should return `..RR.LLLL`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution269.java)
-
----
 
 ### Problem 270 (Medium)
 
@@ -3929,8 +3635,6 @@ You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` w
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution270.java)
 
----
-
 ### Problem 271 (Hard)
 
 This problem was asked by Netflix.
@@ -3940,8 +3644,6 @@ Given a sorted list of integers of length `N`, determine if an element `x` is in
 Do this in `O(log N)` time.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution271.java)
-
----
 
 ### Problem 272 (Medium)
 
@@ -3953,8 +3655,6 @@ For example, `throw_dice(3, 6, 7)` should equal `15`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution272.java)
 
----
-
 ### Problem 273 (Easy)
 
 > This problem was asked by Apple.
@@ -3964,8 +3664,6 @@ A fixed point in an array is an element whose value is equal to its index. Given
 For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
 
 [Solution](https://k5kc.com/cs/algorithms/find-fixed-point-in-sorted-array/)
-
----
 
 ### Problem 274 (Hard)
 
@@ -3978,8 +3676,6 @@ Don't use eval or a similar built-in parser.
 For example, given `'-1 + (2 + 3)'`, you should return `4`.
 
 [Solution](https://k5kc.com/cs/algorithms/basic-calculator-1-problem/)
-
----
 
 ### Problem 275 (Medium)
 
@@ -4001,8 +3697,6 @@ Given an integer `N`, print the `Nth` term of this sequence.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution275.java)
 
----
-
 ### Problem 276 (Hard)
 
 This problem was asked by Dropbox.
@@ -4014,8 +3708,6 @@ That is, given a string of length `N` and a pattern of length `k`, write a progr
 If the pattern is found, return the start index of its location. If not, return `False`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution276.java)
-
----
 
 ### Problem 277 (Easy)
 
@@ -4042,8 +3734,6 @@ Write a program that takes in an array of integers representing byte values, and
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution277.java)
 
----
-
 ### Problem 278 (Easy)
 
 This problem was asked by Amazon.
@@ -4051,8 +3741,6 @@ This problem was asked by Amazon.
 Given an integer `N`, construct all possible binary search trees with `N` nodes.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution278.java)
-
----
 
 ### Problem 279 (Easy)
 
@@ -4078,8 +3766,6 @@ Given a friendship list such as the one above, determine the number of friend gr
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution279.java)
 
----
-
 ### Problem 280 (Easy)
 
 This problem was asked by Pandora.
@@ -4087,8 +3773,6 @@ This problem was asked by Pandora.
 Given an undirected graph, determine if it contains a cycle.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution280.java)
-
----
 
 ### Problem 281 (Medium)
 
@@ -4113,8 +3797,6 @@ Given an input consisting of brick lengths for each row such as the one above, r
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution281.java)
 
----
-
 ### Problem 282 (Easy)
 
 This problem was asked by Netflix.
@@ -4122,8 +3804,6 @@ This problem was asked by Netflix.
 Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a^2 + b^2 = c^2`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution282.java)
-
----
 
 ### Problem 283 (Easy)
 
@@ -4136,8 +3816,6 @@ These numbers have had many applications, from helping ancient Babylonians keep 
 Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution283.java)
-
----
 
 ### Problem 284 (Medium)
 
@@ -4157,8 +3835,6 @@ Given a binary tree and a particular node, find all cousins of that node.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution284.java)
 
----
-
 ### Problem 285 (Medium)
 
 > This problem was asked by Mailchimp.
@@ -4170,8 +3846,6 @@ For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since 
 Can you do this using just one forward pass through the array?
 
 [Solution](https://k5kc.com/cs/algorithms/buildings-with-sunset-view-problem/)
-
----
 
 ### Problem 286 (Hard)
 
@@ -4197,8 +3871,6 @@ As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution286.java)
 
----
-
 ### Problem 287 (Medium)
 
 This problem was asked by Quora.
@@ -4219,8 +3891,6 @@ Then a reasonable similarity metric would most likely conclude that `a` and `e` 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution287.java)
 
----
-
 ### Problem 288 (Medium)
 
 This problem was asked by Salesforce.
@@ -4239,8 +3909,6 @@ For example, this algorithm terminates in three steps when starting from `1234`:
 Write a function that returns how many steps this will take for a given input `N`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution288.java)
-
----
 
 ### Problem 289 (Hard)
 
@@ -4262,8 +3930,6 @@ In other words, to start, the first player takes three items from pile `B`. The 
 Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution289.java)
-
----
 
 ### Problem 290 (Easy)
 
@@ -4287,8 +3953,6 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution290.java)
 
----
-
 ### Problem 291 (Medium)
 
 This problem was asked by Glassdoor.
@@ -4298,8 +3962,6 @@ An imminent hurricane threatens the coastal town of Codeville. If at most two pe
 For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution291.java)
-
----
 
 ### Problem 292 (Hard)
 
@@ -4337,8 +3999,6 @@ students = {
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution292.java)
 
----
-
 ### Problem 293 (Hard)
 
 This problem was asked by Uber.
@@ -4350,8 +4010,6 @@ You can change the height of any stone by paying a cost of `1` unit to lower its
 For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution293.java)
-
----
 
 ### Problem 294 (Medium)
 
@@ -4381,8 +4039,6 @@ In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distan
 
 [Solution](https://k5kc.com/cs/algorithms/shortest-uphill-downhill-route-for-a-competitive-runner/)
 
----
-
 ### Problem 295 (Medium)
 
 > This problem was asked by Stitch Fix.
@@ -4408,8 +4064,6 @@ Bonus: Can you do this using only `O(k)` space?
 
 [Solution](https://k5kc.com/cs/algorithms/pascal-s-triangle-1-generate-first-n-rows/)
 
----
-
 ### Problem 296 (Hard)
 
 This problem was asked by Etsy.
@@ -4417,8 +4071,6 @@ This problem was asked by Etsy.
 Given a sorted array, convert it into a height-balanced binary search tree.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution296.java)
-
----
 
 ### Problem 297 (Medium)
 
@@ -4442,8 +4094,6 @@ For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution297.java)
 
----
-
 ### Problem 298 (Easy)
 
 This problem was asked by Google.
@@ -4455,8 +4105,6 @@ Given an input describing the types of apples she will pass on her path, in orde
 For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion will involve types `1` and `3`, with a length of four.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution298.java)
-
----
 
 ### Problem 299 (Medium)
 
@@ -4484,8 +4132,6 @@ pipes = {
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution299.java)
 
----
-
 ### Problem 300 (Easy)
 
 This problem was asked by Uber.
@@ -4493,8 +4139,6 @@ This problem was asked by Uber.
 On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution300.java)
-
----
 
 ### Problem 301 (Medium)
 
@@ -4508,8 +4152,6 @@ Implement a data structure which carries out the following operations without re
 The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution301.java)
-
----
 
 ### Problem 302 (Medium)
 
@@ -4529,8 +4171,6 @@ Considering the edges of the matrix as boundaries, this divides the grid into th
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution302.java)
 
----
-
 ### Problem 303 (Easy)
 
 This problem was asked by Microsoft.
@@ -4540,8 +4180,6 @@ Given a clock time in `hh:mm` format, determine, to the nearest degree, the angl
 Bonus: When, during the course of a day, will the angle be zero?
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution303.java)
-
----
 
 ### Problem 304 (Hard)
 
@@ -4553,8 +4191,6 @@ After `k` moves, what is the probability that the knight remains on the board?
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution304.java)
 
----
-
 ### Problem 305 (Easy)
 
 This problem was asked by Amazon.
@@ -4564,8 +4200,6 @@ Given a linked list, remove all consecutive nodes that sum to zero. Print out th
 For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution305.java)
-
----
 
 ### Problem 306 (Medium)
 
@@ -4577,8 +4211,6 @@ Come up with an algorithm that sorts this list in `O(N log k)` time.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution306.java)
 
----
-
 ### Problem 307 (Easy)
 
 This problem was asked by Oracle.
@@ -4588,8 +4220,6 @@ Given a binary search tree, find the floor and ceiling of a given integer. The f
 If either value does not exist, return None.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution307.java)
-
----
 
 ### Problem 308 (Hard)
 
@@ -4606,8 +4236,6 @@ For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, the
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution308.java)
 
----
-
 ### Problem 309 (Medium)
 
 This problem was asked by Walmart Labs.
@@ -4619,8 +4247,6 @@ For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]
 Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution309.java)
-
----
 
 ### Problem 310 (Easy)
 
@@ -4639,8 +4265,6 @@ Given a array that's sorted but rotated at some unknown pivot, in which all elem
 An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution311.java)
-
----
 
 ### Problem 312 (Easy)
 
@@ -4662,8 +4286,6 @@ Given an integer `N`, determine in how many ways this task is possible.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution312.java)
 
----
-
 ### Problem 313 (Hard)
 
 This problem was asked by Citrix.
@@ -4676,8 +4298,6 @@ Let us consider a "move" to be a rotation of a single wheel by one digit, in eit
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution313.java)
 
----
-
 ### Problem 314 (Medium)
 
 This problem was asked by Spotify.
@@ -4689,8 +4309,6 @@ Given a list of `N` listeners, and a list of `M` radio towers, each placed at va
 For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution314.java)
-
----
 
 ### Problem 315 (Easy)
 
@@ -4711,8 +4329,6 @@ Write a program to determine whether a given input is a Toeplitz matrix.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution315.java)
 
----
-
 ### Problem 316 (Medium)
 
 This problem was asked by Snapchat.
@@ -4723,8 +4339,6 @@ Given such an array, determine the denominations that must be in use. In the cas
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution316.java)
 
----
-
 ### Problem 317 (Medium)
 
 This problem was asked by Yahoo.
@@ -4732,8 +4346,6 @@ This problem was asked by Yahoo.
 Write a function that returns the bitwise `AND` of all integers between `M` and `N`, inclusive.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution317.java)
-
----
 
 ### Problem 318 (Hard)
 
@@ -4745,8 +4357,6 @@ Given `N`, `M`, and `B`, determine the number of valid playlists.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution318.java)
 
----
-
 ### Problem 319 (Hard)
 
 This problem was asked by Airbnb.
@@ -4757,8 +4367,6 @@ Design a class to represent the board, and find a series of steps to bring the b
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution319.java)
 
----
-
 ### Problem 320 (Medium)
 
 This problem was asked by Amazon.
@@ -4768,8 +4376,6 @@ Given a string, find the length of the smallest window that contains every disti
 For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution320.java)
-
----
 
 ### Problem 321 (Easy)
 
@@ -4786,8 +4392,6 @@ For example, given `100`, you can reach `1` in five steps with the following rou
 
 [Solution](https://k5kc.com/cs/algorithms/minimum-steps-to-reduce-number-to-1/)
 
----
-
 ### Problem 322 (Medium)
 
 > This problem was asked by Flipkart.
@@ -4800,8 +4404,6 @@ Find a path with the fewest number of jumps required to get from `0` to `N`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution322.java)
 
----
-
 ### Problem 323 (Medium)
 
 > This problem was asked by Dropbox.
@@ -4811,8 +4413,6 @@ Create an algorithm to efficiently compute the approximate median of a list of n
 More precisely, given an unordered list of `N` numbers, find an element whose rank is between `N / 4` and `3 * N / 4`, with a high level of certainty, in less than `O(N)` time.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution323.java)
-
----
 
 ### Problem 324 (Easy)
 
@@ -4826,8 +4426,6 @@ For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes a
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution324.java)
 
----
-
 ### Problem 325 (Easy)
 
 This problem was asked by Jane Street.
@@ -4837,8 +4435,6 @@ The United States uses the imperial system of weights and measures, which means 
 Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution325.java)
-
----
 
 ### Problem 326 (Hard)
 
@@ -4862,8 +4458,6 @@ Given a sequence `S`, construct the corresponding Cartesian tree.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution326.java)
 
----
-
 ### Problem 327 (Easy)
 
 This problem was asked by Salesforce.
@@ -4873,8 +4467,6 @@ Write a program to merge two binary trees. Each node in the new tree should hold
 If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution327.java)
-
----
 
 ### Problem 328 (Medium)
 
@@ -4887,8 +4479,6 @@ A simplified description of the Elo system is as follows. Every player begins at
 Implement this system.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution328.java)
-
----
 
 ### Problem 329 (Hard)
 
@@ -4917,8 +4507,6 @@ Write an algorithm that pairs the men and women together in such a way that no t
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution329.java)
 
----
-
 ### Problem 330 (Hard)
 
 This problem was asked by Dropbox.
@@ -4939,8 +4527,6 @@ Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or ret
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution330.java)
 
----
-
 ### Problem 331 (Medium)
 
 This problem was asked by LinkedIn.
@@ -4950,8 +4536,6 @@ You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy
 Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution331.java)
-
----
 
 ### Problem 332 (Easy)
 
@@ -4964,8 +4548,6 @@ Given integers `M` and `N`, write a program that counts how many positive intege
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution332.java)
 
----
-
 ### Problem 333 (Medium)
 
 This problem was asked by Pinterest.
@@ -4975,8 +4557,6 @@ At a party, there is a single person who everyone knows, but who does not know a
 Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
 
 [Solution](https://k5kc.com/cs/algorithms/find-the-celebrity-problem/)
-
----
 
 ### Problem 334 (Easy)
 
@@ -4989,8 +4569,6 @@ For example, given the input `[5, 2, 7, 8]`, you should return True, since `(5 *
 Write a function that plays the `24` game.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution334.java)
-
----
 
 ### Problem 335 (Hard)
 
@@ -5010,8 +4588,6 @@ Given a directed graph of links between various websites, write a program that c
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution335.java)
 
----
-
 ### Problem 336 (Medium)
 
 This problem was asked by Microsoft.
@@ -5028,8 +4604,6 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution336.java)
 
----
-
 ### Problem 337 (Hard)
 
 This problem was asked by Apple.
@@ -5037,8 +4611,6 @@ This problem was asked by Apple.
 Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution337.java)
-
----
 
 ### Problem 338 (Medium)
 
@@ -5048,8 +4620,6 @@ Given an integer `n`, find the next biggest integer with the same number of `1`-
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution338.java)
 
----
-
 ### Problem 339 (Easy)
 
 This problem was asked by Microsoft.
@@ -5058,8 +4628,6 @@ Given an array of numbers and a number `k`, determine if there are three entries
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution339.java)
 
----
-
 ### Problem 340 (Easy)
 
 This problem was asked by Google.
@@ -5067,8 +4635,6 @@ This problem was asked by Google.
 Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution340.java)
-
----
 
 ### Problem 341 (Easy)
 
@@ -5101,8 +4667,6 @@ Your function should return 3, since we can make the words 'eat', 'in', and 'rat
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution341.java)
 
----
-
 ### Problem 342 (Medium)
 
 This problem was asked by Stripe.
@@ -5123,8 +4687,6 @@ Implement your own version of `reduce`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution342.java)
 
----
-
 ### Problem 343 (Medium)
 
 This problem was asked by Google.
@@ -5144,8 +4706,6 @@ For example, given the following tree:
 and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution343.java)
-
----
 
 ### Problem 344 (Hard)
 
@@ -5171,8 +4731,6 @@ Write a function that returns the _maximum_ number of edges you can remove while
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution344.java)
 
----
-
 ### Problem 345 (Medium)
 
 This problem was asked by Google.
@@ -5189,8 +4747,6 @@ Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: 
 Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution345.java)
-
----
 
 ### Problem 346 (Medium)
 
@@ -5218,8 +4774,6 @@ Due to some improbably low flight prices, the cheapest itinerary would be `JFK -
 
 [Solution](https://k5kc.com/cs/algorithms/cheapest-flights-within-k-stops-problem/)
 
----
-
 ### Problem 347 (Easy)
 
 This problem was asked by Yahoo.
@@ -5231,8 +4785,6 @@ Write a program to determine the lexicographically smallest string that can be c
 For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution347.java)
-
----
 
 ### Problem 348 (Easy)
 
@@ -5262,8 +4814,6 @@ Implement insertion and search functions for a ternary search tree.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution348.java)
 
----
-
 ### Problem 349 (Hard)
 
 > This problem was asked by Grammarly.
@@ -5290,8 +4840,6 @@ Using this scheme, `Jackson` and `Jaxen` both map to `J250`.
 
 Implement Soundex.
 
----
-
 ### Problem 350 (Medium)
 
 This problem was asked by Uber.
@@ -5305,8 +4853,6 @@ Here are a few examples:
 - Given `N = 18`, return `2` `(9 + 9)`
 
 [Solution](https://k5kc.com/cs/algorithms/least-number-of-perfect-squares-that-sums-to-n/)
-
----
 
 ### Problem 351 (Hard)
 
@@ -5328,8 +4874,6 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution351.md)
 
----
-
 ### Problem 352 (Easy)
 
 This problem was asked by Palantir.
@@ -5344,8 +4888,6 @@ A typical American-style crossword puzzle grid is an `N x N` matrix with black a
 Write a program to determine whether a given matrix qualifies as a crossword grid.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution352.md)
-
----
 
 ### Problem 353 (Medium)
 
@@ -5365,8 +4907,6 @@ Determine the area of the largest rectangle that can be formed only from the bar
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution353.java)
 
----
-
 ### Problem 354 (Hard)
 
 > This problem was asked by Google.
@@ -5384,8 +4924,6 @@ Some questions you may want to consider as part of your solution are:
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution354.md)
 
----
-
 ### Problem 355 (Hard)
 
 This problem was asked by Airbnb.
@@ -5401,8 +4939,6 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution355.java)
 
----
-
 ### Problem 356 (Hard)
 
 This problem was asked by Netflix.
@@ -5412,8 +4948,6 @@ Implement a queue using a set of fixed-length arrays.
 The queue should support `enqueue`, `dequeue`, and `get_size` operations.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution356.java)
-
----
 
 ### Problem 357 (Hard)
 
@@ -5433,8 +4967,6 @@ Given this representation, determine the depth of the tree.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution357.java)
 
----
-
 ### Problem 358 (Hard)
 
 This problem was asked by Dropbox.
@@ -5448,8 +4980,6 @@ Create a data structure that performs all the following operations in `O(1)` tim
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution358.java)
 
----
-
 ### Problem 359 (Easy)
 
 This problem was asked by Slack.
@@ -5462,8 +4992,6 @@ Given this string, return the original integers in sorted order. In the example 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution359.java)
 
----
-
 ### Problem 360 (Medium)
 
 This problem was asked by Spotify.
@@ -5475,8 +5003,6 @@ Given a set of these ranked lists, interleave them to create a playlist that sat
 For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution360.java)
-
----
 
 ### Problem 361 (Medium)
 
@@ -5502,8 +5028,6 @@ However, it is impossible for any key to result in the following scores, so in t
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution361.java)
 
----
-
 ### Problem 362 (Easy)
 
 > This problem was asked by Twitter.
@@ -5513,8 +5037,6 @@ A strobogrammatic number is a positive number that appears the same after being 
 Create a program that finds all strobogrammatic numbers with `N` digits.
 
 [Solution](https://k5kc.com/cs/algorithms/strobogrammatic-number-2-generate-for-length-n/)
-
----
 
 ### Problem 363 (Medium)
 
@@ -5528,8 +5050,6 @@ add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution363.java)
 
----
-
 ### Problem 364 (Medium)
 
 This problem was asked by Facebook.
@@ -5537,8 +5057,6 @@ This problem was asked by Facebook.
 Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution364.java)
-
----
 
 ### Problem 365 (Hard)
 
@@ -5553,8 +5071,6 @@ A quack is a data structure combining properties of both stacks and queues. It c
 Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution365.java)
-
----
 
 ### Problem 367 (Medium)
 
