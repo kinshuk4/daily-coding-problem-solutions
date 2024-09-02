@@ -6079,3 +6079,7 @@ Return the following 3 partitions:
 ```
 
 Which each add up to 8.
+
+### Problem 400 Onwards
+
+From here on the problems are repeating, hence moved to [repeating file](REPEATING.md).
