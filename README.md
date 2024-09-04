@@ -1194,6 +1194,7 @@ Using a read7() method that returns 7 characters from a file, implement readN(n)
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
 
+[Solution](https://k5kc.com/cs/algorithms/read-n-characters-given-read7/)
 
 ### Problem 83 (Medium)
 
@@ -2748,7 +2749,7 @@ This problem was asked by Palantir.
 
 Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution202.java)
+[Solution](https://k5kc.com/cs/algorithms/palindrome-number-problem/)
 
 ### Problem 203 (Medium)
 
