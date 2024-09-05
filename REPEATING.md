@@ -5599,3 +5599,7 @@ Same as [problem 202](README.md#problem-202-easy).
 ### Problem 1801 (Hard)
 
 Same as [problem 199](README.md#problem-199-hard).
+
+### Problem 1802 (Hard)
+
+Same as [problem 167](README.md#problem-167-hard).

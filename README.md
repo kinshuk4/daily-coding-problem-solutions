@@ -1336,6 +1336,8 @@ for f in functions:
     print(f())
 ```
 
+[Solution](https://k5kc.com/cs/pl/problems/capturing-loop-variables-in-lambdas-problem/)
+
 ### Problem 92 (Hard)
 
 > This problem was asked by Airbnb.
@@ -1345,6 +1347,8 @@ We're given a hashmap associating each `courseId` key with a list of `courseIds`
 Return null if there is no such ordering.
 
 For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
+
+[Solution](https://k5kc.com/cs/algorithms/course-schedule-2-get-ordered-courses/)
 
 ### Problem 93 (Hard)
 
