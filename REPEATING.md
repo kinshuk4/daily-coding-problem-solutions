@@ -5607,3 +5607,7 @@ Same as [problem 167](README.md#problem-167-hard).
 ### Problem 1803 (Medium)
 
 Same as [problem 120](README.md#problem-120-medium).
+
+### Problem 1804 (Medium)
+
+Same as [problem 164](README.md#problem-164-medium).

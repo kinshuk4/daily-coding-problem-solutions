@@ -1666,6 +1666,8 @@ For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of nu
 
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
 
+[Solution](https://k5kc.com/cs/pl/problems/alternating-two-instance-singleton-pattern-problem/)
+
 ### Problem 121 (Hard)
 
 > This problem was asked by Google.
