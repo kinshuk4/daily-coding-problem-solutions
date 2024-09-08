@@ -1249,6 +1249,8 @@ For example, this matrix has 4 islands.
 
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
 
+[Solution](https://k5kc.com/cs/algorithms/conditional-selection-between-x-and-y-with-bitwise-operations-problem/)
+
 ### Problem 86 (Medium)
 
 > This problem was asked by Google.
@@ -1262,7 +1264,7 @@ For example, given the string "()())()", you should return 1. Given the string "
 
 ### Problem 87 (Hard)
 
-This problem was asked by Uber.
+> This problem was asked by Uber.
 
 A rule looks like this:
 
@@ -1295,9 +1297,11 @@ A N B
 
 is considered valid.
 
+[Solution](https://k5kc.com/cs/algorithms/validating-consistency-of-directional-rules-between-points-problem/)
+
 ### Problem 88 (Medium)
 
-This question was asked by ContextLogic.
+> This question was asked by ContextLogic.
 
 Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
 
@@ -1358,6 +1362,8 @@ Given a tree, find the largest tree/subtree that is a BST.
 
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
+[Solution](https://k5kc.com/cs/algorithms/largest-binary-search-tree-bst-subtree/)
+
 ### Problem 94 (Easy)
 
 > This problem was asked by Google.
@@ -1381,6 +1387,8 @@ Can you perform the operation without allocating extra memory (disregarding the 
 Given a number in the form of a list of digits, return all possible permutations.
 
 For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
+
+[Solution](https://k5kc.com/cs/algorithms/permutations-of-array-1/)
 
 ### Problem 97 (Medium)
 
@@ -1410,6 +1418,8 @@ d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
 
+[Solution](https://k5kc.com/cs/algorithms/time-based-key-value-store-problem/)
+
 ### Problem 98 (Easy)
 
 > This problem was asked by Coursera.
@@ -1429,6 +1439,8 @@ For example, given the following board:
 ```
 
 `exists(board, "ABCCED")` returns `true`, `exists(board, "SEE")` returns `true`, `exists(board, "ABCB")` returns `false`.
+
+[Solution](https://k5kc.com/cs/algorithms/word-search-1-find-if-word-exists/)
 
 ### Problem 99 (Medium)
 
@@ -2254,6 +2266,8 @@ You can assume the given expression is always valid.
 > This problem was asked by Google.
 
 You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
+[Solution](https://k5kc.com/cs/algorithms/find-duplicate-number-in-array-containing-n-1-numbers-between-1-and-n/)
 
 ### Problem 165 (Medium)
 
