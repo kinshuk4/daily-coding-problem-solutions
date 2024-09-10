@@ -5619,3 +5619,7 @@ Same as [problem 262](README.md#problem-262-medium).
 ### Problem 1806 (Medium)
 
 Same as [problem 128](README.md#problem-128-medium).
+
+### Problem 1807 (Medium)
+
+Same as [problem 243](README.md#problem-243-medium).
