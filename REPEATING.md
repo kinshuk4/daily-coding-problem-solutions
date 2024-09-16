@@ -5643,3 +5643,7 @@ Same as [problem 75](README.md#problem-75-hard).
 ### Problem 1812 (Hard)
 
 Same as [problem 292](README.md#problem-292-hard).
+
+### Problem 1813 (Easy)
+
+Same as [problem 16](README.md#problem-16-easy).
