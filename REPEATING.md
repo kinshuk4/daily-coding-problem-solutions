@@ -5647,3 +5647,7 @@ Same as [problem 292](README.md#problem-292-hard).
 ### Problem 1813 (Easy)
 
 Same as [problem 16](README.md#problem-16-easy).
+
+### Problem 1814 (Medium)
+
+Same as [problem 229](README.md#problem-229-medium).
