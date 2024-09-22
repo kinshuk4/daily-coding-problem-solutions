@@ -5663,3 +5663,7 @@ Same as [problem 97](README.md#problem-97-medium).
 ### Problem 1817 (Hard)
 
 Same as [problem 264](README.md#problem-264-hard).
+
+### Problem 1818 (Easy)
+
+Same as [problem 340](README.md#problem-340-easy).
