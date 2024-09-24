@@ -5671,3 +5671,7 @@ Same as [problem 340](README.md#problem-340-easy).
 ### Problem 1819 (Hard)
 
 Same as [problem 160](README.md#problem-160-hard).
+
+### Problem 1820 (Easy)
+
+Same as [problem 108](README.md#problem-108-easy).
