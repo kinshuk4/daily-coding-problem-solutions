@@ -5691,3 +5691,7 @@ Same as [problem 254](README.md#problem-254-medium).
 ### Problem 1824 (Hard)
 
 Same as [problem 64](README.md#problem-64-hard).
+
+### Problem 1825 (Medium)
+
+Same as [problem 246](README.md#problem-246-medium).
