@@ -5719,3 +5719,7 @@ Same as [problem 98](README.md#problem-98-easy).
 ### Problem 1831 (Easy)
 
 Same as [problem 224](README.md#problem-224-easy).
+
+### Problem 1832 (Easy)
+
+Same as [problem 124](README.md#problem-124-easy).
