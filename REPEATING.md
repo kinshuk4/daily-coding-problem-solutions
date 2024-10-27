@@ -5755,3 +5755,7 @@ Same as [problem 203](README.md#problem-203-medium).
 ### Problem 1840 (Easy)
 
 Same as [problem 173](README.md#problem-173-easy).
+
+### Problem 1841 (Medium)
+
+Same as [problem 287](README.md#problem-287-medium).
