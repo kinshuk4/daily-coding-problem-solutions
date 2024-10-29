@@ -5763,3 +5763,7 @@ Same as [problem 287](README.md#problem-287-medium).
 ### Problem 1842 (Medium)
 
 Same as [problem 155](README.md#problem-155-medium).
+
+### Problem 1843 (Hard)
+
+Same as [problem 248](README.md#problem-248-hard).
