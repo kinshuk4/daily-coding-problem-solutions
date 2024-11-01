@@ -292,7 +292,7 @@ Same as [problem 278](README.md#problem-278-easy).
 
 ### Problem 472 (Medium)
 
-Same as [7](README.md#problem-7-medium).
+Same as [problem 7](README.md#problem-7-medium).
 
 ### Problem 473 (Medium)
 
@@ -672,7 +672,7 @@ Same as [problem 182](README.md#problem-182-medium).
 
 ### Problem 567 (Medium)
 
-Same as [5](README.md#problem-5-medium).
+Same as [problem 5](README.md#problem-5-medium).
 
 ### Problem 568 (Easy)
 
@@ -764,7 +764,7 @@ Same as [problem 178](README.md#problem-178-hard).
 
 ### Problem 590 (Hard)
 
-Same as [6](README.md#problem-6-hard).
+Same as [problem 6](README.md#problem-6-hard).
 
 ### Problem 591 (Hard)
 
@@ -1180,7 +1180,7 @@ Same as [problem 109](README.md#problem-109-medium).
 
 ### Problem 694 (Hard)
 
-Same as [4](README.md#problem-4-hard).
+Same as [problem 4](README.md#problem-4-hard).
 
 ### Problem 695 (Medium)
 
@@ -1212,7 +1212,7 @@ Same as [problem 297](README.md#problem-297-medium).
 
 ### Problem 702 (Medium)
 
-Same as [3](README.md#problem-3-medium).
+Same as [problem 3](README.md#problem-3-medium).
 
 ### Problem 703 (Hard)
 
@@ -1684,7 +1684,7 @@ Same as [problem 47](README.md#problem-47-easy).
 
 ### Problem 820 (Hard)
 
-Same as [4](README.md#problem-4-hard).
+Same as [problem 4](README.md#problem-4-hard).
 
 ### Problem 821 (Easy)
 
@@ -1788,7 +1788,7 @@ Same as [problem 126](README.md#problem-126-medium).
 
 ### Problem 846 (Medium)
 
-Same as [5](README.md#problem-5-medium).
+Same as [problem 5](README.md#problem-5-medium).
 
 ### Problem 847 (Medium)
 
@@ -2088,7 +2088,7 @@ Same as [problem 301](README.md#problem-301-medium).
 
 ### Problem 921 (Hard)
 
-Same as [6](README.md#problem-6-hard).
+Same as [problem 6](README.md#problem-6-hard).
 
 ### Problem 922 (Medium)
 
@@ -2296,7 +2296,7 @@ Same as [problem 231](README.md#problem-231-easy).
 
 ### Problem 973 (Medium)
 
-Same as [7](README.md#problem-7-medium).
+Same as [problem 7](README.md#problem-7-medium).
 
 ### Problem 974 (Hard)
 
@@ -2388,7 +2388,7 @@ Same as [problem 234](README.md#problem-234-hard).
 
 ### Problem 997 (Medium)
 
-Same as [3](README.md#problem-3-medium).
+Same as [problem 3](README.md#problem-3-medium).
 
 ### Problem 998 (Medium)
 
@@ -2948,7 +2948,7 @@ Same as [problem 215](README.md#problem-215-medium).
 
 ### Problem 1137 (Medium)
 
-Same as [5](README.md#problem-5-medium).
+Same as [problem 5](README.md#problem-5-medium).
 
 ### Problem 1138 (Medium)
 
@@ -3336,7 +3336,7 @@ Same as [problem 290](README.md#problem-290-easy).
 
 ### Problem 1235 (Medium)
 
-Same as [3](README.md#problem-3-medium).
+Same as [problem 3](README.md#problem-3-medium).
 
 ### Problem 1236 (Medium)
 
@@ -3604,7 +3604,7 @@ Same as [problem 322](README.md#problem-322-medium).
 
 ### Problem 1302 (Hard)
 
-Same as [4](README.md#problem-4-hard).
+Same as [problem 4](README.md#problem-4-hard).
 
 ### Problem 1303 (Medium)
 
@@ -3736,7 +3736,7 @@ Same as [problem 31](README.md#problem-31-easy).
 
 ### Problem 1335 (Medium)
 
-Same as [7](README.md#problem-7-medium).
+Same as [problem 7](README.md#problem-7-medium).
 
 ### Problem 1336 (Hard)
 
@@ -3824,7 +3824,7 @@ Same as [problem 258](README.md#problem-258-easy).
 
 ### Problem 1357 (Hard)
 
-Same as [6](README.md#problem-6-hard).
+Same as [problem 6](README.md#problem-6-hard).
 
 ### Problem 1358 (Medium)
 
@@ -4492,7 +4492,7 @@ Same as [problem 36](README.md#problem-36-medium).
 
 ### Problem 1524 (Hard)
 
-Same as [4](README.md#problem-4-hard).
+Same as [problem 4](README.md#problem-4-hard).
 
 ### Problem 1525 (Easy)
 
@@ -4584,7 +4584,7 @@ Same as [problem 208](README.md#problem-208-medium).
 
 ### Problem 1547 (Hard)
 
-Same as [6](README.md#problem-6-hard).
+Same as [problem 6](README.md#problem-6-hard).
 
 ### Problem 1548 (Easy)
 
@@ -4852,7 +4852,7 @@ Same as [problem 286](README.md#problem-286-hard).
 
 ### Problem 1614 (Medium)
 
-Same as [7](README.md#problem-7-medium).
+Same as [problem 7](README.md#problem-7-medium).
 
 ### Problem 1615 (Easy)
 
@@ -5150,7 +5150,7 @@ Same as [problem 80](README.md#problem-80-easy).
 
 ### Problem 1688 (Medium)
 
-Same as [5](README.md#problem-5-medium).
+Same as [problem 5](README.md#problem-5-medium).
 
 ### Problem 1689 (Medium)
 
@@ -5775,3 +5775,7 @@ Same as [problem 353](README.md#problem-353-medium).
 ### Problem 1845 (Medium)
 
 Same as [problem 144](README.md#problem-144-medium).
+
+### Problem 1846 (Medium)
+
+Same as [problem 3](README.md#problem-3-medium).
