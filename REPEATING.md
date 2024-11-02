@@ -5779,3 +5779,7 @@ Same as [problem 144](README.md#problem-144-medium).
 ### Problem 1846 (Medium)
 
 Same as [problem 3](README.md#problem-3-medium).
+
+### Problem 1847 (Hard)
+
+Same as [problem 330](README.md#problem-330-hard).
