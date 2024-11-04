@@ -5788,3 +5788,6 @@ Same as [problem 330](README.md#problem-330-hard).
 
 Same as [problem 209](README.md#problem-209-hard).
 
+### Problem 1849 (Easy)
+
+Same as [problem 134](README.md#problem-134-easy).
