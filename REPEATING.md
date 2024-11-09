@@ -5808,3 +5808,6 @@ Same as [problem 364](README.md#problem-364-medium).
 
 Same as [problem 43](README.md#problem-43-easy).
 
+### Problem 1854 (Medium)
+
+Same as [problem 103](README.md#problem-103-medium).
