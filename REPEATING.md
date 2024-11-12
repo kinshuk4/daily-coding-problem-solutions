@@ -5819,3 +5819,7 @@ Same as [problem 112](README.md#problem-112-hard).
 ### Problem 1856 (Easy)
 
 Same as [problem 210](README.md#problem-210-easy).
+
+### Problem 1857 (Hard)
+
+Same as [problem 163](README.md#problem-163-hard).
