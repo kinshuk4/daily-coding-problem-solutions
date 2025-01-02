@@ -150,7 +150,7 @@ Follow-up: Can you do this in O(N) time and constant space?
 
 Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
 
-[Solution](https://k5kc.com/cs/problems/problems/implement-job-scheduler-with-delay-function-execution/)
+[Solution](https://k5kc.com/cs/problems/implement-job-scheduler-with-delay-function-execution/)
 
 ### Problem 11 (Medium)
 
@@ -180,7 +180,7 @@ There exists a staircase with N steps, and you can climb up either 1  or 2 steps
 
 What if, instead of being able to climb 1 or 2 steps at a time, you  could climb any number from a set of positive integers X? For example,  if `X = {1, 3, 5}`, you could climb 1, 3, or 5 steps at a time.
 
-[Solution](https://k5kc.com/cs/problems/climbing-stairs-problem-1-take-atmost-2-steps/)
+[Solution](https://k5kc.com/cs/problems/climbing-stairs-1-take-atmost-2-steps/)
 
 ### Problem 13 (Hard)
 
@@ -1340,7 +1340,7 @@ for f in functions:
     print(f())
 ```
 
-[Solution](https://k5kc.com/cs/problems/problems/capturing-loop-variables-in-lambdas/)
+[Solution](https://k5kc.com/cs/problems/capturing-loop-variables-in-lambdas/)
 
 ### Problem 92 (Hard)
 
@@ -1699,7 +1699,7 @@ For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of nu
 
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
 
-[Solution](https://k5kc.com/cs/problems/problems/alternating-two-instance-singleton-pattern/)
+[Solution](https://k5kc.com/cs/problems/alternating-two-instance-singleton-pattern/)
 
 ### Problem 121 (Hard)
 
@@ -2549,7 +2549,7 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 
 Describe what happens when you type a URL into your browser and press Enter.
 
-[Solution](https://k5kc.com/cs/system-design/what-happens-when-you-type-an-url-in-the-browser-and-press-enter/)
+[Solution](https://k5kc.com/cs/problems/what-happens-when-you-type-an-url-in-the-browser-and-press-enter/)
 
 ### Problem 184 (Easy)
 
