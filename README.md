@@ -20,7 +20,7 @@ Bonus: Can you do this in one pass?
 
 ### Problem 2 (Hard)
 
-> This problem was asked by Uber
+> This problem was asked by Uber.
 
 Given an array of integers, return a new array such that each element at index `i` of the new array is the product of all the numbers in the original array except the one at `i`.
 
@@ -790,7 +790,7 @@ You can assume that there are no spaces at the ends of the string and that there
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
-[Solution](https://k5kc.com/cs/problems/text-justification/)
+[Solution](https://k5kc.com/cs/problems/break-a-string-into-lines-of-length-k-without-breaking-words/)
 
 ### Problem 58 (Medium)
 
@@ -870,7 +870,7 @@ For example, given the following matrix:
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
-[Solution](https://k5kc.com/cs/problems/word-search-1-find-if-word-exists/)
+[Solution](https://k5kc.com/cs/problems/check-if-target-word-exists-in-matrix-horizontally-or-vertically/)
 
 ### Problem 64 (Hard)
 
@@ -1637,13 +1637,16 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
 
+[Solution](https://k5kc.com/cs/problems/lowest-common-ancestor-of-a-binary-tree-3-given-parent-pointer/)
+
 ### Problem 113 (Medium)
 
 > This problem was asked by Google.
 
 Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
 
-Follow-up: given a mutable string representation, can you perform this operation in-place?
+
+[Solution](https://k5kc.com/cs/problems/reverse-words-in-a-string-2/)
 
 ### Problem 114 (Hard)
 
@@ -1660,6 +1663,8 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 > This problem was asked by Google.
 
 Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
+
+[Solution](https://k5kc.com/cs/problems/subtree-of-another-tree/)
 
 ### Problem 116 (Medium)
 
@@ -1684,6 +1689,8 @@ Given a binary tree, return the level of the tree with minimum sum.
 Given a sorted list of integers, square the elements and give the output in sorted order.
 
 For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+
+[Solution](https://k5kc.com/cs/problems/squares-of-a-sorted-array/)
 
 ### Problem 119 (Medium)
 
