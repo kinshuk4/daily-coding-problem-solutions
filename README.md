@@ -1370,6 +1370,8 @@ Given a tree, return the size of the largest tree/subtree that is a BST.
 
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
 
+[Solution](https://k5kc.com/cs/problems/binary-tree-path-sum-maximum-between-any-two-nodes/)
+
 ### Problem 95 (Hard)
 
 > This problem was asked by Palantir.
@@ -1379,6 +1381,8 @@ Given a number represented by a list of digits, find the next greater permutatio
 For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` should return `[2,1,3]`. The list `[3,2,1]` should return `[1,2,3]`.
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
+
+[Solution](https://k5kc.com/cs/problems/next-permutation/)
 
 ### Problem 96 (Easy)
 
@@ -1599,9 +1603,9 @@ Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit
 
 For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 
-[Solution](https://k5kc.com/cs/problems/swap-odd-and-even-bits-in-an-integer/)
-
 Bonus: Can you do this in one line?
+
+[Solution](https://k5kc.com/cs/problems/swap-odd-and-even-bits-in-an-integer/)
 
 ### Problem 110 (Medium)
 
@@ -1621,6 +1625,8 @@ For example, given the tree
 
 Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 
+[Solution](https://k5kc.com/cs/problems/binary-tree-path-all-root-to-leaf-paths/)
+
 ### Problem 111 (Hard)
 
 > This problem was asked by Google.
@@ -1628,6 +1634,8 @@ Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 Given a word W and a string `S`, find all starting indices in `S` which are anagrams of `W`.
 
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+
+[Solution](https://k5kc.com/cs/problems/find-all-starting-indices-of-anagrams-of-a-word-in-a-string/)
 
 ### Problem 112 (Hard)
 
@@ -1674,13 +1682,15 @@ Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, `generate()` should return a tree whose size is unbounded but finite.
 
+[Solution](https://k5kc.com/cs/problems/generate-a-finite-but-an-arbitrarily-large-binary-tree-in-o-1-time/)
+
 ### Problem 117 (Easy)
 
 > This problem was asked by Facebook.
 
 Given a binary tree, return the level of the tree with minimum sum.
 
-![Solution](https://k5kc.com/cs/problems/minimum-level-sum-of-a-binary-tree/)
+![Solution](https://k5kc.com/cs/problems/level-of-binary-tree-with-minimum-sum/)
 
 ### Problem 118 (Easy)
 
@@ -1716,6 +1726,8 @@ Given a string which we can delete at most k, return whether you can make a pali
 
 For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 
+[Solution](https://k5kc.com/cs/problems/valid-palindrome-3-is-string-palindrome-after-deleting-at-most-k-chars/)
+
 ### Problem 122 (Medium)
 
 This question was asked by Zillow.
@@ -1731,6 +1743,8 @@ For example, in this matrix
 ```
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
+
+[Solution](https://k5kc.com/cs/problems/maximum-coins-from-top-left-to-bottom-right-with-right-or-down-moves/)
 
 ### Problem 123 (Hard)
 
@@ -1751,6 +1765,8 @@ And here are examples of non-numbers:
 - "a -2"
 - "-"
 
+[Solution](https://k5kc.com/cs/problems/valid-number/)
+
 ### Problem 124 (Easy)
 
 > This problem was asked by Microsoft.
@@ -1758,6 +1774,8 @@ And here are examples of non-numbers:
 You have `n` fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
 
 Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
+
+[Solution](https://k5kc.com/cs/problems/expected-number-of-rounds-to-reach-one-remaining-coin/)
 
 ### Problem 125 (Easy)
 
@@ -1777,11 +1795,15 @@ For example, given the following tree and `K` of 20
 
 Return the nodes `5` and `15`.
 
+[Solution](https://k5kc.com/cs/problems/two-sum-4-input-is-binary-search-tree/)
+
 ### Problem 126 (Medium)
 
 > This problem was asked by Facebook.
 
 Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+
+[Solution](https://k5kc.com/cs/problems/rotate-an-array-to-left/)
 
 ### Problem 127 (Easy)
 
@@ -1812,6 +1834,8 @@ return 124 (99 + 25) as:
 4 -> 2 -> 1
 ```
 
+[Solution](https://k5kc.com/cs/problems/add-two-numbers-represented-as-linked-list-in-reversed-order/)
+
 ### Problem 128 (Medium)
 
 The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
@@ -1838,9 +1862,13 @@ Move 2 to 3
 Move 1 to 3
 ```
 
+[Solution](https://k5kc.com/cs/problems/tower-of-hanoi/)
+
 ### Problem 129 (Medium)
 
 Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
+
+[Solution](https://k5kc.com/cs/problems/square-root-of-a-real-number/)
 
 ### Problem 130 (Medium)
 
@@ -1850,11 +1878,15 @@ Given an array of numbers representing the stock prices of a company in chronolo
 
 For example, given `k` = 2 and the array `[5, 2, 4, 0, 1]`, you should return 3.
 
+[Solution](https://k5kc.com/cs/problems/best-time-to-buy-and-sell-stock-4-at-most-k-times/)
+
 ### Problem 131 (Medium)
 
 This question was asked by Snapchat.
 
 Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+
+[Solution](https://k5kc.com/cs/problems/copy-list-with-random-pointer/)
 
 ### Problem 132 (Easy)
 
@@ -1867,6 +1899,8 @@ Design and implement a HitCounter class that keeps track of requests (or hits). 
 - `range(lower, upper)`: returns the number of hits that occurred between timestamps `lower` and `upper` (inclusive)
 
 Follow-up: What if our system has limited memory?
+
+[Solution](https://k5kc.com/cs/problems/design-hit-counter-with-range-queries/)
 
 ### Problem 133 (Medium)
 
