@@ -2342,6 +2342,8 @@ Use a more space-efficient data structure, SparseArray, that implements the same
 - `set(i, val)`: updates index at `i` with `val`.
 - `get(i)`: gets the value at index `i`.
 
+[Solution](https://k5kc.com/cs/problems/design-a-sparse-array/) | [🔝 Back to top](#toc)
+
 ### Problem 135 (Easy)
 
 This question was asked by Apple.
@@ -2359,6 +2361,8 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
        /
      -1
 ```
+
+[Solution](https://k5kc.com/cs/problems/binary-tree-path-sum-minimum-sum-root-to-leaf-path/) | [🔝 Back to top](#toc)
 
 ### Problem 136 (Medium)
 
