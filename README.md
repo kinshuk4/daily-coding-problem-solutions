@@ -2381,6 +2381,8 @@ For example, given the following matrix:
 
 Return 4.
 
+[Solution](https://k5kc.com/cs/problems/maximal-rectangle/) | [🔝 Back to top](#toc)
+
 ### Problem 137 (Medium)
 
 > This problem was asked by Amazon.
@@ -2393,6 +2395,8 @@ A bit array is a space efficient array that holds a value of `1` or `0` at each 
 - `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
 - `get(i)`: gets the value at index `i`.
 
+[Solution](https://k5kc.com/cs/problems/implement-a-bit-array/)
+
 ### Problem 138 (Hard)
 
 > This problem was asked by Google.
@@ -2402,6 +2406,8 @@ Find the minimum number of coins required to make `n` cents.
 You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
 
 For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢, and a 1¢.
+
+[Solution](https://k5kc.com/cs/problems/coin-change-with-fewest-number-of-coins-given-canonical-system-and-infinite-supply/) | [🔝 Back to top](#toc)
 
 ### Problem 139 (Medium)
 
@@ -2426,6 +2432,8 @@ class PeekableInterface(object):
         pass
 ```
 
+[Solution](https://k5kc.com/cs/problems/peeking-iterator/) | [🔝 Back to top](#toc)
+
 ### Problem 140 (Medium)
 
 > This problem was asked by Facebook.
@@ -2435,6 +2443,8 @@ Given an array of integers in which two elements appear exactly once and all oth
 For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. The order does not matter.
 
 Follow-up: Can you do this in linear time and constant space?
+
+[Solution](https://k5kc.com/cs/problems/single-number-3-all-elements-except-two-occur-twice/) | [🔝 Back to top](#toc)
 
 ### Problem 141 (Hard)
 
@@ -2454,6 +2464,8 @@ class Stack:
         pass
 ```
 
+[Solution](https://k5kc.com/cs/problems/implement-3-stacks-in-1-list/) | [🔝 Back to top](#toc)
+
 ### Problem 142 (Hard)
 
 > This problem was asked by Google.
@@ -2461,6 +2473,8 @@ class Stack:
 You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
 
 For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+
+[Solution](https://k5kc.com/cs/problems/valid-parenthesis-string/) | [🔝 Back to top](#toc)
 
 ### Problem 143 (Medium)
 
@@ -2476,6 +2490,8 @@ Ordering within a part can be arbitrary.
 
 For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`.
 
+[Solution](https://k5kc.com/cs/problems/partition-array-according-to-given-pivot/) | [🔝 Back to top](#toc)
+
 ### Problem 144 (Medium)
 
 > This problem was asked by Google.
@@ -2488,6 +2504,8 @@ If two distances to larger numbers are the equal, then return any one of them. I
 
 Follow-up: If you can preprocess the array, can you do this in constant time?
 
+[Solution](https://k5kc.com/cs/problems/nearest-larger-number-for-index-in-an-array/) | [🔝 Back to top](#toc)
+
 ### Problem 145 (Easy)
 
 > This problem was asked by Google.
@@ -2495,6 +2513,8 @@ Follow-up: If you can preprocess the array, can you do this in constant time?
 Given the head of a singly linked list, swap every two nodes and return its head.
 
 For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+
+[Solution](https://k5kc.com/cs/problems/swap-nodes-in-pairs/) | [🔝 Back to top](#toc)
 
 ### Problem 146 (Medium)
 
@@ -2526,9 +2546,13 @@ should be pruned to:
 
 We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
 
+[Solution](https://k5kc.com/cs/problems/binary-tree-pruning/) | [🔝 Back to top](#toc)
+
 ### Problem 147 (Hard)
 
 Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst` from `i` to `j`.
+
+[Solution](https://k5kc.com/cs/problems/sort-a-list-using-reverse-sublist-operation/) | [🔝 Back to top](#toc)
 
 ### Problem 148 (Medium)
 
@@ -2540,6 +2564,8 @@ Given a number of bits `n`, generate a possible gray code for it.
 
 For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
 
+[Solution](https://k5kc.com/cs/problems/sort-a-list-using-reverse-sublist-operation/) | [🔝 Back to top](#toc)
+
 ### Problem 149 (Hard)
 
 > This problem was asked by Goldman Sachs.
@@ -2550,6 +2576,8 @@ For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])
 
 You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
 
+[Solution](https://k5kc.com/cs/problems/range-sum-query-immutable/) | [🔝 Back to top](#toc)
+
 ### Problem 150 (Hard)
 
 > This problem was asked by LinkedIn.
@@ -2557,6 +2585,8 @@ You can assume that you can do some pre-processing. `sum()` should be optimized 
 Given a list of points, a central point, and an integer `k`, find the nearest `k` points from the central point.
 
 For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`
+
+[Solution](https://k5kc.com/cs/problems/k-closest-points-to-origin/#follow-up---k-closest-distance-from-central-point) | [🔝 Back to top](#toc)
 
 ### Problem 151 (Medium)
 
@@ -2592,11 +2622,15 @@ For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2,
 
 You can generate random numbers between 0 and 1 uniformly.
 
+[Solution](https://k5kc.com/cs/problems/generate-random-numbers-from-list-based-on-given-probabilities/) | [🔝 Back to top](#toc)
+
 ### Problem 153 (Hard)
 
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
 
 For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+
+[Solution](https://k5kc.com/cs/problems/shortest-word-distance-1/) | [🔝 Back to top](#toc)
 
 ### Problem 154 (Easy)
 
@@ -2612,6 +2646,8 @@ Recall that a heap has the following operations:
 - `push(item)`, which adds a new key to the heap
 - `pop()`, which removes and returns the max value of the heap
 
+[Solution](https://k5kc.com/cs/problems/implement-stack-using-priority-queue/) | [🔝 Back to top](#toc)
+
 ### Problem 155 (Medium)
 
 > This problem was asked by MongoDB.
@@ -2621,6 +2657,8 @@ Given a list of elements, find the majority element, which appears more than hal
 You can assume that such element exists.
 
 For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
+
+[Solution](https://k5kc.com/cs/problems/majority-element-1-with-n-by-2-definition/) | [🔝 Back to top](#toc)
 
 ### Problem 156 (Medium)
 
@@ -2665,6 +2703,8 @@ Return two, as there are only two ways to get to the bottom right:
 
 The top left corner and bottom right corner will always be `0`.
 
+[Solution](https://k5kc.com/cs/problems/unique-paths-in-grid-2-count-all-paths-moving-right-or-down-with-obstacles/) | [🔝 Back to top](#toc)
+
 ### Problem 159 (Easy)
 
 > This problem was asked by Google.
@@ -2672,6 +2712,8 @@ The top left corner and bottom right corner will always be `0`.
 Given a string, return the first recurring character in it, or null if there is no recurring character.
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
+
+[Solution](https://k5kc.com/cs/problems/first-unique-character-in-a-string/) | [🔝 Back to top](#toc)
 
 ### Problem 160 (Hard)
 
@@ -2695,6 +2737,8 @@ and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the l
 
 The path does not have to pass through the root, and each node can have any amount of children.
 
+[Solution](https://k5kc.com/cs/problems/length-of-the-longest-path-in-a-weighted-tree/) | [🔝 Back to top](#toc)
+
 ### Problem 161 (Easy)
 
 > This problem was asked by Facebook.
@@ -2702,6 +2746,8 @@ The path does not have to pass through the root, and each node can have any amou
 Given a 32-bit integer, return the number with its bits reversed.
 
 For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+
+[Solution](https://k5kc.com/cs/problems/reverse-bits/) | [🔝 Back to top](#toc)
 
 ### Problem 162 (Medium)
 
@@ -2723,6 +2769,8 @@ Return the list:
 - apr
 - f
 
+[Solution](https://k5kc.com/cs/problems/shortest-unique-prefix/) | [🔝 Back to top](#toc)
+
 ### Problem 163 (Hard)
 
 > This problem was asked by Jane Street.
@@ -2734,6 +2782,8 @@ The expression is given as a list of numbers and operands. For example: `[5, 3, 
 For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']`should return `5`, since it is equivalent to ((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5.
 
 You can assume the given expression is always valid.
+
+[Solution](https://k5kc.com/cs/problems/evaluate-reverse-polish-notation/) | [🔝 Back to top](#toc)
 
 ### Problem 164 (Medium)
 
@@ -2757,6 +2807,8 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 - There is 1 smaller element to the right of 6
 - There are no smaller elements to the right of 1
 
+[Solution](https://k5kc.com/cs/problems/count-of-smaller-numbers-after-self/) | [🔝 Back to top](#toc)
+
 ### Problem 166 (Medium)
 
 > This problem was asked by Uber.
@@ -2770,6 +2822,8 @@ For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling `next()` repe
 
 Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be empty.
 
+[Solution](https://k5kc.com/cs/problems/implement-a-2d-iterator-class/) | [🔝 Back to top](#toc)
+
 ### Problem 167 (Hard)
 
 > This problem was asked by Airbnb.
@@ -2777,6 +2831,8 @@ Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be em
 Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
 
 For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 0), (2, 3)]`.
+
+[Solution](https://k5kc.com/cs/problems/palindrome-pairs/) | [🔝 Back to top](#toc)
 
 ### Problem 168 (Medium)
 
@@ -2802,6 +2858,8 @@ you should return:
 
 Follow-up: What if you couldn't use any extra space?
 
+[Solution](https://k5kc.com/cs/problems/rotate-n-x-n-matrix-by-90-degrees/) | [🔝 Back to top](#toc)
+
 ### Problem 169 (Medium)
 
 > This problem was asked by Google.
@@ -2809,6 +2867,8 @@ Follow-up: What if you couldn't use any extra space?
 Given a linked list, sort it in O(n log n) time and constant space.
 
 For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
+
+[Solution](https://k5kc.com/cs/problems/sort-a-linked-list-in-o-n-log-n-time-and-constant-space/) | [🔝 Back to top](#toc)
 
 ### Problem 170 (Medium)
 
@@ -2819,6 +2879,8 @@ Given a `start` word, an `end` word, and a dictionary of valid words, find the s
 For example, given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "dop", "dat", "cat"}`, return `["dog", "dot", "dat", "cat"]`.
 
 Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "dar"}`, return null as there is no possible transformation from `dog` to `cat`.
+
+[Solution](https://k5kc.com/cs/problems/word-ladder-1-get-ladder-length/) | [🔝 Back to top](#toc)
 
 ### Problem 171 (Easy)
 
@@ -2840,6 +2902,8 @@ This means that 2 people exited the building. `timestamp` is in [Unix time](http
 
 Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
+[Solution](https://k5kc.com/cs/problems/busiest-period-in-a-building/) | [🔝 Back to top](#toc)
+
 ### Problem 172 (Medium)
 
 > This problem was asked by Dropbox.
@@ -2851,6 +2915,8 @@ For example, given s = "dogcatcatcodecatdog" and words = ["cat", "dog"], return 
 Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there are no substrings composed of "dog" and "cat" in `s`.
 
 The order of the indices does not matter.
+
+[Solution](https://k5kc.com/cs/problems/substring-with-concatenation-of-all-words/) | [🔝 Back to top](#toc)
 
 ### Problem 173 (Easy)
 
@@ -2884,6 +2950,8 @@ it should become:
 
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
+[Solution](https://k5kc.com/cs/problems/flatten-a-nested-dictionary/) | [🔝 Back to top](#toc)
+
 ### Problem 174 (Medium)
 
 > This problem was asked by Microsoft.
@@ -2893,6 +2961,8 @@ Describe and give an example of each of the following types of polymorphism:
 - Ad-hoc polymorphism
 - Parametric polymorphism
 - Subtype polymorphism
+
+[Solution](https://k5kc.com/cs/problems/describe-and-give-an-example-of-ad-hoc-parametric-and-subtype-polymorphism/) | [🔝 Back to top](#toc)
 
 ### Problem 175 (Easy)
 >
@@ -2918,6 +2988,8 @@ For example, given the starting state `a`, number of steps 5000, and the followi
 
 One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656, 'c': 332 }`.
 
+[Solution](https://k5kc.com/cs/problems/run-a-markov-chain-and-count-state-visits/) | [🔝 Back to top](#toc)
+
 ### Problem 176 (Easy)
 
 > This problem was asked by Bloomberg.
@@ -2928,6 +3000,8 @@ For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a`
 
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
+[Solution](https://k5kc.com/cs/problems/isomorphic-strings/) | [🔝 Back to top](#toc)
+
 ### Problem 177 (Easy)
 
 > This problem was asked by Airbnb.
@@ -2937,6 +3011,8 @@ Given a linked list and a positive integer `k`, rotate the list to the right by 
 For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
 
 Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
+
+[Solution](https://k5kc.com/cs/problems/rotate-linked-list-to-right/) | [🔝 Back to top](#toc)
 
 ### Problem 178 (Hard)
 
@@ -2950,13 +3026,15 @@ The second game: same, except that the stopping condition is a five followed by 
 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
+[Solution](https://k5kc.com/cs/problems/alice-joins-probability-student-club-by-calculating-expected-values-of-probabilistic-games/) | [🔝 Back to top](#toc)
+
 ### Problem 179 (Medium)
 
 > This problem was asked by Google.
 
- Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
+Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
 
- For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
+For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
 
 ```d
         5
@@ -2965,6 +3043,8 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
      / \   \
     2   4   8
 ```
+
+[Solution](https://k5kc.com/cs/problems/construct-binary-search-tree-bst-from-postorder-traversal/) | [🔝 Back to top](#toc)
 
 ### Problem 180 (Medium)
 
@@ -2978,6 +3058,8 @@ For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. 
 
 Hint: Try working backwards from the end state.
 
+[Solution](https://k5kc.com/cs/problems/interleave-the-first-half-of-the-stack-with-second-half-using-one-queue/) | [🔝 Back to top](#toc)
+
 ### Problem 181 (Hard)
 >
 > This problem was asked by Google.
@@ -2988,6 +3070,8 @@ For example, given the input string `racecarannakayak`, return `["racecar", "ann
 
 Given the input string `abc`, return `["a", "b", "c"]`.
 
+[Solution](https://k5kc.com/cs/problems/split-string-into-fewest-palindromic-substrings/) | [🔝 Back to top](#toc)
+
 ### Problem 182 (Medium)
 
 > This problem was asked by Facebook.
@@ -2995,6 +3079,8 @@ Given the input string `abc`, return `["a", "b", "c"]`.
 A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
 
 Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
+
+[Solution](https://k5kc.com/cs/problems/check-if-a-graph-is-minimally-connected/) | [🔝 Back to top](#toc)
 
 ### Problem 183 (Hard)
 
