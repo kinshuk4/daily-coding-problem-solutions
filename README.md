@@ -3545,7 +3545,7 @@ We say a number is sparse if there are no adjacent ones in its binary representa
 
 Do this in faster than `O(N log N)` time.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution217.java) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/smallest-sparse-number-greater-than-or-equal-to-n/) | [🔝 Back to top](#toc)
 
 ### Problem 218 (Medium)
 
@@ -3553,7 +3553,7 @@ This problem was asked by Yahoo.
 
 Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A -> B -> C`, it should become `A <- B <- C`.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution218.java) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reverse-a-directed-graph/) | [🔝 Back to top](#toc)
 
 ### Problem 219 (Hard)
 
@@ -3575,7 +3575,7 @@ You are asked to play the following game. You and an opponent take turns choosin
 
 Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution220.java) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-amount-first-player-can-win-by-picking-either-the-first-or-last-coin/) | [🔝 Back to top](#toc)
 
 ### Problem 221 (Easy)
 
@@ -3583,7 +3583,7 @@ This problem was asked by Zillow.
 
 Let's define a "sevenish" number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1, 7, 8, 49`, and so on. Create an algorithm to find the `n`th sevenish number.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution221.java) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-the-nth-sevenish-number/) | [🔝 Back to top](#toc)
 
 ### Problem 222 (Medium)
 
@@ -3593,7 +3593,7 @@ Given an absolute pathname that may have `.` or `..` as part of it, return the s
 
 For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution222.java) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/simplify-path/) | [🔝 Back to top](#toc)
 
 ### Problem 223 (Hard)
 
@@ -3601,7 +3601,7 @@ For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
 Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution223.java) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/morris-traversal/) | [🔝 Back to top](#toc)
 
 ### Problem 224 (Easy)
 
@@ -3613,7 +3613,7 @@ For example, for the input `[1, 2, 3, 10]`, you should return `7`.
 
 Do this in `O(N)` time.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution224.java) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/smallest-positive-integer-that-cannot-be-represented-as-the-sum-of-a-subset-of-a-sorted-array/) | [🔝 Back to top](#toc)
 
 ### Problem 225 (Easy)
 
@@ -3627,7 +3627,7 @@ For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1,
 
 Bonus: Find an `O(log N)` solution if `k = 2`.
 
-[Solution](solutions/src/main/java/com/vaani/dcp/Solution225.java) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-the-winner-of-the-circular-game/) | [🔝 Back to top](#toc)
 
 ### Problem 226 (Hard)
 
