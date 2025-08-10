@@ -375,6 +375,7 @@ Now lets go through the problems.
   - [Problem 363 (Medium)](#problem-363-medium)
   - [Problem 364 (Medium)](#problem-364-medium)
   - [Problem 365 (Hard)](#problem-365-hard)
+  - [Problem 366 (Medium)](#problem-366-medium)
   - [Problem 367 (Medium)](#problem-367-medium)
   - [Problem 368 (Hard)](#problem-368-hard)
   - [Problem 369 (Medium)](#problem-369-medium)
@@ -5684,6 +5685,14 @@ A quack is a data structure combining properties of both stacks and queues. It c
 Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution365.java) | [🔝 Back to top](#toc)
+
+### Problem 366 (Medium)
+
+This problem was asked by Flexport.
+
+Given a string s, rearrange the characters so that any two adjacent characters are not the same. If this is not possible, return null.
+
+For example, if s = yyz then return yzy. If s = yyy then return null.
 
 ### Problem 367 (Medium)
 
