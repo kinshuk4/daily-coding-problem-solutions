@@ -2085,6 +2085,7 @@ Given a string and a set of delimiters, reverse the words in the string while ma
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
 
 [Solution](https://k5kc.com/cs/problems/reverse-words-in-a-string-keep-delimiters-in-order) | [🔝 Back to top](#toc)
+
 #### Problem 115 (Hard)
 
 > This problem was asked by Google.
@@ -2110,6 +2111,7 @@ That is, `generate()` should return a tree whose size is unbounded but finite.
 Given a binary tree, return the level of the tree with minimum sum.
 
 [Solution](https://k5kc.com/cs/problems/level-of-binary-tree-with-minimum-sum) | [🔝 Back to top](#toc)
+
 #### Problem 118 (Easy)
 
 > This problem was asked by Google.
@@ -2129,6 +2131,7 @@ Given a set of closed intervals, find the smallest set of numbers that covers al
 For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
 
 [Solution](https://k5kc.com/cs/problems/smallest-set-to-cover-all-intervals) | [🔝 Back to top](#toc)
+
 #### Problem 120 (Medium)
 
 > This problem was asked by Microsoft.
@@ -2694,6 +2697,7 @@ Given a string, determine whether any permutation of it is a palindrome.
 For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
 
 [Solution](https://k5kc.com/cs/problems/palindrome-permutation) | [🔝 Back to top](#toc)
+
 #### Problem 158 (Medium)
 
 > This problem was asked by Slack.
@@ -5475,6 +5479,7 @@ Using this scheme, `Jackson` and `Jaxen` both map to `J250`.
 Implement Soundex.
 
 [Solution](https://k5kc.com/cs/problems/soundex-algorithm-implementation) | [🔝 Back to top](#toc)
+
 #### Problem 350 (Medium)
 
 This problem was asked by Uber.
@@ -5718,6 +5723,7 @@ Given a string s, rearrange the characters so that any two adjacent characters a
 For example, if s = yyz then return yzy. If s = yyy then return null.
 
 [Solution](https://k5kc.com/cs/problems/reorganize-string) | [🔝 Back to top](#toc)
+
 #### Problem 367 (Medium)
 
 This problem was asked by Two Sigma.
@@ -5748,6 +5754,7 @@ for num in merge_iterators(foo, bar):
 Bonus: Make it work without pulling in the contents of the iterators in memory.
 
 [Solution](https://k5kc.com/cs/problems/merge-two-sorted-iterators) | [🔝 Back to top](#toc)
+
 #### Problem 368 (Hard)
 
 This problem was asked by Google.
@@ -5768,6 +5775,7 @@ kv.update(2, 1)
 And then called `kv.max_key(1)`, it should return `2`, since it's the largest key with value `1`.
 
 [Solution](https://k5kc.com/cs/problems/key-value-store-with-max-key-query) | [🔝 Back to top](#toc)
+
 #### Problem 369 (Medium)
 
 This problem was asked by Two Sigma.
@@ -5777,6 +5785,7 @@ You’re tracking stock price at a given instance of time. Implement an API with
 Also, provide max(), min(), and average() functions that give the max/min/average of all values seen thus far.
 
 [Solution](https://k5kc.com/cs/problems/stock-price-fluctuation) | [🔝 Back to top](#toc)
+
 #### Problem 370 (Easy)
 
 This problem was asked by Postmates.
@@ -5803,6 +5812,7 @@ For example, if the input is the following:
 The total active time would be 1260 seconds.
 
 [Solution](https://k5kc.com/cs/problems/calculate-courier-active-time-from-event-logs) | [🔝 Back to top](#toc)
+
 #### Problem 371 (Hard)
 
 This problem was asked by Google.
@@ -5826,6 +5836,7 @@ The equations use addition only and are separated by newlines. Return a mapping 
 ```
 
 [Solution](https://k5kc.com/cs/problems/solve-system-of-linear-addition-equations) | [🔝 Back to top](#toc)
+
 #### Problem 372 (Easy)
 
 This problem was asked by Amazon.
@@ -5835,6 +5846,7 @@ Write a function that takes a natural number as input and returns the number of 
 Constraint: don't use any loops.
 
 [Solution](https://k5kc.com/cs/problems/count-digits-without-loops) | [🔝 Back to top](#toc)
+
 #### Problem 373 (Hard)
 
 This problem was asked by Facebook.
@@ -5844,6 +5856,7 @@ Given a list of integers L, find the maximum length of a sequence of consecutive
 For example, given `L = [5, 2, 99, 3, 4, 1, 100]`, return 5 as we can build a sequence `[1, 2, 3, 4, 5]` which has length 5.
 
 [Solution](https://k5kc.com/cs/problems/longest-consecutive-sequence) | [🔝 Back to top](#toc)
+
 #### Problem 374 (Hard)
 
 This problem was asked by Amazon.
@@ -5853,6 +5866,7 @@ Given a sorted array `arr` of distinct integers, return the lowest index `i` for
 For example, given the array `[-5, -3, 2, 3]`, return `2` since `arr[2] == 2`. Even though `arr[3] == 3`, we return 2 since it's the lowest index.
 
 [Solution](https://k5kc.com/cs/problems/find-fixed-point-in-sorted-array) | [🔝 Back to top](#toc)
+
 #### Problem 375 (Medium)
 
 This problem was asked by Google.
@@ -5872,6 +5886,7 @@ For example, if the array was:
 This means the researcher has 5 papers with 4, 1, 0, 2, and 3 citations respectively. The h-index for this researcher is 2, since they have 2 papers with at least 2 citations and the remaining 3 papers have no more than 2 citations.
 
 [Solution](https://k5kc.com/cs/problems/h-index) | [🔝 Back to top](#toc)
+
 #### Problem 376 (Easy)
 
 This problem was asked by Google.
@@ -5902,6 +5917,7 @@ Coins: [(#### Problem 0, 4), (1, 0), (2, 0), (3, 2)]
 ```
 
 [Solution](https://k5kc.com/cs/problems/find-closest-coin-by-manhattan-distance) | [🔝 Back to top](#toc)
+
 #### Problem 377 (Hard)
 
 This problem was asked by Microsoft.
@@ -5928,6 +5944,7 @@ Your function should print out the following:
 Recall that the median of an even-sized list is the average of the two middle numbers.
 
 [Solution](https://k5kc.com/cs/problems/sliding-window-median) | [🔝 Back to top](#toc)
+
 #### Problem 378 (Medium)
 
 This problem was asked by Coinbase.
@@ -5947,6 +5964,7 @@ You should return the following, as a string:
 ```
 
 [Solution](https://k5kc.com/cs/problems/convert-object-to-json-string) | [🔝 Back to top](#toc)
+
 #### Problem 379 (Easy)
 
 This problem was asked by Microsoft.
@@ -5968,6 +5986,7 @@ xyz
 Note that `zx` is not a valid subsequence since it is not in the order of the given string.
 
 [Solution](https://k5kc.com/cs/problems/subsets-1) | [🔝 Back to top](#toc)
+
 #### Problem 380 (Medium)
 
 This problem was asked by Nextdoor.
@@ -5979,6 +5998,7 @@ For example, calling `divide(10, 3)` should return `(3, 1)` since the divisor is
 Bonus: Can you do it in O(log n) time?
 
 [Solution](https://k5kc.com/cs/problems/divide-two-integers) | [🔝 Back to top](#toc)
+
 #### Problem 381 (Easy)
 
 This problem was asked by Paypal.
@@ -6000,6 +6020,7 @@ should produce:
 ```
 
 [Solution](https://k5kc.com/cs/problems/convert-hex-string-to-base64) | [🔝 Back to top](#toc)
+
 #### Problem 382 (Easy)
 
 This problem was asked by Google.
@@ -6021,6 +6042,7 @@ deadbeef
 ```
 
 [Solution](https://k5kc.com/cs/problems/decode-base64-string-to-hex) | [🔝 Back to top](#toc)
+
 #### Problem 383 (Medium)
 
 This problem was asked by Gusto.
@@ -6034,6 +6056,7 @@ For example, given `s = abcdefg` and `lst = ["bc", "ef"]`, return the string `ab
 Given `s = abcdefg` and `lst = ["bcd", "def"]`, return the string `abcdefg`, since they overlap.
 
 [Solution](https://k5kc.com/cs/problems/add-bold-tag-in-string) | [🔝 Back to top](#toc)
+
 #### Problem 384 (Hard)
 
 This problem was asked by WeWork.
@@ -6045,6 +6068,7 @@ For example, given an array of `[1, 5, 10]` and an amount `56`, return `7` since
 Given an array of `[5, 8]` and an amount `15`, return `3` since we can use 5 5-cent coins.
 
 [Solution](https://k5kc.com/cs/problems/coin-change-with-fewest-number-of-coins-given-infinite-supply) | [🔝 Back to top](#toc)
+
 #### Problem 385 (Medium)
 
 This problem was asked by Apple.
@@ -6064,6 +6088,7 @@ Hello world from Daily Coding Problem
 ```
 
 [Solution](https://k5kc.com/cs/problems/decrypt-xor-encoded-hexadecimal-string) | [🔝 Back to top](#toc)
+
 #### Problem 386 (Easy)
 
 This problem was asked by Twitter.
@@ -6073,6 +6098,7 @@ Given a string, sort it in decreasing order based on the frequency of characters
 For example, given the string `tweet`, return `tteew`. `eettw` would also be acceptable.
 
 [Solution](https://k5kc.com/cs/problems/sort-characters-by-frequency) | [🔝 Back to top](#toc)
+
 #### Problem 387 (Medium)
 
 This problem was recently asked by Amazon.
@@ -6080,6 +6106,7 @@ This problem was recently asked by Amazon.
 How would you explain the difference between an API and SDK to a non-technical person?
 
 [Solution](https://k5kc.com/cs/problems/explaining-api-vs-sdk-to-non-technical-person) | [🔝 Back to top](#toc)
+
 #### Problem 388 (Medium)
 
 This problem was asked by Airtable.
@@ -6087,6 +6114,7 @@ This problem was asked by Airtable.
 How would you explain web cookies to someone non-technical?
 
 [Solution](https://k5kc.com/cs/problems/explaining-web-cookies-to-non-technical-person) | [🔝 Back to top](#toc)
+
 #### Problem 389 (Hard)
 
 This problem was asked by Google.
@@ -6094,6 +6122,7 @@ This problem was asked by Google.
 Explain the difference between composition and inheritance. In which cases would you use each?
 
 [Solution](https://k5kc.com/cs/problems/oop-inheritance-vs-composition) | [🔝 Back to top](#toc)
+
 #### Problem 390 (Medium)
 
 This problem was asked by Two Sigma.
@@ -6101,6 +6130,7 @@ This problem was asked by Two Sigma.
 You are given an unsorted list of 999,000 unique integers, each from 1 and 1,000,000. Find the missing 1000 numbers. What is the computational and space complexity of your solution?
 
 [Solution](https://k5kc.com/cs/problems/find-missing-1000-numbers-in-large-range) | [🔝 Back to top](#toc)
+
 #### Problem 391 (Hard)
 
 This problem was asked by Facebook.
@@ -6123,6 +6153,7 @@ You should return the following:
 ```
 
 [Solution](https://k5kc.com/cs/problems/maximum-length-of-repeated-subarray) | [🔝 Back to top](#toc)
+
 #### Problem 392 (Hard)
 
 This problem was asked by Google.
@@ -6147,6 +6178,7 @@ For example, given the following matrix:
 Return `14`.
 
 [Solution](https://k5kc.com/cs/problems/island-perimeter) | [🔝 Back to top](#toc)
+
 #### Problem 393 (Medium)
 
 This problem was asked by Airbnb.
@@ -6156,6 +6188,7 @@ Given an array of integers, return the largest range, inclusive, of integers tha
 For example, given the array `[9, 6, 1, 3, 8, 10, 12, 11]`, return `(8, 12)` since 8, 9, 10, 11, and 12 are all in the array.
 
 [Solution](https://k5kc.com/cs/problems/find-largest-consecutive-integer-range-in-array) | [🔝 Back to top](#toc)
+
 #### Problem 394 (Easy)
 
 This problem was asked by Uber.
@@ -6175,6 +6208,7 @@ For example, given `k = 18` and the following binary tree:
 Return `True` since the path `8 -> 4 -> 6` sums to 18.
 
 [Solution](https://k5kc.com/cs/problems/path-sum-1-check-if-root-to-leaf-path-exists) | [🔝 Back to top](#toc)
+
 #### Problem 395 (Medium)
 
 This problem was asked by Robinhood.
@@ -6196,6 +6230,7 @@ Return:
 ```
 
 [Solution](https://k5kc.com/cs/problems/group-anagrams) | [🔝 Back to top](#toc)
+
 #### Problem 396 (Hard)
 
 This problem was asked by Google.
@@ -6213,6 +6248,7 @@ Return 7, since the longest palindromic subsequence in the string is `APTMTPA`. 
 Your algorithm should run in O(n^2) time and space.
 
 [Solution](https://k5kc.com/cs/problems/longest-palindromic-subsequence-1-get-length) | [🔝 Back to top](#toc)
+
 #### Problem 397 (Medium)
 
 This problem was asked by Microsoft.
@@ -6241,6 +6277,7 @@ Return:
 ```
 
 [Solution](https://k5kc.com/cs/problems/find-largest-subset-of-compatible-jobs) | [🔝 Back to top](#toc)
+
 #### Problem 398 (Medium)
 
 This problem was asked by Amazon.
@@ -6252,6 +6289,7 @@ Given a linked list and an integer `k`, remove the k-th node from the end of the
 Do this in one pass.
 
 [Solution](https://k5kc.com/cs/problems/remove-nth-node-from-end-of-list) | [🔝 Back to top](#toc)
+
 #### Problem 399 (Hard)
 
 This problem was asked by Facebook.
@@ -6275,6 +6313,7 @@ Return the following 3 partitions:
 Which each add up to 8.
 
 [Solution](https://k5kc.com/cs/problems/partition-array-into-three-parts-with-equal-sum) | [🔝 Back to top](#toc)
+
 #### Problem 400 Onwards
 
 From here on the problems are repeating, hence moved to [repeating file](REPEATING.md).
