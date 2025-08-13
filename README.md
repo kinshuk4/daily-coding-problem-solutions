@@ -8,414 +8,423 @@ Now lets go through the problems.
 <details>
 <summary><strong>Table of Contents</strong></summary>
 
-
 - [Problems](#problems)
-  - [Problem 1 (Easy)](#problem-1-easy)
-  - [Problem 2 (Hard)](#problem-2-hard)
-  - [Problem 3 (Medium)](#problem-3-medium)
-  - [Problem 4 (Hard)](#problem-4-hard)
-  - [Problem 5 (Medium)](#problem-5-medium)
-  - [Problem 6 (Hard)](#problem-6-hard)
-  - [Problem 7 (Medium)](#problem-7-medium)
-  - [Problem 8 (Easy)](#problem-8-easy)
-  - [Problem 9 (Hard)](#problem-9-hard)
-  - [Problem 10 (Medium)](#problem-10-medium)
-  - [Problem 11 (Medium)](#problem-11-medium)
-  - [Problem 12 (Hard)](#problem-12-hard)
-  - [Problem 13 (Hard)](#problem-13-hard)
-  - [Problem 14 (Medium)](#problem-14-medium)
-  - [Problem 15 (Medium)](#problem-15-medium)
-  - [Problem 16 (Easy)](#problem-16-easy)
-  - [Problem 17 (Hard)](#problem-17-hard)
-  - [Problem 18 (Hard)](#problem-18-hard)
-  - [Problem 19 (Medium)](#problem-19-medium)
-  - [Problem 20 (Easy)](#problem-20-easy)
-  - [Problem 21 (Easy)](#problem-21-easy)
-  - [Problem 22 (Medium)](#problem-22-medium)
-  - [Problem 23 (Easy)](#problem-23-easy)
-  - [Problem 24 (Medium)](#problem-24-medium)
-  - [Problem 25 (Hard)](#problem-25-hard)
-  - [Problem 26 (Medium)](#problem-26-medium)
-  - [Problem 27 (Easy)](#problem-27-easy)
-  - [Problem 28 (Medium)](#problem-28-medium)
-  - [Problem 29 (Easy)](#problem-29-easy)
-  - [Problem 30 (Medium)](#problem-30-medium)
-  - [Problem 31 (Easy)](#problem-31-easy)
-  - [Problem 32 (Hard)](#problem-32-hard)
-  - [Problem 33 (Easy)](#problem-33-easy)
-  - [Problem 34 (Medium)](#problem-34-medium)
-  - [Problem 35 (Hard)](#problem-35-hard)
-  - [Problem 36 (Medium)](#problem-36-medium)
-  - [Problem 37 (Easy)](#problem-37-easy)
-  - [Problem 38 (Hard)](#problem-38-hard)
-  - [Problem 39 (Medium)](#problem-39-medium)
-  - [Problem 40 (Hard)](#problem-40-hard)
-  - [Problem 41 (Medium)](#problem-41-medium)
-  - [Problem 42 (Hard)](#problem-42-hard)
-  - [Problem 43 (Easy)](#problem-43-easy)
-  - [Problem 44 (Medium)](#problem-44-medium)
-  - [Problem 45 (Easy)](#problem-45-easy)
-  - [Problem 46 (Hard)](#problem-46-hard)
-  - [Problem 47 (Easy)](#problem-47-easy)
-  - [Problem 48 (Medium)](#problem-48-medium)
-  - [Problem 49 (Medium)](#problem-49-medium)
-  - [Problem 50 (Easy)](#problem-50-easy)
-  - [Problem 51 (Medium)](#problem-51-medium)
-  - [Problem 52 (Hard)](#problem-52-hard)
-  - [Problem 53 (Medium)](#problem-53-medium)
-  - [Problem 54 (Hard)](#problem-54-hard)
-  - [Problem 55 (Easy)](#problem-55-easy)
-  - [Problem 56 (Medium)](#problem-56-medium)
-  - [Problem 57 (Medium)](#problem-57-medium)
-  - [Problem 58 (Medium)](#problem-58-medium)
-  - [Problem 59 (Hard)](#problem-59-hard)
-  - [Problem 60 (Medium)](#problem-60-medium)
-  - [Problem 61 (Medium)](#problem-61-medium)
-  - [Problem 62 (Medium)](#problem-62-medium)
-  - [Problem 63 (Easy)](#problem-63-easy)
-  - [Problem 64 (Hard)](#problem-64-hard)
-  - [Problem 65 (Easy)](#problem-65-easy)
-  - [Problem 66 (Medium)](#problem-66-medium)
-  - [Problem 67 (Hard)](#problem-67-hard)
-  - [Problem 68 (Medium)](#problem-68-medium)
-  - [Problem 69 (Easy)](#problem-69-easy)
-  - [Problem 70 (Easy)](#problem-70-easy)
-  - [Problem 71 (Easy)](#problem-71-easy)
-  - [Problem 72 (Hard)](#problem-72-hard)
-  - [Problem 73 (Easy)](#problem-73-easy)
-  - [Problem 74 (Medium)](#problem-74-medium)
-  - [Problem 75 (Hard)](#problem-75-hard)
-  - [Problem 76 (Medium)](#problem-76-medium)
-  - [Problem 77 (Easy)](#problem-77-easy)
-  - [Problem 78 (Medium)](#problem-78-medium)
-  - [Problem 79 (Medium)](#problem-79-medium)
-  - [Problem 80 (Easy)](#problem-80-easy)
-  - [Problem 81 (Easy)](#problem-81-easy)
-  - [Problem 82 (Easy)](#problem-82-easy)
-  - [Problem 83 (Medium)](#problem-83-medium)
-  - [Problem 84 (Medium)](#problem-84-medium)
-  - [Problem 85 (Medium)](#problem-85-medium)
-  - [Problem 86 (Medium)](#problem-86-medium)
-  - [Problem 87 (Hard)](#problem-87-hard)
-  - [Problem 88 (Medium)](#problem-88-medium)
-  - [Problem 89 (Medium)](#problem-89-medium)
-  - [Problem 90 (Medium)](#problem-90-medium)
-  - [Problem 91 (Easy)](#problem-91-easy)
-  - [Problem 92 (Hard)](#problem-92-hard)
-  - [Problem 93 (Hard)](#problem-93-hard)
-  - [Problem 94 (Easy)](#problem-94-easy)
-  - [Problem 95 (Hard)](#problem-95-hard)
-  - [Problem 96 (Easy)](#problem-96-easy)
-  - [Problem 97 (Medium)](#problem-97-medium)
-  - [Problem 98 (Easy)](#problem-98-easy)
-  - [Problem 99 (Medium)](#problem-99-medium)
-  - [Problem 100 (Easy)](#problem-100-easy)
-  - [Problem 101 (Easy)](#problem-101-easy)
-  - [Problem 102 (Medium)](#problem-102-medium)
-  - [Problem 103 (Medium)](#problem-103-medium)
-  - [Problem 104 (Easy)](#problem-104-easy)
-  - [Problem 105 (Easy)](#problem-105-easy)
-  - [Problem 106 (Medium)](#problem-106-medium)
-  - [Problem 107 (Easy)](#problem-107-easy)
-  - [Problem 108 (Easy)](#problem-108-easy)
-  - [Problem 109 (Medium)](#problem-109-medium)
-  - [Problem 110 (Medium)](#problem-110-medium)
-  - [Problem 111 (Hard)](#problem-111-hard)
-  - [Problem 112 (Hard)](#problem-112-hard)
-  - [Problem 113 (Medium)](#problem-113-medium)
-  - [Problem 114 (Hard)](#problem-114-hard)
-  - [Problem 115 (Hard)](#problem-115-hard)
-  - [Problem 116 (Medium)](#problem-116-medium)
-  - [Problem 117 (Easy)](#problem-117-easy)
-  - [Problem 118 (Easy)](#problem-118-easy)
-  - [Problem 119 (Medium)](#problem-119-medium)
-  - [Problem 120 (Medium)](#problem-120-medium)
-  - [Problem 121 (Hard)](#problem-121-hard)
-  - [Problem 122 (Medium)](#problem-122-medium)
-  - [Problem 123 (Hard)](#problem-123-hard)
-  - [Problem 124 (Easy)](#problem-124-easy)
-  - [Problem 125 (Easy)](#problem-125-easy)
-  - [Problem 126 (Medium)](#problem-126-medium)
-  - [Problem 127 (Easy)](#problem-127-easy)
-  - [Problem 128 (Medium)](#problem-128-medium)
-  - [Problem 129 (Medium)](#problem-129-medium)
-  - [Problem 130 (Medium)](#problem-130-medium)
-  - [Problem 131 (Medium)](#problem-131-medium)
-  - [Problem 132 (Easy)](#problem-132-easy)
-  - [Problem 133 (Medium)](#problem-133-medium)
-  - [Problem 134 (Easy)](#problem-134-easy)
-  - [Problem 135 (Easy)](#problem-135-easy)
-  - [Problem 136 (Medium)](#problem-136-medium)
-  - [Problem 137 (Medium)](#problem-137-medium)
-  - [Problem 138 (Hard)](#problem-138-hard)
-  - [Problem 139 (Medium)](#problem-139-medium)
-  - [Problem 140 (Medium)](#problem-140-medium)
-  - [Problem 141 (Hard)](#problem-141-hard)
-  - [Problem 142 (Hard)](#problem-142-hard)
-  - [Problem 143 (Medium)](#problem-143-medium)
-  - [Problem 144 (Medium)](#problem-144-medium)
-  - [Problem 145 (Easy)](#problem-145-easy)
-  - [Problem 146 (Medium)](#problem-146-medium)
-  - [Problem 147 (Hard)](#problem-147-hard)
-  - [Problem 148 (Medium)](#problem-148-medium)
-  - [Problem 149 (Hard)](#problem-149-hard)
-  - [Problem 150 (Hard)](#problem-150-hard)
-  - [Problem 151 (Medium)](#problem-151-medium)
-  - [Problem 152 (Medium)](#problem-152-medium)
-  - [Problem 153 (Hard)](#problem-153-hard)
-  - [Problem 154 (Easy)](#problem-154-easy)
-  - [Problem 155 (Medium)](#problem-155-medium)
-  - [Problem 156 (Medium)](#problem-156-medium)
-  - [Problem 157 (Easy)](#problem-157-easy)
-  - [Problem 158 (Medium)](#problem-158-medium)
-  - [Problem 159 (Easy)](#problem-159-easy)
-  - [Problem 160 (Hard)](#problem-160-hard)
-  - [Problem 161 (Easy)](#problem-161-easy)
-  - [Problem 162 (Medium)](#problem-162-medium)
-  - [Problem 163 (Hard)](#problem-163-hard)
-  - [Problem 164 (Medium)](#problem-164-medium)
-  - [Problem 165 (Medium)](#problem-165-medium)
-  - [Problem 166 (Medium)](#problem-166-medium)
-  - [Problem 167 (Hard)](#problem-167-hard)
-  - [Problem 168 (Medium)](#problem-168-medium)
-  - [Problem 169 (Medium)](#problem-169-medium)
-  - [Problem 170 (Medium)](#problem-170-medium)
-  - [Problem 171 (Easy)](#problem-171-easy)
-  - [Problem 172 (Medium)](#problem-172-medium)
-  - [Problem 173 (Easy)](#problem-173-easy)
-  - [Problem 174 (Medium)](#problem-174-medium)
-  - [Problem 175 (Easy)](#problem-175-easy)
-  - [Problem 176 (Easy)](#problem-176-easy)
-  - [Problem 177 (Easy)](#problem-177-easy)
-  - [Problem 178 (Hard)](#problem-178-hard)
-  - [Problem 179 (Medium)](#problem-179-medium)
-  - [Problem 180 (Medium)](#problem-180-medium)
-  - [Problem 181 (Hard)](#problem-181-hard)
-  - [Problem 182 (Medium)](#problem-182-medium)
-  - [Problem 183 (Hard)](#problem-183-hard)
-  - [Problem 184 (Easy)](#problem-184-easy)
-  - [Problem 185 (Easy)](#problem-185-easy)
-  - [Problem 186 (Hard)](#problem-186-hard)
-  - [Problem 187 (Easy)](#problem-187-easy)
-  - [Problem 188 (Medium)](#problem-188-medium)
-  - [Problem 189 (Easy)](#problem-189-easy)
-  - [Problem 190 (Medium)](#problem-190-medium)
-  - [Problem 191 (Easy)](#problem-191-easy)
-  - [Problem 192 (Medium)](#problem-192-medium)
-  - [Problem 193 (Hard)](#problem-193-hard)
-  - [Problem 194 (Easy)](#problem-194-easy)
-  - [Problem 195 (Hard)](#problem-195-hard)
-  - [Problem 196 (Easy)](#problem-196-easy)
-  - [Problem 197 (Easy)](#problem-197-easy)
-  - [Problem 198 (Medium)](#problem-198-medium)
-  - [Problem 199 (Hard)](#problem-199-hard)
-  - [Problem 200 (Hard)](#problem-200-hard)
-  - [Problem 201 (Easy)](#problem-201-easy)
-  - [Problem 202 (Easy)](#problem-202-easy)
-  - [Problem 203 (Medium)](#problem-203-medium)
-  - [Problem 204 (Easy)](#problem-204-easy)
-  - [Problem 205 (Easy)](#problem-205-easy)
-  - [Problem 206 (Easy)](#problem-206-easy)
-  - [Problem 207 (Medium)](#problem-207-medium)
-  - [Problem 208 (Medium)](#problem-208-medium)
-  - [Problem 209 (Hard)](#problem-209-hard)
-  - [Problem 210 (Easy)](#problem-210-easy)
-  - [Problem 211 (Medium)](#problem-211-medium)
-  - [Problem 212 (Easy)](#problem-212-easy)
-  - [Problem 213 (Medium)](#problem-213-medium)
-  - [Problem 214 (Easy)](#problem-214-easy)
-  - [Problem 215 (Medium)](#problem-215-medium)
-  - [Problem 216 (Medium)](#problem-216-medium)
-  - [Problem 217 (Hard)](#problem-217-hard)
-  - [Problem 218 (Medium)](#problem-218-medium)
-  - [Problem 219 (Hard)](#problem-219-hard)
-  - [Problem 220 (Medium)](#problem-220-medium)
-  - [Problem 221 (Easy)](#problem-221-easy)
-  - [Problem 222 (Medium)](#problem-222-medium)
-  - [Problem 223 (Hard)](#problem-223-hard)
-  - [Problem 224 (Easy)](#problem-224-easy)
-  - [Problem 225 (Easy)](#problem-225-easy)
-  - [Problem 226 (Hard)](#problem-226-hard)
-  - [Problem 227 (Easy)](#problem-227-easy)
-  - [Problem 228 (Medium)](#problem-228-medium)
-  - [Problem 229 (Medium)](#problem-229-medium)
-  - [Problem 230 (Medium)](#problem-230-medium)
-  - [Problem 231 (Easy)](#problem-231-easy)
-  - [Problem 232 (Easy)](#problem-232-easy)
-  - [Problem 233 (Easy)](#problem-233-easy)
-  - [Problem 234 (Hard)](#problem-234-hard)
-  - [Problem 235 (Hard)](#problem-235-hard)
-  - [Problem 236 (Medium)](#problem-236-medium)
-  - [Problem 237 (Easy)](#problem-237-easy)
-  - [Problem 238 (Hard)](#problem-238-hard)
-  - [Problem 239 (Medium)](#problem-239-medium)
-  - [Problem 240 (Hard)](#problem-240-hard)
-  - [Problem 241 (Easy)](#problem-241-easy)
-  - [Problem 242 (Hard)](#problem-242-hard)
-  - [Problem 243 (Medium)](#problem-243-medium)
-  - [Problem 244 (Easy)](#problem-244-easy)
-  - [Problem 245 (Medium)](#problem-245-medium)
-  - [Problem 246 (Medium)](#problem-246-medium)
-  - [Problem 247 (Medium)](#problem-247-medium)
-  - [Problem 248 (Hard)](#problem-248-hard)
-  - [Problem 249 (Hard)](#problem-249-hard)
-  - [Problem 250 (Medium)](#problem-250-medium)
-  - [Problem 251 (Medium)](#problem-251-medium)
-  - [Problem 252 (Easy)](#problem-252-easy)
-  - [Problem 253 (Medium)](#problem-253-medium)
-  - [Problem 254 (Medium)](#problem-254-medium)
-  - [Problem 255 (Easy)](#problem-255-easy)
-  - [Problem 256 (Medium)](#problem-256-medium)
-  - [Problem 257 (Easy)](#problem-257-easy)
-  - [Problem 258 (Easy)](#problem-258-easy)
-  - [Problem 259 (Hard)](#problem-259-hard)
-  - [Problem 260 (Medium)](#problem-260-medium)
-  - [Problem 261 (Easy)](#problem-261-easy)
-  - [Problem 262 (Medium)](#problem-262-medium)
-  - [Problem 263 (Medium)](#problem-263-medium)
-  - [Problem 264 (Hard)](#problem-264-hard)
-  - [Problem 265 (Easy)](#problem-265-easy)
-  - [Problem 266 (Easy)](#problem-266-easy)
-  - [Problem 267 (Hard)](#problem-267-hard)
-  - [Problem 268 (Medium)](#problem-268-medium)
-  - [Problem 269 (Easy)](#problem-269-easy)
-  - [Problem 270 (Medium)](#problem-270-medium)
-  - [Problem 271 (Hard)](#problem-271-hard)
-  - [Problem 272 (Medium)](#problem-272-medium)
-  - [Problem 273 (Easy)](#problem-273-easy)
-  - [Problem 274 (Hard)](#problem-274-hard)
-  - [Problem 275 (Medium)](#problem-275-medium)
-  - [Problem 276 (Hard)](#problem-276-hard)
-  - [Problem 277 (Easy)](#problem-277-easy)
-  - [Problem 278 (Easy)](#problem-278-easy)
-  - [Problem 279 (Easy)](#problem-279-easy)
-  - [Problem 280 (Easy)](#problem-280-easy)
-  - [Problem 281 (Medium)](#problem-281-medium)
-  - [Problem 282 (Easy)](#problem-282-easy)
-  - [Problem 283 (Easy)](#problem-283-easy)
-  - [Problem 284 (Medium)](#problem-284-medium)
-  - [Problem 285 (Medium)](#problem-285-medium)
-  - [Problem 286 (Hard)](#problem-286-hard)
-  - [Problem 287 (Medium)](#problem-287-medium)
-  - [Problem 288 (Medium)](#problem-288-medium)
-  - [Problem 289 (Hard)](#problem-289-hard)
-  - [Problem 290 (Easy)](#problem-290-easy)
-  - [Problem 291 (Medium)](#problem-291-medium)
-  - [Problem 292 (Hard)](#problem-292-hard)
-  - [Problem 293 (Hard)](#problem-293-hard)
-  - [Problem 294 (Medium)](#problem-294-medium)
-  - [Problem 295 (Medium)](#problem-295-medium)
-  - [Problem 296 (Hard)](#problem-296-hard)
-  - [Problem 297 (Medium)](#problem-297-medium)
-  - [Problem 298 (Easy)](#problem-298-easy)
-  - [Problem 299 (Medium)](#problem-299-medium)
-  - [Problem 300 (Easy)](#problem-300-easy)
-  - [Problem 301 (Medium)](#problem-301-medium)
-  - [Problem 302 (Medium)](#problem-302-medium)
-  - [Problem 303 (Easy)](#problem-303-easy)
-  - [Problem 304 (Hard)](#problem-304-hard)
-  - [Problem 305 (Easy)](#problem-305-easy)
-  - [Problem 306 (Medium)](#problem-306-medium)
-  - [Problem 307 (Easy)](#problem-307-easy)
-  - [Problem 308 (Hard)](#problem-308-hard)
-  - [Problem 309 (Medium)](#problem-309-medium)
-  - [Problem 310 (Easy)](#problem-310-easy)
-  - [Problem 311 (Easy)](#problem-311-easy)
-  - [Problem 312 (Easy)](#problem-312-easy)
-  - [Problem 313 (Hard)](#problem-313-hard)
-  - [Problem 314 (Medium)](#problem-314-medium)
-  - [Problem 315 (Easy)](#problem-315-easy)
-  - [Problem 316 (Medium)](#problem-316-medium)
-  - [Problem 317 (Medium)](#problem-317-medium)
-  - [Problem 318 (Hard)](#problem-318-hard)
-  - [Problem 319 (Hard)](#problem-319-hard)
-  - [Problem 320 (Medium)](#problem-320-medium)
-  - [Problem 321 (Easy)](#problem-321-easy)
-  - [Problem 322 (Medium)](#problem-322-medium)
-  - [Problem 323 (Medium)](#problem-323-medium)
-  - [Problem 324 (Easy)](#problem-324-easy)
-  - [Problem 325 (Easy)](#problem-325-easy)
-  - [Problem 326 (Hard)](#problem-326-hard)
-  - [Problem 327 (Easy)](#problem-327-easy)
-  - [Problem 328 (Medium)](#problem-328-medium)
-  - [Problem 329 (Hard)](#problem-329-hard)
-  - [Problem 330 (Hard)](#problem-330-hard)
-  - [Problem 331 (Medium)](#problem-331-medium)
-  - [Problem 332 (Easy)](#problem-332-easy)
-  - [Problem 333 (Medium)](#problem-333-medium)
-  - [Problem 334 (Easy)](#problem-334-easy)
-  - [Problem 335 (Hard)](#problem-335-hard)
-  - [Problem 336 (Medium)](#problem-336-medium)
-  - [Problem 337 (Hard)](#problem-337-hard)
-  - [Problem 338 (Medium)](#problem-338-medium)
-  - [Problem 339 (Easy)](#problem-339-easy)
-  - [Problem 340 (Easy)](#problem-340-easy)
-  - [Problem 341 (Easy)](#problem-341-easy)
-  - [Problem 342 (Medium)](#problem-342-medium)
-  - [Problem 343 (Medium)](#problem-343-medium)
-  - [Problem 344 (Hard)](#problem-344-hard)
-  - [Problem 345 (Medium)](#problem-345-medium)
-  - [Problem 346 (Medium)](#problem-346-medium)
-  - [Problem 347 (Easy)](#problem-347-easy)
-  - [Problem 348 (Easy)](#problem-348-easy)
-  - [Problem 349 (Hard)](#problem-349-hard)
-  - [Problem 350 (Medium)](#problem-350-medium)
-  - [Problem 351 (Hard)](#problem-351-hard)
-  - [Problem 352 (Easy)](#problem-352-easy)
-  - [Problem 353 (Medium)](#problem-353-medium)
-  - [Problem 354 (Hard)](#problem-354-hard)
-  - [Problem 355 (Hard)](#problem-355-hard)
-  - [Problem 356 (Hard)](#problem-356-hard)
-  - [Problem 357 (Hard)](#problem-357-hard)
-  - [Problem 358 (Hard)](#problem-358-hard)
-  - [Problem 359 (Easy)](#problem-359-easy)
-  - [Problem 360 (Medium)](#problem-360-medium)
-  - [Problem 361 (Medium)](#problem-361-medium)
-  - [Problem 362 (Easy)](#problem-362-easy)
-  - [Problem 363 (Medium)](#problem-363-medium)
-  - [Problem 364 (Medium)](#problem-364-medium)
-  - [Problem 365 (Hard)](#problem-365-hard)
-  - [Problem 366 (Medium)](#problem-366-medium)
-  - [Problem 367 (Medium)](#problem-367-medium)
-  - [Problem 368 (Hard)](#problem-368-hard)
-  - [Problem 369 (Medium)](#problem-369-medium)
-  - [Problem 370 (Easy)](#problem-370-easy)
-  - [Problem 371 (Hard)](#problem-371-hard)
-  - [Problem 372 (Easy)](#problem-372-easy)
-  - [Problem 373 (Hard)](#problem-373-hard)
-  - [Problem 374 (Hard)](#problem-374-hard)
-  - [Problem 375 (Medium)](#problem-375-medium)
-  - [Problem 376 (Easy)](#problem-376-easy)
-  - [Problem 377 (Hard)](#problem-377-hard)
-  - [Problem 378 (Medium)](#problem-378-medium)
-  - [Problem 379 (Easy)](#problem-379-easy)
-  - [Problem 380 (Medium)](#problem-380-medium)
-  - [Problem 381 (Easy)](#problem-381-easy)
-  - [Problem 382 (Easy)](#problem-382-easy)
-  - [Problem 383 (Medium)](#problem-383-medium)
-  - [Problem 384 (Hard)](#problem-384-hard)
-  - [Problem 385 (Medium)](#problem-385-medium)
-  - [Problem 386 (Easy)](#problem-386-easy)
-  - [Problem 387 (Medium)](#problem-387-medium)
-  - [Problem 388 (Medium)](#problem-388-medium)
-  - [Problem 389 (Hard)](#problem-389-hard)
-  - [Problem 390 (Medium)](#problem-390-medium)
-  - [Problem 391 (Hard)](#problem-391-hard)
-  - [Problem 392 (Hard)](#problem-392-hard)
-  - [Problem 393 (Medium)](#problem-393-medium)
-  - [Problem 394 (Easy)](#problem-394-easy)
-  - [Problem 395 (Medium)](#problem-395-medium)
-  - [Problem 396 (Hard)](#problem-396-hard)
-  - [Problem 397 (Medium)](#problem-397-medium)
-  - [Problem 398 (Medium)](#problem-398-medium)
-  - [Problem 399 (Hard)](#problem-399-hard)
-  - [Problem 400 Onwards](#problem-400-onwards)
+  - [Problems 1 - 50](#problems-1---50)
+    - [Problem 1 (Easy)](#problem-1-easy)
+    - [Problem 2 (Hard)](#problem-2-hard)
+    - [Problem 3 (Medium)](#problem-3-medium)
+    - [Problem 4 (Hard)](#problem-4-hard)
+    - [Problem 5 (Medium)](#problem-5-medium)
+    - [Problem 6 (Hard)](#problem-6-hard)
+    - [Problem 7 (Medium)](#problem-7-medium)
+    - [Problem 8 (Easy)](#problem-8-easy)
+    - [Problem 9 (Hard)](#problem-9-hard)
+    - [Problem 10 (Medium)](#problem-10-medium)
+    - [Problem 11 (Medium)](#problem-11-medium)
+    - [Problem 12 (Hard)](#problem-12-hard)
+    - [Problem 13 (Hard)](#problem-13-hard)
+    - [Problem 14 (Medium)](#problem-14-medium)
+    - [Problem 15 (Medium)](#problem-15-medium)
+    - [Problem 16 (Easy)](#problem-16-easy)
+    - [Problem 17 (Hard)](#problem-17-hard)
+    - [Problem 18 (Hard)](#problem-18-hard)
+    - [Problem 19 (Medium)](#problem-19-medium)
+    - [Problem 20 (Easy)](#problem-20-easy)
+    - [Problem 21 (Easy)](#problem-21-easy)
+    - [Problem 22 (Medium)](#problem-22-medium)
+    - [Problem 23 (Easy)](#problem-23-easy)
+    - [Problem 24 (Medium)](#problem-24-medium)
+    - [Problem 25 (Hard)](#problem-25-hard)
+    - [Problem 26 (Medium)](#problem-26-medium)
+    - [Problem 27 (Easy)](#problem-27-easy)
+    - [Problem 28 (Medium)](#problem-28-medium)
+    - [Problem 29 (Easy)](#problem-29-easy)
+    - [Problem 30 (Medium)](#problem-30-medium)
+    - [Problem 31 (Easy)](#problem-31-easy)
+    - [Problem 32 (Hard)](#problem-32-hard)
+    - [Problem 33 (Easy)](#problem-33-easy)
+    - [Problem 34 (Medium)](#problem-34-medium)
+    - [Problem 35 (Hard)](#problem-35-hard)
+    - [Problem 36 (Medium)](#problem-36-medium)
+    - [Problem 37 (Easy)](#problem-37-easy)
+    - [Problem 38 (Hard)](#problem-38-hard)
+    - [Problem 39 (Medium)](#problem-39-medium)
+    - [Problem 40 (Hard)](#problem-40-hard)
+    - [Problem 41 (Medium)](#problem-41-medium)
+    - [Problem 42 (Hard)](#problem-42-hard)
+    - [Problem 43 (Easy)](#problem-43-easy)
+    - [Problem 44 (Medium)](#problem-44-medium)
+    - [Problem 45 (Easy)](#problem-45-easy)
+    - [Problem 46 (Hard)](#problem-46-hard)
+    - [Problem 47 (Easy)](#problem-47-easy)
+    - [Problem 48 (Medium)](#problem-48-medium)
+    - [Problem 49 (Medium)](#problem-49-medium)
+    - [Problem 50 (Easy)](#problem-50-easy)
+  - [Problems 51 - 100](#problems-51---100)
+    - [Problem 51 (Medium)](#problem-51-medium)
+    - [Problem 52 (Hard)](#problem-52-hard)
+    - [Problem 53 (Medium)](#problem-53-medium)
+    - [Problem 54 (Hard)](#problem-54-hard)
+    - [Problem 55 (Easy)](#problem-55-easy)
+    - [Problem 56 (Medium)](#problem-56-medium)
+    - [Problem 57 (Medium)](#problem-57-medium)
+    - [Problem 58 (Medium)](#problem-58-medium)
+    - [Problem 59 (Hard)](#problem-59-hard)
+    - [Problem 60 (Medium)](#problem-60-medium)
+    - [Problem 61 (Medium)](#problem-61-medium)
+    - [Problem 62 (Medium)](#problem-62-medium)
+    - [Problem 63 (Easy)](#problem-63-easy)
+    - [Problem 64 (Hard)](#problem-64-hard)
+    - [Problem 65 (Easy)](#problem-65-easy)
+    - [Problem 66 (Medium)](#problem-66-medium)
+    - [Problem 67 (Hard)](#problem-67-hard)
+    - [Problem 68 (Medium)](#problem-68-medium)
+    - [Problem 69 (Easy)](#problem-69-easy)
+    - [Problem 70 (Easy)](#problem-70-easy)
+    - [Problem 71 (Easy)](#problem-71-easy)
+    - [Problem 72 (Hard)](#problem-72-hard)
+    - [Problem 73 (Easy)](#problem-73-easy)
+    - [Problem 74 (Medium)](#problem-74-medium)
+    - [Problem 75 (Hard)](#problem-75-hard)
+    - [Problem 76 (Medium)](#problem-76-medium)
+    - [Problem 77 (Easy)](#problem-77-easy)
+    - [Problem 78 (Medium)](#problem-78-medium)
+    - [Problem 79 (Medium)](#problem-79-medium)
+    - [Problem 80 (Easy)](#problem-80-easy)
+    - [Problem 81 (Easy)](#problem-81-easy)
+    - [Problem 82 (Easy)](#problem-82-easy)
+    - [Problem 83 (Medium)](#problem-83-medium)
+    - [Problem 84 (Medium)](#problem-84-medium)
+    - [Problem 85 (Medium)](#problem-85-medium)
+    - [Problem 86 (Medium)](#problem-86-medium)
+    - [Problem 87 (Hard)](#problem-87-hard)
+    - [Problem 88 (Medium)](#problem-88-medium)
+    - [Problem 89 (Medium)](#problem-89-medium)
+    - [Problem 90 (Medium)](#problem-90-medium)
+    - [Problem 91 (Easy)](#problem-91-easy)
+    - [Problem 92 (Hard)](#problem-92-hard)
+    - [Problem 93 (Hard)](#problem-93-hard)
+    - [Problem 94 (Easy)](#problem-94-easy)
+    - [Problem 95 (Hard)](#problem-95-hard)
+    - [Problem 96 (Easy)](#problem-96-easy)
+    - [Problem 97 (Medium)](#problem-97-medium)
+    - [Problem 98 (Easy)](#problem-98-easy)
+    - [Problem 99 (Medium)](#problem-99-medium)
+    - [Problem 100 (Easy)](#problem-100-easy)
+  - [Problems 101 - 150](#problems-101---150)
+    - [Problem 101 (Easy)](#problem-101-easy)
+    - [Problem 102 (Medium)](#problem-102-medium)
+    - [Problem 103 (Medium)](#problem-103-medium)
+    - [Problem 104 (Easy)](#problem-104-easy)
+    - [Problem 105 (Easy)](#problem-105-easy)
+    - [Problem 106 (Medium)](#problem-106-medium)
+    - [Problem 107 (Easy)](#problem-107-easy)
+    - [Problem 108 (Easy)](#problem-108-easy)
+    - [Problem 109 (Medium)](#problem-109-medium)
+    - [Problem 110 (Medium)](#problem-110-medium)
+    - [Problem 111 (Hard)](#problem-111-hard)
+    - [Problem 112 (Hard)](#problem-112-hard)
+    - [Problem 113 (Medium)](#problem-113-medium)
+    - [Problem 114 (Hard)](#problem-114-hard)
+    - [Problem 115 (Hard)](#problem-115-hard)
+    - [Problem 116 (Medium)](#problem-116-medium)
+    - [Problem 117 (Easy)](#problem-117-easy)
+    - [Problem 118 (Easy)](#problem-118-easy)
+    - [Problem 119 (Medium)](#problem-119-medium)
+    - [Problem 120 (Medium)](#problem-120-medium)
+    - [Problem 121 (Hard)](#problem-121-hard)
+    - [Problem 122 (Medium)](#problem-122-medium)
+    - [Problem 123 (Hard)](#problem-123-hard)
+    - [Problem 124 (Easy)](#problem-124-easy)
+    - [Problem 125 (Easy)](#problem-125-easy)
+    - [Problem 126 (Medium)](#problem-126-medium)
+    - [Problem 127 (Easy)](#problem-127-easy)
+    - [Problem 128 (Medium)](#problem-128-medium)
+    - [Problem 129 (Medium)](#problem-129-medium)
+    - [Problem 130 (Medium)](#problem-130-medium)
+    - [Problem 131 (Medium)](#problem-131-medium)
+    - [Problem 132 (Easy)](#problem-132-easy)
+    - [Problem 133 (Medium)](#problem-133-medium)
+    - [Problem 134 (Easy)](#problem-134-easy)
+    - [Problem 135 (Easy)](#problem-135-easy)
+    - [Problem 136 (Medium)](#problem-136-medium)
+    - [Problem 137 (Medium)](#problem-137-medium)
+    - [Problem 138 (Hard)](#problem-138-hard)
+    - [Problem 139 (Medium)](#problem-139-medium)
+    - [Problem 140 (Medium)](#problem-140-medium)
+    - [Problem 141 (Hard)](#problem-141-hard)
+    - [Problem 142 (Hard)](#problem-142-hard)
+    - [Problem 143 (Medium)](#problem-143-medium)
+    - [Problem 144 (Medium)](#problem-144-medium)
+    - [Problem 145 (Easy)](#problem-145-easy)
+    - [Problem 146 (Medium)](#problem-146-medium)
+    - [Problem 147 (Hard)](#problem-147-hard)
+    - [Problem 148 (Medium)](#problem-148-medium)
+    - [Problem 149 (Hard)](#problem-149-hard)
+    - [Problem 150 (Hard)](#problem-150-hard)
+  - [Problems 151 - 200](#problems-151---200)
+    - [Problem 151 (Medium)](#problem-151-medium)
+    - [Problem 152 (Medium)](#problem-152-medium)
+    - [Problem 153 (Hard)](#problem-153-hard)
+    - [Problem 154 (Easy)](#problem-154-easy)
+    - [Problem 155 (Medium)](#problem-155-medium)
+    - [Problem 156 (Medium)](#problem-156-medium)
+    - [Problem 157 (Easy)](#problem-157-easy)
+    - [Problem 158 (Medium)](#problem-158-medium)
+    - [Problem 159 (Easy)](#problem-159-easy)
+    - [Problem 160 (Hard)](#problem-160-hard)
+    - [Problem 161 (Easy)](#problem-161-easy)
+    - [Problem 162 (Medium)](#problem-162-medium)
+    - [Problem 163 (Hard)](#problem-163-hard)
+    - [Problem 164 (Medium)](#problem-164-medium)
+    - [Problem 165 (Medium)](#problem-165-medium)
+    - [Problem 166 (Medium)](#problem-166-medium)
+    - [Problem 167 (Hard)](#problem-167-hard)
+    - [Problem 168 (Medium)](#problem-168-medium)
+    - [Problem 169 (Medium)](#problem-169-medium)
+    - [Problem 170 (Medium)](#problem-170-medium)
+    - [Problem 171 (Easy)](#problem-171-easy)
+    - [Problem 172 (Medium)](#problem-172-medium)
+    - [Problem 173 (Easy)](#problem-173-easy)
+    - [Problem 174 (Medium)](#problem-174-medium)
+    - [Problem 175 (Easy)](#problem-175-easy)
+    - [Problem 176 (Easy)](#problem-176-easy)
+    - [Problem 177 (Easy)](#problem-177-easy)
+    - [Problem 178 (Hard)](#problem-178-hard)
+    - [Problem 179 (Medium)](#problem-179-medium)
+    - [Problem 180 (Medium)](#problem-180-medium)
+    - [Problem 181 (Hard)](#problem-181-hard)
+    - [Problem 182 (Medium)](#problem-182-medium)
+    - [Problem 183 (Hard)](#problem-183-hard)
+    - [Problem 184 (Easy)](#problem-184-easy)
+    - [Problem 185 (Easy)](#problem-185-easy)
+    - [Problem 186 (Hard)](#problem-186-hard)
+    - [Problem 187 (Easy)](#problem-187-easy)
+    - [Problem 188 (Medium)](#problem-188-medium)
+    - [Problem 189 (Easy)](#problem-189-easy)
+    - [Problem 190 (Medium)](#problem-190-medium)
+    - [Problem 191 (Easy)](#problem-191-easy)
+    - [Problem 192 (Medium)](#problem-192-medium)
+    - [Problem 193 (Hard)](#problem-193-hard)
+    - [Problem 194 (Easy)](#problem-194-easy)
+    - [Problem 195 (Hard)](#problem-195-hard)
+    - [Problem 196 (Easy)](#problem-196-easy)
+    - [Problem 197 (Easy)](#problem-197-easy)
+    - [Problem 198 (Medium)](#problem-198-medium)
+    - [Problem 199 (Hard)](#problem-199-hard)
+    - [Problem 200 (Hard)](#problem-200-hard)
+  - [Problems 201 - 250](#problems-201---250)
+    - [Problem 201 (Easy)](#problem-201-easy)
+    - [Problem 202 (Easy)](#problem-202-easy)
+    - [Problem 203 (Medium)](#problem-203-medium)
+    - [Problem 204 (Easy)](#problem-204-easy)
+    - [Problem 205 (Easy)](#problem-205-easy)
+    - [Problem 206 (Easy)](#problem-206-easy)
+    - [Problem 207 (Medium)](#problem-207-medium)
+    - [Problem 208 (Medium)](#problem-208-medium)
+    - [Problem 209 (Hard)](#problem-209-hard)
+    - [Problem 210 (Easy)](#problem-210-easy)
+    - [Problem 211 (Medium)](#problem-211-medium)
+    - [Problem 212 (Easy)](#problem-212-easy)
+    - [Problem 213 (Medium)](#problem-213-medium)
+    - [Problem 214 (Easy)](#problem-214-easy)
+    - [Problem 215 (Medium)](#problem-215-medium)
+    - [Problem 216 (Medium)](#problem-216-medium)
+    - [Problem 217 (Hard)](#problem-217-hard)
+    - [Problem 218 (Medium)](#problem-218-medium)
+    - [Problem 219 (Hard)](#problem-219-hard)
+    - [Problem 220 (Medium)](#problem-220-medium)
+    - [Problem 221 (Easy)](#problem-221-easy)
+    - [Problem 222 (Medium)](#problem-222-medium)
+    - [Problem 223 (Hard)](#problem-223-hard)
+    - [Problem 224 (Easy)](#problem-224-easy)
+    - [Problem 225 (Easy)](#problem-225-easy)
+    - [Problem 226 (Hard)](#problem-226-hard)
+    - [Problem 227 (Easy)](#problem-227-easy)
+    - [Problem 228 (Medium)](#problem-228-medium)
+    - [Problem 229 (Medium)](#problem-229-medium)
+    - [Problem 230 (Medium)](#problem-230-medium)
+    - [Problem 231 (Easy)](#problem-231-easy)
+    - [Problem 232 (Easy)](#problem-232-easy)
+    - [Problem 233 (Easy)](#problem-233-easy)
+    - [Problem 234 (Hard)](#problem-234-hard)
+    - [Problem 235 (Hard)](#problem-235-hard)
+    - [Problem 236 (Medium)](#problem-236-medium)
+    - [Problem 237 (Easy)](#problem-237-easy)
+    - [Problem 238 (Hard)](#problem-238-hard)
+    - [Problem 239 (Medium)](#problem-239-medium)
+    - [Problem 240 (Hard)](#problem-240-hard)
+    - [Problem 241 (Easy)](#problem-241-easy)
+    - [Problem 242 (Hard)](#problem-242-hard)
+    - [Problem 243 (Medium)](#problem-243-medium)
+    - [Problem 244 (Easy)](#problem-244-easy)
+    - [Problem 245 (Medium)](#problem-245-medium)
+    - [Problem 246 (Medium)](#problem-246-medium)
+    - [Problem 247 (Medium)](#problem-247-medium)
+    - [Problem 248 (Hard)](#problem-248-hard)
+    - [Problem 249 (Hard)](#problem-249-hard)
+    - [Problem 250 (Medium)](#problem-250-medium)
+  - [Problems 251 - 300](#problems-251---300)
+    - [Problem 251 (Medium)](#problem-251-medium)
+    - [Problem 252 (Easy)](#problem-252-easy)
+    - [Problem 253 (Medium)](#problem-253-medium)
+    - [Problem 254 (Medium)](#problem-254-medium)
+    - [Problem 255 (Easy)](#problem-255-easy)
+    - [Problem 256 (Medium)](#problem-256-medium)
+    - [Problem 257 (Easy)](#problem-257-easy)
+    - [Problem 258 (Easy)](#problem-258-easy)
+    - [Problem 259 (Hard)](#problem-259-hard)
+    - [Problem 260 (Medium)](#problem-260-medium)
+    - [Problem 261 (Easy)](#problem-261-easy)
+    - [Problem 262 (Medium)](#problem-262-medium)
+    - [Problem 263 (Medium)](#problem-263-medium)
+    - [Problem 264 (Hard)](#problem-264-hard)
+    - [Problem 265 (Easy)](#problem-265-easy)
+    - [Problem 266 (Easy)](#problem-266-easy)
+    - [Problem 267 (Hard)](#problem-267-hard)
+    - [Problem 268 (Medium)](#problem-268-medium)
+    - [Problem 269 (Easy)](#problem-269-easy)
+    - [Problem 270 (Medium)](#problem-270-medium)
+    - [Problem 271 (Hard)](#problem-271-hard)
+    - [Problem 272 (Medium)](#problem-272-medium)
+    - [Problem 273 (Easy)](#problem-273-easy)
+    - [Problem 274 (Hard)](#problem-274-hard)
+    - [Problem 275 (Medium)](#problem-275-medium)
+    - [Problem 276 (Hard)](#problem-276-hard)
+    - [Problem 277 (Easy)](#problem-277-easy)
+    - [Problem 278 (Easy)](#problem-278-easy)
+    - [Problem 279 (Easy)](#problem-279-easy)
+    - [Problem 280 (Easy)](#problem-280-easy)
+    - [Problem 281 (Medium)](#problem-281-medium)
+    - [Problem 282 (Easy)](#problem-282-easy)
+    - [Problem 283 (Easy)](#problem-283-easy)
+    - [Problem 284 (Medium)](#problem-284-medium)
+    - [Problem 285 (Medium)](#problem-285-medium)
+    - [Problem 286 (Hard)](#problem-286-hard)
+    - [Problem 287 (Medium)](#problem-287-medium)
+    - [Problem 288 (Medium)](#problem-288-medium)
+    - [Problem 289 (Hard)](#problem-289-hard)
+    - [Problem 290 (Easy)](#problem-290-easy)
+    - [Problem 291 (Medium)](#problem-291-medium)
+    - [Problem 292 (Hard)](#problem-292-hard)
+    - [Problem 293 (Hard)](#problem-293-hard)
+    - [Problem 294 (Medium)](#problem-294-medium)
+    - [Problem 295 (Medium)](#problem-295-medium)
+    - [Problem 296 (Hard)](#problem-296-hard)
+    - [Problem 297 (Medium)](#problem-297-medium)
+    - [Problem 298 (Easy)](#problem-298-easy)
+    - [Problem 299 (Medium)](#problem-299-medium)
+    - [Problem 300 (Easy)](#problem-300-easy)
+  - [Problems 301 - 350](#problems-301---350)
+    - [Problem 301 (Medium)](#problem-301-medium)
+    - [Problem 302 (Medium)](#problem-302-medium)
+    - [Problem 303 (Easy)](#problem-303-easy)
+    - [Problem 304 (Hard)](#problem-304-hard)
+    - [Problem 305 (Easy)](#problem-305-easy)
+    - [Problem 306 (Medium)](#problem-306-medium)
+    - [Problem 307 (Easy)](#problem-307-easy)
+    - [Problem 308 (Hard)](#problem-308-hard)
+    - [Problem 309 (Medium)](#problem-309-medium)
+    - [Problem 310 (Easy)](#problem-310-easy)
+    - [Problem 311 (Easy)](#problem-311-easy)
+    - [Problem 312 (Easy)](#problem-312-easy)
+    - [Problem 313 (Hard)](#problem-313-hard)
+    - [Problem 314 (Medium)](#problem-314-medium)
+    - [Problem 315 (Easy)](#problem-315-easy)
+    - [Problem 316 (Medium)](#problem-316-medium)
+    - [Problem 317 (Medium)](#problem-317-medium)
+    - [Problem 318 (Hard)](#problem-318-hard)
+    - [Problem 319 (Hard)](#problem-319-hard)
+    - [Problem 320 (Medium)](#problem-320-medium)
+    - [Problem 321 (Easy)](#problem-321-easy)
+    - [Problem 322 (Medium)](#problem-322-medium)
+    - [Problem 323 (Medium)](#problem-323-medium)
+    - [Problem 324 (Easy)](#problem-324-easy)
+    - [Problem 325 (Easy)](#problem-325-easy)
+    - [Problem 326 (Hard)](#problem-326-hard)
+    - [Problem 327 (Easy)](#problem-327-easy)
+    - [Problem 328 (Medium)](#problem-328-medium)
+    - [Problem 329 (Hard)](#problem-329-hard)
+    - [Problem 330 (Hard)](#problem-330-hard)
+    - [Problem 331 (Medium)](#problem-331-medium)
+    - [Problem 332 (Easy)](#problem-332-easy)
+    - [Problem 333 (Medium)](#problem-333-medium)
+    - [Problem 334 (Easy)](#problem-334-easy)
+    - [Problem 335 (Hard)](#problem-335-hard)
+    - [Problem 336 (Medium)](#problem-336-medium)
+    - [Problem 337 (Hard)](#problem-337-hard)
+    - [Problem 338 (Medium)](#problem-338-medium)
+    - [Problem 339 (Easy)](#problem-339-easy)
+    - [Problem 340 (Easy)](#problem-340-easy)
+    - [Problem 341 (Easy)](#problem-341-easy)
+    - [Problem 342 (Medium)](#problem-342-medium)
+    - [Problem 343 (Medium)](#problem-343-medium)
+    - [Problem 344 (Hard)](#problem-344-hard)
+    - [Problem 345 (Medium)](#problem-345-medium)
+    - [Problem 346 (Medium)](#problem-346-medium)
+    - [Problem 347 (Easy)](#problem-347-easy)
+    - [Problem 348 (Easy)](#problem-348-easy)
+    - [Problem 349 (Hard)](#problem-349-hard)
+    - [Problem 350 (Medium)](#problem-350-medium)
+  - [Problems 351 - 400](#problems-351---400)
+    - [Problem 351 (Hard)](#problem-351-hard)
+    - [Problem 352 (Easy)](#problem-352-easy)
+    - [Problem 353 (Medium)](#problem-353-medium)
+    - [Problem 354 (Hard)](#problem-354-hard)
+    - [Problem 355 (Hard)](#problem-355-hard)
+    - [Problem 356 (Hard)](#problem-356-hard)
+    - [Problem 357 (Hard)](#problem-357-hard)
+    - [Problem 358 (Hard)](#problem-358-hard)
+    - [Problem 359 (Easy)](#problem-359-easy)
+    - [Problem 360 (Medium)](#problem-360-medium)
+    - [Problem 361 (Medium)](#problem-361-medium)
+    - [Problem 362 (Easy)](#problem-362-easy)
+    - [Problem 363 (Medium)](#problem-363-medium)
+    - [Problem 364 (Medium)](#problem-364-medium)
+    - [Problem 365 (Hard)](#problem-365-hard)
+    - [Problem 366 (Medium)](#problem-366-medium)
+    - [Problem 367 (Medium)](#problem-367-medium)
+    - [Problem 368 (Hard)](#problem-368-hard)
+    - [Problem 369 (Medium)](#problem-369-medium)
+    - [Problem 370 (Easy)](#problem-370-easy)
+    - [Problem 371 (Hard)](#problem-371-hard)
+    - [Problem 372 (Easy)](#problem-372-easy)
+    - [Problem 373 (Hard)](#problem-373-hard)
+    - [Problem 374 (Hard)](#problem-374-hard)
+    - [Problem 375 (Medium)](#problem-375-medium)
+    - [Problem 376 (Easy)](#problem-376-easy)
+    - [Problem 377 (Hard)](#problem-377-hard)
+    - [Problem 378 (Medium)](#problem-378-medium)
+    - [Problem 379 (Easy)](#problem-379-easy)
+    - [Problem 380 (Medium)](#problem-380-medium)
+    - [Problem 381 (Easy)](#problem-381-easy)
+    - [Problem 382 (Easy)](#problem-382-easy)
+    - [Problem 383 (Medium)](#problem-383-medium)
+    - [Problem 384 (Hard)](#problem-384-hard)
+    - [Problem 385 (Medium)](#problem-385-medium)
+    - [Problem 386 (Easy)](#problem-386-easy)
+    - [Problem 387 (Medium)](#problem-387-medium)
+    - [Problem 388 (Medium)](#problem-388-medium)
+    - [Problem 389 (Hard)](#problem-389-hard)
+    - [Problem 390 (Medium)](#problem-390-medium)
+    - [Problem 391 (Hard)](#problem-391-hard)
+    - [Problem 392 (Hard)](#problem-392-hard)
+    - [Problem 393 (Medium)](#problem-393-medium)
+    - [Problem 394 (Easy)](#problem-394-easy)
+    - [Problem 395 (Medium)](#problem-395-medium)
+    - [Problem 396 (Hard)](#problem-396-hard)
+    - [Problem 397 (Medium)](#problem-397-medium)
+    - [Problem 398 (Medium)](#problem-398-medium)
+    - [Problem 399 (Hard)](#problem-399-hard)
+    - [Problem 400 Onwards](#problem-400-onwards)
 
 </details>
 
 ## Problems
 
-### Problem 1 (Easy)
+### Problems 1 - 50
+
+#### Problem 1 (Easy)
 
 > This problem was recently asked by Google.
 
@@ -427,7 +436,7 @@ Bonus: Can you do this in one pass?
 
 [Solution](https://k5kc.com/cs/problems/two-sum/) | [🔝 Back to top](#toc)
 
-### Problem 2 (Hard)
+#### Problem 2 (Hard)
 
 > This problem was asked by Uber.
 
@@ -439,7 +448,7 @@ Follow-up: what if you can't use division?
 
 [Solution](https://k5kc.com/cs/problems/product-of-array-except-self/) | [🔝 Back to top](#toc)
 
-### Problem 3 (Medium)
+#### Problem 3 (Medium)
 
 > This problem was recently asked by Google.
 
@@ -464,7 +473,7 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 
 [Solution](https://k5kc.com/cs/problems/serialize-and-deserialize-binary-tree/) | [🔝 Back to top](#toc)
 
-### Problem 4 (Hard)
+#### Problem 4 (Hard)
 
 > This problem was asked by Stripe.
 
@@ -476,7 +485,7 @@ You can modify the input array in-place.
 
 [Solution](https://k5kc.com/cs/problems/first-missing-positive/) | [🔝 Back to top](#toc)
 
-### Problem 5 (Medium)
+#### Problem 5 (Medium)
 
 > This problem was asked by Jane Street.
 
@@ -495,7 +504,7 @@ Implement `car` and `cdr`.
 
 [Solution](https://k5kc.com/cs/problems/implementing-car-and-cdr-functions-for-pair-construction/) | [🔝 Back to top](#toc)
 
-### Problem 6 (Hard)
+#### Problem 6 (Hard)
 
 > This problem was asked by Google.
 
@@ -505,7 +514,7 @@ If using a language that has no pointers (such as Python), you can assume you ha
 
 [Solution](https://k5kc.com/cs/problems/xor-doubly-linked-list/) | [🔝 Back to top](#toc)
 
-### Problem 7 (Medium)
+#### Problem 7 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -517,7 +526,7 @@ You can assume that the messages are decodable. For example, '001' is not allowe
 
 [Solution](https://k5kc.com/cs/problems/decode-ways/) | [🔝 Back to top](#toc)
 
-### Problem 8 (Easy)
+#### Problem 8 (Easy)
 
 > This problem was asked by Google.
 
@@ -539,7 +548,7 @@ For example, the following tree has 5 unival subtrees:
 
 [Solution](https://k5kc.com/cs/problems/count-univalue-subtrees/) | [🔝 Back to top](#toc)
 
-### Problem 9 (Hard)
+#### Problem 9 (Hard)
 
 > This problem was asked by Airbnb.
 
@@ -553,7 +562,7 @@ Follow-up: Can you do this in O(N) time and constant space?
 
 [Solution](https://k5kc.com/cs/problems/house-robber-1/) | [🔝 Back to top](#toc)
 
-### Problem 10 (Medium)
+#### Problem 10 (Medium)
 
 > This problem was asked by Apple.
 
@@ -561,7 +570,7 @@ Implement a job scheduler which takes in a function `f` and an integer `n`, and 
 
 [Solution](https://k5kc.com/cs/problems/implement-job-scheduler-with-delay-function-execution/) | [🔝 Back to top](#toc)
 
-### Problem 11 (Medium)
+#### Problem 11 (Medium)
 
 > This problem was asked by Twitter.
 
@@ -573,7 +582,7 @@ Hint: Try preprocessing the dictionary into a more efficient data structure to s
 
 [Solution](https://k5kc.com/cs/problems/autocomplete-suggestion-system/) | [🔝 Back to top](#toc)
 
-### Problem 12 (Hard)
+#### Problem 12 (Hard)
 
 > This problem was asked by Amazon.
 
@@ -591,7 +600,7 @@ What if, instead of being able to climb 1 or 2 steps at a time, you  could climb
 
 [Solution](https://k5kc.com/cs/problems/climbing-stairs-1-take-atmost-2-steps/) | [🔝 Back to top](#toc)
 
-### Problem 13 (Hard)
+#### Problem 13 (Hard)
 
 > This problem was asked by Amazon.
 
@@ -599,7 +608,7 @@ Given an integer k and a string s, find the length of the longest substring that
 
 [Solution](https://k5kc.com/cs/problems/longest-substring-with-at-most-k-distinct-characters/) | [🔝 Back to top](#toc)
 
-### Problem 14 (Medium)
+#### Problem 14 (Medium)
 
 > This problem was asked by Google.
 
@@ -607,7 +616,7 @@ The area of a circle is defined as `πr^2`. Estimate `π` to 3 decimal places us
 
 [Solution](https://k5kc.com/cs/problems/estimating-the-value-of-pi-using-monte-carlo-method/) | [🔝 Back to top](#toc)
 
-### Problem 15 (Medium)
+#### Problem 15 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -615,7 +624,7 @@ Given a stream of elements too large to store in memory, pick a random element f
 
 [Solution](https://k5kc.com/cs/problems/reservoir-sampling-explained/) | [🔝 Back to top](#toc)
 
-### Problem 16 (Easy)
+#### Problem 16 (Easy)
 
 > This problem was asked by Twitter.
 
@@ -628,7 +637,7 @@ You should be as efficient with time and space as possible.
 
 [Solution](https://k5kc.com/cs/problems/design-log-order-records/) | [🔝 Back to top](#toc)
 
-### Problem 17 (Hard)
+#### Problem 17 (Hard)
 
 > This problem was asked by Google.
 
@@ -671,7 +680,7 @@ The name of a directory or sub-directory will not contain a period.
 
 [Solution](https://k5kc.com/cs/problems/longest-absolute-file-path/) | [🔝 Back to top](#toc)
 
-### Problem 18 (Hard)
+#### Problem 18 (Hard)
 
 > This problem was asked by Google.
 
@@ -688,7 +697,7 @@ Do this in O(n) time and O(k) space. You can modify the input array in-place and
 
 [Solution](https://k5kc.com/cs/problems/sliding-window-maximum/) | [🔝 Back to top](#toc)
 
-### Problem 19 (Medium)
+#### Problem 19 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -698,7 +707,7 @@ Given an N by K matrix where the nth row and kth column represents the cost to b
 
 [Solution](https://k5kc.com/cs/problems/paint-house-2-n-houses-with-k-colors-with-no-two-adjacent-houses-with-same-color/) | [🔝 Back to top](#toc)
 
-### Problem 20 (Easy)
+#### Problem 20 (Easy)
 
 > This problem was asked by Google.
 
@@ -712,7 +721,7 @@ Do this in O(M + N) time (where M and N are the lengths of the lists) and consta
 
 [Solution](https://k5kc.com/cs/problems/intersection-of-two-linked-lists/) | [🔝 Back to top](#toc)
 
-### Problem 21 (Easy)
+#### Problem 21 (Easy)
 
 > This problem was asked by Snapchat.
 
@@ -722,7 +731,7 @@ For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
 [Solution](https://k5kc.com/cs/problems/meeting-rooms-2-minimum-meeting-rooms-required/) | [🔝 Back to top](#toc).
 
-### Problem 22 (Medium)
+#### Problem 22 (Medium)
 
 > This problem was asked by Microsoft.
 
@@ -734,7 +743,7 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string
 
 [Solution](https://k5kc.com/cs/problems/word-break-2-construct-a-sentence/) | [🔝 Back to top](#toc)
 
-### Problem 23 (Easy)
+#### Problem 23 (Easy)
 
 > This problem was asked by Google.
 
@@ -755,7 +764,7 @@ and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum nu
 
 [Solution](https://k5kc.com/cs/problems/find-the-shortest-path-between-2-cells-in-boolean-maze/) | [🔝 Back to top](#toc)
 
-### Problem 24 (Medium)
+#### Problem 24 (Medium)
 
 > This problem was asked by Google.
 
@@ -771,7 +780,7 @@ You may augment the node to add parent pointers or any other property you would 
 
 [Solution](https://k5kc.com/cs/problems/locking-and-unlocking-resources-represented-as-binary-tree-nodes/) | [🔝 Back to top](#toc)
 
-### Problem 25 (Hard)
+#### Problem 25 (Hard)
 
 > This problem was asked by Facebook.
 
@@ -788,7 +797,7 @@ Given the regular expression ".*at" and the string "chat", your function should 
 
 [Solution](https://k5kc.com/cs/problems/regular-expression-matching/) | [🔝 Back to top](#toc)
 
-### Problem 26 (Medium)
+#### Problem 26 (Medium)
 
 > This problem was asked by Google.
 
@@ -800,7 +809,7 @@ Do this in constant space and in one pass.
 
 [Solution](https://k5kc.com/cs/problems/remove-nth-node-from-end-of-list/) | [🔝 Back to top](#toc)
 
-### Problem 27 (Easy)
+#### Problem 27 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -812,7 +821,7 @@ Given the string "([)]" or "((()", you should return false.
 
 [Solution](https://k5kc.com/cs/problems/valid-parentheses/) | [🔝 Back to top](#toc)
 
-### Problem 28 (Medium)
+#### Problem 28 (Medium)
 
 > This problem was asked by Palantir.
 
@@ -832,7 +841,7 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 
 [Solution](https://k5kc.com/cs/problems/text-justification/) | [🔝 Back to top](#toc)
 
-### Problem 29 (Easy)
+#### Problem 29 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -842,7 +851,7 @@ Implement run-length encoding and decoding. You can assume the string to be enco
 
 [Solution](https://k5kc.com/cs/problems/run-length-encoding/) | [🔝 Back to top](#toc)
 
-### Problem 30 (Medium)
+#### Problem 30 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -856,7 +865,7 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in
 
 [Solution](https://k5kc.com/cs/problems/trapping-rain-water/) | [🔝 Back to top](#toc)
 
-### Problem 31 (Easy)
+#### Problem 31 (Easy)
 
 > This problem was asked by Google.
 
@@ -866,7 +875,7 @@ Given two strings, compute the edit distance between them.
 
 [Solution](https://k5kc.com/cs/problems/edit-distance/) | [🔝 Back to top](#toc)
 
-### Problem 32 (Hard)
+#### Problem 32 (Hard)
 
 > This problem was asked by Jane Street.
 
@@ -876,7 +885,7 @@ There are no transaction costs and you can trade fractional quantities.
 
 [Solution](https://k5kc.com/cs/problems/check-currency-arbitrage-with-bellman-ford/) | [🔝 Back to top](#toc)
 
-### Problem 33 (Easy)
+#### Problem 33 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -898,7 +907,7 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 
 [Solution](https://k5kc.com/cs/problems/find-median-from-data-stream/) | [🔝 Back to top](#toc)
 
-### Problem 34 (Medium)
+#### Problem 34 (Medium)
 
 > This problem was asked by Quora.
 
@@ -910,7 +919,7 @@ As another example, given the string "google", you should return "elgoogle".
 
 [Solution](https://k5kc.com/cs/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [🔝 Back to top](#toc)
 
-### Problem 35 (Hard)
+#### Problem 35 (Hard)
 
 > This problem was asked by Google.
 
@@ -922,7 +931,7 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 
 [Solution](https://k5kc.com/cs/problems/dutch-national-flag-dnf/) | [🔝 Back to top](#toc)
 
-### Problem 36 (Medium)
+#### Problem 36 (Medium)
 
 > This problem was asked by Dropbox.
 
@@ -930,7 +939,7 @@ Given the root to a binary search tree, find the second largest node in the tree
 
 [Solution](https://k5kc.com/cs/problems/second-largest-element-in-binary-search-tree/) | [🔝 Back to top](#toc)
 
-### Problem 37 (Easy)
+#### Problem 37 (Easy)
 
 > This problem was asked by Google.
 
@@ -942,7 +951,7 @@ You may also use a list or array to represent a set.
 
 [Solution](https://k5kc.com/cs/problems/subsets-1/) | [🔝 Back to top](#toc)
 
-### Problem 38 (Hard)
+#### Problem 38 (Hard)
 
 > This problem was asked by Microsoft.
 
@@ -950,7 +959,7 @@ You have an N by N board. Write a function that, given N, returns the number of 
 
 [Solution](https://k5kc.com/cs/problems/n-queens/) | [🔝 Back to top](#toc)
 
-### Problem 39 (Medium)
+#### Problem 39 (Medium)
 
 > This problem was asked by Dropbox.
 
@@ -969,7 +978,7 @@ You can represent a live cell with an asterisk (`*`) and a dead cell with a dot 
 
 [Solution](https://k5kc.com/cs/problems/game-of-life/) | [🔝 Back to top](#toc)
 
-### Problem 40 (Hard)
+#### Problem 40 (Hard)
 
 > This problem was asked by Google.
 
@@ -981,7 +990,7 @@ Do this in O(N) time and O(1) space.
 
 [Solution](https://k5kc.com/cs/problems/single-number-2-all-elements-except-one-occur-thrice/) | [🔝 Back to top](#toc)
 
-### Problem 41 (Medium)
+#### Problem 41 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -995,7 +1004,7 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 
 [Solution](https://k5kc.com/cs/problems/reconstruct-itinerary/) | [🔝 Back to top](#toc)
 
-### Problem 42 (Hard)
+#### Problem 42 (Hard)
 
 > This problem was asked by Google.
 
@@ -1007,7 +1016,7 @@ For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] sin
 
 [Solution](https://k5kc.com/cs/problems/subarray-sum-equals-k/) | [🔝 Back to top](#toc)
 
-### Problem 43 (Easy)
+#### Problem 43 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -1021,7 +1030,7 @@ Each method should run in constant time.
 
 [Solution](https://k5kc.com/cs/problems/max-stack/) | [🔝 Back to top](#toc)
 
-### Problem 44 (Medium)
+#### Problem 44 (Medium)
 
 > This problem was asked by Google.
 
@@ -1035,7 +1044,7 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 
 [Solution](https://k5kc.com/cs/problems/count-inversions-count-smaller-on-right/) | [🔝 Back to top](#toc)
 
-### Problem 45 (Easy)
+#### Problem 45 (Easy)
 
 > This problem was asked by Two Sigma.
 
@@ -1043,7 +1052,7 @@ Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with 
 
 [Solution](https://k5kc.com/cs/problems/implement-rand7-using-rand5-/) | [🔝 Back to top](#toc)
 
-### Problem 46 (Hard)
+#### Problem 46 (Hard)
 
 > This problem was asked by Amazon.
 
@@ -1053,7 +1062,7 @@ For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The long
 
 [Solution](https://k5kc.com/cs/problems/longest-palindromic-substring/) | [🔝 Back to top](#toc)
 
-### Problem 47 (Easy)
+#### Problem 47 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -1063,7 +1072,7 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could bu
 
 [Solution](https://k5kc.com/cs/problems/best-time-to-buy-and-sell-stock-1-only-one-transaction/) | [🔝 Back to top](#toc)
 
-### Problem 48 (Medium)
+#### Problem 48 (Medium)
 
 > This problem was asked by Google.
 
@@ -1089,7 +1098,7 @@ d  e f  g
 
 [Solution](https://k5kc.com/cs/problems/construct-binary-tree-from-inorder-and-preorder-traversal/) | [🔝 Back to top](#toc)
 
-### Problem 49 (Medium)
+#### Problem 49 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -1103,7 +1112,7 @@ Do this in O(N) time.
 
 [Solution](https://k5kc.com/cs/problems/maximum-subarray-sum/) | [🔝 Back to top](#toc)
 
-### Problem 50 (Easy)
+#### Problem 50 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -1125,7 +1134,9 @@ You should return 45, as it is (3 + 2) * (4 + 5).
 
 [Solution](https://k5kc.com/cs/problems/evaluation-of-arithmetic-expression-tree/) | [🔝 Back to top](#toc)
 
-### Problem 51 (Medium)
+### Problems 51 - 100
+
+#### Problem 51 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -1137,7 +1148,7 @@ Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
 [Solution](https://k5kc.com/cs/problems/fisher-yates-shuffle/) | [🔝 Back to top](#toc)
 
-### Problem 52 (Hard)
+#### Problem 52 (Hard)
 
 > This problem was asked by Google.
 
@@ -1150,7 +1161,7 @@ Each operation should run in O(1) time.
 
 [Solution](https://k5kc.com/cs/problems/design-lru-cache/) | [🔝 Back to top](#toc)
 
-### Problem 53 (Medium)
+#### Problem 53 (Medium)
 
 > This problem was asked by Apple.
 
@@ -1158,7 +1169,7 @@ Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, fir
 
 [Solution](https://k5kc.com/cs/problems/implement-queue-using-stacks/) | [🔝 Back to top](#toc)
 
-### Problem 54 (Hard)
+#### Problem 54 (Hard)
 
 > This problem was asked by Dropbox.
 
@@ -1168,7 +1179,7 @@ Implement an efficient sudoku solver
 
 [Solution](https://k5kc.com/cs/problems/sudoku-solver/) | [🔝 Back to top](#toc)
 
-### Problem 55 (Easy)
+#### Problem 55 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -1181,7 +1192,7 @@ Hint: What if we enter the same URL twice?
 
 [Solution](https://k5kc.com/cs/problems/encode-and-decode-tinyurl/) | [🔝 Back to top](#toc)
 
-### Problem 56 (Medium)
+#### Problem 56 (Medium)
 
 > This problem was asked by Google.
 
@@ -1189,7 +1200,7 @@ Given an undirected graph represented as an adjacency matrix and an integer k, w
 
 [Solution](https://k5kc.com/cs/problems/m-coloring-problem-undirected-graph-as-adjacency-matrix/) | [🔝 Back to top](#toc)
 
-### Problem 57 (Medium)
+#### Problem 57 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -1201,7 +1212,7 @@ For example, given the string "the quick brown fox jumps over the lazy dog" and 
 
 [Solution](https://k5kc.com/cs/problems/break-a-string-into-lines-of-length-k-without-breaking-words/) | [🔝 Back to top](#toc)
 
-### Problem 58 (Medium)
+#### Problem 58 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -1215,7 +1226,7 @@ You can assume all the integers in the array are unique.
 
 [Solution](https://k5kc.com/cs/problems/search-in-rotated-sorted-array/) | [🔝 Back to top](#toc)
 
-### Problem 59 (Hard)
+#### Problem 59 (Hard)
 
 > This problem was asked by Google.
 
@@ -1223,7 +1234,7 @@ Implement a file syncing algorithm for two computers over a low-bandwidth networ
 
 [Solution](https://k5kc.com/cs/problems/low-bandwidth-almost-similar-file-syncing-algorithm-between-two-computers/) | [🔝 Back to top](#toc)
 
-### Problem 60 (Medium)
+#### Problem 60 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -1235,7 +1246,7 @@ Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't 
 
 [Solution](https://k5kc.com/cs/problems/partition-equal-subset-sum/) | [🔝 Back to top](#toc)
 
-### Problem 61 (Medium)
+#### Problem 61 (Medium)
 
 > This problem was asked by Google.
 
@@ -1247,7 +1258,7 @@ For example, `pow(2, 10)` should return 1024.
 
 [Solution](https://k5kc.com/cs/problems/implement-power-function-1/) | [🔝 Back to top](#toc)
 
-### Problem 62 (Medium)
+#### Problem 62 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -1262,7 +1273,7 @@ Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
 [Solution](https://k5kc.com/cs/problems/unique-paths-in-grid-1-count-all-paths-moving-right-or-down/) | [🔝 Back to top](#toc)
 
-### Problem 63 (Easy)
+#### Problem 63 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -1281,7 +1292,7 @@ and the target word 'FOAM', you should return true, since it's the leftmost colu
 
 [Solution](https://k5kc.com/cs/problems/check-if-target-word-exists-in-matrix-horizontally-or-vertically/) | [🔝 Back to top](#toc)
 
-### Problem 64 (Hard)
+#### Problem 64 (Hard)
 
 > This problem was asked by Google.
 
@@ -1291,7 +1302,7 @@ Given N, write a function to return the number of knight's tours on an N by N ch
 
 [Solution](https://k5kc.com/cs/problems/count-knight-s-tour/) | [🔝 Back to top](#toc)
 
-### Problem 65 (Easy)
+#### Problem 65 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -1333,7 +1344,7 @@ You should print out the following:
 
 [Solution](https://k5kc.com/cs/problems/spiral-matrix-1-return/) | [🔝 Back to top](#toc)
 
-### Problem 66 (Medium)
+#### Problem 66 (Medium)
 
 > This problem was asked by Square.
 
@@ -1343,7 +1354,7 @@ Write a function to simulate an unbiased coin toss.
 
 [Solution](https://k5kc.com/cs/problems/simulating-an-unbiased-coin-toss-using-a-biased-coin/) | [🔝 Back to top](#toc)
 
-### Problem 67 (Hard)
+#### Problem 67 (Hard)
 
 > This problem was asked by Google.
 
@@ -1356,7 +1367,7 @@ Each operation should run in O(1) time.
 
 [Solution](https://k5kc.com/cs/problems/lfu-cache/) | [🔝 Back to top](#toc)
 
-### Problem 68 (Medium)
+#### Problem 68 (Medium)
 
 > This problem was asked by Google.
 
@@ -1385,7 +1396,7 @@ You should return 2, since bishops 1 and 3 attack each other, as well as bishops
 
 [Solution](https://k5kc.com/cs/problems/bishop-diagonally-attack-on-chess-board/) | [🔝 Back to top](#toc)
 
-### Problem 69 (Easy)
+#### Problem 69 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -1397,7 +1408,7 @@ You can assume the list has at least three integers
 
 [Solution](https://k5kc.com/cs/problems/maximum-product-of-three-numbers/) | [🔝 Back to top](#toc)
 
-### Problem 70 (Easy)
+#### Problem 70 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -1409,7 +1420,7 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 
 [Solution](https://k5kc.com/cs/problems/nth-number-with-sum-of-digits-as-10/) | [🔝 Back to top](#toc)
 
-### Problem 71 (Easy)
+#### Problem 71 (Easy)
 
 > This problem was asked by Two Sigma.
 
@@ -1417,7 +1428,7 @@ Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with 
 
 [Solution](https://k5kc.com/cs/problems/implement-rand5-using-rand7-/) | [🔝 Back to top](#toc)
 
-### Problem 72 (Hard)
+#### Problem 72 (Hard)
 
 > This problem was asked by Google.
 
@@ -1449,7 +1460,7 @@ Should return null, since we have an infinite loop.
 
 [Solution](https://k5kc.com/cs/problems/largest-value-path-in-a-directed-graph/) | [🔝 Back to top](#toc)
 
-### Problem 73 (Easy)
+#### Problem 73 (Easy)
 
 > This problem was asked by Google.
 
@@ -1457,7 +1468,7 @@ Given the head of a singly linked list, reverse it in-place.
 
 [Solution](https://k5kc.com/cs/problems/reverse-linked-list/) | [🔝 Back to top](#toc)
 
-### Problem 74 (Medium)
+#### Problem 74 (Medium)
 
 > This problem was asked by Apple.
 
@@ -1483,7 +1494,7 @@ And there are 4 12's in the table.
 
 [Solution](https://k5kc.com/cs/problems/number-of-cells-in-multiplication-table-containing-x/) | [🔝 Back to top](#toc)
 
-### Problem 75 (Hard)
+#### Problem 75 (Hard)
 
 > This problem was asked by Microsoft.
 
@@ -1493,7 +1504,7 @@ For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 
 
 [Solution](https://k5kc.com/cs/problems/longest-increasing-subsequence-lis/) | [🔝 Back to top](#toc)
 
-### Problem 76 (Medium)
+#### Problem 76 (Medium)
 
 > This problem was asked by Google.
 
@@ -1537,7 +1548,7 @@ Your function should return 3, since we would need to remove all the columns to 
 
 [Solution](https://k5kc.com/cs/problems/minimum-columns-to-remove-for-lexicographical-order-in-matrix/) | [🔝 Back to top](#toc)
 
-### Problem 77 (Easy)
+#### Problem 77 (Easy)
 
 > This problem was asked by Snapchat.
 
@@ -1549,7 +1560,7 @@ For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3
 
 [Solution](https://k5kc.com/cs/problems/merge-overlapping-intervals/) | [🔝 Back to top](#toc)
 
-### Problem 78 (Medium)
+#### Problem 78 (Medium)
 
 > This problem was asked recently by Google.
 
@@ -1557,7 +1568,7 @@ Given k sorted singly linked lists, write a function to merge all the lists into
 
 [Solution](https://k5kc.com/cs/problems/merge-k-sorted-lists/) | [🔝 Back to top](#toc)
 
-### Problem 79 (Medium)
+#### Problem 79 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -1569,7 +1580,7 @@ Given the array [10, 5, 1], you should return false, since we can't modify any o
 
 [Solution](https://k5kc.com/cs/problems/non-decreasing-array/) | [🔝 Back to top](#toc)
 
-### Problem 80 (Easy)
+#### Problem 80 (Easy)
 
 > This problem was asked by Google.
 
@@ -1585,7 +1596,7 @@ d
 
 [Solution](https://k5kc.com/cs/problems/find-deepest-node-in-a-binary-tree/) | [🔝 Back to top](#toc)
 
-### Problem 81 (Easy)
+#### Problem 81 (Easy)
 
 > This problem was asked by Yelp.
 
@@ -1595,7 +1606,7 @@ For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f
 
 [Solution](https://k5kc.com/cs/problems/letter-combinations-of-a-phone-number/) | [🔝 Back to top](#toc)
 
-### Problem 82 (Easy)
+#### Problem 82 (Easy)
 
 > This problem was asked Microsoft.
 
@@ -1605,7 +1616,7 @@ For example, given a file with the content “Hello world”, three read7() retu
 
 [Solution](https://k5kc.com/cs/problems/read-n-characters-given-read7/) | [🔝 Back to top](#toc)
 
-### Problem 83 (Medium)
+#### Problem 83 (Medium)
 
 > This problem was asked by Google.
 
@@ -1633,7 +1644,7 @@ should become:
 
 [Solution](https://k5kc.com/cs/problems/invert-binary-tree/) | [🔝 Back to top](#toc)
 
-### Problem 84 (Medium)
+#### Problem 84 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -1652,7 +1663,7 @@ For example, this matrix has 4 islands.
 
 [Solution](https://k5kc.com/cs/problems/number-of-islands/) | [🔝 Back to top](#toc)
 
-### Problem 85 (Medium)
+#### Problem 85 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -1660,7 +1671,7 @@ Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, usi
 
 [Solution](https://k5kc.com/cs/problems/conditional-selection-between-x-and-y-with-bitwise-operations/) | [🔝 Back to top](#toc)
 
-### Problem 86 (Medium)
+#### Problem 86 (Medium)
 
 > This problem was asked by Google.
 
@@ -1670,8 +1681,7 @@ For example, given the string "()())()", you should return 1. Given the string "
 
 [Solution](https://k5kc.com/cs/problems/minimum-remove-to-make-valid-parentheses/) | [🔝 Back to top](#toc)
 
-
-### Problem 87 (Hard)
+#### Problem 87 (Hard)
 
 > This problem was asked by Uber.
 
@@ -1708,7 +1718,7 @@ is considered valid.
 
 [Solution](https://k5kc.com/cs/problems/validating-consistency-of-directional-rules-between-points/) | [🔝 Back to top](#toc)
 
-### Problem 88 (Medium)
+#### Problem 88 (Medium)
 
 > This question was asked by ContextLogic.
 
@@ -1716,7 +1726,7 @@ Implement division of two positive integers without using the division, multipli
 
 [Solution](https://k5kc.com/cs/problems/divide-two-integers/) | [🔝 Back to top](#toc)
 
-### Problem 89 (Medium)
+#### Problem 89 (Medium)
 
 > This problem was asked by LinkedIn.
 
@@ -1726,7 +1736,7 @@ A binary search tree is a tree with two children, `left` and `right`, and satisf
 
 [Solution](https://k5kc.com/cs/problems/validate-binary-search-tree/) | [🔝 Back to top](#toc)
 
-### Problem 90 (Medium)
+#### Problem 90 (Medium)
 
 > This question was asked by Google.
 
@@ -1734,7 +1744,7 @@ Given an integer `n` and a list of integers `l`, write a function that randomly 
 
 [Solution](https://k5kc.com/cs/problems/random-pick-with-blacklist/) | [🔝 Back to top](#toc)
 
-### Problem 91 (Easy)
+#### Problem 91 (Easy)
 
 > This problem was asked by Dropbox.
 
@@ -1751,7 +1761,7 @@ for f in functions:
 
 [Solution](https://k5kc.com/cs/problems/capturing-loop-variables-in-lambdas/) | [🔝 Back to top](#toc)
 
-### Problem 92 (Hard)
+#### Problem 92 (Hard)
 
 > This problem was asked by Airbnb.
 
@@ -1763,7 +1773,7 @@ For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC10
 
 [Solution](https://k5kc.com/cs/problems/course-schedule-2-get-ordered-courses/) | [🔝 Back to top](#toc)
 
-### Problem 93 (Hard)
+#### Problem 93 (Hard)
 
 > This problem was asked by Apple.
 
@@ -1773,7 +1783,7 @@ Given a tree, return the size of the largest tree/subtree that is a BST.
 
 [Solution](https://k5kc.com/cs/problems/largest-binary-search-tree-bst-subtree/) | [🔝 Back to top](#toc)
 
-### Problem 94 (Easy)
+#### Problem 94 (Easy)
 
 > This problem was asked by Google.
 
@@ -1781,7 +1791,7 @@ Given a binary tree of integers, find the maximum path sum between two nodes. Th
 
 [Solution](https://k5kc.com/cs/problems/binary-tree-path-sum-maximum-between-any-two-nodes/) | [🔝 Back to top](#toc)
 
-### Problem 95 (Hard)
+#### Problem 95 (Hard)
 
 > This problem was asked by Palantir.
 
@@ -1793,7 +1803,7 @@ Can you perform the operation without allocating extra memory (disregarding the 
 
 [Solution](https://k5kc.com/cs/problems/next-permutation/) | [🔝 Back to top](#toc)
 
-### Problem 96 (Easy)
+#### Problem 96 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -1803,7 +1813,7 @@ For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[
 
 [Solution](https://k5kc.com/cs/problems/permutations-of-array-1/) | [🔝 Back to top](#toc)
 
-### Problem 97 (Medium)
+#### Problem 97 (Medium)
 
 > This problem was asked by Stripe.
 
@@ -1833,7 +1843,7 @@ d.get(1, 0) # get key 1 at time 0 should be 2
 
 [Solution](https://k5kc.com/cs/problems/time-based-key-value-store/) | [🔝 Back to top](#toc)
 
-### Problem 98 (Easy)
+#### Problem 98 (Easy)
 
 > This problem was asked by Coursera.
 
@@ -1855,7 +1865,7 @@ For example, given the following board:
 
 [Solution](https://k5kc.com/cs/problems/word-search-1-find-if-word-exists/) | [🔝 Back to top](#toc)
 
-### Problem 99 (Medium)
+#### Problem 99 (Medium)
 
 > This problem was asked by Microsoft.
 
@@ -1867,7 +1877,7 @@ Your algorithm should run in `O(n)` complexity.
 
 [Solution](https://k5kc.com/cs/problems/longest-consecutive-sequence/) | [🔝 Back to top](#toc)
 
-### Problem 100 (Easy)
+#### Problem 100 (Easy)
 
 > This problem was asked by Google.
 
@@ -1898,7 +1908,9 @@ It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to mov
 
 [Solution](https://k5kc.com/cs/problems/minimum-steps-to-traverse-points-in-an-infinite-2d-grid/) | [🔝 Back to top](#toc)
 
-### Problem 101 (Easy)
+### Problems 101 - 150
+
+#### Problem 101 (Easy)
 
 > This problem was asked by Alibaba.
 
@@ -1925,7 +1937,7 @@ If a < c OR a==c AND b < d.
 
 [Solution](https://k5kc.com/cs/problems/return-two-prime-numbers-that-sum-to-a-given-even-number/) | [🔝 Back to top](#toc)
 
-### Problem 102 (Medium)
+#### Problem 102 (Medium)
 
 > This problem was asked by Lyft.
 
@@ -1935,7 +1947,7 @@ For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2
 
 [Solution](https://k5kc.com/cs/problems/subarray-sum-equals-k-return-any-subarray/) | [🔝 Back to top](#toc)
 
-### Problem 103 (Medium)
+#### Problem 103 (Medium)
 
 > This problem was asked by Square.
 
@@ -1947,7 +1959,7 @@ If there is no substring containing all the characters in the set, return null.
 
 [Solution](https://k5kc.com/cs/problems/shortest-substring-containing-all-characters-in-a-set/) | [🔝 Back to top](#toc)
 
-### Problem 104 (Easy)
+#### Problem 104 (Easy)
 
 > This problem was asked by Google.
 
@@ -1958,7 +1970,7 @@ For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `Fals
 [Solution](https://k5kc.com/cs/problems/check-if-doubly-linked-list-is-palindrome/) | [🔝 Back to top](#toc)
 For the follow up - [Solution](https://k5kc.com/cs/problems/palindrome-linked-list/) | [🔝 Back to top](#toc)
 
-### Problem 105 (Easy)
+#### Problem 105 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -1968,7 +1980,7 @@ That is, as long as the debounced `f` continues to be invoked, `f` itself will n
 
 [Solution](https://k5kc.com/cs/problems/debounce/) | [🔝 Back to top](#toc)
 
-### Problem 106 (Medium)
+#### Problem 106 (Medium)
 
 > This problem was asked by Pinterest.
 
@@ -1978,7 +1990,7 @@ For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
 
 [Solution](https://k5kc.com/cs/problems/check-if-one-can-reach-the-last-index-in-a-list-of-hops-starting-with-index-0/) | [🔝 Back to top](#toc)
 
-### Problem 107 (Easy)
+#### Problem 107 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -1994,7 +2006,7 @@ Print the nodes in a binary tree level-wise. For example, the following should p
 
 [Solution](https://k5kc.com/cs/problems/binary-tree-level-order-traversal/) | [🔝 Back to top](#toc)
 
-### Problem 108 (Easy)
+#### Problem 108 (Easy)
 
 > This problem was asked by Google.
 
@@ -2004,7 +2016,7 @@ For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B 
 
 [Solution](https://k5kc.com/cs/problems/rotate-string/) | [🔝 Back to top](#toc)
 
-### Problem 109 (Medium)
+#### Problem 109 (Medium)
 
 > This problem was asked by Cisco.
 
@@ -2016,7 +2028,7 @@ Bonus: Can you do this in one line?
 
 [Solution](https://k5kc.com/cs/problems/swap-odd-and-even-bits-in-an-integer/) | [🔝 Back to top](#toc)
 
-### Problem 110 (Medium)
+#### Problem 110 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -2036,7 +2048,7 @@ Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 
 [Solution](https://k5kc.com/cs/problems/binary-tree-path-all-root-to-leaf-paths/) | [🔝 Back to top](#toc)
 
-### Problem 111 (Hard)
+#### Problem 111 (Hard)
 
 > This problem was asked by Google.
 
@@ -2046,7 +2058,7 @@ For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
 [Solution](https://k5kc.com/cs/problems/find-all-starting-indices-of-anagrams-of-a-word-in-a-string/) | [🔝 Back to top](#toc)
 
-### Problem 112 (Hard)
+#### Problem 112 (Hard)
 
 > This problem was asked by Twitter.
 
@@ -2056,16 +2068,15 @@ According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/
 
 [Solution](https://k5kc.com/cs/problems/lowest-common-ancestor-of-a-binary-tree-3-given-parent-pointer/) | [🔝 Back to top](#toc)
 
-### Problem 113 (Medium)
+#### Problem 113 (Medium)
 
 > This problem was asked by Google.
 
 Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
 
-
 [Solution](https://k5kc.com/cs/problems/reverse-words-in-a-string-2/) | [🔝 Back to top](#toc)
 
-### Problem 114 (Hard)
+#### Problem 114 (Hard)
 
 > This problem was asked by Facebook.
 
@@ -2075,7 +2086,7 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 
 ![Solution](https://k5kc.com/cs/problems/reverse-words-in-a-string-keep-delimiters-in-order/) | [🔝 Back to top](#toc)
 
-### Problem 115 (Hard)
+#### Problem 115 (Hard)
 
 > This problem was asked by Google.
 
@@ -2083,7 +2094,7 @@ Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly
 
 [Solution](https://k5kc.com/cs/problems/subtree-of-another-tree/) | [🔝 Back to top](#toc)
 
-### Problem 116 (Medium)
+#### Problem 116 (Medium)
 
 > This problem was asked by Jane Street.
 
@@ -2093,7 +2104,7 @@ That is, `generate()` should return a tree whose size is unbounded but finite.
 
 [Solution](https://k5kc.com/cs/problems/generate-a-finite-but-an-arbitrarily-large-binary-tree-in-o-1-time/) | [🔝 Back to top](#toc)
 
-### Problem 117 (Easy)
+#### Problem 117 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -2101,7 +2112,7 @@ Given a binary tree, return the level of the tree with minimum sum.
 
 ![Solution](https://k5kc.com/cs/problems/level-of-binary-tree-with-minimum-sum/) | [🔝 Back to top](#toc)
 
-### Problem 118 (Easy)
+#### Problem 118 (Easy)
 
 > This problem was asked by Google.
 
@@ -2111,7 +2122,7 @@ For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 
 [Solution](https://k5kc.com/cs/problems/squares-of-a-sorted-array/) | [🔝 Back to top](#toc)
 
-### Problem 119 (Medium)
+#### Problem 119 (Medium)
 
 > This problem was asked by Google.
 
@@ -2119,7 +2130,7 @@ Given a set of closed intervals, find the smallest set of numbers that covers al
 
 For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
 
-### Problem 120 (Medium)
+#### Problem 120 (Medium)
 
 > This problem was asked by Microsoft.
 
@@ -2127,7 +2138,7 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 
 [Solution](https://k5kc.com/cs/problems/alternating-two-instance-singleton-pattern/) | [🔝 Back to top](#toc)
 
-### Problem 121 (Hard)
+#### Problem 121 (Hard)
 
 > This problem was asked by Google.
 
@@ -2137,7 +2148,7 @@ For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 
 
 [Solution](https://k5kc.com/cs/problems/valid-palindrome-3-is-string-palindrome-after-deleting-at-most-k-chars/) | [🔝 Back to top](#toc)
 
-### Problem 122 (Medium)
+#### Problem 122 (Medium)
 
 This question was asked by Zillow.
 
@@ -2155,7 +2166,7 @@ The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 
 [Solution](https://k5kc.com/cs/problems/maximum-coins-from-top-left-to-bottom-right-with-right-or-down-moves/) | [🔝 Back to top](#toc)
 
-### Problem 123 (Hard)
+#### Problem 123 (Hard)
 
 > This problem was asked by LinkedIn.
 
@@ -2176,7 +2187,7 @@ And here are examples of non-numbers:
 
 [Solution](https://k5kc.com/cs/problems/valid-number/) | [🔝 Back to top](#toc)
 
-### Problem 124 (Easy)
+#### Problem 124 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -2186,7 +2197,7 @@ Write a function that, given `n`, returns the number of rounds you'd expect to p
 
 [Solution](https://k5kc.com/cs/problems/expected-number-of-rounds-to-reach-one-remaining-coin/) | [🔝 Back to top](#toc)
 
-### Problem 125 (Easy)
+#### Problem 125 (Easy)
 
 > This problem was asked by Google.
 
@@ -2206,7 +2217,7 @@ Return the nodes `5` and `15`.
 
 [Solution](https://k5kc.com/cs/problems/two-sum-4-input-is-binary-search-tree/) | [🔝 Back to top](#toc)
 
-### Problem 126 (Medium)
+#### Problem 126 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -2214,7 +2225,7 @@ Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5
 
 [Solution](https://k5kc.com/cs/problems/rotate-an-array-to-left/) | [🔝 Back to top](#toc)
 
-### Problem 127 (Easy)
+#### Problem 127 (Easy)
 
 > This problem was asked by Microsoft.
 
@@ -2245,7 +2256,7 @@ return 124 (99 + 25) as:
 
 [Solution](https://k5kc.com/cs/problems/add-two-numbers-represented-as-linked-list-in-reversed-order/) | [🔝 Back to top](#toc)
 
-### Problem 128 (Medium)
+#### Problem 128 (Medium)
 
 The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
 
@@ -2273,13 +2284,13 @@ Move 1 to 3
 
 [Solution](https://k5kc.com/cs/problems/tower-of-hanoi/) | [🔝 Back to top](#toc)
 
-### Problem 129 (Medium)
+#### Problem 129 (Medium)
 
 Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
 
 [Solution](https://k5kc.com/cs/problems/square-root-of-a-real-number/) | [🔝 Back to top](#toc)
 
-### Problem 130 (Medium)
+#### Problem 130 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -2289,7 +2300,7 @@ For example, given `k` = 2 and the array `[5, 2, 4, 0, 1]`, you should return 3.
 
 [Solution](https://k5kc.com/cs/problems/best-time-to-buy-and-sell-stock-4-at-most-k-times/) | [🔝 Back to top](#toc)
 
-### Problem 131 (Medium)
+#### Problem 131 (Medium)
 
 This question was asked by Snapchat.
 
@@ -2297,7 +2308,7 @@ Given the head to a singly linked list, where each node also has a “random” 
 
 [Solution](https://k5kc.com/cs/problems/copy-list-with-random-pointer/) | [🔝 Back to top](#toc)
 
-### Problem 132 (Easy)
+#### Problem 132 (Easy)
 
 > This question was asked by Riot Games.
 
@@ -2311,7 +2322,7 @@ Follow-up: What if our system has limited memory?
 
 [Solution](https://k5kc.com/cs/problems/design-hit-counter-with-range-queries/) | [🔝 Back to top](#toc)
 
-### Problem 133 (Medium)
+#### Problem 133 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -2331,7 +2342,7 @@ You can assume each node has a `parent` pointer.
 
 [Solution](https://k5kc.com/cs/problems/inorder-successor-in-binary-search-tree-using-parent-link/) | [🔝 Back to top](#toc)
 
-### Problem 134 (Easy)
+#### Problem 134 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -2345,7 +2356,7 @@ Use a more space-efficient data structure, SparseArray, that implements the same
 
 [Solution](https://k5kc.com/cs/problems/design-a-sparse-array/) | [🔝 Back to top](#toc)
 
-### Problem 135 (Easy)
+#### Problem 135 (Easy)
 
 This question was asked by Apple.
 
@@ -2365,7 +2376,7 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 
 [Solution](https://k5kc.com/cs/problems/binary-tree-path-sum-minimum-sum-root-to-leaf-path/) | [🔝 Back to top](#toc)
 
-### Problem 136 (Medium)
+#### Problem 136 (Medium)
 
 This question was asked by Google.
 
@@ -2384,7 +2395,7 @@ Return 4.
 
 [Solution](https://k5kc.com/cs/problems/maximal-rectangle/) | [🔝 Back to top](#toc)
 
-### Problem 137 (Medium)
+#### Problem 137 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -2398,7 +2409,7 @@ A bit array is a space efficient array that holds a value of `1` or `0` at each 
 
 [Solution](https://k5kc.com/cs/problems/implement-a-bit-array/)
 
-### Problem 138 (Hard)
+#### Problem 138 (Hard)
 
 > This problem was asked by Google.
 
@@ -2410,7 +2421,7 @@ For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢,
 
 [Solution](https://k5kc.com/cs/problems/coin-change-with-fewest-number-of-coins-given-canonical-system-and-infinite-supply/) | [🔝 Back to top](#toc)
 
-### Problem 139 (Medium)
+#### Problem 139 (Medium)
 
 > This problem was asked by Google.
 
@@ -2435,7 +2446,7 @@ class PeekableInterface(object):
 
 [Solution](https://k5kc.com/cs/problems/peeking-iterator/) | [🔝 Back to top](#toc)
 
-### Problem 140 (Medium)
+#### Problem 140 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -2447,7 +2458,7 @@ Follow-up: Can you do this in linear time and constant space?
 
 [Solution](https://k5kc.com/cs/problems/single-number-3-all-elements-except-two-occur-twice/) | [🔝 Back to top](#toc)
 
-### Problem 141 (Hard)
+#### Problem 141 (Hard)
 
 > This problem was asked by Microsoft.
 
@@ -2467,7 +2478,7 @@ class Stack:
 
 [Solution](https://k5kc.com/cs/problems/implement-3-stacks-in-1-list/) | [🔝 Back to top](#toc)
 
-### Problem 142 (Hard)
+#### Problem 142 (Hard)
 
 > This problem was asked by Google.
 
@@ -2477,7 +2488,7 @@ For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
 [Solution](https://k5kc.com/cs/problems/valid-parenthesis-string/) | [🔝 Back to top](#toc)
 
-### Problem 143 (Medium)
+#### Problem 143 (Medium)
 
 > This problem was asked by Amazon.
 
@@ -2493,7 +2504,7 @@ For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition
 
 [Solution](https://k5kc.com/cs/problems/partition-array-according-to-given-pivot/) | [🔝 Back to top](#toc)
 
-### Problem 144 (Medium)
+#### Problem 144 (Medium)
 
 > This problem was asked by Google.
 
@@ -2507,7 +2518,7 @@ Follow-up: If you can preprocess the array, can you do this in constant time?
 
 [Solution](https://k5kc.com/cs/problems/nearest-larger-number-for-index-in-an-array/) | [🔝 Back to top](#toc)
 
-### Problem 145 (Easy)
+#### Problem 145 (Easy)
 
 > This problem was asked by Google.
 
@@ -2517,7 +2528,7 @@ For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
 
 [Solution](https://k5kc.com/cs/problems/swap-nodes-in-pairs/) | [🔝 Back to top](#toc)
 
-### Problem 146 (Medium)
+#### Problem 146 (Medium)
 
 This question was asked by BufferBox.
 
@@ -2549,13 +2560,13 @@ We do not remove the tree at the root or its left child because it still has a `
 
 [Solution](https://k5kc.com/cs/problems/binary-tree-pruning/) | [🔝 Back to top](#toc)
 
-### Problem 147 (Hard)
+#### Problem 147 (Hard)
 
 Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst` from `i` to `j`.
 
 [Solution](https://k5kc.com/cs/problems/sort-a-list-using-reverse-sublist-operation/) | [🔝 Back to top](#toc)
 
-### Problem 148 (Medium)
+#### Problem 148 (Medium)
 
 > This problem was asked by Apple.
 
@@ -2567,7 +2578,7 @@ For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
 
 [Solution](https://k5kc.com/cs/problems/sort-a-list-using-reverse-sublist-operation/) | [🔝 Back to top](#toc)
 
-### Problem 149 (Hard)
+#### Problem 149 (Hard)
 
 > This problem was asked by Goldman Sachs.
 
@@ -2579,7 +2590,7 @@ You can assume that you can do some pre-processing. `sum()` should be optimized 
 
 [Solution](https://k5kc.com/cs/problems/range-sum-query-immutable/) | [🔝 Back to top](#toc)
 
-### Problem 150 (Hard)
+#### Problem 150 (Hard)
 
 > This problem was asked by LinkedIn.
 
@@ -2589,7 +2600,9 @@ For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central po
 
 [Solution](https://k5kc.com/cs/problems/k-closest-points-to-origin/#follow-up---k-closest-distance-from-central-point) | [🔝 Back to top](#toc)
 
-### Problem 151 (Medium)
+### Problems 151 - 200
+
+#### Problem 151 (Medium)
 
 Given a 2-D matrix representing an image, a location of a pixel in the screen and a color `C`, replace the color of the given pixel and all adjacent same colored pixels with `C`.
 
@@ -2613,7 +2626,7 @@ B B B
 
 [Solution](https://k5kc.com/cs/problems/flood-fill/) | [🔝 Back to top](#toc)
 
-### Problem 152 (Medium)
+#### Problem 152 (Medium)
 
 > This problem was asked by Triplebyte.
 
@@ -2625,7 +2638,7 @@ You can generate random numbers between 0 and 1 uniformly.
 
 [Solution](https://k5kc.com/cs/problems/generate-random-numbers-from-list-based-on-given-probabilities/) | [🔝 Back to top](#toc)
 
-### Problem 153 (Hard)
+#### Problem 153 (Hard)
 
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
 
@@ -2633,7 +2646,7 @@ For example, given words "hello", and "world" and a text content of "dog cat hel
 
 [Solution](https://k5kc.com/cs/problems/shortest-word-distance-1/) | [🔝 Back to top](#toc)
 
-### Problem 154 (Easy)
+#### Problem 154 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -2649,7 +2662,7 @@ Recall that a heap has the following operations:
 
 [Solution](https://k5kc.com/cs/problems/implement-stack-using-priority-queue/) | [🔝 Back to top](#toc)
 
-### Problem 155 (Medium)
+#### Problem 155 (Medium)
 
 > This problem was asked by MongoDB.
 
@@ -2661,7 +2674,7 @@ For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
 
 [Solution](https://k5kc.com/cs/problems/majority-element-1-with-n-by-2-definition/) | [🔝 Back to top](#toc)
 
-### Problem 156 (Medium)
+#### Problem 156 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -2673,7 +2686,7 @@ Given `n` = 27, return 3 since 27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9.
 
 [Solution](https://k5kc.com/cs/problems/least-number-of-perfect-squares-that-sums-to-n/) | [🔝 Back to top](#toc)
 
-### Problem 157 (Easy)
+#### Problem 157 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -2681,7 +2694,7 @@ Given a string, determine whether any permutation of it is a palindrome.
 
 For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
 
-### Problem 158 (Medium)
+#### Problem 158 (Medium)
 
 > This problem was asked by Slack.
 
@@ -2706,7 +2719,7 @@ The top left corner and bottom right corner will always be `0`.
 
 [Solution](https://k5kc.com/cs/problems/unique-paths-in-grid-2-count-all-paths-moving-right-or-down-with-obstacles/) | [🔝 Back to top](#toc)
 
-### Problem 159 (Easy)
+#### Problem 159 (Easy)
 
 > This problem was asked by Google.
 
@@ -2716,7 +2729,7 @@ For example, given the string "acbbac", return "b". Given the string "abcdef", r
 
 [Solution](https://k5kc.com/cs/problems/first-unique-character-in-a-string/) | [🔝 Back to top](#toc)
 
-### Problem 160 (Hard)
+#### Problem 160 (Hard)
 
 > This problem was asked by Uber.
 
@@ -2740,7 +2753,7 @@ The path does not have to pass through the root, and each node can have any amou
 
 [Solution](https://k5kc.com/cs/problems/length-of-the-longest-path-in-a-weighted-tree/) | [🔝 Back to top](#toc)
 
-### Problem 161 (Easy)
+#### Problem 161 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -2750,7 +2763,7 @@ For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, 
 
 [Solution](https://k5kc.com/cs/problems/reverse-bits/) | [🔝 Back to top](#toc)
 
-### Problem 162 (Medium)
+#### Problem 162 (Medium)
 
 > This problem was asked by Square.
 
@@ -2772,7 +2785,7 @@ Return the list:
 
 [Solution](https://k5kc.com/cs/problems/shortest-unique-prefix/) | [🔝 Back to top](#toc)
 
-### Problem 163 (Hard)
+#### Problem 163 (Hard)
 
 > This problem was asked by Jane Street.
 
@@ -2786,7 +2799,7 @@ You can assume the given expression is always valid.
 
 [Solution](https://k5kc.com/cs/problems/evaluate-reverse-polish-notation/) | [🔝 Back to top](#toc)
 
-### Problem 164 (Medium)
+#### Problem 164 (Medium)
 
 > This problem was asked by Google.
 
@@ -2794,7 +2807,7 @@ You are given an array of length `n + 1` whose elements belong to the set `{1, 2
 
 [Solution](https://k5kc.com/cs/problems/find-duplicate-number-in-array-containing-n-1-numbers-between-1-and-n/) | [🔝 Back to top](#toc)
 
-### Problem 165 (Medium)
+#### Problem 165 (Medium)
 
 > This problem was asked by Google.
 
@@ -2810,7 +2823,7 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 
 [Solution](https://k5kc.com/cs/problems/count-of-smaller-numbers-after-self/) | [🔝 Back to top](#toc)
 
-### Problem 166 (Medium)
+#### Problem 166 (Medium)
 
 > This problem was asked by Uber.
 
@@ -2825,7 +2838,7 @@ Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be em
 
 [Solution](https://k5kc.com/cs/problems/implement-a-2d-iterator-class/) | [🔝 Back to top](#toc)
 
-### Problem 167 (Hard)
+#### Problem 167 (Hard)
 
 > This problem was asked by Airbnb.
 
@@ -2835,7 +2848,7 @@ For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 
 
 [Solution](https://k5kc.com/cs/problems/palindrome-pairs/) | [🔝 Back to top](#toc)
 
-### Problem 168 (Medium)
+#### Problem 168 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -2861,7 +2874,7 @@ Follow-up: What if you couldn't use any extra space?
 
 [Solution](https://k5kc.com/cs/problems/rotate-n-x-n-matrix-by-90-degrees/) | [🔝 Back to top](#toc)
 
-### Problem 169 (Medium)
+#### Problem 169 (Medium)
 
 > This problem was asked by Google.
 
@@ -2871,7 +2884,7 @@ For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 ->
 
 [Solution](https://k5kc.com/cs/problems/sort-a-linked-list-in-o-n-log-n-time-and-constant-space/) | [🔝 Back to top](#toc)
 
-### Problem 170 (Medium)
+#### Problem 170 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -2883,7 +2896,7 @@ Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "d
 
 [Solution](https://k5kc.com/cs/problems/word-ladder-1-get-ladder-length/) | [🔝 Back to top](#toc)
 
-### Problem 171 (Easy)
+#### Problem 171 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -2905,7 +2918,7 @@ Find the busiest period in the building, that is, the time with the most people 
 
 [Solution](https://k5kc.com/cs/problems/busiest-period-in-a-building/) | [🔝 Back to top](#toc)
 
-### Problem 172 (Medium)
+#### Problem 172 (Medium)
 
 > This problem was asked by Dropbox.
 
@@ -2919,7 +2932,7 @@ The order of the indices does not matter.
 
 [Solution](https://k5kc.com/cs/problems/substring-with-concatenation-of-all-words/) | [🔝 Back to top](#toc)
 
-### Problem 173 (Easy)
+#### Problem 173 (Easy)
 
 > This problem was asked by Stripe.
 
@@ -2953,7 +2966,7 @@ You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
 [Solution](https://k5kc.com/cs/problems/flatten-a-nested-dictionary/) | [🔝 Back to top](#toc)
 
-### Problem 174 (Medium)
+#### Problem 174 (Medium)
 
 > This problem was asked by Microsoft.
 
@@ -2965,7 +2978,7 @@ Describe and give an example of each of the following types of polymorphism:
 
 [Solution](https://k5kc.com/cs/problems/describe-and-give-an-example-of-ad-hoc-parametric-and-subtype-polymorphism/) | [🔝 Back to top](#toc)
 
-### Problem 175 (Easy)
+#### Problem 175 (Easy)
 >
 > This problem was asked by Google.
 
@@ -2991,7 +3004,7 @@ One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656,
 
 [Solution](https://k5kc.com/cs/problems/run-a-markov-chain-and-count-state-visits/) | [🔝 Back to top](#toc)
 
-### Problem 176 (Easy)
+#### Problem 176 (Easy)
 
 > This problem was asked by Bloomberg.
 
@@ -3003,7 +3016,7 @@ Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two 
 
 [Solution](https://k5kc.com/cs/problems/isomorphic-strings/) | [🔝 Back to top](#toc)
 
-### Problem 177 (Easy)
+#### Problem 177 (Easy)
 
 > This problem was asked by Airbnb.
 
@@ -3015,7 +3028,7 @@ Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -
 
 [Solution](https://k5kc.com/cs/problems/rotate-linked-list-to-right/) | [🔝 Back to top](#toc)
 
-### Problem 178 (Hard)
+#### Problem 178 (Hard)
 
 > This problem was asked by Two Sigma.
 
@@ -3029,7 +3042,7 @@ Which of the two games should Alice elect to play? Does it even matter? Write a 
 
 [Solution](https://k5kc.com/cs/problems/alice-joins-probability-student-club-by-calculating-expected-values-of-probabilistic-games/) | [🔝 Back to top](#toc)
 
-### Problem 179 (Medium)
+#### Problem 179 (Medium)
 
 > This problem was asked by Google.
 
@@ -3047,7 +3060,7 @@ For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the fol
 
 [Solution](https://k5kc.com/cs/problems/construct-binary-search-tree-bst-from-postorder-traversal/) | [🔝 Back to top](#toc)
 
-### Problem 180 (Medium)
+#### Problem 180 (Medium)
 
 > This problem was asked by Google.
 
@@ -3061,7 +3074,7 @@ Hint: Try working backwards from the end state.
 
 [Solution](https://k5kc.com/cs/problems/interleave-the-first-half-of-the-stack-with-second-half-using-one-queue/) | [🔝 Back to top](#toc)
 
-### Problem 181 (Hard)
+#### Problem 181 (Hard)
 >
 > This problem was asked by Google.
 
@@ -3073,7 +3086,7 @@ Given the input string `abc`, return `["a", "b", "c"]`.
 
 [Solution](https://k5kc.com/cs/problems/split-string-into-fewest-palindromic-substrings/) | [🔝 Back to top](#toc)
 
-### Problem 182 (Medium)
+#### Problem 182 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -3083,7 +3096,7 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 
 [Solution](https://k5kc.com/cs/problems/check-if-a-graph-is-minimally-connected/) | [🔝 Back to top](#toc)
 
-### Problem 183 (Hard)
+#### Problem 183 (Hard)
 
 > This problem was asked by Twitch.
 
@@ -3091,7 +3104,7 @@ Describe what happens when you type a URL into your browser and press Enter.
 
 [Solution](https://k5kc.com/cs/problems/what-happens-when-you-type-an-url-in-the-browser-and-press-enter/) | [🔝 Back to top](#toc)
 
-### Problem 184 (Easy)
+#### Problem 184 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -3101,7 +3114,7 @@ For example, given the numbers `[42, 56, 14]`, return `14`.
 
 [Solution](https://k5kc.com/cs/problems/find-gcd-of-n-numbers/) | [🔝 Back to top](#toc)
 
-### Problem 185 (Easy)
+#### Problem 185 (Easy)
 
 > This problem was asked by Google.
 
@@ -3129,7 +3142,7 @@ return 6.
 
 [Solution](https://k5kc.com/cs/problems/area-of-intersection-of-two-rectangles/) | [🔝 Back to top](#toc)
 
-### Problem 186 (Hard)
+#### Problem 186 (Hard)
 
 > This problem was asked by Microsoft.
 
@@ -3139,7 +3152,7 @@ For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15
 
 [Solution](https://k5kc.com/cs/problems/divide-array-into-two-subsets-with-minimum-difference/) | [🔝 Back to top](#toc)
 
-### Problem 187 (Easy)
+#### Problem 187 (Easy)
 
 > This problem was asked by Google.
 
@@ -3166,7 +3179,7 @@ return `true` as the first and third rectangle overlap each other.
 
 [Solution](https://k5kc.com/cs/problems/check-if-any-pair-of-rectangles-overlap/) | [🔝 Back to top](#toc)
 
-### Problem 188 (Medium)
+#### Problem 188 (Medium)
 
 > This problem was asked by Google.
 
@@ -3192,7 +3205,7 @@ How can we make it print out what we apparently want?
 
 [Solution](https://k5kc.com/cs/problems/fix-the-variable-capture-in-closure/) | [🔝 Back to top](#toc)
 
-### Problem 189 (Easy)
+#### Problem 189 (Easy)
 
 > This problem was asked by Google.
 
@@ -3202,7 +3215,7 @@ For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return 5 as the longest
 
 [Solution](https://k5kc.com/cs/problems/longest-subarray-with-distinct-elements/) | [🔝 Back to top](#toc)
 
-### Problem 190 (Medium)
+#### Problem 190 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -3214,7 +3227,7 @@ Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 
 [Solution](https://k5kc.com/cs/problems/maximum-sum-circular-subarray/) | [🔝 Back to top](#toc)
 
-### Problem 191 (Easy)
+#### Problem 191 (Easy)
 
 > This problem was asked by Stripe.
 
@@ -3228,7 +3241,7 @@ The intervals are not necessarily sorted in any order.
 
 [Solution](https://k5kc.com/cs/problems/smallest-set-to-cover-all-intervals/) | [🔝 Back to top](#toc)
 
-### Problem 192 (Medium)
+#### Problem 192 (Medium)
 
 > This problem was asked by Google.
 
@@ -3240,7 +3253,7 @@ Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
 
 [Solution](https://k5kc.com/cs/problems/jump-game-1-check-if-it-reaches-last-index/) | [🔝 Back to top](#toc)
 
-### Problem 193 (Hard)
+#### Problem 193 (Hard)
 
 > This problem was asked by Affirm.
 
@@ -3252,7 +3265,7 @@ For example, given [1, 3, 2, 8, 4, 10] and `fee = 2`, you should return 9, since
 
 [Solution](https://k5kc.com/cs/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [🔝 Back to top](#toc)
 
-### Problem 194 (Easy)
+#### Problem 194 (Easy)
 
 > This problem was asked by Facebook.
 
@@ -3260,7 +3273,7 @@ Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the l
 
 [Solution](https://k5kc.com/cs/problems/number-of-overlapping-lines-between-points-on-2-parallel-lines/) | [🔝 Back to top](#toc)
 
-### Problem 195 (Hard)
+#### Problem 195 (Hard)
 
 > This problem was asked by Google.
 
@@ -3282,7 +3295,7 @@ And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the mat
 
 [Solution](https://k5kc.com/cs/problems/count-elements-in-range-in-sorted-matrix/) | [🔝 Back to top](#toc)
 
-### Problem 196 (Easy)
+#### Problem 196 (Easy)
 
 > This problem was asked by Apple.
 
@@ -3300,7 +3313,7 @@ Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 
 
 [Solution](https://k5kc.com/cs/problems/most-frequent-subtree-sum/) | [🔝 Back to top](#toc)
 
-### Problem 197 (Easy)
+#### Problem 197 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -3308,7 +3321,7 @@ Given an array and a number `k` that's smaller than the length of the array, rot
 
 [Solution](https://k5kc.com/cs/problems/rotate-an-array-to-right/) | [🔝 Back to top](#toc)
 
-### Problem 198 (Medium)
+#### Problem 198 (Medium)
 
 > This problem was asked by Google.
 
@@ -3318,7 +3331,7 @@ For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Gi
 
 [Solution](https://k5kc.com/cs/problems/largest-divisible-subset/) | [🔝 Back to top](#toc)
 
-### Problem 199 (Hard)
+#### Problem 199 (Hard)
 
 > This problem was asked by Facebook.
 
@@ -3328,7 +3341,7 @@ For example, given "(()", you could return "(())". Given "))()(", you could retu
 
 [Solution](https://k5kc.com/cs/problems/balance-parentheses-with-minimum-insertions-and-deletions/) | [🔝 Back to top](#toc)
 
-### Problem 200 (Hard)
+#### Problem 200 (Hard)
 
 > This problem was asked by Microsoft.
 
@@ -3338,7 +3351,9 @@ For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should
 
 [Solution](https://k5kc.com/cs/problems/smallest-set-to-cover-all-intervals/) | [🔝 Back to top](#toc)
 
-### Problem 201 (Easy)
+### Problems 201 - 250
+
+#### Problem 201 (Easy)
 
 This problem was asked by Google.
 
@@ -3356,7 +3371,7 @@ Write a program that returns the weight of the maximum weight path.
 
 [Solution](https://k5kc.com/cs/problems/maximum-triangle-path-sum-from-top-to-bottom/) | [🔝 Back to top](#toc)
 
-### Problem 202 (Easy)
+#### Problem 202 (Easy)
 
 This problem was asked by Palantir.
 
@@ -3364,7 +3379,7 @@ Write a program that checks whether an integer is a palindrome. For example, `12
 
 [Solution](https://k5kc.com/cs/problems/palindrome-number/) | [🔝 Back to top](#toc)
 
-### Problem 203 (Medium)
+#### Problem 203 (Medium)
 
 This problem was asked by Uber.
 
@@ -3374,7 +3389,7 @@ For example, given `[5, 7, 10, 3, 4]`, return `3`.
 
 [Solution](https://k5kc.com/cs/problems/find-minimum-in-rotated-sorted-array-1-no-duplicates-allowed/) | [🔝 Back to top](#toc)
 
-### Problem 204 (Easy)
+#### Problem 204 (Easy)
 
 > This problem was asked by Amazon.
 
@@ -3382,7 +3397,7 @@ Given a complete binary tree, count the number of nodes in faster than `O(n)` ti
 
 [Solution](https://k5kc.com/cs/problems/count-complete-tree-nodes/) | [🔝 Back to top](#toc)
 
-### Problem 205 (Easy)
+#### Problem 205 (Easy)
 
 This problem was asked by IBM.
 
@@ -3390,7 +3405,7 @@ Given an integer, find the next permutation of it in absolute order. For example
 
 [Solution](https://k5kc.com/cs/problems/next-permutation-of-integer/) | [🔝 Back to top](#toc)
 
-### Problem 206 (Easy)
+#### Problem 206 (Easy)
 
 This problem was asked by Twitter.
 
@@ -3400,7 +3415,7 @@ Given an array and a permutation, apply the permutation to the array. For exampl
 
 [Solution](https://k5kc.com/cs/problems/permutation-of-array-using-given-order/) | [🔝 Back to top](#toc)
 
-### Problem 207 (Medium)
+#### Problem 207 (Medium)
 
 This problem was asked by Dropbox.
 
@@ -3408,7 +3423,7 @@ Given an undirected graph `G`, check whether it is bipartite. Recall that a grap
 
 [Solution](https://k5kc.com/cs/problems/is-graph-bipartite/) | [🔝 Back to top](#toc)
 
-### Problem 208 (Medium)
+#### Problem 208 (Medium)
 
 > This problem was asked by LinkedIn.
 
@@ -3418,7 +3433,7 @@ For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solu
 
 [Solution](https://k5kc.com/cs/problems/partition-list/) | [🔝 Back to top](#toc)
 
-### Problem 209 (Hard)
+#### Problem 209 (Hard)
 
 This problem was asked by YouTube.
 
@@ -3426,7 +3441,7 @@ Write a program that computes the length of the longest common subsequence of th
 
 [Solution](https://k5kc.com/cs/problems/longest-common-subsequence-of-three-sequences/) | [🔝 Back to top](#toc)
 
-### Problem 210 (Easy)
+#### Problem 210 (Easy)
 
 This problem was asked by Apple.
 
@@ -3440,7 +3455,7 @@ Bonus: What input `n <= 1000000` gives the longest sequence?
 
 [Solution](https://k5kc.com/cs/problems/collatz-sequence/) | [🔝 Back to top](#toc)
 
-### Problem 211 (Medium)
+#### Problem 211 (Medium)
 
 This problem was asked by Microsoft.
 
@@ -3448,7 +3463,7 @@ Given a string and a pattern, find the starting indices of all occurrences of th
 
 [Solution](https://k5kc.com/cs/problems/find-all-occurrences-of-the-pattern-in-the-string/) | [🔝 Back to top](#toc)
 
-### Problem 212 (Easy)
+#### Problem 212 (Easy)
 
 This problem was asked by Dropbox.
 
@@ -3458,7 +3473,7 @@ Given a column number, return its alphabetical column id. For example, given `1`
 
 [Solution](https://k5kc.com/cs/problems/excel-sheet-column-number/) | [🔝 Back to top](#toc)
 
-### Problem 213 (Medium)
+#### Problem 213 (Medium)
 
 This problem was asked by Snapchat.
 
@@ -3470,7 +3485,7 @@ For example, given "2542540123", you should return `['254.25.40.123', '254.254.0
 
 [Solution](https://k5kc.com/cs/problems/restore-ip-addresses/) | [🔝 Back to top](#toc)
 
-### Problem 214 (Easy)
+#### Problem 214 (Easy)
 
 This problem was asked by Stripe.
 
@@ -3480,7 +3495,7 @@ For example, given `156`, you should return `3`.
 
 [Solution](https://k5kc.com/cs/problems/length-of-the-longest-consecutive-1s-in-binary-representation/) | [🔝 Back to top](#toc)
 
-### Problem 215 (Medium)
+#### Problem 215 (Medium)
 
 This problem was asked by Yelp.
 
@@ -3512,7 +3527,7 @@ Given the root to a binary tree, return its bottom view.
 
 [Solution](https://k5kc.com/cs/problems/binary-tree-bottom-view/) | [🔝 Back to top](#toc)
 
-### Problem 216 (Medium)
+#### Problem 216 (Medium)
 
 > This problem was asked by Facebook.
 
@@ -3538,7 +3553,7 @@ For the input `XIV`, for instance, you should return `14`.
 
 [Solution](https://k5kc.com/cs/problems/roman-to-integer/) | [🔝 Back to top](#toc)
 
-### Problem 217 (Hard)
+#### Problem 217 (Hard)
 
 This problem was asked by Oracle.
 
@@ -3548,7 +3563,7 @@ Do this in faster than `O(N log N)` time.
 
 [Solution](https://k5kc.com/cs/problems/smallest-sparse-number-greater-than-or-equal-to-n/) | [🔝 Back to top](#toc)
 
-### Problem 218 (Medium)
+#### Problem 218 (Medium)
 
 This problem was asked by Yahoo.
 
@@ -3556,7 +3571,7 @@ Write an algorithm that computes the reversal of a directed graph. For example, 
 
 [Solution](https://k5kc.com/cs/problems/reverse-a-directed-graph/) | [🔝 Back to top](#toc)
 
-### Problem 219 (Hard)
+#### Problem 219 (Hard)
 
 This problem was asked by Salesforce.
 
@@ -3566,7 +3581,7 @@ Design and implement Connect 4.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution219.java) | [🔝 Back to top](#toc)
 
-### Problem 220 (Medium)
+#### Problem 220 (Medium)
 
 This problem was asked by Square.
 
@@ -3578,7 +3593,7 @@ Write a program that returns the maximum amount of money you can win with certai
 
 [Solution](https://k5kc.com/cs/problems/maximum-amount-first-player-can-win-by-picking-either-the-first-or-last-coin/) | [🔝 Back to top](#toc)
 
-### Problem 221 (Easy)
+#### Problem 221 (Easy)
 
 This problem was asked by Zillow.
 
@@ -3586,7 +3601,7 @@ Let's define a "sevenish" number to be one which is either a power of `7`, or th
 
 [Solution](https://k5kc.com/cs/problems/find-the-nth-sevenish-number/) | [🔝 Back to top](#toc)
 
-### Problem 222 (Medium)
+#### Problem 222 (Medium)
 
 This problem was asked by Quora.
 
@@ -3596,7 +3611,7 @@ For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
 [Solution](https://k5kc.com/cs/problems/simplify-path/) | [🔝 Back to top](#toc)
 
-### Problem 223 (Hard)
+#### Problem 223 (Hard)
 
 > This problem was asked by Palantir.
 
@@ -3604,7 +3619,7 @@ Typically, an implementation of in-order traversal of a binary tree has `O(h)` s
 
 [Solution](https://k5kc.com/cs/problems/morris-traversal/) | [🔝 Back to top](#toc)
 
-### Problem 224 (Easy)
+#### Problem 224 (Easy)
 
 This problem was asked by Amazon.
 
@@ -3616,7 +3631,7 @@ Do this in `O(N)` time.
 
 [Solution](https://k5kc.com/cs/problems/smallest-positive-integer-that-cannot-be-represented-as-the-sum-of-a-subset-of-a-sorted-array/) | [🔝 Back to top](#toc)
 
-### Problem 225 (Easy)
+#### Problem 225 (Easy)
 
 This problem was asked by Bloomberg.
 
@@ -3630,7 +3645,7 @@ Bonus: Find an `O(log N)` solution if `k = 2`.
 
 [Solution](https://k5kc.com/cs/problems/find-the-winner-of-the-circular-game/) | [🔝 Back to top](#toc)
 
-### Problem 226 (Hard)
+#### Problem 226 (Hard)
 
 This problem was asked by Airbnb.
 
@@ -3640,7 +3655,7 @@ For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `[
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution226.java) | [🔝 Back to top](#toc)
 
-### Problem 227 (Easy)
+#### Problem 227 (Easy)
 
 This problem was asked by Facebook.
 
@@ -3648,7 +3663,7 @@ Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as man
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution227.java) | [🔝 Back to top](#toc)
 
-### Problem 228 (Medium)
+#### Problem 228 (Medium)
 
 This problem was asked by Twitter.
 
@@ -3656,7 +3671,7 @@ Given a list of numbers, create an algorithm that arranges them in order to form
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution228.java) | [🔝 Back to top](#toc)
 
-### Problem 229 (Medium)
+#### Problem 229 (Medium)
 
 This problem was asked by Flipkart.
 
@@ -3673,7 +3688,7 @@ ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 
 [Solution](https://k5kc.com/cs/problems/snakes-and-ladders/) | [🔝 Back to top](#toc)
 
-### Problem 230 (Medium)
+#### Problem 230 (Medium)
 
 > This problem was asked by Goldman Sachs.
 
@@ -3685,7 +3700,7 @@ For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at eve
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution230.java) | [🔝 Back to top](#toc)
 
-### Problem 231 (Easy)
+#### Problem 231 (Easy)
 
 This problem was asked by IBM.
 
@@ -3695,7 +3710,7 @@ For example, given "aaabbc", you could return "ababac". Given "aaab", return `No
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution231.java) | [🔝 Back to top](#toc)
 
-### Problem 232 (Easy)
+#### Problem 232 (Easy)
 
 This problem was asked by Google.
 
@@ -3716,7 +3731,7 @@ assert mapsum.sum("col") == 5
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution232.java) | [🔝 Back to top](#toc)
 
-### Problem 233 (Easy)
+#### Problem 233 (Easy)
 
 This problem was asked by Apple.
 
@@ -3724,7 +3739,7 @@ Implement the function `fib(n)`, which returns the `nth` number in the Fibonacci
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution233.java) | [🔝 Back to top](#toc)
 
-### Problem 234 (Hard)
+#### Problem 234 (Hard)
 
 This problem was asked by Microsoft.
 
@@ -3732,7 +3747,7 @@ Recall that the minimum spanning tree is the subset of edges of a tree that conn
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution234.java) | [🔝 Back to top](#toc)
 
-### Problem 235 (Hard)
+#### Problem 235 (Hard)
 
 This problem was asked by Facebook.
 
@@ -3740,7 +3755,7 @@ Given an array of numbers of length `N`, find both the minimum and maximum using
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution235.java) | [🔝 Back to top](#toc)
 
-### Problem 236 (Medium)
+#### Problem 236 (Medium)
 
 This problem was asked by Nvidia.
 
@@ -3750,7 +3765,7 @@ Determine if a new point `p` lies inside this polygon. (If `p` is on the boundar
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution236.md) | [🔝 Back to top](#toc)
 
-### Problem 237 (Easy)
+#### Problem 237 (Easy)
 
 This problem was asked by Amazon.
 
@@ -3768,7 +3783,7 @@ Given a k-ary tree, determine whether it is symmetric.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution237.java) | [🔝 Back to top](#toc)
 
-### Problem 238 (Hard)
+#### Problem 238 (Hard)
 
 This problem was asked by MIT.
 
@@ -3785,7 +3800,7 @@ Given perfect knowledge of the sequence of cards in the deck, implement a blackj
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution238.java) | [🔝 Back to top](#toc)
 
-### Problem 239 (Medium)
+#### Problem 239 (Medium)
 
 > This problem was asked by Uber.
 
@@ -3802,7 +3817,7 @@ Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9
 
 [Solution](https://k5kc.com/cs/problems/android-unlock-patterns/) | [🔝 Back to top](#toc)
 
-### Problem 240 (Hard)
+#### Problem 240 (Hard)
 
 This problem was asked by Spotify.
 
@@ -3812,7 +3827,7 @@ What is the minimum number of swaps necessary for this to happen?
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution240.md) | [🔝 Back to top](#toc)
 
-### Problem 241 (Easy)
+#### Problem 241 (Easy)
 
 This problem was asked by Palantir.
 
@@ -3826,7 +3841,7 @@ Given a list of paper citations of a researcher, calculate their h-index.
 
 [Solution](https://k5kc.com/cs/problems/get-equal-substrings-within-budget/) | [🔝 Back to top](#toc)
 
-### Problem 242 (Hard)
+#### Problem 242 (Hard)
 
 This problem was asked by Twitter.
 
@@ -3839,7 +3854,7 @@ You can assume that all values get cleared at the end of the day, and that you w
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution242.java) | [🔝 Back to top](#toc)
 
-### Problem 243 (Medium)
+#### Problem 243 (Medium)
 
 This problem was asked by Etsy.
 
@@ -3849,7 +3864,7 @@ For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution243.java) | [🔝 Back to top](#toc)
 
-### Problem 244 (Easy)
+#### Problem 244 (Easy)
 
 This problem was asked by Square.
 
@@ -3863,7 +3878,7 @@ Bonus: Create a generator that produces primes indefinitely (that is, without ta
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution244.java) | [🔝 Back to top](#toc)
 
-### Problem 245 (Medium)
+#### Problem 245 (Medium)
 
 This problem was asked by Yelp.
 
@@ -3873,7 +3888,7 @@ For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as t
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution245.java) | [🔝 Back to top](#toc)
 
-### Problem 246 (Medium)
+#### Problem 246 (Medium)
 
 This problem was asked by Dropbox.
 
@@ -3883,7 +3898,7 @@ For example, the words `['chair', 'height', 'racket', 'touch', 'tunic']` can for
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution246.java) | [🔝 Back to top](#toc)
 
-### Problem 247 (Medium)
+#### Problem 247 (Medium)
 
 This problem was asked by PayPal.
 
@@ -3891,7 +3906,7 @@ Given a binary tree, determine whether or not it is height-balanced. A height-ba
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution247.java) | [🔝 Back to top](#toc)
 
-### Problem 248 (Hard)
+#### Problem 248 (Hard)
 
 This problem was asked by Nvidia.
 
@@ -3899,7 +3914,7 @@ Find the maximum of two numbers without using any if-else statements, branching,
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution248.java) | [🔝 Back to top](#toc)
 
-### Problem 249 (Hard)
+#### Problem 249 (Hard)
 
 This problem was asked by Salesforce.
 
@@ -3907,7 +3922,7 @@ Given an array of integers, find the maximum XOR of any two elements.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution249.java) | [🔝 Back to top](#toc)
 
-### Problem 250 (Medium)
+#### Problem 250 (Medium)
 
 This problem was asked by Google.
 
@@ -3932,7 +3947,9 @@ Given a three-word puzzle like the one above, create an algorithm that finds a s
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution250.java) | [🔝 Back to top](#toc)
 
-### Problem 251 (Medium)
+### Problems 251 - 300
+
+#### Problem 251 (Medium)
 
 This problem was asked by Amazon.
 
@@ -3940,7 +3957,7 @@ Given an array of a million integers between zero and a billion, out of order, h
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution251.md) | [🔝 Back to top](#toc)
 
-### Problem 252 (Easy)
+#### Problem 252 (Easy)
 
 This problem was asked by Palantir.
 
@@ -3950,7 +3967,7 @@ Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution252.java) | [🔝 Back to top](#toc)
 
-### Problem 253 (Medium)
+#### Problem 253 (Medium)
 
 This problem was asked by PayPal.
 
@@ -3967,7 +3984,7 @@ t     a     g
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution253.java) | [🔝 Back to top](#toc)
 
-### Problem 254 (Medium)
+#### Problem 254 (Medium)
 
 This problem was asked by Yahoo.
 
@@ -3997,7 +4014,7 @@ You should convert it to:
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution254.java) | [🔝 Back to top](#toc)
 
-### Problem 255 (Easy)
+#### Problem 255 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -4027,7 +4044,7 @@ Given a graph, find its transitive closure.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution255.java) | [🔝 Back to top](#toc)
 
-### Problem 256 (Medium)
+#### Problem 256 (Medium)
 
 This problem was asked by Fitbit.
 
@@ -4035,7 +4052,7 @@ Given a linked list, rearrange the node values such that they appear in alternat
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution256.java) | [🔝 Back to top](#toc)
 
-### Problem 257 (Easy)
+#### Problem 257 (Easy)
 
 This problem was asked by WhatsApp.
 
@@ -4043,7 +4060,7 @@ Given an array of integers out of order, determine the bounds of the smallest wi
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution257.java) | [🔝 Back to top](#toc)
 
-### Problem 258 (Easy)
+#### Problem 258 (Easy)
 
 This problem was asked by Morgan Stanley.
 
@@ -4065,7 +4082,7 @@ You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution258.java) | [🔝 Back to top](#toc)
 
-### Problem 259 (Hard)
+#### Problem 259 (Hard)
 
 This problem was asked by Two Sigma.
 
@@ -4083,7 +4100,7 @@ For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only win
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution259.java) | [🔝 Back to top](#toc)
 
-### Problem 260 (Medium)
+#### Problem 260 (Medium)
 
 This problem was asked by Pinterest.
 
@@ -4091,7 +4108,7 @@ The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for i
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution260.java) | [🔝 Back to top](#toc)
 
-### Problem 261 (Easy)
+#### Problem 261 (Easy)
 
 This problem was asked by Amazon.
 
@@ -4115,7 +4132,7 @@ Given a dictionary of character frequencies, build a Huffman tree, and use it to
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution261.java) | [🔝 Back to top](#toc)
 
-### Problem 262 (Medium)
+#### Problem 262 (Medium)
 
 This problem was asked by Mozilla.
 
@@ -4123,7 +4140,7 @@ A bridge in a connected (undirected) graph is an edge that, if removed, causes t
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution262.md) | [🔝 Back to top](#toc)
 
-### Problem 263 (Medium)
+#### Problem 263 (Medium)
 
 This problem was asked by Nest.
 
@@ -4138,7 +4155,7 @@ We can consider a sentence valid if it conforms to the following rules:
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution263.java) | [🔝 Back to top](#toc)
 
-### Problem 264 (Hard)
+#### Problem 264 (Hard)
 
 This problem was asked by LinkedIn.
 
@@ -4150,7 +4167,7 @@ Create an algorithm that finds a De Bruijn sequence.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution264.java) | [🔝 Back to top](#toc)
 
-### Problem 265 (Easy)
+#### Problem 265 (Easy)
 
 This problem was asked by Atlassian.
 
@@ -4162,7 +4179,7 @@ For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution265.java) | [🔝 Back to top](#toc)
 
-### Problem 266 (Easy)
+#### Problem 266 (Easy)
 
 This problem was asked by Pivotal.
 
@@ -4172,7 +4189,7 @@ Given a dictionary of words and an input word, create a function that returns al
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution266.java) | [🔝 Back to top](#toc)
 
-### Problem 267 (Hard)
+#### Problem 267 (Hard)
 
 This problem was asked by Oracle.
 
@@ -4197,7 +4214,7 @@ You should return `True`, since the bishop is attacking the king diagonally.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution267.java) | [🔝 Back to top](#toc)
 
-### Problem 268 (Medium)
+#### Problem 268 (Medium)
 
 This problem was asked by Indeed.
 
@@ -4205,7 +4222,7 @@ Given a 32-bit positive integer `N`, determine whether it is a power of four in 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution268.java) | [🔝 Back to top](#toc)
 
-### Problem 269 (Easy)
+#### Problem 269 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -4223,7 +4240,7 @@ Given the string `..R...L.L`, you should return `..RR.LLLL`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution269.java) | [🔝 Back to top](#toc)
 
-### Problem 270 (Medium)
+#### Problem 270 (Medium)
 
 This problem was asked by Twitter.
 
@@ -4249,7 +4266,7 @@ You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` w
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution270.java) | [🔝 Back to top](#toc)
 
-### Problem 271 (Hard)
+#### Problem 271 (Hard)
 
 This problem was asked by Netflix.
 
@@ -4259,7 +4276,7 @@ Do this in `O(log N)` time.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution271.java) | [🔝 Back to top](#toc)
 
-### Problem 272 (Medium)
+#### Problem 272 (Medium)
 
 This problem was asked by Spotify.
 
@@ -4269,7 +4286,7 @@ For example, `throw_dice(3, 6, 7)` should equal `15`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution272.java) | [🔝 Back to top](#toc)
 
-### Problem 273 (Easy)
+#### Problem 273 (Easy)
 
 > This problem was asked by Apple.
 
@@ -4279,7 +4296,7 @@ For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`
 
 [Solution](https://k5kc.com/cs/problems/find-fixed-point-in-sorted-array/) | [🔝 Back to top](#toc)
 
-### Problem 274 (Hard)
+#### Problem 274 (Hard)
 
 > This problem was asked by Facebook.
 
@@ -4291,7 +4308,7 @@ For example, given `'-1 + (2 + 3)'`, you should return `4`.
 
 [Solution](https://k5kc.com/cs/problems/basic-calculator-1/) | [🔝 Back to top](#toc)
 
-### Problem 275 (Medium)
+#### Problem 275 (Medium)
 
 This problem was asked by Epic.
 
@@ -4311,7 +4328,7 @@ Given an integer `N`, print the `Nth` term of this sequence.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution275.java) | [🔝 Back to top](#toc)
 
-### Problem 276 (Hard)
+#### Problem 276 (Hard)
 
 This problem was asked by Dropbox.
 
@@ -4323,7 +4340,7 @@ If the pattern is found, return the start index of its location. If not, return 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution276.java) | [🔝 Back to top](#toc)
 
-### Problem 277 (Easy)
+#### Problem 277 (Easy)
 
 This problem was asked by Google.
 
@@ -4348,7 +4365,7 @@ Write a program that takes in an array of integers representing byte values, and
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution277.java) | [🔝 Back to top](#toc)
 
-### Problem 278 (Easy)
+#### Problem 278 (Easy)
 
 This problem was asked by Amazon.
 
@@ -4356,7 +4373,7 @@ Given an integer `N`, construct all possible binary search trees with `N` nodes.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution278.java) | [🔝 Back to top](#toc)
 
-### Problem 279 (Easy)
+#### Problem 279 (Easy)
 
 This problem was asked by Twitter.
 
@@ -4380,7 +4397,7 @@ Given a friendship list such as the one above, determine the number of friend gr
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution279.java) | [🔝 Back to top](#toc)
 
-### Problem 280 (Easy)
+#### Problem 280 (Easy)
 
 This problem was asked by Pandora.
 
@@ -4388,7 +4405,7 @@ Given an undirected graph, determine if it contains a cycle.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution280.java) | [🔝 Back to top](#toc)
 
-### Problem 281 (Medium)
+#### Problem 281 (Medium)
 
 This problem was asked by LinkedIn.
 
@@ -4411,7 +4428,7 @@ Given an input consisting of brick lengths for each row such as the one above, r
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution281.java) | [🔝 Back to top](#toc)
 
-### Problem 282 (Easy)
+#### Problem 282 (Easy)
 
 This problem was asked by Netflix.
 
@@ -4419,7 +4436,7 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution282.java) | [🔝 Back to top](#toc)
 
-### Problem 283 (Easy)
+#### Problem 283 (Easy)
 
 This problem was asked by Google.
 
@@ -4431,7 +4448,7 @@ Given an integer `N`, write a program that returns, in order, the first `N` regu
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution283.java) | [🔝 Back to top](#toc)
 
-### Problem 284 (Medium)
+#### Problem 284 (Medium)
 
 This problem was asked by Yext.
 
@@ -4449,7 +4466,7 @@ Given a binary tree and a particular node, find all cousins of that node.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution284.java) | [🔝 Back to top](#toc)
 
-### Problem 285 (Medium)
+#### Problem 285 (Medium)
 
 > This problem was asked by Mailchimp.
 
@@ -4461,7 +4478,7 @@ Can you do this using just one forward pass through the array?
 
 [Solution](https://k5kc.com/cs/problems/buildings-with-sunset-view/) | [🔝 Back to top](#toc)
 
-### Problem 286 (Hard)
+#### Problem 286 (Hard)
 
 This problem was asked by VMware.
 
@@ -4485,7 +4502,7 @@ As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution286.java) | [🔝 Back to top](#toc)
 
-### Problem 287 (Medium)
+#### Problem 287 (Medium)
 
 This problem was asked by Quora.
 
@@ -4505,7 +4522,7 @@ Then a reasonable similarity metric would most likely conclude that `a` and `e` 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution287.java) | [🔝 Back to top](#toc)
 
-### Problem 288 (Medium)
+#### Problem 288 (Medium)
 
 This problem was asked by Salesforce.
 
@@ -4524,7 +4541,7 @@ Write a function that returns how many steps this will take for a given input `N
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution288.java) | [🔝 Back to top](#toc)
 
-### Problem 289 (Hard)
+#### Problem 289 (Hard)
 
 This problem was asked by Google.
 
@@ -4545,7 +4562,7 @@ Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play,
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution289.java) | [🔝 Back to top](#toc)
 
-### Problem 290 (Easy)
+#### Problem 290 (Easy)
 
 This problem was asked by Facebook.
 
@@ -4567,7 +4584,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution290.java) | [🔝 Back to top](#toc)
 
-### Problem 291 (Medium)
+#### Problem 291 (Medium)
 
 This problem was asked by Glassdoor.
 
@@ -4577,7 +4594,7 @@ For example, given a population with weights `[100, 200, 150, 80]` and a boat li
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution291.java) | [🔝 Back to top](#toc)
 
-### Problem 292 (Hard)
+#### Problem 292 (Hard)
 
 This problem was asked by Twitter.
 
@@ -4613,7 +4630,7 @@ students = {
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution292.java) | [🔝 Back to top](#toc)
 
-### Problem 293 (Hard)
+#### Problem 293 (Hard)
 
 This problem was asked by Uber.
 
@@ -4625,7 +4642,7 @@ For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to p
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution293.java) | [🔝 Back to top](#toc)
 
-### Problem 294 (Medium)
+#### Problem 294 (Medium)
 
 > This problem was asked by Square.
 
@@ -4653,7 +4670,7 @@ In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distan
 
 [Solution](https://k5kc.com/cs/problems/shortest-uphill-downhill-route-for-a-competitive-runner/) | [🔝 Back to top](#toc)
 
-### Problem 295 (Medium)
+#### Problem 295 (Medium)
 
 > This problem was asked by Stitch Fix.
 
@@ -4678,7 +4695,7 @@ Bonus: Can you do this using only `O(k)` space?
 
 [Solution](https://k5kc.com/cs/problems/pascal-s-triangle-1-generate-first-n-rows/) | [🔝 Back to top](#toc)
 
-### Problem 296 (Hard)
+#### Problem 296 (Hard)
 
 This problem was asked by Etsy.
 
@@ -4686,7 +4703,7 @@ Given a sorted array, convert it into a height-balanced binary search tree.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution296.java) | [🔝 Back to top](#toc)
 
-### Problem 297 (Medium)
+#### Problem 297 (Medium)
 
 This problem was asked by Amazon.
 
@@ -4708,7 +4725,7 @@ For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution297.java) | [🔝 Back to top](#toc)
 
-### Problem 298 (Easy)
+#### Problem 298 (Easy)
 
 This problem was asked by Google.
 
@@ -4720,13 +4737,14 @@ For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion wil
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution298.java) | [🔝 Back to top](#toc)
 
-### Problem 299 (Medium)
+#### Problem 299 (Medium)
 
 This problem was asked by Samsung.
 
 A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
 
 For example, here is a possible configuration, where `A`, `B`, and `C` are houses, and arrows represent pipes:
+
 ```
 A <--> B <--> C <--> plant
 ```
@@ -4746,7 +4764,7 @@ pipes = {
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution299.java) | [🔝 Back to top](#toc)
 
-### Problem 300 (Easy)
+#### Problem 300 (Easy)
 
 This problem was asked by Uber.
 
@@ -4754,7 +4772,9 @@ On election day, a voting machine writes data in the form `(voter_id, candidate_
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution300.java) | [🔝 Back to top](#toc)
 
-### Problem 301 (Medium)
+### Problems 301 - 350
+
+#### Problem 301 (Medium)
 
 This problem was asked by Triplebyte.
 
@@ -4767,7 +4787,7 @@ The `check` method may return occasional false positives (in other words, incorr
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution301.java) | [🔝 Back to top](#toc)
 
-### Problem 302 (Medium)
+#### Problem 302 (Medium)
 
 > This problem was asked by Uber.
 
@@ -4785,7 +4805,7 @@ Considering the edges of the matrix as boundaries, this divides the grid into th
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution302.java) | [🔝 Back to top](#toc)
 
-### Problem 303 (Easy)
+#### Problem 303 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -4795,7 +4815,7 @@ Bonus: When, during the course of a day, will the angle be zero?
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution303.java) | [🔝 Back to top](#toc)
 
-### Problem 304 (Hard)
+#### Problem 304 (Hard)
 
 This problem was asked by Two Sigma.
 
@@ -4805,7 +4825,7 @@ After `k` moves, what is the probability that the knight remains on the board?
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution304.java) | [🔝 Back to top](#toc)
 
-### Problem 305 (Easy)
+#### Problem 305 (Easy)
 
 This problem was asked by Amazon.
 
@@ -4815,7 +4835,7 @@ For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution305.java) | [🔝 Back to top](#toc)
 
-### Problem 306 (Medium)
+#### Problem 306 (Medium)
 
 > This problem was asked by Palantir.
 
@@ -4825,7 +4845,7 @@ Come up with an algorithm that sorts this list in `O(N log k)` time.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution306.java) | [🔝 Back to top](#toc)
 
-### Problem 307 (Easy)
+#### Problem 307 (Easy)
 
 This problem was asked by Oracle.
 
@@ -4835,7 +4855,7 @@ If either value does not exist, return None.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution307.java) | [🔝 Back to top](#toc)
 
-### Problem 308 (Hard)
+#### Problem 308 (Hard)
 
 This problem was asked by Quantcast.
 
@@ -4850,7 +4870,7 @@ For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, the
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution308.java) | [🔝 Back to top](#toc)
 
-### Problem 309 (Medium)
+#### Problem 309 (Medium)
 
 This problem was asked by Walmart Labs.
 
@@ -4862,7 +4882,7 @@ Given an input such as the one above, return the lowest possible cost of moving 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution309.java) | [🔝 Back to top](#toc)
 
-### Problem 310 (Easy)
+#### Problem 310 (Easy)
 
 This problem was asked by Pivotal.
 
@@ -4870,7 +4890,7 @@ Write an algorithm that finds the total number of set bits in all integers betwe
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution310.java) | [🔝 Back to top](#toc)
 
-### Problem 311 (Easy)
+#### Problem 311 (Easy)
 
 > This problem was asked by Sumo Logic.
 
@@ -4880,7 +4900,7 @@ An element is considered a peak if it is greater than both its left and right ne
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution311.java) | [🔝 Back to top](#toc)
 
-### Problem 312 (Easy)
+#### Problem 312 (Easy)
 
 This problem was asked by Wayfair.
 
@@ -4900,7 +4920,7 @@ Given an integer `N`, determine in how many ways this task is possible.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution312.java) | [🔝 Back to top](#toc)
 
-### Problem 313 (Hard)
+#### Problem 313 (Hard)
 
 This problem was asked by Citrix.
 
@@ -4912,7 +4932,7 @@ Let us consider a "move" to be a rotation of a single wheel by one digit, in eit
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution313.java) | [🔝 Back to top](#toc)
 
-### Problem 314 (Medium)
+#### Problem 314 (Medium)
 
 This problem was asked by Spotify.
 
@@ -4924,7 +4944,7 @@ For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution314.java) | [🔝 Back to top](#toc)
 
-### Problem 315 (Easy)
+#### Problem 315 (Easy)
 
 This problem was asked by Google.
 
@@ -4943,7 +4963,7 @@ Write a program to determine whether a given input is a Toeplitz matrix.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution315.java) | [🔝 Back to top](#toc)
 
-### Problem 316 (Medium)
+#### Problem 316 (Medium)
 
 This problem was asked by Snapchat.
 
@@ -4953,7 +4973,7 @@ Given such an array, determine the denominations that must be in use. In the cas
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution316.java) | [🔝 Back to top](#toc)
 
-### Problem 317 (Medium)
+#### Problem 317 (Medium)
 
 This problem was asked by Yahoo.
 
@@ -4961,7 +4981,7 @@ Write a function that returns the bitwise `AND` of all integers between `M` and 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution317.java) | [🔝 Back to top](#toc)
 
-### Problem 318 (Hard)
+#### Problem 318 (Hard)
 
 This problem was asked by Apple.
 
@@ -4971,7 +4991,7 @@ Given `N`, `M`, and `B`, determine the number of valid playlists.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution318.java) | [🔝 Back to top](#toc)
 
-### Problem 319 (Hard)
+#### Problem 319 (Hard)
 
 This problem was asked by Airbnb.
 
@@ -4981,7 +5001,7 @@ Design a class to represent the board, and find a series of steps to bring the b
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution319.java) | [🔝 Back to top](#toc)
 
-### Problem 320 (Medium)
+#### Problem 320 (Medium)
 
 This problem was asked by Amazon.
 
@@ -4991,7 +5011,7 @@ For example, given "jiujitsu", you should return `5`, corresponding to the final
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution320.java) | [🔝 Back to top](#toc)
 
-### Problem 321 (Easy)
+#### Problem 321 (Easy)
 
 This problem was asked by PagerDuty.
 
@@ -5006,7 +5026,7 @@ For example, given `100`, you can reach `1` in five steps with the following rou
 
 [Solution](https://k5kc.com/cs/problems/minimum-steps-to-reduce-number-to-1/) | [🔝 Back to top](#toc)
 
-### Problem 322 (Medium)
+#### Problem 322 (Medium)
 
 > This problem was asked by Flipkart.
 
@@ -5018,7 +5038,7 @@ Find a path with the fewest number of jumps required to get from `0` to `N`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution322.java) | [🔝 Back to top](#toc)
 
-### Problem 323 (Medium)
+#### Problem 323 (Medium)
 
 > This problem was asked by Dropbox.
 
@@ -5028,7 +5048,7 @@ More precisely, given an unordered list of `N` numbers, find an element whose ra
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution323.java) | [🔝 Back to top](#toc)
 
-### Problem 324 (Easy)
+#### Problem 324 (Easy)
 
 This problem was asked by Amazon.
 
@@ -5040,7 +5060,7 @@ For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes a
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution324.java) | [🔝 Back to top](#toc)
 
-### Problem 325 (Easy)
+#### Problem 325 (Easy)
 
 This problem was asked by Jane Street.
 
@@ -5050,7 +5070,7 @@ Create a data structure that can efficiently convert a certain quantity of one u
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution325.java) | [🔝 Back to top](#toc)
 
-### Problem 326 (Hard)
+#### Problem 326 (Hard)
 
 This problem was asked by Netflix.
 
@@ -5072,7 +5092,7 @@ Given a sequence `S`, construct the corresponding Cartesian tree.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution326.java) | [🔝 Back to top](#toc)
 
-### Problem 327 (Easy)
+#### Problem 327 (Easy)
 
 This problem was asked by Salesforce.
 
@@ -5082,7 +5102,7 @@ If only one input tree has a node in a given position, the corresponding node in
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution327.java) | [🔝 Back to top](#toc)
 
-### Problem 328 (Medium)
+#### Problem 328 (Medium)
 
 This problem was asked by Facebook.
 
@@ -5094,7 +5114,7 @@ Implement this system.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution328.java) | [🔝 Back to top](#toc)
 
-### Problem 329 (Hard)
+#### Problem 329 (Hard)
 
 This problem was asked by Amazon.
 
@@ -5121,7 +5141,7 @@ Write an algorithm that pairs the men and women together in such a way that no t
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution329.java) | [🔝 Back to top](#toc)
 
-### Problem 330 (Hard)
+#### Problem 330 (Hard)
 
 This problem was asked by Dropbox.
 
@@ -5141,7 +5161,7 @@ Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or ret
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution330.java) | [🔝 Back to top](#toc)
 
-### Problem 331 (Medium)
+#### Problem 331 (Medium)
 
 This problem was asked by LinkedIn.
 
@@ -5151,7 +5171,7 @@ Determine how many times you would need to apply this operation to ensure that a
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution331.java) | [🔝 Back to top](#toc)
 
-### Problem 332 (Easy)
+#### Problem 332 (Easy)
 
 > This problem was asked by Jane Street.
 
@@ -5162,7 +5182,7 @@ Given integers `M` and `N`, write a program that counts how many positive intege
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution332.java) | [🔝 Back to top](#toc)
 
-### Problem 333 (Medium)
+#### Problem 333 (Medium)
 
 This problem was asked by Pinterest.
 
@@ -5172,7 +5192,7 @@ Given a list of `N` people and the above operation, find a way to identify the c
 
 [Solution](https://k5kc.com/cs/problems/find-the-celebrity/) | [🔝 Back to top](#toc)
 
-### Problem 334 (Easy)
+#### Problem 334 (Easy)
 
 This problem was asked by Twitter.
 
@@ -5184,7 +5204,7 @@ Write a function that plays the `24` game.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution334.java) | [🔝 Back to top](#toc)
 
-### Problem 335 (Hard)
+#### Problem 335 (Hard)
 
 This problem was asked by Google.
 
@@ -5202,7 +5222,7 @@ Given a directed graph of links between various websites, write a program that c
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution335.java) | [🔝 Back to top](#toc)
 
-### Problem 336 (Medium)
+#### Problem 336 (Medium)
 
 This problem was asked by Microsoft.
 
@@ -5218,7 +5238,7 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution336.java) | [🔝 Back to top](#toc)
 
-### Problem 337 (Hard)
+#### Problem 337 (Hard)
 
 This problem was asked by Apple.
 
@@ -5226,7 +5246,7 @@ Given a linked list, uniformly shuffle the nodes. What if we want to prioritize 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution337.java) | [🔝 Back to top](#toc)
 
-### Problem 338 (Medium)
+#### Problem 338 (Medium)
 
 This problem was asked by Facebook.
 
@@ -5234,7 +5254,7 @@ Given an integer `n`, find the next biggest integer with the same number of `1`-
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution338.java) | [🔝 Back to top](#toc)
 
-### Problem 339 (Easy)
+#### Problem 339 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -5242,7 +5262,7 @@ Given an array of numbers and a number `k`, determine if there are three entries
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution339.java) | [🔝 Back to top](#toc)
 
-### Problem 340 (Easy)
+#### Problem 340 (Easy)
 
 This problem was asked by Google.
 
@@ -5250,7 +5270,7 @@ Given a set of points (x, y) on a 2D cartesian plane, find the two closest point
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution340.java) | [🔝 Back to top](#toc)
 
-### Problem 341 (Easy)
+#### Problem 341 (Easy)
 
 This problem was asked by Google.
 
@@ -5281,7 +5301,7 @@ Your function should return 3, since we can make the words 'eat', 'in', and 'rat
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution341.java) | [🔝 Back to top](#toc)
 
-### Problem 342 (Medium)
+#### Problem 342 (Medium)
 
 This problem was asked by Stripe.
 
@@ -5301,7 +5321,7 @@ Implement your own version of `reduce`.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution342.java) | [🔝 Back to top](#toc)
 
-### Problem 343 (Medium)
+#### Problem 343 (Medium)
 
 This problem was asked by Google.
 
@@ -5321,7 +5341,7 @@ and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution343.java) | [🔝 Back to top](#toc)
 
-### Problem 344 (Hard)
+#### Problem 344 (Hard)
 
 This problem was asked by Adobe.
 
@@ -5345,7 +5365,7 @@ Write a function that returns the _maximum_ number of edges you can remove while
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution344.java) | [🔝 Back to top](#toc)
 
-### Problem 345 (Medium)
+#### Problem 345 (Medium)
 
 This problem was asked by Google.
 
@@ -5362,7 +5382,7 @@ Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution345.java) | [🔝 Back to top](#toc)
 
-### Problem 346 (Medium)
+#### Problem 346 (Medium)
 
 > This problem was asked by Airbnb.
 
@@ -5388,7 +5408,7 @@ Due to some improbably low flight prices, the cheapest itinerary would be `JFK -
 
 [Solution](https://k5kc.com/cs/problems/cheapest-flights-within-k-stops/) | [🔝 Back to top](#toc)
 
-### Problem 347 (Easy)
+#### Problem 347 (Easy)
 
 This problem was asked by Yahoo.
 
@@ -5400,7 +5420,7 @@ For example, suppose we are given the string `daily` and `k = 1`. The best we ca
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution347.java) | [🔝 Back to top](#toc)
 
-### Problem 348 (Easy)
+#### Problem 348 (Easy)
 
 This problem was asked by Zillow.
 
@@ -5428,7 +5448,7 @@ Implement insertion and search functions for a ternary search tree.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution348.java) | [🔝 Back to top](#toc)
 
-### Problem 349 (Hard)
+#### Problem 349 (Hard)
 
 > This problem was asked by Grammarly.
 
@@ -5454,7 +5474,7 @@ Using this scheme, `Jackson` and `Jaxen` both map to `J250`.
 
 Implement Soundex.
 
-### Problem 350 (Medium)
+#### Problem 350 (Medium)
 
 This problem was asked by Uber.
 
@@ -5468,7 +5488,9 @@ Here are a few examples:
 
 [Solution](https://k5kc.com/cs/problems/least-number-of-perfect-squares-that-sums-to-n/) | [🔝 Back to top](#toc)
 
-### Problem 351 (Hard)
+### Problems 351 - 400
+
+#### Problem 351 (Hard)
 
 This problem was asked by Quora.
 
@@ -5488,7 +5510,7 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution351.md) | [🔝 Back to top](#toc)
 
-### Problem 352 (Easy)
+#### Problem 352 (Easy)
 
 This problem was asked by Palantir.
 
@@ -5503,7 +5525,7 @@ Write a program to determine whether a given matrix qualifies as a crossword gri
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution352.md) | [🔝 Back to top](#toc)
 
-### Problem 353 (Medium)
+#### Problem 353 (Medium)
 
 This problem was asked by Square.
 
@@ -5521,7 +5543,7 @@ Determine the area of the largest rectangle that can be formed only from the bar
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution353.java) | [🔝 Back to top](#toc)
 
-### Problem 354 (Hard)
+#### Problem 354 (Hard)
 
 > This problem was asked by Google.
 
@@ -5538,7 +5560,7 @@ Some questions you may want to consider as part of your solution are:
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution354.md) | [🔝 Back to top](#toc)
 
-### Problem 355 (Hard)
+#### Problem 355 (Hard)
 
 This problem was asked by Airbnb.
 
@@ -5553,7 +5575,7 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution355.java) | [🔝 Back to top](#toc)
 
-### Problem 356 (Hard)
+#### Problem 356 (Hard)
 
 This problem was asked by Netflix.
 
@@ -5563,7 +5585,7 @@ The queue should support `enqueue`, `dequeue`, and `get_size` operations.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution356.java) | [🔝 Back to top](#toc)
 
-### Problem 357 (Hard)
+#### Problem 357 (Hard)
 
 This problem was asked by LinkedIn.
 
@@ -5581,7 +5603,7 @@ Given this representation, determine the depth of the tree.
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution357.java) | [🔝 Back to top](#toc)
 
-### Problem 358 (Hard)
+#### Problem 358 (Hard)
 
 This problem was asked by Dropbox.
 
@@ -5594,7 +5616,7 @@ Create a data structure that performs all the following operations in `O(1)` tim
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution358.java) | [🔝 Back to top](#toc)
 
-### Problem 359 (Easy)
+#### Problem 359 (Easy)
 
 This problem was asked by Slack.
 
@@ -5606,7 +5628,7 @@ Given this string, return the original integers in sorted order. In the example 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution359.java) | [🔝 Back to top](#toc)
 
-### Problem 360 (Medium)
+#### Problem 360 (Medium)
 
 This problem was asked by Spotify.
 
@@ -5618,7 +5640,7 @@ For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution360.java) | [🔝 Back to top](#toc)
 
-### Problem 361 (Medium)
+#### Problem 361 (Medium)
 
 This problem was asked by Facebook.
 
@@ -5642,7 +5664,7 @@ However, it is impossible for any key to result in the following scores, so in t
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution361.java) | [🔝 Back to top](#toc)
 
-### Problem 362 (Easy)
+#### Problem 362 (Easy)
 
 > This problem was asked by Twitter.
 
@@ -5652,7 +5674,7 @@ Create a program that finds all strobogrammatic numbers with `N` digits.
 
 [Solution](https://k5kc.com/cs/problems/strobogrammatic-number-2-generate-for-length-n/) | [🔝 Back to top](#toc)
 
-### Problem 363 (Medium)
+#### Problem 363 (Medium)
 
 Write a function, `add_subtract`, which alternately adds and subtracts curried arguments. Here are some sample operations:
 
@@ -5664,7 +5686,7 @@ add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution363.java) | [🔝 Back to top](#toc)
 
-### Problem 364 (Medium)
+#### Problem 364 (Medium)
 
 This problem was asked by Facebook.
 
@@ -5672,7 +5694,7 @@ Describe an algorithm to compute the longest increasing subsequence of an array 
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution364.java) | [🔝 Back to top](#toc)
 
-### Problem 365 (Hard)
+#### Problem 365 (Hard)
 
 This problem was asked by Google.
 
@@ -5686,7 +5708,7 @@ Implement a quack using three stacks and `O(1)` additional memory, so that the a
 
 [Solution](solutions/src/main/java/com/vaani/dcp/Solution365.java) | [🔝 Back to top](#toc)
 
-### Problem 366 (Medium)
+#### Problem 366 (Medium)
 
 This problem was asked by Flexport.
 
@@ -5694,7 +5716,7 @@ Given a string s, rearrange the characters so that any two adjacent characters a
 
 For example, if s = yyz then return yzy. If s = yyy then return null.
 
-### Problem 367 (Medium)
+#### Problem 367 (Medium)
 
 This problem was asked by Two Sigma.
 
@@ -5723,7 +5745,7 @@ for num in merge_iterators(foo, bar):
 
 Bonus: Make it work without pulling in the contents of the iterators in memory.
 
-### Problem 368 (Hard)
+#### Problem 368 (Hard)
 
 This problem was asked by Google.
 
@@ -5742,7 +5764,7 @@ kv.update(2, 1)
 
 And then called `kv.max_key(1)`, it should return `2`, since it's the largest key with value `1`.
 
-### Problem 369 (Medium)
+#### Problem 369 (Medium)
 
 This problem was asked by Two Sigma.
 
@@ -5750,7 +5772,7 @@ You’re tracking stock price at a given instance of time. Implement an API with
 
 Also, provide max(), min(), and average() functions that give the max/min/average of all values seen thus far.
 
-### Problem 370 (Easy)
+#### Problem 370 (Easy)
 
 This problem was asked by Postmates.
 
@@ -5775,7 +5797,7 @@ For example, if the input is the following:
 
 The total active time would be 1260 seconds.
 
-### Problem 371 (Hard)
+#### Problem 371 (Hard)
 
 This problem was asked by Google.
 
@@ -5797,7 +5819,7 @@ The equations use addition only and are separated by newlines. Return a mapping 
 }
 ```
 
-### Problem 372 (Easy)
+#### Problem 372 (Easy)
 
 This problem was asked by Amazon.
 
@@ -5805,7 +5827,7 @@ Write a function that takes a natural number as input and returns the number of 
 
 Constraint: don't use any loops.
 
-### Problem 373 (Hard)
+#### Problem 373 (Hard)
 
 This problem was asked by Facebook.
 
@@ -5813,7 +5835,7 @@ Given a list of integers L, find the maximum length of a sequence of consecutive
 
 For example, given `L = [5, 2, 99, 3, 4, 1, 100]`, return 5 as we can build a sequence `[1, 2, 3, 4, 5]` which has length 5.
 
-### Problem 374 (Hard)
+#### Problem 374 (Hard)
 
 This problem was asked by Amazon.
 
@@ -5821,7 +5843,7 @@ Given a sorted array `arr` of distinct integers, return the lowest index `i` for
 
 For example, given the array `[-5, -3, 2, 3]`, return `2` since `arr[2] == 2`. Even though `arr[3] == 3`, we return 2 since it's the lowest index.
 
-### Problem 375 (Medium)
+#### Problem 375 (Medium)
 
 This problem was asked by Google.
 
@@ -5839,7 +5861,7 @@ For example, if the array was:
 
 This means the researcher has 5 papers with 4, 1, 0, 2, and 3 citations respectively. The h-index for this researcher is 2, since they have 2 papers with at least 2 citations and the remaining 3 papers have no more than 2 citations.
 
-### Problem 376 (Easy)
+#### Problem 376 (Easy)
 
 This problem was asked by Google.
 
@@ -5865,10 +5887,10 @@ return `(0, 4)`, since that coin is closest. This map would be represented in ou
 
 ```
 Our position: (0, 2)
-Coins: [(### Problem 0, 4), (1, 0), (2, 0), (3, 2)]
+Coins: [(#### Problem 0, 4), (1, 0), (2, 0), (3, 2)]
 ```
 
-### Problem 377 (Hard)
+#### Problem 377 (Hard)
 
 This problem was asked by Microsoft.
 
@@ -5893,7 +5915,7 @@ Your function should print out the following:
 
 Recall that the median of an even-sized list is the average of the two middle numbers.
 
-### Problem 378 (Medium)
+#### Problem 378 (Medium)
 
 This problem was asked by Coinbase.
 
@@ -5911,7 +5933,7 @@ You should return the following, as a string:
 '[null, 123, ["a", "b"], {"c": "d"}]'
 ```
 
-### Problem 379 (Easy)
+#### Problem 379 (Easy)
 
 This problem was asked by Microsoft.
 
@@ -5931,7 +5953,7 @@ xyz
 
 Note that `zx` is not a valid subsequence since it is not in the order of the given string.
 
-### Problem 380 (Medium)
+#### Problem 380 (Medium)
 
 This problem was asked by Nextdoor.
 
@@ -5941,7 +5963,7 @@ For example, calling `divide(10, 3)` should return `(3, 1)` since the divisor is
 
 Bonus: Can you do it in O(log n) time?
 
-### Problem 381 (Easy)
+#### Problem 381 (Easy)
 
 This problem was asked by Paypal.
 
@@ -5961,7 +5983,7 @@ should produce:
 3q2+7w==
 ```
 
-### Problem 382 (Easy)
+#### Problem 382 (Easy)
 
 This problem was asked by Google.
 
@@ -5981,7 +6003,7 @@ should produce:
 deadbeef
 ```
 
-### Problem 383 (Medium)
+#### Problem 383 (Medium)
 
 This problem was asked by Gusto.
 
@@ -5993,7 +6015,7 @@ For example, given `s = abcdefg` and `lst = ["bc", "ef"]`, return the string `ab
 
 Given `s = abcdefg` and `lst = ["bcd", "def"]`, return the string `abcdefg`, since they overlap.
 
-### Problem 384 (Hard)
+#### Problem 384 (Hard)
 
 This problem was asked by WeWork.
 
@@ -6003,7 +6025,7 @@ For example, given an array of `[1, 5, 10]` and an amount `56`, return `7` since
 
 Given an array of `[5, 8]` and an amount `15`, return `3` since we can use 5 5-cent coins.
 
-### Problem 385 (Medium)
+#### Problem 385 (Medium)
 
 This problem was asked by Apple.
 
@@ -6021,7 +6043,7 @@ You should be able to decrypt it and get:
 Hello world from Daily Coding Problem
 ```
 
-### Problem 386 (Easy)
+#### Problem 386 (Easy)
 
 This problem was asked by Twitter.
 
@@ -6029,31 +6051,31 @@ Given a string, sort it in decreasing order based on the frequency of characters
 
 For example, given the string `tweet`, return `tteew`. `eettw` would also be acceptable.
 
-### Problem 387 (Medium)
+#### Problem 387 (Medium)
 
 This problem was recently asked by Amazon.
 
 How would you explain the difference between an API and SDK to a non-technical person?
 
-### Problem 388 (Medium)
+#### Problem 388 (Medium)
 
 This problem was asked by Airtable.
 
 How would you explain web cookies to someone non-technical?
 
-### Problem 389 (Hard)
+#### Problem 389 (Hard)
 
 This problem was asked by Google.
 
 Explain the difference between composition and inheritance. In which cases would you use each?
 
-### Problem 390 (Medium)
+#### Problem 390 (Medium)
 
 This problem was asked by Two Sigma.
 
 You are given an unsorted list of 999,000 unique integers, each from 1 and 1,000,000. Find the missing 1000 numbers. What is the computational and space complexity of your solution?
 
-### Problem 391 (Hard)
+#### Problem 391 (Hard)
 
 This problem was asked by Facebook.
 
@@ -6074,7 +6096,7 @@ You should return the following:
 ['/login', '/user', '/one']
 ```
 
-### Problem 392 (Hard)
+#### Problem 392 (Hard)
 
 This problem was asked by Google.
 
@@ -6097,7 +6119,7 @@ For example, given the following matrix:
 
 Return `14`.
 
-### Problem 393 (Medium)
+#### Problem 393 (Medium)
 
 This problem was asked by Airbnb.
 
@@ -6105,7 +6127,7 @@ Given an array of integers, return the largest range, inclusive, of integers tha
 
 For example, given the array `[9, 6, 1, 3, 8, 10, 12, 11]`, return `(8, 12)` since 8, 9, 10, 11, and 12 are all in the array.
 
-### Problem 394 (Easy)
+#### Problem 394 (Easy)
 
 This problem was asked by Uber.
 
@@ -6123,7 +6145,7 @@ For example, given `k = 18` and the following binary tree:
 
 Return `True` since the path `8 -> 4 -> 6` sums to 18.
 
-### Problem 395 (Medium)
+#### Problem 395 (Medium)
 
 This problem was asked by Robinhood.
 
@@ -6143,7 +6165,7 @@ Return:
  ['now']]
 ```
 
-### Problem 396 (Hard)
+#### Problem 396 (Hard)
 
 This problem was asked by Google.
 
@@ -6159,7 +6181,7 @@ Return 7, since the longest palindromic subsequence in the string is `APTMTPA`. 
 
 Your algorithm should run in O(n^2) time and space.
 
-### Problem 397 (Medium)
+#### Problem 397 (Medium)
 
 This problem was asked by Microsoft.
 
@@ -6186,7 +6208,7 @@ Return:
 (8, 11)]
 ```
 
-### Problem 398 (Medium)
+#### Problem 398 (Medium)
 
 This problem was asked by Amazon.
 
@@ -6196,7 +6218,7 @@ Given a linked list and an integer `k`, remove the k-th node from the end of the
 
 Do this in one pass.
 
-### Problem 399 (Hard)
+#### Problem 399 (Hard)
 
 This problem was asked by Facebook.
 
@@ -6218,6 +6240,6 @@ Return the following 3 partitions:
 
 Which each add up to 8.
 
-### Problem 400 Onwards
+#### Problem 400 Onwards
 
 From here on the problems are repeating, hence moved to [repeating file](REPEATING.md).
