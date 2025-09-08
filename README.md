@@ -434,7 +434,7 @@ For example, given `[10, 15, 3, 7]` and `k` of `17`, return `true` since `10 + 7
 
 Bonus: Can you do this in one pass?
 
-[Solution](https://k5kc.com/cs/problems/two-sum/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/two-sum/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 2 (Hard)
 
@@ -446,7 +446,7 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 
 Follow-up: what if you can't use division?
 
-[Solution](https://k5kc.com/cs/problems/product-of-array-except-self/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/product-of-array-except-self/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 3 (Medium)
 
@@ -471,7 +471,7 @@ node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
 
-[Solution](https://k5kc.com/cs/problems/serialize-and-deserialize-binary-tree/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/serialize-and-deserialize-binary-tree/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 4 (Hard)
 
@@ -483,7 +483,7 @@ For example, the input `[3, 4, -1, 1]` should give `2`. The input `[1, 2, 0]` sh
 
 You can modify the input array in-place.
 
-[Solution](https://k5kc.com/cs/problems/first-missing-positive/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/first-missing-positive/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 5 (Medium)
 
@@ -502,7 +502,7 @@ def cons(a, b):
 
 Implement `car` and `cdr`.
 
-[Solution](https://k5kc.com/cs/problems/implementing-car-and-cdr-functions-for-pair-construction/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/implementing-car-and-cdr-functions-for-pair-construction/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 6 (Hard)
 
@@ -512,7 +512,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 
 If using a language that has no pointers (such as Python), you can assume you have access to `get_pointer` and `dereference_pointer` functions that converts between nodes and memory addresses.
 
-[Solution](https://k5kc.com/cs/problems/xor-doubly-linked-list/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/xor-doubly-linked-list/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 7 (Medium)
 
@@ -524,7 +524,7 @@ For example, the message '111' would give 3, since it could be decoded as 'aaa',
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
-[Solution](https://k5kc.com/cs/problems/decode-ways/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/decode-ways/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 8 (Easy)
 
@@ -546,7 +546,7 @@ For example, the following tree has 5 unival subtrees:
  1   1
 ```
 
-[Solution](https://k5kc.com/cs/problems/count-univalue-subtrees/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/count-univalue-subtrees/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 9 (Hard)
 
@@ -560,7 +560,7 @@ For example, `[2, 4, 6, 2, 5]` should return `13`, since we pick `2`, `6`, and `
 
 Follow-up: Can you do this in O(N) time and constant space?
 
-[Solution](https://k5kc.com/cs/problems/house-robber-1/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/house-robber-1/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 10 (Medium)
 
@@ -568,7 +568,7 @@ Follow-up: Can you do this in O(N) time and constant space?
 
 Implement a job scheduler which takes in a function `f` and an integer `n`, and calls `f` after `n` milliseconds.
 
-[Solution](https://k5kc.com/cs/problems/implement-job-scheduler-with-delay-function-execution/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/implement-job-scheduler-with-delay-function-execution/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 11 (Medium)
 
@@ -580,7 +580,7 @@ For example, given the query string `de` and the set of strings [`dog`, `deer`, 
 
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 
-[Solution](https://k5kc.com/cs/problems/autocomplete-suggestion-system/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/autocomplete-suggestion-system/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 12 (Hard)
 
@@ -598,7 +598,7 @@ There exists a staircase with N steps, and you can climb up either 1  or 2 steps
 
 What if, instead of being able to climb 1 or 2 steps at a time, you  could climb any number from a set of positive integers X? For example,  if `X = {1, 3, 5}`, you could climb 1, 3, or 5 steps at a time.
 
-[Solution](https://k5kc.com/cs/problems/climbing-stairs-1-take-atmost-2-steps/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/climbing-stairs-1-take-atmost-2-steps/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 13 (Hard)
 
@@ -606,7 +606,7 @@ What if, instead of being able to climb 1 or 2 steps at a time, you  could climb
 
 Given an integer k and a string s, find the length of the longest substring that contains at most k distinct characters. For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
-[Solution](https://k5kc.com/cs/problems/longest-substring-with-at-most-k-distinct-characters/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/longest-substring-with-at-most-k-distinct-characters/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 14 (Medium)
 
@@ -614,7 +614,7 @@ Given an integer k and a string s, find the length of the longest substring that
 
 The area of a circle is defined as `πr^2`. Estimate `π` to 3 decimal places using a Monte Carlo method. Hint: The basic equation of a circle is `x^2 + y^2 = r^2`.
 
-[Solution](https://k5kc.com/cs/problems/estimating-the-value-of-pi-using-monte-carlo-method/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/estimating-the-value-of-pi-using-monte-carlo-method/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 15 (Medium)
 
@@ -622,7 +622,7 @@ The area of a circle is defined as `πr^2`. Estimate `π` to 3 decimal places us
 
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 
-[Solution](https://k5kc.com/cs/problems/reservoir-sampling-explained/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/reservoir-sampling-explained/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 16 (Easy)
 
@@ -635,7 +635,7 @@ You run an e-commerce website and want to record the last `N` `order` ids in a l
 
 You should be as efficient with time and space as possible.
 
-[Solution](https://k5kc.com/cs/problems/design-log-order-records/) | [🔝 Back to top](#toc)
+  [Solution](https://k5kc.com/cs/problems/design-log-order-records/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 17 (Hard)
 
@@ -678,7 +678,7 @@ The name of a file contains at least a period and an extension.
 
 The name of a directory or sub-directory will not contain a period.
 
-[Solution](https://k5kc.com/cs/problems/longest-absolute-file-path/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/longest-absolute-file-path/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 18 (Hard)
 
@@ -695,7 +695,7 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
-[Solution](https://k5kc.com/cs/problems/sliding-window-maximum/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sliding-window-maximum/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 19 (Medium)
 
@@ -705,7 +705,7 @@ A builder is looking to build a row of N houses that can be of K different color
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
-[Solution](https://k5kc.com/cs/problems/paint-house-2-n-houses-with-k-colors-with-no-two-adjacent-houses-with-same-color/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/paint-house-2-n-houses-with-k-colors-with-no-two-adjacent-houses-with-same-color/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 20 (Easy)
 
@@ -719,7 +719,7 @@ In this example, assume nodes with the same value are the exact same node object
 
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 
-[Solution](https://k5kc.com/cs/problems/intersection-of-two-linked-lists/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/intersection-of-two-linked-lists/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 21 (Easy)
 
@@ -729,7 +729,7 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
-[Solution](https://k5kc.com/cs/problems/meeting-rooms-2-minimum-meeting-rooms-required/) | [🔝 Back to top](#toc).
+[Solution](https://k5kc.com/cs/problems/meeting-rooms-2-minimum-meeting-rooms-required/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc).
 
 #### Problem 22 (Medium)
 
@@ -741,7 +741,7 @@ For example, given the set of words 'quick', 'brown', 'the', 'fox', and the stri
 
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
-[Solution](https://k5kc.com/cs/problems/word-break-2-construct-a-sentence/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/word-break-2-construct-a-sentence/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 23 (Easy)
 
@@ -762,7 +762,7 @@ For example, given the following board:
 
 and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum number of steps required to reach the end is 7, since we would need to go through `(1, 2)` because there is a wall everywhere else on the second row.
 
-[Solution](https://k5kc.com/cs/problems/find-the-shortest-path-between-2-cells-in-boolean-maze/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-the-shortest-path-between-2-cells-in-boolean-maze/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 24 (Medium)
 
@@ -778,7 +778,7 @@ Design a binary tree node class with the following methods:
 
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 
-[Solution](https://k5kc.com/cs/problems/locking-and-unlocking-resources-represented-as-binary-tree-nodes/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/locking-and-unlocking-resources-represented-as-binary-tree-nodes/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 25 (Hard)
 
@@ -795,7 +795,7 @@ For example, given the regular expression "ra." and the string "ray", your funct
 
 Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
 
-[Solution](https://k5kc.com/cs/problems/regular-expression-matching/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/regular-expression-matching/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 26 (Medium)
 
@@ -807,7 +807,7 @@ The list is very long, so making more than one pass is prohibitively expensive.
 
 Do this in constant space and in one pass.
 
-[Solution](https://k5kc.com/cs/problems/remove-nth-node-from-end-of-list/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/remove-nth-node-from-end-of-list/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 27 (Easy)
 
@@ -819,7 +819,7 @@ For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
 
-[Solution](https://k5kc.com/cs/problems/valid-parentheses/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/valid-parentheses/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 28 (Medium)
 
@@ -839,7 +839,7 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 "fox  jumps  over", # 2 extra spaces distributed evenly
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 
-[Solution](https://k5kc.com/cs/problems/text-justification/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/text-justification/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 29 (Easy)
 
@@ -849,7 +849,7 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
-[Solution](https://k5kc.com/cs/problems/run-length-encoding/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/run-length-encoding/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 30 (Medium)
 
@@ -863,7 +863,7 @@ For example, given the input [2, 1, 2], we can hold 1 unit of water in the middl
 
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
 
-[Solution](https://k5kc.com/cs/problems/trapping-rain-water/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/trapping-rain-water/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 31 (Easy)
 
@@ -873,7 +873,7 @@ The edit distance between two strings refers to the minimum number of character 
 
 Given two strings, compute the edit distance between them.
 
-[Solution](https://k5kc.com/cs/problems/edit-distance/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/edit-distance/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 32 (Hard)
 
@@ -883,7 +883,7 @@ Suppose you are given a table of currency exchange rates, represented as a 2D ar
 
 There are no transaction costs and you can trade fractional quantities.
 
-[Solution](https://k5kc.com/cs/problems/check-currency-arbitrage-with-bellman-ford/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/check-currency-arbitrage-with-bellman-ford/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 33 (Easy)
 
@@ -905,7 +905,7 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 ```
 
-[Solution](https://k5kc.com/cs/problems/find-median-from-data-stream/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-median-from-data-stream/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 34 (Medium)
 
@@ -917,7 +917,7 @@ For example, given the string "race", you should return "ecarace", since we can 
 
 As another example, given the string "google", you should return "elgoogle".
 
-[Solution](https://k5kc.com/cs/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimum-insertion-steps-to-make-a-string-palindrome/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 35 (Hard)
 
@@ -929,7 +929,7 @@ Do this in linear time and in-place.
 
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
-[Solution](https://k5kc.com/cs/problems/dutch-national-flag-dnf/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/dutch-national-flag-dnf/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 36 (Medium)
 
@@ -937,7 +937,7 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 
 Given the root to a binary search tree, find the second largest node in the tree.
 
-[Solution](https://k5kc.com/cs/problems/second-largest-element-in-binary-search-tree/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/second-largest-element-in-binary-search-tree/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 37 (Easy)
 
@@ -949,7 +949,7 @@ For example, given the set `{1, 2, 3}`, it should return `{{}, {1}, {2}, {3}, {1
 
 You may also use a list or array to represent a set.
 
-[Solution](https://k5kc.com/cs/problems/subsets-1/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/subsets-1/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 38 (Hard)
 
@@ -957,7 +957,7 @@ You may also use a list or array to represent a set.
 
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
-[Solution](https://k5kc.com/cs/problems/n-queens/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/n-queens/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 39 (Medium)
 
@@ -976,7 +976,7 @@ Implement Conway's Game of Life. It should be able to be initialized with a star
 
 You can represent a live cell with an asterisk (`*`) and a dead cell with a dot (`.`).
 
-[Solution](https://k5kc.com/cs/problems/game-of-life/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/game-of-life/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 40 (Hard)
 
@@ -988,7 +988,7 @@ For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], retu
 
 Do this in O(N) time and O(1) space.
 
-[Solution](https://k5kc.com/cs/problems/single-number-2-all-elements-except-one-occur-thrice/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/single-number-2-all-elements-except-one-occur-thrice/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 41 (Medium)
 
@@ -1002,7 +1002,7 @@ Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 
 
 Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
 
-[Solution](https://k5kc.com/cs/problems/reconstruct-itinerary/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reconstruct-itinerary/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 42 (Hard)
 
@@ -1014,7 +1014,7 @@ Integers can appear more than once in the list. You may assume all numbers in th
 
 For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
 
-[Solution](https://k5kc.com/cs/problems/subarray-sum-equals-k/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/subarray-sum-equals-k/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 43 (Easy)
 
@@ -1028,7 +1028,7 @@ Implement a stack that has the following methods:
 
 Each method should run in constant time.
 
-[Solution](https://k5kc.com/cs/problems/max-stack/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/max-stack/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 44 (Medium)
 
@@ -1042,7 +1042,7 @@ You may assume each element in the array is distinct.
 
 For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 
-[Solution](https://k5kc.com/cs/problems/count-inversions-count-smaller-on-right/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/count-inversions-count-smaller-on-right/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 45 (Easy)
 
@@ -1050,7 +1050,7 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 
 Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function `rand7()` that returns an integer from 1 to 7 (inclusive).
 
-[Solution](https://k5kc.com/cs/problems/implement-rand7-using-rand5-/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/implement-rand7-using-rand5-/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 46 (Hard)
 
@@ -1060,7 +1060,7 @@ Given a string, find the longest palindromic contiguous substring. If there are 
 
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
 
-[Solution](https://k5kc.com/cs/problems/longest-palindromic-substring/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/longest-palindromic-substring/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 47 (Easy)
 
@@ -1070,7 +1070,7 @@ Given a array of numbers representing the stock prices of a company in chronolog
 
 For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
 
-[Solution](https://k5kc.com/cs/problems/best-time-to-buy-and-sell-stock-1-only-one-transaction/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/best-time-to-buy-and-sell-stock-1-only-one-transaction/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 48 (Medium)
 
@@ -1096,7 +1096,7 @@ You should return the following tree:
 d  e f  g
 ```
 
-[Solution](https://k5kc.com/cs/problems/construct-binary-tree-from-inorder-and-preorder-traversal/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/construct-binary-tree-from-inorder-and-preorder-traversal/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 49 (Medium)
 
@@ -1110,7 +1110,7 @@ Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not
 
 Do this in O(N) time.
 
-[Solution](https://k5kc.com/cs/problems/maximum-subarray-sum/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-subarray-sum/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 50 (Easy)
 
@@ -1132,7 +1132,7 @@ For example, given the following tree:
 
 You should return 45, as it is (3 + 2) * (4 + 5).
 
-[Solution](https://k5kc.com/cs/problems/evaluation-of-arithmetic-expression-tree/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/evaluation-of-arithmetic-expression-tree/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 ### Problems 51 - 100
 
@@ -1146,7 +1146,7 @@ It should run in O(N) time.
 
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
-[Solution](https://k5kc.com/cs/problems/fisher-yates-shuffle/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/fisher-yates-shuffle/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 52 (Hard)
 
@@ -1159,7 +1159,7 @@ Implement an LRU (Least Recently Used) cache. It should be able to be initialize
 
 Each operation should run in O(1) time.
 
-[Solution](https://k5kc.com/cs/problems/design-lru-cache/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/design-lru-cache/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 53 (Medium)
 
@@ -1167,7 +1167,7 @@ Each operation should run in O(1) time.
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: `enqueue`, which inserts an element into the queue, and `dequeue`, which removes it
 
-[Solution](https://k5kc.com/cs/problems/implement-queue-using-stacks/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/implement-queue-using-stacks/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 54 (Hard)
 
@@ -1177,7 +1177,7 @@ Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits
 
 Implement an efficient sudoku solver
 
-[Solution](https://k5kc.com/cs/problems/sudoku-solver/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sudoku-solver/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 55 (Easy)
 
@@ -1190,7 +1190,7 @@ Implement a URL shortener with the following methods:
 
 Hint: What if we enter the same URL twice?
 
-[Solution](https://k5kc.com/cs/problems/encode-and-decode-tinyurl/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/encode-and-decode-tinyurl/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 56 (Medium)
 
@@ -1198,7 +1198,7 @@ Hint: What if we enter the same URL twice?
 
 Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
 
-[Solution](https://k5kc.com/cs/problems/m-coloring-problem-undirected-graph-as-adjacency-matrix/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/m-coloring-problem-undirected-graph-as-adjacency-matrix/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 57 (Medium)
 
@@ -1210,7 +1210,7 @@ You can assume that there are no spaces at the ends of the string and that there
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
-[Solution](https://k5kc.com/cs/problems/break-a-string-into-lines-of-length-k-without-breaking-words/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/break-a-string-into-lines-of-length-k-without-breaking-words/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 58 (Medium)
 
@@ -1224,7 +1224,7 @@ For example, given the array `[13, 18, 25, 2, 8, 10]` and the element 8, return 
 
 You can assume all the integers in the array are unique.
 
-[Solution](https://k5kc.com/cs/problems/search-in-rotated-sorted-array/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/search-in-rotated-sorted-array/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 59 (Hard)
 
@@ -1232,7 +1232,7 @@ You can assume all the integers in the array are unique.
 
 Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
 
-[Solution](https://k5kc.com/cs/problems/low-bandwidth-almost-similar-file-syncing-algorithm-between-two-computers/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/low-bandwidth-almost-similar-file-syncing-algorithm-between-two-computers/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 60 (Medium)
 
@@ -1244,7 +1244,7 @@ For example, given the multiset `{15, 5, 20, 10, 35, 15, 10}`, it would return t
 
 Given the multiset `{15, 5, 20, 10, 35}`, it would return false, since we can't split it up into two subsets that add up to the same sum.
 
-[Solution](https://k5kc.com/cs/problems/partition-equal-subset-sum/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/partition-equal-subset-sum/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 61 (Medium)
 
@@ -1256,7 +1256,7 @@ Do this faster than the naive method of repeated multiplication.
 
 For example, `pow(2, 10)` should return 1024.
 
-[Solution](https://k5kc.com/cs/problems/implement-power-function-1/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/implement-power-function-1/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 62 (Medium)
 
@@ -1271,7 +1271,7 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
-[Solution](https://k5kc.com/cs/problems/unique-paths-in-grid-1-count-all-paths-moving-right-or-down/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/unique-paths-in-grid-1-count-all-paths-moving-right-or-down/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 63 (Easy)
 
@@ -1290,7 +1290,7 @@ For example, given the following matrix:
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
-[Solution](https://k5kc.com/cs/problems/check-if-target-word-exists-in-matrix-horizontally-or-vertically/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/check-if-target-word-exists-in-matrix-horizontally-or-vertically/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 64 (Hard)
 
@@ -1300,7 +1300,7 @@ A knight's tour is a sequence of moves by a knight on a chessboard such that all
 
 Given N, write a function to return the number of knight's tours on an N by N chessboard
 
-[Solution](https://k5kc.com/cs/problems/count-knight-s-tour/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/count-knight-s-tour/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 65 (Easy)
 
@@ -1342,7 +1342,7 @@ You should print out the following:
 12
 ```
 
-[Solution](https://k5kc.com/cs/problems/spiral-matrix-1-return/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/spiral-matrix-1-return/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 66 (Medium)
 
@@ -1352,7 +1352,7 @@ Assume you have access to a function `toss_biased()` which returns 0 or 1 with a
 
 Write a function to simulate an unbiased coin toss.
 
-[Solution](https://k5kc.com/cs/problems/simulating-an-unbiased-coin-toss-using-a-biased-coin/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/simulating-an-unbiased-coin-toss-using-a-biased-coin/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 67 (Hard)
 
@@ -1365,7 +1365,7 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 
 Each operation should run in O(1) time.
 
-[Solution](https://k5kc.com/cs/problems/lfu-cache/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/lfu-cache/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 68 (Medium)
 
@@ -1394,7 +1394,7 @@ The board would look like this:
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
-[Solution](https://k5kc.com/cs/problems/bishop-diagonally-attack-on-chess-board/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/bishop-diagonally-attack-on-chess-board/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 69 (Easy)
 
@@ -1406,7 +1406,7 @@ For example, if the list is `[-10, -10, 5, 2]`, we should return `500`, since th
 
 You can assume the list has at least three integers
 
-[Solution](https://k5kc.com/cs/problems/maximum-product-of-three-numbers/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-product-of-three-numbers/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 70 (Easy)
 
@@ -1418,7 +1418,7 @@ Given a positive integer `n`, return the `n`-th perfect number.
 
 For example, given 1, you should return 19. Given 2, you should return 28.
 
-[Solution](https://k5kc.com/cs/problems/nth-number-with-sum-of-digits-as-10/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/nth-number-with-sum-of-digits-as-10/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 71 (Easy)
 
@@ -1426,7 +1426,7 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 
 Using a function `rand7()` that returns an integer from 1 to 7 (inclusive) with uniform probability, implement a function `rand5()` that returns an integer from 1 to 5 (inclusive)
 
-[Solution](https://k5kc.com/cs/problems/implement-rand5-using-rand7-/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/implement-rand5-using-rand7-/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 72 (Hard)
 
@@ -1458,7 +1458,7 @@ The following input graph:
 
 Should return null, since we have an infinite loop.
 
-[Solution](https://k5kc.com/cs/problems/largest-value-path-in-a-directed-graph/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/largest-value-path-in-a-directed-graph/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 73 (Easy)
 
@@ -1466,7 +1466,7 @@ Should return null, since we have an infinite loop.
 
 Given the head of a singly linked list, reverse it in-place.
 
-[Solution](https://k5kc.com/cs/problems/reverse-linked-list/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reverse-linked-list/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 74 (Medium)
 
@@ -1492,7 +1492,7 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 
 And there are 4 12's in the table.
 
-[Solution](https://k5kc.com/cs/problems/number-of-cells-in-multiplication-table-containing-x/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/number-of-cells-in-multiplication-table-containing-x/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 75 (Hard)
 
@@ -1502,7 +1502,7 @@ Given an array of numbers, find the length of the longest increasing subsequence
 
 For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15.
 
-[Solution](https://k5kc.com/cs/problems/longest-increasing-subsequence-lis/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/longest-increasing-subsequence-lis/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 76 (Medium)
 
@@ -1546,7 +1546,7 @@ tsr
 
 Your function should return 3, since we would need to remove all the columns to order it.
 
-[Solution](https://k5kc.com/cs/problems/minimum-columns-to-remove-for-lexicographical-order-in-matrix/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimum-columns-to-remove-for-lexicographical-order-in-matrix/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 77 (Easy)
 
@@ -1558,7 +1558,7 @@ The input list is not necessarily ordered in any way.
 
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
 
-[Solution](https://k5kc.com/cs/problems/merge-overlapping-intervals/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/merge-overlapping-intervals/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 78 (Medium)
 
@@ -1566,7 +1566,7 @@ For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3
 
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
-[Solution](https://k5kc.com/cs/problems/merge-k-sorted-lists/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/merge-k-sorted-lists/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 79 (Medium)
 
@@ -1578,7 +1578,7 @@ For example, given the array [10, 5, 7], you should return true, since we can mo
 
 Given the array [10, 5, 1], you should return false, since we can't modify any one element to get a non-decreasing array.
 
-[Solution](https://k5kc.com/cs/problems/non-decreasing-array/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/non-decreasing-array/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 80 (Easy)
 
@@ -1594,7 +1594,7 @@ Given the root of a binary tree, return a deepest node. For example, in the foll
 d
 ```
 
-[Solution](https://k5kc.com/cs/problems/find-deepest-node-in-a-binary-tree/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-deepest-node-in-a-binary-tree/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 81 (Easy)
 
@@ -1604,7 +1604,7 @@ Given a mapping of digits to letters (as in a phone number), and a digit string,
 
 For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
 
-[Solution](https://k5kc.com/cs/problems/letter-combinations-of-a-phone-number/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/letter-combinations-of-a-phone-number/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 82 (Easy)
 
@@ -1614,7 +1614,7 @@ Using a read7() method that returns 7 characters from a file, implement readN(n)
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
 
-[Solution](https://k5kc.com/cs/problems/read-n-characters-given-read7/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/read-n-characters-given-read7/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 83 (Medium)
 
@@ -1642,7 +1642,7 @@ should become:
   f e  d
 ```
 
-[Solution](https://k5kc.com/cs/problems/invert-binary-tree/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/invert-binary-tree/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 84 (Medium)
 
@@ -1661,7 +1661,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 ```
 
-[Solution](https://k5kc.com/cs/problems/number-of-islands/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/number-of-islands/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 85 (Medium)
 
@@ -1669,7 +1669,7 @@ For example, this matrix has 4 islands.
 
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
 
-[Solution](https://k5kc.com/cs/problems/conditional-selection-between-x-and-y-with-bitwise-operations/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/conditional-selection-between-x-and-y-with-bitwise-operations/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 86 (Medium)
 
@@ -1679,7 +1679,7 @@ Given a string of parentheses, write a function to compute the minimum number of
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
 
-[Solution](https://k5kc.com/cs/problems/minimum-remove-to-make-valid-parentheses/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimum-remove-to-make-valid-parentheses/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 87 (Hard)
 
@@ -1716,7 +1716,7 @@ A N B
 
 is considered valid.
 
-[Solution](https://k5kc.com/cs/problems/validating-consistency-of-directional-rules-between-points/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/validating-consistency-of-directional-rules-between-points//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 88 (Medium)
 
@@ -1724,7 +1724,7 @@ is considered valid.
 
 Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
 
-[Solution](https://k5kc.com/cs/problems/divide-two-integers/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/divide-two-integers//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 89 (Medium)
 
@@ -1734,7 +1734,7 @@ Determine whether a tree is a valid binary search tree.
 
 A binary search tree is a tree with two children, `left` and `right`, and satisfies the constraint that the key in the `left` child must be less than or equal to the root and the key in the `right`child must be greater than or equal to the root.
 
-[Solution](https://k5kc.com/cs/problems/validate-binary-search-tree/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/validate-binary-search-tree//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 90 (Medium)
 
@@ -1742,7 +1742,7 @@ A binary search tree is a tree with two children, `left` and `right`, and satisf
 
 Given an integer `n` and a list of integers `l`, write a function that randomly generates a number from `0` to `n-1` that isn't in `l` (uniform).
 
-[Solution](https://k5kc.com/cs/problems/random-pick-with-blacklist/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/random-pick-with-blacklist//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 91 (Easy)
 
@@ -1759,7 +1759,7 @@ for f in functions:
     print(f())
 ```
 
-[Solution](https://k5kc.com/cs/problems/capturing-loop-variables-in-lambdas/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/capturing-loop-variables-in-lambdas//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 92 (Hard)
 
@@ -1771,7 +1771,7 @@ Return null if there is no such ordering.
 
 For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
 
-[Solution](https://k5kc.com/cs/problems/course-schedule-2-get-ordered-courses/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/course-schedule-2-get-ordered-courses//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 93 (Hard)
 
@@ -1781,7 +1781,7 @@ Given a tree, find the largest tree/subtree that is a BST.
 
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
-[Solution](https://k5kc.com/cs/problems/largest-binary-search-tree-bst-subtree/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/largest-binary-search-tree-bst-subtree//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 94 (Easy)
 
@@ -1789,7 +1789,7 @@ Given a tree, return the size of the largest tree/subtree that is a BST.
 
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
 
-[Solution](https://k5kc.com/cs/problems/binary-tree-path-sum-maximum-between-any-two-nodes/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/binary-tree-path-sum-maximum-between-any-two-nodes//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 95 (Hard)
 
@@ -1801,7 +1801,7 @@ For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` shou
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
-[Solution](https://k5kc.com/cs/problems/next-permutation/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/next-permutation//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 96 (Easy)
 
@@ -1811,7 +1811,7 @@ Given a number in the form of a list of digits, return all possible permutations
 
 For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
 
-[Solution](https://k5kc.com/cs/problems/permutations-of-array-1/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/permutations-of-array-1//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 97 (Medium)
 
@@ -1841,7 +1841,7 @@ d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
 
-[Solution](https://k5kc.com/cs/problems/time-based-key-value-store/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/time-based-key-value-store//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 98 (Easy)
 
@@ -1863,7 +1863,7 @@ For example, given the following board:
 
 `exists(board, "ABCCED")` returns `true`, `exists(board, "SEE")` returns `true`, `exists(board, "ABCB")` returns `false`.
 
-[Solution](https://k5kc.com/cs/problems/word-search-1-find-if-word-exists/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/word-search-1-find-if-word-exists//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 99 (Medium)
 
@@ -1875,7 +1875,7 @@ For example, given `[100, 4, 200, 1, 3, 2]`, the longest consecutive element seq
 
 Your algorithm should run in `O(n)` complexity.
 
-[Solution](https://k5kc.com/cs/problems/longest-consecutive-sequence/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/longest-consecutive-sequence//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 100 (Easy)
 
@@ -1906,7 +1906,7 @@ Output: 2
 
 It takes 1 step to move from `(0, 0)` to `(1, 1)`. It takes one more step to move from `(1, 1)`to `(1, 2)`.
 
-[Solution](https://k5kc.com/cs/problems/minimum-steps-to-traverse-points-in-an-infinite-2d-grid/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimum-steps-to-traverse-points-in-an-infinite-2d-grid//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 ### Problems 101 - 150
 
@@ -1935,7 +1935,7 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 
 If a < c OR a==c AND b < d.
 
-[Solution](https://k5kc.com/cs/problems/return-two-prime-numbers-that-sum-to-a-given-even-number/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/return-two-prime-numbers-that-sum-to-a-given-even-number//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 102 (Medium)
 
@@ -1945,7 +1945,7 @@ Given a list of integers and a number K, return which contiguous elements of the
 
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
-[Solution](https://k5kc.com/cs/problems/subarray-sum-equals-k-return-any-subarray/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/subarray-sum-equals-k-return-any-subarray//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 103 (Medium)
 
@@ -1957,7 +1957,7 @@ For example, given the string "figehaeci" and the set of characters {a, e, i}, y
 
 If there is no substring containing all the characters in the set, return null.
 
-[Solution](https://k5kc.com/cs/problems/shortest-substring-containing-all-characters-in-a-set/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/shortest-substring-containing-all-characters-in-a-set//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 104 (Easy)
 
@@ -1967,8 +1967,8 @@ Determine whether a doubly linked list is a palindrome. What if it’s singly li
 
 For example, `1 -> 4 -> 3 -> 4 -> 1` returns `True` while `1 -> 4` returns `False`.
 
-[Solution](https://k5kc.com/cs/problems/check-if-doubly-linked-list-is-palindrome/) | [🔝 Back to top](#toc)
-For the follow up - [Solution](https://k5kc.com/cs/problems/palindrome-linked-list/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/check-if-doubly-linked-list-is-palindrome//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
+For the follow up - [Solution](https://k5kc.com/cs/problems/palindrome-linked-list//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 105 (Easy)
 
@@ -1978,7 +1978,7 @@ Given a function `f`, and `N` return a debounced `f` of `N` milliseconds.
 
 That is, as long as the debounced `f` continues to be invoked, `f` itself will not be called for `N`milliseconds.
 
-[Solution](https://k5kc.com/cs/problems/debounce/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/debounce//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 106 (Medium)
 
@@ -1988,7 +1988,7 @@ Given an integer list where each number represents the number of hops you can ma
 
 For example, `[2, 0, 1, 0]` returns `True` while `[1, 1, 0, 1]` returns `False`.
 
-[Solution](https://k5kc.com/cs/problems/check-if-one-can-reach-the-last-index-in-a-list-of-hops-starting-with-index-0/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/check-if-one-can-reach-the-last-index-in-a-list-of-hops-starting-with-index-0//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 107 (Easy)
 
@@ -2004,7 +2004,7 @@ Print the nodes in a binary tree level-wise. For example, the following should p
   4   5
 ```
 
-[Solution](https://k5kc.com/cs/problems/binary-tree-level-order-traversal/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/binary-tree-level-order-traversal//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 108 (Easy)
 
@@ -2014,7 +2014,7 @@ Given two strings A and B, return whether or not A can be shifted some number of
 
 For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
 
-[Solution](https://k5kc.com/cs/problems/rotate-string/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/rotate-string//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 109 (Medium)
 
@@ -2026,7 +2026,7 @@ For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 
 Bonus: Can you do this in one line?
 
-[Solution](https://k5kc.com/cs/problems/swap-odd-and-even-bits-in-an-integer/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/swap-odd-and-even-bits-in-an-integer//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 110 (Medium)
 
@@ -2046,7 +2046,7 @@ For example, given the tree
 
 Return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 
-[Solution](https://k5kc.com/cs/problems/binary-tree-path-all-root-to-leaf-paths/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/binary-tree-path-all-root-to-leaf-paths//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 111 (Hard)
 
@@ -2056,7 +2056,7 @@ Given a word W and a string `S`, find all starting indices in `S` which are anag
 
 For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
-[Solution](https://k5kc.com/cs/problems/find-all-starting-indices-of-anagrams-of-a-word-in-a-string/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-all-starting-indices-of-anagrams-of-a-word-in-a-string//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 112 (Hard)
 
@@ -2066,7 +2066,7 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
 
-[Solution](https://k5kc.com/cs/problems/lowest-common-ancestor-of-a-binary-tree-3-given-parent-pointer/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/lowest-common-ancestor-of-a-binary-tree-3-given-parent-pointer//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 113 (Medium)
 
@@ -2074,7 +2074,7 @@ According to the definition of [LCA on Wikipedia](https://en.wikipedia.org/wiki/
 
 Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
 
-[Solution](https://k5kc.com/cs/problems/reverse-words-in-a-string-2/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reverse-words-in-a-string-2//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 114 (Hard)
 
@@ -2084,7 +2084,7 @@ Given a string and a set of delimiters, reverse the words in the string while ma
 
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
 
-[Solution](https://k5kc.com/cs/problems/reverse-words-in-a-string-keep-delimiters-in-order) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reverse-words-in-a-string-keep-delimiters-in-order/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 115 (Hard)
 
@@ -2092,7 +2092,7 @@ Follow-up: Does your solution work for the following cases: "hello/world:here/",
 
 Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s`. A subtree of `s` is a tree consists of a node in `s` and all of this node's descendants. The tree `s` could also be considered as a subtree of itself.
 
-[Solution](https://k5kc.com/cs/problems/subtree-of-another-tree/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/subtree-of-another-tree//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 116 (Medium)
 
@@ -2102,7 +2102,7 @@ Generate a finite, but an arbitrarily large binary tree quickly in O(1).
 
 That is, `generate()` should return a tree whose size is unbounded but finite.
 
-[Solution](https://k5kc.com/cs/problems/generate-a-finite-but-an-arbitrarily-large-binary-tree-in-o-1-time/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/generate-a-finite-but-an-arbitrarily-large-binary-tree-in-o-1-time//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 117 (Easy)
 
@@ -2110,7 +2110,7 @@ That is, `generate()` should return a tree whose size is unbounded but finite.
 
 Given a binary tree, return the level of the tree with minimum sum.
 
-[Solution](https://k5kc.com/cs/problems/level-of-binary-tree-with-minimum-sum) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/level-of-binary-tree-with-minimum-sum/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 118 (Easy)
 
@@ -2120,7 +2120,7 @@ Given a sorted list of integers, square the elements and give the output in sort
 
 For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 
-[Solution](https://k5kc.com/cs/problems/squares-of-a-sorted-array/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/squares-of-a-sorted-array//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 119 (Medium)
 
@@ -2130,7 +2130,7 @@ Given a set of closed intervals, find the smallest set of numbers that covers al
 
 For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
 
-[Solution](https://k5kc.com/cs/problems/smallest-set-to-cover-all-intervals) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/smallest-set-to-cover-all-intervals/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 120 (Medium)
 
@@ -2138,7 +2138,7 @@ For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of nu
 
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of `getInstance()`, return the first instance and in every odd call of `getInstance()`, return the second instance.
 
-[Solution](https://k5kc.com/cs/problems/alternating-two-instance-singleton-pattern/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/alternating-two-instance-singleton-pattern//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 121 (Hard)
 
@@ -2148,7 +2148,7 @@ Given a string which we can delete at most k, return whether you can make a pali
 
 For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 
-[Solution](https://k5kc.com/cs/problems/valid-palindrome-3-is-string-palindrome-after-deleting-at-most-k-chars/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/valid-palindrome-3-is-string-palindrome-after-deleting-at-most-k-chars//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 122 (Medium)
 
@@ -2166,7 +2166,7 @@ For example, in this matrix
 
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
 
-[Solution](https://k5kc.com/cs/problems/maximum-coins-from-top-left-to-bottom-right-with-right-or-down-moves/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-coins-from-top-left-to-bottom-right-with-right-or-down-moves//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 123 (Hard)
 
@@ -2187,7 +2187,7 @@ And here are examples of non-numbers:
 - "a -2"
 - "-"
 
-[Solution](https://k5kc.com/cs/problems/valid-number/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/valid-number//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 124 (Easy)
 
@@ -2197,7 +2197,7 @@ You have `n` fair coins and you flip them all at the same time. Any that come up
 
 Write a function that, given `n`, returns the number of rounds you'd expect to play until one coin remains.
 
-[Solution](https://k5kc.com/cs/problems/expected-number-of-rounds-to-reach-one-remaining-coin/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/expected-number-of-rounds-to-reach-one-remaining-coin//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 125 (Easy)
 
@@ -2217,7 +2217,7 @@ For example, given the following tree and `K` of 20
 
 Return the nodes `5` and `15`.
 
-[Solution](https://k5kc.com/cs/problems/two-sum-4-input-is-binary-search-tree/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/two-sum-4-input-is-binary-search-tree//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 126 (Medium)
 
@@ -2225,7 +2225,7 @@ Return the nodes `5` and `15`.
 
 Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 
-[Solution](https://k5kc.com/cs/problems/rotate-an-array-to-left/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/rotate-an-array-to-left//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 127 (Easy)
 
@@ -2256,7 +2256,7 @@ return 124 (99 + 25) as:
 4 -> 2 -> 1
 ```
 
-[Solution](https://k5kc.com/cs/problems/add-two-numbers-represented-as-linked-list-in-reversed-order/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/add-two-numbers-represented-as-linked-list-in-reversed-order//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 128 (Medium)
 
@@ -2284,13 +2284,13 @@ Move 2 to 3
 Move 1 to 3
 ```
 
-[Solution](https://k5kc.com/cs/problems/tower-of-hanoi/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/tower-of-hanoi//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 129 (Medium)
 
 Given a real number `n`, find the square root of n. For example, given `n = 9`, return `3`.
 
-[Solution](https://k5kc.com/cs/problems/square-root-of-a-real-number/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/square-root-of-a-real-number//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 130 (Medium)
 
@@ -2300,7 +2300,7 @@ Given an array of numbers representing the stock prices of a company in chronolo
 
 For example, given `k` = 2 and the array `[5, 2, 4, 0, 1]`, you should return 3.
 
-[Solution](https://k5kc.com/cs/problems/best-time-to-buy-and-sell-stock-4-at-most-k-times/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/best-time-to-buy-and-sell-stock-4-at-most-k-times//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 131 (Medium)
 
@@ -2308,7 +2308,7 @@ This question was asked by Snapchat.
 
 Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
 
-[Solution](https://k5kc.com/cs/problems/copy-list-with-random-pointer/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/copy-list-with-random-pointer//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 132 (Easy)
 
@@ -2322,7 +2322,7 @@ Design and implement a HitCounter class that keeps track of requests (or hits). 
 
 Follow-up: What if our system has limited memory?
 
-[Solution](https://k5kc.com/cs/problems/design-hit-counter-with-range-queries/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/design-hit-counter-with-range-queries//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 133 (Medium)
 
@@ -2342,7 +2342,7 @@ For example, the inorder successor of 22 is 30.
 
 You can assume each node has a `parent` pointer.
 
-[Solution](https://k5kc.com/cs/problems/inorder-successor-in-binary-search-tree-using-parent-link/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/inorder-successor-in-binary-search-tree-using-parent-link//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 134 (Easy)
 
@@ -2356,7 +2356,7 @@ Use a more space-efficient data structure, SparseArray, that implements the same
 - `set(i, val)`: updates index at `i` with `val`.
 - `get(i)`: gets the value at index `i`.
 
-[Solution](https://k5kc.com/cs/problems/design-a-sparse-array/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/design-a-sparse-array//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 135 (Easy)
 
@@ -2376,7 +2376,7 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
      -1
 ```
 
-[Solution](https://k5kc.com/cs/problems/binary-tree-path-sum-minimum-sum-root-to-leaf-path/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/binary-tree-path-sum-minimum-sum-root-to-leaf-path//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 136 (Medium)
 
@@ -2395,7 +2395,7 @@ For example, given the following matrix:
 
 Return 4.
 
-[Solution](https://k5kc.com/cs/problems/maximal-rectangle/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximal-rectangle//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 137 (Medium)
 
@@ -2409,7 +2409,7 @@ A bit array is a space efficient array that holds a value of `1` or `0` at each 
 - `set(i, val)`: updates index at `i` with `val` where `val` is either `1` or `0`.
 - `get(i)`: gets the value at index `i`.
 
-[Solution](https://k5kc.com/cs/problems/implement-a-bit-array/)
+[Solution](https://k5kc.com/cs/problems/implement-a-bit-array//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem)
 
 #### Problem 138 (Hard)
 
@@ -2421,7 +2421,7 @@ You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
 
 For example, given `n = 16`, return `3` since we can make it with a 10¢, a 5¢, and a 1¢.
 
-[Solution](https://k5kc.com/cs/problems/coin-change-with-fewest-number-of-coins-given-canonical-system-and-infinite-supply/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/coin-change-with-fewest-number-of-coins-given-canonical-system-and-infinite-supply//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 139 (Medium)
 
@@ -2446,7 +2446,7 @@ class PeekableInterface(object):
         pass
 ```
 
-[Solution](https://k5kc.com/cs/problems/peeking-iterator/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/peeking-iterator//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 140 (Medium)
 
@@ -2458,7 +2458,7 @@ For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return `4` and `8`. T
 
 Follow-up: Can you do this in linear time and constant space?
 
-[Solution](https://k5kc.com/cs/problems/single-number-3-all-elements-except-two-occur-twice/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/single-number-3-all-elements-except-two-occur-twice//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 141 (Hard)
 
@@ -2478,7 +2478,7 @@ class Stack:
         pass
 ```
 
-[Solution](https://k5kc.com/cs/problems/implement-3-stacks-in-1-list/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/implement-3-stacks-in-1-list//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 142 (Hard)
 
@@ -2488,7 +2488,7 @@ You're given a string consisting solely of `(`, `)`, and `*`. `*` can represent 
 
 For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
-[Solution](https://k5kc.com/cs/problems/valid-parenthesis-string/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/valid-parenthesis-string//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 143 (Medium)
 
@@ -2504,7 +2504,7 @@ Ordering within a part can be arbitrary.
 
 For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`.
 
-[Solution](https://k5kc.com/cs/problems/partition-array-according-to-given-pivot/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/partition-array-according-to-given-pivot//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 144 (Medium)
 
@@ -2518,7 +2518,7 @@ If two distances to larger numbers are the equal, then return any one of them. I
 
 Follow-up: If you can preprocess the array, can you do this in constant time?
 
-[Solution](https://k5kc.com/cs/problems/nearest-larger-number-for-index-in-an-array/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/nearest-larger-number-for-index-in-an-array//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 145 (Easy)
 
@@ -2528,7 +2528,7 @@ Given the head of a singly linked list, swap every two nodes and return its head
 
 For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
 
-[Solution](https://k5kc.com/cs/problems/swap-nodes-in-pairs/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/swap-nodes-in-pairs//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 146 (Medium)
 
@@ -2560,13 +2560,13 @@ should be pruned to:
 
 We do not remove the tree at the root or its left child because it still has a `1` as a descendant.
 
-[Solution](https://k5kc.com/cs/problems/binary-tree-pruning/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/binary-tree-pruning//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 147 (Hard)
 
 Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst` from `i` to `j`.
 
-[Solution](https://k5kc.com/cs/problems/sort-a-list-using-reverse-sublist-operation/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sort-a-list-using-reverse-sublist-operation//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 148 (Medium)
 
@@ -2578,7 +2578,7 @@ Given a number of bits `n`, generate a possible gray code for it.
 
 For example, for n = `2`, one gray code would be `[00, 01, 11, 10]`.
 
-[Solution](https://k5kc.com/cs/problems/sort-a-list-using-reverse-sublist-operation/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sort-a-list-using-reverse-sublist-operation//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 149 (Hard)
 
@@ -2590,7 +2590,7 @@ For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])
 
 You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
 
-[Solution](https://k5kc.com/cs/problems/range-sum-query-immutable/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/range-sum-query-immutable//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 150 (Hard)
 
@@ -2600,7 +2600,7 @@ Given a list of points, a central point, and an integer `k`, find the nearest `k
 
 For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k` = 2, return `[(0, 0), (3, 1)]`
 
-[Solution](https://k5kc.com/cs/problems/k-closest-points-to-origin/#follow-up---k-closest-distance-from-central-point) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/k-closest-points-to-origin/#follow-up---k-closest-distance-from-central-point/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 ### Problems 151 - 200
 
@@ -2626,7 +2626,7 @@ G G G
 B B B
 ```
 
-[Solution](https://k5kc.com/cs/problems/flood-fill/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/flood-fill//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 152 (Medium)
 
@@ -2638,7 +2638,7 @@ For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2,
 
 You can generate random numbers between 0 and 1 uniformly.
 
-[Solution](https://k5kc.com/cs/problems/generate-random-numbers-from-list-based-on-given-probabilities/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/generate-random-numbers-from-list-based-on-given-probabilities//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 153 (Hard)
 
@@ -2646,7 +2646,7 @@ Find an efficient algorithm to find the smallest distance (measured in number of
 
 For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
-[Solution](https://k5kc.com/cs/problems/shortest-word-distance-1/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/shortest-word-distance-1//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 154 (Easy)
 
@@ -2662,7 +2662,7 @@ Recall that a heap has the following operations:
 - `push(item)`, which adds a new key to the heap
 - `pop()`, which removes and returns the max value of the heap
 
-[Solution](https://k5kc.com/cs/problems/implement-stack-using-priority-queue/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/implement-stack-using-priority-queue//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 155 (Medium)
 
@@ -2674,7 +2674,7 @@ You can assume that such element exists.
 
 For example, given `[1, 2, 1, 1, 3, 4, 0]`, return 1.
 
-[Solution](https://k5kc.com/cs/problems/majority-element-1-with-n-by-2-definition/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/majority-element-1-with-n-by-2-definition//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 156 (Medium)
 
@@ -2686,7 +2686,7 @@ For example, given `n` = 13, return 2 since 13 = 3^2 + 2^2 = 9 + 4.
 
 Given `n` = 27, return 3 since 27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9.
 
-[Solution](https://k5kc.com/cs/problems/least-number-of-perfect-squares-that-sums-to-n/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/least-number-of-perfect-squares-that-sums-to-n//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 157 (Easy)
 
@@ -2696,7 +2696,7 @@ Given a string, determine whether any permutation of it is a palindrome.
 
 For example, `carrace` should return true, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return false, since there's no rearrangement that can form a palindrome.
 
-[Solution](https://k5kc.com/cs/problems/palindrome-permutation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/palindrome-permutation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 158 (Medium)
 
@@ -2721,7 +2721,7 @@ Return two, as there are only two ways to get to the bottom right:
 
 The top left corner and bottom right corner will always be `0`.
 
-[Solution](https://k5kc.com/cs/problems/unique-paths-in-grid-2-count-all-paths-moving-right-or-down-with-obstacles/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/unique-paths-in-grid-2-count-all-paths-moving-right-or-down-with-obstacles//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 159 (Easy)
 
@@ -2731,7 +2731,7 @@ Given a string, return the first recurring character in it, or null if there is 
 
 For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
 
-[Solution](https://k5kc.com/cs/problems/first-unique-character-in-a-string/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/first-unique-character-in-a-string//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 160 (Hard)
 
@@ -2755,7 +2755,7 @@ and the weights: `a-b: 3, a-c: 5, a-d: 8, d-e: 2, d-f: 4, e-g: 1, e-h: 1`, the l
 
 The path does not have to pass through the root, and each node can have any amount of children.
 
-[Solution](https://k5kc.com/cs/problems/length-of-the-longest-path-in-a-weighted-tree/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/length-of-the-longest-path-in-a-weighted-tree//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 161 (Easy)
 
@@ -2765,7 +2765,7 @@ Given a 32-bit integer, return the number with its bits reversed.
 
 For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
 
-[Solution](https://k5kc.com/cs/problems/reverse-bits/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reverse-bits//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 162 (Medium)
 
@@ -2787,7 +2787,7 @@ Return the list:
 - apr
 - f
 
-[Solution](https://k5kc.com/cs/problems/shortest-unique-prefix/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/shortest-unique-prefix//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 163 (Hard)
 
@@ -2801,7 +2801,7 @@ For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']`shoul
 
 You can assume the given expression is always valid.
 
-[Solution](https://k5kc.com/cs/problems/evaluate-reverse-polish-notation/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/evaluate-reverse-polish-notation//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 164 (Medium)
 
@@ -2809,7 +2809,7 @@ You can assume the given expression is always valid.
 
 You are given an array of length `n + 1` whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 
-[Solution](https://k5kc.com/cs/problems/find-duplicate-number-in-array-containing-n-1-numbers-between-1-and-n/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-duplicate-number-in-array-containing-n-1-numbers-between-1-and-n//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 165 (Medium)
 
@@ -2825,7 +2825,7 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 - There is 1 smaller element to the right of 6
 - There are no smaller elements to the right of 1
 
-[Solution](https://k5kc.com/cs/problems/count-of-smaller-numbers-after-self/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/count-of-smaller-numbers-after-self//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 166 (Medium)
 
@@ -2840,7 +2840,7 @@ For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling `next()` repe
 
 Do not use `flatten` or otherwise clone the arrays. Some of the arrays can be empty.
 
-[Solution](https://k5kc.com/cs/problems/implement-a-2d-iterator-class/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/implement-a-2d-iterator-class//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 167 (Hard)
 
@@ -2850,7 +2850,7 @@ Given a list of words, find all pairs of unique indices such that the concatenat
 
 For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 0), (2, 3)]`.
 
-[Solution](https://k5kc.com/cs/problems/palindrome-pairs/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/palindrome-pairs//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 168 (Medium)
 
@@ -2876,7 +2876,7 @@ you should return:
 
 Follow-up: What if you couldn't use any extra space?
 
-[Solution](https://k5kc.com/cs/problems/rotate-n-x-n-matrix-by-90-degrees/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/rotate-n-x-n-matrix-by-90-degrees//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 169 (Medium)
 
@@ -2886,7 +2886,7 @@ Given a linked list, sort it in O(n log n) time and constant space.
 
 For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
 
-[Solution](https://k5kc.com/cs/problems/sort-a-linked-list-in-o-n-log-n-time-and-constant-space/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sort-a-linked-list-in-o-n-log-n-time-and-constant-space//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 170 (Medium)
 
@@ -2898,7 +2898,7 @@ For example, given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "do
 
 Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "dar"}`, return null as there is no possible transformation from `dog` to `cat`.
 
-[Solution](https://k5kc.com/cs/problems/word-ladder-1-get-ladder-length/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/word-ladder-1-get-ladder-length//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 171 (Easy)
 
@@ -2920,7 +2920,7 @@ This means that 2 people exited the building. `timestamp` is in [Unix time](http
 
 Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
-[Solution](https://k5kc.com/cs/problems/busiest-period-in-a-building/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/busiest-period-in-a-building//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 172 (Medium)
 
@@ -2934,7 +2934,7 @@ Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since there a
 
 The order of the indices does not matter.
 
-[Solution](https://k5kc.com/cs/problems/substring-with-concatenation-of-all-words/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/substring-with-concatenation-of-all-words//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 173 (Easy)
 
@@ -2968,7 +2968,7 @@ it should become:
 
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
-[Solution](https://k5kc.com/cs/problems/flatten-a-nested-dictionary/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/flatten-a-nested-dictionary//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 174 (Medium)
 
@@ -2980,7 +2980,7 @@ Describe and give an example of each of the following types of polymorphism:
 - Parametric polymorphism
 - Subtype polymorphism
 
-[Solution](https://k5kc.com/cs/problems/describe-and-give-an-example-of-ad-hoc-parametric-and-subtype-polymorphism/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/describe-and-give-an-example-of-ad-hoc-parametric-and-subtype-polymorphism//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 175 (Easy)
 >
@@ -3006,7 +3006,7 @@ For example, given the starting state `a`, number of steps 5000, and the followi
 
 One instance of running this Markov chain might produce `{ 'a': 3012, 'b': 1656, 'c': 332 }`.
 
-[Solution](https://k5kc.com/cs/problems/run-a-markov-chain-and-count-state-visits/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/run-a-markov-chain-and-count-state-visits//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 176 (Easy)
 
@@ -3018,7 +3018,7 @@ For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a`
 
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
-[Solution](https://k5kc.com/cs/problems/isomorphic-strings/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/isomorphic-strings//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 177 (Easy)
 
@@ -3030,7 +3030,7 @@ For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should bec
 
 Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
 
-[Solution](https://k5kc.com/cs/problems/rotate-linked-list-to-right/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/rotate-linked-list-to-right//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 178 (Hard)
 
@@ -3044,7 +3044,7 @@ The second game: same, except that the stopping condition is a five followed by 
 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
-[Solution](https://k5kc.com/cs/problems/alice-joins-probability-student-club-by-calculating-expected-values-of-probabilistic-games/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/alice-joins-probability-student-club-by-calculating-expected-values-of-probabilistic-games//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 179 (Medium)
 
@@ -3062,7 +3062,7 @@ For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the fol
     2   4   8
 ```
 
-[Solution](https://k5kc.com/cs/problems/construct-binary-search-tree-bst-from-postorder-traversal/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/construct-binary-search-tree-bst-from-postorder-traversal//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 180 (Medium)
 
@@ -3076,7 +3076,7 @@ For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3]. 
 
 Hint: Try working backwards from the end state.
 
-[Solution](https://k5kc.com/cs/problems/interleave-the-first-half-of-the-stack-with-second-half-using-one-queue/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/interleave-the-first-half-of-the-stack-with-second-half-using-one-queue//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 181 (Hard)
 >
@@ -3088,7 +3088,7 @@ For example, given the input string `racecarannakayak`, return `["racecar", "ann
 
 Given the input string `abc`, return `["a", "b", "c"]`.
 
-[Solution](https://k5kc.com/cs/problems/split-string-into-fewest-palindromic-substrings/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/split-string-into-fewest-palindromic-substrings//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 182 (Medium)
 
@@ -3098,7 +3098,7 @@ A graph is minimally-connected if it is connected and there is no edge that can 
 
 Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
 
-[Solution](https://k5kc.com/cs/problems/check-if-a-graph-is-minimally-connected/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/check-if-a-graph-is-minimally-connected//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 183 (Hard)
 
@@ -3106,7 +3106,7 @@ Given an undirected graph, check if the graph is minimally-connected. You can ch
 
 Describe what happens when you type a URL into your browser and press Enter.
 
-[Solution](https://k5kc.com/cs/problems/what-happens-when-you-type-an-url-in-the-browser-and-press-enter/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/what-happens-when-you-type-an-url-in-the-browser-and-press-enter//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 184 (Easy)
 
@@ -3116,7 +3116,7 @@ Given `n` numbers, find the greatest common denominator between them.
 
 For example, given the numbers `[42, 56, 14]`, return `14`.
 
-[Solution](https://k5kc.com/cs/problems/find-gcd-of-n-numbers/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-gcd-of-n-numbers//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 185 (Easy)
 
@@ -3144,7 +3144,7 @@ and
 
 return 6.
 
-[Solution](https://k5kc.com/cs/problems/area-of-intersection-of-two-rectangles/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/area-of-intersection-of-two-rectangles//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 186 (Hard)
 
@@ -3154,7 +3154,7 @@ Given an array of positive integers, divide the array into two subsets such that
 
 For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of 5, which is the smallest possible difference.
 
-[Solution](https://k5kc.com/cs/problems/divide-array-into-two-subsets-with-minimum-difference/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/divide-array-into-two-subsets-with-minimum-difference//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 187 (Easy)
 
@@ -3181,7 +3181,7 @@ For example, given the following rectangles:
 
 return `true` as the first and third rectangle overlap each other.
 
-[Solution](https://k5kc.com/cs/problems/check-if-any-pair-of-rectangles-overlap/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/check-if-any-pair-of-rectangles-overlap//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 188 (Medium)
 
@@ -3207,7 +3207,7 @@ for f in functions:
 
 How can we make it print out what we apparently want?
 
-[Solution](https://k5kc.com/cs/problems/fix-the-variable-capture-in-closure/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/fix-the-variable-capture-in-closure//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 189 (Easy)
 
@@ -3217,7 +3217,7 @@ Given an array of elements, return the length of the longest subarray where all 
 
 For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return 5 as the longest subarray of distinct elements is `[5, 2, 3, 4, 1]`.
 
-[Solution](https://k5kc.com/cs/problems/longest-subarray-with-distinct-elements/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/longest-subarray-with-distinct-elements//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 190 (Medium)
 
@@ -3229,7 +3229,7 @@ For example, given `[8, -1, 3, 4]`, return `15` as we choose the numbers `3`, `4
 
 Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 
-[Solution](https://k5kc.com/cs/problems/maximum-sum-circular-subarray/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-sum-circular-subarray//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 191 (Easy)
 
@@ -3243,7 +3243,7 @@ For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return 1 as the last 
 
 The intervals are not necessarily sorted in any order.
 
-[Solution](https://k5kc.com/cs/problems/smallest-set-to-cover-all-intervals/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/smallest-set-to-cover-all-intervals//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 192 (Medium)
 
@@ -3255,7 +3255,7 @@ For example, given the array `[1, 3, 1, 2, 0, 1]`, we can go from indices `0 -> 
 
 Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
 
-[Solution](https://k5kc.com/cs/problems/jump-game-1-check-if-it-reaches-last-index/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/jump-game-1-check-if-it-reaches-last-index//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 193 (Hard)
 
@@ -3267,7 +3267,7 @@ You must buy before you can sell the stock, but you can make as many transaction
 
 For example, given [1, 3, 2, 8, 4, 10] and `fee = 2`, you should return 9, since you could buy the stock at 1 dollar, and sell at 8 dollars, and then buy it at 4 dollars and sell it at 10 dollars. Since we did two transactions, there is a 4 dollar fee, so we have 7 + 6 = 13 profit minus 4 dollars of fees.
 
-[Solution](https://k5kc.com/cs/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/best-time-to-buy-and-sell-stock-with-transaction-fee//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 194 (Easy)
 
@@ -3275,7 +3275,7 @@ For example, given [1, 3, 2, 8, 4, 10] and `fee = 2`, you should return 9, since
 
 Suppose you are given two lists of `n` points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of `n` line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
 
-[Solution](https://k5kc.com/cs/problems/number-of-overlapping-lines-between-points-on-2-parallel-lines/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/number-of-overlapping-lines-between-points-on-2-parallel-lines//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 195 (Hard)
 
@@ -3297,7 +3297,7 @@ For example, given the following matrix:
 
 And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the matrix smaller than 6 or greater than 23.
 
-[Solution](https://k5kc.com/cs/problems/count-elements-in-range-in-sorted-matrix/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/count-elements-in-range-in-sorted-matrix//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 196 (Easy)
 
@@ -3315,7 +3315,7 @@ For example, given the following tree:
 
 Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 + 5 - 5`.
 
-[Solution](https://k5kc.com/cs/problems/most-frequent-subtree-sum/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/most-frequent-subtree-sum//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 197 (Easy)
 
@@ -3323,7 +3323,7 @@ Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 
 
 Given an array and a number `k` that's smaller than the length of the array, rotate the array to the right `k` elements in-place.
 
-[Solution](https://k5kc.com/cs/problems/rotate-an-array-to-right/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/rotate-an-array-to-right//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 198 (Medium)
 
@@ -3333,7 +3333,7 @@ Given a set of distinct positive integers, find the largest subset such that eve
 
 For example, given the set [3, 5, 10, 20, 21], you should return [5, 10, 20]. Given [1, 3, 6, 24], return [1, 3, 6, 24].
 
-[Solution](https://k5kc.com/cs/problems/largest-divisible-subset/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/largest-divisible-subset//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 199 (Hard)
 
@@ -3343,7 +3343,7 @@ Given a string of parentheses, find the balanced string that can be produced fro
 
 For example, given "(()", you could return "(())". Given "))()(", you could return "()()()()".
 
-[Solution](https://k5kc.com/cs/problems/balance-parentheses-with-minimum-insertions-and-deletions/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/balance-parentheses-with-minimum-insertions-and-deletions//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 200 (Hard)
 
@@ -3353,7 +3353,7 @@ Let X be a set of n intervals on the real line. We say that a set of points P "s
 
 For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should return `[4, 9]`.
 
-[Solution](https://k5kc.com/cs/problems/smallest-set-to-cover-all-intervals/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/smallest-set-to-cover-all-intervals//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 ### Problems 201 - 250
 
@@ -3373,7 +3373,7 @@ We define a path in the triangle to start at the top and go down one row at a ti
 
 Write a program that returns the weight of the maximum weight path.
 
-[Solution](https://k5kc.com/cs/problems/maximum-triangle-path-sum-from-top-to-bottom/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-triangle-path-sum-from-top-to-bottom//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 202 (Easy)
 
@@ -3381,7 +3381,7 @@ This problem was asked by Palantir.
 
 Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
 
-[Solution](https://k5kc.com/cs/problems/palindrome-number/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/palindrome-number//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 203 (Medium)
 
@@ -3391,7 +3391,7 @@ Suppose an array sorted in ascending order is rotated at some pivot unknown to y
 
 For example, given `[5, 7, 10, 3, 4]`, return `3`.
 
-[Solution](https://k5kc.com/cs/problems/find-minimum-in-rotated-sorted-array-1-no-duplicates-allowed/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-minimum-in-rotated-sorted-array-1-no-duplicates-allowed//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 204 (Easy)
 
@@ -3399,7 +3399,7 @@ For example, given `[5, 7, 10, 3, 4]`, return `3`.
 
 Given a complete binary tree, count the number of nodes in faster than `O(n)` time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
 
-[Solution](https://k5kc.com/cs/problems/count-complete-tree-nodes/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/count-complete-tree-nodes//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 205 (Easy)
 
@@ -3407,7 +3407,7 @@ This problem was asked by IBM.
 
 Given an integer, find the next permutation of it in absolute order. For example, given `48975`, the next permutation would be `49578`.
 
-[Solution](https://k5kc.com/cs/problems/next-permutation-of-integer/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/next-permutation-of-integer//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 206 (Easy)
 
@@ -3417,7 +3417,7 @@ A permutation can be specified by an array `P`, where `P[i]` represents the loca
 
 Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
 
-[Solution](https://k5kc.com/cs/problems/permutation-of-array-using-given-order/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/permutation-of-array-using-given-order//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 207 (Medium)
 
@@ -3425,7 +3425,7 @@ This problem was asked by Dropbox.
 
 Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
 
-[Solution](https://k5kc.com/cs/problems/is-graph-bipartite/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/is-graph-bipartite//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 208 (Medium)
 
@@ -3435,7 +3435,7 @@ Given a linked list of numbers and a pivot `k`, partition the linked list so tha
 
 For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
 
-[Solution](https://k5kc.com/cs/problems/partition-list/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/partition-list//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 209 (Hard)
 
@@ -3443,7 +3443,7 @@ This problem was asked by YouTube.
 
 Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
 
-[Solution](https://k5kc.com/cs/problems/longest-common-subsequence-of-three-sequences/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/longest-common-subsequence-of-three-sequences//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 210 (Easy)
 
@@ -3457,7 +3457,7 @@ It is conjectured that every such sequence eventually reaches the number `1`. Te
 
 Bonus: What input `n <= 1000000` gives the longest sequence?
 
-[Solution](https://k5kc.com/cs/problems/collatz-sequence/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/collatz-sequence//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 211 (Medium)
 
@@ -3465,7 +3465,7 @@ This problem was asked by Microsoft.
 
 Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
 
-[Solution](https://k5kc.com/cs/problems/find-all-occurrences-of-the-pattern-in-the-string/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-all-occurrences-of-the-pattern-in-the-string//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 212 (Easy)
 
@@ -3475,7 +3475,7 @@ Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C"
 
 Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
 
-[Solution](https://k5kc.com/cs/problems/excel-sheet-column-number/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/excel-sheet-column-number//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 213 (Medium)
 
@@ -3487,7 +3487,7 @@ IP addresses must follow the format `A.B.C.D`, where `A`, `B`, `C`, and `D` are 
 
 For example, given "2542540123", you should return `['254.25.40.123', '254.254.0.123']`.
 
-[Solution](https://k5kc.com/cs/problems/restore-ip-addresses/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/restore-ip-addresses//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 214 (Easy)
 
@@ -3497,7 +3497,7 @@ Given an integer `n`, return the length of the longest consecutive run of `1`s i
 
 For example, given `156`, you should return `3`.
 
-[Solution](https://k5kc.com/cs/problems/length-of-the-longest-consecutive-1s-in-binary-representation/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/length-of-the-longest-consecutive-1s-in-binary-representation//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 215 (Medium)
 
@@ -3529,7 +3529,7 @@ For this tree, for example, the bottom view could be `[0, 1, 3, 6, 8, 9]`.
 
 Given the root to a binary tree, return its bottom view.
 
-[Solution](https://k5kc.com/cs/problems/binary-tree-bottom-view/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/binary-tree-bottom-view//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 216 (Medium)
 
@@ -3555,7 +3555,7 @@ In addition, note that the Roman numeral system uses [subtractive notation](http
 
 For the input `XIV`, for instance, you should return `14`.
 
-[Solution](https://k5kc.com/cs/problems/roman-to-integer/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/roman-to-integer//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 217 (Hard)
 
@@ -3565,7 +3565,7 @@ We say a number is sparse if there are no adjacent ones in its binary representa
 
 Do this in faster than `O(N log N)` time.
 
-[Solution](https://k5kc.com/cs/problems/smallest-sparse-number-greater-than-or-equal-to-n/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/smallest-sparse-number-greater-than-or-equal-to-n//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 218 (Medium)
 
@@ -3573,7 +3573,7 @@ This problem was asked by Yahoo.
 
 Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A -> B -> C`, it should become `A <- B <- C`.
 
-[Solution](https://k5kc.com/cs/problems/reverse-a-directed-graph/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reverse-a-directed-graph//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 219 (Hard)
 
@@ -3583,7 +3583,7 @@ Connect 4 is a game where opponents take turns dropping red or black discs into 
 
 Design and implement Connect 4.
 
-[Solution](https://k5kc.com/cs/problems/design-and-implement-connect-4) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/design-and-implement-connect-4/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 220 (Medium)
 
@@ -3595,7 +3595,7 @@ You are asked to play the following game. You and an opponent take turns choosin
 
 Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
 
-[Solution](https://k5kc.com/cs/problems/maximum-amount-first-player-can-win-by-picking-either-the-first-or-last-coin/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-amount-first-player-can-win-by-picking-either-the-first-or-last-coin//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 221 (Easy)
 
@@ -3603,7 +3603,7 @@ This problem was asked by Zillow.
 
 Let's define a "sevenish" number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1, 7, 8, 49`, and so on. Create an algorithm to find the `n`th sevenish number.
 
-[Solution](https://k5kc.com/cs/problems/find-the-nth-sevenish-number/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-the-nth-sevenish-number//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 222 (Medium)
 
@@ -3613,7 +3613,7 @@ Given an absolute pathname that may have `.` or `..` as part of it, return the s
 
 For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
-[Solution](https://k5kc.com/cs/problems/simplify-path/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/simplify-path//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 223 (Hard)
 
@@ -3621,7 +3621,7 @@ For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
 Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
 
-[Solution](https://k5kc.com/cs/problems/morris-traversal/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/morris-traversal//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 224 (Easy)
 
@@ -3633,7 +3633,7 @@ For example, for the input `[1, 2, 3, 10]`, you should return `7`.
 
 Do this in `O(N)` time.
 
-[Solution](https://k5kc.com/cs/problems/smallest-positive-integer-that-cannot-be-represented-as-the-sum-of-a-subset-of-a-sorted-array/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/smallest-positive-integer-that-cannot-be-represented-as-the-sum-of-a-subset-of-a-sorted-array//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 225 (Easy)
 
@@ -3647,7 +3647,7 @@ For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1,
 
 Bonus: Find an `O(log N)` solution if `k = 2`.
 
-[Solution](https://k5kc.com/cs/problems/find-the-winner-of-the-circular-game/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-the-winner-of-the-circular-game//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 226 (Hard)
 
@@ -3657,7 +3657,7 @@ You come across a dictionary of sorted words in a language you've never seen bef
 
 For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
 
-[Solution](https://k5kc.com/cs/problems/alien-dictionary) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/alien-dictionary/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 227 (Easy)
 
@@ -3665,7 +3665,7 @@ This problem was asked by Facebook.
 
 Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
 
-[Solution](https://k5kc.com/cs/problems/word-search-2-return-all-words) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/word-search-2-return-all-words/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 228 (Medium)
 
@@ -3673,7 +3673,7 @@ This problem was asked by Twitter.
 
 Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, you should return `77641510`.
 
-[Solution](https://k5kc.com/cs/problems/largest-number-from-given-numbers) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/largest-number-from-given-numbers/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 229 (Medium)
 
@@ -3690,7 +3690,7 @@ snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75,
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ```
 
-[Solution](https://k5kc.com/cs/problems/snakes-and-ladders/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/snakes-and-ladders//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 230 (Medium)
 
@@ -3702,7 +3702,7 @@ Write an algorithm that finds the minimum number of trial drops it will take, in
 
 For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be `5`.
 
-[Solution](https://k5kc.com/cs/problems/super-egg-drop) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/super-egg-drop/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 231 (Easy)
 
@@ -3712,7 +3712,7 @@ Given a string with repeated characters, rearrange the string so that no two adj
 
 For example, given "aaabbc", you could return "ababac". Given "aaab", return `None`.
 
-[Solution](https://k5kc.com/cs/problems/reorganize-string) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reorganize-string/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 232 (Easy)
 
@@ -3733,7 +3733,7 @@ mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
 
-[Solution](https://k5kc.com/cs/problems/map-sum-pairs) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/map-sum-pairs/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 233 (Easy)
 
@@ -3741,7 +3741,7 @@ This problem was asked by Apple.
 
 Implement the function `fib(n)`, which returns the `nth` number in the Fibonacci sequence, using only `O(1)` space.
 
-[Solution](https://k5kc.com/cs/problems/generate-nth-fibonacci-number) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/generate-nth-fibonacci-number/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 234 (Hard)
 
@@ -3749,7 +3749,7 @@ This problem was asked by Microsoft.
 
 Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
 
-[Solution](https://k5kc.com/cs/problems/maximum-weight-spanning-tree) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-weight-spanning-tree/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 235 (Hard)
 
@@ -3757,7 +3757,7 @@ This problem was asked by Facebook.
 
 Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
 
-[Solution](https://k5kc.com/cs/problems/minimum-and-maximum-in-an-array-with-optimal-comparisons) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimum-and-maximum-in-an-array-with-optimal-comparisons/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 236 (Medium)
 
@@ -3767,7 +3767,7 @@ You are given a list of `N` points `(x1, y1), (x2, y2), ..., (xN, yN)` represent
 
 Determine if a new point `p` lies inside this polygon. (If `p` is on the boundary of the polygon, you should return `False`).
 
-[Solution](https://k5kc.com/cs/problems/point-in-polygon) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/point-in-polygon/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 237 (Easy)
 
@@ -3785,7 +3785,7 @@ A tree is symmetric if its data and shape remain unchanged when it is reflected 
 
 Given a k-ary tree, determine whether it is symmetric.
 
-[Solution](https://k5kc.com/cs/problems/symmetric-n-ary-tree-detection) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/symmetric-n-ary-tree-detection/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 238 (Hard)
 
@@ -3802,7 +3802,7 @@ For this problem, cards values are counted as follows: each card between `2` and
 
 Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
 
-[Solution](https://k5kc.com/cs/problems/blackjack-optimal-strategy-with-known-card-sequence) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/blackjack-optimal-strategy-with-known-card-sequence/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 239 (Medium)
 
@@ -3819,7 +3819,7 @@ For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
 
 Find the total number of valid unlock patterns of length `N`, where `1 <= N <= 9`.
 
-[Solution](https://k5kc.com/cs/problems/android-unlock-patterns/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/android-unlock-patterns//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 240 (Hard)
 
@@ -3829,7 +3829,7 @@ There are `N` couples sitting in a row of length `2 * N`. They are currently ord
 
 What is the minimum number of swaps necessary for this to happen?
 
-[Solution](https://k5kc.com/cs/problems/couples-holding-hands) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/couples-holding-hands/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 241 (Easy)
 
@@ -3843,7 +3843,7 @@ For example, suppose `N = 5`, and the respective citations of each paper are `[4
 
 Given a list of paper citations of a researcher, calculate their h-index.
 
-[Solution](https://k5kc.com/cs/problems/get-equal-substrings-within-budget/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/get-equal-substrings-within-budget//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 242 (Hard)
 
@@ -3856,7 +3856,7 @@ You are given an array of length `24`, where each element represents the number 
 
 You can assume that all values get cleared at the end of the day, and that you will not be asked for `start` and `end` values that wrap around midnight.
 
-[Solution](https://k5kc.com/cs/problems/range-sum-query-mutable) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/range-sum-query-mutable/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 243 (Medium)
 
@@ -3866,7 +3866,7 @@ Given an array of numbers `N` and an integer `k`, your task is to split `N` into
 
 For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, since the optimal partition is `[5, 1, 2], [7], [3, 4]`.
 
-[Solution](https://k5kc.com/cs/problems/split-array-largest-sum) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/split-array-largest-sum/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 244 (Easy)
 
@@ -3880,7 +3880,7 @@ Implement this algorithm.
 
 Bonus: Create a generator that produces primes indefinitely (that is, without taking `N` as an input).
 
-[Solution](https://k5kc.com/cs/problems/sieve-of-eratosthenes-algorithm) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sieve-of-eratosthenes-algorithm/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 245 (Medium)
 
@@ -3890,7 +3890,7 @@ You are given an array of integers, where each element represents the maximum nu
 
 For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as the optimal solution involves jumping from `6` to `5`, and then from `5` to `9`.
 
-[Solution](https://k5kc.com/cs/problems/jump-game-2-get-min-jumps) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/jump-game-2-get-min-jumps/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 246 (Medium)
 
@@ -3900,7 +3900,7 @@ Given a list of words, determine whether the words can be chained to form a circ
 
 For example, the words `['chair', 'height', 'racket', 'touch', 'tunic']` can form the following circle: `chair -> racket -> touch -> height -> tunic -> chair`.
 
-[Solution](https://k5kc.com/cs/problems/check-if-words-chain-to-form-a-circle) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/check-if-words-chain-to-form-a-circle/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 247 (Medium)
 
@@ -3908,7 +3908,7 @@ This problem was asked by PayPal.
 
 Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
 
-[Solution](https://k5kc.com/cs/problems/balanced-binary-tree) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/balanced-binary-tree/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 248 (Hard)
 
@@ -3916,7 +3916,7 @@ This problem was asked by Nvidia.
 
 Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
 
-[Solution](https://k5kc.com/cs/problems/maximum-of-two-numbers-without-conditionals) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-of-two-numbers-without-conditionals/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 249 (Hard)
 
@@ -3924,7 +3924,7 @@ This problem was asked by Salesforce.
 
 Given an array of integers, find the maximum XOR of any two elements.
 
-[Solution](https://k5kc.com/cs/problems/maximum-xor-of-two-numbers-in-an-array) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-xor-of-two-numbers-in-an-array/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 250 (Medium)
 
@@ -3949,7 +3949,7 @@ may have the solution:
 
 Given a three-word puzzle like the one above, create an algorithm that finds a solution.
 
-[Solution](https://k5kc.com/cs/problems/three-word-additive-cryptarithmetic-solver) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/three-word-additive-cryptarithmetic-solver/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 ### Problems 251 - 300
 
@@ -3959,7 +3959,7 @@ This problem was asked by Amazon.
 
 Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
 
-[Solution](https://k5kc.com/cs/problems/external-sorting-of-integers) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/external-sorting-of-integers/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 252 (Easy)
 
@@ -3969,7 +3969,7 @@ The ancient Egyptians used to express fractions as a sum of several terms where 
 
 Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an Egyptian fraction.
 
-[Solution](https://k5kc.com/cs/problems/egyptian-fraction) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/egyptian-fraction/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 253 (Medium)
 
@@ -3986,7 +3986,7 @@ t     a     g
    s     g
 ```
 
-[Solution](https://k5kc.com/cs/problems/zigzag-conversion) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/zigzag-conversion/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 254 (Medium)
 
@@ -4016,7 +4016,7 @@ You should convert it to:
        6     7
 ```
 
-[Solution](https://k5kc.com/cs/problems/prune-unary-nodes-to-form-full-binary-tree) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/prune-unary-nodes-to-form-full-binary-tree/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 255 (Easy)
 
@@ -4046,7 +4046,7 @@ The transitive closure of this graph would be:
 
 Given a graph, find its transitive closure.
 
-[Solution](https://k5kc.com/cs/problems/transitive-closure-of-a-graph) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/transitive-closure-of-a-graph/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 256 (Medium)
 
@@ -4054,7 +4054,7 @@ This problem was asked by Fitbit.
 
 Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high` ... form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
 
-[Solution](https://k5kc.com/cs/problems/wiggle-sort-linked-list) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/wiggle-sort-linked-list/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 257 (Easy)
 
@@ -4062,7 +4062,7 @@ This problem was asked by WhatsApp.
 
 Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given `[3, 7, 5, 6, 9]`, you should return `(1, 3)`.
 
-[Solution](https://k5kc.com/cs/problems/shortest-unsorted-continuous-subarray) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/shortest-unsorted-continuous-subarray/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 258 (Easy)
 
@@ -4084,7 +4084,7 @@ For example, given the following tree:
 
 You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
-[Solution](https://k5kc.com/cs/problems/binary-tree-traversal-zigzag-level-order-traversal) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/binary-tree-traversal-zigzag-level-order-traversal/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 259 (Hard)
 
@@ -4102,7 +4102,7 @@ Given a dictionary of words, determine the letters the first player should start
 
 For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be `b`.
 
-[Solution](https://k5kc.com/cs/problems/ghost-word-game-winning-strategy) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/ghost-word-game-winning-strategy/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 260 (Medium)
 
@@ -4110,7 +4110,7 @@ This problem was asked by Pinterest.
 
 The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given `[None, +, +, -, +]`, you could return `[1, 2, 3, 0, 4]`.
 
-[Solution](https://k5kc.com/cs/problems/reconstruct-jumbled-sequence) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reconstruct-jumbled-sequence/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 261 (Easy)
 
@@ -4134,7 +4134,7 @@ With this encoding, `cats` would be represented as `0000110111`.
 
 Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
 
-[Solution](https://k5kc.com/cs/problems/huffman-tree-character-encoding) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/huffman-tree-character-encoding/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 262 (Medium)
 
@@ -4142,7 +4142,7 @@ This problem was asked by Mozilla.
 
 A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
 
-[Solution](https://k5kc.com/cs/problems/critical-connections-in-a-network) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/critical-connections-in-a-network/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 263 (Medium)
 
@@ -4157,7 +4157,7 @@ We can consider a sentence valid if it conforms to the following rules:
 3. There must be a single space between each word.
 4. The sentence must end with a terminal mark immediately following a word.
 
-[Solution](https://k5kc.com/cs/problems/sentence-validation-stream-processor) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sentence-validation-stream-processor/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 264 (Hard)
 
@@ -4169,7 +4169,7 @@ For example, suppose `C = {0, 1}` and `k = 3`. Then our sequence should contain 
 
 Create an algorithm that finds a De Bruijn sequence.
 
-[Solution](https://k5kc.com/cs/problems/de-bruijn-sequence) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/de-bruijn-sequence/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 265 (Easy)
 
@@ -4181,7 +4181,7 @@ Given an array representing a line of seats of employees at MegaCorp, determine 
 
 For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4, 2, 1]`.
 
-[Solution](https://k5kc.com/cs/problems/candy-distribution) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/candy-distribution/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 266 (Easy)
 
@@ -4191,7 +4191,7 @@ A step word is formed by taking a given word, adding a letter, and anagramming t
 
 Given a dictionary of words and an input word, create a function that returns all valid step words.
 
-[Solution](https://k5kc.com/cs/problems/step-word-anagram-generator) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/step-word-anagram-generator/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 267 (Hard)
 
@@ -4216,7 +4216,7 @@ For example, given the following matrix:
 
 You should return `True`, since the bishop is attacking the king diagonally.
 
-[Solution](https://k5kc.com/cs/problems/determine-if-a-chess-king-is-in-check) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/determine-if-a-chess-king-is-in-check/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 268 (Medium)
 
@@ -4224,7 +4224,7 @@ This problem was asked by Indeed.
 
 Given a 32-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
 
-[Solution](https://k5kc.com/cs/problems/power-of-four) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/power-of-four/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 269 (Easy)
 
@@ -4242,7 +4242,7 @@ For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
 
 Given the string `..R...L.L`, you should return `..RR.LLLL`.
 
-[Solution](https://k5kc.com/cs/problems/push-dominoes) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/push-dominoes/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 270 (Medium)
 
@@ -4268,7 +4268,7 @@ edges = [
 
 You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` will take that much time.
 
-[Solution](https://k5kc.com/cs/problems/network-delay-time) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/network-delay-time/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 271 (Hard)
 
@@ -4278,7 +4278,7 @@ Given a sorted list of integers of length `N`, determine if an element `x` is in
 
 Do this in `O(log N)` time.
 
-[Solution](https://k5kc.com/cs/problems/binary-search-without-multiplication-division-and-bit-shift-operations) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/binary-search-without-multiplication-division-and-bit-shift-operations/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 272 (Medium)
 
@@ -4288,7 +4288,7 @@ Write a function, `throw_dice(N, faces, total)`, that determines how many ways i
 
 For example, `throw_dice(3, 6, 7)` should equal `15`.
 
-[Solution](https://k5kc.com/cs/problems/number-of-dice-rolls-with-target-sum) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/number-of-dice-rolls-with-target-sum/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 273 (Easy)
 
@@ -4298,7 +4298,7 @@ A fixed point in an array is an element whose value is equal to its index. Given
 
 For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
 
-[Solution](https://k5kc.com/cs/problems/find-fixed-point-in-sorted-array/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-fixed-point-in-sorted-array//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 274 (Hard)
 
@@ -4310,7 +4310,7 @@ Don't use eval or a similar built-in parser.
 
 For example, given `'-1 + (2 + 3)'`, you should return `4`.
 
-[Solution](https://k5kc.com/cs/problems/basic-calculator-1/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/basic-calculator-1//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 275 (Medium)
 
@@ -4330,7 +4330,7 @@ As an example, the fourth term is `1211`, since the third term consists of one `
 
 Given an integer `N`, print the `Nth` term of this sequence.
 
-[Solution](https://k5kc.com/cs/problems/count-and-say-sequence) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/count-and-say-sequence/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 276 (Hard)
 
@@ -4342,7 +4342,7 @@ That is, given a string of length `N` and a pattern of length `k`, write a progr
 
 If the pattern is found, return the start index of its location. If not, return `False`.
 
-[Solution](https://k5kc.com/cs/problems/find-the-index-of-the-first-occurrence-in-a-string) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-the-index-of-the-first-occurrence-in-a-string/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 277 (Easy)
 
@@ -4367,7 +4367,7 @@ Visually, this can be represented as follows.
 
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
 
-[Solution](https://k5kc.com/cs/problems/utf-8-validation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/utf-8-validation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 278 (Easy)
 
@@ -4375,7 +4375,7 @@ This problem was asked by Amazon.
 
 Given an integer `N`, construct all possible binary search trees with `N` nodes.
 
-[Solution](https://k5kc.com/cs/problems/unique-bsts-2-generate) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/unique-bsts-2-generate/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 279 (Easy)
 
@@ -4399,7 +4399,7 @@ Each student can be placed in a friend group, which can be defined as the transi
 
 Given a friendship list such as the one above, determine the number of friend groups in the class.
 
-[Solution](https://k5kc.com/cs/problems/number-of-provinces) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/number-of-provinces/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 280 (Easy)
 
@@ -4407,7 +4407,7 @@ This problem was asked by Pandora.
 
 Given an undirected graph, determine if it contains a cycle.
 
-[Solution](https://k5kc.com/cs/problems/detect-cycle-in-undirected-graph) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/detect-cycle-in-undirected-graph/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 281 (Medium)
 
@@ -4430,7 +4430,7 @@ The best we can we do here is to draw a line after the eighth brick, which will 
 
 Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
 
-[Solution](https://k5kc.com/cs/problems/brick-wall) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/brick-wall/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 282 (Easy)
 
@@ -4438,7 +4438,7 @@ This problem was asked by Netflix.
 
 Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a^2 + b^2 = c^2`.
 
-[Solution](https://k5kc.com/cs/problems/pythagorean-triplet-detection) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/pythagorean-triplet-detection/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 283 (Easy)
 
@@ -4450,7 +4450,7 @@ These numbers have had many applications, from helping ancient Babylonians keep 
 
 Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
 
-[Solution](https://k5kc.com/cs/problems/generate-nth-ugly-number) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/generate-nth-ugly-number/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 284 (Medium)
 
@@ -4468,7 +4468,7 @@ Two nodes in a binary tree can be called cousins if they are on the same level o
 
 Given a binary tree and a particular node, find all cousins of that node.
 
-[Solution](https://k5kc.com/cs/problems/cousins-in-binary-tree) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/cousins-in-binary-tree/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 285 (Medium)
 
@@ -4480,7 +4480,7 @@ For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since 
 
 Can you do this using just one forward pass through the array?
 
-[Solution](https://k5kc.com/cs/problems/buildings-with-sunset-view/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/buildings-with-sunset-view//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 286 (Hard)
 
@@ -4504,7 +4504,7 @@ For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5
 
 As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
 
-[Solution](https://k5kc.com/cs/problems/skyline-problem) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/skyline-problem/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 287 (Medium)
 
@@ -4524,7 +4524,7 @@ For example, suppose `k = 1`, and the list of tuples is:
 
 Then a reasonable similarity metric would most likely conclude that `a` and `e` are the most similar, so your program should return `[('a', 'e')]`.
 
-[Solution](https://k5kc.com/cs/problems/website-similarity-analysis) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/website-similarity-analysis/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 288 (Medium)
 
@@ -4543,7 +4543,7 @@ For example, this algorithm terminates in three steps when starting from `1234`:
 
 Write a function that returns how many steps this will take for a given input `N`.
 
-[Solution](https://k5kc.com/cs/problems/kaprekar-s-constant-calculator) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/kaprekar-s-constant-calculator/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 289 (Hard)
 
@@ -4564,7 +4564,7 @@ In other words, to start, the first player takes three items from pile `B`. The 
 
 Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
 
-[Solution](https://k5kc.com/cs/problems/game-of-nim) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/game-of-nim/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 290 (Easy)
 
@@ -4586,7 +4586,7 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 ['R']                     |
 ```
 
-[Solution](https://k5kc.com/cs/problems/qux-color-transformation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/qux-color-transformation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 291 (Medium)
 
@@ -4596,7 +4596,7 @@ An imminent hurricane threatens the coastal town of Codeville. If at most two pe
 
 For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
 
-[Solution](https://k5kc.com/cs/problems/boats-to-save-people) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/boats-to-save-people/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 292 (Hard)
 
@@ -4632,7 +4632,7 @@ students = {
 }
 ```
 
-[Solution](https://k5kc.com/cs/problems/dodgeball-team-division) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/dodgeball-team-division/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 293 (Hard)
 
@@ -4644,7 +4644,7 @@ You can change the height of any stone by paying a cost of `1` unit to lower its
 
 For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay `2` to create `[0, 1, 2, 3, 2, 1]`.
 
-[Solution](https://k5kc.com/cs/problems/stone-pyramid-construction) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/stone-pyramid-construction/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 294 (Medium)
 
@@ -4672,7 +4672,7 @@ paths = {
 
 In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distance of `28`.
 
-[Solution](https://k5kc.com/cs/problems/shortest-uphill-downhill-route-for-a-competitive-runner/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/shortest-uphill-downhill-route-for-a-competitive-runner//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 295 (Medium)
 
@@ -4697,7 +4697,7 @@ Given an input `k`, return the `k``th` row of Pascal's triangle.
 
 Bonus: Can you do this using only `O(k)` space?
 
-[Solution](https://k5kc.com/cs/problems/pascal-s-triangle-1-generate-first-n-rows/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/pascal-s-triangle-1-generate-first-n-rows//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 296 (Hard)
 
@@ -4705,7 +4705,7 @@ This problem was asked by Etsy.
 
 Given a sorted array, convert it into a height-balanced binary search tree.
 
-[Solution](https://k5kc.com/cs/problems/convert-sorted-array-to-height-balanced-binary-search-tree) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/convert-sorted-array-to-height-balanced-binary-search-tree/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 297 (Medium)
 
@@ -4727,7 +4727,7 @@ A lazy bartender working at this bar is trying to reduce his effort by limiting 
 
 For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy everyone.
 
-[Solution](https://k5kc.com/cs/problems/lazy-bartender-minimising-memorised-drink-recipes) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/lazy-bartender-minimising-memorised-drink-recipes/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 298 (Easy)
 
@@ -4739,7 +4739,7 @@ Given an input describing the types of apples she will pass on her path, in orde
 
 For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion will involve types `1` and `3`, with a length of four.
 
-[Solution](https://k5kc.com/cs/problems/fruit-into-baskets) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/fruit-into-baskets/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 299 (Medium)
 
@@ -4766,7 +4766,7 @@ pipes = {
 }
 ```
 
-[Solution](https://k5kc.com/cs/problems/water-plant-infrastructure-optimization) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/water-plant-infrastructure-optimization/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 300 (Easy)
 
@@ -4774,7 +4774,7 @@ This problem was asked by Uber.
 
 On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top `3` candidates at any given time. If you find a voter voting more than once, report this as fraud.
 
-[Solution](https://k5kc.com/cs/problems/election-voting-machine-monitor) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/election-voting-machine-monitor/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 ### Problems 301 - 350
 
@@ -4789,7 +4789,7 @@ Implement a data structure which carries out the following operations without re
 
 The `check` method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
 
-[Solution](https://k5kc.com/cs/problems/bloom-filter-implementation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/bloom-filter-implementation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 302 (Medium)
 
@@ -4807,7 +4807,7 @@ For example, suppose the input for a three-by-six grid is the following:
 
 Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
 
-[Solution](https://k5kc.com/cs/problems/regions-cut-by-slashes) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/regions-cut-by-slashes/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 303 (Easy)
 
@@ -4817,7 +4817,7 @@ Given a clock time in `hh:mm` format, determine, to the nearest degree, the angl
 
 Bonus: When, during the course of a day, will the angle be zero?
 
-[Solution](https://k5kc.com/cs/problems/angle-between-hands-of-a-clock) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/angle-between-hands-of-a-clock/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 304 (Hard)
 
@@ -4827,7 +4827,7 @@ A knight is placed on a given square on an `8 x 8` chessboard. It is then moved 
 
 After `k` moves, what is the probability that the knight remains on the board?
 
-[Solution](https://k5kc.com/cs/problems/knight-probability-in-chessboard) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/knight-probability-in-chessboard/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 305 (Easy)
 
@@ -4837,7 +4837,7 @@ Given a linked list, remove all consecutive nodes that sum to zero. Print out th
 
 For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
 
-[Solution](https://k5kc.com/cs/problems/remove-zero-sum-consecutive-nodes-from-linked-list) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/remove-zero-sum-consecutive-nodes-from-linked-list/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 306 (Medium)
 
@@ -4847,7 +4847,7 @@ You are given a list of `N` numbers, in which each number is located at most `k`
 
 Come up with an algorithm that sorts this list in `O(N log k)` time.
 
-[Solution](https://k5kc.com/cs/problems/sort-a-nearly-sorted-k-sorted-array) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sort-a-nearly-sorted-k-sorted-array/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 307 (Easy)
 
@@ -4857,7 +4857,7 @@ Given a binary search tree, find the floor and ceiling of a given integer. The f
 
 If either value does not exist, return None.
 
-[Solution](https://k5kc.com/cs/problems/bst-floor-and-ceiling) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/bst-floor-and-ceiling/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 308 (Hard)
 
@@ -4872,7 +4872,7 @@ Determine the number of ways to group the array elements using parentheses so th
 
 For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T) & T` and `F | (T & T)`.
 
-[Solution](https://k5kc.com/cs/problems/boolean-parenthesization-problem) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/boolean-parenthesization-problem/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 309 (Medium)
 
@@ -4884,7 +4884,7 @@ For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]
 
 Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
 
-[Solution](https://k5kc.com/cs/problems/minimize-cost-to-remove-gaps-between-people) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimize-cost-to-remove-gaps-between-people/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 310 (Easy)
 
@@ -4892,7 +4892,7 @@ This problem was asked by Pivotal.
 
 Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
 
-[Solution](https://k5kc.com/cs/problems/counting-bits) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/counting-bits/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 311 (Easy)
 
@@ -4902,7 +4902,7 @@ Given a array that's sorted but rotated at some unknown pivot, in which all elem
 
 An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
 
-[Solution](https://k5kc.com/cs/problems/find-peak-in-rotated-sorted-array) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-peak-in-rotated-sorted-array/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 312 (Easy)
 
@@ -4922,7 +4922,7 @@ A B C C
 
 Given an integer `N`, determine in how many ways this task is possible.
 
-[Solution](https://k5kc.com/cs/problems/domino-and-tromino-tiling) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/domino-and-tromino-tiling/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 313 (Hard)
 
@@ -4934,7 +4934,7 @@ In addition, the lock has a certain number of "dead ends", meaning that if you t
 
 Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to `000`, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or `None` if this is impossible.
 
-[Solution](https://k5kc.com/cs/problems/open-the-lock) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/open-the-lock/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 314 (Medium)
 
@@ -4946,7 +4946,7 @@ Given a list of `N` listeners, and a list of `M` radio towers, each placed at va
 
 For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
 
-[Solution](https://k5kc.com/cs/problems/minimum-radio-tower-broadcast-range) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimum-radio-tower-broadcast-range/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 315 (Easy)
 
@@ -4965,7 +4965,7 @@ Here is an example:
 
 Write a program to determine whether a given input is a Toeplitz matrix.
 
-[Solution](https://k5kc.com/cs/problems/toeplitz-matrix) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/toeplitz-matrix/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 316 (Medium)
 
@@ -4975,7 +4975,7 @@ You are given an array of length `N`, where each element `i` represents the numb
 
 Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value `2`, `3`, and `4`.
 
-[Solution](https://k5kc.com/cs/problems/find-coin-denominations-from-change-count) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-coin-denominations-from-change-count/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 317 (Medium)
 
@@ -4983,7 +4983,7 @@ This problem was asked by Yahoo.
 
 Write a function that returns the bitwise `AND` of all integers between `M` and `N`, inclusive.
 
-[Solution](https://k5kc.com/cs/problems/bitwise-and-of-numbers-range) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/bitwise-and-of-numbers-range/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 318 (Hard)
 
@@ -4993,7 +4993,7 @@ You are going on a road trip, and would like to create a suitable music playlist
 
 Given `N`, `M`, and `B`, determine the number of valid playlists.
 
-[Solution](https://k5kc.com/cs/problems/number-of-music-playlists) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/number-of-music-playlists/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 319 (Hard)
 
@@ -5003,7 +5003,7 @@ An 8-puzzle is a game played on a `3 x 3` board of tiles, with the ninth tile mi
 
 Design a class to represent the board, and find a series of steps to bring the board to the state `[[1, 2, 3], [4, 5, 6], [7, 8, None]]`.
 
-[Solution](https://k5kc.com/cs/problems/design-sliding-8-puzzle-solver) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/design-sliding-8-puzzle-solver/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 320 (Medium)
 
@@ -5013,7 +5013,7 @@ Given a string, find the length of the smallest window that contains every disti
 
 For example, given "jiujitsu", you should return `5`, corresponding to the final five letters.
 
-[Solution](https://k5kc.com/cs/problems/minimum-window-substring) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimum-window-substring/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 321 (Easy)
 
@@ -5028,7 +5028,7 @@ There are two kinds of permitted steps:
 
 For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
 
-[Solution](https://k5kc.com/cs/problems/minimum-steps-to-reduce-number-to-1/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimum-steps-to-reduce-number-to-1//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 322 (Medium)
 
@@ -5040,7 +5040,7 @@ On the `ith` jump, you may move exactly `i` places to the left or right.
 
 Find a path with the fewest number of jumps required to get from `0` to `N`.
 
-[Solution](https://k5kc.com/cs/problems/reach-a-number) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reach-a-number/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 323 (Medium)
 
@@ -5050,7 +5050,7 @@ Create an algorithm to efficiently compute the approximate median of a list of n
 
 More precisely, given an unordered list of `N` numbers, find an element whose rank is between `N / 4` and `3 * N / 4`, with a high level of certainty, in less than `O(N)` time.
 
-[Solution](https://k5kc.com/cs/problems/approximate-median-in-sub-linear-time) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/approximate-median-in-sub-linear-time/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 324 (Easy)
 
@@ -5062,7 +5062,7 @@ Each move consists of moving one mouse one unit to the left or right, and only o
 
 For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
 
-[Solution](https://k5kc.com/cs/problems/minimize-maximum-mouse-distance-to-holes) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimize-maximum-mouse-distance-to-holes/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 325 (Easy)
 
@@ -5072,7 +5072,7 @@ The United States uses the imperial system of weights and measures, which means 
 
 Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
 
-[Solution](https://k5kc.com/cs/problems/efficient-conversion-between-imperial-distance-units) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/efficient-conversion-between-imperial-distance-units/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 326 (Hard)
 
@@ -5094,7 +5094,7 @@ For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree 
 
 Given a sequence `S`, construct the corresponding Cartesian tree.
 
-[Solution](https://k5kc.com/cs/problems/construct-cartesian-tree-from-sequence) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/construct-cartesian-tree-from-sequence/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 327 (Easy)
 
@@ -5104,7 +5104,7 @@ Write a program to merge two binary trees. Each node in the new tree should hold
 
 If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
 
-[Solution](https://k5kc.com/cs/problems/merge-two-binary-trees) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/merge-two-binary-trees/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 328 (Medium)
 
@@ -5116,7 +5116,7 @@ A simplified description of the Elo system is as follows. Every player begins at
 
 Implement this system.
 
-[Solution](https://k5kc.com/cs/problems/implement-elo-rating-system) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/implement-elo-rating-system/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 329 (Hard)
 
@@ -5143,7 +5143,7 @@ gal_preferences = {
 
 Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
 
-[Solution](https://k5kc.com/cs/problems/stable-marriage-problem) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/stable-marriage-problem/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 330 (Hard)
 
@@ -5163,7 +5163,7 @@ This type of formula, with `AND` statements joining tuples containing exactly on
 
 Given a `2-CNF` formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
 
-[Solution](https://k5kc.com/cs/problems/solving-2-sat-problem) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/solving-2-sat-problem/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 331 (Medium)
 
@@ -5173,7 +5173,7 @@ You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy
 
 Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
 
-[Solution](https://k5kc.com/cs/problems/minimum-flips-to-separate-x-and-y) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/minimum-flips-to-separate-x-and-y/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 332 (Easy)
 
@@ -5184,7 +5184,7 @@ Given integers `M` and `N`, write a program that counts how many positive intege
 - `a + b = M`
 - `a XOR b = N`
 
-[Solution](https://k5kc.com/cs/problems/count-pairs-with-given-sum-and-xor) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/count-pairs-with-given-sum-and-xor/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 333 (Medium)
 
@@ -5194,7 +5194,7 @@ At a party, there is a single person who everyone knows, but who does not know a
 
 Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
 
-[Solution](https://k5kc.com/cs/problems/find-the-celebrity/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-the-celebrity//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 334 (Easy)
 
@@ -5206,7 +5206,7 @@ For example, given the input `[5, 2, 7, 8]`, you should return True, since `(5 *
 
 Write a function that plays the `24` game.
 
-[Solution](https://k5kc.com/cs/problems/24-game) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/24-game/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 335 (Hard)
 
@@ -5224,7 +5224,7 @@ Here, `Sx, Sy, ..., Sz` denote the scores of all the other sites that have outgo
 
 Given a directed graph of links between various websites, write a program that calculates each site's page rank.
 
-[Solution](https://k5kc.com/cs/problems/pagerank-algorithm-implementation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/pagerank-algorithm-implementation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 336 (Medium)
 
@@ -5240,7 +5240,7 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 1   2  2   1
 ```
 
-[Solution](https://k5kc.com/cs/problems/count-distinct-max-heap-arrangements) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/count-distinct-max-heap-arrangements/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 337 (Hard)
 
@@ -5248,7 +5248,7 @@ This problem was asked by Apple.
 
 Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
 
-[Solution](https://k5kc.com/cs/problems/uniformly-shuffle-linked-list-nodes) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/uniformly-shuffle-linked-list-nodes/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 338 (Medium)
 
@@ -5256,7 +5256,7 @@ This problem was asked by Facebook.
 
 Given an integer `n`, find the next biggest integer with the same number of `1`-bits on. For example, given the number `6` (`0110` in binary), return `9` (`1001`).
 
-[Solution](https://k5kc.com/cs/problems/next-bigger-integer-with-same-number-of-1-bits) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/next-bigger-integer-with-same-number-of-1-bits/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 339 (Easy)
 
@@ -5264,7 +5264,7 @@ This problem was asked by Microsoft.
 
 Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return true as `20 + 4 + 25 = 49`.
 
-[Solution](https://k5kc.com/cs/problems/3sum-classic) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/3sum-classic/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 340 (Easy)
 
@@ -5272,7 +5272,7 @@ This problem was asked by Google.
 
 Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
 
-[Solution](https://k5kc.com/cs/problems/closest-pair-of-points) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/closest-pair-of-points/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 341 (Easy)
 
@@ -5303,7 +5303,7 @@ and matrix:
 
 Your function should return 3, since we can make the words 'eat', 'in', and 'rat' without them touching each other. We could have alternatively made 'eat' and 'rain', but that would be incorrect since that's only 2 words.
 
-[Solution](https://k5kc.com/cs/problems/maximum-word-packing-on-board) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-word-packing-on-board/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 342 (Medium)
 
@@ -5323,7 +5323,7 @@ This should call `add` on the initial value with the first element of the array,
 
 Implement your own version of `reduce`.
 
-[Solution](https://k5kc.com/cs/problems/array-reduce-transformation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/array-reduce-transformation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 343 (Medium)
 
@@ -5343,7 +5343,7 @@ For example, given the following tree:
 
 and the range `[4, 9]`, return `23` (5 + 4 + 6 + 8).
 
-[Solution](https://k5kc.com/cs/problems/range-sum-of-bst) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/range-sum-of-bst/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 344 (Hard)
 
@@ -5367,7 +5367,7 @@ In this case, removing the edge `(3, 4)` satisfies our requirement.
 
 Write a function that returns the _maximum_ number of edges you can remove while still satisfying this requirement.
 
-[Solution](https://k5kc.com/cs/problems/maximum-edge-removal-for-even-subtrees) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-edge-removal-for-even-subtrees/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 345 (Medium)
 
@@ -5384,7 +5384,7 @@ Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: 
 
 Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
 
-[Solution](https://k5kc.com/cs/problems/sentence-similarity) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sentence-similarity/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 346 (Medium)
 
@@ -5410,7 +5410,7 @@ For example, our traveler wants to go from `JFK` to `LAX` with up to `3` connect
 
 Due to some improbably low flight prices, the cheapest itinerary would be `JFK -> ATL -> ORD -> LAX`, costing $440.
 
-[Solution](https://k5kc.com/cs/problems/cheapest-flights-within-k-stops/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/cheapest-flights-within-k-stops//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 347 (Easy)
 
@@ -5422,7 +5422,7 @@ Write a program to determine the lexicographically smallest string that can be c
 
 For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
 
-[Solution](https://k5kc.com/cs/problems/lexicographically-smallest-string-with-k-position-moves) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/lexicographically-smallest-string-with-k-position-moves/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 348 (Easy)
 
@@ -5450,7 +5450,7 @@ For instance, since `code` is the first word inserted in the tree, and `cob` lex
 
 Implement insertion and search functions for a ternary search tree.
 
-[Solution](https://k5kc.com/cs/problems/ternary-search-tree-implementation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/ternary-search-tree-implementation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 349 (Hard)
 
@@ -5478,7 +5478,7 @@ Using this scheme, `Jackson` and `Jaxen` both map to `J250`.
 
 Implement Soundex.
 
-[Solution](https://k5kc.com/cs/problems/soundex-algorithm-implementation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/soundex-algorithm-implementation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 350 (Medium)
 
@@ -5492,7 +5492,7 @@ Here are a few examples:
 - Given `N = 17`, return `2` `(16 + 1)`
 - Given `N = 18`, return `2` `(9 + 9)`
 
-[Solution](https://k5kc.com/cs/problems/least-number-of-perfect-squares-that-sums-to-n/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/least-number-of-perfect-squares-that-sums-to-n//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 ### Problems 351 - 400
 
@@ -5514,7 +5514,7 @@ Suppose you are given a list of meanings for several words, formatted like so:
 
 Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
 
-[Solution](https://k5kc.com/cs/problems/word-sense-disambiguation-algorithm) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/word-sense-disambiguation-algorithm/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 352 (Easy)
 
@@ -5529,7 +5529,7 @@ A typical American-style crossword puzzle grid is an `N x N` matrix with black a
 
 Write a program to determine whether a given matrix qualifies as a crossword grid.
 
-[Solution](https://k5kc.com/cs/problems/validate-americn-style-crossword-grid) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/validate-americn-style-crossword-grid/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 353 (Medium)
 
@@ -5547,7 +5547,7 @@ x x x x
 
 Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
 
-[Solution](https://k5kc.com/cs/problems/largest-rectangle-in-histogram) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/largest-rectangle-in-histogram/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 354 (Hard)
 
@@ -5564,7 +5564,7 @@ Some questions you may want to consider as part of your solution are:
 - How will you deal with your client machines being blacklisted?
 - How can you update your database when Wikipedia pages are added or updated?
 
-[Solution](https://k5kc.com/cs/problems/distributed-wikipedia-crawler-system-design) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/distributed-wikipedia-crawler-system-design/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 355 (Hard)
 
@@ -5579,7 +5579,7 @@ Write an algorithm that finds an appropriate `Y` array with the following proper
 
 For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do better than `[1, 2, 5]`, which has an absolute difference of `|1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1`.
 
-[Solution](https://k5kc.com/cs/problems/optimal-array-rounding-with-sum-preservation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/optimal-array-rounding-with-sum-preservation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 356 (Hard)
 
@@ -5589,7 +5589,7 @@ Implement a queue using a set of fixed-length arrays.
 
 The queue should support `enqueue`, `dequeue`, and `get_size` operations.
 
-[Solution](https://k5kc.com/cs/problems/queue-using-set-of-fixed-length-arrays) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/queue-using-set-of-fixed-length-arrays/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 357 (Hard)
 
@@ -5607,7 +5607,7 @@ Here are a few examples:
 
 Given this representation, determine the depth of the tree.
 
-[Solution](https://k5kc.com/cs/problems/binary-tree-depth-from-parenthesized-string-representation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/binary-tree-depth-from-parenthesized-string-representation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 358 (Hard)
 
@@ -5620,7 +5620,7 @@ Create a data structure that performs all the following operations in `O(1)` tim
 - `get_max`: Return a key with the highest value.
 - `get_min`: Return a key with the lowest value.
 
-[Solution](https://k5kc.com/cs/problems/all-o-one-data-structure) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/all-o-one-data-structure/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 359 (Easy)
 
@@ -5632,7 +5632,7 @@ For example, the input could be 'niesevehrtfeev', which is an anagram of 'threef
 
 Given this string, return the original integers in sorted order. In the example above, this would be `357`.
 
-[Solution](https://k5kc.com/cs/problems/reconstruct-numbers-from-anagrammed-string) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reconstruct-numbers-from-anagrammed-string/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 360 (Medium)
 
@@ -5644,7 +5644,7 @@ Given a set of these ranked lists, interleave them to create a playlist that sat
 
 For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
 
-[Solution](https://k5kc.com/cs/problems/interleave-ranked-song-lists-for-playlist) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/interleave-ranked-song-lists-for-playlist/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 361 (Medium)
 
@@ -5668,7 +5668,7 @@ However, it is impossible for any key to result in the following scores, so in t
 {123456: 4, 345678: 4, 567890: 4}
 ```
 
-[Solution](https://k5kc.com/cs/problems/determining-the-existence-of-a-valid-secret-code-in-mastermind-based-on-given-guesses-and-scores) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/determining-the-existence-of-a-valid-secret-code-in-mastermind-based-on-given-guesses-and-scores/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 362 (Easy)
 
@@ -5678,7 +5678,7 @@ A strobogrammatic number is a positive number that appears the same after being 
 
 Create a program that finds all strobogrammatic numbers with `N` digits.
 
-[Solution](https://k5kc.com/cs/problems/strobogrammatic-number-2-generate-for-length-n/) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/strobogrammatic-number-2-generate-for-length-n//?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 363 (Medium)
 
@@ -5690,7 +5690,7 @@ add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
 add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 ```
 
-[Solution](https://k5kc.com/cs/problems/alternating-add-subtract-curried-function) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/alternating-add-subtract-curried-function/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 364 (Medium)
 
@@ -5698,7 +5698,7 @@ This problem was asked by Facebook.
 
 Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
 
-[Solution](https://k5kc.com/cs/problems/longest-increasing-subsequence-lis) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/longest-increasing-subsequence-lis/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 365 (Hard)
 
@@ -5712,7 +5712,7 @@ A quack is a data structure combining properties of both stacks and queues. It c
 
 Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
 
-[Solution](https://k5kc.com/cs/problems/implement-quack-data-structure-with-three-stacks) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/implement-quack-data-structure-with-three-stacks/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 366 (Medium)
 
@@ -5722,7 +5722,7 @@ Given a string s, rearrange the characters so that any two adjacent characters a
 
 For example, if s = yyz then return yzy. If s = yyy then return null.
 
-[Solution](https://k5kc.com/cs/problems/reorganize-string) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/reorganize-string/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 367 (Medium)
 
@@ -5753,7 +5753,7 @@ for num in merge_iterators(foo, bar):
 
 Bonus: Make it work without pulling in the contents of the iterators in memory.
 
-[Solution](https://k5kc.com/cs/problems/merge-two-sorted-iterators) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/merge-two-sorted-iterators/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 368 (Hard)
 
@@ -5774,7 +5774,7 @@ kv.update(2, 1)
 
 And then called `kv.max_key(1)`, it should return `2`, since it's the largest key with value `1`.
 
-[Solution](https://k5kc.com/cs/problems/key-value-store-with-max-key-query) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/key-value-store-with-max-key-query/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 369 (Medium)
 
@@ -5784,7 +5784,7 @@ You’re tracking stock price at a given instance of time. Implement an API with
 
 Also, provide max(), min(), and average() functions that give the max/min/average of all values seen thus far.
 
-[Solution](https://k5kc.com/cs/problems/stock-price-fluctuation) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/stock-price-fluctuation/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 370 (Easy)
 
@@ -5811,7 +5811,7 @@ For example, if the input is the following:
 
 The total active time would be 1260 seconds.
 
-[Solution](https://k5kc.com/cs/problems/calculate-courier-active-time-from-event-logs) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/calculate-courier-active-time-from-event-logs/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 371 (Hard)
 
@@ -5835,7 +5835,7 @@ The equations use addition only and are separated by newlines. Return a mapping 
 }
 ```
 
-[Solution](https://k5kc.com/cs/problems/solve-system-of-linear-addition-equations) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/solve-system-of-linear-addition-equations/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 372 (Easy)
 
@@ -5845,7 +5845,7 @@ Write a function that takes a natural number as input and returns the number of 
 
 Constraint: don't use any loops.
 
-[Solution](https://k5kc.com/cs/problems/count-digits-without-loops) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/count-digits-without-loops/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 373 (Hard)
 
@@ -5855,7 +5855,7 @@ Given a list of integers L, find the maximum length of a sequence of consecutive
 
 For example, given `L = [5, 2, 99, 3, 4, 1, 100]`, return 5 as we can build a sequence `[1, 2, 3, 4, 5]` which has length 5.
 
-[Solution](https://k5kc.com/cs/problems/longest-consecutive-sequence) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/longest-consecutive-sequence/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 374 (Hard)
 
@@ -5865,7 +5865,7 @@ Given a sorted array `arr` of distinct integers, return the lowest index `i` for
 
 For example, given the array `[-5, -3, 2, 3]`, return `2` since `arr[2] == 2`. Even though `arr[3] == 3`, we return 2 since it's the lowest index.
 
-[Solution](https://k5kc.com/cs/problems/find-fixed-point-in-sorted-array) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-fixed-point-in-sorted-array/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 375 (Medium)
 
@@ -5885,7 +5885,7 @@ For example, if the array was:
 
 This means the researcher has 5 papers with 4, 1, 0, 2, and 3 citations respectively. The h-index for this researcher is 2, since they have 2 papers with at least 2 citations and the remaining 3 papers have no more than 2 citations.
 
-[Solution](https://k5kc.com/cs/problems/h-index) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/h-index/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 376 (Easy)
 
@@ -5916,7 +5916,7 @@ Our position: (0, 2)
 Coins: [(#### Problem 0, 4), (1, 0), (2, 0), (3, 2)]
 ```
 
-[Solution](https://k5kc.com/cs/problems/find-closest-coin-by-manhattan-distance) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-closest-coin-by-manhattan-distance/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 377 (Hard)
 
@@ -5943,7 +5943,7 @@ Your function should print out the following:
 
 Recall that the median of an even-sized list is the average of the two middle numbers.
 
-[Solution](https://k5kc.com/cs/problems/sliding-window-median) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sliding-window-median/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 378 (Medium)
 
@@ -5963,7 +5963,7 @@ You should return the following, as a string:
 '[null, 123, ["a", "b"], {"c": "d"}]'
 ```
 
-[Solution](https://k5kc.com/cs/problems/convert-object-to-json-string) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/convert-object-to-json-string/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 379 (Easy)
 
@@ -5985,7 +5985,7 @@ xyz
 
 Note that `zx` is not a valid subsequence since it is not in the order of the given string.
 
-[Solution](https://k5kc.com/cs/problems/subsets-1) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/subsets-1/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 380 (Medium)
 
@@ -5997,7 +5997,7 @@ For example, calling `divide(10, 3)` should return `(3, 1)` since the divisor is
 
 Bonus: Can you do it in O(log n) time?
 
-[Solution](https://k5kc.com/cs/problems/divide-two-integers) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/divide-two-integers/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 381 (Easy)
 
@@ -6019,7 +6019,7 @@ should produce:
 3q2+7w==
 ```
 
-[Solution](https://k5kc.com/cs/problems/convert-hex-string-to-base64) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/convert-hex-string-to-base64/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 382 (Easy)
 
@@ -6041,7 +6041,7 @@ should produce:
 deadbeef
 ```
 
-[Solution](https://k5kc.com/cs/problems/decode-base64-string-to-hex) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/decode-base64-string-to-hex/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 383 (Medium)
 
@@ -6055,7 +6055,7 @@ For example, given `s = abcdefg` and `lst = ["bc", "ef"]`, return the string `ab
 
 Given `s = abcdefg` and `lst = ["bcd", "def"]`, return the string `abcdefg`, since they overlap.
 
-[Solution](https://k5kc.com/cs/problems/add-bold-tag-in-string) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/add-bold-tag-in-string/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 384 (Hard)
 
@@ -6067,7 +6067,7 @@ For example, given an array of `[1, 5, 10]` and an amount `56`, return `7` since
 
 Given an array of `[5, 8]` and an amount `15`, return `3` since we can use 5 5-cent coins.
 
-[Solution](https://k5kc.com/cs/problems/coin-change-with-fewest-number-of-coins-given-infinite-supply) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/coin-change-with-fewest-number-of-coins-given-infinite-supply/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 385 (Medium)
 
@@ -6087,7 +6087,7 @@ You should be able to decrypt it and get:
 Hello world from Daily Coding Problem
 ```
 
-[Solution](https://k5kc.com/cs/problems/decrypt-xor-encoded-hexadecimal-string) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/decrypt-xor-encoded-hexadecimal-string/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 386 (Easy)
 
@@ -6097,7 +6097,7 @@ Given a string, sort it in decreasing order based on the frequency of characters
 
 For example, given the string `tweet`, return `tteew`. `eettw` would also be acceptable.
 
-[Solution](https://k5kc.com/cs/problems/sort-characters-by-frequency) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/sort-characters-by-frequency/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 387 (Medium)
 
@@ -6105,7 +6105,7 @@ This problem was recently asked by Amazon.
 
 How would you explain the difference between an API and SDK to a non-technical person?
 
-[Solution](https://k5kc.com/cs/problems/explaining-api-vs-sdk-to-non-technical-person) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/explaining-api-vs-sdk-to-non-technical-person/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 388 (Medium)
 
@@ -6113,7 +6113,7 @@ This problem was asked by Airtable.
 
 How would you explain web cookies to someone non-technical?
 
-[Solution](https://k5kc.com/cs/problems/explaining-web-cookies-to-non-technical-person) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/explaining-web-cookies-to-non-technical-person/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 389 (Hard)
 
@@ -6121,7 +6121,7 @@ This problem was asked by Google.
 
 Explain the difference between composition and inheritance. In which cases would you use each?
 
-[Solution](https://k5kc.com/cs/problems/oop-inheritance-vs-composition) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/oop-inheritance-vs-composition/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 390 (Medium)
 
@@ -6129,7 +6129,7 @@ This problem was asked by Two Sigma.
 
 You are given an unsorted list of 999,000 unique integers, each from 1 and 1,000,000. Find the missing 1000 numbers. What is the computational and space complexity of your solution?
 
-[Solution](https://k5kc.com/cs/problems/find-missing-1000-numbers-in-large-range) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-missing-1000-numbers-in-large-range/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 391 (Hard)
 
@@ -6152,7 +6152,7 @@ You should return the following:
 ['/login', '/user', '/one']
 ```
 
-[Solution](https://k5kc.com/cs/problems/maximum-length-of-repeated-subarray) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/maximum-length-of-repeated-subarray/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 392 (Hard)
 
@@ -6177,7 +6177,7 @@ For example, given the following matrix:
 
 Return `14`.
 
-[Solution](https://k5kc.com/cs/problems/island-perimeter) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/island-perimeter/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 393 (Medium)
 
@@ -6187,7 +6187,7 @@ Given an array of integers, return the largest range, inclusive, of integers tha
 
 For example, given the array `[9, 6, 1, 3, 8, 10, 12, 11]`, return `(8, 12)` since 8, 9, 10, 11, and 12 are all in the array.
 
-[Solution](https://k5kc.com/cs/problems/find-largest-consecutive-integer-range-in-array) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-largest-consecutive-integer-range-in-array/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 394 (Easy)
 
@@ -6207,7 +6207,7 @@ For example, given `k = 18` and the following binary tree:
 
 Return `True` since the path `8 -> 4 -> 6` sums to 18.
 
-[Solution](https://k5kc.com/cs/problems/path-sum-1-check-if-root-to-leaf-path-exists) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/path-sum-1-check-if-root-to-leaf-path-exists/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 395 (Medium)
 
@@ -6229,7 +6229,7 @@ Return:
  ['now']]
 ```
 
-[Solution](https://k5kc.com/cs/problems/group-anagrams) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/group-anagrams/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 396 (Hard)
 
@@ -6247,7 +6247,7 @@ Return 7, since the longest palindromic subsequence in the string is `APTMTPA`. 
 
 Your algorithm should run in O(n^2) time and space.
 
-[Solution](https://k5kc.com/cs/problems/longest-palindromic-subsequence-1-get-length) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/longest-palindromic-subsequence-1-get-length/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 397 (Medium)
 
@@ -6276,7 +6276,7 @@ Return:
 (8, 11)]
 ```
 
-[Solution](https://k5kc.com/cs/problems/find-largest-subset-of-compatible-jobs) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/find-largest-subset-of-compatible-jobs/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 398 (Medium)
 
@@ -6288,7 +6288,7 @@ Given a linked list and an integer `k`, remove the k-th node from the end of the
 
 Do this in one pass.
 
-[Solution](https://k5kc.com/cs/problems/remove-nth-node-from-end-of-list) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/remove-nth-node-from-end-of-list/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 399 (Hard)
 
@@ -6312,7 +6312,7 @@ Return the following 3 partitions:
 
 Which each add up to 8.
 
-[Solution](https://k5kc.com/cs/problems/partition-array-into-three-parts-with-equal-sum) | [🔝 Back to top](#toc)
+[Solution](https://k5kc.com/cs/problems/partition-array-into-three-parts-with-equal-sum/?utm_source=github&utm_medium=readme&utm_campaign=daily-coding-problem) | [🔝 Back to top](#toc)
 
 #### Problem 400 Onwards
 
